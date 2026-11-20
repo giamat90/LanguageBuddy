@@ -1,7 +1,7 @@
 # CONTEXT.md — GermanBuddy Codebase State
 
 **Updated by:** whoever pushes to `main` (Giacomo or Claude), **in the same push**
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-21
 **Current version:** 1.0.20 (versionCode 20) built locally on 2026-11-20 and waiting for a manual upload to Play (contains TASK-035 to TASK-040; see Known Issues). Last version on Play: 1.0.18 (versionCode 18) released to the **Google Play production track** on 2026-11-18 by the CI release workflow; it contains TASK-030 (fix: app stuck in error after a notification tap, self-healing database handle). 1.0.17 (TASK-029, statistics drill-down) preceded it. Play held versionCodes 1, 2, 4, 9, 11–17 before this upload (read with `npm run check:play-version`). `LOCAL_FALLBACK_VERSION_CODE` in `mobile/app.config.js` is 19 for the next local build.
 
 > This file is the ground truth for what currently exists in the codebase.
@@ -163,10 +163,13 @@ Superseded (kept for history; the code no longer exists): TASK-001 … TASK-015 
 
 ## Future tasks (Product Owner, noted 2026-11-20)
 
-- [ ] Revoke the leaked Firebase Admin key in Google Cloud Console (see Known Issues). Before making the repo public: rewrite history.
+- [ ] Revoke the leaked Firebase Admin key in Google Cloud Console (see Known Issues). This repository (LanguageBuddy, public since 2026-11-21) was created with a fresh history, so the key is not in it; it still sits in the private GermanBuddy repo.
 - [ ] Upload `Bundles/app-release-v1.0.20-20.aab` (supersedes 1.0.19, never uploaded) to the Play Console (or re-run `release-android.yml` after fixing GitHub billing).
 - [ ] Check the Play Data safety form is consistent with the privacy policy (Firebase installation ID, text-to-speech).
 - [ ] Fix GitHub billing / spending limit so CI and the release workflow run again.
+
+## Multilingual family (LanguageBuddy, planned 2026-11-21)
+Public monorepo `giamat90/LanguageBuddy` (Apache-2.0); one codebase builds one app bundle per target language (GermanBuddy now; SpanishBuddy, FrenchBuddy, ItalianBuddy later). Task numbering continues from GermanBuddy. Plan: TASK-041 `LanguagePack` (spec ready, `tasks/TASK-041.md`), 042 neutral bank schema and pack-driven bank, 043 templated UI strings, 044-046 Spanish pack/bank/content review, 047 app variants and build scripts, 048 store and legal, 049 QA. Decisions still open (Product Owner): Spanish variety (Spain or Latin America), audience languages, v1 scope (A1-B1 or all levels), app name. The German app keeps `com.giamat90.germanbuddy` until TASK-047.
 
 ## Known Issues / Tech Debt
 - **Leaked Firebase Admin key in git history (found 2026-11-20, gitleaks + manual scan):** `germanbuddy-firebase-adminsdk-fbsvc-61cc8230ce.json` was committed in `2cac1f90` (2026-05-05) and removed from tracking in `fa980dfb`, but it is still readable in history. Firebase was removed in TASK-016, so the key should be revoked in Google Cloud Console (IAM & Admin, Service accounts, Keys) by the Product Owner. The repo is private; before ever making it public, rewrite the history (also drops the personal e-mail in the commit authors). The Play service-account key and the release keystore were never committed. gitleaks 8.30.1 is installed locally through winget (`gitleaks git . --log-opts=--all --redact`).

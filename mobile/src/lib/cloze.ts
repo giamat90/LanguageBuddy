@@ -1,0 +1,73 @@
+import type { TypedResult } from './exercises/quality';
+
+export const LETTERS = /([A-Za-zÄÖÜäöüß]+)/;
+
+export interface Cloze {
+  /** Sentence parts around the blank. */
+  before: string;
+  after: string;
+}
+
+/** Blanks the first whole-word occurrence of `word` in `sentence`, or null if absent. */
+export function buildCloze(sentence: string | null | undefined, word: string): Cloze | null {
+  if (!sentence) return null;
+  const target = word.toLowerCase();
+  const parts = sentence.split(LETTERS);
+  // Odd indexes are the captured letter runs.
+  for (let i = 1; i < parts.length; i += 2) {
+    if (parts[i].toLowerCase() === target) {
+      return { before: parts.slice(0, i).join(''), after: parts.slice(i + 1).join('') };
+    }
+  }
+  return null;
+}
+
+function normalize(s: string): string {
+  return s
+    .trim()
+    .toLowerCase()
+    .replace(/ß/g, 'ss')
+    .replace(/ä/g, 'a')
+    .replace(/ö/g, 'o')
+    .replace(/ü/g, 'u');
+}
+
+function editDistance(a: string, b: string): number {
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) {
+      cur[j] = Math.min(
+        prev[j] + 1,
+        cur[j - 1] + 1,
+        prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+    }
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+/**
+ * Grades a typed answer against the target word.
+ *  - exact: same word, ignoring case and surrounding space (umlauts and ß must match)
+ *  - close: matches once umlauts/ß are folded, or one typo on a word of 5+ letters
+ *  - wrong: anything else, including empty input
+ */
+export function gradeTypedAnswer(answer: string, word: string): TypedResult {
+  // NFC so a decomposed "ü" (u + combining diaeresis) from a paste compares equal.
+  const typed = answer.normalize('NFC').trim();
+  const target = word.normalize('NFC');
+  if (!typed) return 'wrong';
+  if (typed.toLowerCase() === target.toLowerCase()) return 'exact';
+
+  const a = normalize(typed);
+  const w = normalize(target);
+  if (a === w) return 'close';
+  return w.length >= 5 && editDistance(a, w) <= 1 ? 'close' : 'wrong';
+}
+
+/** True for exact and close answers. */
+export function isAnswerCorrect(answer: string, word: string): boolean {
+  return gradeTypedAnswer(answer, word) !== 'wrong';
+}

@@ -1,0 +1,365 @@
+B1	Heimweh	memleket özlemi, evini özleme	İki ay sonra çok yoğun bir ev özlemi çekmeye başladı.	Fernweh'in ('uzaklara özlem') tersi olan Heimweh, kelimesi kelimesine 'ev acısı', Alman'ın seyahat etme ve bir yere ait olma arzusu arasındaki gerilimini yansıtır.
+B1	dürfen	izinli olmak, -ebilmek (izin)	Burada sigara içebilir miyim?	İngilizce 'can'in aksine Almanca'da yetenek (können), izin (dürfen) ve toplumsal yükümlülük (sollen) için ayrı kip fiilleri vardır.
+B1	wegen	yüzünden, nedeniyle	Yağmur yüzünden evde kalıyoruz.	'Wegen' teknik olarak tamlayan hâlini alır, ama konuşmada giderek daha çok yönelme hâliyle kullanılır: dilbilimciler buna 'Genitiverosion' (tamlayan hâlinin aşınması) der.
+B1	seit	-den beri, -dir (süre)	Üç yıldır Almanca öğreniyorum.	'Seit' her zaman yönelme hâlini alır ve hâlâ süren eylemler için şimdiki zamanla eşleşir — İngilizce 'for' ile aynı mantık.
+B1	obwohl	-diği hâlde, -mesine rağmen	Yağmur yağsa da yürüyüşe çıkıyoruz.	'Obwohl' fiili yan cümlenin sonuna gönderir: Verbendstellung kuralı, Almanca'nın eylemden önce tüm bağlamı ortaya koyma tercihini yansıtır.
+B1	Stimmung	ruh hâli, atmosfer, hava	Şenlikteki hava mükemmeldi.	Stimmung, 'Stimme'den (ses, akort) gelir: aslen akortlu bir enstrümanı, sonra bir grubun ortak duygusal tonunu anlatmıştır.
+B1	aufhören	durmak, bırakmak	O sigarayı bıraktı.	Perfekt'te ayrılabilir fiiller önek ile kök arasına 'ge-' ekler: 'aufgehört'.
+B1	Mitbringsel	küçük hediye, hatıra	Ailem için Berlin'den küçük bir hediye getiriyorum.	Bir geziden ya da birinin evini ziyaret ederken bir Mitbringsel getirmek Almanya'da güçlü bir toplumsal normdur.
+B1	verschreiben	reçete etmek, yazmak (ilaç)	Doktor bana bir ilaç yazdı.	Reçeteler Almanya'da sıkı biçimde düzenlenmiştir: başka yerlerde tezgâh üstü satılan birçok ilaç burada 'Rezept' gerektirir.
+B1	Feierabend	mesai bitimi, paydos	Paydostan sonra arkadaşlarla buluşuyorum.	Kelimesi kelimesine 'kutlama akşamı' olan Feierabend, iş gününün sonunun onurlandırmaya değer bir an olduğu Alman fikrini yansıtır.
+B1	sich freuen	sevinmek, sabırsızlıkla beklemek	Hafta sonunu sabırsızlıkla bekliyorum.	'Sich freuen auf' geleceğe, 'sich freuen über' şimdiye veya geçmişe bakar — iki zaman dilimi için iki edat.
+B1	trotzdem	yine de, buna rağmen	Geç olmuştu, yine de yürüyüşe çıktık.	Cümle başında 'trotzdem' ilk öğe sayılır ve özneyi fiilin arkasına iter: fiil-ikinci kuralı.
+B1	beantragen	başvurmak (resmî), talep etmek	Yeni bir kimlik için başvurmam gerekiyor.	Almanya'da resmî hemen her şey bir formla 'beantragt' edilir: fiil anında bürokrasiyi çağrıştırır.
+B1	Ausland	yurtdışı	O bir yıl yurtdışında yaşadı.	'Ins Ausland gehen' ve 'im Ausland leben' artikel kullanır: Almanca'da 'yurtdışı' dilbilgisel olarak tanımlı bir yerdir.
+B1	sich beschweren	şikâyet etmek	O gürültüden şikâyet etti.	Almanya'da resmî yazılı şikâyet ('Beschwerde') nezaketsizlik değil, meşru bir hak sayılır.
+B1	Gewohnheit	alışkanlık	Erken kalkmak bende bir alışkanlık hâline geldi.	'-heit' eki, '-keit' ve '-ung' gibi dişil soyut isimler yapar: 'gewohnt' → 'Gewohnheit'.
+B1	damit	-sin diye, amacıyla	Unutmayayım diye yazıyorum.	Bağlaç olarak 'damit' fiili sona gönderir; zarf olarak ('bununla') göndermez — aynı sözcük, iki davranış.
+B1	erledigen	halletmek, tamamlamak	Hâlâ halletmem gereken birkaç iş var.	'Alles erledigt' ('hepsi halledildi') Almanca'da neredeyse tatmin edici bir ifadedir: yapılacaklar listesi adeta kültürel bir türdür.
+B1	Vorschlag	öneri, teklif	Hafta sonu için bir önerim var.	Alman toplantılarında her 'Vorschlag' önce sakince tartılır: tartışmadan karar vermek acele sayılır.
+B1	gemütlich	rahat, sıcak (ortam)	Evde rahat, keyifli bir akşam geçirdik.	'Gemütlich' yalnızca sıcak bir yeri değil, aceleci olmayan bir temponun da anlatır: 'mach's dir gemütlich' 'rahatına bak' demektir.
+B1	Umzug	taşınma, nakil	Yeni daireye taşınmak yorucuydu.	Almanya'da arkadaşlar taşınmaya sık sık yardım eder ve pizza ile bira ile ödüllendirilir — şaka yollu 'bira ile ödenmek' denir.
+B1	empfehlen	tavsiye etmek	Bana iyi bir restoran önerebilir misiniz?	'Empfehlen' kişi için yönelme hâlini, şey için belirtme hâlini alır: 'ich empfehle dir das Buch' (sana kitabı öneriyorum).
+B1	während	-dikçe, sırasında	Ben yemek yaparken sen sofrayı kur.	'Während' hem bir bağlaçtır (fiil sonda) hem de tamlayan hâlli bir edattır ('während des Essens') — gerçek bir dilbilgisel joker.
+B1	Erfahrung	deneyim, tecrübe	Bu alanda çok tecrübesi var.	Alman özgeçmişlerinde 'Berufserfahrung' ters kronolojik sırayla, ay kesinliğinde tarihlerle listelenir.
+B1	sich entscheiden	karar vermek	Mavi paltoya karar verdim.	'Sich entscheiden für' yapılan seçimi, 'sich entscheiden zu' karar verilen eylemi belirtir — edat anlamı değiştirir.
+B1	Nachricht	mesaj, haber	Sana bir mesaj gönderdim.	Çoğulda 'die Nachrichten' TV haberleri demektir: akşam 8'deki 'Tagesschau' Avrupa'nın en eski ve en çok izlenen haber bültenidir.
+B1	unbedingt	mutlaka, kesinlikle	Bu müzeyi mutlaka ziyaret etmelisin.	'Unbedingt' kelimesi kelimesine 'koşulsuz' demektir: 'unbedingt' ile verilen tavsiye neredeyse dostça bir emirdir.
+B1	sparen	biriktirmek, tasarruf etmek	Büyük bir seyahat için para biriktiriyoruz.	Alman hanehalkı tasarruf oranı Avrupa'nın en yükselerinden biridir: 'Sparbuch' (tasarruf defteri) birçok kişi için bir çocukluk ritüelidir.
+B1	Verspätung	gecikme	Tren yirmi dakika gecikmeli.	60 dakikadan fazla gecikmede Deutsche Bahn biletin bir kısmını iade eder: 'Fahrgastrechte' (yolcu hakları) talepleri neredeyse ulusal bir spordur.
+B1	sich vorstellen	hayal etmek, kendini tanıtmak	Viyana'da yaşamayı rahatlıkla hayal edebiliyorum.	Yönelme hâliyle ('sich etwas vorstellen') hayal etmek, belirtme hâliyle ('sich vorstellen') kendini tanıtmak demektir. Hâl her şeyi değiştirir.
+B1	weil	çünkü	Hasta olduğum için evde kalıyorum.	'Weil' fiili yan cümlenin sonuna gönderir; 'obwohl' ve 'dass' ile aynı kural.
+B1	dass	ki, -diğini	Yarın yağmur yağacağını düşünüyorum.	'Dass' nesne cümlelerini başlatır ve çekimli fiili her zaman cümlenin sonuna gönderir.
+B1	wenn	eğer, her ... -diğinde	Yağmur yağarsa evde kalırız.	'Wenn' hem varsayımsal koşullar hem zaman içinde tekrarlanan eylemler için kullanılır; tek bir geçmiş olay için kullanılan 'als'ın aksine.
+B1	als	-diğinde (tek geçmiş olay)	Küçükken Roma'da yaşıyordum.	'Als' yalnızca geçmişte tek bir olay için kullanılır, alışkanlık eylemleri için asla; onlar için 'wenn' kullanılır.
+B1	bevor	-meden önce	Gitmeden önce odanı topla.	'Bevor', tüm Almanca yan bağlaçları gibi fiili yan cümlenin sonuna gönderir.
+B1	nachdem	-dikten sonra	Yemek yedikten sonra yürüyüşe çıktık.	'Nachdem', eylemi ana cümleden önce gelen yan cümlede çoğu zaman Plusquamperfekt gerektirir.
+B1	sobald	-er etmez, -ir -mez	Varır varmaz seni arayacağım.	'Sobald' hemen ardından gelen bir eylemi başlatır; çoğu zaman sözler veya somut planlar için kullanılır.
+B1	falls	-se, olur da -ise	Yağmur yağarsa şemsiye alırız.	'Falls', 'wenn'den daha varsayımsaldır: daha az kesin bir olasılığı, neredeyse bir önlemi akla getirir.
+B1	sodass	öyle ki, dolayısıyla	Yorgundu, bu yüzden erken yattı.	'Sodass' bir sonuç getirir; kasıtlı bir amaç getiren 'damit'in aksine.
+B1	ob	-ip -mediğini	Gelip gelmediğini bilmiyorum.	'Ob' dolaylı soruları başlatır ve bu bağlamda asla kullanılmayan 'wenn'den farklıdır.
+B1	indem	-erek	Çok okuyarak Almanca öğrendi.	'Indem' bir sonucun elde edildiği aracı anlatır — daha resmî kayıtlara özgü bir yapı.
+B1	obgleich	-se de (resmî)	Geç olmasına rağmen çalışmaya devam etti.	'Obgleich', 'obwohl'un daha resmî, edebî bir çeşididir ve çoğunlukla yazıda kullanılır.
+B1	je ... desto	ne kadar ... o kadar	Ne kadar çok çalışırsam o kadar iyi anlıyorum.	'Je ... desto' her iki cümlede de karşılaştırma derecesini alır ve orta seviye Almanca'nın daha zarif yapılarından biridir.
+B1	dürfte	muhtemelen, olsa gerek (Konj. II)	Bu muhtemelen doğrudur.	'dürfen'in Konjunktiv II'si, doğrudan bildirme kipinden daha temkinli, kibar bir varsayımı ifade eder.
+B1	könnte	-ebilirdi, olabilir (Konj. II)	Bu bir sorun olabilir.	'können'in Konjunktiv II'si, bildirme kipi 'kann'dan daha belirsiz, varsayımsal bir olasılığı ifade eder.
+B1	müsste	-meli, -mesi gerekirdi (Konj. II)	Yakında burada olması gerek.	'müssen'in Konjunktiv II'si, bildirme kipi 'muss' gibi doğrudan bir zorunluluk değil, mantıksal bir beklentiyi ifade eder.
+B1	sollte	-meli (Konj. II)	Daha çok uyumalısın.	'sollen'in Konjunktiv II'si Almanca'da tavsiye vermenin standart biçimidir ve bildirme kipi 'sollst'tan çok daha yaygındır.
+B1	möchte	istemek (nazik, Konj. II)	Bir kahve istiyorum, lütfen.	'Möchte', 'mögen'in Konjunktiv II'sidir; nazik rica için her gün kullanılır, neredeyse başlı başına bir fiil gibi.
+B1	doch	ama, hadi, ya (vurgu parçacığı)	Hadi bizimle gel!	'doch' gibi kip parçacıklarının sabit bir çevirisi yoktur: başka bir dilde aktarılması zor duygusal nüanslar ekler.
+B1	Erwartung	beklenti	Beklentiler yüksekti.	'Erwartung', profesyonel bağlamlarda çok yaygın ayrılmaz bir fiil olan 'erwarten'den (beklemek) gelir.
+B1	Voraussetzung	ön koşul, şart	Almanca bilgisi bir ön koşuldur.	'Voraussetzung', 'voraus' (önceden) ve 'setzen' (koymak) bileşiği olan 'voraussetzen'den (varsaymak) gelir.
+B1	Konsequenz	sonuç, tutarlılık	Bu kararın sonuçları var.	'Konsequenz' hem 'sonuç' hem (davranışta) 'tutarlılık' demektir — aynı kökten iki ayrı anlam.
+B1	Auswirkung	yansıma, etki (sonuç)	İklim değişikliğinin küresel yansımaları var.	'Auswirkung auf' belirtme hâlini alır: 'auf die Umwelt' (çevre üzerinde) — çevre söyleminde yaygın sabit bir yapı.
+B1	Ursache	kök neden, kaynak	Sorunun kaynağı belirsiz.	'Ursache' ve 'Grund' neredeyse eş anlamlıdır, ama 'Ursache' daha bilimsel ve nesnel, 'Grund' daha kişisel duyulur.
+B1	Wirkung	etki, tesir	İlaç hızlı etki gösteriyor.	'Wirkung zeigen', özellikle tıbbi ve bilimsel bağlamlarda kullanılan standart sabit eşdizimdir.
+B1	Faktor	etken, faktör	Zaman önemli bir faktördür.	'Faktor', uluslararası paylaşılan öğrenilmiş bir Latince ödünç sözcük olarak birçok dilde neredeyse aynıdır.
+B1	Aspekt	yön, açı	Bu ilginç bir yön.	'Aspekt', çoğunlukla resmî analizde ve tartışmada kullanılır; 'Seite'den (taraf) biraz daha yüksek bir kayıttır.
+B1	Standpunkt	bakış açısı, görüş noktası	Bakış açını anlıyorum.	'Standpunkt', 'stehen' (durmak) ve 'Punkt' (nokta) sözcüklerini birleştirir: bir meseleye bakılan nokta.
+B1	Argument	argüman, savunu	Bu güçlü bir argüman.	Almanca'da 'Argument' yalnızca 'mantıksal gerekçe' demektir, asla 'kavga' değil; onun için Almanca 'Streit' kullanır.
+B1	Diskussion	tartışma (görüş alışverişi)	Uzun bir tartışma yaptık.	'Diskussion' görüş alışverişini anlatır, 'Streit' ise daha hararetli duygusal bir çatışmayı ima eder.
+B1	Debatte	münazara, siyasi tartışma	Siyasi tartışma hararetliydi.	'Debatte' Fransızca'dan bir ödünç sözcüktür ve özellikle 'Diskussion'dan daha resmî kamusal ve siyasi bağlamlarda kullanılır.
+B1	zustimmen	katılmak, onaylamak	Sana tamamen katılıyorum.	'Zustimmen', katıldığınız kişinin yönelme hâlini alır: 'dir zustimmen'.
+B1	widersprechen	itiraz etmek, karşı çıkmak	Sana itiraz etmek istemem ama...	'Widersprechen', 'wider-' önekli birçok fiil gibi, karşı çıkılan kişinin yönelme hâlini alır.
+B1	ablehnen	reddetmek	Bu öneriyi reddediyorum.	'Ablehnen' ayrılabilir: şimdiki zamanda 'lehne ab' olur, önek cümlenin sonunda ayrılır.
+B1	akzeptieren	kabul etmek	Kararını kabul ediyorum.	'Akzeptieren' edatsız doğrudan belirtme hâli nesnesi alır; artık tamamen yerleşmiş bir Latince ödünç sözcüktür.
+B1	überzeugen	ikna etmek	Onu ikna etmek zor.	'Überzeugen' ayrılabilir değildir: ayrılmaz 'über-' önekli fiiller grubuna aittir.
+B1	bezweifeln	şüphe etmek	Bunun doğru olduğundan şüpheliyim.	'Bezweifeln', yönelme hâli ve 'an' ile gelen düz 'zweifeln an'ın aksine, doğrudan belirtme hâli nesnesi veya bir 'dass' cümlesi alır.
+B1	annehmen	varsaymak, kabul etmek	Geleceğini varsayıyorum.	'Annehmen', cümle bağlamına göre hem 'bir nesneyi kabul etmek' hem 'varsaymak, tahmin etmek' demektir.
+B1	vermuten	tahmin etmek, sanmak	Bunun bir yanlış anlama olduğunu sanıyorum.	'Vermuten' burada 'annehmen' ile neredeyse eş anlamlıdır, ama biraz daha fazla belirsizlik ifade eder.
+B1	behaupten	iddia etmek	Gerçeği söylediğini iddia ediyor.	'Behaupten', konuşanın aktarılan iddianın doğruluğu hakkında çoğu zaman bir miktar kuşku taşıdığını ima eder.
+B1	betonen	vurgulamak	Bunun ne kadar önemli olduğunu vurgulamak istiyorum.	'Betonen', 'Ton'dan (ton, ses) gelir: kelimesi kelimesine bir şeye 'tonu, vurguyu koymak'.
+B1	erwähnen	anmak, değinmek	Bundan hiç söz etmedi.	'Erwähnen' edatsız doğrudan belirtme hâli nesnesi alır; konuşmaları aktarırken çok yaygın bir fiil.
+B1	zugeben	itiraf etmek, kabul etmek	Yanıldığımı kabul etmeliyim.	'Zugeben' ayrılabilirdir: şimdiki zamanda 'gebe zu' olur; bir hatayı ya da rahatsız edici bir gerçeği itiraf etmek için kullanılır.
+B1	sich irren	yanılmak	Sanırım yanılıyorsun.	'Sich irren' dönüşlüdür ve düz 'einen Fehler machen'dan (hata yapmak) daha resmîdir.
+B1	korrigieren	düzeltmek	Öğretmen ödevleri düzeltiyor.	'Korrigieren' doğrudan belirtme hâli nesnesi alır; okul ve editörlük bağlamlarında yaygın bir Latince ödünç sözcüktür.
+B1	verbessern	iyileştirmek, geliştirmek	Telaffuzumu geliştirmek istiyorum.	'Verbessern' doğrudan belirtme hâli nesnesi alır ve hem insanlar hem nesneler veya beceriler için kullanılır.
+B1	sich weiterentwickeln	gelişmeye devam etmek	Şirket sürekli gelişmeye devam ediyor.	'Sich weiterentwickeln', 'weiter' (daha öteye) ile dönüşlü 'sich entwickeln'i (gelişmek) birleştirir.
+B1	Fortbildung	meslek içi eğitim	Yazın bir meslek içi eğitim alıyorum.	'Fortbildung', 'Ausbildung'dan farklıdır: ilki zaten çalışanlar için devam eğitimi, ikincisi ilk eğitimdir.
+B1	Kompetenz	yetkinlik, beceri	Bu yetkinlik meslekte önemlidir.	'Kompetenz' belirli, tanınmış bir beceriyi anlatır; özgeçmişlerde çoğu zaman çoğul 'Kompetenzen' biçiminde kullanılır.
+B1	Verantwortung	sorumluluk	Hatanın sorumluluğunu üstleniyor.	'Verantwortung übernehmen' ('sorumluluk üstlenmek') Almanca'da standart sabit eşdizimdir.
+B1	gegenüber	karşısında, karşı	Fırın kilisenin karşısında.	'Gegenüber' yönelme hâlini alır ve ismin önüne veya arkasına gelebilir: 'der Kirche gegenüber' de aynı derecede doğrudur.
+B1	trotz	-e rağmen	Yağmura rağmen yürüyüşe çıktık.	'Trotz' teknik olarak tamlayan hâlini alır, ama konuşmada yönelme hâliyle de giderek yaygınlaşıyor.
+B1	außerhalb	dışında	O şehrin dışında yaşıyor.	'Außerhalb' tamlayan hâlini alır ve 'innerhalb'in (içinde) doğrudan karşıtıdır.
+B1	innerhalb	içinde, dâhilinde	Lütfen bir hafta içinde cevap verin.	'Innerhalb' tamlayan hâlini alır ve idari dilde ve sözleşmelerde çok yaygındır.
+B1	anstatt	yerine	Telefon etmek yerine bir e-posta yazıyor.	'Anstatt' tamlayan hâlini ya da 'zu' ile mastarı alır — iki yapı da güncel kullanımda kabul edilir.
+B1	laut	-e göre	Rapora göre fiyatlar artıyor.	'Laut' bağlama göre tamlayan veya yönelme hâlini alır ve gazetecilik diline özgüdür.
+B1	dank	sayesinde	Yardımın sayesinde başardım.	'Dank', 'laut' gibi tamlayan veya yönelme hâlini alır ve 'wegen'in aksine her zaman olumlu bir çağrışım taşır.
+B1	hinsichtlich	bakımından, hususunda	Maliyetler bakımından sorular var.	'Hinsichtlich' tamlayan hâlini alır ve daha resmî idari ya da akademik bir kayda özgüdür.
+B1	mithilfe	yardımıyla, aracılığıyla	Bir sözlük yardımıyla metni anladım.	'Mithilfe' tamlayan hâlini alır ve kullanılan bir aracı anlatmak için teknik ve akademik dilde yaygındır.
+B1	Verzeihung bitten	af dilemek	Gecikme için af diliyorum.	'Um Verzeihung bitten', düz 'sich entschuldigen'den daha resmîdir ve yazılı ya da törensel bağlamlarda kullanılır.
+B1	Beschwerde einreichen	şikâyet dilekçesi vermek	Bir şikâyet dilekçesi vermek istiyorum.	'Einreichen' ayrılabilirdir: 'reiche ein'; belgelerin ya da şikâyetlerin resmî sunumu için kullanılır.
+B1	Anspruch haben auf	hakkı olmak	Geri ödeme hakkınız var.	'Anspruch haben auf' belirtme hâlini alır ve hukuki ve sözleşme diline özgüdür.
+B1	Erstattung	geri ödeme, iade	Geri ödeme iki hafta sürüyor.	'Erstattung', özellikle sigorta ve ticari bağlamlarda kullanılan resmî bir fiil olan 'erstatten'den (geri ödemek) gelir.
+B1	Garantie	garanti	Cihazın iki yıl garantisi var.	AB genelinde yeni ürünlerde asgari yasal garanti, üreticiden bağımsız olarak iki yıldır.
+B1	Reklamation	reklamasyon, resmî itiraz	Şirket reklamasyonunuzu işleme alıyor.	'Reklamation', 'Beschwerde'den daha resmî ve tekniktir; genellikle ticari ve idari bağlamlarda kullanılır.
+B1	Behörde	resmî makam, kamu dairesi	Bu makam vizelerden sorumlu.	'Zuständig sein für' belirtme hâlini alır ve bir dairenin sorumluluk alanını belirtmenin standart yapısıdır.
+B1	Anmeldung	kayıt, ikamet kaydı	Kayıt bir hafta içinde yapılmalı.	Almanya'da nüfus dairesinde 'Anmeldung', taşındıktan sonra iki hafta içinde yasal olarak zorunludur.
+B1	Aufenthaltstitel	oturma izni	Yeni bir oturma izni için başvuruyor.	'Beantragen' ayrılabilir değildir: ayrılmaz 'be-' önekli fiiller grubuna aittir.
+B1	Staatsangehörigkeit	vatandaşlık, uyrukluk	Uyruğum İtalyan.	'Staatsangehörigkeit' karmaşık bir bileşiktir: 'Staat' (devlet) + 'angehören' (ait olmak) + '-keit' eki.
+B1	Einbürgerung	vatandaşlığa alınma	Vatandaşlığa alınma çoğu zaman yıllar sürer.	'Einbürgerung', 'Bürger'den (vatandaş) gelir; 'ein-' öneki vatandaşlığa 'girme' sürecini belirtir.
+B1	Sozialversicherung	sosyal sigorta	İşveren sosyal sigorta öder.	Almanya'nın Sozialversicherung sistemi emeklilik, işsizlik, sağlık ve kaza sigortasını tek bir çerçevede kapsar.
+B1	Arbeitslosigkeit	işsizlik	İşsizlik keskin biçimde düştü.	'Arbeitslosigkeit', soyut '-igkeit' ekiyle 'arbeitslos'tan (işsiz) gelir.
+B1	Wirtschaft	ekonomi	Alman ekonomisi yavaş büyüyor.	Almanya, nominal GSYH'ye göre dünyanın dördüncü büyük ekonomisi ve Avrupa Birliği'nin en büyüğüdür.
+B1	Inflation	enflasyon	Enflasyon hayatı daha pahalı hâle getiriyor.	'Inflation' diller arasında neredeyse aynıdır; uluslararası paylaşılan bir ekonomi terimi.
+B1	Steuer	vergi	Her yıl vergi ödüyorum.	Almanca'da 'die Steuer' (dişil) vergi, 'das Steuer' (nötr) ise 'direksiyon, dümen' demektir — aynı sözcük, farklı cinsiyet.
+B1	Finanzamt	vergi dairesi	Vergi dairesinden bir mektup aldım.	'Finanzamt', 'Finanz' ve 'Amt' (daire) sözcüklerini birleştirir: Almanya'da vergi beyannamelerini işleyen makam.
+B1	Einkommen	gelir	Geliri arttı.	'Einkommen', 'einkommen' (içeri gelmek, ulaşmak) fiilinden gelir: kelimesi kelimesine mali olarak 'içeri gelen şey'.
+B1	Ausgabe	gider, harcama	Bu ay giderlerimiz yüksek.	'Ausgabe', 'ausgeben'den (harcamak) gelir; 'Einkommen'in (gelir) doğrudan karşıtıdır.
+B1	Ersparnis	birikim, tasarruf	Birikimim tatile yetiyor.	'Ersparnis', 'ersparen'den (biriktirmek) gelir ve neredeyse her zaman çoğul 'Ersparnisse' olarak kullanılır.
+B1	Kredit	kredi	Ev için kredi çektik.	'Einen Kredit aufnehmen' ('kredi çekmek'), finansal bağlamlarda standart sabit eşdizimdir.
+B1	Schulden	borç	Çok borçları var.	'Schulden' Almanca'da her zaman çoğuldur ve 'Schuld' (suç) ile aynı kökü paylaşır: finansal bir 'kusur' olarak borç.
+B1	Budget	bütçe	Seyahat için sabit bir bütçemiz var.	'Budget', telaffuzunda sessiz Fransızca sonunu koruyan, Fransızca/İngilizce'den bir ödünç sözcüktür.
+B1	Umsatz	ciro, satış hasılatı	Ciro geçen yıl arttı.	'Umsatz', 'umsetzen'den (dolaşıma sokmak) gelir: Alman şirket muhasebesinde anahtar bir terim.
+B1	Gewinn	kâr, kazanç	Şirket bu yıl kâr ediyor.	'Gewinn' hem 'ticari kâr' hem kumardaki 'kazanç' demektir — kazanç fikrini paylaşan iki anlam.
+B1	Verlust	kayıp, zarar	Kayıp beklenmedikti.	'Verlust', 'verlieren'den (kaybetmek) gelir ve hem finansal hem de kişisel bir kayıpta olduğu gibi duygusal olarak kullanılır.
+B1	Investition	yatırım	Bu iyi bir yatırım.	'Investition' diller arasında neredeyse aynıdır; uluslararası paylaşılan Latince kökenli bir ekonomi terimi.
+B1	Absatzmarkt	satış pazarı	Satış pazarı haberlere hızlı tepki veriyor.	'Absatzmarkt', 'Absatz' (satış) ve 'Markt'ı birleştirir: arz ve talebin toplamı olarak pazar, fiziksel bir yer değil.
+B1	Konkurrenz	rekabet, rakipler	Bu sektörde rekabet güçlü.	'Konkurrenz' her zaman tekil toplu bir isimdir ve bir sektördeki tüm rakipleri ifade eder.
+B1	Branche	sektör	O BT sektöründe çalışıyor.	'Branche', Almanca telaffuzunda genizsi sonunu koruyan bir Fransızca ödünç sözcüktür.
+B1	Nachfrage	talep	Dairelere talep artıyor.	'Nachfrage' ve 'Angebot' (arz), talep ve arzın klasik ekonomik çiftidir.
+B1	Verbraucher	tüketici	Tüketicinin AB'de birçok hakkı vardır.	'Verbraucher', 'verbrauchen'den (tüketmek) gelir; AB yönetmeliklerinde kullanılan standart hukuki terimdir.
+B1	Produkt	ürün	Bu ürün çok popüler.	'Produkt' diller arasında neredeyse aynıdır; ticari dilde yaygın birçok Latince ödünç sözcükten biri.
+B1	Herstellung	üretim, imalat	Üretim birkaç hafta sürüyor.	'Herstellung', endüstriyel bağlamlarda yaygın ayrılabilir bir fiil olan 'herstellen'den (üretmek) gelir.
+B1	Lieferung	teslimat, sevkiyat	Teslimat yarın geliyor.	'Lieferung', e-ticarette çok sık kullanılan 'liefern'den (teslim etmek) gelir.
+B1	Bestellung	sipariş (satın alma)	Siparişim henüz gelmedi.	'Bestellung', 'bestellen'den (sipariş vermek) gelir; hem restoran siparişleri hem çevrimiçi alışverişler için kullanılır.
+B1	Führerschein	ehliyet, sürücü belgesi	Ehliyetimi on sekiz yaşında aldım.	Almanya'da ehliyet almak, zorunlu dersler ve sınavlar arasında çoğu zaman 2.000 euroyu aşan, kötü şöhretli biçimde pahalı bir iştir.
+B1	Fahrschule	sürücü kursu	O sürücü kursunda ders alıyor.	Almanya'da hem pratik hem teorik direksiyon dersleri zorunludur ve oldukça sıkıdır.
+B1	Unfall	kaza	Neyse ki kaza olmadı.	'Zum Glück' ('neyse ki'), rahatlama ifade etmek için en yaygın başlangıç ifadelerinden biridir.
+B1	Reifen	lastik (araba)	Lastik patlak.	'Platt', patlak ya da inmiş bir lastiği anlatan çok özel bir konuşma dili sıfatıdır.
+B1	Tankstelle	benzin istasyonu	Bir sonraki benzin istasyonu beş kilometre uzakta.	Birçok Alman otoyolunda akaryakıt fiyatları bir istasyondan diğerine çok değişir — karşılaştırmaya değer.
+B1	tanken	yakıt doldurmak	Hâlâ yakıt doldurmamız gerekiyor.	'Tanken', yakıt türünü belirtirken doğrudan belirtme hâli nesnesi alır: 'Diesel tanken' (dizel doldurmak).
+B1	Verkehrszeichen	trafik işareti	Bu trafik işaretini bilmiyorum.	'Verkehrszeichen', 'Verkehr' (trafik) ve 'Zeichen' (işaret) sözcüklerini birleştirir: teknik dile özgü saydam bir bileşik.
+B1	überholen	sollamak, geçmek	Burada sollamak yasak.	'Überholen' ayrılabilir değildir: ayrılmaz 'über-' önekli fiiller grubuna aittir.
+B1	bremsen	fren yapmak	Aniden fren yapmak zorunda kaldı.	'Bremsen' düzenlidir ve ilgili isim 'Bremse' (fren) ile aynı kökü paylaşır.
+B1	Geschwindigkeit	hız	Burada hız sınırlı.	Alman Autobahn'ının birçok kesiminde hız sınırı yoktur, ama normal yollarda şehir içi 50 km/s sınırı sıkı biçimde uygulanır.
+B1	Bußgeld	para cezası	Yüklü bir para cezası ödemek zorunda kaldı.	'Bußgeld', 'Buße' (kefaret, ceza) ve 'Geld' (para) sözcüklerini birleştirir: kelimesi kelimesine 'kefaret olarak para'.
+B1	Gebrauchtwagen	ikinci el araba	İkinci el bir araba alıyoruz.	'Gebrauchtwagen', 'gebraucht' (kullanılmış, 'gebrauchen'in geçmiş ortacı) artı 'Wagen' (araba) sözcüklerinden gelir.
+B1	Software	yazılım	Bu yazılım ücretsiz.	'Software', İngilizce'de dilbilgisel cinsiyet olmamasına rağmen 'die Ware' (mal) ile benzetmeyle Almanca'da dişil kalır.
+B1	Datei	dosya (bilgisayar)	Dosyayı kaydettim.	'Datei', İngilizce bilgisayar terimi 'file' için özellikle 1970'lerde icat edilmiş bir Almanca sözcüktür.
+B1	speichern	kaydetmek (dosya)	Belgeyi kaydetmeyi unutma.	'Speichern', 'Speicher'den (depo, bellek) gelir: kelimesi kelimesine veriyi belleğe 'depolamak'.
+B1	löschen	silmek, söndürmek	Dosyayı yanlışlıkla sildim.	'Löschen' hem 'veriyi silmek' hem 'yangını söndürmek' demektir — ortak fikir 'yok etmek'.
+B1	herunterladen	indirmek	Uygulamayı şu an indiriyorum.	'Herunterladen' ayrılabilir: şimdiki zamanda 'lade herunter' olur, uzun önek cümlenin sonunda ayrılır.
+B1	hochladen	yüklemek	Fotoğrafları buluta yüklüyorum.	'Hochladen', 'herunterladen'in tam karşıtıdır ve 'herunter-' (aşağı) yerine 'hoch-' (yukarı) önekiyle oluşur.
+B1	Passwort	şifre, parola	Şifremi unuttum.	'Passwort', İngilizce'den kısmi bir kalıp çeviridir; 'Pass' ödünç sözcüğünü Almanca 'Wort' (sözcük) ile birleştirir.
+B1	Benutzername	kullanıcı adı	Kullanıcı adınızı girin.	'Eingeben' ayrılabilir ve 'girmek, yazmak' demektir; dijital arayüzlerde sık kullanılır.
+B1	Datenschutz	veri koruma, gizlilik	Veri koruma Almanya'da çok önemlidir.	Almanya, AB'nin GDPR'sinden önceye uzanan uzun bir hukuk geleneğiyle gizlilik konusunda Avrupa'nın en katı ülkelerindendir.
+B1	soziale Medien	sosyal medya	Sosyal medyayı az kullanırım.	'Soziale Medien' resmî Almanca çeviridir, ama birçok kişi doğrudan İngilizce ödünç sözcük 'Social Media'yı kullanır.
+B1	Netzwerk	ağ	Ağ şu anda kararsız.	'Netzwerk' hem bilgisayar ağları hem de mesleki bağlantılardan oluşan sosyal ağlar için kullanılır.
+B1	Cybersicherheit	siber güvenlik	Siber güvenlik giderek daha önemli hâle geliyor.	'Cybersicherheit', İngilizce ödünç ön ek 'Cyber-' ile Almanca 'Sicherheit' (güvenlik) sözcüğünü birleştirir.
+B1	künstliche Intelligenz	yapay zekâ	Yapay zekâ birçok mesleği değiştiriyor.	'Künstliche Intelligenz' çoğu zaman 'KI' diye kısaltılır; İngilizce 'AI' kısaltmasının Almanca karşılığıdır.
+B1	Erfindung	icat	Matbaa çığır açan bir icattı.	15. yüzyılda hareketli harfli matbaanın mucidi Johannes Gutenberg, Mainz'lı bir Almandı.
+B1	Fortschritt machen	ilerleme kaydetmek	Teknoloji hızlı ilerleme kaydediyor.	'Fortschritte machen', tek bir gelişim alanından bahsederken bile neredeyse her zaman çoğul kullanılır.
+B1	Gerät	cihaz, alet	Bu cihaz çok pratik.	'Gerät', bir ev aletinden akıllı telefona kadar her türlü cihaz için genel bir terimdir.
+B1	Bildschirm	ekran, monitör	Ekran çok küçük.	'Bildschirm', 'Bild' (görüntü) ve 'Schirm' (perde/şemsiye) sözcüklerini birleştirir: kelimesi kelimesine 'görüntü perdesi'.
+B1	Tastatur	klavye	Klavyem düzgün çalışmıyor.	'Tastatur', 'Taste'den (tuş) gelir; '-atur' eki düzenli bir öğeler kümesini belirtir.
+B1	Akku	akü, şarj edilebilir pil	Pilim neredeyse bitti.	'Akku', 'Akkumulator'ün konuşma dilindeki kısaltmasıdır ve neredeyse yalnızca gündelik konuşmada kullanılır.
+B1	aufladen	şarj etmek	Telefonumu şarj etmem gerekiyor.	'Aufladen' ayrılabilir ve şarj edilen cihaz için doğrudan belirtme hâli nesnesi alır.
+B1	Bildschirmzeit	ekran süresi	Ekran sürem azaltmaya çalışıyorum.	'Bildschirmzeit' nispeten yeni bir bileşiktir ve cihazların aşırı kullanımına duyulan artan kaygıyı yansıtır.
+B1	Wettbewerb	yarışma	O bir yarışmaya katıldı.	'Wettbewerb', 'Wette' (bahis) ve 'Bewerb' (başvuru) sözcüklerini birleştirir: kelimesi kelimesine rekabetçi bir yarışma.
+B1	Mannschaft	takım (spor)	Takımımız kazandı.	'Mannschaft' spor takımlarına özgüdür, 'Team' ise mesleki bağlamlarda daha sık kullanılır.
+B1	Meisterschaft	şampiyona	Şampiyona Ağustos'ta başlıyor.	'Meisterschaft', toplu '-schaft' ekiyle 'Meister'den (usta, şampiyon) gelir.
+B1	Trainer	antrenör	Antrenör sonuçtan memnun.	'Trainer', İngilizce'den doğrudan bir ödünç sözcüktür ama İngilizce'deki gibi sessiz değil, Almanca son 'r' ile telaffuz edilir.
+B1	Turnier	turnuva	Turnuva bir hafta sürüyor.	'Turnier', Orta Çağ şövalye müsabakalarına bağlı ortaçağ Fransızcası 'tournoi'den gelir.
+B1	Sieg	zafer, galibiyet	Bu önemli bir galibiyetti.	'Sieg', 'Siegerin' (kadın galip) ve 'siegen'in (kazanmak) köküdür; sporda çok yaygın bir sözcük ailesi.
+B1	Niederlage	yenilgi	Yenilgiden sonra takım hayal kırıklığına uğradı.	'Niederlage', 'niederlegen'den (yere koymak) gelir: kelimesi kelimesine 'yere serilme eylemi'.
+B1	Fan	hayran, taraftar	Bu grubun büyük bir hayranıyım.	'Fan', İngilizce'den doğrudan bir ödünç sözcüktür ve eril artikelle Almanca dilbilgisine tamamen yerleşmiştir.
+B1	Stadion	stadyum	Stadyum tamamen doluydu.	Dortmund'un Signal Iduna Park'ı gibi Alman futbol stadyumları Avrupa'nın en büyük ve en gürültülüleri arasındadır.
+B1	Zuschauer	seyirci	Binlerce seyirci oradaydı.	'Zuschauer', spor bağlamlarında çok yaygın ayrılabilir bir fiil olan 'zuschauen'den (izlemek) gelir.
+B1	Ausrüstung	teçhizat, donanım	Yürüyüş için yeni teçhizata ihtiyacım var.	'Ausrüstung', teknik ve spor bağlamlarında kullanılan ayrılabilir bir fiil olan 'ausrüsten'den (donatmak) gelir.
+B1	Wanderung	yürüyüş (doğa)	Yürüyüş beş saat sürdü.	Bavyera Alpleri ve Kara Orman, Avrupa'nın en ünlü yürüyüş rotalarından bazılarını sunar.
+B1	Gipfel	zirve	Zirveye gün doğarken ulaştık.	'Gipfel' mecazen de kullanılır: 'ein Gipfeltreffen', devlet başkanları arasında bir zirve toplantısıdır.
+B1	Aussicht	manzara, olasılık	Buradan manzara nefes kesici.	'Aussicht' hem 'doğal manzara' hem 'beklenti, gelecekteki olasılık' demektir; 'Zukunftsaussichten' (gelecek beklentileri) gibi.
+B1	Küchenchef	baş aşçı	Baş aşçı her yemeği tadıyor.	'Küchenchef', 'Küche' (mutfak) ve 'Chef' (patron) sözcüklerini birleştirir: bir restoranın baş aşçısı için Almanca terim.
+B1	Gericht	yemek (tabak), mahkeme	Bu yemek bir spesiyalite.	'Gericht' hem 'mutfak yemeği' hem 'mahkeme' demektir — aynı biçimden tamamen farklı iki anlam.
+B1	Zutat	malzeme (yemek)	Hangi malzemelere ihtiyacımız var?	'Zutat', 'zutun'dan (eklemek) gelir: kelimesi kelimesine bir tarife 'eklenen şey'.
+B1	Kochrezept	yemek tarifi	Yeni bir yemek tarifi denedim.	'Kochrezept', yemek tarifini belirtir ve 'Rezept'i tıbbi reçete anlamından ayırır.
+B1	braten	kızartmak, kavurmak	Sebzeleri tavada kavuruyorum.	'Braten' güçlü düzensiz bir fiildir: 'briet, gebraten'; ünlü iki kez değişir.
+B1	kochen	pişirmek, kaynatmak	Bu akşam kim yemek yapıyor?	'Kochen' hem 'genel olarak pişirmek' hem özel olarak 'kaynatmak' demektir — bağlam hangi anlamın kastedildiğini açıklar.
+B1	backen	fırında pişirmek	Hafta sonu bir pasta yapıyorum.	'Backen' Präteritum'da düzenli ya da biraz düzensiz olabilir ('backte' veya 'buk') — Almanca'da nadir bir çift biçim.
+B1	schneiden	kesmek	Soğanı ince doğra.	'Schneiden' güçlü düzensiz bir fiildir: 'schnitt, geschnitten'; e-i-i ünlü değişimiyle.
+B1	würzen	baharatlamak	Çorbayı karabiberle tatlandır.	'Würzen', 'Gewürz'den (baharat) gelir; tariflerde çok yaygın düzenli bir fiildir.
+B1	Pfeffer	karabiber	Biraz daha karabiber iyi olurdu.	Karabiber, ortaçağ Almanya'sında o kadar değerliydi ki neredeyse bir para birimi gibi kullanılırdı.
+B1	Gewürz	baharat	Bu baharatı tanımıyorum.	'Gewürz', 'würzen'den (baharatlamak) gelir; nötr isimlere özgü toplu 'ge-' önekiyle.
+B1	Vorspeise	başlangıç yemeği, meze	Başlangıç olarak çorba alacağım.	'Vorspeise', 'vor' (önce) ve 'Speise' (yemek) sözcüklerini birleştirir: kelimesi kelimesine 'önceki yemek', yani başlangıç.
+B1	Hauptgericht	ana yemek	Ana yemek olarak ne alıyorsun?	'Hauptgericht', 'Haupt' (ana) ve 'Gericht' (yemek) sözcüklerini birleştirir: öğünün merkezî yemeği.
+B1	Nachtisch	tatlı (yemek sonrası)	Tatlı olarak dondurma var.	'Nachtisch', 'nach' (sonra) ve 'Tisch' (masa) sözcüklerini birleştirir: kelimesi kelimesine 'masa sonrası', yani tatlı.
+B1	vegetarisch	vejetaryen	Restoranda birçok vejetaryen yemek var.	Almanya, vejetaryen ve vegan seçenekli restoranların Avrupa'daki en yüksek paylarından birine sahiptir.
+B1	Allergie	alerji	Fındığa alerjim var.	'Allergie gegen' her zaman belirtme hâlini alır: 'gegen Nüsse' (fındığa karşı) — tıbbi bağlamlarda yaygın sabit bir yapı.
+B1	Unverträglichkeit	intolerans, tahammülsüzlük	Onun laktoz intoleransı var.	'Unverträglichkeit', soyut '-keit' ekiyle 'unverträglich'ten (tahammül edilemez) gelir.
+B1	Diät	diyet	O sıkı bir diyet yapıyor.	'Eine Diät machen' standart sabit eşdizimdir; 'Diät' eski Yunanca 'diaita'dan (yaşam biçimi) gelir.
+B1	Kalorie	kalori	Bu pastanın çok kalorisi var.	'Kalorie', terimin uluslararası paylaşılan bilimsel kökenine rağmen Almanca'da dişil kalır.
+B1	Nahrungsmittel	gıda maddesi	Taze meyve sağlıklı bir gıda maddesidir.	'Nahrungsmittel', 'yiyecek ögesi' için resmî/teknik terimdir; genel 'Essen'den daha kesindir.
+B1	Vitamin	vitamin	Portakallar bol C vitamini içerir.	'Enthalten' ayrılabilir değildir ve her zaman doğrudan belirtme hâli nesnesi alır; beslenme bağlamlarında yaygın bir fiildir.
+B1	Ballaststoff	posa, lif	Tam tahıllı ekmekte çok lif var.	'Ballaststoff', 'Ballast' (safra) ve 'Stoff' (madde) sözcüklerini birleştirir — yararlı bir besin için ilginç bir imge.
+B1	Muskel	kas	Antrenmandan sonra kaslarım ağrıyor.	'Muskelkater' (kelimesi kelimesine 'kas akşamdan kalması'), antrenman sonrası ağrının Almanca ifadesidir.
+B1	Verletzung	yaralanma, sakatlık	Yaralanma ciddi değil.	'Verletzung', ayrılmaz 'ver-' önekli bir fiil olan 'verletzen'den (yaralamak) gelir.
+B1	Operation	ameliyat	Ameliyat başarılıydı.	'Operation' diller arasında neredeyse aynıdır; ortak uluslararası bir tıp terimi.
+B1	Krankheit	hastalık	Bu hastalık nadirdir.	'Krankheit', soyut '-heit' ekiyle 'krank'tan (hasta) gelir.
+B1	Symptom	belirti, semptom	Hangi belirtileriniz var?	'Symptom', diller arasında neredeyse aynıdır; Yunan kökenli ortak bir tıp terimi.
+B1	Erkältung	soğuk algınlığı	Hafif bir soğuk algınlığım var.	'Erkältung', 'kalt'tan (soğuk) gelir: kelimesi kelimesine soğuğa maruz kalmaya bağlı rahatsızlık.
+B1	Grippe	grip	O grip olup yatakta yatıyor.	'Mit Grippe im Bett liegen', hastalık yüzünden zorunlu istirahati anlatmanın standart ifadesidir.
+B1	Impfstoff	aşı (madde)	Aşı hızlı geliştirildi.	'Wurde entwickelt' Präteritum'da edilgendir: 'werden' artı bir ortaç, bilimsel dilde sık kullanılır.
+B1	Therapie	terapi	O psikolojik terapi görüyor.	Almanya'da psikoterapi çoğu zaman zorunlu sağlık sigortası kapsamındadır, ancak bekleme listeleri uzundur.
+B1	seelisch	ruhsal, psikolojik	Ruh sağlığı da aynı derecede önemli.	'Seelisch', 'Seele'den (ruh) gelir ve 'körperlich' (bedensel) ile karşıt olarak kullanılır.
+B1	Burnout	tükenmişlik	Birçok çalışan tükenmişlikten muzdarip.	'Leiden unter' yönelme hâlini alır: 'unter Burnout' — bir şeyin neden olduğu acıyı ifade etmenin standart yapısı.
+B1	Work-Life-Balance	iş-yaşam dengesi	İş-yaşam dengesi onun için çok önemli.	Bu İngilizce ödünç ifadenin tamamı Almanca'da değişmeden kullanılır; yaygın bir resmî çevirisi yoktur.
+B1	Auszeit	ara, mola (hayatta)	İşinden bir ara veriyor.	'Auszeit', 'aus' ve 'Zeit' sözcüklerini birleştirir: rutinden geçici olarak çıkılan bir dönem.
+B1	Achtsamkeit	farkındalık	Farkındalık strese karşı yardımcı olur.	'Achtsamkeit', 'achtsam'dan (dikkatli, özenli) gelir; modern Alman sağlıklı yaşam kültüründe giderek yaygınlaşan bir kavram.
+B1	Meditation	meditasyon	Her sabah meditasyon yapıyorum.	'Meditation' diller arasında neredeyse aynıdır; ortak bir uluslararası terim.
+B1	Schlafmangel	uykusuzluk	Uykusuzluk konsantrasyonu etkiler.	'Beeinflussen' ayrılabilir değildir: ayrılmaz 'be-' önekli fiiller grubuna aittir.
+B1	Alltag	gündelik hayat	Gündelik hayat stresli olabilir.	'Alltag', 'all-' (her) ve 'Tag' (gün) sözcüklerini birleştirir: kelimesi kelimesine 'her gün', günlük rutin.
+B1	Routine	rutin	Sabit bir sabah rutinim var.	'Routine', gündelik Almanca'ya tamamen yerleşmiş bir Fransızca ödünç sözcüktür.
+B1	Gewohnheit ändern	alışkanlığı değiştirmek	Bir alışkanlığı değiştirmek zor.	'Ändern' her zaman edatsız doğrudan belirtme hâli nesnesi alır; değişimden bahsetmek için çok yaygın bir fiildir.
+B1	Balance halten	dengeyi korumak	Bir dengeyi korumak önemlidir.	'Eine Balance halten' standart eşdizimdir; hem fiziksel hem mecazi olarak yaşam dengesi için kullanılır.
+B1	Prioritäten setzen	öncelik belirlemek	Önceliklerimi yeniden belirlemem gerekiyor.	'Prioritäten setzen', iş ve kişisel organizasyon dilinde standart sabit eşdizimdir.
+B1	sich Zeit nehmen	zaman ayırmak	Kendine zaman ayır.	'Sich Zeit nehmen für' belirtme hâlini ve dönüşlü yönelme hâli zamirini alır — karmaşık ama çok yaygın bir yapı.
+B1	Bauernhof	çiftlik	Çocuklar tatilleri çiftlikte geçiriyor.	'Auf dem Bauernhof' yönelme hâlini kullanır çünkü bir konumu, çiftliğin insanın bulunduğu bir yer olarak anlatır.
+B1	Nachhaltigkeit fördern	sürdürülebilirliği desteklemek	Şirket sürdürülebilirliği destekliyor.	'Fördern' doğrudan belirtme hâli nesnesi alır ve çoğunlukla kurumsal ve çevre bağlamlarında kullanılır.
+B1	Mülltrennung	çöp ayrıştırma	Çöp ayrıştırma Almanya'da zorunludur.	'Mülltrennung', 'Müll' ve 'Trennung' (ayırma) sözcüklerini birleştirir: renk kodlu kutularla çok ayrıntılı bir sistem.
+B1	Plastiktüte	plastik poşet	Plastik poşetler burada ekstra ücretli.	Birçok Alman süpermarketi, yeniden kullanılabilir olanları teşvik etmek için yıllardır plastik poşet için ücret alıyor.
+B1	erneuerbare Energie	yenilenebilir enerji	Almanya yenilenebilir enerjiye yoğun yatırım yapıyor.	'Erneuerbar', '-bar' (olasılık/yetenek) ekiyle 'erneuern'den (yenilemek) oluşan bir sıfattır.
+B1	Windkraft	rüzgâr enerjisi	Rüzgâr enerjisi büyük bir rol oynuyor.	'Eine Rolle spielen' ('rol oynamak') İngilizce ile neredeyse kelimesi kelimesine örtüşen bir deyimdir.
+B1	Elektroauto	elektrikli araba	Giderek daha çok insan elektrikli araba alıyor.	'Immer mehr' ('giderek daha çok'), büyüyen eğilimleri anlatmak için yaygın bir karşılaştırma yapısıdır.
+B1	Ladesäule	şarj istasyonu	Yeterince şarj istasyonu yok.	'Ladesäule', 'laden' (şarj etmek) ve 'Säule' (sütun) sözcüklerini birleştirir: elektrikli şarj istasyonları için teknik terim.
+B1	Emission	emisyon, salım	Emisyonların düşmesi gerekiyor.	'Emission' diller arasında neredeyse aynıdır; ortak uluslararası bir çevre terimi.
+B1	Treibhauseffekt	sera etkisi	Sera etkisi Dünya'yı ısıtıyor.	'Treibhauseffekt', 'Treibhaus' (sera) ve 'Effekt' sözcüklerini birleştirir; çok saydam bir bileşik.
+B1	Artenvielfalt	tür çeşitliliği, biyoçeşitlilik	Orman biyoçeşitliliği koruyor.	'Artenvielfalt', 'Art' (tür) ve 'Vielfalt' (çeşitlilik) sözcüklerini birleştirir: kelimesi kelimesine 'türlerin çeşitliliği'.
+B1	Aussterben	nesli tükenme	Birçok hayvan türünün nesli tükenme tehlikesinde.	'Vom Aussterben bedroht' sabit bir edilgen yapıdır ve çevre koruma dilinde kullanılır.
+B1	Landwirtschaft	tarım	Tarım büyük ölçüde değişiyor.	'Landwirtschaft', 'Land' (arazi) ve 'Wirtschaft' (ekonomi) sözcüklerini birleştirir: kelimesi kelimesine 'toprağın ekonomisi'.
+B1	Bio-Lebensmittel	organik gıda	Organik gıdalar çoğu zaman daha pahalı.	Alman 'Bio' organik etiketi yasal olarak düzenlenmiştir ve tüketiciler tarafından çok güvenilir bulunur.
+B1	regional einkaufen	yerel alışveriş yapmak	Giderek daha çok insan yerel ürünlerden alışveriş yapıyor.	Zarf olarak 'regional', ürünlerin nereden geldiğini anlatır; Alman yemek kültüründe güçlü yankı bulan bir konu.
+B1	Konsum	tüketim	Tüketimimiz çevreye yük bindiriyor.	'Belasten' her zaman doğrudan belirtme hâli nesnesi alır ve çoğu zaman çevre ve finans bağlamlarında kullanılır.
+B1	Verzicht	vazgeçme, feragat	Etten vazgeçmek birçok kişi için zor.	'Verzicht auf' belirtme hâlini alır: 'auf Fleisch' — bir şeylerden vazgeçmekten bahsederken yaygın sabit bir yapı.
+B1	freiwillig	gönüllü	Katılım gönüllüdür.	'Freiwillig', 'frei' (özgür) ve 'Wille' (irade) sözcüklerini birleştirir: kelimesi kelimesine 'kendi özgür iradesiyle'.
+B1	Ehrenamt	gönüllü görev	O gönüllü çalışmalarda yer alıyor.	'Ehrenamt', 'Ehre' (şeref) ve 'Amt' (görev) sözcüklerini birleştirir: para için değil, şeref için üstlenilen bir rol.
+B1	Spende	bağış	Her bağış yardımcı olur.	'Spende', hayır kampanyalarında yaygın bir fiil olan 'spenden'den (bağışlamak) gelir.
+B1	Verein	dernek, kulüp	Bir spor kulübünün üyesiyim.	Almanya'da çok güçlü bir 'Verein' kültürü vardır: spordan bahçeciliğe kadar hemen her ilgi alanı için özel bir kulüp bulunur.
+B1	Gemeinschaft	topluluk, cemaat	Topluluk birbirine yardım ediyor.	'Gemeinschaft', toplu '-schaft' ekiyle 'gemein'den (ortak) gelir ve ortak aidiyet duygusu yaratır.
+B1	Solidarität	dayanışma	Etkilenenlerle dayanışma gösteriyoruz.	'Solidarität zeigen mit' yönelme hâlini alır; kamusal bağlamlarda destek ifade etmenin standart yapısı.
+B1	Gerechtigkeit	adalet	O toplumsal adalet için mücadele ediyor.	'Kämpfen für' belirtme hâlini alır: 'für Gerechtigkeit' — yurttaşlık söyleminde çok yaygın bir yapı.
+B1	Gleichberechtigung	eşit haklar, hak eşitliği	Hak eşitliği anayasada güvence altına alınmıştır.	'Verankert', 'Anker'den (çapa) gelir: bir ilkenin sağlam biçimde yerleştiğini söylemek için denizcilik imgesi.
+B1	Vielfalt schätzen	çeşitliliğe değer vermek	Toplumumuz çeşitliliğe değer vermeli.	'Schätzen' doğrudan belirtme hâli nesnesi alır ve hem 'takdir etmek' hem 'maddi olarak değerlendirmek' demektir.
+B1	Toleranz	hoşgörü	Hoşgörü önemli bir değerdir.	'Toleranz' diller arasında neredeyse aynıdır; ortak uluslararası bir toplumsal terim.
+B1	Vorurteile abbauen	önyargıları yıkmak	Eğitim önyargıları yıkmaya yardımcı olur.	'Abbauen' ayrılabilirdir ve belirtme hâlini alır; hem önyargılar hem yıkılan fiziksel yapılar için kullanılır.
+B1	Integration	entegrasyon, uyum	Dil, entegrasyonun anahtarıdır.	'Der Schlüssel zu' ('... anahtarı'), belirleyici bir etken için çok yaygın mecazi bir ifadedir.
+B1	Herkunft	köken, geçmiş	Kökenlerinden bağımsız olarak herkes hoş geldi.	'Unabhängig von' yönelme hâlini alır: 'von ihrer Herkunft' — kapsayıcı söylemde yaygın bir yapı.
+B1	Generation	nesil	Her neslin farklı değerleri vardır.	'Generation' diller arasında neredeyse aynıdır; paylaşılan bir diğer Latince ödünç sözcük.
+B1	Werte vermitteln	değerleri aktarmak	Ebeveynler çocuklarına değerleri aktarır.	'Vermitteln', 'geben' ve 'zeigen' gibi kişi için yönelme hâlini, aktarılan şey için belirtme hâlini alır.
+B1	Erziehung	terbiye, çocuk yetiştirme	Çocukların yetiştirilmesi ortak bir görevdir.	'Erziehung' özellikle ailevi/ahlaki yetiştirmeyi anlatır; resmî eğitim olan 'Bildung'dan farklıdır.
+B1	Kindergarten	anaokulu	Oğlum anaokuluna gidiyor.	Kelimesi kelimesine 'çocuk bahçesi' olan 'Kindergarten', 1840'larda değişmeden dünyaya ihraç edilen bir Alman icadıdır.
+B1	Erzieherin	anaokulu öğretmeni (kadın)	Anaokulu öğretmeni çocuklarla sevgiyle ilgileniyor.	'Sich kümmern um' her zaman belirtme hâlini alır; bakım bağlamlarında çok yaygın bir dönüşlü yapı.
+B1	Pubertät	ergenlik	Ergenlik herkes için zor bir dönemdir.	'Pubertät' diller arasında neredeyse aynıdır; uluslararası bir tıbbi-biyolojik terim.
+B1	Jugendliche	genç, ergen	Birçok genç sosyal medyayı her gün kullanıyor.	'Jugendliche' isimleşmiş bir sıfattır: artikel alır ama düzenli bir isim gibi değil, sıfat gibi çekimlenir.
+B1	Vorbild	rol model, örnek	Annem benim en büyük rol modelim.	'Vorbild', 'vor' ve 'Bild' (görüntü) sözcüklerini birleştirir: kelimesi kelimesine örnek olarak izlenecek 'önde duran görüntü'.
+B1	Selbstbewusstsein	özgüven, öz farkındalık	Spor özgüveni güçlendirir.	'Selbstbewusstsein', 'selbst' (kendi) ve 'Bewusstsein' (bilinç) sözcüklerini birleştirir: kişinin kendinin farkında olması.
+B1	Selbstständigkeit	bağımsızlık, serbest çalışma	O mali bağımsızlığına değer veriyor.	'Selbstständigkeit' bağlama göre hem 'kişisel bağımsızlık' hem 'serbest çalışan olmak' demektir.
+B1	Herausforderung	zorluk, meydan okuma	Bu büyük bir zorluktu.	'Herausforderung', mesleki bağlamlarda çok yaygın ayrılabilir bir fiil olan 'herausfordern'den (meydan okumak) gelir.
+B1	bewältigen	üstesinden gelmek	Krizin üstesinden iyi geldik.	'Bewältigen' ayrılabilir değildir: ayrılmaz 'be-' önekli fiiller grubuna aittir.
+B1	scheitern	başarısız olmak, suya düşmek	Proje maalesef başarısız oldu.	'Scheitern' Perfekt'te 'sein' kullanır: 'ist gescheitert'; çünkü bir durum değişimini anlatır.
+B1	aufgeben	vazgeçmek, pes etmek	Bu kadar çabuk pes etme!	'Aufgeben' ayrılabilir: emir kipinde 'gib auf' olur, önek cümlenin sonunda ayrılır.
+B1	durchhalten	dayanmak, direnmek	Biraz daha dayanmamız gerekiyor.	'Durchhalten' ayrılabilir: şimdiki zamanda 'halte durch' olur, önek cümlenin sonunda ayrılır.
+B1	Wohngemeinschaft	ortak ev, paylaşımlı daire	Diğer üç öğrenciyle ortak bir evde yaşıyorum.	WG'ler (Wohngemeinschaft) Alman öğrenciler arasında son derece yaygındır ve çoğu zaman stüdyo dairesinden daha ucuzdur.
+B1	Möbliert	eşyalı	Daire tamamen eşyalı.	'Möbliert', Fransızca 'meublé'den gelir ve standart Almanca sıfat ekiyle bütünleşmiştir.
+B1	Nachmieter	devralacak kiracı, sonraki kiracı	Daire için bir sonraki kiracı arıyoruz.	Sözleşmeyi devralacak bir 'Nachmieter' bulmak, yaygın Alman uygulamasına göre çoğu zaman ayrılan kiracının sorumluluğundadır.
+B1	Umzugskarton	taşınma kolisi	Daha fazla taşınma kolisine ihtiyacımız var.	'Umzugskarton', 'Umzug' (taşınma) ve 'Karton' (koli) sözcüklerini birleştirir — çok pratik, saydam bir bileşik.
+B1	renovieren	yenilemek, tadilat yapmak	Şu anda mutfağı yeniliyoruz.	'Renovieren', Latince'den bir ödünç sözcüktür ve herhangi bir modern Almanca fiil gibi düzenli çekimlenir.
+B1	Handwerker	usta, esnaf (zanaatkâr)	Usta yarın geliyor.	Almanya'da müsait bir Handwerker bulmak, yüksek talep nedeniyle haftalarca beklemek anlamına gelebilir.
+B1	Baustelle	inşaat sahası	Sokak bir inşaat nedeniyle kapalı.	Geçmiş ortaç olarak 'gesperrt', çoğunlukla yol tabelalarında görülen resmî bir kapatmayı anlatır.
+B1	Lärm	gürültü	İnşaattan gelen gürültü beni rahatsız ediyor.	'Stören' doğrudan belirtme hâli nesnesi alır ve çoğu zaman gürültü veya rahatsızlık şikâyetleri için kullanılır.
+B1	Ruhezeit	sessizlik saati	Sessizlik saatinde yüksek sesle müzik dinlenmez.	'Ruhezeit' (genellikle 22:00-06:00 ve çoğu zaman bütün pazar) Alman apartmanlarında çok ciddiye alınır.
+B1	Hausordnung	bina kuralları, iç tüzük	Lütfen bina kurallarını okuyun.	'Hausordnung', 'Haus' ve 'Ordnung' (düzen) sözcüklerini birleştirir: her Alman apartmanında asılı olan yazılı kurallar bütünü.
+B1	Hausmeister	kapıcı, bina görevlisi	Kapıcı bahçeyle ilgileniyor.	Hausmeister, Almanya'da binadaki bakım, güvenlik ve düzenden sorumlu, saygın bir figürdür.
+B1	Zwischenmiete	alt kiralama (geçici)	Yaz için geçici bir kiralık buldum.	'Zwischenmiete', 'zwischen' (arada, geçici) ve 'Miete' (kira) sözcüklerini birleştirir: iki sözleşme arasındaki geçici kira.
+B1	Immobilienmakler	emlakçı	Emlakçı bize daireyi gösteriyor.	Almanya'da emlakçı komisyonunu çoğu zaman ev sahibi değil kiracı öder, ancak yasa değişiyor.
+B1	Grundriss	kat planı	Bana kat planını gönderebilir misin?	'Grundriss', 'Grund' (temel) ve 'Riss' (çizim) sözcüklerini birleştirir: bir dairenin temel çizimi.
+B1	Quadratmeter	metrekare	Dairenin altmış metrekare.	Almanya'da bir dairenin metrekare cinsinden büyüklüğü ilanlarda her zaman belirtilir — çok kesin bir gelenek.
+B1	Etage	kat	Üçüncü katta oturuyoruz.	'Etage' Fransızca'dan bir ödünç sözcüktür; standart Almanca'da zemin kat her zaman 'Erdgeschoss'tur, asla 'erste Etage' değil.
+B1	Erdgeschoss	zemin kat	Posta kutusu zemin katta.	Almanca'da kat sayımı sıfırdan başlar: 'Erdgeschoss' zemin kattır, 'erster Stock' zaten bir üst kattır.
+B1	Dachgeschoss	çatı katı	Çatı katının eğimli duvarları var.	Tarihî Alman binalarının Dachgeschoss'unda birçok dairenin karakteristik eğimli tavanları ve daha düşük kiraları vardır.
+B1	Klingel	kapı zili	Kapı zili çalışmıyor.	'Klingel', çalar saat veya telefon için de kullanılan 'klingeln'den (zil çalmak) gelir.
+B1	Briefkasten	posta kutusu	Lütfen posta kutusuna bak.	'Nachschauen' ayrılabilir: emir kipinde 'schau nach' olur, önek sonda ayrılır.
+B1	Vermietung	kiraya verme	Kiraya verme bir ajans üzerinden yürütülüyor.	'Laufen über', bir sürecin kanalını belirtirken 'über'den sonra belirtme hâlini alır: 'über eine Agentur laufen'.
+B1	Sozialwohnung	sosyal konut	Çok az sosyal konut var.	Sosyal konut sıkıntısı, son yıllarda Alman kentsel politikasında en çok tartışılan konulardan biri olmuştur.
+B1	Mietpreisbremse	kira freni, kira sınırlaması	Kira freni kiraları sınırlamayı amaçlıyor.	'Mietpreisbremse', birçok büyük Alman şehrinde yükselen kiraları dizginlemek için getirilen yasal bir önlemdir.
+B1	Gentrifizierung	soylulaştırma	Soylulaştırma birçok mahalleyi değiştiriyor.	Kreuzberg gibi Berlin mahalleleri, Avrupa'da soylulaştırmanın simgesel örnekleri olarak sık anılır.
+B1	Stadtviertel	semt, mahalle	Bu semt çok canlı.	'Stadtviertel', 'Stadt' (şehir) ve 'Viertel' (çeyrek, bölge) sözcüklerini birleştirir: kelimesi kelimesine 'şehrin bir çeyreği'.
+B1	Altbau	eski bina (savaş öncesi)	Eski bir binada yaşamayı tercih ederim.	'Altbau' özellikle II. Dünya Savaşı'ndan önce inşa edilmiş, çoğu zaman yüksek tavanlı ve süslü alçı işli binaları ifade eder.
+B1	Neubau	yeni bina	Yeni bina enerji verimli.	Altbau'nun aksine Neubau modern enerji standartlarını garanti eder ama çoğu zaman daha pahalıdır.
+B1	Grundstück	arsa	Şehir dışında bir arsa alıyorlar.	'Grundstück', 'Grund' (arazi) ve 'Stück' (parça) sözcüklerini birleştirir: kelimesi kelimesine 'bir arazi parçası'.
+B1	Bauplan	inşaat planı	İnşaat planı onaylanmalı.	'Genehmigt werden' edilgendir: 'werden' artı bir ortaç, resmî onaylar için tipik idari yapıdır.
+B1	Genehmigung	izin, onay	Hâlâ izni bekliyoruz.	'Warten auf' her zaman belirtme hâlini alır: 'auf die Genehmigung' — çok yaygın sabit bir yapı.
+B1	Bauamt	yapı denetim dairesi	Yapı denetim dairesi belgeleri inceliyor.	'Unterlagen' (belgeler) neredeyse her zaman çoğuldur ve bir dizi resmî belgeyi ifade eder.
+B1	Miteigentümer	ortak mal sahibi	Tüm ortak mal sahipleri kabul etmeli.	'Miteigentümer', 'mit' (ile) ve 'Eigentümer' (sahip) sözcüklerini birleştirir: bir mülkü başkalarıyla birlikte elinde bulunduran kişi.
+B1	Eigentumswohnung	mülk daire, kat mülkiyeti	Bir mülk daire satın aldılar.	Almanya'da konut sahipliği oranı, İtalya dâhil birçok diğer Avrupa ülkesinden düşüktür.
+B1	Hypothek	ipotek	Ev üzerine ipotek aldık.	'Eine Hypothek aufnehmen' standart sabit eşdizimdir; 'einen Kredit aufnehmen'a (kredi çekmek) neredeyse aynıdır.
+B1	Zins	faiz	Faiz oranları şu an düşük.	'Zins', bir kredinin genel oranından bahsederken neredeyse her zaman çoğul 'Zinsen' olarak kullanılır.
+B1	Absicherung	güvence, teminat	Sigorta bir güvence görevi görür.	'Dienen' yönelme hâlini alır: 'der Absicherung dienen'; hukuki ve finansal bağlamlarda kullanılan resmî bir fiil.
+B1	Klausel	madde, hüküm	Bu madde sözleşmede önemlidir.	'Klausel', Latince 'clausula'dan alınmış, birçok Avrupa dilinde neredeyse aynı olan hukuki bir terimdir.
+B1	Kündigungsschutz	iş güvencesi, fesih koruması	İş güvencesi altı ay sonra geçerli oluyor.	Alman Kündigungsschutz yasası, asgari bir kesintisiz çalışma süresinden sonra çalışanları güçlü biçimde korur.
+B1	Abfindung	kıdem tazminatı	O bir kıdem tazminatı aldı.	'Abfindung', 'abfinden'den (uzlaşmak, tazmin etmek) gelir; Alman iş hukukuna özgü bir terim.
+B1	Flugverspätung	uçuş gecikmesi	Uçuş gecikmesi yüzünden aktarmayı kaçırdık.	'Wegen' tamlayan hâlini ya da konuşma dilinde yönelme hâlini alır: modern konuşmada iki biçim de duyulur.
+B1	Anschlussflug	aktarmalı uçuş	Aktarmalı uçuş için sadece bir saatimiz var.	'Anschlussflug', 'Anschluss' (bağlantı) ve 'Flug' (uçuş) sözcüklerini birleştirir: ilkinin hemen ardından gelen uçuş.
+B1	Boarding	biniş (uçak)	Biniş yirmi dakika sonra başlıyor.	'Boarding', İngilizce'den doğrudan bir ödünç sözcüktür ve artık Alman havalimanlarında evrensel olarak kullanılır.
+B1	Gepäckband	bagaj bandı	Bavullar bagaj bandına geliyor.	'Gepäckband', 'Gepäck' (bagaj) ve 'Band' (bant) sözcüklerini birleştirir: bagaj karuseli için teknik terim.
+B1	Zollkontrolle	gümrük kontrolü	Gümrük kontrolünden geçmemiz gerekti.	'Durch' her zaman belirtme hâlini alır; bir yerden ya da süreçten geçmeyi anlatmak için kullanılır.
+B1	Sicherheitskontrolle	güvenlik kontrolü	Güvenlik kontrolü uzun sürdü.	Alman havalimanlarında güvenlik kontrolleri tek tip Avrupa standartlarını izler, ama bekleme süreleri mevsime göre çok değişir.
+B1	Reisepass	seyahat pasaportu	Pasaportunu unutma.	'Reisepass' tam resmî biçimdir, konuşmada ise çoğu zaman yalnızca 'Pass' denir.
+B1	Visum	vize	Bu ülke için vize gerekiyor.	'Visum'un düzensiz çoğulu 'Visa'dır; Almanca kalıbını izlemek yerine özgün Latince biçimini korur.
+B1	Unterkunft	konaklama, kalacak yer	Hâlâ konaklama ayarlamadık.	'Unterkunft', bir otelden hosteline kadar her türlü konaklama için genel terimdir.
+B1	Jugendherberge	gençlik yurdu	Bir gençlik yurdunda geceliyoruz.	Jugendherberge kavramı Almanya'da 1909'da ilkokul öğretmeni Richard Schirrmann tarafından icat edilmiştir.
+B1	Rezeption	resepsiyon	Resepsiyon 24 saat görevli.	'Rund um die Uhr' ('saatin çevresinde') günde 24 saat için kullanılan deyimdir.
+B1	einchecken	giriş yapmak, check-in yapmak	Saat ikide giriş yapıyoruz.	'Einchecken', İngilizce'den melez bir ödünç sözcüktür ve Almanca ayrılabilir fiil dilbilgisine uyum sağlamıştır.
+B1	auschecken	çıkış yapmak, check-out yapmak	Saat on birde çıkış yapmamız gerekiyor.	'einchecken' gibi 'auschecken' de ayrılabilirdir ve aynı dilbilgisel yapıyı izler.
+B1	Zimmerservice	oda servisi	Oda servisinden bir şey sipariş ediyoruz.	'Beim Zimmerservice bestellen', 'bei'den sonra yönelme hâlini alır; 'den, nezdinde' için standart edat.
+B1	Rundreise	tur, çevre gezisi	Güney Almanya'da bir tur yapıyoruz.	'Durch' belirtme hâlini alır: 'durch Süddeutschland'; bir bölgeden geçen hareketi anlatır.
+B1	Sehenswürdigkeiten besichtigen	gezip görmek, turistik yerleri gezmek	Bugün başlıca turistik yerleri geziyoruz.	'Besichtigen', 'besuchen' gibi edatsız doğrudan belirtme hâli nesnesi alır.
+B1	Stadtführung	şehir turu	Şehir turu iki saat sürüyor.	'Stadtführung', 'Stadt' ve 'Führung' (rehberlik) sözcüklerini birleştirir: bir rehberle düzenlenmiş tur.
+B1	Reiseveranstalter	tur operatörü	Seyahati bir tur operatörü üzerinden ayırttık.	'Über' bir kanalı belirtirken belirtme hâlini alır: 'über einen Reiseveranstalter buchen' (tur operatörü üzerinden ayırtmak).
+B1	Pauschalreise	paket tatil	Paket tatil çoğu zaman daha uygun fiyatlıdır.	'Pauschal' 'götürü, her şey dâhil' demektir: uçuşu, oteli ve bazen yemekleri kapsayan tek bir fiyat.
+B1	Reiseversicherung	seyahat sigortası	Her zaman bir seyahat sigortası yaptırırım.	'Abschließen' ayrılabilir ve belirtme hâlini alır: 'eine Versicherung abschließen', sigorta yaptırmak için sabit eşdizimdir.
+B1	Zeitverschiebung	saat farkı	Saat farkı beni yoruyor.	'Zeitverschiebung', 'Zeit' (zaman) ve 'Verschiebung' (kayma) sözcüklerini birleştirir: saat farkı için teknik terim.
+B1	Kulturschock	kültür şoku	Taşındıktan sonra gerçek bir kültür şoku yaşadı.	'Kulturschock', kültürel normları çok farklı bir ülkede yaşamanın ilk şaşkınlığını anlatır.
+B1	Auswanderer	göçmen (ülkesinden ayrılan)	Birçok göçmen Kanada'ya taşınıyor.	'Auswanderer', 'auswandern'den (göç etmek) gelir; 'Einwanderer'in (ülkeye gelen göçmen) doğrudan karşıtıdır.
+B1	Einwanderer	göçmen (ülkeye gelen)	Almanya birçok göçmen kabul etti.	'Aufnehmen' ayrılabilir ve 'kabul etmek' demektir; göç üzerine siyasi söylemde yaygın bir fiildir.
+B1	Zugehörigkeit	aidiyet	Aidiyet duygusu önemlidir.	'Zugehörigkeit', 'zugehören'den (ait olmak) gelir; '-keit' ekiyle soyut bir bileşiktir.
+B1	fließend sprechen	akıcı konuşmak	O akıcı Almanca ve İngilizce konuşuyor.	Zarf olarak 'fließend', ana dile yakın çok yüksek bir dil akıcılığı seviyesini anlatır.
+B1	zweisprachig	iki dilli	Çocuklarımız iki dilli büyüyor.	'Aufwachsen' ayrılabilir ve 'büyümek' demektir — çocukluktan bahsederken tipik bir fiil.
+B1	Sprachbarriere	dil engeli	Başlangıçta bir dil engeli vardı.	'Sprachbarriere', 'Sprache' ve 'Barriere' (engel) sözcüklerini birleştirir; entegrasyon bağlamlarında çok yaygın bir terim.
+B1	dolmetschen	sözlü tercüme yapmak	Bizim için tercümanlık yapabilir misin?	'Dolmetschen' sözlü tercümeyi anlatır; yazılı çeviriyi ifade eden 'übersetzen'den farklıdır.
+B1	Simultanübersetzung	simültane çeviri	Konferansta simültane çeviri var.	Avrupa Parlamentosu gibi büyük kurumlar düzinelerce dil için profesyonel simültane tercümanlar çalıştırır.
+B1	Zufall	tesadüf	Bu şanslı bir tesadüftü.	'Zufall', 'zufallen'dan (nasip olmak, düşmek) gelir: kelimesi kelimesine beklenmedik biçimde üzerinize 'düşen' şey.
+B1	Schicksal	kader, alın yazısı	Bazıları kadere inanır.	'Glauben an' her zaman belirtme hâlini alır: 'an das Schicksal' — inanç ya da kanaati ifade etmek için kullanılan yapı.
+B1	Gelegenheit	fırsat, imkân	Bu nadir bir fırsat.	'Gelegenheit', 'Chance' ile neredeyse eş anlamlıdır, ama biraz daha resmî ve daha az konuşma diline ait duyulur.
+B1	verpassen	kaçırmak (fırsat/tren)	Treni maalesef kaçırdım.	'Verpassen' hem ulaşım hem fırsatlar için kullanılır: 'eine Gelegenheit verpassen' (bir fırsatı kaçırmak).
+B1	nutzen	kullanmak, değerlendirmek	Bu fırsatı değerlendirmeliyiz.	'Nutzen' doğrudan belirtme hâli nesnesi alır ve daha yaygın olan 'benutzen' ile neredeyse eş anlamlıdır.
+B1	riskieren	riske atmak	Bu kararla çok şeyi riske atıyor.	'Riskieren', Fransızca/İtalyanca 'rischiare'den bir ödünç sözcüktür ve Almanca'da düzenli çekimlenir.
+B1	Risiko eingehen	risk almak	Bazen risk almak gerekir.	'Eingehen' ayrılabilirdir ve belirtme hâlini alır: 'ein Risiko eingehen' standart sabit eşdizimdir.
+B1	absichern	güvence altına almak	Kendimizi maddi olarak güvence altına almalıyız.	'Sich absichern' dönüşlüdür ve belirli bağlama göre çoğu zaman tamlayan hâli ya da bir edat alır.
+B1	Konsequenzen tragen	sonuçlarına katlanmak	Herkes eylemlerinin sonuçlarına katlanmalı.	'Tragen' hem fiziksel olarak 'taşımak' hem mecazen 'katlanmak, dayanmak' demektir.
+B1	Wendepunkt	dönüm noktası	Bu karar hayatımda bir dönüm noktasıydı.	'Wendepunkt', 'Wende' (dönüş) ve 'Punkt' (nokta) sözcüklerini birleştirir: olayların seyrini değiştiren belirleyici an.
+B1	Perspektive wechseln	bakış açısını değiştirmek	Bazen bakış açısını değiştirmek yardımcı olur.	'Wechseln' doğrudan belirtme hâli nesnesi alır ve hem bakış açıları hem giysi veya para birimi gibi somut şeyler için kullanılır.
+B1	Selbstreflexion	öz değerlendirme, kendini sorgulama	Öz değerlendirme önemli kararlarda yardımcı olur.	'Selbstreflexion', 'selbst' ve 'Reflexion' (yansıtma) sözcüklerini birleştirir; kişisel gelişim bağlamlarında giderek yaygınlaşan bir terim.
+B1	Lebensqualität	yaşam kalitesi	Buradaki yaşam kalitesi yüksek.	Münih ve Düsseldorf gibi birkaç Alman şehri, uluslararası yaşam kalitesi sıralamalarında düzenli olarak yer alır.
+B1	Zufriedenheit	memnuniyet, huzur	Memnuniyet zenginlikten daha önemlidir.	'Zufriedenheit', soyut '-heit' ekiyle 'zufrieden'den (memnun) gelir.
+B1	Sinn des Lebens	hayatın anlamı	Bazıları hayatın anlamını tüm ömürleri boyunca arar.	'Suchen nach' yönelme hâlini alır: 'nach dem Sinn' — bir arayışı ifade etmek için yaygın sabit bir yapı.
+B1	Weisheit	bilgelik	Yaşla birlikte çoğu zaman bilgelik gelir.	'Weisheit', soyut '-heit' ekiyle 'weise'den (bilge) gelir; Almanca'da çok üretken bir ek.
+B1	Gelassenheit bewahren	soğukkanlılığını korumak	Stresli durumlarda soğukkanlı kalmaya çalışıyorum.	'Bewahren' doğrudan belirtme hâli nesnesi alır ve 'korumak, sürdürmek' demektir; çoğu zaman duygusal durumlar için kullanılır.
+B1	Ausgeglichenheit	dengelilik, iç denge	Yoga iç dengeyi destekler.	'Ausgeglichenheit', 'ausgleichen'in (dengelemek, telafi etmek) ortacı olan 'ausgeglichen'den (dengeli) gelir.
+B1	innere Stärke	iç güç	O büyük bir iç güç gösterdi.	'Zeigen' doğrudan belirtme hâli nesnesi alır: 'Stärke zeigen', dirençten bahsetmek için yaygın bir eşdizimdir.
+B1	Resilienz	dayanıklılık, psikolojik direnç	Dayanıklılık krizlerin üstesinden gelmeye yardımcı olur.	'Resilienz', Almanca'da nispeten yeni bir terimdir ve uluslararası psikoloji dilinden ödünç alınmıştır.
+B1	Achtung vor	saygı (-e karşı)	Doğaya saygı önemlidir.	'Achtung vor' yönelme hâlini alır: 'vor der Natur' — çevre ve yurttaşlık söyleminde çok yaygın bir yapı.
+B1	Demut	alçakgönüllülük	Başarısından büyük bir alçakgönüllülükle söz etti.	'Demut', çoğu zaman dinî veya felsefi bağlamlarda kullanılan daha yüksek kayıtlı bir terimdir.
+B1	Neugier	merak	Merak birçok bilim insanını harekete geçirir.	'Antreiben' ayrılabilir ve 'sürmek, motive etmek' demektir; motive edici güçleri anlatmak için sık kullanılır.
+B1	Kreativität	yaratıcılık	Yaratıcılık zorlanamaz.	Olumsuzlama ile 'sich erzwingen lassen', 'zorlanamaz' demektir — dönüşlü, edilgen benzeri bir yapı.
+B1	Inspiration	ilham	Gezi onun için büyük bir ilham kaynağıydı.	'Inspiration' diller arasında neredeyse aynıdır; paylaşılan bir diğer Latince ödünç sözcük.
+B1	Ausdauer	dayanıklılık, tahammül (kondisyon)	Maraton çok dayanıklılık gerektirir.	'Ausdauer', 'aus' ve 'dauern'den (sürmek) gelir: kelimesi kelimesine 'sonuna kadar dayanabilme yeteneği'.
+B1	Willenskraft	irade gücü	Biraz irade gücüyle bunu başarırsın.	'Willenskraft', 'Wille' (irade) ve 'Kraft' (güç) sözcüklerini birleştirir: çok saydam bir bileşik.
+B1	Selbstvertrauen	kendine güven	Seyahat etmek kendine güveni artırır.	'Selbstvertrauen', 'selbst' ve 'Vertrauen' (güven) sözcüklerini birleştirir: daha çok farkındalıkla ilgili olan 'Selbstbewusstsein'dan farklıdır.
+B1	Anpassungsfähigkeit	uyum yeteneği	Yurtdışında uyum yeteneği önemlidir.	'Anpassungsfähigkeit', '-fähigkeit' yetenek ekiyle 'sich anpassen'den (uyum sağlamak) gelir.
+B1	Durchhaltevermögen	azim, dayanma gücü	Üniversite eğitimi azim gerektirir.	'Durchhaltevermögen', 'durchhalten' (dayanmak) ve 'Vermögen' (kapasite) sözcüklerini birleştirir: çok uzun ama saydam bir bileşik.
+B1	Lebensfreude	yaşama sevinci	Bulaşıcı bir yaşama sevinci yayıyor.	'Ausstrahlen' ayrılabilir ve 'yaymak, saçmak' demektir; olumlu kişisel nitelikler için sık kullanılır.
+B1	Bescheidenheit	mütevazılık	Başarısına rağmen mütevazılığını koruyor.	'Bescheidenheit', soyut '-heit' ekiyle 'bescheiden'den (mütevazı) gelir.
+B1	Neuanfang	yeni başlangıç	Taşınma onun için gerçek bir yeni başlangıçtı.	'Neuanfang', 'neu' (yeni) ve 'Anfang' (başlangıç) sözcüklerini birleştirir: yaşam değişiklikleri için basit ama çok yaygın bir bileşik.
+B1	Lebensweg	yaşam yolu	Herkesin kendi yaşam yolu vardır.	'Lebensweg', 'Leben' (yaşam) ve 'Weg' (yol) sözcüklerini birleştirir: varoluşa uygulanan yol metaforu.
+B1	persönliche Errungenschaft	kişisel başarı	Mezuniyet onun en büyük başarısıydı.	'Errungenschaft', 'erringen'den (çabayla elde etmek) gelir: sıkı çalışma ve liyakatle ulaşılan bir dönüm noktası.

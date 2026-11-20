@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/google-services.json
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.DS_Store
+
+# Secrets
+*.env
+firebase-service-account.json
+germanbuddy-firebase-adminsdk-fbsvc-*.json
+
+# Mobile
+mobile/node_modules/
+mobile/android/
+mobile/ios/
+mobile/google-services.json
+mobile/%ProgramData%/
+mobile/.expo/
+mobile/*.db
+mobile/germanbuddy.db
+mobile/release.properties
+mobile/release.keystore
+
+# Google Cloud service account keys: never commit
+GoogleCloud/
+*-service-account*.json
+
+# Locally built release bundles (about 48 MB each)
+Bundles/
+
+# Separate repo (giamat90/germanbuddy-support) nested here: not part of this repo
+germanbuddy-support/
+
+# Claude Code local settings
+.claude/settings.local.json

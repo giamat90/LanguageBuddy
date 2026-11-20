@@ -1,0 +1,1764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Components — snapshots ArticleBadge das 1`] = `
+<View
+  accessibilityLabel="das Kind"
+  style={
+    [
+      {
+        "alignSelf": "flex-start",
+        "borderRadius": 8,
+        "paddingHorizontal": 10,
+        "paddingVertical": 4,
+      },
+      {
+        "backgroundColor": "#EAEDF0",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#3D454F",
+        },
+      ]
+    }
+  >
+    das
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots ArticleBadge der 1`] = `
+<View
+  accessibilityLabel="der Hund"
+  style={
+    [
+      {
+        "alignSelf": "flex-start",
+        "borderRadius": 8,
+        "paddingHorizontal": 10,
+        "paddingVertical": 4,
+      },
+      {
+        "backgroundColor": "#E6F1FB",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#0C447C",
+        },
+      ]
+    }
+  >
+    der
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots ArticleBadge die 1`] = `
+<View
+  accessibilityLabel="die Katze"
+  style={
+    [
+      {
+        "alignSelf": "flex-start",
+        "borderRadius": 8,
+        "paddingHorizontal": 10,
+        "paddingVertical": 4,
+      },
+      {
+        "backgroundColor": "#FBEAEA",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#D3202F",
+        },
+      ]
+    }
+  >
+    die
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots CefrBadge 1`] = `
+<View
+  style={
+    [
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#1E4A67",
+        "borderRadius": 8,
+        "paddingHorizontal": 10,
+        "paddingVertical": 4,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#EAF0F4",
+        },
+      ]
+    }
+  >
+    B1
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots CulturalNote 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FBF0D9",
+        "borderLeftColor": "#8F6108",
+        "borderLeftWidth": 3,
+        "borderRadius": 8,
+        "paddingHorizontal": 14,
+        "paddingVertical": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "PlayfairDisplay_400Regular_Italic",
+          "fontSize": 15,
+          "lineHeight": 22,
+        },
+        {
+          "color": "#0C2A3E",
+        },
+      ]
+    }
+  >
+    Ein langer Text über die Kultur.
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots Divider 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "rgba(12,42,62,0.12)",
+        "height": 0.5,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`UI Components — snapshots PrimaryButton disabled 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#626F82",
+      "borderRadius": 14,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_500Medium",
+          "fontSize": 13,
+          "lineHeight": 18,
+        },
+        {
+          "color": "#EAF0F4",
+        },
+      ]
+    }
+  >
+    Salva
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots PrimaryButton idle 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#1E4A67",
+      "borderRadius": 14,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_500Medium",
+          "fontSize": 13,
+          "lineHeight": 18,
+        },
+        {
+          "color": "#EAF0F4",
+        },
+      ]
+    }
+  >
+    Salva
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots PrimaryButton loading 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#626F82",
+      "borderRadius": 14,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#EAF0F4"
+  />
+</View>
+`;
+
+exports[`UI Components — snapshots SecondaryButton 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#1E4A67",
+      "borderRadius": 14,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_500Medium",
+          "fontSize": 13,
+          "lineHeight": 18,
+        },
+        {
+          "color": "#1E4A67",
+        },
+      ]
+    }
+  >
+    Salta
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots SectionLabel 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "Inter_500Medium",
+        "fontSize": 10,
+        "letterSpacing": 1.4,
+        "lineHeight": 14,
+        "textTransform": "uppercase",
+      },
+      {
+        "color": "#626F82",
+      },
+      undefined,
+    ]
+  }
+>
+  significato
+</Text>
+`;
+
+exports[`UI Components — snapshots StreakRow full 1`] = `
+<View
+  accessibilityLabel="7 giorni di fila"
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 6,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+        },
+      ]
+    }
+  >
+    7 giorni di fila
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots StreakRow overflow 1`] = `
+<View
+  accessibilityLabel="14 giorni di fila"
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 6,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+        },
+      ]
+    }
+  >
+    14 giorni di fila
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots StreakRow partial 1`] = `
+<View
+  accessibilityLabel="3 giorni di fila"
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 6,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#8F6108",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+        },
+      ]
+    }
+  >
+    3 giorni di fila
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots StreakRow zero 1`] = `
+<View
+  accessibilityLabel="0 giorni di fila"
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 6,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "borderRadius": 5,
+            "height": 10,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#E3E9EE",
+          },
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+        },
+      ]
+    }
+  >
+    0 giorni di fila
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots WordCard 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "paddingBottom": 40,
+      "paddingHorizontal": 20,
+      "paddingTop": 28,
+    }
+  }
+  showsVerticalScrollIndicator={false}
+  style={
+    {
+      "backgroundColor": "#F6F9FB",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        [
+          {
+            "alignItems": "flex-start",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="die Gemütlichkeit"
+        style={
+          [
+            {
+              "alignSelf": "flex-start",
+              "borderRadius": 8,
+              "paddingHorizontal": 10,
+              "paddingVertical": 4,
+            },
+            {
+              "backgroundColor": "#FBEAEA",
+            },
+            {
+              "marginBottom": 6,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_400Regular",
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              {
+                "color": "#D3202F",
+              },
+            ]
+          }
+        >
+          die
+        </Text>
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "PlayfairDisplay_400Regular",
+              "fontSize": 36,
+              "lineHeight": 44,
+            },
+            {
+              "color": "#0C2A3E",
+            },
+          ]
+        }
+      >
+        Gemütlichkeit
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Inter_400Regular",
+              "fontSize": 12,
+              "lineHeight": 16,
+            },
+            {
+              "color": "#626F82",
+              "marginTop": 4,
+            },
+          ]
+        }
+      >
+        /ɡəˈmyːtlɪçkaɪt/
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(12,42,62,0.12)",
+            "height": 0.5,
+          },
+          {
+            "marginVertical": 20,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Inter_500Medium",
+            "fontSize": 10,
+            "letterSpacing": 1.4,
+            "lineHeight": 14,
+            "textTransform": "uppercase",
+          },
+          {
+            "color": "#626F82",
+          },
+          undefined,
+        ]
+      }
+    >
+      Significato
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Inter_400Regular",
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "color": "#0C2A3E",
+            "marginTop": 8,
+          },
+        ]
+      }
+    >
+      accoglienza, calore
+    </Text>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(12,42,62,0.12)",
+            "height": 0.5,
+          },
+          {
+            "marginVertical": 20,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Inter_500Medium",
+            "fontSize": 10,
+            "letterSpacing": 1.4,
+            "lineHeight": 14,
+            "textTransform": "uppercase",
+          },
+          {
+            "color": "#626F82",
+          },
+          undefined,
+        ]
+      }
+    >
+      Esempio
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 4,
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "PlayfairDisplay_400Regular_Italic",
+              "fontSize": 15,
+              "lineHeight": 22,
+            },
+            {
+              "color": "#0C2A3E",
+              "marginTop": 8,
+            },
+            {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        Das Café hat eine tolle Gemütlichkeit.
+      </Text>
+      <View
+        accessibilityLabel="Ascolta la frase"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={
+          {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "height": 44,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 44,
+          }
+        }
+        testID="speak-example"
+      >
+        <Text
+          style={
+            {
+              "fontSize": 20,
+            }
+          }
+        >
+          🔊
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Inter_400Regular",
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          {
+            "color": "#626F82",
+            "marginTop": 4,
+          },
+        ]
+      }
+    >
+      Il caffè ha una grande accoglienza.
+    </Text>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#FBF0D9",
+            "borderLeftColor": "#8F6108",
+            "borderLeftWidth": 3,
+            "borderRadius": 8,
+            "paddingHorizontal": 14,
+            "paddingVertical": 12,
+          },
+          {
+            "marginTop": 20,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "PlayfairDisplay_400Regular_Italic",
+              "fontSize": 15,
+              "lineHeight": 22,
+            },
+            {
+              "color": "#0C2A3E",
+            },
+          ]
+        }
+      >
+        Un concetto tedesco intraducibile.
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 8,
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignSelf": "flex-start",
+              "backgroundColor": "#1E4A67",
+              "borderRadius": 8,
+              "paddingHorizontal": 10,
+              "paddingVertical": 4,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Inter_400Regular",
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              {
+                "color": "#EAF0F4",
+              },
+            ]
+          }
+        >
+          B2
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityLabel="3 giorni di fila"
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 12,
+          },
+          {
+            "marginTop": 24,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "gap": 6,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#8F6108",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#8F6108",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#8F6108",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#E3E9EE",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#E3E9EE",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#E3E9EE",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+              {
+                "backgroundColor": "#E3E9EE",
+              },
+            ]
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Inter_400Regular",
+              "fontSize": 12,
+              "lineHeight": 16,
+            },
+            {
+              "color": "#626F82",
+            },
+          ]
+        }
+      >
+        3 giorni di fila
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#1E4A67",
+          "borderRadius": 14,
+          "height": 56,
+          "justifyContent": "center",
+          "marginTop": 32,
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Inter_500Medium",
+              "fontSize": 13,
+              "lineHeight": 18,
+            },
+            {
+              "color": "#EAF0F4",
+            },
+          ]
+        }
+      >
+        Salva la parola
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#1E4A67",
+          "borderRadius": 14,
+          "borderWidth": 1,
+          "height": 48,
+          "justifyContent": "center",
+          "marginTop": 12,
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Inter_500Medium",
+              "fontSize": 13,
+              "lineHeight": 18,
+            },
+            {
+              "color": "#1E4A67",
+            },
+          ]
+        }
+      >
+        Salta per oggi
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`UI Components — snapshots WordHero no article 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "flex-start",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "PlayfairDisplay_400Regular",
+          "fontSize": 36,
+          "lineHeight": 44,
+        },
+        {
+          "color": "#0C2A3E",
+        },
+      ]
+    }
+  >
+    fahren
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+          "marginTop": 4,
+        },
+      ]
+    }
+  >
+    /ˈfaːʁən/
+  </Text>
+</View>
+`;
+
+exports[`UI Components — snapshots WordHero with article 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "flex-start",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLabel="das Krankenhaus"
+    style={
+      [
+        {
+          "alignSelf": "flex-start",
+          "borderRadius": 8,
+          "paddingHorizontal": 10,
+          "paddingVertical": 4,
+        },
+        {
+          "backgroundColor": "#EAEDF0",
+        },
+        {
+          "marginBottom": 6,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Inter_400Regular",
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          {
+            "color": "#3D454F",
+          },
+        ]
+      }
+    >
+      das
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "PlayfairDisplay_400Regular",
+          "fontSize": 36,
+          "lineHeight": 44,
+        },
+        {
+          "color": "#0C2A3E",
+        },
+      ]
+    }
+  >
+    Krankenhaus
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Inter_400Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        {
+          "color": "#626F82",
+          "marginTop": 4,
+        },
+      ]
+    }
+  >
+    /ˈkʁaŋkənˌhaʊs/
+  </Text>
+</View>
+`;

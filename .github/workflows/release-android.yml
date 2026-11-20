@@ -1,0 +1,135 @@
+name: Release Android
+
+# Manual trigger only — this signs a real release build and can publish it to
+# a live Google Play Store listing. Never wire this to push/PR triggers.
+on:
+  workflow_dispatch:
+    inputs:
+      track:
+        description: 'Play Store track to publish to'
+        required: true
+        default: internal
+        type: choice
+        options:
+          - internal
+          - alpha
+          - beta
+          - production
+      release_status:
+        description: 'Play Store release status'
+        required: true
+        default: completed
+        type: choice
+        options:
+          - completed
+          - draft
+      version_code:
+        description: >
+          Android versionCode for this build. Must be strictly higher than
+          any versionCode already uploaded to Play (including manual/local
+          uploads). Leave blank to use the GitHub Actions run number.
+        required: false
+        type: string
+
+# The release tag is pushed with the workflow's own token.
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Determine versionCode
+        id: version
+        run: |
+          if [ -n "${{ inputs.version_code }}" ]; then
+            echo "code=${{ inputs.version_code }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "code=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Fail in seconds, not after a 10-minute build: Play rejects a versionCode it has already
+      # seen (on any track, or in an uploaded bundle), and a release tag must not be reused.
+      - name: Check versionCode against Google Play and existing tags
+        id: guard
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          ANDROID_VERSION_CODE: ${{ steps.version.outputs.code }}
+        run: |
+          node scripts/check-play-version.js "$ANDROID_VERSION_CODE"
+          TAG="$(node -p "require('./scripts/lib/playVersion').releaseTag(require('./app.config.js').expo.version)")"
+          if git ls-remote --tags --exit-code origin "refs/tags/$TAG" > /dev/null; then
+            echo "::error::Release tag $TAG already exists"
+            exit 1
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      # The ubuntu runner image already ships the Android SDK. android-actions/setup-android@v3
+      # started failing there (newer cmdline-tools no longer know the package "tools"), so use it directly.
+      - name: Install Android SDK packages
+        run: |
+          SDKMANAGER="$(command -v sdkmanager || echo "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager")"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" "ndk;26.1.10909125"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore release keystore
+        run: echo "${{ secrets.ANDROID_RELEASE_KEYSTORE_BASE64 }}" | base64 -d > release.keystore
+
+      - name: Restore release signing properties
+        run: echo "${{ secrets.ANDROID_RELEASE_PROPERTIES }}" > release.properties
+
+      - name: Prebuild native Android project
+        env:
+          ANDROID_VERSION_CODE: ${{ steps.version.outputs.code }}
+        run: npx expo prebuild --platform android --clean
+
+      - name: Build release bundle
+        run: cd android && ./gradlew bundleRelease --no-daemon
+
+      - name: Verify manifest (package, SDK levels, versionCode)
+        run: |
+          curl -sL -o /tmp/bundletool.jar https://github.com/google/bundletool/releases/download/1.17.2/bundletool-all-1.17.2.jar
+          java -jar /tmp/bundletool.jar dump manifest --bundle=android/app/build/outputs/bundle/release/app-release.aab
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-v${{ steps.version.outputs.code }}
+          path: mobile/android/app/build/outputs/bundle/release/app-release.aab
+          retention-days: 90
+
+      - name: Publish to Google Play
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.giamat90.germanbuddy
+          releaseFiles: mobile/android/app/build/outputs/bundle/release/app-release.aab
+          track: ${{ inputs.track }}
+          status: ${{ inputs.release_status }}
+
+      # Only reached when Play accepted the upload: mark the exact commit that was built.
+      - name: Tag the release
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "${{ steps.guard.outputs.tag }}" "${{ github.sha }}" -m "Release ${{ steps.version.outputs.code }} (${{ inputs.track }}, ${{ inputs.release_status }})"
+          git push origin "${{ steps.guard.outputs.tag }}"

@@ -1,0 +1,369 @@
+A1	Brot	ekmek	Ekmeği fırından alıyorum.	Almanya'da resmen tanınan 3.000'den fazla ekmek çeşidi vardır; bu, dünyadaki en büyük çeşitliliktir.
+A1	Wasser	su	Bir bardak su içiyorum.	Alman restoranlarında musluk suyu neredeyse hiç servis edilmez: suyu 'still' (gazsız) ya da 'mit Kohlensäure' (gazlı) olarak sipariş edersiniz.
+A1	Haus	ev	Ev çok büyük.	Alman evlerinde sıklıkla depo ya da hobi odası olarak kullanılan bir 'Keller' (kiler/bodrum) bulunur; bu, Güney Avrupa'da daha az yaygındır.
+A1	gehen	gitmek, yürümek	Bugün parka gidiyoruz.	'gehen' fiili düzinelerce deyim oluşturur: 'es geht mir gut' (iyiyim) kelimesi kelimesine 'bana iyi gidiyor' demektir.
+A1	Apfel	elma	Elma kırmızı ve tatlı.	Geleneksel bir meyve bahçesi çayırı olan Streuobstwiese, Almanya'da korunan bir peyzajdır ve burada hâlâ düzinelerce eski elma çeşidi yetişir.
+A1	Zug	tren	Tren saat sekizde kalkıyor.	Almanya'nın demiryolu ağını Deutsche Bahn işletir; dakiklik o kadar önemlidir ki gecikmeler düzenli olarak ulusal haberlere çıkar.
+A1	arbeiten	çalışmak	O bir ofiste çalışıyor.	Almanlar 'Arbeit' (ücretli iş) ile 'Beruf' (meslek/çağrı) arasında ayrım yapar: işin aynı zamanda bir çağrı olması gerektiği fikri Alman iş kültürüne derinden işlemiştir.
+A1	kein	hiç, -sız (olumsuz)	Yanımda hiç param yok.	'Kein' isimleri olumsuzlar, 'nicht' ise fiilleri ve sıfatları olumsuzlar; bu ayrım Romance dili konuşanlarını zorlar.
+A1	Markt	pazar (alışveriş)	Cumartesi günü pazara gidiyorum.	Wochenmärkte (haftalık pazarlar) Almanya'da toplumsal bir kurumdur: hemen her kasabada bir tane vardır ve orada alışveriş yapmak çevre dostu ve topluma duyarlı sayılır.
+A1	Arzt	doktor	Yarın doktora gidiyorum.	Almanya'da Hausarzt (aile hekimi) bir geçit görevi görür: bir uzmana gitmek için genellikle sevk gerekir.
+A1	Tag	gün	Bugün güzel bir gün.	Gündelik selamlama 'Tag!' 'Guten Tag'ın kısaltmasıdır ve dükkânlarda ve sokakta her yerde duyulur.
+A1	trinken	içmek	Sabahları kahve içerim.	Almanya'da kahve esas olarak sabahları ve öğleden sonra bir dilim pastayla içilir; bu ritüele 'Kaffee und Kuchen' denir.
+A1	Freund	arkadaş	Arkadaşım Hamburg'da yaşıyor.	Almanca'da 'Freund' derin bir bağı ima eder: sıradan tanıdıklara 'Bekannte' denir. Birine 'Freund' demek İngilizce'dekinden daha ağır basar.
+A1	Stadt	şehir	Berlin büyük bir şehir.	Birçok Alman şehrinde savaştan sonra özenle yeniden inşa edilmiş yayalara ayrılmış bir 'Altstadt' (eski şehir) vardır.
+A1	essen	yemek yemek	Öğle yemeğini saat on ikide yiyoruz.	Birçok Alman şirketinde ve okulunda ana sıcak yemek akşam değil, öğle vakti yenir.
+A1	Buch	kitap	Kitap masanın üzerinde duruyor.	Frankfurt Kitap Fuarı dünyanın en büyük yayıncılık etkinliğidir ve 1949'dan beri kesintisiz düzenlenmektedir.
+A1	kaufen	satın almak	Bir bilet alıyorum.	Almanya'da insanlar hâlâ sık sık nakit öder: birçok küçük dükkân kart kabul etmez.
+A1	Zimmer	oda	Odam küçük ama aydınlık.	Alman emlak ilanlarında oda sayısı ('3-Zimmer-Wohnung') mutfağı ve banyoyu içermez.
+A1	kommen	gelmek	Nerelisin?	'Woher kommst du?' bir Alman sohbetindeki ilk sorulardan biridir ve insanlar yalnızca ülkeyi değil, şehri veya bölgeyi bekler.
+A1	Straße	sokak, cadde	Goethestraße'de oturuyorum.	Sayısız Alman sokağı şair ve filozofların adını taşır: Goethe, Schiller ve Kant'ın hemen her kasabada bir sokağı vardır.
+A1	schlafen	uyumak	Hafta sonu geç saate kadar uyurum.	Almanya'da çift kişilik yatakta tek bir ortak battaniye yerine iki ayrı tek kişilik yorgan kullanmak yaygındır.
+A1	Kaffee	kahve	Bir kahve ister misin?	Almanca 'Kaffee' genellikle filtre kahve demektir; İtalyan usulü bir espresso için özellikle istemeniz gerekir.
+A1	Kind	çocuk	Çocuk bahçede oynuyor.	'Kindergarten' 1840'tan kalma bir Alman icadıdır: bu sözcük düzinelerce dile değişmeden girmiştir.
+A1	sprechen	konuşmak	Almanca konuşuyor musun?	Fiil ikinci ve üçüncü tekil kişide ünlü değiştirir: 'du sprichst', 'er spricht'; 'essen' ve 'geben' ile aynı kalıp.
+A1	Geld	para	Fazla param yok.	Almanya'da maaşlar hakkında açıkça konuşmak oldukça nezaketsiz sayılır; birçok başka ülkeye göre çok daha fazla.
+A1	Wetter	hava (hava durumu)	Bugün hava kötü.	Geleneksel bir Bavyera 'Biergarten'ı ancak hava izin verdiğinde açılır: hava durumu günlük bir sohbet konusudur.
+A1	fahren	gitmek (araçla), sürmek	İşe otobüsle gidiyorum.	Almanca 'gehen' (yürüyerek) ile 'fahren' (araçla) arasında ayrım yapar: Berlin'e trenle 'gehen' diyemezsiniz.
+A1	Familie	aile	Ailem İtalya'da yaşıyor.	Almanya'da pazar günü geleneksel olarak aileye ayrılır: dükkânlar kapalıdır ve öğleden sonra 'Sonntagsspaziergang' (pazar yürüyüşü) vardır.
+A1	lernen	öğrenmek, çalışmak (ders)	Her gün Almanca çalışıyorum.	Almanca'da 'lernen' okul için öğrenmek ya da ders çalışmak demektir; 'studieren' yalnızca üniversite eğitimi için kullanılır.
+A1	Bahnhof	tren istasyonu	Tren istasyonu buradan uzak değil.	'Ich verstehe nur Bahnhof' ('Ben sadece istasyon anlıyorum') deyimi 'hiçbir şey anlamıyorum' demektir.
+A1	eins	bir	Sadece bir tane var.	Almanca asal sayılar çok yüksek rakamlarda bile genellikle tek sözcük olarak yazılır: 'einhundertdreiundzwanzig' tek bir sözcüktür.
+A1	zwei	iki	İki çörek istiyorum.	El yazısında 'zwei'nin ayağına bir çizgi çekilir ki 'sieben' (yedi) veya bir ile karıştırılmasın.
+A1	drei	üç	Üç kişiyiz.	'Aller guten Dinge sind drei' ('her güzel şey üçtür') Almanca'da 'üçüncü seferde olur' demenin yoludur.
+A1	vier	dört	Masanın dört sandalyesi var.	Almanca 'dördümüz' demek için 'zu viert' kullanır; edat gerektirmeyen kısa bir yapı.
+A1	fünf	beş	Beş dakikaya ihtiyacım var.	'Fünf gerade sein lassen' ('beşin çift olmasına izin vermek') bir şeye göz yummak demektir.
+A1	sechs	altı	Kurs saat altıda başlıyor.	Resmî Almanca, günlük konuşmada bile İngilizce'nin genellikle yaptığından daha sık 24 saatlik saati kullanır.
+A1	sieben	yedi	Haftanın yedi günü var.	'Siebenmal klug' ('yedi kere akıllı') her zaman haklı olmak isteyen bilmiş birini anlatır.
+A1	acht	sekiz	Saat sekizde kalkıyorum.	'Acht geben' 'dikkat etmek' demektir; sekiz sayısıyla tarihsel bir bağı olmayan çok yaygın bir ifadedir.
+A1	neun	dokuz	Dükkân dokuzda açılıyor.	Birçok Alman kasabasında dükkânlar İtalya'dakinden daha geç açılır, çoğunlukla dokuzdan önce değil.
+A1	zehn	on	Ona kadar sayıyorum.	'Zehn', 'elf' (on bir) ve sonrasındaki tüm Almanca sayıların temelidir; toplama veya çarpma ile oluşturulurlar.
+A1	Montag	pazartesi	Pazartesi iş yeniden başlıyor.	Almanca'da haftanın günleri her zaman eril olup, tüm isimler gibi büyük harfle yazılır.
+A1	Dienstag	salı	Salı günü buluşuyoruz.	'Dienstag', Romance dillerindeki gibi Mars tanrısından değil, eski Germen meclisi 'Ding'den gelir.
+A1	Mittwoch	çarşamba	Çarşamba haftanın ortasıdır.	'Mittwoch' kelimesi kelimesine 'hafta ortası' demektir; bir tanrıya göre değil, konumuna göre adlandırılan tek Alman haftanın günüdür.
+A1	Donnerstag	perşembe	Perşembe günü izinliyim.	'Donnerstag', gök gürültüsü tanrısı Thor/Donar'ın günüdür; İngilizce 'Thursday' ile aynı kök.
+A1	Freitag	cuma	Sonunda cuma!	'Freitag' tanrıça Frigg'den adını alır; Alman çalışma haftasının en iple çekilen günüdür.
+A1	Samstag	cumartesi	Cumartesi günü alışverişe çıkıyorum.	Güney Almanya 'Samstag' der; kuzey daha çok 'Sonnabend' der: bölgesel farklılıkların en bilinenlerinden biri.
+A1	Sonntag	pazar (gün)	Pazar günleri dükkânlar kapalı.	Almanya'da pazar günü yasayla korunur: neredeyse tüm dükkânlar bütün gün kapalı kalır.
+A1	Mutter	anne	Annem çok iyi yemek yapar.	'Mutter', en kararlı Hint-Avrupa sözcüklerinden biridir: düzinelerce dilde neredeyse aynıdır.
+A1	Vater	baba	Babam çok çalışıyor.	Alman Babalar Günü 'Vatertag' Göğe Yükseliş Günü'ne denk gelir ve geleneksel olarak bira ve el arabalarıyla yapılan bir erkek gezisidir.
+A1	Bruder	erkek kardeş, ağabey	Büyük bir ağabeyim var.	Çoğul 'Brüder' ses değişimi (umlaut) alır; tek heceli Almanca eril isimler için tipik bir kalıp.
+A1	Schwester	kız kardeş, abla	Kız kardeşim Köln'de yaşıyor.	'Geschwister', cinsiyet ayrımı olmadan bir grup olarak 'kardeşler' için toplu sözcüktür.
+A1	Großmutter	anneanne, babaanne	Büyükannem hikâye anlatmayı sever.	Gündelik konuşmada hemen herkes tam biçim 'Großmutter' yerine 'Oma' der.
+A1	Großvater	dede	Büyükbabam öğretmendi.	'Oma' gibi, 'Opa' da 'Großvater'ın sevgi dolu ve çok daha yaygın biçimidir.
+A1	Milch	süt	Süt içmiyorum.	Almanca'da 'keine Milch' ismi doğrudan olumsuzlar, İngilizce ise fiili 'don't' ile olumsuzlar.
+A1	Käse	peynir	Peynir çok lezzetli.	Almanya 600'den fazla peynir çeşidi üretir; yurtdışında Fransız veya İtalyan peynirleri kadar ünlü değil ama çok çeşitlidir.
+A1	Ei	yumurta	Kahvaltıda bir yumurta yiyorum.	'Ei' en kısa Almanca isimlerden biridir; çoğul 'Eier' koca bir heceyi daha ekler.
+A1	Fleisch	et	O et yemiyor.	'Kein Fleisch essen' vejetaryen olduğunuzu söylemenin standart yoludur; 'Vegetarier sein' demekten çok daha yaygındır.
+A1	Fisch	balık	Cuma günleri sık sık balık olur.	Cuma günleri balık yeme Katolik geleneği, dinî bir bağlam olmasa bile Alman yemekhane menülerinde sürmektedir.
+A1	Gemüse	sebze	Sebze yemeyi severim.	'Gemüse' tekil toplu bir isimdir: İngilizce 'vegetables'ın aksine yaygın bir çoğul biçimi yoktur.
+A1	Obst	meyve	Taze meyve alıyoruz.	'Gemüse' gibi 'Obst' da her zaman tekil toplu bir isimdir: 'üç meyve' denemez, 'drei Obstsorten' (üç tür meyve) gerekir.
+A1	Suppe	çorba	Çorba hâlâ sıcak.	Alman yemekhanelerinde çorba genellikle standart başlangıçtır ve öğle yemeğinde neredeyse her gün servis edilir.
+A1	Salz	tuz	Lütfen tuzu uzat.	Almanca'da mutfak deyimleri yaygındır; tuzla ilgili 'jemandem nicht das Salz in der Suppe gönnen' birinin en küçük başarısını bile çekememek demektir.
+A1	Zucker	şeker	Kahvemi şekersiz içerim.	'Zucker' Almanca'da da İngilizce'deki gibi neredeyse her zaman sayılamaz: 'etwas Zucker' (biraz şeker) denir, 'ein Zucker' denmez.
+A1	Bier	bira	İki bira lütfen.	Bir Alman barında birayı değişmeyen çoğul 'zwei Bier' ile sipariş edebilirsiniz; ek gerekmez.
+A1	Wein	şarap	Şarap bu bölgeden geliyor.	Moselle gibi Almanya'nın en ünlü şarap bölgeleri, İtalya'nın aksine çoğunlukla beyaz şarap üretir.
+A1	Tasse	fincan, kupa	Bir fincan çay istiyorum.	'Ich hätte gern' sipariş vermenin standart nazik yoludur; sade 'ich will' (istiyorum) ifadesinden daha kibardır.
+A1	Teller	tabak	Tabak boş.	'Einen Teller voll haben' ('tabağı dolu olmak') mecazen yapacak çok işi olmak için de kullanılır.
+A1	Messer	bıçak	Bıçak çok keskin.	'Auf Messers Schneide stehen' ('bıçak sırtında durmak') çok hassas bir durumda olmak demektir.
+A1	Gabel	çatal	Bir çatala daha ihtiyacım var.	'Gabel' sözcüğü 'gabeln' (çatallanmak) ile aynı kökü paylaşır; biçim, çatal uçlarını andırır.
+A1	Löffel	kaşık	Çorba için bir kaşık al.	'Über den Löffel balbieren' ('kaşıkla tıraş etmek') birini kandırmak anlamına gelen eski bir deyimdir.
+A1	Fenster	pencere	Lütfen pencereyi kapat.	'Fenster' Latince 'fenestra'dan gelir; günlük Almanca'da kalan az sayıdaki eski Romance ödünç sözcüklerden biridir.
+A1	Tür	kapı	Kapı açık.	Birçok Alman binasında yangın güvenliği kuralları nedeniyle kapılar koridora değil, daireye doğru içeri açılır.
+A1	Tisch	masa	Masada oturuyoruz.	'Reinen Tisch machen' ('masayı temizlemek') ortalığı bir kez ve kesin olarak berraklaştırmak demektir.
+A1	Stuhl	sandalye	Sandalye rahat.	Çoğul 'Stühle', tek heceli birçok yaygın eril isim gibi ses değişimi alır.
+A1	Bett	yatak	Erken yatıyorum.	'Ins Bett gehen' belirtme hâlini kullanır çünkü durağan bir konumu değil, bir yere doğru hareketi anlatır.
+A1	Schrank	dolap	Giysiler dolapta.	'Schrank' kapalı her mobilya için kullanılabilir: gardrop, büfe, hatta buzdolabı için bölgesel sözcük olan 'Kühlschrank'.
+A1	Lampe	lamba	Lambayı aç.	Işıklar için 'anmachen' gündelik ve çok yaygındır; daha resmî sözcük 'einschalten' olurdu.
+A1	Spiegel	ayna	Aynaya bakıyorum.	'In den Spiegel schauen' belirtme hâlini alır çünkü bakış aynaya yönelir; bir tür zihinsel harekettir.
+A1	Garten	bahçe	Yazın bahçede oturuyoruz.	Şehirde yaşayan birçok Alman, evin dışında küçük bir 'Schrebergarten' (kiralık bahçe) tutar; yüz yılı aşkın bir gelenek.
+A1	Blume	çiçek	Annem için çiçek alıyorum.	Almanya'da çift sayıda çiçek vermek kötü zevk sayılır; her zaman tek sayı tercih edilir.
+A1	Baum	ağaç	Evimizin önündeki ağaç çok eski.	'Tannenbaum' (çam ağacı) Alman Noel geleneklerinin merkezindedir ve ünlü ilahiye de adını vermiştir.
+A1	Hund	köpek	Köpeğimin adı Bruno.	Almanya'da köpeklerin birçok restorana, dükkâna ve toplu taşımaya girmesine izin verilir; çoğu zaman indirimli biletle.
+A1	Katze	kedi	Kedi bütün gün uyuyor.	'Die Katze im Sack kaufen' ('çuvaldaki kediyi satın almak') İngilizce 'to buy a pig in a poke' ile aynıdır: görmeden almak.
+A1	Vogel	kuş	Ağaçta bir kuş ötüyor.	'Einen Vogel haben' ('bir kuşu olmak') biraz çılgın olmak demektir; çok yaygın, gündelik bir ifadedir.
+A1	Pferd	at	O her cumartesi ata biniyor.	'Das Pferd von hinten aufzäumen' ('atı arkadan eyerlemek') bir sorunla ters yönden uğraşmak demektir.
+A1	rot	kırmızı	Kırmızı bir elbise giyiyor.	Almanca sıfatlar hâl, cinsiyet ve artikele göre değişen bir ek alır: buradaki 'rotes', nötr isim 'Kleid' ile uyumludur.
+A1	blau	mavi	Gökyüzü bugün mavi.	Konuşma dilinde 'blau sein' ('mavi olmak') yalnızca bir rengi anlatmakla kalmaz, 'sarhoş olmak' anlamına da gelir.
+A1	grün	yeşil	Çimen yeşil.	Almanya'nın ekolojist partisine kısaca 'Die Grünen' (Yeşiller) denir; Avrupa'nın en etkili partilerinden biridir.
+A1	gelb	sarı	Güneş sarı.	'Das ist nicht das Gelbe vom Ei' ('bu yumurtanın sarısı değil') bir şeyin pek de iyi olmadığı anlamına gelir.
+A1	schwarz	siyah	Siyah bir takım elbise giyiyor.	'Schwarzarbeit' (kara iş), beyan edilmemiş, kayıt dışı çalışma için yaygın kullanılan bir Almanca terimdir.
+A1	weiß	beyaz	Kar beyaz.	'Weiß' (beyaz) ve fiil biçimi 'ich weiß' ('wissen'den, biliyorum) aynı görünür ama ilgisizdir; öğrenenler için bir tuzaktır.
+A1	groß	büyük, uzun (boy)	Ev çok büyük.	Karşılaştırma hâlinde 'groß' düzensizleşir: 'größer, am größten', ses değişimi alır.
+A1	klein	küçük	Daire küçük ama sıcak.	'Klein aber fein' ('küçük ama güzel') kompakt ve iyi yapılmış bir şeyi tanımlamanın çok olumlu bir yoludur.
+A1	alt	eski, yaşlı	Bina çok eski.	Karşılaştırma hâlinde 'alt' 'älter' olur: ses değişimi tek heceli birçok Almanca sıfatta düzenli olarak görülür.
+A1	neu	yeni	Yeni bir telefonum var.	'alt'ın aksine 'neu' karşılaştırmada ses değişimi almaz: 'neuer, am neuesten'.
+A1	gut	iyi	Yemek lezzetli.	'Gut' karşılaştırmada düzensizdir: 'besser, am besten', tıpkı İngilizce 'good, better, best' gibi.
+A1	schlecht	kötü	Bugün kendimi iyi hissetmiyorum.	'Mir geht es schlecht' yönelme hâli 'mir'i kullanır: dilbilgisel olarak Almanca'da ruh hâliniz kontrol ettiğiniz bir şey değil, size 'olan' bir şeydir.
+A1	schnell	hızlı	Tren çok hızlı gidiyor.	Almanca'da birçok sıfat biçim değiştirmeden zarf olarak da çalışır; İngilizce ise çoğunlukla '-ly' ekler.
+A1	langsam	yavaş	Lütfen yavaş konuşun.	Birinden 'langsam' konuşmasını istemek, her yeni başlayanın öğrendiği ilk faydalı kalıplardan biridir.
+A1	heiß	sıcak, kaynar	Kahve hâlâ sıcak.	'Ein heißes Eisen' ('sıcak bir demir') dikkatli ele alınması gereken hassas bir konuyu ifade eder.
+A1	kalt	soğuk	Kışın hava çok soğuktur.	'Kalte Füße bekommen' ('ayakları soğumak') tıpkı İngilizce deyim gibi son anda cesaretini kaybetmek demektir.
+A1	müde	yorgun	Bugün çok yorgunum.	'Müde' hem bedensel yorgunluğu hem de sabrın tükenmesini anlatır: 'ich bin es müde' 'bundan bıktım' demektir.
+A1	hungrig	aç	Çocuklar aç.	Almanca'da hem 'hungrig sein' hem de 'Hunger haben' diyebilirsiniz; ikisi de gündelik konuşmada yaygındır.
+A1	durstig	susamış	Spordan sonra susuyorum.	'hungrig' gibi 'Durst haben' de vardır; iki yapı gündelik dilde birbirinin yerine kullanılabilir.
+A1	Auge	göz	Onun mavi gözleri var.	'Ein Auge zudrücken' ('bir gözü kapamak') küçük bir hatayı bağışlamak ya da bilerek görmezden gelmek demektir.
+A1	Hand	el	Lütfen bana elini ver.	'Hand' düzinelerce Almanca ifadede geçer: 'zur Hand haben' bir şeyi elinin altında bulundurmak demektir.
+A1	Kopf	baş, kafa	Başım ağrıyor.	Almanca'da ağrı çoğu zaman dolaylı yönelme hâliyle ifade edilir: tam biçim 'mein Kopf tut mir weh' (başım bana ağrıyor).
+A1	Fuß	ayak	İşe yürüyerek gidiyorum.	'Zu Fuß gehen' artikelsiz sabit bir ifadedir: bunun yerine 'mit dem Fuß' demek anlamı tamamen değiştirir.
+A1	Herz	kalp	Kalbim hızlı atıyor.	'Herz', tamlayan ve yönelme hâllerinde düzensiz çekimlenen az sayıdaki nötr isimden biridir: 'des Herzens', 'dem Herzen'.
+A1	krank	hasta	Bugün hastayım.	Almanya'da devamsızlığın üçüncü gününden itibaren neredeyse her zaman doktor raporu ('Krankschreibung') gerekir.
+A1	gesund	sağlıklı	O çok sağlıklı besleniyor.	'Gesund', birisi hapşırdıktan sonra söylenen iyi dilek 'Gesundheit'ın da köküdür.
+A1	Woche	hafta	Gelecek hafta yola çıkıyorum.	'Nächste Woche' Almanca'da edat gerektirmez; 'gelecek hafta' için edat kullanan bazı diğer dillerin aksine.
+A1	Monat	ay (takvim)	İlk ay zordu.	'Monat', 'Mond' (ay, gök cismi) ile aynı kökü paylaşır: Almanca'da ay, birçok dildeki gibi ay döngüsünden gelir.
+A1	Jahr	yıl	Bir yıldır Almanca öğreniyorum.	'Seit einem Jahr', 'seit'ten sonra yönelme hâlini şimdiki zamanla birlikte kullanır; 'çalıştım' gibi geçmiş zaman değil.
+A1	heute	bugün	Bugün ne yapıyorsun?	'Heute' cümlede sık sık ilk sıraya gelir ve V2 kuralı gereği fiili ikinci sıraya iter.
+A1	morgen	yarın	Yarın izinliyim.	Küçük harfli 'morgen' 'yarın' zarfıdır; büyük harfli 'Morgen' 'sabah' ismidir: büyük harf her şeyi değiştirir.
+A1	gestern	dün	Dün sinemadaydım.	'gestern' ile konuşma Almancası neredeyse her zaman yazıda kullanılan basit geçmiş yerine Perfekt'i ('war', 'bin gegangen') kullanır.
+A1	jetzt	şimdi	Şimdi gitmem lazım.	'heute' gibi 'jetzt' de cümlenin başına gelince sık sık fiili ikinci sıraya iter.
+A1	spät	geç	Çok geç oldu.	'Besser spät als nie' ('hiç olmamasından geç olması iyi') İngilizce ile birebir örtüşür; nadir bir tam kalıp çeviridir.
+A1	früh	erken	Erken kalkıyorum.	'Früh', 'Frühstück'ün (kahvaltı) köküdür; kelimesi kelimesine öğünün 'erken parçası'.
+A1	Zeit	zaman, vakit	Vaktim yok.	'Keine Zeit haben' ifadesinde 'kein' 'Zeit' ismini doğrudan olumsuzlar; İngilizce ise 'have' fiilini olumsuzlar.
+A1	Uhr	saat (alet), saat (zaman)	Saat üç.	'Uhr' hem saatin kendisi için hem de tam saati belirtmek için kullanılır, İngilizce 'o'clock' gibi.
+A1	Schule	okul	Çocuklar okula gidiyor.	'In die Schule gehen' belirtme hâlini kullanır çünkü belirli bir yere doğru hareketi anlatır.
+A1	Lehrer	öğretmen	Öğretmenim çok sabırlı.	Dişil biçim 'Lehrerin'dir: hemen her Almanca meslek isminin dişili '-in' ile biter.
+A1	Schüler	öğrenci (okul)	Öğrenci çalışkanca ders çalışıyor.	'Schüler' zorunlu eğitim için kullanılır; üniversiteye gidince 'Student' olursunuz, artık 'Schüler' değil.
+A1	Auto	araba	Arabayla gidiyoruz.	'Mit dem Auto fahren' 'mit'ten sonra yönelme hâlini kullanır; günlük Almanca'nın en sık yönelme hâli edatlarından biri.
+A1	Fahrrad	bisiklet	Bisiklete binmeyi severim.	Birçok Alman şehrinde bisiklet ana günlük ulaşım aracıdır ve her yerde bisiklet yolları vardır.
+A1	Bus	otobüs	Otobüs birazdan geliyor.	'Bus', Latince 'omnibus' (herkes için) sözcüğünün kısaltılmış ödünç hâlidir; Almanca'ya Fransızca üzerinden girmiştir.
+A1	Flugzeug	uçak	Uçak zamanında iniyor.	'Flugzeug' saydam bir bileşiktir: 'Flug' (uçuş) + 'Zeug' (alet/şey) — kelimesi kelimesine 'uçan alet'.
+A1	Schiff	gemi	Gemi Norveç'e gidiyor.	Hamburg, Avrupa'nın en büyük limanlarından birine sahiptir ve tarihi denizciliğe derinden bağlıdır.
+A1	Taxi	taksi	İstasyona taksi tutuyoruz.	Birçok Alman şehrinde taksiler neredeyse birbirinin aynıdır — çoğunlukla krem rengi Mercedes — ve belediyece belirlenen sabit tarifeyle çalışır.
+A1	Koffer	bavul	Bavulum çok ağır.	Alman düşük maliyetli havayolları el bagajının ağırlığını çok sıkı kontrol eder.
+A1	Pass	pasaport	Pasaportuma ihtiyacım var.	Schengen Bölgesi içinde artık pasaport gerekmez ama geçerli bir kimlik belgesi hâlâ zorunludur.
+A1	Karte	bilet, kart, harita	Tren için bir bilet alıyorum.	'Karte' çok yönlü bir sözcüktür: bağlama göre bilet, kredi kartı, kartpostal ya da harita demektir.
+A1	Geschäft	dükkân, iş (ticaret)	Dükkân saat on sekizde kapanıyor.	'Geschäft' hem fiziksel dükkânı hem de soyut anlamda bir ticari anlaşmayı ifade eder: tek sözcükte iki anlam.
+A1	Preis	fiyat, ödül	Fiyat çok yüksek.	'Preis' hem 'fiyat' hem 'ödül' demektir: 'Nobelpreis' bir ödüldür, ödenecek bir fiyat değil.
+A1	billig	ucuz	Otel çok ucuzdu.	'Billig' çoğu zaman düşük kaliteye dair hafif olumsuz bir çağrışım taşır; 'günstig' (uygun fiyatlı) daha tarafsız ve olumlu duyulur.
+A1	teuer	pahalı	Kira çok pahalı.	Münih veya Berlin gibi büyük Alman şehirlerinde kiralar son on yılda muazzam arttı.
+A1	Miete	kira	Her ay kira ödüyoruz.	Standart Alman kira sözleşmesi süresizdir: belirli süreli sözleşmeler kural değil, istisnadır.
+A1	Nummer	numara	Numaran kaç?	'Nummer' tanımlayıcı numaraları (telefon, ev) ifade eder; saf matematik için bunun yerine 'Zahl' kullanılır.
+A1	Adresse	adres	Bana adresini verebilir misin?	Almanca'da adres, posta kodu ve şehirden önce sokak ve ev numarasıyla yazılır; İngilizce'den farklı bir sıra.
+A1	E-Mail	e-posta	Sana bir e-posta yazacağım.	Almanca'da 'E-Mail' dişildir, İngilizce'de dilbilgisel cinsiyet olmamasına rağmen: ödünç sözcükler cinsiyetlerini çoğu zaman benzer bir Almanca sözcüğe ('die Post') benzetmeyle alır.
+A1	Telefon	telefon	Telefon çalıyor.	'Telefon' nötrdür; 'Handy' (cep telefonu, İngilizce'de bu anlamda var olmayan icat edilmiş bir Almanca sözcük) de nötrdür.
+A1	Handy	cep telefonu	Cep telefonum bozuk.	'Handy' İngilizce bir sözcüğe benzer ama sahte bir ödünçtür: İngiliz veya Amerikan İngilizcesi'nde bu anlamla hiç kullanılmaz.
+A1	Computer	bilgisayar	Bilgisayar çok yavaş.	Almanca'da 'Computer' ikinci hecede vurgulanır; İngilizce'den farklı.
+A1	Internet	internet	İnternetimiz yok.	Almanya'nın birçok kırsal bölgesinde internet bağlantıları diğer büyük Avrupa ekonomilerine kıyasla şaşırtıcı biçimde daha yavaştır.
+A1	Musik	müzik	Müzik dinlemeyi severim.	Almanya'nın çok uzun bir klasik müzik geleneği vardır: Bach, Beethoven ve Brahms'ın hepsi Alman'dı.
+A1	Film	film	Film çok heyecanlıydı.	Almanya'da yabancı filmler, diğer Avrupa ülkelerindeki gibi altyazılı değil, neredeyse her zaman Almanca'ya dublajlanır.
+A1	Bild	resim, fotoğraf	Resim duvarda asılı.	'Ein Bild von einem Menschen' ('bir insan resmi') birinin çok yakışıklı/güzel olduğunu söylemek için bir deyimdir.
+A1	Farbe	renk	Hangi rengi seversin?	'Farbe bekennen' ('rengi itiraf etmek') fikrini açıkça söylemek demektir; ifade kâğıt oyunlarından gelir.
+A1	Papier	kâğıt	Bir kâğıda ihtiyacım var.	Almanya, güçlü bir geri dönüşüm kültürüne rağmen kişi başına en yüksek kâğıt tüketimine sahip Avrupa ülkeleri arasındadır.
+A1	Stift	kalem	Bana verecek bir kalemin var mı?	'Stift' yazı araçları için genel bir terimdir; kesin olmak için 'Kugelschreiber' (tükenmez kalem) veya 'Bleistift' (kurşun kalem) denir.
+A1	Tasche	çanta, cep	Anahtarım cebimde.	'Tasche' hem 'çanta' hem de giysi 'cebi' demektir; bağlam hangisinin kastedildiğini açıklar.
+A1	Schlüssel	anahtar	Anahtarımı kaybettim.	'Der Schlüssel zum Erfolg' ('başarının anahtarı') Almanca ve İngilizce'de aynı olan mecazi bir ifadedir.
+A1	Regenschirm	şemsiye	Şemsiyeni yanına al.	'Regenschirm' saydam bir bileşiktir: 'Regen' (yağmur) + 'Schirm' (perde/kalkan).
+A1	Sonnenbrille	güneş gözlüğü	Yazın güneş gözlüğü takarım.	'Brille' bir çift gözlük için Almanca'da her zaman tekildir; İngilizce ise çoğul 'glasses' kullanır.
+A1	Hemd	gömlek	O beyaz bir gömlek giyiyor.	'Das Hemd ist mir näher als der Rock' ('gömlek bana etekten daha yakın') Almanca'da 'hayır eve yakından başlar' demenin yoludur.
+A1	Hose	pantolon	Bu pantolon bana olmuyor.	'Hose' Almanca'da her zaman tekildir, İngilizce 'trousers' ise çoğuldur: öğrenenler için klasik bir tuzak.
+A1	Schuh	ayakkabı	Ayakkabılarım yeni.	'Wo drückt der Schuh?' ('ayakkabı nerede sıkıyor?') mecazen 'sorun ne?' demektir.
+A1	Jacke	ceket, mont	Ceketini giy, hava soğuk.	'Anziehen' ayrılabilir: şimdiki zamanda 'ich ziehe an' olur ve 'an-' öneki cümlenin sonuna gider.
+A1	Mütze	bere, kasket	Kışın bere takarım.	'Mütze' yumuşak, siperliksiz şapkaları ifade eder; sert ve siperlikli bir şapka için Almanca 'Hut' veya 'Kappe' kullanır.
+A1	Sommer	yaz	Yazın denize gidiyoruz.	'Sommerferien' (yaz tatili) Almanya'da bölgeye göre değişir; bu yüzden herkes aynı anda seyahat etmez.
+A1	Winter	kış	Kış burada çok soğuk.	Birçok Alman bölgesinde Noel pazarları Kasım sonunda açılır ve kışın merkezî bir parçasıdır.
+A1	Frühling	ilkbahar	İlkbaharda çiçekler açıyor.	'Frühling', 'früh' (erken) ile aynı kökü paylaşır: kıştan sonra 'erken' gelen mevsim.
+A1	Herbst	sonbahar	Sonbaharda yapraklar renklenir.	Almanya'nın birçok yerinde sonbahar, yaprakların rengi nedeniyle sevgiyle 'goldener Herbst' (altın sonbahar) diye anılır.
+A1	Sonne	güneş	Bugün güneş parlıyor.	'Sonne' (güneş) Almanca'da dişildir, 'Mond' (ay) ise eriltir: birçok Romance dilinin tam tersi.
+A1	Regen	yağmur	Yağmur dinmiyor.	'Aufhören' ayrılabilir: şimdiki zamanda 'hört auf' olur, önek ana cümlenin sonunda ayrılır.
+A1	Schnee	kar	Çok kar var.	'Schnee von gestern' ('dünün karı') 'olan oldu' demenin Almanca karşılığıdır: artık önemi kalmamış bir şey.
+A1	Wind	rüzgâr	Bugün rüzgâr güçlü.	Kuzey Denizi kıyısındaki Kuzey Almanya, Avrupa'nın en rüzgârlı bölgelerinden biridir ve çok sayıda rüzgâr çiftliğine ev sahipliği yapar.
+A1	Berg	dağ	Dağa tırmanıyoruz.	'Auf den Berg' belirtme hâlini kullanır çünkü sabit bir konumu değil, zirveye doğru hareketi anlatır.
+A1	Fluss	nehir	Ren büyük bir nehir.	Ren, Almanya'dan güneyden kuzeye akar ve tarihsel olarak ülkenin en önemli ticaret yoludur.
+A1	See	göl	Gölde yüzüyoruz.	Dikkat: 'der See' (eril) göldür, 'die See' (dişil) ise Kuzey Almanca kullanımında 'deniz' demektir.
+A1	Meer	deniz	Tatilde denize gidiyoruz.	'Ans Meer fahren', 'an das' → 'ans' kısaltmasını kullanır; edatlar ve nötr artikellerle çok yaygındır.
+A1	Wald	orman	Ormanda yürüyüşe çıkıyoruz.	Orman, Grimm Kardeşler masallarından modern çevre hareketine kadar Almanya'da derin bir kültürel anlam taşır.
+A1	Blatt	yaprak, kâğıt (sayfa)	Sarı bir yaprak ağaçtan düşüyor.	'Blatt' hem 'yaprak' hem 'kâğıt yaprağı' demektir: ince ve düz bir şeyin aynı imgesi.
+A1	Feuer	ateş	Şömine'de ateş yanıyor.	'Feuer und Flamme sein' ('ateş ve alev olmak') bir şeye gerçekten hevesli olmak demektir.
+A1	Licht	ışık	Işığı kapat.	'Ausmachen' ayrılabilir: emir kipinde 'mach aus' olur, önek sonda ayrılır.
+A1	Musikinstrument	müzik aleti	O bir müzik aleti çalıyor.	Birçok Alman okulunda bir müzik aleti öğrenmek ilkokuldan itibaren müfredatın parçasıdır.
+A1	Gitarre	gitar	O gitarı iyi çalıyor.	Almanca'da enstrümanın önünde artikel olmadan 'Gitarre spielen' denir, İngilizce 'play the guitar'ın aksine.
+A1	Klavier	piyano	Kızım piyano öğreniyor.	'Klavier' Fransızca 'clavier'den gelir; diğer Germen dilleri ise farklı bir ödünç sözcük olan 'Piano'yu tercih eder.
+A1	singen	şarkı söylemek	Çocuklar bir şarkı söylüyor.	'Singen' güçlü düzensiz bir fiildir: 'sang, gesungen'; eski Germen fiillerine özgü ünlü değişimi ile.
+A1	tanzen	dans etmek	Partilerde dans etmeyi severiz.	'Tanzen' düzenlidir: 'tanzte, getanzt'; birçok eski Germen hareket fiilinin aksine.
+A1	spielen	oynamak, çalmak (enstrüman)	Çocuklar parkta oynuyor.	'Spielen' hem oynamak hem enstrüman çalmak için kullanılır: bağlam iki anlamı ayırır.
+A1	lachen	gülmek	Çok güldük.	'Lachen' Perfekt'te düzenlidir: 'haben gelacht'; hareket anlatmadığı için 'haben' kullanır.
+A1	weinen	ağlamak	Bebek çok ağlıyor.	'Weinen' (ağlamak) ve 'Wein' (şarap) benzer görünür ama etimolojik olarak hiç ilgili değildir.
+A1	helfen	yardım etmek	Bana yardım edebilir misin?	'Helfen' yönelme hâlini alır: 'mir helfen'; birebir 'help me' gibi belirtme hâli değil.
+A1	danken	teşekkür etmek	Yardımın için sana teşekkür ederim.	'Danken' yönelme hâlini alır: 'dir danken'; birebir 'thank you' belirtme hâlini akla getirirdi.
+A1	fragen	sormak	Sana bir şey sorabilir miyim?	'Fragen' kişi için belirtme hâlini alır: 'ich frage dich'; yönelme hâli isteyen 'helfen' ve 'danken'in aksine.
+A1	antworten	cevap vermek	Lütfen bana yakında cevap ver.	'Antworten', cevap verilen kişinin yönelme hâlini alır: 'mir antworten', belirtme hâli değil.
+A1	verstehen	anlamak	Bunu anlamıyorum.	'Verstehen', 'ver-' ayrılabilir önek gibi görünse de ayrılmaz: ayrılmaz önekli sınıfa aittir.
+A1	wissen	bilmek (bilgi)	Cevabı bilmiyorum.	'Wissen' somut bilgiler için kullanılır; insanları veya yerleri bilmek için Almanca bunun yerine 'kennen' kullanır: İngilizce'nin yapmadığı bir ayrım.
+A1	kennen	tanımak, bilmek (kişi/yer)	Bu şehri iyi tanıyorum.	'Kennen' ve 'wissen' İngilizce'de ikisi de 'to know' diye çevrilir, ama Almanca'da asla birbirinin yerine kullanılmaz.
+A1	denken	düşünmek	Seni sık sık düşünüyorum.	'Denken an' belirtme hâlini alır: 'an dich denken' — ezberlemeye değer sabit bir yapı.
+A1	glauben	inanmak, sanmak	Bunun doğru olduğuna inanıyorum.	'Glauben', bir kişiye inanırken yönelme hâlini alır ('ich glaube dir'); bir olguya inanırken özel bir hâl almaz.
+A1	mögen	sevmek, hoşlanmak	Bu müziği seviyorum.	'Mögen' düzensiz bir kip fiilidir: 'ich mag, du magst, er mag'; mastardan farklı ünlüyle.
+A1	wollen	istemek	Eve gitmek istiyorum.	Kip fiili olarak 'wollen' ana fiili cümle sonunda mastara gönderir: 'ich will gehen'.
+A1	können	-ebilmek, yapabilmek	Yüzebilir misin?	'Können' hem fiziksel yeteneği hem öğrenilmiş bir beceriyi ifade eder: 'ich kann schwimmen' 'nasıl yüzüleceğini biliyorum' demektir.
+A1	müssen	-mek zorunda olmak	Şimdi gitmem gerekiyor.	'Müssen' nesnel gerekliliği ifade eder; ahlaki veya toplumsal yükümlülük için çoğunlukla bunun yerine 'sollen' tercih edilir.
+A1	sollen	-meli, -mesi beklenmek	Daha çok uyumalısın.	'Sollen' tavsiye ya da dışarıdan gelen bir beklentiyi ifade eder; 'müssen'in ifade ettiği pratik zorunluluktan farklıdır.
+A1	Zimmer aufräumen	odayı toplamak	Odamı toplamam gerekiyor.	'Aufräumen' ayrılabilir: şimdiki zamanda 'räume auf' olur, önek ana cümlenin sonunda ayrılır.
+A1	Tisch decken	sofrayı kurmak	Lütfen sofrayı kurar mısın?	'Den Tisch decken' sabit bir ifadedir: 'decken' tek başına diğer bağlamlarda 'kurmak' değil 'örtmek' demektir.
+A1	Bett machen	yatağı toplamak	Her sabah yatağımı topluyorum.	'Machen' en çok yönlü Almanca fiillerden biridir: 'Kaffee machen', 'Hausaufgaben machen', 'Bett machen' — hepsi farklı anlamlar.
+A1	Zähne putzen	diş fırçalamak	Dişlerimi fırçalıyorum.	'Sich die Zähne putzen' yönelme hâlindeki dönüşlü 'mir' ile belirtme hâlindeki 'die Zähne'yi kullanır — Almanca'ya özgü ikili bir yapı.
+A1	duschen	duş almak	Her sabah duş alırım.	'Duschen', Fransızca üzerinden İtalyanca 'doccia'dan gelen bir ödünç sözcüktür ve Almanca'ya ancak 19. yüzyılda girmiştir.
+A1	sich anziehen	giyinmek	Çabuk giyiniyorum.	'Sich anziehen' aynı anda hem dönüşlü hem ayrılabilirdir: tek fiilde iki dilbilgisel karmaşıklık.
+A1	Frühstück	kahvaltı	Nadiren kahvaltı ederim.	Geleneksel bir Alman kahvaltısı ekmek, peynir ve soğuk etleri içerir; tatlı bir İtalyan kahvaltısından çok farklıdır.
+A1	Mittagessen	öğle yemeği	Öğle yemeğinde ne var?	'Zum Mittagessen', 'zu dem' → 'zum' kısaltmasını kullanır; eril ve nötr isimlerin önünde çok yaygındır.
+A1	Abendessen	akşam yemeği	Akşam yemeği hazır.	Birçok Alman ailesinde akşam yemeği ekmek ve soğuk etlerden oluşan soğuk bir öğündür; sıcak yemek öğlen yenir.
+A1	Restaurant	restoran	Bugün restorana gidiyoruz.	'Ins Restaurant', 'in das' → 'ins' kısaltmasını kullanır: bir yere doğru hareket her zaman belirtme hâlini alır.
+A1	Speisekarte	menü	Menüyü alabilir miyiz?	'Speisekarte' bir bileşiktir: 'Speise' (yemek) + 'Karte' (kart), kelimesi kelimesine 'yemek kartı'.
+A1	bestellen	sipariş vermek	Sipariş vermek istiyorum, lütfen.	'Bestellen', 'be-' ile başlamasına rağmen ayrılabilir değildir: bu önekli fiiller her zaman ayrılmazdır.
+A1	zahlen	ödemek	Ödeyebilir miyiz lütfen?	'Zahlen' ve 'bezahlen' neredeyse eş anlamlıdır, ama 'zahlen' restoran hesabı bağlamında daha tipiktir.
+A1	elf	on bir	Sınıfta on bir öğrenci var.	'Elf' ve 'zwölf', on ile yirmi arasında Alman sayı sisteminin tek istisnalarıdır: '-zehn' kalıbını izlemezler.
+A1	zwölf	on iki	Günde on iki saat ışık var.	'Ein Dutzend' (bir düzine) tam olarak 'zwölf'e karşılık gelir — fırıncıda hâlâ kullanılan bir birim.
+A1	zwanzig	yirmi	O yirmi yaşında.	'zwanzig'den itibaren tüm sayılar toplamayla oluşur: 'einundzwanzig' kelimesi kelimesine 'bir ve yirmi'.
+A1	dreißig	otuz	O yakında otuz olacak.	'dreißig'den itibaren Almanca onluklar düzensiz bir sonek ('-ßig') taşır; 'zwanzig', 'vierzig' vb.'nin olağan '-zig'inden farklı.
+A1	hundert	yüz	Kitap yüz sayfa.	'Hundert' önünde belirsiz artikel 'ein' gerektirmez; birçok diğer dilin aksine.
+A1	Onkel	amca, dayı	Amcam Berlin'de yaşıyor.	'Onkel' Fransızca 'oncle'dan gelir: 18. yüzyıl aristokrat kültürü yoluyla Almanca'ya giren birçok Romance ödünç sözcüğünden biri.
+A1	Tante	teyze, hala	Teyzem bizi sık sık ziyaret ediyor.	'Onkel' gibi 'Tante' de bir Fransızca ödünç sözcüktür; 18. yüzyılda birçok saray sözcüğüyle birlikte Almanca'ya girmiştir.
+A1	Cousin	kuzen (erkek)	Kuzenim tıp okuyor.	'Cousin' telaffuzu özgün Fransızca'ya çok yakın kalır ve sondaki genizsi sesi korur.
+A1	Baby	bebek	Bebek şu an uyuyor.	'Baby' İngilizce'den doğrudan bir ödünç sözcüktür; yazımı değişmeden korunmuş ama gelenek gereği nötr cinsiyet verilmiştir.
+A1	Nachbarschaft	mahalle, komşuluk	Mahalle çok sakin.	'-schaft' eki, 'Freundschaft' (arkadaşlık) veya 'Gesellschaft' (toplum) gibi dişil soyut isimler yapar.
+A1	Postamt	postane	Postane hemen köşede.	Bugün birçok Alman kasabasında posta gişeleri çoğunlukla ayrı binalarda değil, kırtasiyelerde veya gazete bayilerinde bulunur.
+A1	Bank	banka	Bankaya gidiyorum.	Dikkat: 'die Bank' 'banka' demektir, ama 'die Bank' aynı zamanda 'bank (oturak)' demektir — aynı sözcük, farklı bağlam.
+A1	Apotheke	eczane	Eczane bugün nöbetçi.	Alman eczaneleri büyük, stilize kırmızı bir 'A' ile işaretlenir; her kasabada tanınır.
+A1	Supermarkt	süpermarket	Süpermarketten alışveriş yapıyorum.	'Im Supermarkt' ile 'einkaufen' tek bir hareketi değil, alışkanlık hâline gelmiş bir eylemi anlatır; bu yüzden yönelme hâli alır.
+A1	Kino	sinema	Bugün sinemaya gidelim mi?	'Ins Kino gehen', yere doğru hareket için her zaman belirtme hâlini alan sabit bir ifadedir.
+A1	Theater	tiyatro	O tiyatroya gitmeyi seviyor.	Kamu tarafından sübvanse edilen tiyatro Almanya'da yaygındır: hemen her orta büyüklükteki şehrin kendi Stadttheater'ı vardır.
+A1	Museum	müze	Müze pazar günleri kapalı.	Berlin'in bir 'Museumsinsel'i (müze adası) vardır; küçük bir adada beş büyük müzeyle UNESCO Dünya Mirası alanıdır.
+A1	Park	park	Parkta yürüyüş yapıyoruz.	'Einen Spaziergang machen' 'yürüyüşe çıkmak' demenin standart yoludur; düz 'spazieren' fiilinden daha yaygındır.
+A1	Krankenwagen	ambulans	Hemen bir ambulans çağır!	Almanya'da tek acil numara 112'dir; ambulans, itfaiye ve polis için tüm AB'de geçerlidir.
+A1	Polizei	polis	Polis birazdan geliyor.	'Polizei' Almanca'da da İngilizce'deki gibi her zaman tekil toplu bir isimdir: çoğul 'Polizeien' yoktur.
+A1	Feuerwehr	itfaiye	İtfaiye yangını söndürüyor.	'Feuerwehr' bir bileşiktir: 'Feuer' (ateş) + 'Wehr' (savunma), kelimesi kelimesine 'ateşe karşı savunma'.
+A1	Beruf	meslek	Mesleğin nedir?	'Beruf', 'berufen' (çağırmak) ile aynı kökü paylaşır: tarihsel olarak yalnızca bir iş değil, gerçek bir çağrı anlamına gelirdi.
+A1	Ingenieur	mühendis	Babam mühendis.	Almanca'da 'sein' (olmak) fiilinden sonra meslekler artikelsiz kullanılır: 'ich bin Lehrer', 'ich bin ein Lehrer' değil.
+A1	Krankenschwester	hemşire	Hemşire çok nazik.	Eril biçim 'Krankenpfleger' bu meslekte cinsiyetten bağımsız bir terim olarak giderek daha çok kullanılıyor.
+A1	Koch	aşçı	Aşçı yemeği hazırlıyor.	'Zubereiten' tarihsel olarak karışık bir önek taşır, ama modern kullanımda her zaman ayrılmazdır.
+A1	Verkäufer	satıcı, tezgâhtar	Satıcı bana memnuniyetle yardım ediyor.	'Verkäufer', 'verkaufen' (satmak) fiilinden Almanca'da çok üretken olan '-er' fail ekiyle türer.
+A1	Sekretärin	sekreter (kadın)	Sekreter tüm randevuları düzenliyor.	'-in' eki hemen her Almanca meslek ismini dişil yapar: 'Sekretär' → 'Sekretärin'.
+A1	Chef	patron, şef	Patronum çok sert.	'Chef' Fransızca'dan gelir ve başta 'sh' sesiyle özgün telaffuzunu korur; Almanca bir 'k' sesi değildir.
+A1	Firma	şirket	Şirketin birçok çalışanı var.	'Firma', düzensiz çoğulu 'Firmen'de bile dişil kalan, '-a' ile biten nadir Almanca isimlerden biridir.
+A1	Büro	büro, ofis	Ofiste çalışıyorum.	'Im Büro arbeiten' yönelme hâlini kullanır çünkü bir yere doğru hareketi değil, sabit bir konumu anlatır.
+A1	Meeting	toplantı	Toplantı ona başlıyor.	Almanca 'Besprechung' sözcüğü olmasına rağmen 'Meeting' artık şirket dilinde son derece yaygındır.
+A1	Pause	mola	Şimdi mola veriyoruz.	'Pause machen' sabit bir ifadedir: bu bağlamda 'Pause'nin önünde belirsiz artikel gerekmez.
+A1	Ferien	tatil (okul)	Çocukların yakında tatili var.	'Ferien' Almanca'da her zaman çoğuldur ve okul tatillerini ifade eder; işten izin için Almanca bunun yerine 'Urlaub' kullanır.
+A1	Geburtstag	doğum günü	Doğum günün kutlu olsun!	Almanya'da birine doğum gününü önceden kutlamanın uğursuzluk getirdiği düşünülür; insanlar her zaman tam günü bekler.
+A1	Fest	parti, bayram, şenlik	Büyük bir parti veriyoruz.	'Fest', 'Festival', 'Oktoberfest' ve Alman kutlamalarına bağlı birçok başka sözcüğün köküdür.
+A1	Weihnachten	Noel	Noel'i ailemizle kutluyoruz.	'Weihnachten' tarihsel olarak dilbilgisinde hem tekil hem çoğuldur; bugün neredeyse her zaman nötr tekil olarak ele alınır.
+A1	Ostern	Paskalya	Paskalya'da büyükanne ve büyükbabayı ziyaret ediyoruz.	'Ostern', 'Osten' (doğu) ile aynı kökü paylaşır: bazı kuramlar onu eski bir Germen şafak tanrıçasının adına bağlar.
+A1	Silvester	yılbaşı gecesi	Yılbaşı gecesi havai fişek var.	'Silvester', Katolik takviminde yortusu 31 Aralık'a düşen Papa I. Sylvester'ın adını taşır.
+A1	Geschenk machen	hediye vermek	Sana bir hediye vermek istiyorum.	'Jemandem ein Geschenk machen', hediyeyi alan kişi için yönelme hâlini, hediyenin kendisi için belirtme hâlini kullanır.
+A1	gratulieren	tebrik etmek	Doğum günün kutlu olsun.	'Gratulieren' kişinin yönelme hâlini alır: 'dir gratulieren'; Almanca'nın birçok yönelme hâlli fiilinden bir diğeri.
+A1	einladen zur Feier	kutlamaya davet etmek	Tüm arkadaşlarımızı kutlamaya davet ediyoruz.	'Zur Feier', 'zu der Feier' kısaltmasıdır: 'zu' her zaman yönelme hâlini alır.
+A1	Wohnzimmer	oturma odası	Oturma odasında oturuyoruz.	'Wohnzimmer' saydam bir bileşiktir: 'wohnen' (yaşamak) + 'Zimmer' (oda) — en çok zaman geçirdiğiniz oda.
+A1	Schlafzimmer	yatak odası	Yatak odası yukarıda.	Birçok Alman evinde yatak odaları yukarıdadır; oturma odası ve mutfak zemin katta kalır.
+A1	Badezimmer	banyo	Banyo boş.	Birçok Alman dairesinde tuvalet ('Toilette'), duşlu veya küvetli banyodan ayrı bir odadadır.
+A1	Keller	kiler, bodrum	Şarap şişeleri bodrumda.	Hemen her Alman evinde depo, şarap mahzeni veya hobi odası olarak kullanılan bir Keller vardır; tipik bir mimari özelliktir.
+A1	Dach	çatı	Çatı kırmızı.	Kırmızı eğimli çatılar, özellikle güneyde birçok Alman kasabasının mimarisinin belirgin bir özelliğidir.
+A1	Balkon	balkon	Kahvaltıyı balkonda yapıyoruz.	'Auf dem Balkon' yönelme hâlini kullanır çünkü balkona doğru hareketi değil, bir konumu anlatır.
+A1	Aufzug	asansör	Asansör bozuk.	'Aufzug', 'aufziehen' (yukarı çekmek) fiilinden gelir — bölgesel olarak kullanılan Fransızca kökenli 'Lift'ten çok daha somut bir terimdir.
+A1	Treppe	merdiven	Merdivenden yukarı çıkıyorum.	'Die Treppe hoch gehen' yaygın bir konuşma yapısıdır; daha resmî 'die Treppe hinaufgehen'in alternatifidir.
+A1	Nachricht schicken	mesaj göndermek	Sana bir mesaj göndereceğim.	'Schicken', kişi için yönelme hâlini, gönderilen şey için belirtme hâlini alır: 'dir eine Nachricht schicken'.
+A1	anrufen bitte	lütfen aramak	Vardığında lütfen beni ara.	'Anrufen' ayrılabilir: emir kipinde 'ruf an' olur, önek sonda ayrılır.
+A1	warten	beklemek	Seni bekliyorum.	'Warten auf' belirtme hâlini alır: 'auf dich warten'; fiille birlikte ezberlenecek sabit bir yapı.
+A1	suchen	aramak	Anahtarımı arıyorum.	'Suchen' her zaman edatsız, doğrudan belirtme hâli nesnesi alır; birçok Romance dilinin aksine.
+A1	finden	bulmak	Gözlüğümü bulamıyorum.	'Finden' aynı zamanda görüş bildirmek için de kullanılır: 'ich finde das gut' 'bence bu iyi' demektir.
+A1	verlieren	kaybetmek	Şemsiyemi kaybettim.	'Verlieren' güçlü düzensiz bir fiildir: 'verlor, verloren'; ünlü iki kez değişir.
+A1	bringen	getirmek	Bana su getirebilir misin?	'Bringen' kişi için yönelme hâlini, getirilen şey için belirtme hâlini alır — yaygın bir çift nesneli yapı.
+A1	nehmen	almak	Saat sekizde otobüse biniyorum.	'Nehmen' düzensizdir: 'du nimmst, er nimmt'; birçok güçlü fiile özgü e-i ünlü değişimiyle.
+A1	geben	vermek	Lütfen bana kitabı ver.	'Es gibt' ('var') en çok kullanılan Almanca yapılardan biridir ve her zaman yalın değil, belirtme hâlini alır.
+A1	sehen	görmek	Seni yarın görürüm.	'Sehen' ikinci ve üçüncü kişide düzensizdir: 'du siehst, er sieht'; e-ie ünlü değişimiyle.
+A1	hören	duymak, dinlemek	Radyo dinlemeyi severim.	'Hören' 'sehen'in aksine düzenlidir; Almanca duyu fiillerinin tek bir kalıbı izlemediğinin iyi bir örneği.
+A1	riechen	koklamak, kokmak	Yemek güzel kokuyor.	'Riechen' hem bir kokuyu algılamayı hem de koku yaymayı anlatabilir: 'ich rieche das' ve 'es riecht gut' aynı fiili kullanır.
+A1	schmecken	tadı olmak, tatmak	Çorba çok lezzetli.	'Schmecken', kimin beğendiğini belirtirken yönelme hâlini alır: 'es schmeckt mir' 'tadını beğeniyorum' demektir.
+A1	fühlen	hissetmek	Bugün kendimi iyi hissediyorum.	'Sich fühlen' dönüşlüdür: 'mich' zamiri zorunludur ve konuşan kişiye göre değişir.
+A1	Kleidung	giysi, kıyafet	Buradaki giysiler pahalı.	'Kleidung', 'Gemüse' veya 'Obst' gibi her zaman tekil olan, yaygın çoğulu bulunmayan toplu bir isimdir.
+A1	Rock	etek	Etek çok uzun.	Almanca'da 'Rock' 'etek' demektir; taş ya da müzik türü 'rock' değil: İngilizce konuşanlar için klasik bir sahte dosttur.
+A1	Kleid	elbise	Elbise sana çok yakışıyor.	'Kleid' çoğulu 'Kleider' biçiminde genel olarak 'giysiler' anlamına da gelir — giyim için toplu bir terim.
+A1	Socke	çorap	Temiz bir çorap arıyorum.	'Sich auf die Socken machen' ('kendini çoraplara koymak') 'yola koyulmak, acele etmek' için konuşma dilinde bir ifadedir.
+A1	Gürtel	kemer	Kemer deriden.	'Den Gürtel enger schnallen' ('kemeri sıkmak') tıpkı İngilizce deyim gibi harcamaları kısmak zorunda olmak demektir.
+A1	Ring	yüzük	O altın bir yüzük takıyor.	Almanya'da nişan yüzüğü çoğunlukla sol elde taşınır ve düğünden sonra sağ ele geçer.
+A1	Uhr tragen	saat takmak	O her zaman saat takar.	'Tragen' hem 'giymek' hem 'taşımak' demektir: bağlam hangi anlamın kastedildiğini açıklar.
+A1	laufen	koşmak, yürümek	Her sabah parkta koşuyorum.	Güney Alman lehçelerinde 'laufen' çoğu zaman basitçe 'yürümek' demektir, kuzeyde ise daha özel olarak 'koşmak'.
+A1	schwimmen	yüzmek	Yazın sık sık yüzeriz.	'schwimmen'in Perfekt'i 'sein' kullanır: 'ich bin geschwommen'; çünkü durum değişimiyle birlikte hareketi anlatır.
+A1	springen	zıplamak	Çocuk sevinçten zıplıyor.	'Springen' hareketi anlatırken Perfekt'te 'sein' kullanır: 'ich bin gesprungen'.
+A1	klettern	tırmanmak	Çocuklar ağaca tırmanıyor.	'Klettern' Almanya'da bir spor olarak çok popülerdir: kapalı tırmanış salonları hemen her şehirde yaygındır.
+A1	reisen	seyahat etmek	Yalnız seyahat etmeyi severim.	'Reisen' Perfekt'te 'sein' kullanır: 'ich bin gereist'; çünkü bir yerden başka bir yere gitmeyi anlatır.
+A1	ankommen	varmak	Tren zamanında varıyor.	'Ankommen' Perfekt'te her zaman 'sein' kullanır: 'ich bin angekommen', asla 'haben'; çünkü bir konum değişimini anlatır.
+A1	abfliegen	havalanmak, kalkmak (uçak)	Uçak zamanında kalkıyor.	'Abfliegen' ayrılabilir: şimdiki zamanda 'fliegt ab' olur, önek ana cümlenin sonunda ayrılır.
+A1	packen	paketlemek, bavul hazırlamak	Hâlâ bavulumu hazırlamam gerekiyor.	'Packen' edatsız doğrudan belirtme hâli nesnesi alır: 'den Koffer packen' (bavulu hazırlamak).
+A1	Ausweis	kimlik	Lütfen kimliğinizi gösterin.	Almanya'da geçerli bir kimlik belgesini her zaman yanında taşımak yasal bir zorunluluktur.
+A1	Formular	form (belge)	Lütfen formu doldurun.	'Ausfüllen' ayrılabilir: resmî emir kipinde 'füllen Sie aus' olur, önek sonda ayrılır.
+A1	Unterschrift	imza	İmzanıza ihtiyacım var.	'Unterschrift' bir bileşiktir: 'unter' (altına) + 'Schrift' (yazı), kelimesi kelimesine belgenin 'altına yazı'.
+A1	Termin vereinbaren	randevu almak	Bir randevu almak istiyorum.	'Vereinbaren' ayrılabilir değildir: her zaman ayrılmaz 'ver-' önekli fiiller grubuna aittir.
+A1	Rezept	reçete, yemek tarifi	Doktor bir reçete yazıyor.	'Rezept' hem 'tıbbi reçete' hem 'yemek tarifi' demektir — Almanca sözcük, İtalyanca'daki gibi iki anlamı da kapsar.
+A1	Fieber	ateş (hastalık)	Çocuğun ateşi var.	'Fieber haben' ismin önünde artikel gerektirmez — birçok belirtiyle yaygın sabit bir yapı.
+A1	Husten	öksürük	Günlerdir öksürüğüm var.	'Seit Tagen', 'seit'ten sonra çoğul yönelme hâlini kullanır ve hâlâ süren bir eylem için şimdiki zamanla birleşir.
+A1	Schmerzen	ağrı	Çok ağrım var.	'Schmerzen' Almanca'da fiziksel ağrı için, tek bir yerel ağrı için bile, neredeyse her zaman çoğul kullanılır.
+A1	Tablette	hap, tablet	Ağrı için bu hapı al.	'Gegen' her zaman belirtme hâlini alır: 'gegen die Schmerzen' (ağrıya karşı) — tıbbi bağlamlarda çok yaygın bir edat.
+A1	Versicherung	sigorta	İyi bir sigortam var.	Almanya'da sağlık sigortası 1883'ten beri yasal bir zorunluluktur — türünün dünyadaki ilk sistemi.
+A1	Woche geht schnell	hafta çabuk geçer	Bu hafta gerçekten çabuk geçti.	'Vergehen' zamanın geçişini anlatır ve Perfekt'te 'sein' ile çekimlenir: 'ist vergangen'.
+A1	links	sol, sola	Burada sola gidin.	'Links' ve 'rechts' hiç ek almaz: sokak tarifleri için kullanılan değişmez zarflardır.
+A1	rechts	sağ, sağa	Postane sağda.	'Nach rechts' sağa doğru hareketi belirtir, tek başına 'rechts' ise sabit bir konumu belirtir.
+A1	geradeaus	dümdüz ileri	Sadece dümdüz ileri gidin.	'Geradeaus', 'gerade' (düz) ve 'aus'un bileşiğidir; artık tek, değişmez bir zarftır.
+A1	Ecke	köşe	Kafe köşede.	'An der Ecke' yönelme hâlini kullanır çünkü köşeye doğru hareketi değil, sabit bir konumu anlatır.
+A1	Kreuzung	kavşak	Kavşakta dönün.	'Abbiegen' ayrılabilir: nazik biçimde 'biegen Sie ab' olur, önek sonda ayrılır.
+A1	Ampel	trafik ışığı	Işık yeşil olana kadar bekle.	'Ampel', Latince 'ampulla' (küçük kap) sözcüğünden gelir: sinyal olarak kullanılan ilk yağ lambalarının tarihsel adı.
+A1	Fußgänger	yaya	Burada yayaların geçiş önceliği var.	Eski kasabalardaki Alman yaya bölgeleri ('Fußgängerzone') çoğu zaman çok geniştir ve gün boyu arabalara kapalıdır.
+A1	Verkehr	trafik	Bugün trafik yoğun.	'Verkehr' başka bağlamlarda 'temas/ilişki' de demektir; 'Geschlechtsverkehr' (cinsel ilişki) gibi.
+A1	Stau	trafik sıkışıklığı	Trafikte sıkıştık.	Alman otoyolları ('Autobahn') birçok kesimde hız sınırı olmamasıyla ünlüdür, ama uzun trafik sıkışıklıklarıyla da.
+A1	Parkplatz	park yeri	Park yeri bulamadık.	Alman şehir merkezlerinde park genellikle ücretlidir ve zorunlu park diski süre sınırıyla düzenlenir.
+A1	Fahrkarte	yolculuk bileti	Yanımda bilet yok.	Alman toplu taşımasında bilet kontrolleri çoğu zaman rastgeledir, ama biletsiz yolculuk cezaları çok yüksektir.
+A1	Gleis	peron, ray	Tren üç numaralı perondan kalkıyor.	Alman istasyonlarında peron son dakikada değişebilir — panoları kontrol etmek her zaman değer.
+A1	Fahrplan	tarife, sefer saatleri	Tarifeye bakıyorum.	'Nachschauen' ayrılabilir: şimdiki zamanda 'schaue nach' olur, önek cümlenin sonunda ayrılır.
+A1	Ticket kaufen	bilet almak	Bileti internetten alıyorum.	Almanya'da internetten alınan biletler çoğu zaman doğrudan araçta alınanlardan daha ucuza gelir.
+A1	Ausflug machen	gezi yapmak	Yarın bir geziye çıkıyoruz.	'Einen Ausflug machen' gezilerden bahsetmenin standart yapısıdır — 'ausflügen' diye basit bir fiil yoktur.
+A1	Karte spielen	kâğıt oynamak	Akşamları sık sık kâğıt oynarız.	'Karten spielen', etkinlikten genel olarak bahsederken 'Karten' önünde artikel gerektirmez.
+A1	Ball	top	Çocuklar topla oynuyor.	'Mit dem Ball spielen', 'mit'ten sonra yönelme hâlini kullanır: tüm yönelme hâli edatlarının en sık kullanılanlarından biri.
+A1	Fußball	futbol	Futbol Almanya'da çok popülerdir.	Alman Bundesliga'sı, dünyada en çok izlenen futbol ligleri arasındadır ve en yüksek stadyum katılımlarından bazılarına sahiptir.
+A1	Schwimmbad	yüzme havuzu	Yüzme havuzuna gidiyoruz.	Birçok Alman kasabası, çok uygun fiyatlarla kamuya açık belediye havuzları (yazın açık hava 'Freibad') işletir.
+A1	Sport treiben	spor yapmak	Düzenli spor yapıyorum.	'Sport treiben', 'Sport machen'den daha resmîdir, ama iki biçim de doğru ve yaygındır.
+A1	joggen	jogging yapmak, hafif tempoda koşmak	Her akşam jogging yapıyorum.	'Joggen' İngilizce'den doğrudan bir ödünç sözcüktür ve artık düzenli Almanca çekimine tamamen uyum sağlamıştır.
+A1	Fitnessstudio	spor salonu	Haftada üç kez spor salonuna gidiyorum.	'Dreimal die Woche', edatsız sıklığı ifade etmek için yaygın olan zaman belirtme hâlini kullanır.
+A1	Handtuch	havlu	Temiz bir havluya ihtiyacım var.	'Handtuch' bir bileşiktir: 'Hand' (el) + 'Tuch' (bez), bugün tüm vücut için kullanılıyor olsa da.
+A1	Seife	sabun	Sabun lavanta kokuyor.	'Riechen nach' yönelme hâlini alır: 'nach Lavendel', belirli bir kokuyu anlatmak için kullanılır.
+A1	Zahnbürste	diş fırçası	Diş fırçamı unuttum.	'Zahnbürste' bir bileşiktir: 'Zahn' (diş) + 'Bürste' (fırça), kelimesi kelimesine 'dişler için fırça'.
+A1	Spiegelbild	yansıma	Yansımamı görüyorum.	'Spiegelbild', 'Spiegel' (ayna) ve 'Bild' (görüntü) sözcüklerini birleştirir: aynada yansıyan görüntü.
+A1	Haar	saç, tüy	Onun uzun saçları var.	Tekil 'Haar' ya tek bir saç telini ya da konuşma dilinde saçın tamamını ifade edebilir.
+A1	Bart	sakal	Kısa bir sakalı var.	Bakımlı bir sakal, özellikle gençler arasında, son on yılda Almanya'da yeniden moda oldu.
+A1	Brille	gözlük	Yeni bir gözlüğe ihtiyacım var.	'Brille' bir çift gözlük için Almanca'da tekildir, İngilizce ise çoğul 'glasses' kullanır.
+A1	Ohr	kulak	Kulağım ağrıyor.	'Ganz Ohr sein' ('tamamen kulak olmak') çok dikkatle dinlemek demektir; İngilizce 'all ears' deyimi gibi.
+A1	Nase	burun	Burnum tıkalı.	'Die Nase voll haben' ('burnu dolu olmak') bir şeyden bıkmış olmak demektir; İngilizce 'to be fed up' gibi.
+A1	Mund	ağız	Ağzını aç.	'Aufmachen' ayrılabilir: gündelik emir kipinde 'mach auf' olur, önek sonda ayrılır.
+A1	Zahn	diş	Dişim ağrıyor.	Çoğul 'Zähne', vücut bölümlerini anlatan birçok kısa eril isim gibi ses değişimi alır.
+A1	Bein	bacak	O bacağını kırdı.	'Sich das Bein brechen', dönüşlü yönelme hâli 'sich' ile belirtme hâli 'das Bein'i kullanır: etkilenen vücut bölümü doğrudan nesnedir.
+A1	Arm	kol	Onun güçlü bir kolu var.	'Arm' sıfat olarak aynı zamanda 'yoksul' demektir: yazılışı aynı, kökeni tamamen farklı iki sözcük.
+A1	Finger	parmak	Parmağımı kestim.	'Sich in den Finger schneiden', dönüşlü yönelme hâli ve etkilenen bölümün belirtme hâliyle kazara bir yaralanmayı anlatır.
+A1	Bauch	karın, mide	Karnım ağrıyor.	'Bauchschmerzen' (karın ağrısı), ebeveynlerin küçük çocuklarla kullandığı çok yaygın bir bileşik sözcüktür.
+A1	Rücken	sırt	Sırtım ağrıyor.	'Hinter dem Rücken' ('sırtın arkasında') tıpkı İngilizce'deki gibi 'birinin arkasından' bir şey yapmak demektir.
+A1	Schulter	omuz	Çantayı omzunda taşıyor.	'Auf der Schulter' yönelme hâlini kullanır çünkü omuza doğru hareketi değil, bir konumu anlatır.
+A1	Sonnenschein	güneş ışığı	Güneş ışığının tadını çıkarıyoruz.	'Genießen' her zaman edatsız doğrudan belirtme hâli nesnesi alır: 'den Sonnenschein genießen'.
+A1	Wolke	bulut	Gökyüzü bulutlarla dolu.	'Auf Wolke sieben schweben' ('yedinci bulutta süzülmek') İngilizce 'to be on cloud nine'ın Almanca karşılığıdır.
+A1	Gewitter	gök gürültülü fırtına	Bu akşam fırtına var.	'Es gibt' artı belirtme hâli, hava olaylarını ya da bir şeyin varlığını bildirmenin standart yapısıdır.
+A1	Regenbogen	gökkuşağı	Yağmurdan sonra bir gökkuşağı çıktı.	'Regenbogen' saydam bir bileşiktir: 'Regen' (yağmur) + 'Bogen' (yay), kelimesi kelimesine 'yağmur yayı'.
+A1	Insel	ada	Sylt ünlü bir ada.	Kuzey Denizi'ndeki Sylt, varlıklı Almanların sevdiği en seçkin plaj destinasyonlarından biridir.
+A1	Strand	plaj	Bütün gün plajda yatıyoruz.	'Am Strand' yönelme hâlini kullanır çünkü nerede olduğunuzu, bir konumu anlatır; hareketi değil.
+A1	Sand	kum	Kum çok ince.	'Sand ins Getriebe streuen' ('dişlilere kum serpmek') bir süreci baltalamak ya da engellemek demektir.
+A1	Welle	dalga	Bugün dalgalar yüksek.	'Welle' mecazen de kullanılır: 'eine Welle der Solidarität' 'bir dayanışma dalgası' demektir.
+A1	Boot	tekne, bot	Tekneyle göle açılıyoruz.	'Boot' ve 'Schiff' tam eş anlamlı değildir: 'Boot' küçüktür, 'Schiff' ise büyük bir gemi demektir.
+A1	Angeln	olta balıkçılığı	Babam balık tutmaya gitmeyi sever.	'Angeln gehen' sabit bir ifadedir: 'Angeln' ismi doğrudan isim olarak kullanılan mastar fiilden gelir.
+A1	Zelt	çadır	Çadırda uyuyoruz.	Kamp, Almanya'da çok popüler bir yaz etkinliğidir; büyük göllerin kıyısında bile organize kamp alanları vardır.
+A1	Feuer machen	ateş yakmak	Akşamları ateş yakıyoruz.	'Ein Feuer machen' 'bir kamp ateşi yakmak' için sabit yapıdır; kibrit ya da mum için kullanılan 'anzünden'den farklıdır.
+A1	Rucksack	sırt çantası	Sırt çantam çok ağır.	'Rucksack' bir bileşiktir: 'Rücken' (sırt) + 'Sack' (çuval), kelimesi kelimesine 'sırt çuvalı'.
+A1	Landkarte	harita	Haritaya bakıyoruz.	'Landkarte', coğrafi haritayı, bilet ya da kredi kartı da olabilen genel terim 'Karte'den ayırır.
+A1	Kompass	pusula	Pusula olmadan yolu bulamayız.	'Ohne' her zaman belirtme hâlini alır: 'ohne Kompass'; 'für' ve 'durch' ile birlikte en yaygın belirtme hâli edatlarından biri.
+A1	Weg	yol, patika	İstasyona giden yol kısa.	'Weg' hem fiziksel bir yolu hem de mecazen 'yol, çare' anlamını taşır: 'ne olursa olsun bir yol bulmak' gibi.
+A1	Richtung	yön	Yanlış yöne gidiyoruz.	'In die Richtung' belirtme hâlini kullanır çünkü belirli bir yöne doğru hareketi anlatır.
+A1	verlaufen sich	yolunu kaybetmek (yürürken)	Şehirde kayboldu.	'Sich verlaufen' yürürken kaybolmayı anlatır; araçla kaybolmak için karşılığı 'sich verfahren'dir.
+A1	Reiseführer	gezi rehberi	Berlin için bir gezi rehberi alıyoruz.	'Reiseführer' hem kitabı hem turistlere rehberlik eden kişiyi ifade eder — aynı sözcükte iki anlam.
+A1	Sehenswürdigkeit	görülmeye değer yer	Köln Katedrali ünlü bir görülmeye değer yerdir.	'Sehenswürdigkeit', 'sehen' (görmek) ve 'würdig' (layık) sözcüklerini birleştirir: kelimesi kelimesine 'görülmeye değer olan'.
+A1	Foto machen	fotoğraf çekmek	Lütfen bir fotoğraf çeker misin?	'Ein Foto machen' standart biçimdir; 'fotografieren' fiili vardır ama biraz daha resmîdir.
+A1	Andenken	hatıra eşyası	Eve götürmek için bir hatıra alıyorum.	'Andenken', 'an etwas denken' (bir şeyi düşünmek) ifadesinden gelir: bir yeri ya da kişiyi akla getiren nesne.
+A1	Grenze	sınır	Avusturya'ya sınırı geçiyoruz.	Almanya dokuz ülkeyle sınır komşusudur; bu, herhangi bir Avrupa devletinin sahip olduğu en yüksek komşu sayısıdır.
+A1	Ausland besuchen	yurtdışını ziyaret etmek	O yurtdışını ziyaret etmek istiyor.	'Besuchen', İngilizce 'to visit' gibi her zaman edatsız doğrudan belirtme hâli nesnesi alır.
+A1	Sprache lernen	dil öğrenmek	Yeni bir dil öğrenmek istiyorum.	'Lernen' genel olarak öğrenme için kullanılır, 'studieren' ise resmî üniversite eğitimine ayrılmıştır.
+A1	Wörterbuch	sözlük	Sık sık bir sözlük kullanırım.	'Wörterbuch' bir bileşiktir: 'Wörter' ('Wort'un çoğulu, sözcükler) + 'Buch' (kitap), kelimesi kelimesine 'sözcükler kitabı'.
+A1	üben	alıştırma yapmak, pratik yapmak	Her gün Almanca pratik yapıyorum.	'Üben' düzenlidir ve öğrenme materyallerinde en sık tekrarlanan sözcüklerden biri olan 'Übung'un (alıştırma) köküdür.
+A1	Fehler machen	hata yapmak	Hata yapmak normaldir.	'Fehler machen' standart yapıdır; 'es ist normal' gibi şahıssız ifadelerden sonra 'zu' ile mastar kesin kuralları izler.
+A1	Prüfung bestehen	sınavı geçmek	Sınavı geçmeyi umuyorum.	'Bestehen' ayrılabilir değildir: her zaman ayrılmaz 'be-' önekli fiiller grubuna aittir.

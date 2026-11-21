@@ -2,6 +2,7 @@ import { CEFR_ORDER, WORD_BANK } from '../data/wordbank';
 import type { CefrLevel, WordBankEntry } from '../data/wordbank';
 import { statTierOf } from './stats';
 import { TOPIC_KEYS } from './topics';
+import { getActivePack } from '../languages';
 
 export type CatalogStatus = 'mastered' | 'learning' | 'new' | 'todo';
 export const CATALOG_STATUSES: readonly CatalogStatus[] = ['mastered', 'learning', 'new', 'todo'];
@@ -73,7 +74,7 @@ export function buildCatalog(
         savedId: s ? s.id : null,
       });
     }
-    inLevel.sort((a, b) => a.word.localeCompare(b.word, 'de', { sensitivity: 'base' }));
+    inLevel.sort((a, b) => a.word.localeCompare(b.word, getActivePack().collation, { sensitivity: 'base' }));
     all.push(...inLevel);
   }
 

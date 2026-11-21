@@ -33,6 +33,7 @@ export const es: LanguagePack = {
     trail: /[.,!?;:”"»)›'’…—]+$/,
   },
   // Latin American neutral; a phone with only es-ES still speaks (QA in TASK-049).
+  collation: 'es',
   speech: { locale: 'es-US', rate: 0.9 },
   ai: { languageName: 'Spanish' },
   articles: {

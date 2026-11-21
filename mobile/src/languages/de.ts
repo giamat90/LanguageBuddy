@@ -34,6 +34,7 @@ export const de: LanguagePack = {
     lead: /^[„"«(‹‚“‘']+/,
     trail: /[.,!?;:“”"»)›’'…]+$/,
   },
+  collation: 'de',
   speech: { locale: 'de-DE', rate: 0.9 },
   ai: { languageName: 'German' },
   articles: {

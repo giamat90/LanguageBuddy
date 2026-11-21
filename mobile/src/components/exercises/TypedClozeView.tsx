@@ -9,7 +9,7 @@ import SentenceSpeaker from './SentenceSpeaker';
 import { clozeSentence } from '../../lib/sentenceSpeech';
 import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
-import { gradeTypedAnswer } from '../../lib/cloze';
+import { gradeTypedAnswer, letterCount } from '../../lib/cloze';
 import { typedQuality, type TypedResult } from '../../lib/exercises/quality';
 import type { TypedClozeModel } from '../../lib/exercises/types';
 
@@ -17,10 +17,6 @@ interface Props {
   model: TypedClozeModel;
   isRetry: boolean;
   onResult: (quality: number) => void;
-}
-
-function letterCount(word: string): number {
-  return word.replace(/[^A-Za-zÄÖÜäöüß]/g, '').length;
 }
 
 export default function TypedClozeView({ model, isRetry, onResult }: Props) {

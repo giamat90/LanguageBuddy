@@ -3,6 +3,8 @@ import { CEFR_ORDER, WORD_BANK, type CefrLevel, type WordBankEntry } from '../sr
 import { TOPIC_KEYS } from '../src/lib/topics';
 import { computeStats } from '../src/lib/stats';
 import { STATUS_COLORS } from '../src/theme/statusColors';
+import { setActivePackForTests } from '../src/languages';
+import { es } from '../src/languages/es';
 
 const entry = (word: string, topic: string, article: string | null = null): WordBankEntry => ({
   word, article, part_of_speech: 'noun', ipa: '', meaning_en: `${word}-en`, meaning_it: `${word}-it`,
@@ -129,5 +131,25 @@ describe('scopeCounts', () => {
     const full = new Map<string, SavedState>(WORD_BANK.A1.map((e) => [e.word.toLowerCase(), state(0.9, 5)]));
     expect(scopeCounts('topic', { level: 'A1', topic: null }, full))
       .toEqual(scopeCounts('topic', { level: 'A1', topic: null }, new Map()));
+  });
+});
+
+describe('catalog order follows the pack collation (TASK-049)', () => {
+  afterEach(() => setActivePackForTests(null));
+  const bank = () => {
+    const b = emptyBank();
+    b.A1 = [entry('oso', 'food'), entry('ñu', 'food'), entry('nube', 'food'), entry('mesa', 'home')];
+    return b;
+  };
+  it('Spanish puts ñ after n and before o', () => {
+    setActivePackForTests(es);
+    const v = buildCatalog({ level: 'A1', topic: null }, null, new Map(), bank());
+    expect(v.entries.map((e) => e.word)).toEqual(['mesa', 'nube', 'ñu', 'oso']);
+  });
+  it('German keeps its own order', () => {
+    const b = emptyBank();
+    b.A1 = [entry('Zug', 'travel'), entry('Äpfel', 'food'), entry('Ofen', 'home'), entry('Brot', 'food')];
+    const v = buildCatalog({ level: 'A1', topic: null }, null, new Map(), b);
+    expect(v.entries.map((e) => e.word)).toEqual(['Äpfel', 'Brot', 'Ofen', 'Zug']);
   });
 });

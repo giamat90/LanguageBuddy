@@ -7,6 +7,12 @@ export interface Cloze {
   after: string;
 }
 
+/** How many letters a word has in this language (counts ñ, á, ä, ß …, never punctuation or spaces). */
+export function letterCount(word: string, pack: LanguagePack = getActivePack()): number {
+  const re = new RegExp(pack.letters.source, 'g');
+  return (word.match(re) ?? []).join('').length;
+}
+
 /** Blanks the first whole-word occurrence of `word` in `sentence`, or null if absent. */
 export function buildCloze(
   sentence: string | null | undefined,

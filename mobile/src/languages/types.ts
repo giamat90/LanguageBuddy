@@ -68,6 +68,8 @@ export interface LanguagePack {
   typoMinLength: number;
   /** Quotes and punctuation split off a token. */
   punctuation: { lead: RegExp; trail: RegExp };
+  /** BCP-47 tag used only to sort word lists (Spanish puts ñ after n). */
+  collation: string;
   speech: { locale: string; rate: number };
   ai: { languageName: string };
   articles: ArticleSupport | null;

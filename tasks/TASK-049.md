@@ -1,6 +1,6 @@
 # TASK-049 — QA of the language apps: one suite for every app, a prebuild check, a phone checklist
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-048 (pushed, `0d77e6d`)

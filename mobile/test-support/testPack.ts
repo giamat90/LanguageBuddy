@@ -16,6 +16,7 @@ export const testPack: LanguagePack = {
       .replace(/ñ/g, 'n'),
   typoMinLength: 5,
   punctuation: { lead: /^[¿¡"«(']+/, trail: /[.,!?;:"»)'…]+$/ },
+  collation: 'es',
   speech: { locale: 'es-ES', rate: 0.9 },
   ai: { languageName: 'Spanish' },
   articles: {

@@ -1,6 +1,6 @@
 # TASK-062 — Fill the word-bank gaps the native agents named
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-059, TASK-060 (so the fixed rows and the 1:1 replacements are in place first)

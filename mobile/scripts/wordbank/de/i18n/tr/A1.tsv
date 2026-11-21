@@ -362,3 +362,14 @@ A1	Fehler machen	hata yapmak	Hata yapmak normaldir.	'Fehler machen' standart yap
 A1	Prüfung bestehen	sınavı geçmek	Sınavı geçmeyi umuyorum.	'Bestehen' ayrılabilir değildir: her zaman ayrılmaz 'be-' önekli fiiller grubuna aittir.
 A1	Mittagspause	öğle arası	Öğle arasında yemekhanede yemek yiyoruz.	'Mittagspause', 'Mittag' ile 'Pause' sözcüklerinin birleşimidir. 'Mittagspause machen' ya da 'in der Mittagspause' denir.
 A1	Ankunft	varış	Trenin varışı saat ondadır.	'Ankunft' dişildir ve 'ankommen' fiilinden gelir. Karşıtı 'Abfahrt' (kalkış) sözcüğüdür.
+A1	bitte	lütfen; rica ederim	Bir kahve, lütfen.	'Bitte' aynı zamanda 'danke'ye karşılık olarak (rica ederim) kullanılır ve bir şey uzatırken de söylenir (buyurun). Birinden tekrar etmesini istemek için 'Wie bitte?' denir.
+A1	danke	teşekkürler; sağ ol	Sağ ol, bu senden çok nazik.	Daha resmî biçimleri 'vielen Dank' ve 'danke schön'dür. 'Nein, danke' bir teklifi kibarca reddeder.
+A1	Entschuldigung	özür; pardon	Pardon, tren istasyonu nerede?	Yabancı birinin dikkatini çekmek ya da küçük bir hata için özür dilemek için kullanılır. Fiili 'sich entschuldigen'dir; 'Es tut mir leid' daha içten duyulur.
+A1	Frau	kadın; eş; Bayan	Kadın otobüs durağında bekliyor.	'Frau' hem 'kadın' hem 'eş' ('meine Frau') demektir ve soyadından önce 'Bayan' unvanı olarak da kullanılır. 'Fräulein' artık eskimiş sayılır.
+A1	Mann	erkek; koca	Adam parkta gazete okuyor.	'Mann' hem 'erkek' hem 'koca' ('mein Mann') demektir. Çoğulu ümlaut alır: 'Männer'; 'Leute' ise 'insanlar' anlamına gelir.
+A1	Hilfe	yardım	Taşınırken yardımına ihtiyacım var.	Fiili 'helfen'dir (datif ile). 'Hilfe!' aynı zamanda acil durum çığlığıdır; 'Danke für die Hilfe' sık kullanılan bir ifadedir.
+A1	machen	yapmak; etmek	Hafta sonu ne yapıyorsun?	'Machen' hem 'do' hem 'make' anlamını kapsar ve düzenli çekimlenir. Sık eşdizimler: 'Sport machen', 'Urlaub machen', 'Hausaufgaben machen'.
+A1	sagen	söylemek; demek	Öğretmen sınav hakkında ne diyor?	'Sagen' doğrudan ya da dolaylı anlatımı başlatır ve düzenli çekimlenir. 'Sprechen' bir dili konuşmayı ya da genel olarak konuşmayı, 'erzählen' ise bir hikâye anlatmayı ifade eder.
+A1	bleiben	kalmak	Bu akşam evde kalıyoruz.	'Bleiben' düzensizdir ve Perfekt'i 'sein' ile kurar: 'ist geblieben'. 'zu Hause', 'bei' + datif ya da bir sıfatla ('ruhig bleiben') birlikte kullanılır.
+A1	warum	neden	Neden Almanca öğreniyorsun?	'Warum' yalnızca soru başlatır; cevap ('çünkü') fiil sonda olacak şekilde 'weil' ile verilir. Eş anlamlısı: 'wieso'.
+A1	gern	memnuniyetle; severek	Sabahları çay içmeyi severim.	'Gern' + fiil, bir şeyi yapmaktan hoşlandığını söyler: 'Ich lese gern'. Düzensiz karşılaştırma: 'lieber', üstünlük 'am liebsten'. Varyant: 'gerne'.

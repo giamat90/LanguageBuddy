@@ -360,3 +360,20 @@ A2	Termin vereinbaren	予約を取る、約束を決める	私は予約を取り
 A2	sich verlaufen	道に迷う（徒歩で）	私たちは町で道に迷いました。	「sich verlaufen」は徒歩で道に迷うことを表し、「sich verfahren」は運転中に道に迷うことの同じ表現である。
 A2	Briefkasten	郵便ポスト、郵便受け	郵便受けを見てください。	「Briefkasten」は「Brief」（手紙）と「Kasten」（箱）からなる。自宅の郵便受けにも、街中の黄色いポストにも使う。
 A2	Übernachtung	宿泊	ホテルの宿泊は80ユーロです。	「Übernachtung」は「übernachten」（泊まる）の名詞形。「Übernachtung mit Frühstück」（朝食付き宿泊）という表記をよく見かける。
+A2	Mädchen	女の子	その女の子は庭でボールを使って遊んでいます。	人は女性なのに、この語は中性である。接尾辞「-chen」はどんな名詞も中性にするためで、冠詞は「das」のままである。
+A2	Eltern	両親	私の両親は小さな町に住んでいます。	「Eltern」は複数形しかない。片方の親は「Elternteil」「Vater」「Mutter」と言う。「Verwandte」は両親ではなく親戚を意味するので注意。
+A2	Tochter	娘	私の娘はもう学校に通っています。	複数形はウムラウトがつく「Töchter」。男性形は「Sohn」（複数形「Söhne」）である。
+A2	Sohn	息子	うちの息子は土曜日にサッカーをします。	複数形はウムラウトがつく「Söhne」。性別を限定しない「子ども」には「Kind」を使う。
+A2	vielleicht	たぶん、もしかすると	明日は映画に行くかもしれません。	文頭に置かれることが多く、すぐ後ろに動詞が来る（動詞第二位）。依頼を和らげる働きもある：「Könnten Sie vielleicht helfen?」。
+A2	manchmal	ときどき	私は夜にパンだけを食べることがあります。	「nie」と「oft」の間にある頻度の副詞。代名詞・形容詞の「manche」（いくつかの）と混同しないこと。
+A2	sofort	すぐに、直ちに	すぐに家に帰ってきて！	「Sofort」は遅れなくという意味で、「gleich」（もうすぐ）より強い。同義語は「auf der Stelle」。
+A2	bald	まもなく、近いうちに	また近いうちに会いましょう。	「Bald」は近い未来を指す。別れの挨拶は「Bis bald!」。「früh」（一日の早い時間や予定より早く）と混同しないこと。
+A2	leider	残念ながら	残念ながら、今日は時間がありません。	「Leider」は話し手の残念な気持ちを表し、丁寧に断るときによく使う。形容詞「leid」は「Es tut mir leid」に現れる。
+A2	brauchen	必要とする	あと10分必要です。	「Brauchen」は4格をとる。「nicht brauchen」＋「zu」＋不定詞で「〜しなくてよい」の意味になる：「Du brauchst nicht zu kommen」。
+A2	bekommen	もらう、受け取る	明日、荷物が届きます。	偽りの友人：「bekommen」は「〜になる」（それは「werden」）ではなく「受け取る」を意味する。過去分詞は「bekommen」で、「ge-」はつかない。
+A2	vergessen	忘れる	私はよく鍵を忘れます。	不規則動詞：「er vergisst」、完了形は「hat vergessen」。「etwas vergessen」または「vergessen zu」＋不定詞の形で使う。
+A2	versuchen	試みる、やってみる	私は毎日ドイツ語を話すようにしています。	コンマをはさんで「zu」＋不定詞をとることが多い。「味見する」の意味はない：食べ物には「probieren」を使う。
+A2	bedeuten	意味する	この単語はイタリア語で何という意味ですか。	「Bedeuten」は規則動詞で非分離動詞：「hat bedeutet」。名詞は「Bedeutung」。「Meinen」は話し手が意図していることを指す。
+A2	deshalb	だから、それゆえ	雨が降っているので、私たちは家にいます。	「deshalb」の後には動詞がすぐ続く（第二位）：従属接続詞ではない。同義語は「deswegen」。
+A2	sondern	そうではなくて、〜ではなく	これはお茶ではなく、コーヒーです。	「Sondern」は否定の後でのみ使われ、それを訂正する：「AではなくB」。訂正を伴わない対比には「aber」を使う。
+A2	endlich	ついに、やっと	やっと週末が来た！	「Endlich」は長い待ち時間の後の安堵を表す。「schließlich」（結局）や「endgültig」（最終的な）と混同しないこと。

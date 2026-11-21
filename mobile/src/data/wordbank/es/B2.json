@@ -4928,5 +4928,22 @@
     "session_scenario": "Asking for directions",
     "example_en": "They used to ride at dawn across the southern plains.",
     "cultural_note_en": "From «caballo»."
+  },
+  {
+    "word": "argumentar",
+    "article": null,
+    "part_of_speech": "verb",
+    "ipa": "aɾɣumenˈtaɾ",
+    "meaning_en": "to argue; to give reasons",
+    "meaning_it": "argomentare",
+    "example": "Tienes que argumentar tu opinión con ejemplos.",
+    "example_it": "Devi argomentare la tua opinione con esempi.",
+    "cultural_note": "Vuol dire sostenere con argomenti, non litigare: per litigare si dice «discutir».",
+    "grammar_angle": "PERIFRASIS_VERBAL",
+    "topic_domain": "culture",
+    "cefr_band": "B2",
+    "session_scenario": "Discussing an opinion",
+    "example_en": "You have to back up your opinion with examples.",
+    "cultural_note_en": "It means to support with arguments, not to quarrel: for quarrelling use «discutir»."
   }
 ]

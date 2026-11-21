@@ -3,8 +3,8 @@ import { WORD_CONTENT_LOADERS } from '../src/i18n/wordContentLoaders';
 
 describe('German word bank layout (TASK-042)', () => {
   it('keeps the level sizes', () => {
-    expect(CEFR_ORDER.map((l) => WORD_BANK[l].length)).toEqual([364, 362, 361, 379, 369, 359]);
-    expect(allEntries()).toHaveLength(2194);
+    expect(CEFR_ORDER.map((l) => WORD_BANK[l].length)).toEqual([375, 379, 372, 419, 375, 359]);
+    expect(allEntries()).toHaveLength(2279);
   });
 
   it('uses the neutral field name: every entry has `example`, none has `example_de`', () => {
@@ -22,7 +22,7 @@ describe('German word bank layout (TASK-042)', () => {
     ['B2', 0, 'Weltanschauung', 'die', 'visione del mondo', 'Ihre Weltanschauung hat sich nach der Reise verändert.'],
     ['C1', 0, 'Zeitgeist', 'der', 'spirito del tempo', 'Dieser Roman trifft den Zeitgeist perfekt.'],
     ['C2', 0, 'Torschlusspanik', 'die', 'ansia da ultima occasione', 'Mit Mitte dreißig begann sie, eine leichte Torschlusspanik zu verspüren.'],
-    ['A1', -1, 'Prüfung bestehen', null, 'superare un esame', 'Ich hoffe, die Prüfung zu bestehen.'],
+    ['A1', -1, 'gern', null, 'volentieri / (mi) piace', 'Ich trinke gern Tee am Morgen.'],
     ['C2', -1, 'Torwächterfunktion', 'die', 'funzione di controllo (guardiano dell\'accesso)', 'Redaktionen übten früher eine wichtige Torwächterfunktion aus.'],
   ] as const)('%s entry %i is unchanged', (level, at, word, article, meaningIt, example) => {
     const list = WORD_BANK[level];
@@ -42,7 +42,7 @@ describe('German word bank layout (TASK-042)', () => {
     for (const l of langs) {
       const table = (WORD_CONTENT_LOADERS as any)[l]();
       expect(table['A1:brot']).toHaveLength(3);
-      expect(Object.keys(table)).toHaveLength(2194);
+      expect(Object.keys(table)).toHaveLength(2279);
     }
   });
 });

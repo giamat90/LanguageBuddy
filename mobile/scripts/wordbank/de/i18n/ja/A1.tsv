@@ -362,3 +362,14 @@ A1	Fehler machen	間違える、ミスをする	間違えるのは普通のこ�
 A1	Prüfung bestehen	試験に合格する	私は試験に合格したいです。	「bestehen」は分離しない。常に非分離の前綴り「be-」を持つ動詞のグループに属している。
 A1	Mittagspause	昼休み	昼休みに私たちは社員食堂で食事をします。	「Mittagspause」は「Mittag」と「Pause」を合わせた語。「Mittagspause machen」や「in der Mittagspause」のように言う。
 A1	Ankunft	到着	電車の到着は10時です。	「Ankunft」は女性名詞で、「ankommen」（着く）から作られた語。反対語は「Abfahrt」（出発）。
+A1	bitte	お願いします、どういたしまして	コーヒーを一杯お願いします。	「Bitte」は「danke」への返事（どういたしまして）にもなり、物を手渡すとき（どうぞ）にも使う。聞き返すときは「Wie bitte?」と言う。
+A1	danke	ありがとう	ありがとう、とても親切だね。	よりていねいには「vielen Dank」や「danke schön」と言う。「Nein, danke」は申し出を丁寧に断る表現である。
+A1	Entschuldigung	すみません、失礼、謝罪	すみません、駅はどこですか。	見知らぬ人に声をかけるときや、ちょっとした失敗を詫びるときに使う。動詞は「sich entschuldigen」で、「Es tut mir leid」のほうが心がこもって聞こえる。
+A1	Frau	女性、妻、〜さん（女性）	その女性はバス停で待っています。	「Frau」は「女性」と「妻」（「meine Frau」）の両方を表し、姓の前につく敬称「〜さん」でもある。「Fräulein」は今では古い言い方とされる。
+A1	Mann	男性、夫	その男性は公園で新聞を読んでいます。	「Mann」は「男性」と「夫」（「mein Mann」）を表す。複数形はウムラウトがつく「Männer」で、「Leute」は「人々」を意味する。
+A1	Hilfe	助け、手伝い	引っ越しであなたの助けが必要です。	動詞は「helfen」（3格をとる）。「Hilfe!」は緊急時の叫び声でもあり、「Danke für die Hilfe」はよく使うフレーズである。
+A1	machen	する、作る	週末は何をしますか。	「Machen」は「する」と「作る」の両方をカバーし、規則動詞である。よく使う組み合わせは「Sport machen」「Urlaub machen」「Hausaufgaben machen」。
+A1	sagen	言う、伝える	先生はテストについて何と言っていますか。	「Sagen」は直接話法や間接話法を導き、規則動詞である。「Sprechen」は言語を話すことや話すこと一般、「erzählen」は物語を語ることを指す。
+A1	bleiben	とどまる、残る	私たちは今夜、家にいます。	「Bleiben」は不規則動詞で、完了形は「sein」を使い「ist geblieben」となる。「zu Hause」、「bei」＋3格、形容詞（「ruhig bleiben」）と組み合わせる。
+A1	warum	なぜ	なぜドイツ語を勉強しているのですか。	「Warum」は疑問文を始めるときだけに使う。答え（「なぜなら」）は動詞が文末に来る「weil」を使う。同義語は「wieso」。
+A1	gern	喜んで、好んで	私は朝にお茶を飲むのが好きです。	「Gern」＋動詞で「〜するのが好き」を表す：「Ich lese gern」。比較級は不規則な「lieber」、最上級は「am liebsten」。別形は「gerne」。

@@ -300,3 +300,12 @@ A1	a	-e, -a (yönelme)	Ofise otobüsle gidiyorum.	Doğrudan tümleç olan kişid
 A1	o	ya da	Şimdi çay mı kahve mi istersin?	«O-»dan önce «u» olur: «siete u ocho».
 A1	cuando	-ince, -dığında	Geldiğimde akşam yemeğini hazırlarım.	Vurgulu «¿cuándo?» sorudur.
 A1	cumpleaños	doğum günü	Doğum günüm aralık ayında.	Çoğulda değişmez: «dos cumpleaños».
+A1	escuela	okul	Kardeşim okula otobüsle gidiyor.	İspanya'da «colegio» ilkokul, «instituto» ortaokul/lisedir; «escuela» genel terimdir.
+A1	comida	yemek; öğün	Annemin yemekleri çok güzel.	«Comida» genel olarak yemek demektir ve ana öğün anlamına da gelir (İspanya ve Meksika'da öğle yemeği).
+A1	hermana	kız kardeş	Kız kardeşim Madrid'de yaşıyor.	Çoğul «hermanos» yalnızca erkek kardeşler ya da kardeşler (kız ve erkek birlikte) anlamına gelebilir.
+A1	amiga	arkadaş (kadın)	Arkadaşım bir bankada çalışıyor.	«amigo»nun dişili; karma bir grup için «amigos» denir.
+A1	perdón	özür; pardon	Pardon, istasyon nerede?	Özür dilemek ya da birinin dikkatini çekmek için; «perdone» resmî, «perdona» gayriresmî fiil biçimidir.
+A1	dos	iki	İki erkek kardeşim ve bir kız kardeşim var.	Değişmeyen bir sayı: «uno/una»nın aksine cinsiyete göre değişmez.
+A1	tres	üç	Üç arkadaş benim sokağımda oturuyor.	Değişmeyen bir sayı; İtalyanca «tre»den farklı olarak sondaki «s»ye dikkat.
+A1	cinco	beş	Tren saat beşte kalkıyor.	Saatler için sayıdan önce «a las» kullanılır; «a la una» hariç.
+A1	diez	on	Bu kitap on avro.	11'den 15'e kadar sayıların kendi biçimleri vardır: «once, doce, trece, catorce, quince».

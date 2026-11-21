@@ -89,6 +89,7 @@ for (const lang of folders) {
   const POS = new Set(cfg.partsOfSpeech);
   const ARTICLES = new Set(cfg.articles);
   const bankDir = join(bankRoot, lang);
+  const firstLevel = new Map();
   const before = errors.length;
 
   for (const level of LEVELS) {
@@ -119,13 +120,30 @@ for (const lang of folders) {
       }
       if (!POS.has(entry.part_of_speech)) errors.push(`${at}: invalid part_of_speech "${entry.part_of_speech}"`);
       if (!RULE_CODES.has(entry.grammar_angle)) errors.push(`${at}: invalid grammar_angle "${entry.grammar_angle}"`);
-      if (RULES && typeof entry.example === 'string') exampleProblems(entry, RULES).forEach((p) => errors.push(`${at}: ${p}`));
+      const levelRule = cfg.levelRules?.[level];
+      if (levelRule?.allowedCodes && !levelRule.allowedCodes.includes(entry.grammar_angle)) {
+        errors.push(`${at}: grammar_angle ${entry.grammar_angle} is not allowed at ${level}`);
+      }
+      if (cfg.uniqueAcrossLevels && typeof entry.word === 'string') {
+        const other = firstLevel.get(entry.word.toLowerCase());
+        if (other && other !== level) errors.push(`${at}: word "${entry.word}" also appears in ${other}`);
+        else firstLevel.set(entry.word.toLowerCase(), level);
+      }
+      if (RULES && typeof entry.example === 'string') {
+        exampleProblems(entry, { ...RULES, maxTokens: levelRule?.maxTokens ?? RULES.maxTokens }).forEach((p) => errors.push(`${at}: ${p}`));
+      }
       const check = cfg.ruleChecks?.[entry.grammar_angle];
       if (check && typeof entry.example === 'string') {
         const words = entry.example.toLowerCase().split(/[^\p{L}]+/u);
         if (!check.mustContainAny.some((f) => words.includes(f.toLowerCase()))) {
           errors.push(`${at}: example for ${entry.grammar_angle} has none of its forms`);
         }
+        if (check.exactlyOneOf && words.filter((w) => check.exactlyOneOf.includes(w)).length !== 1) {
+          errors.push(`${at}: example for ${entry.grammar_angle} must contain exactly one of ${check.exactlyOneOf.join('/')}`);
+        }
+        const joined = ' ' + words.join(' ') + ' ';
+        const phrase = (check.forbiddenPhrases ?? []).find((p) => joined.includes(' ' + p + ' '));
+        if (phrase) errors.push(`${at}: example for ${entry.grammar_angle} uses a fixed phrase (${phrase})`);
       }
       if (!TOPICS.has(entry.topic_domain)) errors.push(`${at}: invalid topic_domain "${entry.topic_domain}"`);
       if (entry.cefr_band !== level) errors.push(`${at}: cefr_band "${entry.cefr_band}" must equal "${level}"`);

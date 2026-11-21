@@ -1,6 +1,5 @@
 {
   "code": "es",
-  "draft": true,
   "levels": [
     "A1",
     "A2",
@@ -76,6 +75,17 @@
       "mustContainAny": [
         "por",
         "para"
+      ],
+      "exactlyOneOf": [
+        "por",
+        "para"
+      ],
+      "forbiddenPhrases": [
+        "por favor",
+        "por eso",
+        "por qué",
+        "para qué",
+        "por ejemplo"
       ]
     },
     "DIRECT_OBJECT_PRONOUN": {
@@ -92,10 +102,10 @@
     "maxTokens": 10,
     "stemMinLength": 3,
     "forbidden": [
-      "\bvosotros\b",
-      "\bvale\b",
-      "\bcoche\b",
-      "\bordenador\b"
+      "\\bvosotros\\b",
+      "\\bvale\\b(?! la pena)",
+      "\\bcoche\\b",
+      "\\bordenador\\b"
     ]
   },
   "i18nLanguages": [
@@ -109,5 +119,146 @@
     "ja",
     "hi",
     "ar"
-  ]
+  ],
+  "levelRules": {
+    "A1": {
+      "maxTokens": 10,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR"
+      ]
+    },
+    "A2": {
+      "maxTokens": 10,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "POR_PARA",
+        "PRETERITO_PERFECTO",
+        "PRETERITO_INDEFINIDO",
+        "DIRECT_OBJECT_PRONOUN"
+      ]
+    },
+    "B1": {
+      "maxTokens": 10,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "POR_PARA",
+        "PRETERITO_PERFECTO",
+        "PRETERITO_INDEFINIDO",
+        "DIRECT_OBJECT_PRONOUN",
+        "PRETERITO_IMPERFECTO",
+        "FUTURO_SIMPLE",
+        "CONDICIONAL",
+        "IMPERATIVO",
+        "INDIRECT_OBJECT_PRONOUN",
+        "GUSTAR_VERBS"
+      ]
+    },
+    "B2": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "POR_PARA",
+        "PRETERITO_PERFECTO",
+        "PRETERITO_INDEFINIDO",
+        "DIRECT_OBJECT_PRONOUN",
+        "PRETERITO_IMPERFECTO",
+        "FUTURO_SIMPLE",
+        "CONDICIONAL",
+        "IMPERATIVO",
+        "INDIRECT_OBJECT_PRONOUN",
+        "GUSTAR_VERBS",
+        "SUBJUNTIVO_PRESENTE",
+        "SUBJUNTIVO_IMPERFECTO",
+        "PERIFRASIS_VERBAL",
+        "PASIVA_REFLEJA",
+        "RELATIVOS"
+      ]
+    },
+    "C1": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "POR_PARA",
+        "PRETERITO_PERFECTO",
+        "PRETERITO_INDEFINIDO",
+        "DIRECT_OBJECT_PRONOUN",
+        "PRETERITO_IMPERFECTO",
+        "FUTURO_SIMPLE",
+        "CONDICIONAL",
+        "IMPERATIVO",
+        "INDIRECT_OBJECT_PRONOUN",
+        "GUSTAR_VERBS",
+        "SUBJUNTIVO_PRESENTE",
+        "SUBJUNTIVO_IMPERFECTO",
+        "PERIFRASIS_VERBAL",
+        "PASIVA_REFLEJA",
+        "RELATIVOS",
+        "SUBJUNTIVO_COMPUESTO",
+        "ORACIONES_CONDICIONALES",
+        "SER_ESTAR_ADJETIVOS"
+      ]
+    },
+    "C2": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_REGULAR",
+        "SER_ESTAR",
+        "NEGATION_NO",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "POR_PARA",
+        "PRETERITO_PERFECTO",
+        "PRETERITO_INDEFINIDO",
+        "DIRECT_OBJECT_PRONOUN",
+        "PRETERITO_IMPERFECTO",
+        "FUTURO_SIMPLE",
+        "CONDICIONAL",
+        "IMPERATIVO",
+        "INDIRECT_OBJECT_PRONOUN",
+        "GUSTAR_VERBS",
+        "SUBJUNTIVO_PRESENTE",
+        "SUBJUNTIVO_IMPERFECTO",
+        "PERIFRASIS_VERBAL",
+        "PASIVA_REFLEJA",
+        "RELATIVOS",
+        "SUBJUNTIVO_COMPUESTO",
+        "ORACIONES_CONDICIONALES",
+        "SER_ESTAR_ADJETIVOS",
+        "CONCORDANCIA_TEMPORAL",
+        "REGISTRO_FORMAL"
+      ]
+    }
+  },
+  "uniqueAcrossLevels": true
 }

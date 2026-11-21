@@ -188,6 +188,19 @@ C1: KONJUNKTIV_I, EXTENDED_ATTR
 ```
 Every word-bank entry carries one of these in `grammar_angle`. The grammar drill currently covers `NOUN_GENDER` (article picker) and the case rules
 `ACCUSATIVE_MASC`, `ACCUSATIVE_PREP`, `DATIV_PREP`, `DATIV_INDIRECT_OBJ`, `GENITIV_CASE` (case cloze).
+
+### Grammar rule codes of Spanish (`scripts/wordbank/es/language.json`)
+```
+A1: NOUN_GENDER, ADJ_AGREEMENT, VERB_PRESENT_REGULAR, SER_ESTAR, NEGATION_NO, VERB_PRESENT_IRREGULAR
+A2: REFLEXIVE_VERBS, POR_PARA, PRETERITO_PERFECTO, PRETERITO_INDEFINIDO, DIRECT_OBJECT_PRONOUN
+B1: PRETERITO_IMPERFECTO, FUTURO_SIMPLE, CONDICIONAL, IMPERATIVO, INDIRECT_OBJECT_PRONOUN, GUSTAR_VERBS
+B2: SUBJUNTIVO_PRESENTE, SUBJUNTIVO_IMPERFECTO, PERIFRASIS_VERBAL, PASIVA_REFLEJA, RELATIVOS
+C1: SUBJUNTIVO_COMPUESTO, ORACIONES_CONDICIONALES, SER_ESTAR_ADJETIVOS
+C2: CONCORDANCIA_TEMPORAL, REGISTRO_FORMAL
+```
+`levelRules.<L>.allowedCodes` lists what each level may carry (cumulative). The Spanish drill covers `NOUN_GENDER` (el/la) and the choice rules `SER_ESTAR`,
+`POR_PARA`, `DIRECT_OBJECT_PRONOUN` (`pack.choices`); the other codes are metadata for now. Caps per level keep the choice sentences clean: `SER_ESTAR` ≤ 20 (A1-B1) then ≤ 10,
+`POR_PARA` none at A1, ≤ 20 at A2-B1, then ≤ 10; `DIRECT_OBJECT_PRONOUN` only at A2-B1 (≤ 15).
 Spanish (draft until TASK-045) drills `NOUN_GENDER` (el/la) and the *choice* rules `SER_ESTAR`, `POR_PARA`, `DIRECT_OBJECT_PRONOUN` (`pack.choices`: sets of mutually exclusive forms; only sentences an author tagged with the rule are used). A `language.json` with `"draft": true` is skipped by build/validate and cannot be activated.
 
 ---

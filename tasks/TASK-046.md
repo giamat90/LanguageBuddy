@@ -1,6 +1,6 @@
 # TASK-046 — Spanish word bank A2–C2 and the end of the draft
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-045 (pushed, `aa424a8`)

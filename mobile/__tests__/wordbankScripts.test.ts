@@ -298,3 +298,89 @@ describe('partial draft languages and example rules (TASK-045)', () => {
     });
   });
 });
+
+describe('level rules, cross-level uniqueness and exact-one checks (TASK-046)', () => {
+  const LANG = {
+    ...LANG_JSON,
+    draft: false,
+    ruleCodes: ['NOUN_GENDER', 'VERB_PRESENT_REGULAR', 'POR_PARA', 'PRETERITO_PERFECTO'],
+    uniqueAcrossLevels: true,
+    exampleRules: { minTokens: 4, maxTokens: 6, stemMinLength: 3, forbidden: [] },
+    levelRules: {
+      A1: { allowedCodes: ['NOUN_GENDER', 'VERB_PRESENT_REGULAR'] },
+      A2: { maxTokens: 9, allowedCodes: ['NOUN_GENDER', 'VERB_PRESENT_REGULAR', 'POR_PARA', 'PRETERITO_PERFECTO'] },
+    },
+    ruleChecks: { POR_PARA: { mustContainAny: ['por', 'para'], exactlyOneOf: ['por', 'para'], forbiddenPhrases: ['por favor', 'por eso'] } },
+  };
+  const make = (a1: string[], a2: string[]) => {
+    const f = fixture(a1, a2, LANG);
+    expect(run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+    const r = run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+    return { ...r, text: r.stderr + r.stdout };
+  };
+  const a1ok = row({ word: 'comer', article: '-', pos: 'verb', ex: 'Yo como pan hoy.', rule: 'VERB_PRESENT_REGULAR' });
+  const a2 = (o: Record<string, string>) => row({ word: 'trabajar', article: '-', pos: 'verb', rule: 'VERB_PRESENT_REGULAR', ex: 'Quiero trabajar mañana por favor.', ...o });
+
+  it('accepts a clean two-level bank', () => expect(make([a1ok], [a2({})]).status).toBe(0));
+
+  it('lets a level raise the token limit', () => {
+    const long = 'Quiero trabajar mañana muy temprano con mis amigos.'; // 8 tokens
+    expect(make([a1ok], [a2({ ex: long })]).status).toBe(0);
+    const f = make([row({ word: 'comer', article: '-', pos: 'verb', ex: 'Yo como pan hoy con mis amigos.', rule: 'VERB_PRESENT_REGULAR' })], [a2({})]);
+    expect(f.status).not.toBe(0);
+    expect(f.text).toMatch(/tokens \(4–6\)/);
+  });
+
+  it('rejects a code that is not allowed at the level', () => {
+    const r = make([row({ word: 'comer', article: '-', pos: 'verb', ex: 'Yo como pan hoy.', rule: 'PRETERITO_PERFECTO' })], [a2({})]);
+    expect(r.status).not.toBe(0);
+    expect(r.text).toMatch(/grammar_angle PRETERITO_PERFECTO is not allowed at A1/);
+  });
+
+  it('rejects a word that appears in two levels', () => {
+    const r = make([a1ok], [a2({ word: 'Comer', ex: 'Quiero comer mañana contigo.' })]);
+    expect(r.status).not.toBe(0);
+    expect(r.text).toMatch(/word "Comer" also appears in A1/);
+  });
+
+  it('does not require unique words across levels unless asked', () => {
+    const f = fixture([a1ok], [a2({ word: 'comer', ex: 'Quiero comer mañana contigo.' })], { ...LANG, uniqueAcrossLevels: false });
+    run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+    expect(run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+  });
+
+  describe('exactlyOneOf and forbiddenPhrases', () => {
+    const por = (ex: string) => make([a1ok], [a2({ word: 'trabajar', rule: 'POR_PARA', ex })]);
+    it('accepts exactly one of por/para', () => expect(por('Trabajo para mi familia cada día.').status).toBe(0));
+    it('rejects both', () => {
+      const r = por('Trabajo por mi familia para vivir.');
+      expect(r.status).not.toBe(0);
+      expect(r.text).toMatch(/example for POR_PARA must contain exactly one of por\/para/);
+    });
+    it('rejects a fixed phrase', () => {
+      const r = por('Quiero trabajar mañana por favor.');
+      expect(r.status).not.toBe(0);
+      expect(r.text).toMatch(/example for POR_PARA uses a fixed phrase \(por favor\)/);
+    });
+  });
+});
+
+describe('export-review-sample (TASK-046)', () => {
+  const sample = (seed: string) => {
+    const bank = mkdtempSync(join(tmpdir(), 'rv-bank-'));
+    const out = mkdtempSync(join(tmpdir(), 'rv-out-'));
+    dirs.push(bank, out);
+    const entries = Array.from({ length: 60 }, (_, i) => ({ word: `w${i}`, article: null, part_of_speech: 'verb', example: `Ejemplo número ${i} con | barra.`, example_it: 'x', cultural_note: 'n', grammar_angle: 'NOUN_GENDER' }));
+    writeFileSync(join(bank, 'A1.json'), JSON.stringify(entries));
+    const r = run('export-review-sample.mjs', ['--lang', 'xx', '--bank', bank, '--out', out, '--per', '40', '--seed', seed]);
+    return { r, text: readFileSync(join(out, 'sample-A1.md'), 'utf8') };
+  };
+  it('writes 40 rows, escapes pipes and is deterministic for a seed', () => {
+    const a = sample('3');
+    expect(a.r.status).toBe(0);
+    expect(a.text.split('\n').filter((l) => l.startsWith('| w') && !l.startsWith('| word'))).toHaveLength(40);
+    expect(a.text).toContain('con \| barra');
+    expect(sample('3').text).toBe(a.text);
+    expect(sample('4').text).not.toBe(a.text);
+  });
+});

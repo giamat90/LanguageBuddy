@@ -46,6 +46,9 @@ mobile/release.keystore
 GoogleCloud/
 *-service-account*.json
 
+# Rendered store pages and listing texts (npm run build:store)
+store/*/dist/
+
 # Locally built release bundles (about 48 MB each)
 Bundles/
 

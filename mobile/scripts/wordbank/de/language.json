@@ -1,5 +1,6 @@
 {
   "code": "de",
+  "name": "German",
   "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
   "ruleCodes": [
     "VERB_CONJ_REGULAR", "NOUN_GENDER", "WORD_ORDER_V2", "NEGATION_NICHT_KEIN",

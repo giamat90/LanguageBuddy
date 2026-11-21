@@ -157,6 +157,6 @@ function rowsFromTable(table, bank) {
 }
 
 module.exports = {
-  LEVELS, LANGS, MAX_MEANING, normalizeLocal, keyOf, slug,
+  LEVELS, LANGS, MAX_MEANING, SCRIPT_BY_LANG: SCRIPT, normalizeLocal, keyOf, slug,
   parseTsv, validateLanguage, buildTable, rowsFromTable,
 };

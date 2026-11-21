@@ -1,6 +1,6 @@
 # TASK-048 — Store listing and legal pages per app
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-047 (pushed, `4b02ed5`)

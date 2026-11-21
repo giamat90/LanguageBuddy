@@ -188,3 +188,22 @@ describe('which app builds', () => {
     });
   });
 });
+
+describe('unused permissions are blocked (TASK-050)', () => {
+  const BLOCKED = [
+    'android.permission.READ_EXTERNAL_STORAGE',
+    'android.permission.WRITE_EXTERNAL_STORAGE',
+    'android.permission.SYSTEM_ALERT_WINDOW',
+  ];
+  it.each(['de', 'es'])('%s blocks exactly the three and still declares the originals', (code) => {
+    const a = v.buildExpoConfig(v.loadVariant(code), {}).android;
+    expect([...a.blockedPermissions].sort()).toEqual([...BLOCKED].sort());
+    expect(a.permissions).toEqual([
+      'android.permission.POST_NOTIFICATIONS',
+      'android.permission.RECEIVE_BOOT_COMPLETED',
+      'android.permission.VIBRATE',
+    ]);
+    expect(a.permissions).not.toContain('android.permission.INTERNET');
+    expect(a.blockedPermissions).not.toContain('android.permission.INTERNET');
+  });
+});

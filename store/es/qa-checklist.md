@@ -75,6 +75,10 @@ Result column: **OK / Bug / n.a.** Anything marked Bug in sections 1–4, 7 or 8
 | 8.2 | Import it on a second phone or a clean install | All data back | | |
 | 8.3 | Automatic backup to a phone-storage folder | Files named `spanishbuddy-auto-…`, newest 10 kept | | |
 | 8.4 | Pick a Google Drive folder | The "not supported" message | | |
+| 8.5 | Export, then share to Drive / Gmail / Files | Share sheet opens, file arrives | | |
+| 8.6 | Import the exported file with the document picker (also from Downloads) | Restored | | |
+| 8.7 | Automatic backup: pick a phone-storage folder, change data, change folder | Files appear in the folder | | |
+| 8.8 | App info → Permissions | No storage permission listed (TASK-050). Run 8.5–8.8 on the oldest Android you have (9 or lower) and on a current one, for **both** apps | | |
 
 ## 9. AI (optional)
 | # | Steps | Expected | Result | Notes |

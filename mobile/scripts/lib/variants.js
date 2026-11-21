@@ -99,6 +99,14 @@ function buildExpoConfig(variant, env) {
         'android.permission.RECEIVE_BOOT_COMPLETED',
         'android.permission.VIBRATE',
       ],
+      // The apps never touch external storage (export = cache + share sheet, import = document picker,
+      // automatic backup = Storage Access Framework) and the overlay permission is a dev-only leftover.
+      // expo-file-system's own manifest would otherwise merge the two storage ones back in (TASK-050).
+      blockedPermissions: [
+        'android.permission.READ_EXTERNAL_STORAGE',
+        'android.permission.WRITE_EXTERNAL_STORAGE',
+        'android.permission.SYSTEM_ALERT_WINDOW',
+      ],
     },
     ios: { bundleIdentifier: variant.iosBundleId },
     plugins: [

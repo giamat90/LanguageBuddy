@@ -1,6 +1,6 @@
 # TASK-050 — Remove the Android permissions the apps do not use
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-049

@@ -14,12 +14,15 @@ const DECLARED_PERMISSIONS = [
   'android.permission.VIBRATE',
 ];
 /**
- * Permissions Expo and its modules add on their own (verified on the German and Spanish prebuilds, Nov 2026).
- * Pinned so that a new one (e.g. RECORD_AUDIO) fails the check and gets a conscious decision.
- * INTERNET: the optional AI call. The rest come from Expo's defaults (documents picker / dev tooling).
+ * The one permission beyond the declared ones: INTERNET, for the optional AI call. A new permission
+ * (e.g. RECORD_AUDIO) fails the check and needs a conscious decision.
  */
-const KNOWN_EXTRA_PERMISSIONS = [
-  'android.permission.INTERNET',
+const KNOWN_EXTRA_PERMISSIONS = ['android.permission.INTERNET'];
+/**
+ * Blocked on purpose (TASK-050): the apps use no external storage and no overlay. They must appear only as
+ * `<uses-permission ... tools:node="remove"/>`, which is how Expo writes `android.blockedPermissions`.
+ */
+const FORBIDDEN_PERMISSIONS = [
   'android.permission.READ_EXTERNAL_STORAGE',
   'android.permission.WRITE_EXTERNAL_STORAGE',
   'android.permission.SYSTEM_ALERT_WINDOW',
@@ -75,12 +78,20 @@ function checkPrebuild(androidDir, variant, others = [], expected = {}) {
     }
   }
 
-  // Permissions: the declared three, plus only the pinned extras.
-  const perms = [...manifest.matchAll(/<uses-permission\b[^>]*android:name="([^"]+)"/g)].map((x) => x[1]);
+  // Permissions: the declared three, INTERNET, and nothing else. A `tools:node="remove"` entry is a block, not a declaration.
+  const perms = [];
+  const removed = [];
+  for (const el of manifest.matchAll(/<uses-permission\b[^>]*>/g)) {
+    const name = (el[0].match(/android:name="([^"]+)"/) || [])[1];
+    if (!name) continue;
+    (/tools:node="remove"/.test(el[0]) ? removed : perms).push(name);
+  }
   for (const p of DECLARED_PERMISSIONS) if (!perms.includes(p)) problems.push(`permission ${p} is missing`);
   for (const p of perms) {
-    if (!DECLARED_PERMISSIONS.includes(p) && !KNOWN_EXTRA_PERMISSIONS.includes(p)) problems.push(`unexpected permission ${p}`);
+    if (FORBIDDEN_PERMISSIONS.includes(p)) problems.push(`forbidden permission ${p} is declared (block it with tools:node="remove")`);
+    else if (!DECLARED_PERMISSIONS.includes(p) && !KNOWN_EXTRA_PERMISSIONS.includes(p)) problems.push(`unexpected permission ${p}`);
   }
+  for (const p of FORBIDDEN_PERMISSIONS) if (!removed.includes(p)) problems.push(`permission ${p} is not blocked`);
 
   if (!/android:screenOrientation="portrait"/.test(manifest)) problems.push('the activity is not portrait');
   if (!/<uses-feature android:name="android.hardware.screen.portrait" android:required="false"\/>/.test(manifest)) {
@@ -101,4 +112,4 @@ function checkPrebuild(androidDir, variant, others = [], expected = {}) {
   return problems;
 }
 
-module.exports = { checkPrebuild, DECLARED_PERMISSIONS, KNOWN_EXTRA_PERMISSIONS };
+module.exports = { checkPrebuild, DECLARED_PERMISSIONS, KNOWN_EXTRA_PERMISSIONS, FORBIDDEN_PERMISSIONS };

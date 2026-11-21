@@ -15,11 +15,14 @@ const rules = (slug: string) => `<data-extraction-rules>
   <exclude domain="file" path="mmkv/auto-backup" />
 </data-extraction-rules>`;
 
-const MANIFEST = `<manifest>
+const MANIFEST = `<manifest xmlns:tools="http://schemas.android.com/tools">
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
   <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" tools:node="remove"/>
   <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
   <application android:label="@string/app_name" android:allowBackup="true" android:dataExtractionRules="@xml/spanishbuddy_backup_rules" android:fullBackupContent="@xml/spanishbuddy_backup_rules_legacy">
     <activity android:name=".MainActivity" android:screenOrientation="portrait">
@@ -71,6 +74,9 @@ const mutations: Array<[string, (f: Record<string, string | null>) => void, RegE
   ['AI store not excluded', (f) => { f['app/src/main/res/xml/spanishbuddy_backup_rules.xml'] = rules('x').replace('mmkv/ai"', 'mmkv/other"'); }, /does not exclude mmkv\/ai/],
   ['a required permission missing', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('<uses-permission android:name="android.permission.VIBRATE"/>', ''); }, /VIBRATE is missing/],
   ['an unexpected permission', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('<uses-feature', '<uses-permission android:name="android.permission.RECORD_AUDIO"/><uses-feature'); }, /unexpected permission .*RECORD_AUDIO/],
+  ['a storage permission declared again', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('android.permission.READ_EXTERNAL_STORAGE" tools:node="remove"', 'android.permission.READ_EXTERNAL_STORAGE"'); }, /forbidden permission .*READ_EXTERNAL_STORAGE/],
+  ['the overlay permission declared again', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('android.permission.SYSTEM_ALERT_WINDOW" tools:node="remove"', 'android.permission.SYSTEM_ALERT_WINDOW"'); }, /forbidden permission .*SYSTEM_ALERT_WINDOW/],
+  ['a blocked permission missing altogether', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.split(/\r?\n/).filter((l) => !l.includes('WRITE_EXTERNAL_STORAGE')).join(' '); }, /WRITE_EXTERNAL_STORAGE is not blocked/],
   ['not portrait', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('android:screenOrientation="portrait"', ''); }, /not portrait/],
   ['portrait feature required', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('android:required="false"', 'android:required="true"'); }, /screen\.portrait/],
   ['wrong scheme', (f) => { f['app/src/main/AndroidManifest.xml'] = MANIFEST.replace('android:scheme="spanishbuddy"', 'android:scheme="germanbuddy"'); }, /URL scheme/],

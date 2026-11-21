@@ -57,3 +57,6 @@ germanbuddy-support/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# TASK-058: downloaded frequency lists, never committed
+mobile/scripts/reference-lists/

@@ -1,6 +1,6 @@
 # TASK-058 — Audit the word lists against a public frequency list
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-046 (Spanish bank), nothing else. Independent of TASK-054 (reader review); its output feeds that review.
@@ -14,13 +14,14 @@ Both banks were put together by judgment ("frequency and usefulness for the leve
 2. Pure functions in `scripts/lib/wordbankAudit.js` with tests; the script is a thin wrapper.
 3. A short "how to run the audit" section in `CLAUDE.md` §5 (Data) and a decisions line in `CONTEXT.md`.
 4. A first run for `de` and `es` by the Developer, with the report summary in the hand-off (not in the repo, see below), so the Product Owner can decide what to change.
+5. **A native-agent quality check** of what the audit found and of a sample of each bank (section "Native-agent review"). This is a standing rule for every content task (`CLAUDE.md` §14), started here.
 
 ### Out
 Changing, moving, adding or removing any word, example, translation or tag; bumping `WORDBANK_VERSION`; committing the frequency list or any text derived from it beyond the summary numbers in `CONTEXT.md`; using an official CEFR list (Goethe, Instituto Cervantes PCIC) as machine input (they are copyrighted: the human reader uses them by hand in TASK-054); lemmatisation or any NLP dependency; a runtime feature.
 
 ## The reference list (decision made here)
 - **A plain public frequency list, one `word count` pair per line**, e.g. hermitdave/FrequencyWords (`content/2018/<code>/<code>_50k.txt`, from film subtitles; the Developer checks that the path still exists, any equivalent list with the same line format is fine).
-- It is **downloaded by hand** into the gitignored folder `mobile/scripts/wordbank/_reference/<code>.txt` and **never committed** (its licence, CC-BY-SA for the data, would attach to anything copied). Add `mobile/scripts/wordbank/_reference/` to `.gitignore`.
+- It is **downloaded by hand** into the gitignored folder `mobile/scripts/reference-lists/<code>.txt` and **never committed** (its licence, CC-BY-SA for the data, would attach to anything copied). Add `mobile/scripts/reference-lists/` to `.gitignore`.
 - Subtitles skew toward speech: everyday words rank high, formal and written words rank low. That is acceptable for an A1–B2 vocabulary app but the report says so, and the C1/C2 flags are weaker evidence than the A1/A2 ones.
 - Rank = 1-based line number (the file is sorted by count). A word's rank is looked up by its **folded form**: lower-case, NFC, and, when there is no exact match, accent-insensitive (`pan`/`pán`; German `ß`→`ss`, umlaut folded). Bank entries are lemmas (infinitive verbs, singular nouns) while the list holds word forms, so verbs rank lower than they should; thresholds below are deliberately generous, every flag is a *question for a human*, never an instruction.
 
@@ -33,6 +34,15 @@ Changing, moving, adding or removing any word, example, translation or tag; bump
 
 Exit code is 0 whenever the report was produced (the audit informs, it does not gate CI). It exits 2 with a clear message if the reference file is missing: the message names the expected path and says where to download.
 
+## Native-agent review (required; the Product Owner asked for it on every content task)
+After the audit has run, the Developer starts **native agents**: subagents, each briefed as a native speaker and language teacher of one language, **read-only** (they never edit a file), working on material the Developer hands them as text.
+- **Who:** per language (`de`, `es`) three agents, one for A1–A2, one for B1–B2, one for C1–C2 (six in total), started in parallel.
+- **What each gets:** (a) the audit's flagged rows for its levels (sections 2 and 3, with example and topic), (b) the 40-row review sheets of its levels (`node scripts/export-review-sample.mjs --lang <code> --per 40`; the sheets for `de` are produced the same way, the Spanish wording in their header is ignored), (c) the thin topics of section 5 for its levels, (d) the section 4 gap candidates (top 100 only).
+- **What each must answer, as a JSON list** of `{word, level, kind, verdict, suggestion}` with `kind` one of `level` (belongs earlier/later: say which level), `word` (unnatural, wrong, regional or offensive), `example` (unnatural, wrong grammar, not teaching the word), `tag` (grammar tag does not fit the sentence), `note` (cultural/usage note false or misleading), `gap` (an important everyday word missing), and `verdict` one of `fix`, `check`, `ok-as-is`. A row that is fine is not listed. Each agent also gives a one-paragraph overall judgment of its level range (natural? useful for a learner at that level? what is systematically off?).
+- **Rules for the agents:** they judge from their own knowledge of the language, say "not sure" instead of inventing, and note when a flag is only an artefact of the list (an infinitive ranking low, a subtitle-register bias).
+- **What the Developer does with it:** merges the six answers into one table in the hand-off (counts per `kind`/`verdict`, the 10 most serious items per language) and **fixes nothing**. Findings are input to the Product Owner's decisions and to the human reader of TASK-054. Be honest in the hand-off: agent review is a quality filter, **not** a native human's approval, and it does not remove the need for TASK-054.
+- Keep the agents' raw answers outside the repo (scratch folder); only the merged summary goes into the hand-off.
+
 ## Acceptance Criteria
 - [ ] `npm run audit:wordbank -- es` and `-- de` print the five sections from a real reference list; without the file they exit 2 with the path and a download hint, and they never touch the network themselves.
 - [ ] No frequency data and no list of words from it is committed; `.gitignore` covers the folder; `git status` after a run is clean.
@@ -40,11 +50,12 @@ Exit code is 0 whenever the report was produced (the audit informs, it does not 
 - [ ] A language with no `audit.json` still works (defaults); a language without `language.json` is refused with a clear message.
 - [ ] `npx tsc --noEmit`, `npm test`, `npm run test:app -- es` green; seams unchanged; no bank file changed (`git diff --stat` shows only scripts, test, `.gitignore`, `package.json`, `CLAUDE.md`, `CONTEXT.md`, the task, and `audit.json` files if added).
 - [ ] The hand-off contains the summary numbers of both runs (section 1 table, counts for sections 2–5, the ten most extreme items of section 2 per language).
+- [ ] Six native agents (three per language) ran read-only, and the hand-off holds the merged findings table and each agent's overall judgment; no file was edited by an agent.
 
 ## Technical Spec
 ### Files to create
 ```
-mobile/scripts/audit-wordbank.mjs           thin wrapper: args, reads the TSVs (same parser as build-wordbank), the reference file, calls the library, prints
+mobile/scripts/audit-wordbank.mjs           thin wrapper: args, reads the built JSON of the bank (so a TSV column change cannot desynchronise it), the reference file, calls the library, prints
 mobile/scripts/lib/wordbankAudit.js         pure functions (below)
 mobile/__tests__/wordbankAudit.test.ts      fixtures, no real bank
 mobile/scripts/wordbank/de/audit.json       thresholds for German (optional; start from the defaults and adjust only if a first run shows the defaults are nonsense)
@@ -53,7 +64,7 @@ mobile/scripts/wordbank/es/audit.json       same for Spanish
 ### Files to modify
 ```
 mobile/package.json                         "audit:wordbank": "node scripts/audit-wordbank.mjs"
-.gitignore                                  mobile/scripts/wordbank/_reference/
+.gitignore                                  mobile/scripts/reference-lists/
 CLAUDE.md                                   §5: how to run the audit, that it never changes the bank
 CONTEXT.md                                  task done; decision: references are downloaded, never committed; summary numbers; what the Product Owner should decide
 ```
@@ -89,7 +100,7 @@ Entries are the TSV rows as objects with `word`, `level`, `topic_domain` (use th
 
 ## Definition of Done
 - [ ] Criteria checked, red before green, guard done
-- [ ] Hand-off: the summary numbers and top-10 per language from the real run (the report file itself stays untracked)
+- [ ] Hand-off: the summary numbers and top-10 per language from the real run (the report file itself stays untracked), plus the merged native-agent findings
 - [ ] Diff review: only the files above changed; no word bank file, no reference data
 - [ ] `CONTEXT.md` updated; commit `feat(TASK-058): audit the word banks against a frequency list`
 - [ ] Task status `done`

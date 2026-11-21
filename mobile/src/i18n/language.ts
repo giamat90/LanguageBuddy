@@ -1,3 +1,5 @@
+import { getActivePack } from '../languages';
+
 /**
  * The languages the app itself can be shown in (never the language being studied,
  * which is always German). One registry drives the pickers, date formatting, the
@@ -32,9 +34,16 @@ export function isNativeLanguage(value: unknown): value is NativeLanguage {
   return typeof value === 'string' && BY_CODE.has(value);
 }
 
+/** The app languages the active language pack offers (a native speaker of the target language is left out). */
+export function offeredLanguages(): readonly NativeLanguage[] {
+  return getActivePack().uiLanguages;
+}
+
 /** Anything that comes from outside (backup file, MMKV, route param, DB row) goes through here. */
 export function coerceNativeLanguage(value: unknown): NativeLanguage {
-  return isNativeLanguage(value) ? value : DEFAULT_NATIVE_LANGUAGE;
+  const offered = offeredLanguages();
+  if (isNativeLanguage(value) && offered.includes(value)) return value;
+  return offered.includes(DEFAULT_NATIVE_LANGUAGE) ? DEFAULT_NATIVE_LANGUAGE : (offered[0] ?? DEFAULT_NATIVE_LANGUAGE);
 }
 
 export function languageLabel(lang: NativeLanguage): string {
@@ -60,7 +69,7 @@ export function isRtl(lang: NativeLanguage): boolean {
  */
 export function detectDeviceLanguage(identifier?: string | null): NativeLanguage {
   const primary = (identifier ?? '').split(/[_-]/)[0].trim().toLowerCase();
-  return isNativeLanguage(primary) ? primary : 'en';
+  return coerceNativeLanguage(isNativeLanguage(primary) ? primary : 'en');
 }
 
 /**

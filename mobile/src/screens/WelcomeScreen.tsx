@@ -5,12 +5,13 @@ import { useRouter } from 'expo-router';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { t, setAppLocale } from '../i18n';
+import { getActivePack } from '../languages';
 import { dateLocale, detectDeviceLanguage, type NativeLanguage } from '../i18n/language';
 import { applyLayoutDirection } from '../i18n/direction';
 import LanguagePicker from '../components/ui/LanguagePicker';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import SecondaryButton from '../components/ui/SecondaryButton';
-import { pickBackup, restoreBackup, RESTART_REQUIRED, type RestorePreview } from '../data/backup';
+import { pickBackup, restoreBackup, RESTART_REQUIRED, backupErrorText, type RestorePreview } from '../data/backup';
 import { rehydrateAfterRestore } from '../services/restoreService';
 
 export default function WelcomeScreen() {
@@ -90,7 +91,7 @@ export default function WelcomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.inner}>
-        <Text style={[typography.wordHero, { color: colors.ink }]}>{t('welcome_title')}</Text>
+        <Text style={[typography.wordHero, { color: colors.ink }]}>{getActivePack().app.name}</Text>
         <Text style={[typography.body, { color: colors.muted, marginTop: 12 }]}>
           {t('welcome_subtitle')}
         </Text>

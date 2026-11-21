@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/en.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          'One German word a day, learned properly.',
+  review_mc_prompt_target:   'How do you say it in German?',
+  speech_unavailable_title: `Audio unavailable`,
+  speech_unavailable_body: `Your phone cannot read German aloud. In Android Settings > System > Language & input > Text-to-speech, install a German voice, then try again.`,
+  quiz_q1:                   'Which sounds better?',
+  quiz_q1_a:                 'Ich trinke jeden Morgen Kaffee.',
+  quiz_q1_b:                 'Ich jeden Morgen Kaffee trinke.',
+  quiz_q2:                   'Which sentence is correct?',
+  quiz_q2_a:                 'Ich sehe den Mann.',
+  quiz_q2_b:                 'Ich sehe der Mann.',
+  quiz_q3:                   'How do you say "I turn off the light"?',
+  quiz_q3_a:                 'Ich mache das Licht aus.',
+  quiz_q3_b:                 'Ich ausmache das Licht.',
+  quiz_q4:                   'Which one sounds like a native speaker?',
+  quiz_q4_a:                 'Ich fahre mit der Bus.',
+  quiz_q4_b:                 'Ich fahre mit dem Bus.',
+  quiz_q5:                   'How do you politely express a wish?',
+  quiz_q5_a:                 'Ich hätte gern einen Kaffee.',
+  quiz_q5_b:                 'Ich will gern einen Kaffee.',
+  grammar_rule_NOUN_GENDER:             'Gender has to be learned with the noun: always memorise der, die or das together with the word.',
+  grammar_rule_ACCUSATIVE_MASC:         'In the accusative only the masculine changes: der → den, ein → einen.',
+  grammar_rule_ACCUSATIVE_PREP:         'After durch, für, gegen, ohne, um the accusative is always used.',
+  grammar_rule_DATIV_PREP:              'After aus, bei, mit, nach, seit, von, zu the dative is always used: dem / einem (m. and n.), der / einer (f.).',
+  grammar_rule_DATIV_INDIRECT_OBJ:      'The indirect object (to whom?) takes the dative: dem Mann, einem Kind.',
+  grammar_rule_GENITIV_CASE:            'The genitive (whose?) uses des / eines + a masculine or neuter noun ending in -s: des Regens.',
+};
+
+export default strings;

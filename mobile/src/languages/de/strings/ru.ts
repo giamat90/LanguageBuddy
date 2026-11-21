@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/ru.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `Одно немецкое слово в день — и вы действительно его выучите.`,
+  review_mc_prompt_target:   `Как это сказать по-немецки?`,
+  speech_unavailable_title: `Звук недоступен`,
+  speech_unavailable_body: `Телефон не может озвучить немецкий текст. В настройках Android > Система > Язык и ввод > Синтез речи установите немецкий голос и повторите попытку.`,
+  quiz_q1:                   `Как звучит лучше?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `Какое предложение верно?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `Как сказать «Я выключаю свет»?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `Что звучит как у носителя языка?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `Как вежливо выразить желание?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `Род нужно учить вместе с существительным: всегда запоминайте der, die или das вместе со словом.`,
+  grammar_rule_ACCUSATIVE_MASC:         `В аккузативе меняется только мужской род: der → den, ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `После durch, für, gegen, ohne, um всегда стоит аккузатив.`,
+  grammar_rule_DATIV_PREP:              `После aus, bei, mit, nach, seit, von, zu всегда стоит датив: dem / einem (м. и ср.), der / einer (ж.).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `Косвенное дополнение (кому?) стоит в дативе: dem Mann, einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `Генитив (чей?) образуется с des / eines + существительное мужского или среднего рода на -s: des Regens.`,
+};
+
+export default strings;

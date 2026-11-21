@@ -2,15 +2,13 @@ import it from './it';
 
 const pt: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `Uma palavra de alemão por dia, aprendida de verdade.`,
   welcome_cta:               `Começar`,
   welcome_offline_note:      `Funciona totalmente offline. Sem conta.`,
   welcome_restore_cta:                  `Já tenho um backup`,
   welcome_restore_confirm_title:        `Restaurar este backup?`,
   welcome_restore_confirm_body:         `Backup de %{date} · %{vocab} palavras.`,
   welcome_restore_failed:               `Não foi possível restaurar o backup. Verifique o arquivo e tente novamente.`,
-  welcome_restore_incompatible:         `Este backup foi criado por uma versão mais recente do GermanBuddy. Atualize o app.`,
+  welcome_restore_incompatible:         `Este backup foi criado por uma versão mais recente do %{app}. Atualize o app.`,
   welcome_restore_no_profile:           `Este backup não contém um perfil. Escolha outro arquivo ou comece do zero.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const pt: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `Qual é o seu nível?`,
   quiz_subtitle:             `Escolha a frase que lhe parece mais natural.`,
-  quiz_q1:                   `Qual soa melhor?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `Qual frase está correta?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `Como se diz «eu apago a luz»?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `Qual soa como um falante nativo?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `Como expressar um desejo com educação?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `Pergunta %{current} de %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const pt: Record<keyof typeof it, string> = {
   review_retry_label:        `Tentar de novo`,
   review_summary:            `%{correct} de %{total} de primeira`,
   review_mc_prompt_native:   `O que significa?`,
-  review_mc_prompt_german:   `Como se diz em alemão?`,
   review_mc_answer_was:      `Resposta: %{answer}`,
   review_match_prompt:       `Associe cada palavra ao seu significado`,
   review_reorder_prompt:     `Coloque as palavras na ordem certa`,
@@ -144,7 +126,7 @@ const pt: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `Nunca`,
   settings_autobackup_error:         `O backup automático não está funcionando. A pasta pode estar indisponível ou não permitir gravação.`,
   settings_autobackup_error_action:  `Escolher a pasta novamente`,
-  settings_autobackup_hint:          "Escolha uma pasta na memória do telefone: pastas do Google Drive não são compatíveis. Se outro app (por exemplo o Dropbox) sincronizar essa pasta, é esse app, e não o GermanBuddy, que guarda uma cópia online. A chave de API da IA nunca é incluída.",
+  settings_autobackup_hint:          "Escolha uma pasta na memória do telefone: pastas do Google Drive não são compatíveis. Se outro app (por exemplo o Dropbox) sincronizar essa pasta, é esse app, e não o %{app}, que guarda uma cópia online. A chave de API da IA nunca é incluída.",
   settings_autobackup_unusable_title: "Pasta não utilizável",
   settings_autobackup_unusable_body: "Esta pasta não permite salvar arquivos (o Google Drive geralmente não permite). Escolha uma pasta na memória do telefone.",
 
@@ -160,12 +142,6 @@ const pt: Record<keyof typeof it, string> = {
   grammar_again:                        `De novo`,
   grammar_empty:                        `Ainda não há exercícios disponíveis.`,
   grammar_load_error:                   `Não foi possível carregar os exercícios`,
-  grammar_rule_NOUN_GENDER:             `O gênero se aprende com o substantivo: memorize sempre der, die ou das junto com a palavra.`,
-  grammar_rule_ACCUSATIVE_MASC:         `No acusativo só o masculino muda: der → den, ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `Depois de durch, für, gegen, ohne, um usa-se sempre o acusativo.`,
-  grammar_rule_DATIV_PREP:              `Depois de aus, bei, mit, nach, seit, von, zu usa-se sempre o dativo: dem / einem (m. e n.), der / einer (f.).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `O objeto indireto (a quem?) vai no dativo: dem Mann, einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `O genitivo (de quem?) usa des / eines + substantivo masculino ou neutro terminado em -s: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `Significado`,
@@ -246,11 +222,11 @@ const pt: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `Sua palavra do dia está pronta 📖`,
-  notif_word_body:              `Descubra a nova palavra de hoje no GermanBuddy.`,
+  notif_word_body:              `Descubra a nova palavra de hoje no %{app}.`,
   notif_review_title:           `Hora de revisar 🔁`,
   notif_review_body:            `Você tem palavras prontas para revisão.`,
   notif_test_title:             `Notificação de teste`,
-  notif_test_body:              `As notificações do GermanBuddy estão funcionando!`,
+  notif_test_body:              `As notificações do %{app} estão funcionando!`,
 
   // Settings → Notifications
   settings_notif_section:       `Notificações`,
@@ -287,8 +263,6 @@ const pt: Record<keyof typeof it, string> = {
   settings_topics_error: `Não foi possível guardar a sua escolha.`,
   speech_play_a11y: `Ouvir a pronúncia de %{word}`,
   speech_stop_a11y: `Parar a pronúncia de %{word}`,
-  speech_unavailable_title: `Áudio indisponível`,
-  speech_unavailable_body: `O telemóvel não consegue ler alemão em voz alta. Nas Definições do Android > Sistema > Idioma e entrada > Conversão de texto em voz, instale uma voz alemã e tente novamente.`,
   speech_sentence_play_a11y: `Ouvir a frase`,
   speech_sentence_stop_a11y: `Parar a leitura da frase`,
   settings_speech_section: `Pronúncia`,
@@ -321,6 +295,15 @@ const pt: Record<keyof typeof it, string> = {
   filter_section_level: `Nível`,
   filter_section_topic: `Tema`,
   filter_section_status: `Estado`,
+  backup_err_invalid: `O arquivo de backup não é válido.`,
+  backup_err_not_this_app: `Este arquivo não é um backup do %{app}.`,
+  backup_err_unreadable: `Não foi possível ler o arquivo selecionado.`,
+  backup_err_corrupt: `O arquivo de backup está danificado.`,
+  backup_err_incomplete: `O backup está incompleto ou danificado.`,
+  backup_err_newer: `Este backup foi criado por uma versão mais recente do %{app}. Atualize o app.`,
+  backup_err_cannot_restore: `Não é possível restaurar este backup.`,
+  backup_dialog_title: `Salvar o backup do %{app}`,
+  backup_err_sharing_unavailable: `O compartilhamento não está disponível neste dispositivo.`,
 };
 
 export default pt;

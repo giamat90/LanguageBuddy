@@ -8,10 +8,10 @@ const dictionaries = Object.fromEntries(
 const placeholders = (s: string) => (s.match(/%\{[a-zA-Z_]+\}/g) ?? []).sort().join(',');
 const newlines = (s: string) => (s.match(/\n/g) ?? []).length;
 
-// Keys whose value is legitimately the same in every language: the brand, a provider
-// name, and the German sentences of the level quiz (they are the content, not UI).
+// Keys whose value is legitimately the same in every language: a provider name and a
+// pure-placeholder label. (The app name is %{app}; the quiz sentences live in the language overlay.)
 const SAME_EVERYWHERE = (key: string) =>
-  key === 'welcome_title' || key === 'settings_ai_provider_anthropic' || key === 'catalog_row_a11y' || /^quiz_q\d_[ab]$/.test(key);
+  key === 'settings_ai_provider_anthropic' || key === 'catalog_row_a11y';
 
 // True cognates: the Italian word is also the right word in that language. Each entry is
 // reviewed by hand; do not add one just to silence the test.

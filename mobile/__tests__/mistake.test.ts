@@ -7,8 +7,8 @@ import {
 import {
   CASE_FORMS, TWO_WAY_PREPOSITIONS, DEFINITE_FORMS, INDEFINITE_FORMS, type Rng,
 } from '../src/lib/grammar';
-import itStrings from '../src/i18n/it';
-import enStrings from '../src/i18n/en';
+import itStrings from '../src/languages/de/strings/it';
+import enStrings from '../src/languages/de/strings/en';
 import type { ReviewCard } from '../src/services/reviewService';
 
 function card(over: Partial<ReviewCard> = {}): ReviewCard {

@@ -2,15 +2,13 @@ import it from './it';
 
 const ja: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `1日1つのドイツ語、しっかり身につけよう。`,
   welcome_cta:               `はじめる`,
   welcome_offline_note:      `完全オフラインで動作します。アカウントは不要です。`,
   welcome_restore_cta:                  `バックアップがあります`,
   welcome_restore_confirm_title:        `このバックアップを復元しますか？`,
   welcome_restore_confirm_body:         `%{date} のバックアップ · %{vocab} 語`,
   welcome_restore_failed:               `バックアップを復元できませんでした。ファイルを確認して、もう一度お試しください。`,
-  welcome_restore_incompatible:         `このバックアップは、より新しいバージョンの GermanBuddy で作成されました。アプリを更新してください。`,
+  welcome_restore_incompatible:         `このバックアップは、より新しいバージョンの %{app} で作成されました。アプリを更新してください。`,
   welcome_restore_no_profile:           `このバックアップにはプロフィールがありません。別のファイルを選ぶか、最初から始めてください。`,
 
   // Word Card
@@ -35,21 +33,6 @@ const ja: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `あなたのレベルは？`,
   quiz_subtitle:             `いちばん自然に聞こえる文を選んでください。`,
-  quiz_q1:                   `どちらが自然ですか？`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `正しい文はどれですか？`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `「電気を消します」はどう言いますか？`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `ネイティブらしく聞こえるのはどれですか？`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `丁寧に希望を伝えるには？`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `質問 %{current} / %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const ja: Record<keyof typeof it, string> = {
   review_retry_label:        `もう一度`,
   review_summary:            `一発正解: %{correct} / %{total}`,
   review_mc_prompt_native:   `どういう意味ですか？`,
-  review_mc_prompt_german:   `ドイツ語ではどう言いますか？`,
   review_mc_answer_was:      `答え: %{answer}`,
   review_match_prompt:       `単語と意味を組み合わせてください`,
   review_reorder_prompt:     `単語を正しい順序に並べてください`,
@@ -144,7 +126,7 @@ const ja: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `なし`,
   settings_autobackup_error:         `自動バックアップが動作していません。フォルダが利用できないか、書き込めない可能性があります。`,
   settings_autobackup_error_action:  `フォルダを選び直す`,
-  settings_autobackup_hint:          "スマートフォン本体のストレージにあるフォルダを選んでください。Google ドライブのフォルダには対応していません。他のアプリ(例: Dropbox)がそのフォルダを同期する場合、オンラインのコピーを保持するのは GermanBuddy ではなくそのアプリです。AI の API キーは含まれません。",
+  settings_autobackup_hint:          "スマートフォン本体のストレージにあるフォルダを選んでください。Google ドライブのフォルダには対応していません。他のアプリ(例: Dropbox)がそのフォルダを同期する場合、オンラインのコピーを保持するのは %{app} ではなくそのアプリです。AI の API キーは含まれません。",
   settings_autobackup_unusable_title: "フォルダを使用できません",
   settings_autobackup_unusable_body: "このフォルダにはファイルを保存できません(Google ドライブでは通常できません)。スマートフォン本体のストレージにあるフォルダを選んでください。",
 
@@ -160,12 +142,6 @@ const ja: Record<keyof typeof it, string> = {
   grammar_again:                        `もう一度`,
   grammar_empty:                        `まだ練習問題がありません。`,
   grammar_load_error:                   `練習問題を読み込めませんでした`,
-  grammar_rule_NOUN_GENDER:             `性は名詞と一緒に覚える必要があります。der、die、das は必ず単語とセットで覚えましょう。`,
-  grammar_rule_ACCUSATIVE_MASC:         `4格（Akkusativ）で変わるのは男性だけです: der → den、ein → einen。`,
-  grammar_rule_ACCUSATIVE_PREP:         `durch、für、gegen、ohne、um の後は必ず4格を使います。`,
-  grammar_rule_DATIV_PREP:              `aus、bei、mit、nach、seit、von、zu の後は必ず3格を使います: dem / einem（男性・中性）、der / einer（女性）。`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `間接目的語（誰に？）は3格になります: dem Mann、einem Kind。`,
-  grammar_rule_GENITIV_CASE:            `2格（誰の？）は des / eines + 語尾が -s の男性・中性名詞で作ります: des Regens。`,
 
   // Word card design-system section labels
   word_section_meaning:      `意味`,
@@ -246,11 +222,11 @@ const ja: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `今日の単語の準備ができました 📖`,
-  notif_word_body:              `GermanBuddy で今日の新しい単語を見つけましょう。`,
+  notif_word_body:              `%{app} で今日の新しい単語を見つけましょう。`,
   notif_review_title:           `復習の時間です 🔁`,
   notif_review_body:            `復習できる単語があります。`,
   notif_test_title:             `テスト通知`,
-  notif_test_body:              `GermanBuddy の通知は正常に動作しています！`,
+  notif_test_body:              `%{app} の通知は正常に動作しています！`,
 
   // Settings → Notifications
   settings_notif_section:       `通知`,
@@ -287,8 +263,6 @@ const ja: Record<keyof typeof it, string> = {
   settings_topics_error: `選択を保存できませんでした。`,
   speech_play_a11y: `%{word} の発音を聞く`,
   speech_stop_a11y: `%{word} の発音を停止`,
-  speech_unavailable_title: `音声を利用できません`,
-  speech_unavailable_body: `お使いの端末はドイツ語を読み上げられません。Android の設定 > システム > 言語と入力 > テキスト読み上げ でドイツ語の音声をインストールして、もう一度お試しください。`,
   speech_sentence_play_a11y: `文を聞く`,
   speech_sentence_stop_a11y: `文の読み上げを止める`,
   settings_speech_section: `発音`,
@@ -321,6 +295,15 @@ const ja: Record<keyof typeof it, string> = {
   filter_section_level: `レベル`,
   filter_section_topic: `トピック`,
   filter_section_status: `状態`,
+  backup_err_invalid: `バックアップファイルが無効です。`,
+  backup_err_not_this_app: `このファイルは %{app} のバックアップではありません。`,
+  backup_err_unreadable: `選択したファイルを読み込めませんでした。`,
+  backup_err_corrupt: `バックアップファイルが破損しています。`,
+  backup_err_incomplete: `バックアップが不完全または破損しています。`,
+  backup_err_newer: `このバックアップは、より新しいバージョンの %{app} で作成されました。アプリを更新してください。`,
+  backup_err_cannot_restore: `このバックアップは復元できません。`,
+  backup_dialog_title: `%{app} のバックアップを保存`,
+  backup_err_sharing_unavailable: `このデバイスでは共有を利用できません。`,
 };
 
 export default ja;

@@ -1,6 +1,6 @@
 # TASK-043 — UI strings that belong to the app or to the target language
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-042 (pushed, `92e645f`)
@@ -22,7 +22,7 @@ Plan: 041, 042 done; 043 (this); 044–046 Spanish; 047 variants and build scrip
 1. `t()` injects `app` (from the active pack) into every call; strings use `%{app}`.
 2. Target-string overlays (German moved, not rewritten), merged over the base strings for the active pack.
 3. `pack.quiz` (which options are correct) and `pack.uiLanguages` (which UI languages the picker offers).
-4. `BackupError` codes replacing Italian `Error` messages; 8 new keys in 13 languages.
+4. `BackupError` codes replacing Italian `Error` messages; 9 new keys in 13 languages (the 8 below plus `backup_err_sharing_unavailable`, found while removing the last Italian literal from `backup.ts`).
 5. Parity tests extended; `CLAUDE.md` §13 updated; `CONTEXT.md`.
 
 ### Out

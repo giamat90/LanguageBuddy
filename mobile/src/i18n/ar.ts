@@ -2,15 +2,13 @@ import it from './it';
 
 const ar: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `كلمة ألمانية واحدة كل يوم، تتعلمها حقًا.`,
   welcome_cta:               `ابدأ`,
   welcome_offline_note:      `يعمل بالكامل دون اتصال بالإنترنت. بلا حساب.`,
   welcome_restore_cta:                  `لدي نسخة احتياطية`,
   welcome_restore_confirm_title:        `استعادة هذه النسخة الاحتياطية؟`,
   welcome_restore_confirm_body:         `نسخة بتاريخ %{date} · %{vocab} كلمة.`,
   welcome_restore_failed:               `تعذّرت استعادة النسخة الاحتياطية. تحقّق من الملف وحاول مرة أخرى.`,
-  welcome_restore_incompatible:         `أُنشئت هذه النسخة بإصدار أحدث من GermanBuddy. يُرجى تحديث التطبيق.`,
+  welcome_restore_incompatible:         `أُنشئت هذه النسخة بإصدار أحدث من %{app}. يُرجى تحديث التطبيق.`,
   welcome_restore_no_profile:           `لا تحتوي هذه النسخة على ملف شخصي. اختر ملفًا آخر أو ابدأ من جديد.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const ar: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `ما مستواك؟`,
   quiz_subtitle:             `اختر الجملة التي تبدو لك الأكثر طبيعية.`,
-  quiz_q1:                   `أيهما يبدو أفضل؟`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `أي جملة صحيحة؟`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `كيف تقول «أُطفئ الضوء»؟`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `أيهما يبدو كما يتحدث الناطق الأصلي؟`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `كيف تعبّر عن رغبة بأدب؟`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `السؤال %{current} من %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const ar: Record<keyof typeof it, string> = {
   review_retry_label:        `حاول مجددًا`,
   review_summary:            `%{correct} من %{total} من المحاولة الأولى`,
   review_mc_prompt_native:   `ما معناها؟`,
-  review_mc_prompt_german:   `كيف تُقال بالألمانية؟`,
   review_mc_answer_was:      `الإجابة: %{answer}`,
   review_match_prompt:       `صِل كل كلمة بمعناها`,
   review_reorder_prompt:     `رتّب الكلمات بالترتيب الصحيح`,
@@ -144,7 +126,7 @@ const ar: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `لم يحدث`,
   settings_autobackup_error:         `النسخ الاحتياطي التلقائي لا يعمل. ربما المجلد غير متاح أو لا يمكن الكتابة فيه.`,
   settings_autobackup_error_action:  `اختر المجلد من جديد`,
-  settings_autobackup_hint:          "اختر مجلدًا في ذاكرة الهاتف: مجلدات Google Drive غير مدعومة. إذا كان تطبيق آخر (مثل Dropbox) يزامن هذا المجلد، فهو، لا GermanBuddy، من يحتفظ بنسخة عبر الإنترنت. لا يُضمَّن مفتاح API للذكاء الاصطناعي أبدًا.",
+  settings_autobackup_hint:          "اختر مجلدًا في ذاكرة الهاتف: مجلدات Google Drive غير مدعومة. إذا كان تطبيق آخر (مثل Dropbox) يزامن هذا المجلد، فهو، لا %{app}، من يحتفظ بنسخة عبر الإنترنت. لا يُضمَّن مفتاح API للذكاء الاصطناعي أبدًا.",
   settings_autobackup_unusable_title: "المجلد غير صالح للاستخدام",
   settings_autobackup_unusable_body: "لا يسمح هذا المجلد بحفظ الملفات (لا يسمح Google Drive بذلك عادةً). اختر مجلدًا في ذاكرة الهاتف.",
 
@@ -160,12 +142,6 @@ const ar: Record<keyof typeof it, string> = {
   grammar_again:                        `مرة أخرى`,
   grammar_empty:                        `لا توجد تمارين متاحة بعد.`,
   grammar_load_error:                   `تعذّر تحميل التمارين`,
-  grammar_rule_NOUN_GENDER:             `يجب تعلّم الجنس مع الاسم: احفظ دائمًا der أو die أو das مع الكلمة.`,
-  grammar_rule_ACCUSATIVE_MASC:         `في حالة النصب (Akkusativ) يتغيّر المذكّر فقط: der → den، ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `بعد durch وfür وgegen وohne وum تُستخدم حالة النصب دائمًا.`,
-  grammar_rule_DATIV_PREP:              `بعد aus وbei وmit وnach وseit وvon وzu تُستخدم حالة الجر (Dativ) دائمًا: dem / einem (للمذكّر والمحايد)، der / einer (للمؤنّث).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `المفعول غير المباشر (لمن؟) يأتي في حالة الجر: dem Mann، einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `حالة الإضافة (Genitiv) (لمن؟) تستخدم des / eines + اسمًا مذكّرًا أو محايدًا ينتهي بـ -s: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `المعنى`,
@@ -246,11 +222,11 @@ const ar: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `كلمة اليوم جاهزة 📖`,
-  notif_word_body:              `اكتشف كلمة اليوم الجديدة في GermanBuddy.`,
+  notif_word_body:              `اكتشف كلمة اليوم الجديدة في %{app}.`,
   notif_review_title:           `حان وقت المراجعة 🔁`,
   notif_review_body:            `لديك كلمات جاهزة للمراجعة.`,
   notif_test_title:             `إشعار تجريبي`,
-  notif_test_body:              `إشعارات GermanBuddy تعمل!`,
+  notif_test_body:              `إشعارات %{app} تعمل!`,
 
   // Settings → Notifications
   settings_notif_section:       `الإشعارات`,
@@ -287,8 +263,6 @@ const ar: Record<keyof typeof it, string> = {
   settings_topics_error: `تعذّر حفظ اختيارك.`,
   speech_play_a11y: `استمع إلى نطق %{word}`,
   speech_stop_a11y: `أوقف نطق %{word}`,
-  speech_unavailable_title: `الصوت غير متاح`,
-  speech_unavailable_body: `لا يستطيع هاتفك قراءة الألمانية بصوت عالٍ. من إعدادات أندرويد > النظام > اللغة والإدخال > تحويل النص إلى كلام، ثبّت صوتًا ألمانيًا ثم أعد المحاولة.`,
   speech_sentence_play_a11y: `الاستماع إلى الجملة`,
   speech_sentence_stop_a11y: `إيقاف قراءة الجملة`,
   settings_speech_section: `النطق`,
@@ -321,6 +295,15 @@ const ar: Record<keyof typeof it, string> = {
   filter_section_level: `المستوى`,
   filter_section_topic: `الموضوع`,
   filter_section_status: `الحالة`,
+  backup_err_invalid: `ملف النسخة الاحتياطية غير صالح.`,
+  backup_err_not_this_app: `هذا الملف ليس نسخة احتياطية من %{app}.`,
+  backup_err_unreadable: `تعذّرت قراءة الملف المحدد.`,
+  backup_err_corrupt: `ملف النسخة الاحتياطية تالف.`,
+  backup_err_incomplete: `النسخة الاحتياطية غير مكتملة أو تالفة.`,
+  backup_err_newer: `أُنشئت هذه النسخة الاحتياطية بإصدار أحدث من %{app}. يرجى تحديث التطبيق.`,
+  backup_err_cannot_restore: `لا يمكن استعادة هذه النسخة الاحتياطية.`,
+  backup_dialog_title: `حفظ النسخة الاحتياطية لـ %{app}`,
+  backup_err_sharing_unavailable: `المشاركة غير متاحة على هذا الجهاز.`,
 };
 
 export default ar;

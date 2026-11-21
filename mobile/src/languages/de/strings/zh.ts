@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/zh.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `每天一个德语单词，真正学会。`,
+  review_mc_prompt_target:   `用德语怎么说？`,
+  speech_unavailable_title: `无法播放语音`,
+  speech_unavailable_body: `你的手机无法朗读德语。请在 Android 设置 > 系统 > 语言和输入法 > 文字转语音中安装德语语音，然后重试。`,
+  quiz_q1:                   `哪个听起来更好？`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `哪个句子是正确的？`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `“我关灯”怎么说？`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `哪个听起来像母语者说的？`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `如何礼貌地表达愿望？`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `词性要连同名词一起学：务必把 der、die 或 das 和单词一起记住。`,
+  grammar_rule_ACCUSATIVE_MASC:         `在四格（Akkusativ）中只有阳性会变化：der → den，ein → einen。`,
+  grammar_rule_ACCUSATIVE_PREP:         `durch、für、gegen、ohne、um 之后总是用四格。`,
+  grammar_rule_DATIV_PREP:              `aus、bei、mit、nach、seit、von、zu 之后总是用三格：dem / einem（阳性和中性），der / einer（阴性）。`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `间接宾语（给谁？）用三格：dem Mann，einem Kind。`,
+  grammar_rule_GENITIV_CASE:            `二格（谁的？）用 des / eines + 以 -s 结尾的阳性或中性名词：des Regens。`,
+};
+
+export default strings;

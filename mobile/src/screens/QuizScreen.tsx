@@ -1,27 +1,30 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { t } from '../i18n';
-import it from '../i18n/it';
+import { getActivePack } from '../languages';
+import type { StringKey } from '../i18n';
 import SectionLabel from '../components/ui/SectionLabel';
 
 interface Question {
-  questionKey: keyof typeof it;
-  optionAKey:  keyof typeof it;
-  optionBKey:  keyof typeof it;
+  questionKey: StringKey;
+  optionAKey:  StringKey;
+  optionBKey:  StringKey;
   correctIndex: 0 | 1;
 }
 
-const QUESTIONS: Question[] = [
-  { questionKey: 'quiz_q1', optionAKey: 'quiz_q1_a', optionBKey: 'quiz_q1_b', correctIndex: 0 },
-  { questionKey: 'quiz_q2', optionAKey: 'quiz_q2_a', optionBKey: 'quiz_q2_b', correctIndex: 0 },
-  { questionKey: 'quiz_q3', optionAKey: 'quiz_q3_a', optionBKey: 'quiz_q3_b', correctIndex: 0 },
-  { questionKey: 'quiz_q4', optionAKey: 'quiz_q4_a', optionBKey: 'quiz_q4_b', correctIndex: 1 },
-  { questionKey: 'quiz_q5', optionAKey: 'quiz_q5_a', optionBKey: 'quiz_q5_b', correctIndex: 0 },
-];
+/** The questions of the active language pack: its sentences are strings, its right answers are data. */
+function questions(): Question[] {
+  return getActivePack().quiz.map(({ n, correctIndex }) => ({
+    questionKey: `quiz_q${n}`,
+    optionAKey: `quiz_q${n}_a`,
+    optionBKey: `quiz_q${n}_b`,
+    correctIndex,
+  } as Question));
+}
 
 export function inferCefrLevel(correctCount: number): string {
   if (correctCount <= 1) return 'A1';
@@ -35,6 +38,7 @@ export default function QuizScreen() {
   const { nativeLanguage } = useLocalSearchParams<{ nativeLanguage?: string }>();
   const [step, setStep]   = useState(0);
   const [score, setScore] = useState(0);
+  const QUESTIONS = useMemo(questions, []);
 
   const handleAnswer = (selectedIndex: 0 | 1) => {
     const correct = QUESTIONS[step].correctIndex === selectedIndex;
@@ -77,7 +81,7 @@ export default function QuizScreen() {
 
         {/* Options */}
         <View style={styles.options}>
-          {([q.optionAKey, q.optionBKey] as (keyof typeof it)[]).map((key, i) => (
+          {[q.optionAKey, q.optionBKey].map((key, i) => (
             <TouchableOpacity
               key={key}
               style={styles.option}

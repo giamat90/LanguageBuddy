@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/ar.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `كلمة ألمانية واحدة كل يوم، تتعلمها حقًا.`,
+  review_mc_prompt_target:   `كيف تُقال بالألمانية؟`,
+  speech_unavailable_title: `الصوت غير متاح`,
+  speech_unavailable_body: `لا يستطيع هاتفك قراءة الألمانية بصوت عالٍ. من إعدادات أندرويد > النظام > اللغة والإدخال > تحويل النص إلى كلام، ثبّت صوتًا ألمانيًا ثم أعد المحاولة.`,
+  quiz_q1:                   `أيهما يبدو أفضل؟`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `أي جملة صحيحة؟`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `كيف تقول «أُطفئ الضوء»؟`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `أيهما يبدو كما يتحدث الناطق الأصلي؟`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `كيف تعبّر عن رغبة بأدب؟`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `يجب تعلّم الجنس مع الاسم: احفظ دائمًا der أو die أو das مع الكلمة.`,
+  grammar_rule_ACCUSATIVE_MASC:         `في حالة النصب (Akkusativ) يتغيّر المذكّر فقط: der → den، ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `بعد durch وfür وgegen وohne وum تُستخدم حالة النصب دائمًا.`,
+  grammar_rule_DATIV_PREP:              `بعد aus وbei وmit وnach وseit وvon وzu تُستخدم حالة الجر (Dativ) دائمًا: dem / einem (للمذكّر والمحايد)، der / einer (للمؤنّث).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `المفعول غير المباشر (لمن؟) يأتي في حالة الجر: dem Mann، einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `حالة الإضافة (Genitiv) (لمن؟) تستخدم des / eines + اسمًا مذكّرًا أو محايدًا ينتهي بـ -s: des Regens.`,
+};
+
+export default strings;

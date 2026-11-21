@@ -2,15 +2,13 @@ import it from './it';
 
 const en: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             'GermanBuddy',
-  welcome_subtitle:          'One German word a day, learned properly.',
   welcome_cta:               'Get started',
   welcome_offline_note:      'Works completely offline. No account needed.',
   welcome_restore_cta:                  'I already have a backup',
   welcome_restore_confirm_title:        'Restore this backup?',
   welcome_restore_confirm_body:         'Backup from %{date} · %{vocab} words.',
   welcome_restore_failed:               "Couldn't restore the backup. Check the file and try again.",
-  welcome_restore_incompatible:         'This backup was created by a newer version of GermanBuddy. Please update the app.',
+  welcome_restore_incompatible:         'This backup was created by a newer version of %{app}. Please update the app.',
   welcome_restore_no_profile:           'This backup has no profile. Choose another file or start from scratch.',
 
   // Word Card
@@ -35,21 +33,6 @@ const en: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                'What is your level?',
   quiz_subtitle:             'Choose the sentence that sounds most natural.',
-  quiz_q1:                   'Which sounds better?',
-  quiz_q1_a:                 'Ich trinke jeden Morgen Kaffee.',
-  quiz_q1_b:                 'Ich jeden Morgen Kaffee trinke.',
-  quiz_q2:                   'Which sentence is correct?',
-  quiz_q2_a:                 'Ich sehe den Mann.',
-  quiz_q2_b:                 'Ich sehe der Mann.',
-  quiz_q3:                   'How do you say "I turn off the light"?',
-  quiz_q3_a:                 'Ich mache das Licht aus.',
-  quiz_q3_b:                 'Ich ausmache das Licht.',
-  quiz_q4:                   'Which one sounds like a native speaker?',
-  quiz_q4_a:                 'Ich fahre mit der Bus.',
-  quiz_q4_b:                 'Ich fahre mit dem Bus.',
-  quiz_q5:                   'How do you politely express a wish?',
-  quiz_q5_a:                 'Ich hätte gern einen Kaffee.',
-  quiz_q5_b:                 'Ich will gern einen Kaffee.',
   quiz_progress:             'Question %{current} of %{total}',
 
   // Topics
@@ -98,7 +81,6 @@ const en: Record<keyof typeof it, string> = {
   review_retry_label:        'Try again',
   review_summary:            '%{correct} of %{total} right first time',
   review_mc_prompt_native:   'What does it mean?',
-  review_mc_prompt_german:   'How do you say it in German?',
   review_mc_answer_was:      'Answer: %{answer}',
   review_match_prompt:       'Match each word to its meaning',
   review_reorder_prompt:     'Put the words in the right order',
@@ -144,7 +126,7 @@ const en: Record<keyof typeof it, string> = {
   settings_autobackup_never:         'Never',
   settings_autobackup_error:         "Automatic backup isn't working. The folder may be unavailable or not writable.",
   settings_autobackup_error_action:  'Choose folder again',
-  settings_autobackup_hint:          "Pick a folder in your phone's storage: Google Drive folders are not supported. If another app (for example Dropbox) syncs that folder, that app, not GermanBuddy, keeps an online copy. The AI API key is never included.",
+  settings_autobackup_hint:          "Pick a folder in your phone's storage: Google Drive folders are not supported. If another app (for example Dropbox) syncs that folder, that app, not %{app}, keeps an online copy. The AI API key is never included.",
   settings_autobackup_unusable_title: "Folder can't be used",
   settings_autobackup_unusable_body: "This folder doesn't allow saving files (Google Drive usually doesn't). Pick a folder in your phone's storage.",
 
@@ -160,12 +142,6 @@ const en: Record<keyof typeof it, string> = {
   grammar_again:                        'Again',
   grammar_empty:                        'No exercises available yet.',
   grammar_load_error:                   'Could not load the exercises',
-  grammar_rule_NOUN_GENDER:             'Gender has to be learned with the noun: always memorise der, die or das together with the word.',
-  grammar_rule_ACCUSATIVE_MASC:         'In the accusative only the masculine changes: der → den, ein → einen.',
-  grammar_rule_ACCUSATIVE_PREP:         'After durch, für, gegen, ohne, um the accusative is always used.',
-  grammar_rule_DATIV_PREP:              'After aus, bei, mit, nach, seit, von, zu the dative is always used: dem / einem (m. and n.), der / einer (f.).',
-  grammar_rule_DATIV_INDIRECT_OBJ:      'The indirect object (to whom?) takes the dative: dem Mann, einem Kind.',
-  grammar_rule_GENITIV_CASE:            'The genitive (whose?) uses des / eines + a masculine or neuter noun ending in -s: des Regens.',
 
   // Word card design-system section labels
   word_section_meaning:      'Meaning',
@@ -246,11 +222,11 @@ const en: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            'Your word of the day is ready 📖',
-  notif_word_body:              'Discover today\'s new word in GermanBuddy.',
+  notif_word_body:              'Discover today\'s new word in %{app}.',
   notif_review_title:           'Time to review 🔁',
   notif_review_body:            'You have words ready for review.',
   notif_test_title:             'Test notification',
-  notif_test_body:              'GermanBuddy notifications are working!',
+  notif_test_body:              '%{app} notifications are working!',
 
   // Settings → Notifications
   settings_notif_section:       'Notifications',
@@ -287,8 +263,6 @@ const en: Record<keyof typeof it, string> = {
   settings_topics_error: `Could not save your choice.`,
   speech_play_a11y: `Listen to the pronunciation of %{word}`,
   speech_stop_a11y: `Stop the pronunciation of %{word}`,
-  speech_unavailable_title: `Audio unavailable`,
-  speech_unavailable_body: `Your phone cannot read German aloud. In Android Settings > System > Language & input > Text-to-speech, install a German voice, then try again.`,
   speech_sentence_play_a11y: `Listen to the sentence`,
   speech_sentence_stop_a11y: `Stop reading the sentence`,
   settings_speech_section: `Pronunciation`,
@@ -321,6 +295,15 @@ const en: Record<keyof typeof it, string> = {
   filter_section_level: `Level`,
   filter_section_topic: `Topic`,
   filter_section_status: `Status`,
+  backup_err_invalid: `The backup file is not valid.`,
+  backup_err_not_this_app: `This file is not a %{app} backup.`,
+  backup_err_unreadable: `The selected file could not be read.`,
+  backup_err_corrupt: `The backup file is damaged.`,
+  backup_err_incomplete: `The backup is incomplete or damaged.`,
+  backup_err_newer: `This backup was created by a newer version of %{app}. Please update the app.`,
+  backup_err_cannot_restore: `This backup cannot be restored.`,
+  backup_dialog_title: `Save the %{app} backup`,
+  backup_err_sharing_unavailable: `Sharing is not available on this device.`,
 };
 
 export default en;

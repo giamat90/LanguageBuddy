@@ -37,7 +37,7 @@ export default function MultipleChoiceView({ model, isRetry, onResult }: Props) 
           <Text style={[typography.uiSmall, styles.retryTag]}>{t('review_retry_label')}</Text>
         ) : null}
         <Text style={[typography.uiSmall, { color: colors.muted, marginBottom: 16 }]}>
-          {t(direction === 'to_native' ? 'review_mc_prompt_native' : 'review_mc_prompt_german')}
+          {t(direction === 'to_native' ? 'review_mc_prompt_native' : 'review_mc_prompt_target')}
         </Text>
 
         {direction === 'to_native' ? (

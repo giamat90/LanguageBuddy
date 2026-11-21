@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { colors } from '../../theme/colors';
 import { typography } from '../../theme/typography';
-import { LANGUAGES, type NativeLanguage } from '../../i18n/language';
+import { LANGUAGES, offeredLanguages, type NativeLanguage } from '../../i18n/language';
 
 interface Props {
   value: NativeLanguage;
@@ -14,7 +14,7 @@ interface Props {
 export default function LanguagePicker({ value, onChange, disabled }: Props) {
   return (
     <View style={styles.grid} accessibilityRole="radiogroup">
-      {LANGUAGES.map(({ code, label }) => {
+      {LANGUAGES.filter((l) => offeredLanguages().includes(l.code)).map(({ code, label }) => {
         const selected = code === value;
         return (
           <Pressable

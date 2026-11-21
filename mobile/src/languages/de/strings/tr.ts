@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/tr.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `Günde bir Almanca kelime, gerçekten öğrenerek.`,
+  review_mc_prompt_target:   `Almancası nedir?`,
+  speech_unavailable_title: `Ses kullanılamıyor`,
+  speech_unavailable_body: `Telefonunuz Almanca metni sesli okuyamıyor. Android Ayarlar > Sistem > Dil ve giriş > Metin okuma bölümünden bir Almanca ses yükleyin ve tekrar deneyin.`,
+  quiz_q1:                   `Hangisi daha iyi duyuluyor?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `Hangi cümle doğru?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `"Işığı kapatıyorum" nasıl denir?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `Hangisi anadili konuşuru gibi duyuluyor?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `Bir isteği nazikçe nasıl ifade edersin?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `Cinsiyet isimle birlikte öğrenilmelidir: der, die veya das'ı her zaman kelimeyle birlikte ezberle.`,
+  grammar_rule_ACCUSATIVE_MASC:         `Akkusativ'de yalnızca eril değişir: der → den, ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `durch, für, gegen, ohne, um'dan sonra her zaman akkusativ kullanılır.`,
+  grammar_rule_DATIV_PREP:              `aus, bei, mit, nach, seit, von, zu'dan sonra her zaman dativ kullanılır: dem / einem (eril ve nötr), der / einer (dişil).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `Dolaylı nesne (kime?) dativ alır: dem Mann, einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `Genitiv (kimin?) des / eines + -s ile biten eril veya nötr isim ile kurulur: des Regens.`,
+};
+
+export default strings;

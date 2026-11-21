@@ -2,15 +2,13 @@ import it from './it';
 
 const uk: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `Одне німецьке слово щодня — і ви справді його вивчите.`,
   welcome_cta:               `Почати`,
   welcome_offline_note:      `Працює повністю офлайн. Без облікового запису.`,
   welcome_restore_cta:                  `У мене вже є резервна копія`,
   welcome_restore_confirm_title:        `Відновити цю копію?`,
   welcome_restore_confirm_body:         `Копія від %{date} · слів: %{vocab}.`,
   welcome_restore_failed:               `Не вдалося відновити копію. Перевірте файл і спробуйте ще раз.`,
-  welcome_restore_incompatible:         `Цю копію створено новішою версією GermanBuddy. Оновіть застосунок.`,
+  welcome_restore_incompatible:         `Цю копію створено новішою версією %{app}. Оновіть застосунок.`,
   welcome_restore_no_profile:           `У цій копії немає профілю. Виберіть інший файл або почніть спочатку.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const uk: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `Який у вас рівень?`,
   quiz_subtitle:             `Виберіть речення, яке звучить природніше.`,
-  quiz_q1:                   `Як звучить краще?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `Яке речення правильне?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `Як сказати «Я вимикаю світло»?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `Що звучить як у носія мови?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `Як ввічливо висловити бажання?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `Питання %{current} з %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const uk: Record<keyof typeof it, string> = {
   review_retry_label:        `Ще раз`,
   review_summary:            `З першого разу: %{correct} з %{total}`,
   review_mc_prompt_native:   `Що це означає?`,
-  review_mc_prompt_german:   `Як це сказати німецькою?`,
   review_mc_answer_was:      `Відповідь: %{answer}`,
   review_match_prompt:       `З'єднайте кожне слово з його значенням`,
   review_reorder_prompt:     `Розставте слова в правильному порядку`,
@@ -144,7 +126,7 @@ const uk: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `Ніколи`,
   settings_autobackup_error:         `Автоматичне копіювання не працює. Можливо, папка недоступна або в неї не можна записувати.`,
   settings_autobackup_error_action:  `Вибрати папку знову`,
-  settings_autobackup_hint:          "Виберіть папку в пам'яті телефона: папки Google Диска не підтримуються. Якщо інший застосунок (наприклад, Dropbox) синхронізує цю папку, онлайн-копію зберігає він, а не GermanBuddy. Ключ API ШІ ніколи не додається.",
+  settings_autobackup_hint:          "Виберіть папку в пам'яті телефона: папки Google Диска не підтримуються. Якщо інший застосунок (наприклад, Dropbox) синхронізує цю папку, онлайн-копію зберігає він, а не %{app}. Ключ API ШІ ніколи не додається.",
   settings_autobackup_unusable_title: "Папка недоступна",
   settings_autobackup_unusable_body: "Ця папка не дозволяє зберігати файли (Google Диск зазвичай не дозволяє). Виберіть папку в пам'яті телефона.",
 
@@ -160,12 +142,6 @@ const uk: Record<keyof typeof it, string> = {
   grammar_again:                        `Ще раз`,
   grammar_empty:                        `Вправ поки що немає.`,
   grammar_load_error:                   `Не вдалося завантажити вправи`,
-  grammar_rule_NOUN_GENDER:             `Рід треба вчити разом з іменником: завжди запам'ятовуйте der, die або das разом зі словом.`,
-  grammar_rule_ACCUSATIVE_MASC:         `В akkusativ змінюється лише чоловічий рід: der → den, ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `Після durch, für, gegen, ohne, um завжди вживається akkusativ.`,
-  grammar_rule_DATIV_PREP:              `Після aus, bei, mit, nach, seit, von, zu завжди вживається dativ: dem / einem (ч. і с.), der / einer (ж.).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `Непрямий додаток (кому?) ставиться в dativ: dem Mann, einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `Genitiv (чий?) утворюється з des / eines + іменник чоловічого або середнього роду на -s: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `Значення`,
@@ -246,11 +222,11 @@ const uk: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `Ваше слово дня готове 📖`,
-  notif_word_body:              `Відкрийте нове слово дня в GermanBuddy.`,
+  notif_word_body:              `Відкрийте нове слово дня в %{app}.`,
   notif_review_title:           `Час повторювати 🔁`,
   notif_review_body:            `У вас є слова для повторення.`,
   notif_test_title:             `Тестове сповіщення`,
-  notif_test_body:              `Сповіщення GermanBuddy працюють!`,
+  notif_test_body:              `Сповіщення %{app} працюють!`,
 
   // Settings → Notifications
   settings_notif_section:       `Сповіщення`,
@@ -287,8 +263,6 @@ const uk: Record<keyof typeof it, string> = {
   settings_topics_error: `Не вдалося зберегти вибір.`,
   speech_play_a11y: `Прослухати вимову: %{word}`,
   speech_stop_a11y: `Зупинити вимову: %{word}`,
-  speech_unavailable_title: `Звук недоступний`,
-  speech_unavailable_body: `Телефон не може озвучити німецький текст. У налаштуваннях Android > Система > Мова та введення > Синтез мовлення встановіть німецький голос і спробуйте ще раз.`,
   speech_sentence_play_a11y: `Прослухати речення`,
   speech_sentence_stop_a11y: `Зупинити читання речення`,
   settings_speech_section: `Вимова`,
@@ -321,6 +295,15 @@ const uk: Record<keyof typeof it, string> = {
   filter_section_level: `Рівень`,
   filter_section_topic: `Тема`,
   filter_section_status: `Статус`,
+  backup_err_invalid: `Файл резервної копії недійсний.`,
+  backup_err_not_this_app: `Цей файл не є резервною копією %{app}.`,
+  backup_err_unreadable: `Не вдалося прочитати вибраний файл.`,
+  backup_err_corrupt: `Файл резервної копії пошкоджено.`,
+  backup_err_incomplete: `Резервна копія неповна або пошкоджена.`,
+  backup_err_newer: `Цю резервну копію створено новішою версією %{app}. Оновіть застосунок.`,
+  backup_err_cannot_restore: `Цю резервну копію неможливо відновити.`,
+  backup_dialog_title: `Зберегти резервну копію %{app}`,
+  backup_err_sharing_unavailable: `Функція «Поділитися» недоступна на цьому пристрої.`,
 };
 
 export default uk;

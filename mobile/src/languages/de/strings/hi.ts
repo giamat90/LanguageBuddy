@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/hi.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `रोज़ एक जर्मन शब्द, अच्छी तरह सीखा हुआ।`,
+  review_mc_prompt_target:   `इसे जर्मन में कैसे कहते हैं?`,
+  speech_unavailable_title: `ऑडियो उपलब्ध नहीं`,
+  speech_unavailable_body: `आपका फ़ोन जर्मन नहीं पढ़ पा रहा है। Android सेटिंग > सिस्टम > भाषा और इनपुट > टेक्स्ट-टू-स्पीच में जर्मन आवाज़ इंस्टॉल करें, फिर दोबारा कोशिश करें।`,
+  quiz_q1:                   `कौन-सा बेहतर लगता है?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `कौन-सा वाक्य सही है?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `"मैं बत्ती बंद करता/करती हूँ" कैसे कहते हैं?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `कौन-सा मूल वक्ता जैसा लगता है?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `किसी इच्छा को विनम्रता से कैसे कहें?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `लिंग संज्ञा के साथ ही सीखना होता है: der, die या das को हमेशा शब्द के साथ याद करें।`,
+  grammar_rule_ACCUSATIVE_MASC:         `Akkusativ में केवल पुल्लिंग बदलता है: der → den, ein → einen।`,
+  grammar_rule_ACCUSATIVE_PREP:         `durch, für, gegen, ohne, um के बाद हमेशा Akkusativ आता है।`,
+  grammar_rule_DATIV_PREP:              `aus, bei, mit, nach, seit, von, zu के बाद हमेशा Dativ आता है: dem / einem (पुल्लिंग और नपुंसक), der / einer (स्त्रीलिंग)।`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `अप्रत्यक्ष कर्म (किसे?) Dativ में आता है: dem Mann, einem Kind।`,
+  grammar_rule_GENITIV_CASE:            `Genitiv (किसका?) des / eines + -s पर समाप्त होने वाली पुल्लिंग या नपुंसक संज्ञा से बनता है: des Regens।`,
+};
+
+export default strings;

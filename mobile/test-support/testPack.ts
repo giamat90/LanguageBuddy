@@ -1,4 +1,5 @@
 import type { LanguagePack } from '../src/languages';
+import { SUPPORTED_NATIVE_LANGUAGES } from '../src/i18n/language';
 
 /** A Spanish-like fake language (accents, el/la, no cases) used only to prove the pack abstraction. */
 export const testPack: LanguagePack = {
@@ -29,4 +30,15 @@ export const testPack: LanguagePack = {
     lookalike: { skipArticle: '', onlyWrongFor: {} },
   },
   cases: null,
+  // Different correct positions than German, to prove the quiz follows the pack.
+  quiz: [
+    { n: 1, correctIndex: 1 }, { n: 2, correctIndex: 1 }, { n: 3, correctIndex: 0 },
+    { n: 4, correctIndex: 0 }, { n: 5, correctIndex: 1 },
+  ],
+  // SpanishBuddy does not offer Spanish as an app language.
+  uiLanguages: SUPPORTED_NATIVE_LANGUAGES.filter((l) => l !== 'es'),
+  strings: {
+    it: { welcome_subtitle: 'Una parola di spagnolo al giorno, da imparare davvero.' },
+    en: { welcome_subtitle: 'One Spanish word a day, learned properly.' },
+  },
 };

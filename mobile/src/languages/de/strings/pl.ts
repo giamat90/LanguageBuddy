@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/pl.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `Jedno niemieckie słowo dziennie, nauczone naprawdę.`,
+  review_mc_prompt_target:   `Jak to powiedzieć po niemiecku?`,
+  speech_unavailable_title: `Dźwięk niedostępny`,
+  speech_unavailable_body: `Telefon nie potrafi czytać po niemiecku. W Ustawieniach Androida > System > Język i wprowadzanie > Zamiana tekstu na mowę zainstaluj niemiecki głos i spróbuj ponownie.`,
+  quiz_q1:                   `Co brzmi lepiej?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `Które zdanie jest poprawne?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `Jak powiedzieć „Gaszę światło”?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `Co brzmi jak w ustach native speakera?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `Jak grzecznie wyrazić życzenie?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `Rodzaj uczy się razem z rzeczownikiem: zawsze zapamiętuj der, die lub das razem ze słowem.`,
+  grammar_rule_ACCUSATIVE_MASC:         `W bierniku zmienia się tylko rodzaj męski: der → den, ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `Po durch, für, gegen, ohne, um zawsze używa się biernika.`,
+  grammar_rule_DATIV_PREP:              `Po aus, bei, mit, nach, seit, von, zu zawsze używa się celownika: dem / einem (r. m. i n.), der / einer (r. ż.).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `Dopełnienie dalsze (komu?) stoi w celowniku: dem Mann, einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `Dopełniacz (czyj?) tworzy się z des / eines + rzeczownik rodzaju męskiego lub nijakiego zakończony na -s: des Regens.`,
+};
+
+export default strings;

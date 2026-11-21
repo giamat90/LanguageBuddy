@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/pt.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `Uma palavra de alemão por dia, aprendida de verdade.`,
+  review_mc_prompt_target:   `Como se diz em alemão?`,
+  speech_unavailable_title: `Áudio indisponível`,
+  speech_unavailable_body: `O telemóvel não consegue ler alemão em voz alta. Nas Definições do Android > Sistema > Idioma e entrada > Conversão de texto em voz, instale uma voz alemã e tente novamente.`,
+  quiz_q1:                   `Qual soa melhor?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `Qual frase está correta?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `Como se diz «eu apago a luz»?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `Qual soa como um falante nativo?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `Como expressar um desejo com educação?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `O gênero se aprende com o substantivo: memorize sempre der, die ou das junto com a palavra.`,
+  grammar_rule_ACCUSATIVE_MASC:         `No acusativo só o masculino muda: der → den, ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `Depois de durch, für, gegen, ohne, um usa-se sempre o acusativo.`,
+  grammar_rule_DATIV_PREP:              `Depois de aus, bei, mit, nach, seit, von, zu usa-se sempre o dativo: dem / einem (m. e n.), der / einer (f.).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `O objeto indireto (a quem?) vai no dativo: dem Mann, einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `O genitivo (de quem?) usa des / eines + substantivo masculino ou neutro terminado em -s: des Regens.`,
+};
+
+export default strings;

@@ -1,14 +1,12 @@
 export default {
   // Welcome / onboarding entry
-  welcome_title:             'GermanBuddy',
-  welcome_subtitle:          'Una parola di tedesco al giorno, da imparare davvero.',
   welcome_cta:               'Inizia',
   welcome_offline_note:      'Funziona completamente offline. Nessun account.',
   welcome_restore_cta:                  'Ho già un backup',
   welcome_restore_confirm_title:        'Ripristinare questo backup?',
   welcome_restore_confirm_body:         'Backup del %{date} · %{vocab} parole.',
   welcome_restore_failed:               'Impossibile ripristinare il backup. Controlla il file e riprova.',
-  welcome_restore_incompatible:         "Questo backup è stato creato da una versione più recente di GermanBuddy. Aggiorna l'app.",
+  welcome_restore_incompatible:         "Questo backup è stato creato da una versione più recente di %{app}. Aggiorna l'app.",
   welcome_restore_no_profile:           'Questo backup non contiene un profilo. Scegli un altro file o inizia da capo.',
 
   // Word Card
@@ -33,21 +31,6 @@ export default {
   // Quiz
   quiz_title:                'Qual è il tuo livello?',
   quiz_subtitle:             'Scegli la frase che ti sembra più naturale.',
-  quiz_q1:                   'Come suona meglio?',
-  quiz_q1_a:                 'Ich trinke jeden Morgen Kaffee.',
-  quiz_q1_b:                 'Ich jeden Morgen Kaffee trinke.',
-  quiz_q2:                   'Quale frase è corretta?',
-  quiz_q2_a:                 'Ich sehe den Mann.',
-  quiz_q2_b:                 'Ich sehe der Mann.',
-  quiz_q3:                   'Come si dice "Spengo la luce"?',
-  quiz_q3_a:                 'Ich mache das Licht aus.',
-  quiz_q3_b:                 'Ich ausmache das Licht.',
-  quiz_q4:                   'Quale suona come un madrelingua?',
-  quiz_q4_a:                 'Ich fahre mit der Bus.',
-  quiz_q4_b:                 'Ich fahre mit dem Bus.',
-  quiz_q5:                   'Come si esprime un desiderio educato?',
-  quiz_q5_a:                 'Ich hätte gern einen Kaffee.',
-  quiz_q5_b:                 'Ich will gern einen Kaffee.',
   quiz_progress:             'Domanda %{current} di %{total}',
 
   // Topics
@@ -96,7 +79,6 @@ export default {
   review_retry_label:        'Riprova',
   review_summary:            '%{correct} su %{total} al primo colpo',
   review_mc_prompt_native:   'Cosa significa?',
-  review_mc_prompt_german:   'Come si dice in tedesco?',
   review_mc_answer_was:      'Risposta: %{answer}',
   review_match_prompt:       'Abbina ogni parola al suo significato',
   review_reorder_prompt:     "Metti le parole nell'ordine giusto",
@@ -142,7 +124,7 @@ export default {
   settings_autobackup_never:         'Mai',
   settings_autobackup_error:         'Il backup automatico non funziona. La cartella potrebbe non essere disponibile o non scrivibile.',
   settings_autobackup_error_action:  'Scegli di nuovo la cartella',
-  settings_autobackup_hint:          "Scegli una cartella nella memoria del telefono: le cartelle di Google Drive non sono supportate. Se un'altra app (ad esempio Dropbox) sincronizza quella cartella, è quell'app, non GermanBuddy, a tenerne una copia online. La chiave API dell'AI non è mai inclusa.",
+  settings_autobackup_hint:          "Scegli una cartella nella memoria del telefono: le cartelle di Google Drive non sono supportate. Se un'altra app (ad esempio Dropbox) sincronizza quella cartella, è quell'app, non %{app}, a tenerne una copia online. La chiave API dell'AI non è mai inclusa.",
   settings_autobackup_unusable_title: "Cartella non utilizzabile",
   settings_autobackup_unusable_body: "Questa cartella non permette di salvare file (Google Drive di solito non lo consente). Scegli una cartella nella memoria del telefono.",
 
@@ -158,12 +140,6 @@ export default {
   grammar_again:                        'Ancora',
   grammar_empty:                        'Nessun esercizio disponibile per ora.',
   grammar_load_error:                   'Impossibile caricare gli esercizi',
-  grammar_rule_NOUN_GENDER:             'Il genere va imparato insieme al nome: memorizza sempre der, die o das con la parola.',
-  grammar_rule_ACCUSATIVE_MASC:         "All'accusativo solo il maschile cambia: der → den, ein → einen.",
-  grammar_rule_ACCUSATIVE_PREP:         "Dopo durch, für, gegen, ohne, um si usa sempre l'accusativo.",
-  grammar_rule_DATIV_PREP:              'Dopo aus, bei, mit, nach, seit, von, zu si usa sempre il dativo: dem / einem (m. e n.), der / einer (f.).',
-  grammar_rule_DATIV_INDIRECT_OBJ:      'Il complemento di termine (a chi?) va al dativo: dem Mann, einem Kind.',
-  grammar_rule_GENITIV_CASE:            'Il genitivo (di chi?) usa des / eines + nome maschile o neutro con -s: des Regens.',
 
   // Word card design-system section labels
   word_section_meaning:      'Significato',
@@ -244,11 +220,11 @@ export default {
 
   // Notifications
   notif_word_title:            'La tua parola del giorno è pronta 📖',
-  notif_word_body:              'Scopri la nuova parola di oggi in GermanBuddy.',
+  notif_word_body:              'Scopri la nuova parola di oggi in %{app}.',
   notif_review_title:           'È ora di ripassare 🔁',
   notif_review_body:            'Hai delle parole pronte per il ripasso.',
   notif_test_title:             'Notifica di prova',
-  notif_test_body:              'Le notifiche di GermanBuddy funzionano!',
+  notif_test_body:              'Le notifiche di %{app} funzionano!',
 
   // Settings → Notifications
   settings_notif_section:       'Notifiche',
@@ -285,8 +261,6 @@ export default {
   settings_topics_error: `Impossibile salvare la scelta.`,
   speech_play_a11y: `Ascolta la pronuncia di %{word}`,
   speech_stop_a11y: `Ferma la pronuncia di %{word}`,
-  speech_unavailable_title: `Audio non disponibile`,
-  speech_unavailable_body: `Il telefono non riesce a leggere il tedesco. In Impostazioni di Android > Sistema > Lingua e input > Sintesi vocale installa una voce tedesca, poi riprova.`,
   speech_sentence_play_a11y: `Ascolta la frase`,
   speech_sentence_stop_a11y: `Ferma la lettura della frase`,
   settings_speech_section: `Pronuncia`,
@@ -319,4 +293,13 @@ export default {
   filter_section_level: `Livello`,
   filter_section_topic: `Argomento`,
   filter_section_status: `Stato`,
+  backup_err_invalid: `Il file di backup non è valido.`,
+  backup_err_not_this_app: `Questo file non è un backup di %{app}.`,
+  backup_err_unreadable: `Impossibile leggere il file selezionato.`,
+  backup_err_corrupt: `Il file di backup è danneggiato.`,
+  backup_err_incomplete: `Il backup è incompleto o danneggiato.`,
+  backup_err_newer: `Questo backup è stato creato da una versione più recente di %{app}. Aggiorna l'app.`,
+  backup_err_cannot_restore: `Questo backup non può essere ripristinato.`,
+  backup_dialog_title: `Salva il backup di %{app}`,
+  backup_err_sharing_unavailable: `La condivisione non è disponibile su questo dispositivo.`,
 } as const;

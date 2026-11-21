@@ -318,7 +318,7 @@ Lena chat and session recap (deferred, see §6), speech-to-text and bundled audi
 - `strict` TypeScript; no `any` unless a type genuinely cannot be named. `npx tsc --noEmit` must be clean.
 - Match the surrounding style (there is no formatter). Comments explain *why*, not *what*.
 - Logic that can be pure **is** pure and takes an injectable `rng`/clock, so tests stay deterministic.
-- **No hard-coded UI strings:** every string goes in **all** `src/i18n/<code>.ts` files (`it.ts` is the key source); the key sets and `%{}` placeholders must be identical (`uiStringsParity.test.ts` enforces it). Anything that comes from outside (backup, route param, DB row) goes through `coerceNativeLanguage`.
+- **No hard-coded UI strings:** every string goes in **all** `src/i18n/<code>.ts` files (`it.ts` is the key source); the key sets and `%{}` placeholders must be identical (`uiStringsParity.test.ts` enforces it). Never write the app name or the studied language into a shared string: use `%{app}` (filled by `t()` from the language pack), and put text that is about the target language (welcome line, quiz sentences, grammar-rule explanations, voice alert) in the pack's overlay `src/languages/<code>/strings/<ui>.ts` (13 files per language, parity-tested in `targetStrings.test.ts`). Anything that comes from outside (backup, route param, DB row) goes through `coerceNativeLanguage`.
 - **Accessibility:** every touchable has `accessibilityRole` and an `accessibilityLabel`. Add a `testID` when tests need to find an element that has no unique text.
 - **Errors:** log with `console.error(...)` at the point of failure; the UI shows a **generic i18n string**, never `e.message`, a stack trace or provider text.
 - Never log secrets or learner content (typed answers, keys).

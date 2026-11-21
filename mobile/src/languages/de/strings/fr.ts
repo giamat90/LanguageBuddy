@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/fr.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `Un mot d'allemand par jour, appris pour de bon.`,
+  review_mc_prompt_target:   `Comment le dit-on en allemand ?`,
+  speech_unavailable_title: `Audio indisponible`,
+  speech_unavailable_body: `Votre téléphone ne peut pas lire l’allemand. Dans les Paramètres Android > Système > Langue et saisie > Synthèse vocale, installez une voix allemande, puis réessayez.`,
+  quiz_q1:                   `Laquelle sonne mieux ?`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `Quelle phrase est correcte ?`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `Comment dit-on « J'éteins la lumière » ?`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `Laquelle sonne comme un locuteur natif ?`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `Comment exprimer poliment un souhait ?`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `Le genre s'apprend avec le nom : mémorisez toujours der, die ou das avec le mot.`,
+  grammar_rule_ACCUSATIVE_MASC:         `À l'accusatif, seul le masculin change : der → den, ein → einen.`,
+  grammar_rule_ACCUSATIVE_PREP:         `Après durch, für, gegen, ohne, um, on utilise toujours l'accusatif.`,
+  grammar_rule_DATIV_PREP:              `Après aus, bei, mit, nach, seit, von, zu, on utilise toujours le datif : dem / einem (m. et n.), der / einer (f.).`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `Le complément d'objet indirect (à qui ?) se met au datif : dem Mann, einem Kind.`,
+  grammar_rule_GENITIV_CASE:            `Le génitif (de qui ?) utilise des / eines + un nom masculin ou neutre en -s : des Regens.`,
+};
+
+export default strings;

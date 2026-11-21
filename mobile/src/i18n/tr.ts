@@ -2,15 +2,13 @@ import it from './it';
 
 const tr: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `Günde bir Almanca kelime, gerçekten öğrenerek.`,
   welcome_cta:               `Başla`,
   welcome_offline_note:      `Tamamen çevrimdışı çalışır. Hesap gerekmez.`,
   welcome_restore_cta:                  `Zaten bir yedeğim var`,
   welcome_restore_confirm_title:        `Bu yedek geri yüklensin mi?`,
   welcome_restore_confirm_body:         `%{date} tarihli yedek · %{vocab} kelime.`,
   welcome_restore_failed:               `Yedek geri yüklenemedi. Dosyayı kontrol edip tekrar deneyin.`,
-  welcome_restore_incompatible:         `Bu yedek GermanBuddy'nin daha yeni bir sürümüyle oluşturulmuş. Lütfen uygulamayı güncelleyin.`,
+  welcome_restore_incompatible:         `Bu yedek %{app}'nin daha yeni bir sürümüyle oluşturulmuş. Lütfen uygulamayı güncelleyin.`,
   welcome_restore_no_profile:           `Bu yedekte profil yok. Başka bir dosya seçin veya sıfırdan başlayın.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const tr: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `Seviyen nedir?`,
   quiz_subtitle:             `En doğal gelen cümleyi seç.`,
-  quiz_q1:                   `Hangisi daha iyi duyuluyor?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `Hangi cümle doğru?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `"Işığı kapatıyorum" nasıl denir?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `Hangisi anadili konuşuru gibi duyuluyor?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `Bir isteği nazikçe nasıl ifade edersin?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `Soru %{current} / %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const tr: Record<keyof typeof it, string> = {
   review_retry_label:        `Tekrar dene`,
   review_summary:            `İlk denemede %{correct} / %{total}`,
   review_mc_prompt_native:   `Ne anlama geliyor?`,
-  review_mc_prompt_german:   `Almancası nedir?`,
   review_mc_answer_was:      `Cevap: %{answer}`,
   review_match_prompt:       `Her kelimeyi anlamıyla eşleştir`,
   review_reorder_prompt:     `Kelimeleri doğru sıraya diz`,
@@ -144,7 +126,7 @@ const tr: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `Hiç`,
   settings_autobackup_error:         `Otomatik yedekleme çalışmıyor. Klasör kullanılamıyor veya yazılamıyor olabilir.`,
   settings_autobackup_error_action:  `Klasörü yeniden seç`,
-  settings_autobackup_hint:          "Telefonun belleğinde bir klasör seçin: Google Drive klasörleri desteklenmez. Başka bir uygulama (örneğin Dropbox) bu klasörü senkronize ederse, çevrimiçi kopyayı GermanBuddy değil o uygulama tutar. Yapay zekâ API anahtarı asla dahil edilmez.",
+  settings_autobackup_hint:          "Telefonun belleğinde bir klasör seçin: Google Drive klasörleri desteklenmez. Başka bir uygulama (örneğin Dropbox) bu klasörü senkronize ederse, çevrimiçi kopyayı %{app} değil o uygulama tutar. Yapay zekâ API anahtarı asla dahil edilmez.",
   settings_autobackup_unusable_title: "Klasör kullanılamıyor",
   settings_autobackup_unusable_body: "Bu klasör dosya kaydetmeye izin vermiyor (Google Drive genellikle izin vermez). Telefonun belleğinde bir klasör seçin.",
 
@@ -160,12 +142,6 @@ const tr: Record<keyof typeof it, string> = {
   grammar_again:                        `Tekrar`,
   grammar_empty:                        `Henüz alıştırma yok.`,
   grammar_load_error:                   `Alıştırmalar yüklenemedi`,
-  grammar_rule_NOUN_GENDER:             `Cinsiyet isimle birlikte öğrenilmelidir: der, die veya das'ı her zaman kelimeyle birlikte ezberle.`,
-  grammar_rule_ACCUSATIVE_MASC:         `Akkusativ'de yalnızca eril değişir: der → den, ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `durch, für, gegen, ohne, um'dan sonra her zaman akkusativ kullanılır.`,
-  grammar_rule_DATIV_PREP:              `aus, bei, mit, nach, seit, von, zu'dan sonra her zaman dativ kullanılır: dem / einem (eril ve nötr), der / einer (dişil).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `Dolaylı nesne (kime?) dativ alır: dem Mann, einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `Genitiv (kimin?) des / eines + -s ile biten eril veya nötr isim ile kurulur: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `Anlam`,
@@ -246,11 +222,11 @@ const tr: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `Günün kelimesi hazır 📖`,
-  notif_word_body:              `GermanBuddy'de bugünün yeni kelimesini keşfet.`,
+  notif_word_body:              `%{app}'de bugünün yeni kelimesini keşfet.`,
   notif_review_title:           `Tekrar zamanı 🔁`,
   notif_review_body:            `Tekrar için hazır kelimelerin var.`,
   notif_test_title:             `Test bildirimi`,
-  notif_test_body:              `GermanBuddy bildirimleri çalışıyor!`,
+  notif_test_body:              `%{app} bildirimleri çalışıyor!`,
 
   // Settings → Notifications
   settings_notif_section:       `Bildirimler`,
@@ -287,8 +263,6 @@ const tr: Record<keyof typeof it, string> = {
   settings_topics_error: `Seçimin kaydedilemedi.`,
   speech_play_a11y: `%{word} telaffuzunu dinle`,
   speech_stop_a11y: `%{word} telaffuzunu durdur`,
-  speech_unavailable_title: `Ses kullanılamıyor`,
-  speech_unavailable_body: `Telefonunuz Almanca metni sesli okuyamıyor. Android Ayarlar > Sistem > Dil ve giriş > Metin okuma bölümünden bir Almanca ses yükleyin ve tekrar deneyin.`,
   speech_sentence_play_a11y: `Cümleyi dinle`,
   speech_sentence_stop_a11y: `Cümleyi okumayı durdur`,
   settings_speech_section: `Telaffuz`,
@@ -321,6 +295,15 @@ const tr: Record<keyof typeof it, string> = {
   filter_section_level: `Seviye`,
   filter_section_topic: `Konu`,
   filter_section_status: `Durum`,
+  backup_err_invalid: `Yedek dosyası geçerli değil.`,
+  backup_err_not_this_app: `Bu dosya bir %{app} yedeği değil.`,
+  backup_err_unreadable: `Seçilen dosya okunamadı.`,
+  backup_err_corrupt: `Yedek dosyası hasarlı.`,
+  backup_err_incomplete: `Yedek eksik veya hasarlı.`,
+  backup_err_newer: `Bu yedek, %{app} uygulamasının daha yeni bir sürümüyle oluşturulmuş. Lütfen uygulamayı güncelleyin.`,
+  backup_err_cannot_restore: `Bu yedek geri yüklenemiyor.`,
+  backup_dialog_title: `%{app} yedeğini kaydet`,
+  backup_err_sharing_unavailable: `Bu cihazda paylaşım kullanılamıyor.`,
 };
 
 export default tr;

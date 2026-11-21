@@ -2,15 +2,13 @@ import it from './it';
 
 const hi: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `रोज़ एक जर्मन शब्द, अच्छी तरह सीखा हुआ।`,
   welcome_cta:               `शुरू करें`,
   welcome_offline_note:      `पूरी तरह ऑफ़लाइन चलता है। किसी खाते की ज़रूरत नहीं।`,
   welcome_restore_cta:                  `मेरे पास पहले से बैकअप है`,
   welcome_restore_confirm_title:        `यह बैकअप रीस्टोर करें?`,
   welcome_restore_confirm_body:         `%{date} का बैकअप · %{vocab} शब्द।`,
   welcome_restore_failed:               `बैकअप रीस्टोर नहीं हो सका। फ़ाइल जाँचें और फिर कोशिश करें।`,
-  welcome_restore_incompatible:         `यह बैकअप GermanBuddy के नए संस्करण से बनाया गया है। कृपया ऐप अपडेट करें।`,
+  welcome_restore_incompatible:         `यह बैकअप %{app} के नए संस्करण से बनाया गया है। कृपया ऐप अपडेट करें।`,
   welcome_restore_no_profile:           `इस बैकअप में कोई प्रोफ़ाइल नहीं है। दूसरी फ़ाइल चुनें या नए सिरे से शुरू करें।`,
 
   // Word Card
@@ -35,21 +33,6 @@ const hi: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `आपका स्तर क्या है?`,
   quiz_subtitle:             `वह वाक्य चुनें जो सबसे स्वाभाविक लगे।`,
-  quiz_q1:                   `कौन-सा बेहतर लगता है?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `कौन-सा वाक्य सही है?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `"मैं बत्ती बंद करता/करती हूँ" कैसे कहते हैं?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `कौन-सा मूल वक्ता जैसा लगता है?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `किसी इच्छा को विनम्रता से कैसे कहें?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `प्रश्न %{current} / %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const hi: Record<keyof typeof it, string> = {
   review_retry_label:        `फिर कोशिश करें`,
   review_summary:            `पहली बार में सही: %{correct} / %{total}`,
   review_mc_prompt_native:   `इसका क्या अर्थ है?`,
-  review_mc_prompt_german:   `इसे जर्मन में कैसे कहते हैं?`,
   review_mc_answer_was:      `उत्तर: %{answer}`,
   review_match_prompt:       `हर शब्द को उसके अर्थ से मिलाएँ`,
   review_reorder_prompt:     `शब्दों को सही क्रम में रखें`,
@@ -144,7 +126,7 @@ const hi: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `कभी नहीं`,
   settings_autobackup_error:         `स्वचालित बैकअप काम नहीं कर रहा है। हो सकता है फ़ोल्डर उपलब्ध न हो या उसमें लिखा न जा सके।`,
   settings_autobackup_error_action:  `फ़ोल्डर दोबारा चुनें`,
-  settings_autobackup_hint:          "फ़ोन की मेमोरी में कोई फ़ोल्डर चुनें: Google Drive फ़ोल्डर समर्थित नहीं हैं। यदि कोई अन्य ऐप (जैसे Dropbox) उस फ़ोल्डर को सिंक करता है, तो ऑनलाइन कॉपी GermanBuddy नहीं, वही ऐप रखता है। AI API कुंजी कभी शामिल नहीं होती।",
+  settings_autobackup_hint:          "फ़ोन की मेमोरी में कोई फ़ोल्डर चुनें: Google Drive फ़ोल्डर समर्थित नहीं हैं। यदि कोई अन्य ऐप (जैसे Dropbox) उस फ़ोल्डर को सिंक करता है, तो ऑनलाइन कॉपी %{app} नहीं, वही ऐप रखता है। AI API कुंजी कभी शामिल नहीं होती।",
   settings_autobackup_unusable_title: "फ़ोल्डर उपयोग योग्य नहीं",
   settings_autobackup_unusable_body: "यह फ़ोल्डर फ़ाइलें सहेजने की अनुमति नहीं देता (Google Drive आमतौर पर नहीं देता)। फ़ोन की मेमोरी में कोई फ़ोल्डर चुनें।",
 
@@ -160,12 +142,6 @@ const hi: Record<keyof typeof it, string> = {
   grammar_again:                        `फिर से`,
   grammar_empty:                        `अभी कोई अभ्यास उपलब्ध नहीं है।`,
   grammar_load_error:                   `अभ्यास लोड नहीं हो सके`,
-  grammar_rule_NOUN_GENDER:             `लिंग संज्ञा के साथ ही सीखना होता है: der, die या das को हमेशा शब्द के साथ याद करें।`,
-  grammar_rule_ACCUSATIVE_MASC:         `Akkusativ में केवल पुल्लिंग बदलता है: der → den, ein → einen।`,
-  grammar_rule_ACCUSATIVE_PREP:         `durch, für, gegen, ohne, um के बाद हमेशा Akkusativ आता है।`,
-  grammar_rule_DATIV_PREP:              `aus, bei, mit, nach, seit, von, zu के बाद हमेशा Dativ आता है: dem / einem (पुल्लिंग और नपुंसक), der / einer (स्त्रीलिंग)।`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `अप्रत्यक्ष कर्म (किसे?) Dativ में आता है: dem Mann, einem Kind।`,
-  grammar_rule_GENITIV_CASE:            `Genitiv (किसका?) des / eines + -s पर समाप्त होने वाली पुल्लिंग या नपुंसक संज्ञा से बनता है: des Regens।`,
 
   // Word card design-system section labels
   word_section_meaning:      `अर्थ`,
@@ -246,11 +222,11 @@ const hi: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `आपका आज का शब्द तैयार है 📖`,
-  notif_word_body:              `GermanBuddy में आज का नया शब्द देखें।`,
+  notif_word_body:              `%{app} में आज का नया शब्द देखें।`,
   notif_review_title:           `दोहराने का समय 🔁`,
   notif_review_body:            `आपके पास दोहराने के लिए शब्द तैयार हैं।`,
   notif_test_title:             `परीक्षण सूचना`,
-  notif_test_body:              `GermanBuddy की सूचनाएँ काम कर रही हैं!`,
+  notif_test_body:              `%{app} की सूचनाएँ काम कर रही हैं!`,
 
   // Settings → Notifications
   settings_notif_section:       `सूचनाएँ`,
@@ -287,8 +263,6 @@ const hi: Record<keyof typeof it, string> = {
   settings_topics_error: `आपका चयन सहेजा नहीं जा सका।`,
   speech_play_a11y: `%{word} का उच्चारण सुनें`,
   speech_stop_a11y: `%{word} का उच्चारण रोकें`,
-  speech_unavailable_title: `ऑडियो उपलब्ध नहीं`,
-  speech_unavailable_body: `आपका फ़ोन जर्मन नहीं पढ़ पा रहा है। Android सेटिंग > सिस्टम > भाषा और इनपुट > टेक्स्ट-टू-स्पीच में जर्मन आवाज़ इंस्टॉल करें, फिर दोबारा कोशिश करें।`,
   speech_sentence_play_a11y: `वाक्य सुनें`,
   speech_sentence_stop_a11y: `वाक्य पढ़ना रोकें`,
   settings_speech_section: `उच्चारण`,
@@ -321,6 +295,15 @@ const hi: Record<keyof typeof it, string> = {
   filter_section_level: `स्तर`,
   filter_section_topic: `विषय`,
   filter_section_status: `स्थिति`,
+  backup_err_invalid: `बैकअप फ़ाइल मान्य नहीं है।`,
+  backup_err_not_this_app: `यह फ़ाइल %{app} का बैकअप नहीं है।`,
+  backup_err_unreadable: `चुनी गई फ़ाइल पढ़ी नहीं जा सकी।`,
+  backup_err_corrupt: `बैकअप फ़ाइल क्षतिग्रस्त है।`,
+  backup_err_incomplete: `बैकअप अधूरा या क्षतिग्रस्त है।`,
+  backup_err_newer: `यह बैकअप %{app} के नए संस्करण से बनाया गया था। कृपया ऐप अपडेट करें।`,
+  backup_err_cannot_restore: `इस बैकअप को रीस्टोर नहीं किया जा सकता।`,
+  backup_dialog_title: `%{app} का बैकअप सहेजें`,
+  backup_err_sharing_unavailable: `इस डिवाइस पर शेयर करना उपलब्ध नहीं है।`,
 };
 
 export default hi;

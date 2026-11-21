@@ -1,4 +1,17 @@
 import type { LanguagePack } from './types';
+import it from './de/strings/it';
+import en from './de/strings/en';
+import fr from './de/strings/fr';
+import es from './de/strings/es';
+import pt from './de/strings/pt';
+import ru from './de/strings/ru';
+import uk from './de/strings/uk';
+import pl from './de/strings/pl';
+import tr from './de/strings/tr';
+import zh from './de/strings/zh';
+import ja from './de/strings/ja';
+import hi from './de/strings/hi';
+import ar from './de/strings/ar';
 
 const DATIVE_PREPOSITIONS = new Set(['aus', 'bei', 'mit', 'nach', 'seit', 'von', 'zu']);
 const ACCUSATIVE_PREPOSITIONS = new Set(['durch', 'für', 'gegen', 'ohne', 'um']);
@@ -62,4 +75,14 @@ export const de: LanguagePack = {
       return DATIVE_PREPOSITIONS.has(previousWord) ? 'DATIV_PREP' : 'DATIV_INDIRECT_OBJ';
     },
   },
+  quiz: [
+    { n: 1, correctIndex: 0 },
+    { n: 2, correctIndex: 0 },
+    { n: 3, correctIndex: 0 },
+    { n: 4, correctIndex: 1 },
+    { n: 5, correctIndex: 0 },
+  ],
+  // Every app language (a literal list: importing i18n/language here would make an import cycle).
+  uiLanguages: ['it', 'en', 'fr', 'es', 'pt', 'ru', 'uk', 'pl', 'tr', 'zh', 'ja', 'hi', 'ar'],
+  strings: { it, en, fr, es, pt, ru, uk, pl, tr, zh, ja, hi, ar },
 };

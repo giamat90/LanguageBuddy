@@ -1,4 +1,5 @@
 import { getActivePack } from '../languages';
+import { t } from '../i18n';
 import Constants from 'expo-constants';
 import * as DocumentPicker from 'expo-document-picker';
 import * as FileSystem from 'expo-file-system';
@@ -87,7 +88,25 @@ export interface BackupFile {
 export interface RestorePreview {
   data: BackupFile;
   compatible: boolean;
-  reason?: string;
+  /** Why it cannot be restored (shown translated through backupErrorText). */
+  reasonCode?: BackupErrorCode;
+}
+
+export type BackupErrorCode =
+  | 'invalid' | 'not_this_app' | 'unreadable' | 'corrupt' | 'incomplete' | 'newer' | 'cannot_restore'
+  | 'sharing_unavailable';
+
+/** A backup problem. `message` is the code, never shown: screens use backupErrorText(). */
+export class BackupError extends Error {
+  constructor(readonly code: BackupErrorCode) {
+    super(code);
+    this.name = 'BackupError';
+  }
+}
+
+/** The translated, generic text for an error of the backup flow (never the error's own message). */
+export function backupErrorText(err: unknown, fallback: 'settings_import_failed' | 'settings_export_failed' = 'settings_import_failed'): string {
+  return err instanceof BackupError ? t(`backup_err_${err.code}` as const) : t(fallback);
 }
 
 /** Sentinel: restore finished — the user just needs to relaunch the app. */
@@ -154,7 +173,7 @@ export async function buildBackup(opts: BackupOptions = {}): Promise<BackupFile>
 
 export async function exportBackup(opts: BackupOptions = {}): Promise<void> {
   if (!(await Sharing.isAvailableAsync())) {
-    throw new Error('La condivisione non è disponibile su questo dispositivo.');
+    throw new BackupError('sharing_unavailable');
   }
 
   const backup = await buildBackup(opts);
@@ -165,7 +184,7 @@ export async function exportBackup(opts: BackupOptions = {}): Promise<void> {
 
   await Sharing.shareAsync(target, {
     mimeType: 'application/json',
-    dialogTitle: 'Salva il backup di GermanBuddy',
+    dialogTitle: t('backup_dialog_title'),
     UTI: 'public.json',
   });
 }
@@ -173,14 +192,14 @@ export async function exportBackup(opts: BackupOptions = {}): Promise<void> {
 // ─── restore ──────────────────────────────────────────────────────────────────
 
 function validate(raw: unknown): BackupFile {
-  if (!raw || typeof raw !== 'object') throw new Error('Il file di backup non è valido.');
+  if (!raw || typeof raw !== 'object') throw new BackupError('invalid');
   const b = raw as Partial<BackupFile>;
   if (b.app !== appTag() || typeof b.format !== 'number' || !b.db || typeof b.db !== 'object') {
-    throw new Error('Questo file non è un backup di GermanBuddy.');
+    throw new BackupError('not_this_app');
   }
   for (const table of DATA_TABLES) {
     if (!Array.isArray(b.db[table])) {
-      throw new Error('Il backup è incompleto o danneggiato.');
+      throw new BackupError('incomplete');
     }
   }
   return b as BackupFile;
@@ -202,26 +221,26 @@ export async function pickBackup(): Promise<RestorePreview | null> {
       encoding: FileSystem.EncodingType.UTF8,
     });
   } catch {
-    throw new Error('Impossibile leggere il file selezionato.');
+    throw new BackupError('unreadable');
   }
 
   let parsed: unknown;
   try {
     parsed = JSON.parse(text);
   } catch {
-    throw new Error('Il file di backup è danneggiato.');
+    throw new BackupError('corrupt');
   }
 
   const data = validate(parsed);
 
   let compatible = true;
-  let reason: string | undefined;
+  let reasonCode: BackupErrorCode | undefined;
   if (data.format > BACKUP_FORMAT) {
     compatible = false;
-    reason = 'Questo backup è stato creato da una versione più recente di GermanBuddy. Aggiorna l\'app.';
+    reasonCode = 'newer';
   }
 
-  return { data, compatible, reason };
+  return { data, compatible, reasonCode };
 }
 
 /**
@@ -231,7 +250,7 @@ export async function pickBackup(): Promise<RestorePreview | null> {
  */
 export async function restoreBackup(preview: RestorePreview): Promise<never> {
   if (!preview.compatible) {
-    throw new Error(preview.reason ?? 'Questo backup non può essere ripristinato.');
+    throw new BackupError(preview.reasonCode ?? 'cannot_restore');
   }
 
   const { db: dump, kv } = preview.data;

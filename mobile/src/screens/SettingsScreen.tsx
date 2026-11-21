@@ -25,7 +25,7 @@ import Divider from '../components/ui/Divider';
 import NotificationSettings from '../components/ui/NotificationSettings';
 import TopicPreferences from '../components/ui/TopicPreferences';
 import {
-  exportBackup, pickBackup, restoreBackup, RESTART_REQUIRED, type RestorePreview,
+  exportBackup, pickBackup, restoreBackup, RESTART_REQUIRED, backupErrorText, BackupError, type RestorePreview,
 } from '../data/backup';
 import {
   getProvider, setProvider, getStoredKey, setKey, hasAnyKey, maskKey,
@@ -130,7 +130,7 @@ export default function SettingsScreen() {
       await exportBackup({ includeAiKey });
     } catch (err) {
       console.error('[Settings] export failed:', err);
-      Alert.alert(t('settings_export_failed'), message(err));
+      Alert.alert(t('settings_export_failed'), backupErrorText(err, 'settings_export_failed'));
     } finally {
       setBusy(null);
     }
@@ -162,7 +162,7 @@ export default function SettingsScreen() {
         Alert.alert(t('settings_restore_done_title'), t('settings_restore_done_body'));
       } else {
         console.error('[Settings] restore failed:', err);
-        Alert.alert(t('settings_import_failed'), message(err));
+        Alert.alert(t('settings_import_failed'), backupErrorText(err));
       }
     } finally {
       setBusy(null);
@@ -177,7 +177,7 @@ export default function SettingsScreen() {
       preview = await pickBackup();
     } catch (err) {
       console.error('[Settings] pick backup failed:', err);
-      Alert.alert(t('settings_import_failed'), message(err));
+      Alert.alert(t('settings_import_failed'), backupErrorText(err));
       setBusy(null);
       return;
     }
@@ -185,7 +185,7 @@ export default function SettingsScreen() {
     if (!preview) return;
 
     if (!preview.compatible) {
-      Alert.alert(t('settings_cannot_restore'), preview.reason ?? '');
+      Alert.alert(t('settings_cannot_restore'), backupErrorText(new BackupError(preview.reasonCode ?? 'cannot_restore')));
       return;
     }
 

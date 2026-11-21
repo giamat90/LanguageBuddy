@@ -2,15 +2,13 @@ import it from './it';
 
 const zh: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `每天一个德语单词，真正学会。`,
   welcome_cta:               `开始`,
   welcome_offline_note:      `完全离线使用，无需账号。`,
   welcome_restore_cta:                  `我已有备份`,
   welcome_restore_confirm_title:        `恢复此备份？`,
   welcome_restore_confirm_body:         `备份时间：%{date} · %{vocab} 个单词。`,
   welcome_restore_failed:               `无法恢复备份。请检查文件后重试。`,
-  welcome_restore_incompatible:         `此备份由更新版本的 GermanBuddy 创建。请更新应用。`,
+  welcome_restore_incompatible:         `此备份由更新版本的 %{app} 创建。请更新应用。`,
   welcome_restore_no_profile:           `此备份不包含个人资料。请选择其他文件，或从头开始。`,
 
   // Word Card
@@ -35,21 +33,6 @@ const zh: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `你的水平如何？`,
   quiz_subtitle:             `选择听起来最自然的句子。`,
-  quiz_q1:                   `哪个听起来更好？`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `哪个句子是正确的？`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `“我关灯”怎么说？`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `哪个听起来像母语者说的？`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `如何礼貌地表达愿望？`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `第 %{current} 题，共 %{total} 题`,
 
   // Topics
@@ -98,7 +81,6 @@ const zh: Record<keyof typeof it, string> = {
   review_retry_label:        `再试一次`,
   review_summary:            `一次答对：%{correct} / %{total}`,
   review_mc_prompt_native:   `这是什么意思？`,
-  review_mc_prompt_german:   `用德语怎么说？`,
   review_mc_answer_was:      `答案：%{answer}`,
   review_match_prompt:       `将每个单词与它的释义配对`,
   review_reorder_prompt:     `把单词排成正确的顺序`,
@@ -144,7 +126,7 @@ const zh: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `从未`,
   settings_autobackup_error:         `自动备份无法正常工作。文件夹可能不可用或无法写入。`,
   settings_autobackup_error_action:  `重新选择文件夹`,
-  settings_autobackup_hint:          "请选择手机存储中的文件夹:不支持 Google 云端硬盘的文件夹。如果其他应用(例如 Dropbox)同步该文件夹,则由那个应用而不是 GermanBuddy 保存在线副本。AI API 密钥绝不会被包含在内。",
+  settings_autobackup_hint:          "请选择手机存储中的文件夹:不支持 Google 云端硬盘的文件夹。如果其他应用(例如 Dropbox)同步该文件夹,则由那个应用而不是 %{app} 保存在线副本。AI API 密钥绝不会被包含在内。",
   settings_autobackup_unusable_title: "文件夹无法使用",
   settings_autobackup_unusable_body: "此文件夹不允许保存文件(Google 云端硬盘通常不允许)。请选择手机存储中的文件夹。",
 
@@ -160,12 +142,6 @@ const zh: Record<keyof typeof it, string> = {
   grammar_again:                        `再来一次`,
   grammar_empty:                        `暂时没有可用的练习。`,
   grammar_load_error:                   `无法加载练习`,
-  grammar_rule_NOUN_GENDER:             `词性要连同名词一起学：务必把 der、die 或 das 和单词一起记住。`,
-  grammar_rule_ACCUSATIVE_MASC:         `在四格（Akkusativ）中只有阳性会变化：der → den，ein → einen。`,
-  grammar_rule_ACCUSATIVE_PREP:         `durch、für、gegen、ohne、um 之后总是用四格。`,
-  grammar_rule_DATIV_PREP:              `aus、bei、mit、nach、seit、von、zu 之后总是用三格：dem / einem（阳性和中性），der / einer（阴性）。`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `间接宾语（给谁？）用三格：dem Mann，einem Kind。`,
-  grammar_rule_GENITIV_CASE:            `二格（谁的？）用 des / eines + 以 -s 结尾的阳性或中性名词：des Regens。`,
 
   // Word card design-system section labels
   word_section_meaning:      `释义`,
@@ -246,11 +222,11 @@ const zh: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `今日单词已就绪 📖`,
-  notif_word_body:              `来 GermanBuddy 发现今天的新单词。`,
+  notif_word_body:              `来 %{app} 发现今天的新单词。`,
   notif_review_title:           `该复习了 🔁`,
   notif_review_body:            `你有单词可以复习了。`,
   notif_test_title:             `测试通知`,
-  notif_test_body:              `GermanBuddy 通知工作正常！`,
+  notif_test_body:              `%{app} 通知工作正常！`,
 
   // Settings → Notifications
   settings_notif_section:       `通知`,
@@ -287,8 +263,6 @@ const zh: Record<keyof typeof it, string> = {
   settings_topics_error: `无法保存你的选择。`,
   speech_play_a11y: `收听 %{word} 的发音`,
   speech_stop_a11y: `停止播放 %{word} 的发音`,
-  speech_unavailable_title: `无法播放语音`,
-  speech_unavailable_body: `你的手机无法朗读德语。请在 Android 设置 > 系统 > 语言和输入法 > 文字转语音中安装德语语音，然后重试。`,
   speech_sentence_play_a11y: `收听句子`,
   speech_sentence_stop_a11y: `停止朗读句子`,
   settings_speech_section: `发音`,
@@ -321,6 +295,15 @@ const zh: Record<keyof typeof it, string> = {
   filter_section_level: `等级`,
   filter_section_topic: `主题`,
   filter_section_status: `状态`,
+  backup_err_invalid: `备份文件无效。`,
+  backup_err_not_this_app: `此文件不是 %{app} 的备份。`,
+  backup_err_unreadable: `无法读取所选文件。`,
+  backup_err_corrupt: `备份文件已损坏。`,
+  backup_err_incomplete: `备份不完整或已损坏。`,
+  backup_err_newer: `此备份由更新版本的 %{app} 创建。请更新应用。`,
+  backup_err_cannot_restore: `无法还原此备份。`,
+  backup_dialog_title: `保存 %{app} 备份`,
+  backup_err_sharing_unavailable: `此设备不支持分享。`,
 };
 
 export default zh;

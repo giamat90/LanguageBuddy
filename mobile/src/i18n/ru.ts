@@ -2,15 +2,13 @@ import it from './it';
 
 const ru: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `Одно немецкое слово в день — и вы действительно его выучите.`,
   welcome_cta:               `Начать`,
   welcome_offline_note:      `Работает полностью офлайн. Без аккаунта.`,
   welcome_restore_cta:                  `У меня уже есть резервная копия`,
   welcome_restore_confirm_title:        `Восстановить эту копию?`,
   welcome_restore_confirm_body:         `Копия от %{date} · слов: %{vocab}.`,
   welcome_restore_failed:               `Не удалось восстановить копию. Проверьте файл и попробуйте снова.`,
-  welcome_restore_incompatible:         `Эта копия создана более новой версией GermanBuddy. Обновите приложение.`,
+  welcome_restore_incompatible:         `Эта копия создана более новой версией %{app}. Обновите приложение.`,
   welcome_restore_no_profile:           `В этой копии нет профиля. Выберите другой файл или начните заново.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const ru: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `Каков ваш уровень?`,
   quiz_subtitle:             `Выберите фразу, которая звучит естественнее.`,
-  quiz_q1:                   `Как звучит лучше?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `Какое предложение верно?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `Как сказать «Я выключаю свет»?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `Что звучит как у носителя языка?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `Как вежливо выразить желание?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `Вопрос %{current} из %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const ru: Record<keyof typeof it, string> = {
   review_retry_label:        `Ещё раз`,
   review_summary:            `С первого раза: %{correct} из %{total}`,
   review_mc_prompt_native:   `Что это значит?`,
-  review_mc_prompt_german:   `Как это сказать по-немецки?`,
   review_mc_answer_was:      `Ответ: %{answer}`,
   review_match_prompt:       `Соедините каждое слово с его значением`,
   review_reorder_prompt:     `Расставьте слова в правильном порядке`,
@@ -144,7 +126,7 @@ const ru: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `Никогда`,
   settings_autobackup_error:         `Автоматическое копирование не работает. Возможно, папка недоступна или в неё нельзя записывать.`,
   settings_autobackup_error_action:  `Выбрать папку заново`,
-  settings_autobackup_hint:          "Выберите папку в памяти телефона: папки Google Диска не поддерживаются. Если другое приложение (например, Dropbox) синхронизирует эту папку, онлайн-копию хранит оно, а не GermanBuddy. Ключ API ИИ никогда не включается.",
+  settings_autobackup_hint:          "Выберите папку в памяти телефона: папки Google Диска не поддерживаются. Если другое приложение (например, Dropbox) синхронизирует эту папку, онлайн-копию хранит оно, а не %{app}. Ключ API ИИ никогда не включается.",
   settings_autobackup_unusable_title: "Папка недоступна",
   settings_autobackup_unusable_body: "Эта папка не позволяет сохранять файлы (Google Диск обычно не позволяет). Выберите папку в памяти телефона.",
 
@@ -160,12 +142,6 @@ const ru: Record<keyof typeof it, string> = {
   grammar_again:                        `Ещё раз`,
   grammar_empty:                        `Упражнений пока нет.`,
   grammar_load_error:                   `Не удалось загрузить упражнения`,
-  grammar_rule_NOUN_GENDER:             `Род нужно учить вместе с существительным: всегда запоминайте der, die или das вместе со словом.`,
-  grammar_rule_ACCUSATIVE_MASC:         `В аккузативе меняется только мужской род: der → den, ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `После durch, für, gegen, ohne, um всегда стоит аккузатив.`,
-  grammar_rule_DATIV_PREP:              `После aus, bei, mit, nach, seit, von, zu всегда стоит датив: dem / einem (м. и ср.), der / einer (ж.).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `Косвенное дополнение (кому?) стоит в дативе: dem Mann, einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `Генитив (чей?) образуется с des / eines + существительное мужского или среднего рода на -s: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `Значение`,
@@ -246,11 +222,11 @@ const ru: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `Ваше слово дня готово 📖`,
-  notif_word_body:              `Откройте новое слово дня в GermanBuddy.`,
+  notif_word_body:              `Откройте новое слово дня в %{app}.`,
   notif_review_title:           `Пора повторять 🔁`,
   notif_review_body:            `У вас есть слова для повторения.`,
   notif_test_title:             `Тестовое уведомление`,
-  notif_test_body:              `Уведомления GermanBuddy работают!`,
+  notif_test_body:              `Уведомления %{app} работают!`,
 
   // Settings → Notifications
   settings_notif_section:       `Уведомления`,
@@ -287,8 +263,6 @@ const ru: Record<keyof typeof it, string> = {
   settings_topics_error: `Не удалось сохранить выбор.`,
   speech_play_a11y: `Прослушать произношение: %{word}`,
   speech_stop_a11y: `Остановить произношение: %{word}`,
-  speech_unavailable_title: `Звук недоступен`,
-  speech_unavailable_body: `Телефон не может озвучить немецкий текст. В настройках Android > Система > Язык и ввод > Синтез речи установите немецкий голос и повторите попытку.`,
   speech_sentence_play_a11y: `Прослушать предложение`,
   speech_sentence_stop_a11y: `Остановить чтение предложения`,
   settings_speech_section: `Произношение`,
@@ -321,6 +295,15 @@ const ru: Record<keyof typeof it, string> = {
   filter_section_level: `Уровень`,
   filter_section_topic: `Тема`,
   filter_section_status: `Статус`,
+  backup_err_invalid: `Файл резервной копии недействителен.`,
+  backup_err_not_this_app: `Этот файл не является резервной копией %{app}.`,
+  backup_err_unreadable: `Не удалось прочитать выбранный файл.`,
+  backup_err_corrupt: `Файл резервной копии повреждён.`,
+  backup_err_incomplete: `Резервная копия неполная или повреждена.`,
+  backup_err_newer: `Эта резервная копия создана более новой версией %{app}. Обновите приложение.`,
+  backup_err_cannot_restore: `Эту резервную копию нельзя восстановить.`,
+  backup_dialog_title: `Сохранить резервную копию %{app}`,
+  backup_err_sharing_unavailable: `Функция «Поделиться» недоступна на этом устройстве.`,
 };
 
 export default ru;

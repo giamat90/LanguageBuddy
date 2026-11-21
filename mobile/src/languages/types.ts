@@ -1,7 +1,18 @@
 /** The language being studied. Widened by later tasks ('es', 'fr', …); today only German ships. */
 export type TargetLanguageCode = 'de';
 
+import type { NativeLanguage } from '../i18n/language';
+
 export type Gender = 'm' | 'f' | 'n';
+
+/** One placement-quiz question: keys quiz_q<n>, quiz_q<n>_a, quiz_q<n>_b; which option is right. */
+export interface QuizItem {
+  n: 1 | 2 | 3 | 4 | 5;
+  correctIndex: 0 | 1;
+}
+
+/** Texts that belong to the target language, for one app language (the overlay over src/i18n). */
+export type TargetStrings = Record<string, string>;
 
 export interface ArticleSupport {
   /** Definite articles in drill order, e.g. ['der', 'die', 'das']. */
@@ -59,4 +70,10 @@ export interface LanguagePack {
   gender: GenderSupport | null;
   /** null → no case drill and no case slot in "find the mistake". */
   cases: CaseSupport | null;
+  /** The placement quiz: the sentences live in `strings`, the right answers here. */
+  quiz: readonly QuizItem[];
+  /** The app languages (UI) this app offers; a native speaker of the target language is left out. */
+  uiLanguages: readonly NativeLanguage[];
+  /** Overlay strings per app language; a missing language falls back to English. */
+  strings: Partial<Record<NativeLanguage, TargetStrings>>;
 }

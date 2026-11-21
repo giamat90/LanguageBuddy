@@ -1,0 +1,30 @@
+// Texts that belong to the German pack (the target language), in this app language. Moved from src/i18n/ja.ts (TASK-043).
+const strings: Record<string, string> = {
+  welcome_subtitle:          `1日1つのドイツ語、しっかり身につけよう。`,
+  review_mc_prompt_target:   `ドイツ語ではどう言いますか？`,
+  speech_unavailable_title: `音声を利用できません`,
+  speech_unavailable_body: `お使いの端末はドイツ語を読み上げられません。Android の設定 > システム > 言語と入力 > テキスト読み上げ でドイツ語の音声をインストールして、もう一度お試しください。`,
+  quiz_q1:                   `どちらが自然ですか？`,
+  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
+  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
+  quiz_q2:                   `正しい文はどれですか？`,
+  quiz_q2_a:                 `Ich sehe den Mann.`,
+  quiz_q2_b:                 `Ich sehe der Mann.`,
+  quiz_q3:                   `「電気を消します」はどう言いますか？`,
+  quiz_q3_a:                 `Ich mache das Licht aus.`,
+  quiz_q3_b:                 `Ich ausmache das Licht.`,
+  quiz_q4:                   `ネイティブらしく聞こえるのはどれですか？`,
+  quiz_q4_a:                 `Ich fahre mit der Bus.`,
+  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
+  quiz_q5:                   `丁寧に希望を伝えるには？`,
+  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
+  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
+  grammar_rule_NOUN_GENDER:             `性は名詞と一緒に覚える必要があります。der、die、das は必ず単語とセットで覚えましょう。`,
+  grammar_rule_ACCUSATIVE_MASC:         `4格（Akkusativ）で変わるのは男性だけです: der → den、ein → einen。`,
+  grammar_rule_ACCUSATIVE_PREP:         `durch、für、gegen、ohne、um の後は必ず4格を使います。`,
+  grammar_rule_DATIV_PREP:              `aus、bei、mit、nach、seit、von、zu の後は必ず3格を使います: dem / einem（男性・中性）、der / einer（女性）。`,
+  grammar_rule_DATIV_INDIRECT_OBJ:      `間接目的語（誰に？）は3格になります: dem Mann、einem Kind。`,
+  grammar_rule_GENITIV_CASE:            `2格（誰の？）は des / eines + 語尾が -s の男性・中性名詞で作ります: des Regens。`,
+};
+
+export default strings;

@@ -2,15 +2,13 @@ import it from './it';
 
 const pl: Record<keyof typeof it, string> = {
   // Welcome / onboarding entry
-  welcome_title:             `GermanBuddy`,
-  welcome_subtitle:          `Jedno niemieckie słowo dziennie, nauczone naprawdę.`,
   welcome_cta:               `Zaczynamy`,
   welcome_offline_note:      `Działa w pełni offline. Bez konta.`,
   welcome_restore_cta:                  `Mam już kopię zapasową`,
   welcome_restore_confirm_title:        `Przywrócić tę kopię?`,
   welcome_restore_confirm_body:         `Kopia z %{date} · słów: %{vocab}.`,
   welcome_restore_failed:               `Nie udało się przywrócić kopii. Sprawdź plik i spróbuj ponownie.`,
-  welcome_restore_incompatible:         `Ta kopia została utworzona w nowszej wersji GermanBuddy. Zaktualizuj aplikację.`,
+  welcome_restore_incompatible:         `Ta kopia została utworzona w nowszej wersji %{app}. Zaktualizuj aplikację.`,
   welcome_restore_no_profile:           `Ta kopia nie zawiera profilu. Wybierz inny plik lub zacznij od nowa.`,
 
   // Word Card
@@ -35,21 +33,6 @@ const pl: Record<keyof typeof it, string> = {
   // Quiz
   quiz_title:                `Jaki jest Twój poziom?`,
   quiz_subtitle:             `Wybierz zdanie, które brzmi najbardziej naturalnie.`,
-  quiz_q1:                   `Co brzmi lepiej?`,
-  quiz_q1_a:                 `Ich trinke jeden Morgen Kaffee.`,
-  quiz_q1_b:                 `Ich jeden Morgen Kaffee trinke.`,
-  quiz_q2:                   `Które zdanie jest poprawne?`,
-  quiz_q2_a:                 `Ich sehe den Mann.`,
-  quiz_q2_b:                 `Ich sehe der Mann.`,
-  quiz_q3:                   `Jak powiedzieć „Gaszę światło”?`,
-  quiz_q3_a:                 `Ich mache das Licht aus.`,
-  quiz_q3_b:                 `Ich ausmache das Licht.`,
-  quiz_q4:                   `Co brzmi jak w ustach native speakera?`,
-  quiz_q4_a:                 `Ich fahre mit der Bus.`,
-  quiz_q4_b:                 `Ich fahre mit dem Bus.`,
-  quiz_q5:                   `Jak grzecznie wyrazić życzenie?`,
-  quiz_q5_a:                 `Ich hätte gern einen Kaffee.`,
-  quiz_q5_b:                 `Ich will gern einen Kaffee.`,
   quiz_progress:             `Pytanie %{current} z %{total}`,
 
   // Topics
@@ -98,7 +81,6 @@ const pl: Record<keyof typeof it, string> = {
   review_retry_label:        `Spróbuj jeszcze raz`,
   review_summary:            `Za pierwszym razem: %{correct} z %{total}`,
   review_mc_prompt_native:   `Co to znaczy?`,
-  review_mc_prompt_german:   `Jak to powiedzieć po niemiecku?`,
   review_mc_answer_was:      `Odpowiedź: %{answer}`,
   review_match_prompt:       `Połącz każde słowo z jego znaczeniem`,
   review_reorder_prompt:     `Ułóż słowa we właściwej kolejności`,
@@ -144,7 +126,7 @@ const pl: Record<keyof typeof it, string> = {
   settings_autobackup_never:         `Nigdy`,
   settings_autobackup_error:         `Automatyczna kopia nie działa. Folder może być niedostępny lub zabezpieczony przed zapisem.`,
   settings_autobackup_error_action:  `Wybierz folder ponownie`,
-  settings_autobackup_hint:          "Wybierz folder w pamięci telefonu: foldery Dysku Google nie są obsługiwane. Jeśli inna aplikacja (na przykład Dropbox) synchronizuje ten folder, to ona, a nie GermanBuddy, przechowuje kopię online. Klucz API AI nigdy nie jest dołączany.",
+  settings_autobackup_hint:          "Wybierz folder w pamięci telefonu: foldery Dysku Google nie są obsługiwane. Jeśli inna aplikacja (na przykład Dropbox) synchronizuje ten folder, to ona, a nie %{app}, przechowuje kopię online. Klucz API AI nigdy nie jest dołączany.",
   settings_autobackup_unusable_title: "Folder nieużyteczny",
   settings_autobackup_unusable_body: "Ten folder nie pozwala zapisywać plików (Dysk Google zwykle na to nie pozwala). Wybierz folder w pamięci telefonu.",
 
@@ -160,12 +142,6 @@ const pl: Record<keyof typeof it, string> = {
   grammar_again:                        `Jeszcze raz`,
   grammar_empty:                        `Brak dostępnych ćwiczeń.`,
   grammar_load_error:                   `Nie udało się wczytać ćwiczeń`,
-  grammar_rule_NOUN_GENDER:             `Rodzaj uczy się razem z rzeczownikiem: zawsze zapamiętuj der, die lub das razem ze słowem.`,
-  grammar_rule_ACCUSATIVE_MASC:         `W bierniku zmienia się tylko rodzaj męski: der → den, ein → einen.`,
-  grammar_rule_ACCUSATIVE_PREP:         `Po durch, für, gegen, ohne, um zawsze używa się biernika.`,
-  grammar_rule_DATIV_PREP:              `Po aus, bei, mit, nach, seit, von, zu zawsze używa się celownika: dem / einem (r. m. i n.), der / einer (r. ż.).`,
-  grammar_rule_DATIV_INDIRECT_OBJ:      `Dopełnienie dalsze (komu?) stoi w celowniku: dem Mann, einem Kind.`,
-  grammar_rule_GENITIV_CASE:            `Dopełniacz (czyj?) tworzy się z des / eines + rzeczownik rodzaju męskiego lub nijakiego zakończony na -s: des Regens.`,
 
   // Word card design-system section labels
   word_section_meaning:      `Znaczenie`,
@@ -246,11 +222,11 @@ const pl: Record<keyof typeof it, string> = {
 
   // Notifications
   notif_word_title:            `Twoje słowo dnia jest gotowe 📖`,
-  notif_word_body:              `Odkryj dzisiejsze nowe słowo w GermanBuddy.`,
+  notif_word_body:              `Odkryj dzisiejsze nowe słowo w %{app}.`,
   notif_review_title:           `Czas na powtórkę 🔁`,
   notif_review_body:            `Masz słowa gotowe do powtórki.`,
   notif_test_title:             `Powiadomienie testowe`,
-  notif_test_body:              `Powiadomienia GermanBuddy działają!`,
+  notif_test_body:              `Powiadomienia %{app} działają!`,
 
   // Settings → Notifications
   settings_notif_section:       `Powiadomienia`,
@@ -287,8 +263,6 @@ const pl: Record<keyof typeof it, string> = {
   settings_topics_error: `Nie udało się zapisać wyboru.`,
   speech_play_a11y: `Posłuchaj wymowy: %{word}`,
   speech_stop_a11y: `Zatrzymaj wymowę: %{word}`,
-  speech_unavailable_title: `Dźwięk niedostępny`,
-  speech_unavailable_body: `Telefon nie potrafi czytać po niemiecku. W Ustawieniach Androida > System > Język i wprowadzanie > Zamiana tekstu na mowę zainstaluj niemiecki głos i spróbuj ponownie.`,
   speech_sentence_play_a11y: `Posłuchaj zdania`,
   speech_sentence_stop_a11y: `Zatrzymaj czytanie zdania`,
   settings_speech_section: `Wymowa`,
@@ -321,6 +295,15 @@ const pl: Record<keyof typeof it, string> = {
   filter_section_level: `Poziom`,
   filter_section_topic: `Temat`,
   filter_section_status: `Status`,
+  backup_err_invalid: `Plik kopii zapasowej jest nieprawidłowy.`,
+  backup_err_not_this_app: `Ten plik nie jest kopią zapasową %{app}.`,
+  backup_err_unreadable: `Nie można odczytać wybranego pliku.`,
+  backup_err_corrupt: `Plik kopii zapasowej jest uszkodzony.`,
+  backup_err_incomplete: `Kopia zapasowa jest niekompletna lub uszkodzona.`,
+  backup_err_newer: `Ta kopia zapasowa została utworzona przez nowszą wersję %{app}. Zaktualizuj aplikację.`,
+  backup_err_cannot_restore: `Tej kopii zapasowej nie można przywrócić.`,
+  backup_dialog_title: `Zapisz kopię zapasową %{app}`,
+  backup_err_sharing_unavailable: `Udostępnianie nie jest dostępne na tym urządzeniu.`,
 };
 
 export default pl;

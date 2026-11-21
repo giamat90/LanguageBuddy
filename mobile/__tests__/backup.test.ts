@@ -330,7 +330,7 @@ test('restore ignores columns the installed schema does not have (older app / cr
 
 test('pickBackup rejects a non-GermanBuddy file', async () => {
   files[pickedUri] = JSON.stringify({ app: 'SomethingElse', format: 1, db: {} });
-  await expect(pickBackup()).rejects.toThrow(/non è un backup di GermanBuddy/);
+  await expect(pickBackup()).rejects.toMatchObject({ code: 'not_this_app' });
 });
 
 test('an incompatible newer format is flagged, not thrown', async () => {

@@ -77,7 +77,7 @@ describe('the Spanish app', () => {
     expect(x.ios.bundleIdentifier).toBe('com.spanishbuddy');
     expect(x.version).toBe('1.0.1');
     expect(x.android.versionCode).toBe(1);
-    expect(x.android.adaptiveIcon.backgroundColor).toBe('#8a1c1c');
+    expect(x.android.adaptiveIcon.backgroundColor).toBe('#AA151B');
   });
   it('has no owner and no EAS block, but keeps the router extra', () => {
     expect(x.owner).toBeUndefined();

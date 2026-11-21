@@ -1,21 +1,10 @@
-// Palette derived from the GermanBuddy brand assets (logo1.png, banner):
-// deep navy-teal backdrop, cool off-white word card, and the German flag
-// tricolor (black / red / gold) carried through as the article-gender accent.
+// Palette per language app (theme/palettes.ts), fixed at build time like the language pack.
+// The article-gender accents are shared: blue / red / gray.
+import { getActivePack } from '../languages';
+import { palettes } from './palettes';
 
-const paper        = '#F6F9FB'; // card/background — matches the wordcard surface in the logo
-const mist         = '#E3E9EE'; // cool light surface tint
-const cream        = '#EAF0F4'; // secondary surface tint
-
-const ink          = '#0C2A3E'; // deep navy — matches the "Wort" wordmark
-const muted        = '#626F82'; // slate blue-gray — matches the "DAS" label
-
-const primary      = '#1E4A67'; // brand navy blue, from the logo gradient
-const primaryLight = '#E3EDF3';
-
-const gold         = '#8F6108'; // flag gold, darkened for text/UI contrast
-const goldLight    = '#FBF0D9';
-
-const border       = 'rgba(12,42,62,0.12)';
+const { paper, mist, cream, ink, muted, primary, primaryLight, gold, goldLight, border } =
+  palettes[getActivePack().code];
 
 const derBlue      = '#0C447C'; // der — brand blue
 const dieRed       = '#D3202F'; // die — flag red

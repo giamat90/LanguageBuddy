@@ -1,6 +1,7 @@
 import * as Notifications from 'expo-notifications';
 import { useCallback, useEffect, useState } from 'react';
 import { Platform } from 'react-native';
+import { colors } from '../theme/colors';
 import { NOTIFICATION_CHANNEL_ID } from '../lib/notifications';
 
 export interface UseNotificationsResult {
@@ -15,7 +16,7 @@ async function setupChannel(): Promise<void> {
       name: 'Promemoria',
       importance: Notifications.AndroidImportance.DEFAULT,
       vibrationPattern: [0, 200, 200, 200],
-      lightColor: '#1E4A67',
+      lightColor: colors.primary,
     });
   } catch (err) {
     console.warn('useNotifications: could not set notification channel', err);

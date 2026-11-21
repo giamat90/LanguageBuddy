@@ -1,7 +1,8 @@
 # SpanishBuddy — icon and feature graphic brief
 
-**Status:** the shipped icon is a placeholder — the GermanBuddy art (`mobile/assets/icon.png`, `adaptive-icon.png`) on a red adaptive
-background (`#8a1c1c`) so the two apps can be told apart on one phone. Real art is a design task for the Product Owner.
+**Status:** the app icon is now Spanish-specific (`mobile/assets/icon-es.png`, `adaptive-icon-es.png`, 2026-11-21): the same word-card idea as
+GermanBuddy ("LA / Palabra") on the red brand colour (`#AA151B`, the red of the Spanish flag, as adaptive background and app colour), with non-flag accent dashes. It was generated, not hand-drawn:
+the Product Owner may replace it with real art. The 1024×500 feature graphic is still to do (TASK-056).
 
 | Asset | Size | Notes |
 |-------|------|-------|

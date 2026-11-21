@@ -5,8 +5,8 @@
   "scheme": "spanishbuddy",
   "androidPackage": "com.giamat90.spanishbuddy",
   "iosBundleId": "com.spanishbuddy",
-  "icon": "./assets/icon.png",
-  "adaptiveIcon": { "foreground": "./assets/adaptive-icon.png", "background": "#8a1c1c" },
+  "icon": "./assets/icon-es.png",
+  "adaptiveIcon": { "foreground": "./assets/adaptive-icon-es.png", "background": "#AA151B" },
   "versionMajor": 1,
   "versionMinor": 0,
   "localFallbackVersionCode": 1

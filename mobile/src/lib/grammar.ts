@@ -1,4 +1,3 @@
-import { de } from '../languages/de';
 import { getActivePack, type LanguagePack } from '../languages';
 
 export type Rng = () => number;
@@ -49,16 +48,7 @@ export function articleRule(pack: LanguagePack = getActivePack()): string | null
   return pack.articles ? pack.articles.rule : null;
 }
 
-// German constants kept for callers and tests that name them; code paths read the pack.
-/** Every determiner form that fixes a case on its own (einen, dem, einem, des, eines). */
-export const CASE_FORMS = new Set<string>(Object.values(de.cases!.ruleForms).flat());
-export const DEFINITE_FORMS = de.cases!.definiteForms;
-export const INDEFINITE_FORMS = de.cases!.indefiniteForms;
-// After these, both accusative and dative are grammatical (dem/den both fit), so
-// the blank would have two defensible answers.
-export const TWO_WAY_PREPOSITIONS = de.cases!.twoWayPrepositions;
-
-/** Every case-fixing form of the pack (see CASE_FORMS for German). */
+/** Every case-fixing form of the pack . */
 export function caseForms(pack: LanguagePack = getActivePack()): Set<string> {
   return new Set(pack.cases ? Object.values(pack.cases.ruleForms).flat() : []);
 }

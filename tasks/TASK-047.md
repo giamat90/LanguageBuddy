@@ -1,6 +1,6 @@
 # TASK-047 — App variants: one codebase, one app per language
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-046b (pushed, `013c26b`)

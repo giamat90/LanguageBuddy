@@ -5,6 +5,14 @@ name: Release Android
 on:
   workflow_dispatch:
     inputs:
+      app:
+        description: 'Which app to build (one codebase, one app per language)'
+        required: true
+        default: de
+        type: choice
+        options:
+          - de
+          - es
       track:
         description: 'Play Store track to publish to'
         required: true
@@ -55,6 +63,9 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: Select app
+        run: echo "APP_LANG=${{ inputs.app }}" >> "$GITHUB_ENV"
+
       - name: Determine versionCode
         id: version
         run: |
@@ -63,6 +74,17 @@ jobs:
           else
             echo "code=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      # One language per build: the generated seams (bank, pack, translated tables) must match the app.
+      - name: Activate language
+        run: node scripts/set-active-language.mjs "$APP_LANG"
+
+      - name: Resolve package name
+        id: pkg
+        run: echo "package=$(node -p "require('./app.config.js').expo.android.package")" >> "$GITHUB_OUTPUT"
 
       # Fail in seconds, not after a 10-minute build: Play rejects a versionCode it has already
       # seen (on any track, or in an uploaded bundle), and a release tag must not be reused.
@@ -73,7 +95,7 @@ jobs:
           ANDROID_VERSION_CODE: ${{ steps.version.outputs.code }}
         run: |
           node scripts/check-play-version.js "$ANDROID_VERSION_CODE"
-          TAG="$(node -p "require('./scripts/lib/playVersion').releaseTag(require('./app.config.js').expo.version)")"
+          TAG="$(node -p "require('./scripts/lib/playVersion').releaseTag(require('./app.config.js').expo.version, process.env.APP_LANG)")"
           if git ls-remote --tags --exit-code origin "refs/tags/$TAG" > /dev/null; then
             echo "::error::Release tag $TAG already exists"
             exit 1
@@ -87,9 +109,6 @@ jobs:
           SDKMANAGER="$(command -v sdkmanager || echo "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager")"
           yes | "$SDKMANAGER" --licenses > /dev/null || true
           "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" "ndk;26.1.10909125"
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: Restore release keystore
         run: echo "${{ secrets.ANDROID_RELEASE_KEYSTORE_BASE64 }}" | base64 -d > release.keystore
@@ -113,7 +132,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-v${{ steps.version.outputs.code }}
+          name: app-release-${{ inputs.app }}-v${{ steps.version.outputs.code }}
           path: mobile/android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 90
 
@@ -121,7 +140,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
-          packageName: com.giamat90.germanbuddy
+          packageName: ${{ steps.pkg.outputs.package }}
           releaseFiles: mobile/android/app/build/outputs/bundle/release/app-release.aab
           track: ${{ inputs.track }}
           status: ${{ inputs.release_status }}

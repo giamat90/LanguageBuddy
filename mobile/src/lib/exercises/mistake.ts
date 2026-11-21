@@ -1,5 +1,4 @@
 import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, type Rng } from '../grammar';
-import { de } from '../../languages/de';
 import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
 import { FORMAT_QUALITY } from './quality';
@@ -12,7 +11,7 @@ import type { FindMistakeModel } from './types';
  * An exercise that marks a correct sentence as wrong is worse than none, so the
  * corruption is conservative:
  *  - gender kind: the article directly before the target noun is replaced by a form
- *    that is never valid for that noun's gender, in any case (NEVER_VALID);
+ *    that is never valid for that noun's gender, in any case (pack.gender.neverValid);
  *  - case kind: a case-fixing determiner (dem, einem, einen, des, eines) is replaced by
  *    another form of its family. The governing verb/preposition fixes the case, so any
  *    other form is wrong there. Two-way prepositions (in, auf, …) are skipped: after
@@ -21,13 +20,6 @@ import type { FindMistakeModel } from './types';
 
 export const MISTAKE_MIN_TOKENS = 4;
 export const MISTAKE_MAX_TOKENS = 12;
-
-// German tables kept as named exports for documentation and tests; code paths read the pack.
-/** Forms that can precede this noun in SOME case (documentation and tests). */
-export const GENDER_FORMS = de.gender!.forms;
-
-/** Forms that can never precede a singular noun of this gender, in any case. */
-export const NEVER_VALID = de.gender!.neverValid;
 
 /** Splits quotes and punctuation off a token so the bare word can be compared and rebuilt. */
 export function splitToken(

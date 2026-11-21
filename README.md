@@ -29,6 +29,8 @@ npm test
 
 Release builds need your own keystore (`mobile/release.keystore`, `mobile/release.properties`; both gitignored). Never commit keys.
 
+Build another language with `build_bundle_android_release.bat es` (or `APP_LANG=es` through `node mobile/scripts/with-language.mjs es -- <command>`): each app is described by `mobile/variants/<code>.json`, and the repository's generated files always stay German.
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).

@@ -50,6 +50,17 @@ describe('assertNewVersionCode', () => {
   });
 });
 
+describe('releaseTag per app (TASK-047)', () => {
+  it('de keeps v<version>, other apps are prefixed with their code', () => {
+    expect(releaseTag('1.0.20')).toBe('v1.0.20');
+    expect(releaseTag('1.0.20', 'de')).toBe('v1.0.20');
+    expect(releaseTag('1.0.1', 'es')).toBe('es-v1.0.1');
+  });
+  it('rejects a bad language code', () => {
+    for (const bad of ['ES', 'e', '../x', '']) expect(() => releaseTag('1.0.1', bad)).toThrow();
+  });
+});
+
 describe('releaseTag', () => {
   it('prefixes the version name with v', () => {
     expect(releaseTag('1.0.16')).toBe('v1.0.16');

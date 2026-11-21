@@ -1,0 +1,15 @@
+{
+  "code": "de",
+  "name": "GermanBuddy",
+  "slug": "germanbuddy",
+  "scheme": "germanbuddy",
+  "androidPackage": "com.giamat90.germanbuddy",
+  "iosBundleId": "com.germanbuddy",
+  "icon": "./assets/icon.png",
+  "adaptiveIcon": { "foreground": "./assets/adaptive-icon.png", "background": "#0f2d44" },
+  "versionMajor": 1,
+  "versionMinor": 0,
+  "localFallbackVersionCode": 20,
+  "owner": "giamat",
+  "easProjectId": "8eb48752-1c1a-4169-a031-9e916c8b33da"
+}

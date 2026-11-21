@@ -2,6 +2,7 @@
  * Pure helpers for the automatic backup (TASK-023, ported from GymDiary TASK-006).
  * No React Native, no storage: everything here is unit-testable in plain Node.
  */
+import { getActivePack } from '../../languages';
 
 /** Newest automatic backups kept in the folder. More than GymDiary's 5: data changes far more often than workouts end. */
 export const AUTO_BACKUP_KEEP = 10;
@@ -20,7 +21,7 @@ export function autoBackupFileName(now: Date): string {
   const pad = (n: number) => String(n).padStart(2, '0');
   const date = `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}`;
   const time = `${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
-  return `germanbuddy-auto-${date}-${time}`;
+  return `${getActivePack().app.backupTag.toLowerCase()}-auto-${date}-${time}`;
 }
 
 /**

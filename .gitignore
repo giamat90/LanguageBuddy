@@ -38,6 +38,7 @@ mobile/%ProgramData%/
 mobile/.expo/
 mobile/*.db
 mobile/germanbuddy.db
+mobile/spanishbuddy.db
 mobile/release.properties
 mobile/release.keystore
 

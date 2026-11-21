@@ -19,8 +19,10 @@ const { withAndroidManifest, withDangerousMod, AndroidConfig } = require('expo/c
 const fs = require('fs');
 const path = require('path');
 
-const RULES_RES_NAME = 'germanbuddy_backup_rules';
-const LEGACY_RES_NAME = 'germanbuddy_backup_rules_legacy';
+/** Resource names per app (TASK-047); the default keeps the German names. */
+function resourceNames(slug = 'germanbuddy') {
+  return { rules: `${slug}_backup_rules`, legacy: `${slug}_backup_rules_legacy` };
+}
 
 const INCLUDED_PATHS = ['SQLite/', 'mmkv/'];
 const EXCLUDED_MMKV_STORES = ['ai', 'notifications-store', 'auto-backup'];
@@ -58,36 +60,38 @@ ${ruleLines('    ')}
 }
 
 /** Sets the three attributes on the manifest's <application> element (object form from xml2js). */
-function setBackupAttributes(application) {
+function setBackupAttributes(application, slug) {
+  const names = resourceNames(slug);
   application.$['android:allowBackup'] = 'true';
-  application.$['android:dataExtractionRules'] = `@xml/${RULES_RES_NAME}`;
-  application.$['android:fullBackupContent'] = `@xml/${LEGACY_RES_NAME}`;
+  application.$['android:dataExtractionRules'] = `@xml/${names.rules}`;
+  application.$['android:fullBackupContent'] = `@xml/${names.legacy}`;
   return application;
 }
 
-function withBackupXmlFiles(config) {
+function withBackupXmlFiles(config, slug) {
+  const names = resourceNames(slug);
   return withDangerousMod(config, [
     'android',
     async (cfg) => {
       const xmlDir = path.join(cfg.modRequest.platformProjectRoot, 'app', 'src', 'main', 'res', 'xml');
       fs.mkdirSync(xmlDir, { recursive: true });
-      fs.writeFileSync(path.join(xmlDir, `${RULES_RES_NAME}.xml`), buildDataExtractionRules());
-      fs.writeFileSync(path.join(xmlDir, `${LEGACY_RES_NAME}.xml`), buildFullBackupContent());
+      fs.writeFileSync(path.join(xmlDir, `${names.rules}.xml`), buildDataExtractionRules());
+      fs.writeFileSync(path.join(xmlDir, `${names.legacy}.xml`), buildFullBackupContent());
       return cfg;
     },
   ]);
 }
 
-function withBackupManifestAttributes(config) {
+function withBackupManifestAttributes(config, slug) {
   return withAndroidManifest(config, (cfg) => {
-    setBackupAttributes(AndroidConfig.Manifest.getMainApplicationOrThrow(cfg.modResults));
+    setBackupAttributes(AndroidConfig.Manifest.getMainApplicationOrThrow(cfg.modResults), slug);
     return cfg;
   });
 }
 
-function withAndroidBackupRules(config) {
-  config = withBackupXmlFiles(config);
-  config = withBackupManifestAttributes(config);
+function withAndroidBackupRules(config, options = {}) {
+  config = withBackupXmlFiles(config, options.slug);
+  config = withBackupManifestAttributes(config, options.slug);
   return config;
 }
 
@@ -95,3 +99,4 @@ module.exports = withAndroidBackupRules;
 module.exports.buildDataExtractionRules = buildDataExtractionRules;
 module.exports.buildFullBackupContent = buildFullBackupContent;
 module.exports.setBackupAttributes = setBackupAttributes;
+module.exports.resourceNames = resourceNames;

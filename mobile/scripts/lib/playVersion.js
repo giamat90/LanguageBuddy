@@ -43,12 +43,16 @@ function assertNewVersionCode(requested, used) {
   }
 }
 
-/** Git tag for a release: "v" + the app's version name (MAJOR.MINOR.versionCode). */
-function releaseTag(version) {
+/**
+ * Git tag for a release: "v" + the app's version name (MAJOR.MINOR.versionCode); apps other than
+ * German are prefixed with their language code ("es-v1.0.1") so two apps never collide.
+ */
+function releaseTag(version, code = 'de') {
   if (typeof version !== 'string' || !/^\d+\.\d+\.\d+$/.test(version)) {
     throw new Error(`version name must look like 1.0.16, got "${String(version)}"`);
   }
-  return `v${version}`;
+  if (typeof code !== 'string' || !/^[a-z]{2,3}$/.test(code)) throw new Error(`language code must look like es, got "${String(code)}"`);
+  return code === 'de' ? `v${version}` : `${code}-v${version}`;
 }
 
 const b64url = (buf) => Buffer.from(buf).toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');

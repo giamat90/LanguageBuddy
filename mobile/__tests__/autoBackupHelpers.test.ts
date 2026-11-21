@@ -2,6 +2,8 @@ import {
   autoBackupFileName, filesToPrune,
   AUTO_BACKUP_KEEP, DEBOUNCE_MS, MAX_WAIT_MS, STARTUP_RETRY_MS,
 } from '../src/lib/autoBackup/helpers';
+import { setActivePackForTests } from '../src/languages';
+import { es } from '../src/languages/es';
 
 describe('constants', () => {
   it('keeps 10 files, debounces 30 s, waits at most 5 min, retries 10 s after start', () => {
@@ -53,5 +55,13 @@ describe('filesToPrune', () => {
     const list = uris(5);
     expect(filesToPrune(list, 2)).toEqual(['uri-1', 'uri-2', 'uri-3']);
     expect(list).toEqual(uris(5));
+  });
+});
+
+describe('autoBackupFileName follows the active pack (TASK-047)', () => {
+  afterEach(() => setActivePackForTests(null));
+  it('is spanishbuddy-auto-… under the Spanish pack', () => {
+    setActivePackForTests(es);
+    expect(autoBackupFileName(new Date(2026, 9, 8, 15, 30, 45))).toBe('spanishbuddy-auto-20261008-153045');
   });
 });

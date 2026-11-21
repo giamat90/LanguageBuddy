@@ -64,6 +64,26 @@ describe('Android cloud-backup rules (Part B)', () => {
   it('is registered in app.config.js', () => {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const config = require('../app.config.js');
-    expect(config.expo.plugins).toContain('./plugins/withAndroidBackupRules');
+    const names = config.expo.plugins.map((p: unknown) => (Array.isArray(p) ? p[0] : p));
+    expect(names).toContain('./plugins/withAndroidBackupRules');
+  });
+});
+
+describe('resource names follow the app slug (TASK-047)', () => {
+  it('the manifest attributes use the slug', () => {
+    const application: { $: Record<string, string> } = { $: {} };
+    setBackupAttributes(application, 'spanishbuddy');
+    expect(application.$['android:dataExtractionRules']).toBe('@xml/spanishbuddy_backup_rules');
+    expect(application.$['android:fullBackupContent']).toBe('@xml/spanishbuddy_backup_rules_legacy');
+  });
+  it('defaults to the German names', () => {
+    const application: { $: Record<string, string> } = { $: {} };
+    setBackupAttributes(application);
+    expect(application.$['android:dataExtractionRules']).toBe('@xml/germanbuddy_backup_rules');
+    expect(application.$['android:fullBackupContent']).toBe('@xml/germanbuddy_backup_rules_legacy');
+  });
+  it('resourceNames derives both names from the slug', () => {
+    expect(plugin.resourceNames('spanishbuddy')).toEqual({ rules: 'spanishbuddy_backup_rules', legacy: 'spanishbuddy_backup_rules_legacy' });
+    expect(plugin.resourceNames()).toEqual({ rules: 'germanbuddy_backup_rules', legacy: 'germanbuddy_backup_rules_legacy' });
   });
 });

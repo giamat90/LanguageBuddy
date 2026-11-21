@@ -1,12 +1,18 @@
 import { allEntries } from '../src/data/wordbank';
 import {
   buildFindMistake, splitToken, ruleForCaseForm, mistakeQuality,
-  NEVER_VALID, MISTAKE_MIN_TOKENS, MISTAKE_MAX_TOKENS,
+  MISTAKE_MIN_TOKENS, MISTAKE_MAX_TOKENS,
   pickExercise, FORMAT_QUALITY, PASS_QUALITY,
 } from '../src/lib/exercises';
-import {
-  CASE_FORMS, TWO_WAY_PREPOSITIONS, DEFINITE_FORMS, INDEFINITE_FORMS, type Rng,
-} from '../src/lib/grammar';
+import { type Rng } from '../src/lib/grammar';
+import { de } from '../src/languages/de';
+
+// The German tables, read from the pack (they used to be re-exported by the library).
+const NEVER_VALID = de.gender!.neverValid;
+const CASE_FORMS = new Set<string>(Object.values(de.cases!.ruleForms).flat());
+const DEFINITE_FORMS = de.cases!.definiteForms;
+const INDEFINITE_FORMS = de.cases!.indefiniteForms;
+const TWO_WAY_PREPOSITIONS = de.cases!.twoWayPrepositions;
 import itStrings from '../src/languages/de/strings/it';
 import enStrings from '../src/languages/de/strings/en';
 import type { ReviewCard } from '../src/services/reviewService';

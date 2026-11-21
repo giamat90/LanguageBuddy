@@ -1,6 +1,17 @@
 @echo off
 setlocal
 
+set APP_LANG=%~1
+if "%APP_LANG%"=="" set APP_LANG=de
+if /I "%~2"=="--inner" goto :inner
+:: One language per build: run this same script again inside with-language, which activates the
+:: language's generated seams for the whole prebuild + Gradle/Metro run and restores them afterwards.
+cd /d "%~dp0mobile" || exit /b 1
+call node scripts\with-language.mjs %APP_LANG% -- "%~f0" %APP_LANG% --inner
+exit /b %errorlevel%
+
+:inner
+
 set ROOT=%~dp0
 if "%ROOT:~-1%"=="\" set ROOT=%ROOT:~0,-1%
 
@@ -64,7 +75,9 @@ if errorlevel 1 (
 :: Create output folder and move artifact
 if not exist "%ROOT%\Bundles" mkdir "%ROOT%\Bundles"
 
-set DEST=%ROOT%\Bundles\app-release-v%VERSION_NAME%-%VERSION_CODE%.aab
+set SUFFIX=
+if /I not "%APP_LANG%"=="de" set SUFFIX=-%APP_LANG%
+set DEST=%ROOT%\Bundles\app-release%SUFFIX%-v%VERSION_NAME%-%VERSION_CODE%.aab
 move /Y "%ANDROID_DIR%\app\build\outputs\bundle\release\app-release.aab" "%DEST%"
 
 echo.

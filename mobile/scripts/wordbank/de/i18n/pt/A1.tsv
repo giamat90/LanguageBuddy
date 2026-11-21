@@ -50,7 +50,7 @@ A1	Vater	pai	Meu pai trabalha muito.	O 'Vatertag', o Dia dos Pais alemão, cai n
 A1	Bruder	irmão	Eu tenho um irmão mais velho.	O plural 'Brüder' recebe trema, um padrão típico dos substantivos masculinos alemães de uma sílaba.
 A1	Schwester	irmã	Minha irmã mora em Colônia.	'Geschwister' é a palavra coletiva para 'irmãos' como grupo, sem distinção de gênero.
 A1	Großmutter	avó	Minha avó gosta de contar histórias.	Na fala cotidiana quase todos dizem 'Oma' em vez da forma completa 'Großmutter'.
-A1	Großvater	avô	Meu avô era professor.	Como 'Oma', 'Opa' é a forma carinhosa e muito mais comum de 'Großvater'.
+A1	Großvater	avô	Meu avô era professor.	Na fala do dia a dia costuma-se dizer 'Opa'; 'Großvater' é a forma neutra ou mais formal.
 A1	Milch	leite	Eu não bebo leite.	Em alemão, 'keine Milch' nega diretamente o substantivo, enquanto em inglês se nega o verbo com 'don't'.
 A1	Käse	queijo	O queijo está muito gostoso.	A Alemanha produz mais de 600 tipos de queijo, menos famosos no exterior que os franceses ou italianos, mas muito variados.
 A1	Ei	ovo	No café da manhã eu como um ovo.	'Ei' é um dos substantivos alemães mais curtos; o plural 'Eier' acrescenta uma sílaba inteira.
@@ -59,7 +59,7 @@ A1	Fisch	peixe	Na sexta-feira costuma haver peixe.	A tradição católica do pei
 A1	Gemüse	legumes, verduras	Eu gosto de comer legumes.	'Gemüse' é um substantivo coletivo singular: não existe plural comum, ao contrário do inglês 'vegetables'.
 A1	Obst	fruta	Nós compramos fruta fresca.	Como 'Gemüse', 'Obst' é sempre um coletivo singular: não se diz 'três frutas', é preciso 'drei Obstsorten' (três tipos de fruta).
 A1	Suppe	sopa	A sopa ainda está quente.	Nos refeitórios alemães, a sopa costuma ser a entrada padrão, servida no almoço quase todos os dias.
-A1	Salz	sal	Passe-me o sal, por favor.	As expressões culinárias são comuns em alemão; com o sal, 'jemandem nicht das Salz in der Suppe gönnen' significa invejar até o menor sucesso de alguém.
+A1	Salz	sal	Me passe o sal, por favor.	'Salz' é neutro: 'das Salz'. O par fixo é 'Salz und Pfeffer', sempre nessa ordem.
 A1	Zucker	açúcar	Eu tomo café sem açúcar.	'Zucker' é quase sempre incontável em alemão, como em português: diz-se 'etwas Zucker' (um pouco de açúcar), não 'ein Zucker'.
 A1	Bier	cerveja	Duas cervejas, por favor.	Num bar alemão, pode-se pedir cerveja com o plural simples e inalterado 'zwei Bier', sem sufixo.
 A1	Wein	vinho	O vinho vem da região.	As regiões vinícolas mais famosas da Alemanha, como o Mosela, produzem sobretudo vinhos brancos, ao contrário da Itália.
@@ -69,7 +69,7 @@ A1	Messer	faca	A faca é muito afiada.	'Auf Messers Schneide stehen' ('estar no 
 A1	Gabel	garfo	Ainda preciso de um garfo.	A palavra 'Gabel' tem a mesma raiz de 'gabeln' (bifurcar-se): o formato lembra os dentes do garfo.
 A1	Löffel	colher	Pegue uma colher para a sopa.	'Über den Löffel balbieren' ('barbear com uma colher') é um velho ditado que significa 'enganar alguém'.
 A1	Fenster	janela	Feche a janela, por favor.	'Fenster' vem do latim 'fenestra', um dos poucos empréstimos românicos antigos ainda usados no alemão cotidiano.
-A1	Tür	porta	A porta está aberta.	Em muitos edifícios alemães as portas abrem para dentro do apartamento, e não para o corredor, por normas de segurança contra incêndio.
+A1	Tür	porta	A porta está aberta.	'Tür' é feminino: 'die Tür'. 'Die Tür aufmachen/zumachen' = abrir/fechar a porta. 'Tor' é um portão ou um gol de futebol.
 A1	Tisch	mesa	Nós estamos sentados à mesa.	'Reinen Tisch machen' ('fazer uma mesa limpa') significa esclarecer tudo de uma vez por todas.
 A1	Stuhl	cadeira	A cadeira é confortável.	O plural 'Stühle' recebe trema, como muitos substantivos masculinos comuns de uma sílaba.
 A1	Bett	cama	Eu vou cedo para a cama.	'Ins Bett gehen' usa o acusativo porque descreve movimento em direção a um lugar, e não uma posição estática.
@@ -109,7 +109,7 @@ A1	Fuß	pé	Eu vou a pé para o trabalho.	'Zu Fuß gehen' é uma expressão fixa
 A1	Herz	coração	Meu coração bate rápido.	'Herz' é um dos poucos substantivos neutros com declinação irregular no genitivo e no dativo: 'des Herzens', 'dem Herzen'.
 A1	krank	doente	Hoje eu estou doente.	Na Alemanha, um atestado médico ('Krankschreibung') é quase sempre exigido a partir do terceiro dia de ausência.
 A1	gesund	saudável	Ele come de forma muito saudável.	'Gesund' é também a raiz de 'Gesundheit', dito como votos de saúde quando alguém espirra.
-A1	Woche	semana	Na semana que vem eu viajo.	'Nächste Woche' não precisa de preposição em alemão, ao contrário de outras línguas que usam uma para 'na semana que vem'.
+A1	Woche	semana	Na semana que vem eu vou viajar.	'Woche' é feminino: 'die Woche', plural 'Wochen'. 'Nächste Woche' é usado sem preposição.
 A1	Monat	mês	O primeiro mês foi difícil.	'Monat' tem a mesma raiz de 'Mond' (lua): o mês alemão, como em muitas línguas, vem do ciclo lunar.
 A1	Jahr	ano	Eu aprendo alemão há um ano.	'Seit einem Jahr' usa o dativo depois de 'seit' junto com o presente, e não o passado como em 'eu estudei'.
 A1	heute	hoje	O que você vai fazer hoje?	'Heute' costuma ocupar a primeira posição da frase, empurrando o verbo para a segunda posição pela regra V2.
@@ -130,7 +130,7 @@ A1	Flugzeug	avião	O avião pousa na hora.	'Flugzeug' é um composto transparent
 A1	Schiff	navio	O navio vai para a Noruega.	Hamburgo tem um dos maiores portos da Europa, e sua história está profundamente ligada à navegação.
 A1	Taxi	táxi	Nós pegamos um táxi até a estação.	Em muitas cidades alemãs os táxis são quase idênticos, geralmente Mercedes cor de creme, com tarifas municipais fixas.
 A1	Koffer	mala	Minha mala está pesada demais.	As companhias aéreas low cost alemãs controlam o peso da bagagem de mão com muito rigor.
-A1	Pass	passaporte	Eu preciso do meu passaporte.	Dentro do Espaço Schengen o passaporte já não é exigido, mas um documento de identidade válido continua obrigatório.
+A1	Pass	passaporte	Preciso do meu passaporte.	'Pass' é abreviação de 'Reisepass'. O documento de identidade é o 'Personalausweis'; 'Ausweis' designa um documento de identificação em geral.
 A1	Karte	bilhete, cartão, mapa	Eu compro um bilhete para o trem.	'Karte' é uma palavra muito versátil: significa bilhete, cartão de crédito, cartão-postal ou mapa, conforme o contexto.
 A1	Geschäft	loja, negócio	A loja fecha às dezoito horas.	'Geschäft' significa tanto a loja física quanto um negócio em sentido abstrato: dois significados numa só palavra.
 A1	Preis	preço	O preço está alto demais.	'Preis' significa tanto 'preço' quanto 'prêmio': um 'Nobelpreis' é um prêmio, não um preço a pagar.
@@ -214,7 +214,7 @@ A1	elf	onze	A turma tem onze alunos.	'Elf' e 'zwölf' são as únicas exceções
 A1	zwölf	doze	O dia tem doze horas de luz.	'Ein Dutzend' (uma dúzia) corresponde exatamente a 'zwölf', uma unidade ainda usada na padaria.
 A1	zwanzig	vinte	Ela tem vinte anos.	A partir de 'zwanzig', todos os números são formados por adição: 'einundzwanzig' é literalmente 'um-e-vinte'.
 A1	dreißig	trinta	Ele logo faz trinta anos.	As dezenas alemãs a partir de 'dreißig' têm terminação irregular ('-ßig'), diferente do '-zig' normal de 'zwanzig', 'vierzig' etc.
-A1	hundert	cem	O livro tem cem páginas.	'Hundert' não precisa do artigo indefinido 'ein' na frente, ao contrário de muitas outras línguas.
+A1	hundert	cem	O livro tem cem páginas.	'Hundert' não varia e se escreve junto com as unidades: 'zweihundert', 'dreihundert'.
 A1	Onkel	tio	Meu tio mora em Berlim.	'Onkel' vem do francês 'oncle': um dos muitos empréstimos românicos que entraram no alemão pela cultura aristocrática do século XVIII.
 A1	Tante	tia	Minha tia nos visita com frequência.	Como 'Onkel', 'Tante' também é um empréstimo do francês, que entrou no alemão com muitas palavras da corte no século XVIII.
 A1	Cousin	primo	Meu primo estuda medicina.	A pronúncia de 'Cousin' fica muito próxima do francês original, mantendo o som nasal final.
@@ -248,7 +248,7 @@ A1	Fest	festa	Nós fazemos uma grande festa.	'Fest' é a raiz de 'Festival', 'Ok
 A1	Weihnachten	Natal	Nós celebramos o Natal com a família.	'Weihnachten' é historicamente singular e plural ao mesmo tempo; hoje é quase sempre tratado como neutro singular.
 A1	Ostern	Páscoa	Na Páscoa nós visitamos os avós.	'Ostern' tem a mesma raiz de 'Osten' (leste): algumas teorias o ligam ao nome de uma antiga deusa germânica da aurora.
 A1	Silvester	véspera de Ano Novo	Na véspera de Ano Novo há fogos de artifício.	'Silvester' tem o nome do papa Silvestre I, cuja festa cai em 31 de dezembro no calendário católico.
-A1	Geschenk machen	dar um presente	Eu gostaria de te dar um presente.	'Jemandem ein Geschenk machen' usa o dativo para quem recebe e o acusativo para o presente em si.
+A1	schenken	dar de presente	Eu dou flores de presente para a minha mãe.	'Schenken' usa o dativo para a pessoa (meiner Mutter) e o acusativo para o presente (Blumen). Perfekt: 'hat geschenkt'.
 A1	gratulieren	parabenizar	Eu te dou os parabéns pelo aniversário.	'Gratulieren' rege o dativo da pessoa: 'dir gratulieren', mais um dos muitos verbos de dativo do alemão.
 A1	einladen zur Feier	convidar para a festa	Nós convidamos todos os amigos para a festa.	'Zur Feier' é a contração de 'zu der Feier': 'zu' sempre rege o dativo.
 A1	Wohnzimmer	sala de estar	Nós estamos sentados na sala de estar.	'Wohnzimmer' é um composto transparente: 'wohnen' (morar) + 'Zimmer' (cômodo), o cômodo onde mais se passa tempo.
@@ -260,7 +260,6 @@ A1	Balkon	sacada	Nós tomamos café da manhã na sacada.	'Auf dem Balkon' usa o 
 A1	Aufzug	elevador	O elevador está quebrado.	'Aufzug' vem do verbo 'aufziehen' (puxar para cima), um termo muito mais concreto que o 'Lift' de origem francesa, também usado regionalmente.
 A1	Treppe	escada	Eu subo a escada.	'Die Treppe hoch gehen' é uma estrutura coloquial comum, alternativa ao mais formal 'die Treppe hinaufgehen'.
 A1	Nachricht schicken	enviar uma mensagem	Eu te envio uma mensagem.	'Schicken' rege o dativo da pessoa e o acusativo da coisa enviada: 'dir eine Nachricht schicken'.
-A1	anrufen bitte	ligar, por favor	Me ligue, por favor, quando chegar.	'Anrufen' é separável: no imperativo fica 'ruf an', com o prefixo separado no fim.
 A1	warten	esperar	Eu espero por você.	'Warten auf' rege o acusativo: 'auf dich warten', uma estrutura fixa a memorizar junto com o verbo.
 A1	suchen	procurar	Eu procuro a minha chave.	'Suchen' sempre leva um objeto direto no acusativo, sem preposição, ao contrário de muitas línguas românicas.
 A1	finden	encontrar	Eu não encontro os meus óculos.	'Finden' também é usado para expressar uma opinião: 'ich finde das gut' significa 'acho isso bom'.
@@ -279,7 +278,7 @@ A1	Kleid	vestido	O vestido fica bem em você.	'Kleid', no plural 'Kleider', tamb
 A1	Socke	meia	Eu procuro uma meia limpa.	'Sich auf die Socken machen' ('pôr-se nas meias') é uma expressão coloquial para 'pôr-se a caminho, se apressar'.
 A1	Gürtel	cinto	O cinto é de couro.	'Den Gürtel enger schnallen' ('apertar o cinto') significa ter que cortar gastos, como a expressão em português.
 A1	Ring	anel	Ela usa um anel de ouro.	Na Alemanha o anel de noivado costuma ser usado na mão esquerda, passando para a direita depois do casamento.
-A1	Uhr tragen	usar relógio	Ele sempre usa relógio.	'Tragen' significa tanto 'usar (roupa)' quanto 'carregar': o contexto deixa claro qual é o sentido.
+A1	tragen	usar (roupa) / carregar	Ele sempre usa relógio.	'Tragen' é irregular: 'er trägt', Perfekt 'hat getragen'. Significa tanto 'usar' quanto 'carregar'; o contexto indica qual.
 A1	laufen	correr, andar	Eu corro no parque toda manhã.	Nos dialetos do sul da Alemanha, 'laufen' costuma significar simplesmente 'andar', enquanto no norte significa mais precisamente 'correr'.
 A1	schwimmen	nadar	No verão nós nadamos muito.	O Perfekt de 'schwimmen' usa 'sein': 'ich bin geschwommen', porque descreve movimento com mudança de estado.
 A1	springen	pular	A criança pula de alegria.	'Springen' usa 'sein' no Perfekt quando descreve movimento: 'ich bin gesprungen'.
@@ -291,14 +290,12 @@ A1	packen	fazer as malas, embalar	Eu ainda preciso arrumar a minha mala.	'Packen
 A1	Ausweis	documento de identidade	Mostre o seu documento, por favor.	Na Alemanha, portar sempre um documento de identidade válido é uma exigência legal.
 A1	Formular	formulário	Preencha o formulário, por favor.	'Ausfüllen' é separável: 'füllen Sie aus' no imperativo formal, com o prefixo separado no fim.
 A1	Unterschrift	assinatura	Eu preciso da sua assinatura.	'Unterschrift' é um composto: 'unter' (embaixo) + 'Schrift' (escrita), literalmente 'escrita embaixo' do documento.
-A1	Termin vereinbaren	marcar um compromisso	Eu gostaria de marcar uma consulta.	'Vereinbaren' não é separável: pertence ao grupo de verbos com o prefixo sempre inseparável 'ver-'.
 A1	Rezept	receita (médica, culinária)	O médico escreve uma receita.	'Rezept' significa tanto 'receita médica' quanto 'receita culinária': a palavra alemã cobre os dois sentidos, como em português.
 A1	Fieber	febre	A criança está com febre.	'Fieber haben' não precisa de artigo antes do substantivo, uma estrutura fixa comum com muitos sintomas.
 A1	Husten	tosse	Eu estou com tosse há dias.	'Seit Tagen' usa o dativo plural depois de 'seit', combinado com o presente para uma ação ainda em curso.
 A1	Schmerzen	dores	Eu estou com muita dor.	'Schmerzen' é quase sempre usado no plural em alemão para a dor física, mesmo para uma única dor localizada.
 A1	Tablette	comprimido	Tome este comprimido para a dor.	'Gegen' sempre rege o acusativo: 'gegen die Schmerzen' (contra a dor), uma preposição muito comum em contextos médicos.
 A1	Versicherung	seguro	Eu tenho um bom seguro.	Na Alemanha, o seguro-saúde é obrigatório por lei desde 1883, o primeiro sistema desse tipo no mundo.
-A1	Woche geht schnell	a semana passa rápido	Esta semana passou muito rápido.	'Vergehen' descreve a passagem do tempo e é conjugado com 'sein' no Perfekt: 'ist vergangen'.
 A1	links	à esquerda	Vá para a esquerda aqui.	'Links' e 'rechts' nunca recebem terminação: são advérbios invariáveis usados para indicar direções de ruas.
 A1	rechts	à direita	O correio fica à direita.	'Nach rechts' indica movimento para a direita, enquanto 'rechts' sozinho indica uma posição estática.
 A1	geradeaus	em frente	Vá simplesmente em frente.	'Geradeaus' é um composto de 'gerade' (reto) e 'aus', hoje um único advérbio invariável.
@@ -311,10 +308,10 @@ A1	Stau	engarrafamento	Nós estamos presos no engarrafamento.	As rodovias alemã
 A1	Parkplatz	vaga de estacionamento	Não encontramos vaga para estacionar.	Nos centros das cidades alemãs, estacionar costuma ser pago e regulado por um limite de tempo com disco de estacionamento obrigatório.
 A1	Fahrkarte	passagem	Eu não estou com a passagem.	No transporte público alemão, a fiscalização de bilhetes costuma ser aleatória, mas as multas por viajar sem ele são muito altas.
 A1	Gleis	plataforma, trilho	O trem parte da plataforma três.	Nas estações alemãs a plataforma pode mudar na última hora: vale sempre conferir os painéis.
-A1	Fahrplan	horário (de trens)	Eu consulto o horário.	'Nachschauen' é separável: 'schaue nach' no presente, com o prefixo separado no fim da frase.
+A1	Fahrplan	horário (de trens e ônibus)	Estou conferindo o horário.	'Fahrplan' é o horário de trens e ônibus. Para a escola é 'Stundenplan', para os turnos de trabalho é 'Dienstplan'.
 A1	Ticket kaufen	comprar um bilhete	Eu compro o bilhete online.	Na Alemanha, os bilhetes comprados online costumam custar menos do que os comprados diretamente a bordo.
 A1	Ausflug machen	fazer um passeio	Amanhã nós fazemos um passeio.	'Einen Ausflug machen' é a estrutura padrão para falar de passeios: não existe um verbo simples 'ausflügen'.
-A1	Karte spielen	jogar cartas	À noite nós costumamos jogar cartas.	'Karten spielen' não precisa de artigo antes de 'Karten' ao falar da atividade em geral.
+A1	Karten spielen	jogar cartas	À noite, nós costumamos jogar cartas.	A atividade se diz no plural: 'Karten spielen'. O singular 'Karte' é uma carta de baralho, um ingresso ou um mapa.
 A1	Ball	bola	As crianças brincam com a bola.	'Mit dem Ball spielen' usa o dativo depois de 'mit', uma das preposições de dativo mais frequentes de todas.
 A1	Fußball	futebol	O futebol é muito popular na Alemanha.	A Bundesliga alemã está entre as ligas de futebol mais assistidas do mundo, com algumas das maiores médias de público nos estádios.
 A1	Schwimmbad	piscina	Nós vamos à piscina.	Muitas cidades alemãs mantêm piscinas municipais públicas (um 'Freibad' ao ar livre no verão) a preços muito acessíveis.
@@ -324,7 +321,6 @@ A1	Fitnessstudio	academia	Eu vou à academia três vezes por semana.	'Dreimal di
 A1	Handtuch	toalha	Eu preciso de uma toalha limpa.	'Handtuch' é um composto: 'Hand' (mão) + 'Tuch' (pano), embora hoje seja usado para o corpo todo.
 A1	Seife	sabonete	O sabonete tem cheiro de lavanda.	'Riechen nach' rege o dativo: 'nach Lavendel', usado para descrever um aroma específico.
 A1	Zahnbürste	escova de dentes	Eu esqueci a minha escova de dentes.	'Zahnbürste' é um composto: 'Zahn' (dente) + 'Bürste' (escova), literalmente uma 'escova para dentes'.
-A1	Spiegelbild	reflexo	Eu vejo o meu reflexo.	'Spiegelbild' combina 'Spiegel' (espelho) e 'Bild' (imagem): a imagem refletida num espelho.
 A1	Haar	cabelo	Ela tem cabelos longos.	O singular 'Haar' pode significar um único fio ou, coloquialmente, o cabelo como um todo.
 A1	Bart	barba	Ele usa uma barba curta.	Uma barba bem cuidada voltou à moda na Alemanha na última década, sobretudo entre os mais jovens.
 A1	Brille	óculos	Eu preciso de óculos novos.	'Brille' é singular em alemão para um único par de óculos, enquanto o inglês usa o plural 'glasses'.
@@ -333,7 +329,7 @@ A1	Nase	nariz	Meu nariz está entupido.	'Die Nase voll haben' ('ter o nariz chei
 A1	Mund	boca	Abra a boca.	'Aufmachen' é separável: 'mach auf' no imperativo informal, com o prefixo separado no fim.
 A1	Zahn	dente	Meu dente dói.	O plural 'Zähne' recebe trema, como muitos substantivos masculinos curtos para partes do corpo.
 A1	Bein	perna	Ele quebrou a perna.	'Sich das Bein brechen' usa o dativo reflexivo 'sich' mais o acusativo 'das Bein': a parte do corpo afetada é o objeto direto.
-A1	Arm	braço	Ela tem um braço forte.	'Arm' também significa 'pobre' como adjetivo: duas palavras de grafia idêntica e origem totalmente diferente.
+A1	Arm	braço	Meu braço está doendo.	'Arm' também significa 'pobre' como adjetivo: duas palavras escritas igual, mas de origem totalmente diferente.
 A1	Finger	dedo	Eu cortei o dedo.	'Sich in den Finger schneiden' descreve uma lesão acidental com o dativo reflexivo e o acusativo da parte afetada.
 A1	Bauch	barriga	Minha barriga dói.	'Bauchschmerzen' (dor de barriga) é um composto muito comum que os pais usam com crianças pequenas.
 A1	Rücken	costas	Minhas costas doem.	'Hinter dem Rücken' ('atrás das costas') significa fazer algo 'pelas costas de alguém', como em português.
@@ -341,7 +337,6 @@ A1	Schulter	ombro	Ele leva a bolsa no ombro.	'Auf der Schulter' usa o dativo por
 A1	Sonnenschein	luz do sol	Nós aproveitamos a luz do sol.	'Genießen' sempre leva um objeto direto no acusativo sem preposição: 'den Sonnenschein genießen'.
 A1	Wolke	nuvem	O céu está cheio de nuvens.	'Auf Wolke sieben schweben' ('flutuar na nuvem sete') é o equivalente alemão de 'estar nas nuvens'.
 A1	Gewitter	tempestade	Esta noite vai ter tempestade.	'Es gibt' mais o acusativo é a estrutura padrão para anunciar fenômenos do tempo ou a existência de algo.
-A1	Regenbogen	arco-íris	Depois da chuva apareceu um arco-íris.	'Regenbogen' é um composto transparente: 'Regen' (chuva) + 'Bogen' (arco), literalmente um 'arco da chuva'.
 A1	Insel	ilha	Sylt é uma ilha conhecida.	Sylt, no Mar do Norte, é um dos destinos de praia mais exclusivos, apreciado por alemães abastados.
 A1	Strand	praia	Nós ficamos o dia todo na praia.	'Am Strand' usa o dativo porque descreve onde você está, uma posição, e não um movimento.
 A1	Sand	areia	A areia é muito fina.	'Sand ins Getriebe streuen' ('jogar areia nas engrenagens') significa sabotar ou atrapalhar um processo.
@@ -352,10 +347,8 @@ A1	Zelt	barraca	Nós dormimos na barraca.	O camping é uma atividade de verão m
 A1	Feuer machen	fazer fogo	À noite nós fazemos uma fogueira.	'Ein Feuer machen' é a estrutura fixa para 'acender uma fogueira', diferente de 'anzünden', usado para fósforos ou velas.
 A1	Rucksack	mochila	Minha mochila está muito pesada.	'Rucksack' é um composto: 'Rücken' (costas) + 'Sack' (saco), literalmente um 'saco das costas'.
 A1	Landkarte	mapa	Nós olhamos o mapa.	'Landkarte' distingue o mapa geográfico do termo genérico 'Karte', que também pode significar bilhete ou cartão de crédito.
-A1	Kompass	bússola	Sem bússola nós não achamos o caminho.	'Ohne' sempre rege o acusativo: 'ohne Kompass', uma das preposições de acusativo mais comuns, junto com 'für' e 'durch'.
 A1	Weg	caminho	O caminho até a estação é curto.	'Weg' significa tanto um caminho físico quanto, em sentido figurado, um 'jeito, meio', como em 'achar um jeito, custe o que custar'.
 A1	Richtung	direção	Nós vamos na direção errada.	'In die Richtung' usa o acusativo porque descreve um movimento dirigido a uma direção específica.
-A1	verlaufen sich	perder-se (a pé)	Nós nos perdemos na cidade.	'Sich verlaufen' descreve perder-se a pé; 'sich verfahren' é o equivalente para perder-se dirigindo.
 A1	Reiseführer	guia de viagem	Nós compramos um guia de viagem de Berlim.	'Reiseführer' significa tanto o livro quanto a pessoa que guia turistas: dois sentidos na mesma palavra.
 A1	Sehenswürdigkeit	ponto turístico	A Catedral de Colônia é um famoso ponto turístico.	'Sehenswürdigkeit' combina 'sehen' (ver) e 'würdig' (digno): literalmente 'aquilo que vale a pena ver'.
 A1	Foto machen	tirar uma foto	Você pode tirar uma foto, por favor?	'Ein Foto machen' é a forma padrão; o verbo 'fotografieren' existe, mas é um pouco mais formal.
@@ -367,3 +360,5 @@ A1	Wörterbuch	dicionário	Eu uso muito um dicionário.	'Wörterbuch' é um comp
 A1	üben	praticar	Eu pratico alemão todos os dias.	'Üben' é regular e está na base de 'Übung' (exercício), uma das palavras mais recorrentes nos materiais didáticos.
 A1	Fehler machen	cometer um erro	É normal cometer erros.	'Fehler machen' é a estrutura padrão; o infinitivo com 'zu' segue regras precisas depois de expressões impessoais como 'es ist normal'.
 A1	Prüfung bestehen	passar em uma prova	Eu espero passar na prova.	'Bestehen' não é separável: pertence ao grupo de verbos com o prefixo sempre inseparável 'be-'.
+A1	Mittagspause	pausa para o almoço	Na pausa para o almoço, comemos no refeitório.	'Mittagspause' junta 'Mittag' e 'Pause'. Diz-se 'Mittagspause machen' ou 'in der Mittagspause'.
+A1	Ankunft	chegada	A chegada do trem é às dez horas.	'Ankunft' é feminino e vem de 'ankommen'. O oposto é 'Abfahrt' (partida).

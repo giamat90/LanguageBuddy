@@ -25,13 +25,13 @@
     "meaning_it": "chiamare (al telefono)",
     "example": "Ich rufe dich morgen an.",
     "example_it": "Ti chiamo domani.",
-    "cultural_note": "I tedeschi usano volentieri la telefonata formale anche per cose che altrove si sbrigano con un messaggio, come disdire un appuntamento.",
+    "cultural_note": "'Anrufen' è separabile: 'ich rufe an', Perfekt 'hat angerufen'. Regge l'accusativo: 'jemanden anrufen'.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "work",
     "cefr_band": "A2",
     "session_scenario": "Making plans over the phone",
     "example_en": "I'll call you tomorrow.",
-    "cultural_note_en": "Germans readily use a formal phone call even for things others handle with a text message, like cancelling an appointment."
+    "cultural_note_en": "'Anrufen' is separable: 'ich rufe an', Perfekt 'hat angerufen'. It takes the accusative: 'jemanden anrufen'."
   },
   {
     "word": "fahren",
@@ -161,13 +161,13 @@
     "meaning_it": "riordinare / mettere in ordine",
     "example": "Ich räume mein Zimmer auf.",
     "example_it": "Metto in ordine la mia stanza.",
-    "cultural_note": "Il concetto di Ordnung (ordine) è così importante in Germania che 'Ordnung muss sein' ('ci vuole ordine') funziona quasi da motto nazionale.",
+    "cultural_note": "'Aufräumen' è separabile: 'ich räume auf', Perfekt 'hat aufgeräumt'.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "home",
     "cefr_band": "A2",
     "session_scenario": "Discussing household chores",
     "example_en": "I'm tidying my room.",
-    "cultural_note_en": "The concept of Ordnung (order) is so important in Germany that 'Ordnung muss sein' ('there must be order') works almost as a national motto."
+    "cultural_note_en": "'Aufräumen' is separable: 'ich räume auf', Perfekt 'hat aufgeräumt'."
   },
   {
     "word": "abfahren",
@@ -1759,13 +1759,13 @@
     "meaning_it": "paura",
     "example": "Sie hat keine Angst vor Hunden.",
     "example_it": "Lei non ha paura dei cani.",
-    "cultural_note": "'Angst' è sempre femminile e singolare, ma può prendere il plurale 'Ängste' per parlare di più paure diverse.",
+    "cultural_note": "'Angst haben vor' regge il dativo: 'Angst vor Hunden'. Il plurale 'Ängste' esiste ma è raro: di solito si usa il singolare.",
     "grammar_angle": "NEGATION_NICHT_KEIN",
     "topic_domain": "health",
     "cefr_band": "A2",
     "session_scenario": "Describing fearlessness",
     "example_en": "She isn't afraid of dogs.",
-    "cultural_note_en": "'Angst' is always feminine and singular, but it can take the plural 'Ängste' to talk about several different fears."
+    "cultural_note_en": "'Angst haben vor' takes the dative: 'Angst vor Hunden'. The plural 'Ängste' exists but is rare; the singular is the normal form."
   },
   {
     "word": "Wut",
@@ -1929,13 +1929,13 @@
     "meaning_it": "promettere",
     "example": "Ich verspreche dir, pünktlich zu sein.",
     "example_it": "Ti prometto di essere puntuale.",
-    "cultural_note": "'Versprechen' regge il dativo della persona a cui si promette qualcosa, come molti verbi con prefisso 'ver-'.",
+    "cultural_note": "'Versprechen': la persona è al dativo, la cosa all'accusativo ('Ich verspreche dir Hilfe'). È irregolare: versprach, hat versprochen.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "work",
     "cefr_band": "A2",
     "session_scenario": "Promising to be punctual",
     "example_en": "I promise you I'll be on time.",
-    "cultural_note_en": "'Versprechen' takes the dative of the person promised something, like many verbs with the prefix 'ver-'."
+    "cultural_note_en": "'Versprechen': the person is in the dative, the thing in the accusative ('Ich verspreche dir Hilfe'). It is irregular: versprach, hat versprochen."
   },
   {
     "word": "erlauben",
@@ -1972,21 +1972,21 @@
     "cultural_note_en": "'Verboten' as a past participle is used everywhere on public signs: 'Parken verboten' (no parking), 'Rauchen verboten' (no smoking)."
   },
   {
-    "word": "empfehlen sich",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ɛmˈpfeːlən zɪç",
-    "meaning_en": "to be advisable",
-    "meaning_it": "essere consigliabile",
-    "example": "Es empfiehlt sich, früh zu buchen.",
-    "example_it": "È consigliabile prenotare presto.",
-    "cultural_note": "'Es empfiehlt sich' è una struttura impersonale formale, comune nei testi scritti e nelle guide turistiche.",
-    "grammar_angle": "MODAL_VERB",
+    "word": "Übernachtung",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ˌyːbɐˈnaxtʊŋ",
+    "meaning_en": "overnight stay",
+    "meaning_it": "pernottamento",
+    "example": "Die Übernachtung im Hotel kostet achtzig Euro.",
+    "example_it": "Il pernottamento in hotel costa ottanta euro.",
+    "cultural_note": "'Übernachtung' è il sostantivo di 'übernachten' (pernottare). Spesso si dice 'Übernachtung mit Frühstück'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A2",
-    "session_scenario": "Giving general travel advice",
-    "example_en": "It's advisable to book early.",
-    "cultural_note_en": "'Es empfiehlt sich' is a formal impersonal structure, common in written texts and travel guides."
+    "session_scenario": "Asking about the price of a hotel stay",
+    "example_en": "The overnight stay at the hotel costs eighty euros.",
+    "cultural_note_en": "'Übernachtung' is the noun of 'übernachten' (to stay overnight). You often see 'Übernachtung mit Frühstück'."
   },
   {
     "word": "sich verspäten",
@@ -2465,23 +2465,6 @@
     "cultural_note_en": "'Umwelt' literally means 'the world around' — a very transparent compound, also the root of 'umweltfreundlich' (eco-friendly)."
   },
   {
-    "word": "Klima",
-    "article": "das",
-    "part_of_speech": "noun",
-    "ipa": "ˈkliːma",
-    "meaning_en": "climate",
-    "meaning_it": "clima",
-    "example": "Das Klima verändert sich schnell.",
-    "example_it": "Il clima sta cambiando in fretta.",
-    "cultural_note": "'Klimawandel' (cambiamento climatico) è uno dei temi politici più discussi nella Germania degli ultimi vent'anni.",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "culture",
-    "cefr_band": "A2",
-    "session_scenario": "Discussing climate change",
-    "example_en": "The climate is changing fast.",
-    "cultural_note_en": "'Klimawandel' (climate change) has been one of the most-debated political topics in Germany over the last twenty years."
-  },
-  {
     "word": "Energie",
     "article": "die",
     "part_of_speech": "noun",
@@ -2499,38 +2482,21 @@
     "cultural_note_en": "Germany has invested heavily in renewable energy, especially wind and solar, since the 2000s."
   },
   {
-    "word": "Solarenergie",
-    "article": "die",
-    "part_of_speech": "noun",
-    "ipa": "zoˈlaːɐ̯ʔenɛʁˌɡiː",
-    "meaning_en": "solar energy",
-    "meaning_it": "energia solare",
-    "example": "Viele Häuser haben Solarenergie.",
-    "example_it": "Molte case usano l'energia solare.",
-    "cultural_note": "I pannelli solari sono estremamente diffusi sui tetti tedeschi, incentivati da anni di sussidi statali.",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "home",
-    "cefr_band": "A2",
-    "session_scenario": "Discussing renewable energy",
-    "example_en": "Many houses use solar energy.",
-    "cultural_note_en": "Solar panels are extremely common on German roofs, encouraged by years of state subsidies."
-  },
-  {
-    "word": "sparen mit Strom",
+    "word": "Strom sparen",
     "article": null,
     "part_of_speech": "verb",
-    "ipa": "ˈʃpaːʁən mɪt ʃtʁoːm",
-    "meaning_en": "to save on electricity",
+    "ipa": "ʃtʁoːm ˈʃpaːʁən",
+    "meaning_en": "to save electricity",
     "meaning_it": "risparmiare corrente",
     "example": "Wir sparen Strom, wenn möglich.",
     "example_it": "Risparmiamo corrente quando possibile.",
-    "cultural_note": "'Sparen' regge l'accusativo diretto senza preposizione quando si riferisce alla quantità risparmiata.",
+    "cultural_note": "'Sparen' regge l'accusativo diretto, senza preposizione: 'Strom sparen', 'Geld sparen', 'Zeit sparen'.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "home",
     "cefr_band": "A2",
     "session_scenario": "Talking about saving on bills",
     "example_en": "We save on electricity when possible.",
-    "cultural_note_en": "'Sparen' takes a direct accusative object with no preposition when referring to the amount being saved."
+    "cultural_note_en": "'Sparen' takes a direct accusative object, no preposition: 'Strom sparen', 'Geld sparen', 'Zeit sparen'."
   },
   {
     "word": "Neuigkeit",
@@ -2941,23 +2907,6 @@
     "cultural_note_en": "'Laufen' is used figuratively to describe how a project is going, just like English 'to run' in 'the project is running well'."
   },
   {
-    "word": "Frist",
-    "article": "die",
-    "part_of_speech": "noun",
-    "ipa": "fʁɪst",
-    "meaning_en": "deadline",
-    "meaning_it": "scadenza",
-    "example": "Die Frist läuft morgen ab.",
-    "example_it": "La scadenza è domani.",
-    "cultural_note": "'Ablaufen' è separabile: 'läuft ab' al presente, usato per descrivere una scadenza che si avvicina.",
-    "grammar_angle": "SEPARABLE_VERB",
-    "topic_domain": "work",
-    "cefr_band": "A2",
-    "session_scenario": "Reminding someone of a deadline",
-    "example_en": "The deadline expires tomorrow.",
-    "cultural_note_en": "'Ablaufen' is separable: 'läuft ab' in the present tense, used to describe a deadline drawing near."
-  },
-  {
     "word": "Homeoffice",
     "article": "das",
     "part_of_speech": "noun",
@@ -3075,23 +3024,6 @@
     "session_scenario": "Talking about a family member's workplace",
     "example_en": "My uncle works in a factory.",
     "cultural_note_en": "Germany remains one of Europe's great manufacturing powers, with its car industry as its international symbol."
-  },
-  {
-    "word": "Fließband",
-    "article": "das",
-    "part_of_speech": "noun",
-    "ipa": "ˈfliːsˌbant",
-    "meaning_en": "assembly line",
-    "meaning_it": "catena di montaggio",
-    "example": "Er arbeitet am Fließband.",
-    "example_it": "Lui lavora alla catena di montaggio.",
-    "cultural_note": "'Fließband' unisce 'fließen' (scorrere) e 'Band' (nastro): letteralmente 'nastro che scorre'.",
-    "grammar_angle": "DATIV_PREP",
-    "topic_domain": "work",
-    "cefr_band": "A2",
-    "session_scenario": "Describing factory work",
-    "example_en": "He works on the assembly line.",
-    "cultural_note_en": "'Fließband' combines 'fließen' (to flow) and 'Band' (belt): literally a 'flowing belt'."
   },
   {
     "word": "Handwerk",
@@ -3874,23 +3806,6 @@
     "session_scenario": "Getting advice from a pharmacist",
     "example_en": "The pharmacist advises me well.",
     "cultural_note_en": "The feminine '-in' ending follows the same regular pattern as almost all German professions."
-  },
-  {
-    "word": "Diagnose",
-    "article": "die",
-    "part_of_speech": "noun",
-    "ipa": "diaˈɡnoːzə",
-    "meaning_en": "diagnosis",
-    "meaning_it": "diagnosi",
-    "example": "Der Arzt stellt eine Diagnose.",
-    "example_it": "Il medico fa una diagnosi.",
-    "cultural_note": "'Eine Diagnose stellen' ('porre una diagnosi') è la collocazione fissa standard usata in ambito medico.",
-    "grammar_angle": "ACCUSATIVE_MASC",
-    "topic_domain": "health",
-    "cefr_band": "A2",
-    "session_scenario": "Talking about a medical outcome",
-    "example_en": "The doctor is making a diagnosis.",
-    "cultural_note_en": "'Eine Diagnose stellen' ('to make a diagnosis') is the standard fixed collocation used in medical contexts."
   },
   {
     "word": "Behandlung",
@@ -4896,23 +4811,6 @@
     "cultural_note_en": "Heatwaves in Germany have become increasingly frequent in recent years, an issue linked to climate change."
   },
   {
-    "word": "Feuchtigkeit",
-    "article": "die",
-    "part_of_speech": "noun",
-    "ipa": "ˈfɔɪçtɪçkaɪt",
-    "meaning_en": "humidity / moisture",
-    "meaning_it": "umidità",
-    "example": "Die Luftfeuchtigkeit ist heute hoch.",
-    "example_it": "L'umidità dell'aria oggi è alta.",
-    "cultural_note": "'Feuchtigkeit' viene da 'feucht' (umido) con il suffisso astratto '-igkeit', variante di '-keit'.",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "leisure",
-    "cefr_band": "A2",
-    "session_scenario": "Discussing weather conditions",
-    "example_en": "The humidity is high today.",
-    "cultural_note_en": "'Feuchtigkeit' comes from 'feucht' (damp) with the abstract suffix '-igkeit', a variant of '-keit'."
-  },
-  {
     "word": "Sturm",
     "article": "der",
     "part_of_speech": "noun",
@@ -5686,13 +5584,13 @@
     "meaning_it": "timido",
     "example": "Als Kind war ich sehr schüchtern.",
     "example_it": "Da bambino ero molto timido.",
-    "cultural_note": "'Schüchtern' descrive la timidezza in modo neutro, senza la connotazione negativa che a volte ha in altre lingue.",
+    "cultural_note": "'Schüchtern' si usa per persone e comportamenti timidi: 'ein schüchterner Junge', 'schüchtern lächeln'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "health",
     "cefr_band": "A2",
     "session_scenario": "Talking about your personality as a child",
     "example_en": "As a child I was very shy.",
-    "cultural_note_en": "'Schüchtern' describes shyness in a neutral way, without the negative connotation it sometimes has in other languages."
+    "cultural_note_en": "'Schüchtern' describes shy people and behaviour: 'ein schüchterner Junge', 'schüchtern lächeln'."
   },
   {
     "word": "mutig",
@@ -5890,13 +5788,13 @@
     "meaning_it": "annoiato",
     "example": "Die Kinder waren gelangweilt.",
     "example_it": "I bambini erano annoiati.",
-    "cultural_note": "'Gelangweilt' viene da 'sich langweilen' (annoiarsi), un verbo riflessivo usato spesso in famiglia.",
+    "cultural_note": "'Gelangweilt' è un participio usato come aggettivo: descrive come ti senti ('ich bin gelangweilt'). 'Langweilig' descrive ciò che annoia: 'der Film ist langweilig'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "home",
     "cefr_band": "A2",
     "session_scenario": "Describing bored children",
     "example_en": "The children were bored.",
-    "cultural_note_en": "'Gelangweilt' comes from 'sich langweilen' (to get bored), a reflexive verb often used within families."
+    "cultural_note_en": "'Gelangweilt' is a participle used as an adjective: it describes how you feel ('ich bin gelangweilt'). 'Langweilig' describes what causes it: 'der Film ist langweilig'."
   },
   {
     "word": "zufrieden",
@@ -5931,23 +5829,6 @@
     "session_scenario": "Talking about pre-exam nerves",
     "example_en": "Before the exam I'm always nervous.",
     "cultural_note_en": "'Nervös' is a loanword from French, stressed on the last syllable, unlike many native German adjectives."
-  },
-  {
-    "word": "gelassen",
-    "article": null,
-    "part_of_speech": "adj",
-    "ipa": "ɡəˈlasn̩",
-    "meaning_en": "calm / composed",
-    "meaning_it": "tranquillo / pacato",
-    "example": "Sie bleibt auch in Stresssituationen gelassen.",
-    "example_it": "Lei resta tranquilla anche nelle situazioni stressanti.",
-    "cultural_note": "'Gelassen' viene dal participio di 'lassen' (lasciare): letteralmente chi 'lascia andare' le tensioni.",
-    "grammar_angle": "WORD_ORDER_V2",
-    "topic_domain": "health",
-    "cefr_band": "A2",
-    "session_scenario": "Complimenting someone's composure",
-    "example_en": "She stays calm even in stressful situations.",
-    "cultural_note_en": "'Gelassen' comes from the participle of 'lassen' (to let go): literally someone who 'lets go' of tension."
   },
   {
     "word": "verlegen",
@@ -6203,5 +6084,73 @@
     "session_scenario": "Talking about standard vs regional German",
     "example_en": "At school you learn Standard German.",
     "cultural_note_en": "'Hochdeutsch' literally means 'high German', a historical term tied to geography rather than a value judgment."
+  },
+  {
+    "word": "Regenbogen",
+    "article": "der",
+    "part_of_speech": "noun",
+    "ipa": "ˈʁeːɡn̩ˌboːɡn̩",
+    "meaning_en": "rainbow",
+    "meaning_it": "arcobaleno",
+    "example": "Nach dem Regen kam ein Regenbogen.",
+    "example_it": "Dopo la pioggia è apparso un arcobaleno.",
+    "cultural_note": "'Regenbogen' è un composto trasparente: 'Regen' (pioggia) + 'Bogen' (arco), letteralmente 'arco di pioggia'.",
+    "grammar_angle": "NOUN_GENDER",
+    "topic_domain": "leisure",
+    "cefr_band": "A2",
+    "session_scenario": "Describing weather after rain",
+    "example_en": "After the rain a rainbow appeared.",
+    "cultural_note_en": "'Regenbogen' is a transparent compound: 'Regen' (rain) + 'Bogen' (arc/bow), literally a 'rain arc'."
+  },
+  {
+    "word": "Termin vereinbaren",
+    "article": null,
+    "part_of_speech": "verb",
+    "ipa": "tɛʁˈmiːn fɛɐ̯ˈaɪnbaːʁən",
+    "meaning_en": "to make an appointment",
+    "meaning_it": "fissare un appuntamento",
+    "example": "Ich möchte einen Termin vereinbaren.",
+    "example_it": "Vorrei fissare un appuntamento.",
+    "cultural_note": "'Vereinbaren' non è separabile: appartiene al gruppo dei verbi con prefisso 've(r)-' sempre inseparabile.",
+    "grammar_angle": "ACCUSATIVE_MASC",
+    "topic_domain": "health",
+    "cefr_band": "A2",
+    "session_scenario": "Scheduling a doctor's visit",
+    "example_en": "I'd like to make an appointment.",
+    "cultural_note_en": "'Vereinbaren' isn't separable: it belongs to the group of verbs with the always-inseparable prefix 'ver-'."
+  },
+  {
+    "word": "sich verlaufen",
+    "article": null,
+    "part_of_speech": "verb",
+    "ipa": "zɪç fɛɐ̯ˈlaʊfn̩",
+    "meaning_en": "to get lost",
+    "meaning_it": "perdersi",
+    "example": "Wir haben uns in der Stadt verlaufen.",
+    "example_it": "Ci siamo persi in città.",
+    "cultural_note": "'Sich verlaufen' descrive perdersi a piedi; 'sich verfahren' è l'equivalente per chi si perde in auto.",
+    "grammar_angle": "PERF_SEIN_HABEN",
+    "topic_domain": "travel",
+    "cefr_band": "A2",
+    "session_scenario": "Explaining you got lost",
+    "example_en": "We got lost in the city.",
+    "cultural_note_en": "'Sich verlaufen' describes getting lost on foot; 'sich verfahren' is the equivalent for getting lost while driving."
+  },
+  {
+    "word": "Briefkasten",
+    "article": "der",
+    "part_of_speech": "noun",
+    "ipa": "ˈbʁiːfˌkastn̩",
+    "meaning_en": "mailbox",
+    "meaning_it": "cassetta della posta",
+    "example": "Schau bitte im Briefkasten nach.",
+    "example_it": "Controlla nella cassetta della posta, per favore.",
+    "cultural_note": "'Briefkasten' = 'Brief' (lettera) + 'Kasten' (cassetta): vale sia per quello di casa sia per quello giallo in strada.",
+    "grammar_angle": "SEPARABLE_VERB",
+    "topic_domain": "home",
+    "cefr_band": "A2",
+    "session_scenario": "Asking someone to check the mail",
+    "example_en": "Please check the mailbox.",
+    "cultural_note_en": "'Briefkasten' = 'Brief' (letter) + 'Kasten' (box): both the one at home and the yellow one in the street."
   }
 ]

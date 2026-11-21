@@ -1,5 +1,5 @@
 A2	einkaufen	-	verb	to go shopping	Ich kaufe heute Abend ein.	I'm going shopping this evening.	German supermarkets close early and stay closed almost every Sunday, which surprises visitors from Mediterranean countries.
-A2	anrufen	-	verb	to call (by phone)	Ich rufe dich morgen an.	I'll call you tomorrow.	Germans readily use a formal phone call even for things others handle with a text message, like cancelling an appointment.
+A2	anrufen	-	verb	to call (by phone)	Ich rufe dich morgen an.	I'll call you tomorrow.	'Anrufen' is separable: 'ich rufe an', Perfekt 'hat angerufen'. It takes the accusative: 'jemanden anrufen'.
 A2	fahren	-	verb	to drive / to travel	Sie fährt jeden Tag mit dem Fahrrad.	She rides her bike every day.	The 'a → ä' vowel change in 'fährt' is one of the most common irregular patterns in German, shared by dozens of everyday verbs.
 A2	Freizeit	die	noun	free time / leisure	In meiner Freizeit spiele ich Gitarre.	In my free time I play guitar.	Germans firmly defend their Freizeit: the law guarantees at least 20 paid vacation days, and unpaid overtime is frowned upon.
 A2	Küche	die	noun	kitchen / cuisine	Die deutsche Küche ist sehr vielfältig.	German cuisine is very diverse.	In German, 'Küche' means both the room and the culinary tradition — one word for two central concepts.
@@ -7,7 +7,7 @@ A2	essen	-	verb	to eat	Er isst gern Fisch.	He likes eating fish.	The irregular '
 A2	Urlaub	der	noun	holiday / vacation	Wir machen Urlaub in Italien.	We're going on vacation to Italy.	Germany is among the world's top spenders on tourism, and Italy has long been Germans' favorite destination.
 A2	Krankenhaus	das	noun	hospital	Das Krankenhaus ist in der Stadtmitte.	The hospital is in the city center.	Literally 'house of the sick', Krankenhaus is a transparent compound: German meaning is often decoded just by splitting the word apart.
 A2	Kollege	der	noun	colleague	Mein Kollege hilft mir immer.	My colleague always helps me.	Germans draw a sharp line between Kollege (work colleague) and Freund (friend): calling a colleague 'Freund' implies a much deeper bond.
-A2	aufräumen	-	verb	to tidy up	Ich räume mein Zimmer auf.	I'm tidying my room.	The concept of Ordnung (order) is so important in Germany that 'Ordnung muss sein' ('there must be order') works almost as a national motto.
+A2	aufräumen	-	verb	to tidy up	Ich räume mein Zimmer auf.	I'm tidying my room.	'Aufräumen' is separable: 'ich räume auf', Perfekt 'hat aufgeräumt'.
 A2	abfahren	-	verb	to depart	Der Zug fährt in fünf Minuten ab.	The train departs in five minutes.	On German boards, departure is 'Abfahrt' and arrival is 'Ankunft' — two nouns derived from separable verbs.
 A2	Rechnung	die	noun	bill / invoice	Können wir bitte die Rechnung haben?	Can we have the bill, please?	At German restaurants you're often asked 'zusammen oder getrennt?' ('together or separate?') — splitting the bill is entirely normal.
 A2	vorbereiten	-	verb	to prepare	Ich bereite das Essen vor.	I'm preparing the meal.	The prefix 'vor-' (before, in front) generates dozens of separable verbs like 'vorschlagen' (to suggest) and 'vorstellen' (to introduce).
@@ -101,7 +101,7 @@ A2	Überraschung	die	noun	surprise	Das war eine tolle Überraschung!	That was a 
 A2	Sorge	die	noun	worry	Mach dir keine Sorgen.	Don't worry.	'Sich Sorgen machen' ('to make oneself worries') is the standard expression for expressing anxiety or worry.
 A2	Wunsch	der	noun	wish	Hast du einen besonderen Wunsch?	Do you have a special wish?	'Auf Wunsch' ('upon request') is a very common phrase in service contexts, from restaurants to public offices.
 A2	Freude	die	noun	joy	Die Freude war groß.	The joy was great.	'Mit Freude' ('with joy') is the standard phrase used even in formal letters to accept an invitation.
-A2	Angst	die	noun	fear	Sie hat keine Angst vor Hunden.	She isn't afraid of dogs.	'Angst' is always feminine and singular, but it can take the plural 'Ängste' to talk about several different fears.
+A2	Angst	die	noun	fear	Sie hat keine Angst vor Hunden.	She isn't afraid of dogs.	'Angst haben vor' takes the dative: 'Angst vor Hunden'. The plural 'Ängste' exists but is rare; the singular is the normal form.
 A2	Wut	die	noun	anger / rage	Seine Wut war verständlich.	His anger was understandable.	'Wut' is more intense than 'Ärger' (annoyance, irritation): it describes strong, almost uncontrollable anger.
 A2	Ruhe	die	noun	calm / quiet	Ich brauche jetzt etwas Ruhe.	I need some peace and quiet now.	'Lass mich in Ruhe' ('leave me in peace') uses 'Ruhe' as a desired state — one of the most common expressions in family conflicts.
 A2	Stress	der	noun	stress	Ich habe momentan viel Stress.	I'm under a lot of stress right now.	'Stress' is a direct loanword from English, assigned masculine gender by analogy with other German abstract nouns.
@@ -111,10 +111,10 @@ A2	aufpassen	-	verb	to pay attention / watch out	Pass auf, die Straße ist glatt
 A2	sich konzentrieren auf	-	verb	to concentrate on	Ich muss mich auf die Arbeit konzentrieren.	I have to concentrate on my work.	'Sich konzentrieren auf' takes the accusative: 'auf die Arbeit' — a very common fixed structure in school and work contexts.
 A2	nachdenken über	-	verb	to think about / reflect on	Ich denke über deinen Vorschlag nach.	I'm thinking over your suggestion.	'Nachdenken über' is separable and takes the accusative: 'über deinen Vorschlag', different from the plain 'denken an'.
 A2	sich entschuldigen	-	verb	to apologise	Ich möchte mich entschuldigen.	I'd like to apologise.	'Sich entschuldigen für' takes the accusative of the thing apologized for, or 'bei' plus the dative for the person.
-A2	versprechen	-	verb	to promise	Ich verspreche dir, pünktlich zu sein.	I promise you I'll be on time.	'Versprechen' takes the dative of the person promised something, like many verbs with the prefix 'ver-'.
+A2	versprechen	-	verb	to promise	Ich verspreche dir, pünktlich zu sein.	I promise you I'll be on time.	'Versprechen': the person is in the dative, the thing in the accusative ('Ich verspreche dir Hilfe'). It is irregular: versprach, hat versprochen.
 A2	erlauben	-	verb	to allow	Meine Eltern erlauben mir das nicht.	My parents don't allow me to do that.	'Erlauben' takes the dative of the person granted permission: 'mir erlauben'.
 A2	verbieten	-	verb	to forbid	Rauchen ist hier verboten.	Smoking is forbidden here.	'Verboten' as a past participle is used everywhere on public signs: 'Parken verboten' (no parking), 'Rauchen verboten' (no smoking).
-A2	empfehlen sich	-	verb	to be advisable	Es empfiehlt sich, früh zu buchen.	It's advisable to book early.	'Es empfiehlt sich' is a formal impersonal structure, common in written texts and travel guides.
+A2	Übernachtung	die	noun	overnight stay	Die Übernachtung im Hotel kostet achtzig Euro.	The overnight stay at the hotel costs eighty euros.	'Übernachtung' is the noun of 'übernachten' (to stay overnight). You often see 'Übernachtung mit Frühstück'.
 A2	sich verspäten	-	verb	to be late	Der Zug hat sich verspätet.	The train was delayed.	'Sich verspäten' describes the lateness of a means of transport or a person in a formal, specific way.
 A2	sich verabschieden	-	verb	to say goodbye	Wir verabschieden uns an der Tür.	We say goodbye at the door.	'Sich verabschieden von' takes the dative of the person you're saying goodbye to: 'von meinen Freunden'.
 A2	Vermieter	der	noun	landlord	Der Vermieter erhöht die Miete.	The landlord is raising the rent.	In Germany, rent increases are legally capped at a maximum percentage within a given period.
@@ -143,10 +143,8 @@ A2	Flasche	die	noun	bottle	Gib mir bitte die Flasche.	Please pass me the bottle.
 A2	Dose	die	noun	can / tin	Die Dose ist leer.	The can is empty.	Cans also carry a deposit ('Dosenpfand'), introduced in 2003 to cut down on litter.
 A2	Verpackung	die	noun	packaging	Die Verpackung ist aus Plastik.	The packaging is made of plastic.	Germany is among the European countries with the strictest regulations on cutting down plastic packaging.
 A2	Umwelt	die	noun	environment	Wir müssen die Umwelt schützen.	We have to protect the environment.	'Umwelt' literally means 'the world around' — a very transparent compound, also the root of 'umweltfreundlich' (eco-friendly).
-A2	Klima	das	noun	climate	Das Klima verändert sich schnell.	The climate is changing fast.	'Klimawandel' (climate change) has been one of the most-debated political topics in Germany over the last twenty years.
 A2	Energie	die	noun	energy	Wir sparen Energie im Haushalt.	We save energy at home.	Germany has invested heavily in renewable energy, especially wind and solar, since the 2000s.
-A2	Solarenergie	die	noun	solar energy	Viele Häuser haben Solarenergie.	Many houses use solar energy.	Solar panels are extremely common on German roofs, encouraged by years of state subsidies.
-A2	sparen mit Strom	-	verb	to save on electricity	Wir sparen Strom, wenn möglich.	We save on electricity when possible.	'Sparen' takes a direct accusative object with no preposition when referring to the amount being saved.
+A2	Strom sparen	-	verb	to save electricity	Wir sparen Strom, wenn möglich.	We save on electricity when possible.	'Sparen' takes a direct accusative object, no preposition: 'Strom sparen', 'Geld sparen', 'Zeit sparen'.
 A2	Neuigkeit	die	noun	piece of news	Hast du die neueste Neuigkeit gehört?	Have you heard the latest news?	'Neuigkeit' describes a single piece of news, while plural 'die Nachrichten' refers to the news broadcast as a whole.
 A2	Zeitung	die	noun	newspaper	Ich lese jeden Morgen die Zeitung.	Every morning I read the newspaper.	'Zeitung' shares a root with 'Zeit' (time): literally that which informs about the present time, current events.
 A2	Artikel	der	noun	article	Der Artikel war sehr interessant.	The article was very interesting.	'Artikel' means both 'newspaper article' and 'grammatical article' (der/die/das) — the same word for two concepts.
@@ -171,7 +169,6 @@ A2	Vorstellungsgespräch	das	noun	job interview	Ich habe morgen ein Vorstellungs
 A2	Kollegin	die	noun	colleague (female)	Meine Kollegin ist sehr kompetent.	My colleague is very competent.	The feminine '-in' ending is mandatory in standard German when referring specifically to a woman.
 A2	Teamarbeit	die	noun	teamwork	Teamarbeit ist bei uns wichtig.	Teamwork is important to us.	'Teamarbeit' combines the English loanword 'Team' with the German word 'Arbeit' (work) — a common hybrid compound.
 A2	Projekt	das	noun	project	Das Projekt läuft gut.	The project is going well.	'Laufen' is used figuratively to describe how a project is going, just like English 'to run' in 'the project is running well'.
-A2	Frist	die	noun	deadline	Die Frist läuft morgen ab.	The deadline expires tomorrow.	'Ablaufen' is separable: 'läuft ab' in the present tense, used to describe a deadline drawing near.
 A2	Homeoffice	das	noun	remote work / home office	Ich arbeite heute im Homeoffice.	Today I'm working from home.	'Homeoffice' became extremely common in German after 2020, almost entirely replacing the phrase 'von zu Hause arbeiten'.
 A2	Kündigungsfrist	die	noun	notice period	Die Kündigungsfrist beträgt drei Monate.	The notice period is three months.	In Germany the standard Kündigungsfrist for long-term employment contracts is legally often four weeks or more.
 A2	Feierabendbier	das	noun	after-work beer	Wir trinken ein Feierabendbier zusammen.	Let's have an after-work beer together.	This casual compound combines 'Feierabend' (end of the workday) and 'Bier': a small social ritual very common in Germany.
@@ -179,7 +176,6 @@ A2	Betriebsausflug	der	noun	company outing	Der Betriebsausflug findet im Juni st
 A2	Gewerkschaft	die	noun	trade union	Er ist Mitglied einer Gewerkschaft.	He is a member of a trade union.	German unions often negotiate at the level of an entire industry, not company by company — a distinctive European model.
 A2	Streik	der	noun	strike	Heute gibt es einen Streik der Bahn.	Today there's a rail strike.	Public transport strikes, especially by Deutsche Bahn, are relatively frequent and well announced in advance.
 A2	Fabrik	die	noun	factory	Mein Onkel arbeitet in einer Fabrik.	My uncle works in a factory.	Germany remains one of Europe's great manufacturing powers, with its car industry as its international symbol.
-A2	Fließband	das	noun	assembly line	Er arbeitet am Fließband.	He works on the assembly line.	'Fließband' combines 'fließen' (to flow) and 'Band' (belt): literally a 'flowing belt'.
 A2	Handwerk	das	noun	craft / trade	Handwerk hat in Deutschland eine lange Tradition.	Craftsmanship has a long tradition in Germany.	'Handwerk hat goldenen Boden' ('a craft has a golden floor') is a German proverb about the economic value of manual trades.
 A2	Tischler	der	noun	carpenter	Der Tischler baut den Schrank.	The carpenter is building the wardrobe.	In Germany, becoming a Tischler typically requires a three-year apprenticeship ('Ausbildung'), a highly structured system.
 A2	Elektriker	der	noun	electrician	Wir brauchen einen Elektriker.	We need an electrician.	Like the carpenter, a German electrician also follows a rigorous dual apprenticeship path (school plus work).
@@ -226,7 +222,6 @@ A2	Untersuchung	die	noun	examination / check-up	Die Untersuchung dauert zwanzig 
 A2	Zahnarzt	der	noun	dentist	Ich habe morgen einen Termin beim Zahnarzt.	I have a dentist appointment tomorrow.	'Beim Zahnarzt' is the contraction of 'bei dem Zahnarzt': used to indicate whose office you're visiting.
 A2	Tierarzt	der	noun	veterinarian	Der Tierarzt untersucht den Hund.	The vet is examining the dog.	'Tierarzt' combines 'Tier' (animal) and 'Arzt' (doctor): literally 'animal doctor'.
 A2	Apothekerin	die	noun	pharmacist (female)	Die Apothekerin berät mich gut.	The pharmacist advises me well.	The feminine '-in' ending follows the same regular pattern as almost all German professions.
-A2	Diagnose	die	noun	diagnosis	Der Arzt stellt eine Diagnose.	The doctor is making a diagnosis.	'Eine Diagnose stellen' ('to make a diagnosis') is the standard fixed collocation used in medical contexts.
 A2	Behandlung	die	noun	treatment	Die Behandlung dauert mehrere Wochen.	The treatment takes several weeks.	'Behandlung' comes from 'behandeln' (to treat), an inseparable verb with the fixed prefix 'be-'.
 A2	Konzert	das	noun	concert	Wir gehen heute Abend ins Konzert.	Tonight we're going to a concert.	'Ins Konzert gehen' uses the accusative because it describes movement toward a specific event.
 A2	Ausstellung	die	noun	exhibition	Die Ausstellung ist bis Sonntag geöffnet.	The exhibition is open until Sunday.	'Ausstellung' comes from 'ausstellen' (to exhibit), a separable verb very common in museum contexts.
@@ -286,7 +281,6 @@ A2	Wetterbericht	der	noun	weather forecast	Hast du den Wetterbericht gesehen?	Ha
 A2	Nebel	der	noun	fog	Heute Morgen war dichter Nebel.	This morning there was thick fog.	'Im Nebel stochern' ('to poke around in the fog') means proceeding without certainty, groping in the dark.
 A2	Frost	der	noun	frost	In der Nacht gab es Frost.	Overnight there was frost.	'Frost' shares a root with 'frieren' (to freeze), both linked to intense winter cold.
 A2	Hitze	die	noun	heat	Die Hitze im Sommer ist manchmal extrem.	The heat in summer is sometimes extreme.	Heatwaves in Germany have become increasingly frequent in recent years, an issue linked to climate change.
-A2	Feuchtigkeit	die	noun	humidity / moisture	Die Luftfeuchtigkeit ist heute hoch.	The humidity is high today.	'Feuchtigkeit' comes from 'feucht' (damp) with the abstract suffix '-igkeit', a variant of '-keit'.
 A2	Sturm	der	noun	storm	Ein starker Sturm zieht auf.	A strong storm is moving in.	'Ein Sturm im Wasserglas' ('a storm in a water glass') matches the English 'a storm in a teacup'.
 A2	Blitz	der	noun	lightning	Der Blitz war sehr hell.	The lightning was very bright.	'Blitz' is the root of the English word 'blitzkrieg' and of the photographic 'flash' — both linked to sudden speed and light.
 A2	Donner	der	noun	thunder	Nach dem Blitz kam der Donner.	After the lightning came the thunder.	'Donner' shares a root with the Norse god Thor/Donar, protector of thunder in Germanic mythology.
@@ -332,7 +326,7 @@ A2	ehrlich	-	adj	honest	Ehrlich gesagt, ich weiß es nicht.	Honestly, I don't kn
 A2	geduldig	-	adj	patient	Meine Lehrerin ist sehr geduldig.	My teacher is very patient.	'Geduldig' derives from 'Geduld' (patience) with the adjectival suffix '-ig', very productive in German.
 A2	neugierig	-	adj	curious	Kinder sind von Natur aus neugierig.	Children are naturally curious.	'Neugierig' combines 'neu' (new) and 'gierig' (greedy): literally 'greedy for new things'.
 A2	großzügig	-	adj	generous	Er ist sehr großzügig mit seiner Zeit.	He's very generous with his time.	'Großzügig' combines 'groß' (big) and 'Zug' (trait/pull): literally 'of great traits', i.e. magnanimous.
-A2	schüchtern	-	adj	shy	Als Kind war ich sehr schüchtern.	As a child I was very shy.	'Schüchtern' describes shyness in a neutral way, without the negative connotation it sometimes has in other languages.
+A2	schüchtern	-	adj	shy	Als Kind war ich sehr schüchtern.	As a child I was very shy.	'Schüchtern' describes shy people and behaviour: 'ein schüchterner Junge', 'schüchtern lächeln'.
 A2	mutig	-	adj	brave	Das war eine mutige Entscheidung.	That was a brave decision.	'Mutig' comes from 'Mut' (courage) with the suffix '-ig', one of the most regular patterns of German adjective formation.
 A2	faul	-	adj	lazy	Am Wochenende bin ich manchmal faul.	On weekends I'm sometimes lazy.	'Faul' also means 'rotten, spoiled' when referring to food — two distinct meanings from the same word.
 A2	fleißig	-	adj	hardworking / diligent	Sie ist eine sehr fleißige Studentin.	She's a very hardworking student.	'Fleißig' is the direct opposite of 'faul' and is often used to compliment dedicated students.
@@ -344,10 +338,9 @@ A2	überrascht	-	adj	surprised	Ich war total überrascht von der Party.	I was to
 A2	enttäuscht	-	adj	disappointed	Ich bin von dem Ergebnis enttäuscht.	I'm disappointed with the result.	'Enttäuscht' is the past participle of 'enttäuschen' (to disappoint), used as an adjective with 'von' plus the dative.
 A2	begeistert	-	adj	enthusiastic	Sie ist begeistert von der Reise.	She's enthusiastic about the trip.	'Begeistert von' takes the dative, the same structure used by 'enttäuscht' and 'überrascht'.
 A2	verwirrt	-	adj	confused	Die Anweisungen haben mich verwirrt.	The instructions confused me.	'Verwirrt' comes from 'verwirren' (to confuse), an inseparable verb with the prefix 'ver-'.
-A2	gelangweilt	-	adj	bored	Die Kinder waren gelangweilt.	The children were bored.	'Gelangweilt' comes from 'sich langweilen' (to get bored), a reflexive verb often used within families.
+A2	gelangweilt	-	adj	bored	Die Kinder waren gelangweilt.	The children were bored.	'Gelangweilt' is a participle used as an adjective: it describes how you feel ('ich bin gelangweilt'). 'Langweilig' describes what causes it: 'der Film ist langweilig'.
 A2	zufrieden	-	adj	satisfied / content	Ich bin mit meiner Arbeit zufrieden.	I'm satisfied with my work.	'Zufrieden mit' takes the dative: 'mit meiner Arbeit' — a common structure for expressing satisfaction.
 A2	nervös	-	adj	nervous	Vor der Prüfung bin ich immer nervös.	Before the exam I'm always nervous.	'Nervös' is a loanword from French, stressed on the last syllable, unlike many native German adjectives.
-A2	gelassen	-	adj	calm / composed	Sie bleibt auch in Stresssituationen gelassen.	She stays calm even in stressful situations.	'Gelassen' comes from the participle of 'lassen' (to let go): literally someone who 'lets go' of tension.
 A2	verlegen	-	adj	embarrassed	Er wurde ganz verlegen.	He got quite embarrassed.	'Verlegen' as an adjective is different from 'verlegen' as a verb (to move, to mislay) — same form, different meanings depending on context.
 A2	dankbar	-	adj	grateful	Ich bin dir sehr dankbar für deine Hilfe.	I'm very grateful to you for your help.	'Dankbar für' takes the accusative: 'für deine Hilfe', while 'dankbar' alone can also take the dative of the person.
 A2	Gefühl	das	noun	feeling	Ich habe ein komisches Gefühl.	I have a strange feeling.	'Gefühl' comes from 'fühlen' (to feel), with the collective prefix 'ge-' typical of many abstract neuter nouns.
@@ -363,3 +356,7 @@ A2	Tradition	die	noun	tradition	Diese Tradition wird seit Generationen gepflegt.
 A2	Vielfalt	die	noun	diversity	Die Vielfalt der Dialekte ist beeindruckend.	The diversity of dialects is impressive.	Germany has dozens of regional dialects that differ greatly, some almost incomprehensible to speakers of only standard German.
 A2	Dialekt	der	noun	dialect	In Bayern spricht man oft Dialekt.	In Bavaria, people often speak in dialect.	Bavarian, Saxon, and Cologne dialect are among the most distinctive German dialects, often hard for standard-German learners to follow.
 A2	Hochdeutsch	das	noun	Standard German	In der Schule lernt man Hochdeutsch.	At school you learn Standard German.	'Hochdeutsch' literally means 'high German', a historical term tied to geography rather than a value judgment.
+A2	Regenbogen	der	noun	rainbow	Nach dem Regen kam ein Regenbogen.	After the rain a rainbow appeared.	'Regenbogen' is a transparent compound: 'Regen' (rain) + 'Bogen' (arc/bow), literally a 'rain arc'.
+A2	Termin vereinbaren	-	verb	to make an appointment	Ich möchte einen Termin vereinbaren.	I'd like to make an appointment.	'Vereinbaren' isn't separable: it belongs to the group of verbs with the always-inseparable prefix 'ver-'.
+A2	sich verlaufen	-	verb	to get lost	Wir haben uns in der Stadt verlaufen.	We got lost in the city.	'Sich verlaufen' describes getting lost on foot; 'sich verfahren' is the equivalent for getting lost while driving.
+A2	Briefkasten	der	noun	mailbox	Schau bitte im Briefkasten nach.	Please check the mailbox.	'Briefkasten' = 'Brief' (letter) + 'Kasten' (box): both the one at home and the yellow one in the street.

@@ -1,5 +1,5 @@
 A2	einkaufen	ir de compras, hacer la compra	Esta tarde voy a hacer la compra.	Los supermercados alemanes cierran pronto y permanecen cerrados casi todos los domingos, lo que sorprende a los visitantes de países mediterráneos.
-A2	anrufen	llamar (por teléfono)	Te llamo mañana.	Los alemanes recurren sin problema a una llamada formal incluso para cosas que otros resuelven con un mensaje, como cancelar una cita.
+A2	anrufen	llamar (por teléfono)	Te llamo mañana.	'Anrufen' es separable: 'ich rufe an', Perfekt 'hat angerufen'. Lleva acusativo: 'jemanden anrufen'.
 A2	fahren	conducir, viajar	Ella va en bicicleta todos los días.	El cambio vocálico 'a → ä' en 'fährt' es uno de los patrones irregulares más comunes del alemán, compartido por decenas de verbos cotidianos.
 A2	Freizeit	tiempo libre	En mi tiempo libre toco la guitarra.	Los alemanes defienden con firmeza su Freizeit: la ley garantiza al menos 20 días de vacaciones pagadas y las horas extra sin remunerar están mal vistas.
 A2	Küche	cocina	La cocina alemana es muy variada.	En alemán, 'Küche' significa tanto la habitación como la tradición culinaria: una palabra para dos conceptos centrales.
@@ -7,7 +7,7 @@ A2	essen	comer	A él le gusta comer pescado.	El irregular 'isst' de 'essen' es u
 A2	Urlaub	vacaciones	Pasamos las vacaciones en Italia.	Alemania está entre los países que más gastan en turismo en el mundo, e Italia ha sido durante mucho tiempo el destino favorito de los alemanes.
 A2	Krankenhaus	hospital	El hospital está en el centro de la ciudad.	Literalmente 'casa de los enfermos', Krankenhaus es un compuesto transparente: el significado en alemán suele descifrarse simplemente separando la palabra.
 A2	Kollege	compañero de trabajo	Mi compañero siempre me ayuda.	Los alemanes distinguen claramente entre Kollege (compañero de trabajo) y Freund (amigo): llamar 'Freund' a un compañero implica un vínculo mucho más profundo.
-A2	aufräumen	ordenar, recoger	Estoy ordenando mi habitación.	El concepto de Ordnung (orden) es tan importante en Alemania que 'Ordnung muss sein' ('tiene que haber orden') funciona casi como lema nacional.
+A2	aufräumen	ordenar, recoger	Estoy ordenando mi habitación.	'Aufräumen' es separable: 'ich räume auf', Perfekt 'hat aufgeräumt'.
 A2	abfahren	salir (un vehículo)	El tren sale en cinco minutos.	En los paneles alemanes, la salida es 'Abfahrt' y la llegada es 'Ankunft': dos sustantivos derivados de verbos separables.
 A2	Rechnung	cuenta, factura	¿Nos trae la cuenta, por favor?	En los restaurantes alemanes suelen preguntarte 'zusammen oder getrennt?' ('¿junto o por separado?'): dividir la cuenta es totalmente normal.
 A2	vorbereiten	preparar	Estoy preparando la comida.	El prefijo 'vor-' (antes, delante) genera decenas de verbos separables como 'vorschlagen' (sugerir) y 'vorstellen' (presentar).
@@ -101,7 +101,7 @@ A2	Überraschung	sorpresa	¡Fue una sorpresa estupenda!	'Überraschung' viene de
 A2	Sorge	preocupación	No te preocupes.	'Sich Sorgen machen' ('hacerse preocupaciones') es la expresión habitual para manifestar ansiedad o preocupación.
 A2	Wunsch	deseo	¿Tienes algún deseo especial?	'Auf Wunsch' ('a petición') es una expresión muy común en contextos de servicio, desde restaurantes hasta oficinas públicas.
 A2	Freude	alegría	La alegría fue grande.	'Mit Freude' ('con alegría') es la fórmula habitual, usada incluso en cartas formales, para aceptar una invitación.
-A2	Angst	miedo	Ella no tiene miedo a los perros.	'Angst' es siempre femenino y singular, pero puede usar el plural 'Ängste' para hablar de varios miedos distintos.
+A2	Angst	miedo	No tiene miedo a los perros.	'Angst haben vor' rige dativo: 'Angst vor Hunden'. El plural 'Ängste' existe, pero es raro; la forma normal es el singular.
 A2	Wut	rabia, ira	Su ira era comprensible.	'Wut' es más intensa que 'Ärger' (enfado, irritación): describe una rabia fuerte, casi incontrolable.
 A2	Ruhe	calma, tranquilidad	Ahora necesito algo de tranquilidad.	'Lass mich in Ruhe' ('déjame en paz') usa 'Ruhe' como un estado deseado: una de las expresiones más comunes en los conflictos familiares.
 A2	Stress	estrés	Ahora mismo tengo mucho estrés.	'Stress' es un préstamo directo del inglés, al que se asignó el género masculino por analogía con otros sustantivos abstractos alemanes.
@@ -111,10 +111,9 @@ A2	aufpassen	prestar atención, tener cuidado	¡Cuidado, la calle está resbalad
 A2	sich konzentrieren auf	concentrarse en	Tengo que concentrarme en mi trabajo.	'Sich konzentrieren auf' lleva acusativo: 'auf die Arbeit', una estructura fija muy común en contextos escolares y laborales.
 A2	nachdenken über	reflexionar sobre, pensar en	Estoy pensando en tu propuesta.	'Nachdenken über' es separable y lleva acusativo: 'über deinen Vorschlag', distinto del simple 'denken an'.
 A2	sich entschuldigen	disculparse	Quiero disculparme.	'Sich entschuldigen für' lleva acusativo de aquello por lo que se pide perdón, o 'bei' más dativo para la persona.
-A2	versprechen	prometer	Te prometo que seré puntual.	'Versprechen' lleva el dativo de la persona a quien se promete algo, como muchos verbos con el prefijo 'ver-'.
+A2	versprechen	prometer	Te prometo que seré puntual.	'Versprechen': la persona va en dativo y la cosa en acusativo ('Ich verspreche dir Hilfe'). Es irregular: versprach, hat versprochen.
 A2	erlauben	permitir	Mis padres no me lo permiten.	'Erlauben' lleva el dativo de la persona a quien se da permiso: 'mir erlauben'.
 A2	verbieten	prohibir	Aquí está prohibido fumar.	'Verboten' como participio se usa en todos los carteles públicos: 'Parken verboten' (prohibido aparcar), 'Rauchen verboten' (prohibido fumar).
-A2	empfehlen sich	ser aconsejable	Es aconsejable reservar con antelación.	'Es empfiehlt sich' es una estructura impersonal formal, común en textos escritos y guías de viaje.
 A2	sich verspäten	retrasarse, llegar tarde	El tren se ha retrasado.	'Sich verspäten' describe el retraso de un medio de transporte o de una persona de forma formal y concreta.
 A2	sich verabschieden	despedirse	Nos despedimos en la puerta.	'Sich verabschieden von' lleva el dativo de la persona de quien te despides: 'von meinen Freunden'.
 A2	Vermieter	casero, arrendador	El casero sube el alquiler.	En Alemania, las subidas del alquiler están limitadas por ley a un porcentaje máximo en un periodo determinado.
@@ -143,10 +142,8 @@ A2	Flasche	botella	Pásame la botella, por favor.	Gracias al 'Pfand', casi todas
 A2	Dose	lata	La lata está vacía.	Las latas también llevan depósito ('Dosenpfand'), introducido en 2003 para reducir los residuos abandonados.
 A2	Verpackung	envase, embalaje	El envase es de plástico.	Alemania es uno de los países europeos con la normativa más estricta para reducir los envases de plástico.
 A2	Umwelt	medio ambiente	Tenemos que proteger el medio ambiente.	'Umwelt' significa literalmente 'el mundo alrededor': un compuesto muy transparente, también raíz de 'umweltfreundlich' (ecológico).
-A2	Klima	clima	El clima cambia rápidamente.	'Klimawandel' (cambio climático) ha sido uno de los temas políticos más debatidos en Alemania en los últimos veinte años.
 A2	Energie	energía	Ahorramos energía en casa.	Alemania ha invertido mucho en energías renovables, sobre todo eólica y solar, desde los años 2000.
-A2	Solarenergie	energía solar	Muchas casas usan energía solar.	Los paneles solares son muy comunes en los tejados alemanes, impulsados por años de subvenciones estatales.
-A2	sparen mit Strom	ahorrar electricidad	Ahorramos electricidad siempre que es posible.	'Sparen' lleva un complemento directo en acusativo, sin preposición, al referirse a la cantidad que se ahorra.
+A2	Strom sparen	ahorrar electricidad	Ahorramos electricidad siempre que podemos.	'Sparen' lleva un complemento directo en acusativo, sin preposición: 'Strom sparen', 'Geld sparen', 'Zeit sparen'.
 A2	Neuigkeit	novedad, noticia	¿Has oído la última novedad?	'Neuigkeit' describe una noticia concreta, mientras que el plural 'die Nachrichten' se refiere al informativo en su conjunto.
 A2	Zeitung	periódico	Todas las mañanas leo el periódico.	'Zeitung' comparte raíz con 'Zeit' (tiempo): literalmente lo que informa sobre el tiempo presente, la actualidad.
 A2	Artikel	artículo	El artículo fue muy interesante.	'Artikel' significa tanto 'artículo de periódico' como 'artículo gramatical' (der/die/das): la misma palabra para dos conceptos.
@@ -171,7 +168,6 @@ A2	Vorstellungsgespräch	entrevista de trabajo	Mañana tengo una entrevista de t
 A2	Kollegin	compañera de trabajo	Mi compañera es muy competente.	La terminación femenina '-in' es obligatoria en alemán estándar cuando se habla específicamente de una mujer.
 A2	Teamarbeit	trabajo en equipo	El trabajo en equipo es importante para nosotros.	'Teamarbeit' combina el préstamo inglés 'Team' con la palabra alemana 'Arbeit' (trabajo): un compuesto híbrido común.
 A2	Projekt	proyecto	El proyecto va bien.	'Laufen' se usa en sentido figurado para describir cómo marcha un proyecto, igual que 'correr' en 'el proyecto marcha bien'.
-A2	Frist	plazo	El plazo vence mañana.	'Ablaufen' es separable: 'läuft ab' en presente, usado para describir un plazo que se acerca a su fin.
 A2	Homeoffice	teletrabajo	Hoy trabajo desde casa.	'Homeoffice' se volvió extremadamente común en alemán después de 2020, sustituyendo casi por completo a la expresión 'von zu Hause arbeiten'.
 A2	Kündigungsfrist	plazo de preaviso	El plazo de preaviso es de tres meses.	En Alemania el plazo de preaviso habitual para contratos laborales de larga duración es por ley a menudo de cuatro semanas o más.
 A2	Feierabendbier	cerveza después del trabajo	Nos tomamos juntos una cerveza después del trabajo.	Este compuesto informal combina 'Feierabend' (fin de la jornada laboral) y 'Bier': un pequeño ritual social muy común en Alemania.
@@ -179,7 +175,6 @@ A2	Betriebsausflug	excursión de empresa	La excursión de empresa es en junio.	'
 A2	Gewerkschaft	sindicato	Es miembro de un sindicato.	Los sindicatos alemanes suelen negociar a nivel de todo un sector, no empresa por empresa: un modelo europeo distintivo.
 A2	Streik	huelga	Hoy hay huelga de trenes.	Las huelgas de transporte público, especialmente en Deutsche Bahn, son relativamente frecuentes y se anuncian con antelación.
 A2	Fabrik	fábrica	Mi tío trabaja en una fábrica.	Alemania sigue siendo una de las grandes potencias manufactureras de Europa, con la industria del automóvil como símbolo internacional.
-A2	Fließband	cadena de montaje	Trabaja en la cadena de montaje.	'Fließband' combina 'fließen' (fluir) y 'Band' (cinta): literalmente una 'cinta que fluye'.
 A2	Handwerk	artesanía, oficio manual	La artesanía tiene una larga tradición en Alemania.	'Handwerk hat goldenen Boden' ('un oficio tiene suelo de oro') es un proverbio alemán sobre el valor económico de los oficios manuales.
 A2	Tischler	carpintero	El carpintero construye el armario.	En Alemania, para ser Tischler normalmente hace falta un aprendizaje de tres años ('Ausbildung'), un sistema muy estructurado.
 A2	Elektriker	electricista	Necesitamos un electricista.	Como el carpintero, el electricista alemán también sigue un riguroso camino de aprendizaje dual (escuela y trabajo).
@@ -226,7 +221,6 @@ A2	Untersuchung	reconocimiento, revisión médica	El reconocimiento dura veinte 
 A2	Zahnarzt	dentista	Mañana tengo cita con el dentista.	'Beim Zahnarzt' es la contracción de 'bei dem Zahnarzt': se usa para indicar a la consulta de quién se va.
 A2	Tierarzt	veterinario	El veterinario examina al perro.	'Tierarzt' combina 'Tier' (animal) y 'Arzt' (médico): literalmente 'médico de animales'.
 A2	Apothekerin	farmacéutica	La farmacéutica me aconseja bien.	La terminación femenina '-in' sigue el mismo patrón regular que casi todas las profesiones alemanas.
-A2	Diagnose	diagnóstico	El médico hace un diagnóstico.	'Eine Diagnose stellen' ('hacer un diagnóstico') es la colocación fija habitual en contextos médicos.
 A2	Behandlung	tratamiento	El tratamiento dura varias semanas.	'Behandlung' viene de 'behandeln' (tratar), un verbo inseparable con el prefijo fijo 'be-'.
 A2	Konzert	concierto	Esta noche vamos a un concierto.	'Ins Konzert gehen' usa el acusativo porque describe un movimiento hacia un evento concreto.
 A2	Ausstellung	exposición	La exposición está abierta hasta el domingo.	'Ausstellung' viene de 'ausstellen' (exponer), un verbo separable muy común en contextos de museo.
@@ -286,7 +280,6 @@ A2	Wetterbericht	parte meteorológico	¿Has visto el parte meteorológico?	'Wett
 A2	Nebel	niebla	Esta mañana había niebla espesa.	'Im Nebel stochern' ('hurgar en la niebla') significa avanzar sin certeza, a tientas en la oscuridad.
 A2	Frost	helada	Por la noche hubo helada.	'Frost' comparte raíz con 'frieren' (helarse), ambos ligados al intenso frío invernal.
 A2	Hitze	calor intenso	El calor del verano a veces es extremo.	Las olas de calor en Alemania se han vuelto cada vez más frecuentes en los últimos años, un problema ligado al cambio climático.
-A2	Feuchtigkeit	humedad	Hoy la humedad del aire es alta.	'Feuchtigkeit' viene de 'feucht' (húmedo) con el sufijo abstracto '-igkeit', una variante de '-keit'.
 A2	Sturm	tormenta, temporal	Se acerca un fuerte temporal.	'Ein Sturm im Wasserglas' ('una tormenta en un vaso de agua') coincide con el español 'una tormenta en un vaso de agua'.
 A2	Blitz	rayo, relámpago	El relámpago fue muy brillante.	'Blitz' es la raíz de la palabra 'blitzkrieg' y del 'flash' fotográfico: ambos ligados a la rapidez y la luz repentinas.
 A2	Donner	trueno	Después del relámpago llegó el trueno.	'Donner' comparte raíz con el dios nórdico Thor/Donar, protector del trueno en la mitología germánica.
@@ -332,7 +325,7 @@ A2	ehrlich	sincero, honrado	Sinceramente, no lo sé.	'Ehrlich gesagt' ('dicho ho
 A2	geduldig	paciente	Mi profesora es muy paciente.	'Geduldig' deriva de 'Geduld' (paciencia) con el sufijo adjetival '-ig', muy productivo en alemán.
 A2	neugierig	curioso	Los niños son curiosos por naturaleza.	'Neugierig' combina 'neu' (nuevo) y 'gierig' (ávido): literalmente 'ávido de cosas nuevas'.
 A2	großzügig	generoso	Es muy generoso con su tiempo.	'Großzügig' combina 'groß' (grande) y 'Zug' (rasgo/tirón): literalmente 'de grandes rasgos', es decir, magnánimo.
-A2	schüchtern	tímido	De niño era muy tímido.	'Schüchtern' describe la timidez de forma neutra, sin la connotación negativa que a veces tiene en otras lenguas.
+A2	schüchtern	tímido	De niño era muy tímido.	'Schüchtern' describe a las personas y el comportamiento tímidos: 'ein schüchterner Junge', 'schüchtern lächeln'.
 A2	mutig	valiente	Fue una decisión valiente.	'Mutig' viene de 'Mut' (valor) con el sufijo '-ig', uno de los patrones más regulares de formación de adjetivos en alemán.
 A2	faul	perezoso	Los fines de semana a veces soy perezoso.	'Faul' también significa 'podrido, estropeado' cuando se refiere a la comida: dos significados distintos de la misma palabra.
 A2	fleißig	trabajador, aplicado	Es una estudiante muy aplicada.	'Fleißig' es lo opuesto directo de 'faul' y se usa a menudo para elogiar a estudiantes dedicados.
@@ -344,10 +337,9 @@ A2	überrascht	sorprendido	Me sorprendió totalmente la fiesta.	'Überrascht sei
 A2	enttäuscht	decepcionado	Estoy decepcionado con el resultado.	'Enttäuscht' es el participio de 'enttäuschen' (decepcionar), usado como adjetivo con 'von' más dativo.
 A2	begeistert	entusiasmado	Está entusiasmada con el viaje.	'Begeistert von' lleva dativo, la misma estructura que usan 'enttäuscht' y 'überrascht'.
 A2	verwirrt	confundido, desconcertado	Las instrucciones me confundieron.	'Verwirrt' viene de 'verwirren' (confundir), un verbo inseparable con el prefijo 'ver-'.
-A2	gelangweilt	aburrido (que se aburre)	Los niños estaban aburridos.	'Gelangweilt' viene de 'sich langweilen' (aburrirse), un verbo reflexivo muy usado en las familias.
+A2	gelangweilt	aburrido (que se aburre)	Los niños estaban aburridos.	'Gelangweilt' es un participio usado como adjetivo: describe cómo te sientes ('ich bin gelangweilt'). 'Langweilig' describe lo que lo causa: 'der Film ist langweilig'.
 A2	zufrieden	satisfecho, contento	Estoy satisfecho con mi trabajo.	'Zufrieden mit' lleva dativo: 'mit meiner Arbeit', una estructura común para expresar satisfacción.
 A2	nervös	nervioso	Antes del examen siempre estoy nervioso.	'Nervös' es un préstamo del francés, acentuado en la última sílaba, a diferencia de muchos adjetivos alemanes nativos.
-A2	gelassen	sereno, tranquilo	Mantiene la calma incluso en situaciones de estrés.	'Gelassen' viene del participio de 'lassen' (dejar ir): literalmente alguien que 'deja ir' la tensión.
 A2	verlegen	avergonzado, cohibido	Se quedó bastante cohibido.	'Verlegen' como adjetivo es distinto de 'verlegen' como verbo (trasladar, extraviar): misma forma, significados distintos según el contexto.
 A2	dankbar	agradecido	Te estoy muy agradecido por tu ayuda.	'Dankbar für' lleva acusativo: 'für deine Hilfe', mientras que 'dankbar' solo puede llevar también el dativo de la persona.
 A2	Gefühl	sentimiento, sensación	Tengo una sensación extraña.	'Gefühl' viene de 'fühlen' (sentir), con el prefijo colectivo 'ge-' típico de muchos sustantivos abstractos neutros.
@@ -363,3 +355,8 @@ A2	Tradition	tradición	Esta tradición se mantiene desde hace generaciones.	'Pf
 A2	Vielfalt	diversidad	La diversidad de dialectos es impresionante.	Alemania tiene decenas de dialectos regionales muy distintos entre sí, algunos casi incomprensibles para quien solo habla alemán estándar.
 A2	Dialekt	dialecto	En Baviera se habla a menudo en dialecto.	El bávaro, el sajón y el dialecto de Colonia están entre los dialectos alemanes más característicos, a menudo difíciles de seguir para quien aprende alemán estándar.
 A2	Hochdeutsch	alemán estándar	En la escuela se aprende alemán estándar.	'Hochdeutsch' significa literalmente 'alto alemán', un término histórico ligado a la geografía y no a un juicio de valor.
+A2	Regenbogen	arcoíris	Después de la lluvia salió un arcoíris.	'Regenbogen' es un compuesto transparente: 'Regen' (lluvia) + 'Bogen' (arco), literalmente un 'arco de lluvia'.
+A2	Termin vereinbaren	concertar una cita	Quisiera concertar una cita.	'Vereinbaren' no es separable: pertenece al grupo de verbos con el prefijo siempre inseparable 'ver-'.
+A2	sich verlaufen	perderse (a pie)	Nos hemos perdido en la ciudad.	'Sich verlaufen' describe perderse a pie; 'sich verfahren' es el equivalente para perderse conduciendo.
+A2	Briefkasten	buzón	Mira en el buzón, por favor.	'Briefkasten' = 'Brief' (carta) + 'Kasten' (caja): tanto el de casa como el amarillo de la calle.
+A2	Übernachtung	pernoctación, noche de alojamiento	La noche en el hotel cuesta ochenta euros.	'Übernachtung' es el sustantivo de 'übernachten' (pasar la noche). Verás a menudo 'Übernachtung mit Frühstück'.

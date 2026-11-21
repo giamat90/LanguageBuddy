@@ -51,21 +51,21 @@
     "cultural_note_en": "In German Romantic literature, the Doppelgänger was a supernatural alter ego. E.T.A. Hoffmann made it famous, and Freud revisited it in psychoanalysis."
   },
   {
-    "word": "heiße",
+    "word": "es heißt",
     "article": null,
     "part_of_speech": "verb",
-    "ipa": "ˈhaɪsə",
-    "meaning_en": "is said / is called (subjunctive I)",
-    "meaning_it": "si dice che... / sarebbe (congiuntivo I)",
+    "ipa": "ɛs ˈhaɪst",
+    "meaning_en": "it is said, it says (in a text)",
+    "meaning_it": "si dice, si legge",
     "example": "In der Mitteilung heißt es, das Werk sei geschlossen.",
     "example_it": "Nel comunicato si dice che lo stabilimento sarebbe chiuso.",
-    "cultural_note": "Il Konjunktiv I ('sei', 'heiße') segnala il discorso indiretto giornalistico: prende le distanze dall'affermazione riportata.",
+    "cultural_note": "'Es heißt, ...' introduce ciò che si dice o si legge in un testo. Nel discorso indiretto la frase seguente prende spesso il Konjunktiv I ('sei').",
     "grammar_angle": "KONJUNKTIV_I",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Reporting what an official statement claims",
     "example_en": "The statement says the plant is (reportedly) closed.",
-    "cultural_note_en": "Konjunktiv I ('sei', 'heiße') marks journalistic reported speech: it distances the speaker from the claim being relayed."
+    "cultural_note_en": "'Es heißt, ...' introduces what is said or written in a text. In reported speech the following clause often takes Konjunktiv I ('sei')."
   },
   {
     "word": "Vergangenheitsbewältigung",
@@ -123,17 +123,17 @@
     "article": "die",
     "part_of_speech": "noun",
     "ipa": "ˈhaɪmlɪçkaɪt",
-    "meaning_en": "secrecy / hiddenness",
-    "meaning_it": "segretezza / intimità nascosta",
+    "meaning_en": "secrecy, furtiveness",
+    "meaning_it": "segretezza",
     "example": "Die Heimlichkeit des Treffens machte es aufregend.",
     "example_it": "La segretezza dell'incontro lo rendeva emozionante.",
-    "cultural_note": "Freud analizzò 'Das Unheimliche' (il perturbante) come il ritorno di una Heimlichkeit rimossa: la parola porta il doppio senso di 'intimo' e 'nascosto in modo inquietante'.",
+    "cultural_note": "Da 'heimlich' (segreto, di nascosto). Il plurale 'Heimlichkeiten' sono piccoli segreti; il contrario di tono è 'unheimlich' (inquietante).",
     "grammar_angle": "EXTENDED_ATTR",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Discussing secrets, trust, and intimacy",
     "example_en": "The secrecy of the meeting made it exciting.",
-    "cultural_note_en": "Freud analyzed 'Das Unheimliche' (the uncanny) as the return of a repressed Heimlichkeit: the word carries the double sense of 'intimate' and 'unsettlingly hidden'."
+    "cultural_note_en": "From 'heimlich' (secret, covert). The plural 'Heimlichkeiten' means little secrets; 'unheimlich' means eerie."
   },
   {
     "word": "Querdenker",
@@ -382,13 +382,13 @@
     "meaning_it": "nel corso di / nell'ambito di",
     "example": "Im Zuge der Renovierung wurde auch das Dach erneuert.",
     "example_it": "Nel corso della ristrutturazione è stato rifatto anche il tetto.",
-    "cultural_note": "Regge il genitivo. Immagine ferroviaria fossile: le cose accadono 'nel traino' di un processo più grande.",
+    "cultural_note": "Regge il genitivo: 'im Zuge der Renovierung'. Qui 'Zug' non è il treno ma 'corso, svolgimento': equivale a 'nel corso di'.",
     "grammar_angle": "GENITIV_CASE",
     "topic_domain": "home",
     "cefr_band": "C1",
     "session_scenario": "Describing changes made during a bigger project",
     "example_en": "In the course of the renovation, the roof was also redone.",
-    "cultural_note_en": "Takes the genitive. A fossilized railway image: things happen 'in the pull' of a larger process."
+    "cultural_note_en": "Takes the genitive: 'im Zuge der Renovierung'. Here 'Zug' is not the train but 'course, progress': it means 'in the course of'."
   },
   {
     "word": "unterschwellig",
@@ -610,23 +610,6 @@
     "session_scenario": "Rejecting a claim in formal writing",
     "example_en": "That is by no means certain.",
     "cultural_note_en": "'Keineswegs' is the standard emphatic negation of formal written register, more common than 'mitnichten'."
-  },
-  {
-    "word": "allerdings",
-    "article": null,
-    "part_of_speech": "adv",
-    "ipa": "ˈalɐˌdɪŋs",
-    "meaning_en": "however / though",
-    "meaning_it": "tuttavia / però",
-    "example": "Die Idee ist gut, allerdings fehlt das Budget.",
-    "example_it": "L'idea è buona, però manca il budget.",
-    "cultural_note": "'Allerdings' introduce una restrizione o obiezione, molto comune nel discorso argomentativo formale e informale.",
-    "grammar_angle": "WORD_ORDER_V2",
-    "topic_domain": "work",
-    "cefr_band": "C1",
-    "session_scenario": "Qualifying a positive statement",
-    "example_en": "The idea is good, though the budget is missing.",
-    "cultural_note_en": "'Allerdings' introduces a restriction or objection, very common in both formal and informal argumentative speech."
   },
   {
     "word": "insofern",
@@ -1143,17 +1126,17 @@
     "article": "der",
     "part_of_speech": "noun",
     "ipa": "ˈfɔltsuːk",
-    "meaning_en": "execution / enforcement (legal)",
-    "meaning_it": "esecuzione (giuridica)",
-    "example": "Der Vollzug des Urteils beginnt sofort.",
-    "example_it": "L'esecuzione della sentenza inizia immediatamente.",
-    "cultural_note": "'Vollzug' viene da 'vollziehen' (eseguire), un termine giuridico formale per l'applicazione pratica di una decisione.",
+    "meaning_en": "execution, enforcement (of a sentence)",
+    "meaning_it": "esecuzione (di una pena)",
+    "example": "Der Vollzug der Strafe beginnt nächste Woche.",
+    "example_it": "L'esecuzione della pena inizia la prossima settimana.",
+    "cultural_note": "Da 'vollziehen'. Termine giuridico: 'Strafvollzug' = regime penitenziario. Per una sentenza si dice più spesso 'Vollstreckung'.",
     "grammar_angle": "GENITIV_CASE",
     "topic_domain": "work",
     "cefr_band": "C1",
     "session_scenario": "Discussing legal enforcement",
-    "example_en": "Enforcement of the sentence begins immediately.",
-    "cultural_note_en": "'Vollzug' comes from 'vollziehen' (to execute), a formal legal term for the practical implementation of a decision."
+    "example_en": "The serving of the sentence begins next week.",
+    "cultural_note_en": "From 'vollziehen'. Legal term: 'Strafvollzug' means the prison system. For a judgement, 'Vollstreckung' is more usual."
   },
   {
     "word": "rechtskräftig",
@@ -1810,13 +1793,13 @@
     "meaning_it": "esistenzialismo",
     "example": "Der Existenzialismus betont die individuelle Verantwortung.",
     "example_it": "L'esistenzialismo sottolinea la responsabilità individuale.",
-    "cultural_note": "'Betonen' regge l'accusativo diretto e significa 'sottolineare, enfatizzare', un verbo formale non separabile.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "cultural_note": "Movimento filosofico del Novecento (Sartre, Heidegger). Si trova anche la grafia 'Existentialismus'; l'aggettivo è 'existenzialistisch'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Discussing philosophical movements",
     "example_en": "Existentialism emphasizes individual responsibility.",
-    "cultural_note_en": "'Betonen' takes a direct accusative object and means 'to emphasize', a formal inseparable verb."
+    "cultural_note_en": "Twentieth-century philosophical movement (Sartre, Heidegger). The spelling 'Existentialismus' also occurs; the adjective is 'existenzialistisch'."
   },
   {
     "word": "Nihilismus",
@@ -3000,13 +2983,13 @@
     "meaning_it": "demenza",
     "example": "Demenz betrifft immer mehr Menschen weltweit.",
     "example_it": "La demenza colpisce sempre più persone nel mondo.",
-    "cultural_note": "'Immer mehr' rafforza un aumento progressivo, struttura comparativa molto comune in tedesco.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "cultural_note": "Si usa al singolare: 'an Demenz leiden' (soffrire di demenza, 'an' + dativo). L'aggettivo è 'dement'; l'Alzheimer è una forma di Demenz.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "health",
     "cefr_band": "C1",
     "session_scenario": "Discussing age-related conditions",
     "example_en": "Dementia affects more and more people worldwide.",
-    "cultural_note_en": "'Immer mehr' reinforces a progressive increase, a very common comparative structure in German."
+    "cultural_note_en": "Used in the singular: 'an Demenz leiden' (to suffer from dementia, 'an' + dative). The adjective is 'dement'; Alzheimer's is one form of Demenz."
   },
   {
     "word": "Neurodegeneration",
@@ -3085,13 +3068,13 @@
     "meaning_it": "nanotecnologia",
     "example": "Nanotechnologie könnte die Medizin revolutionieren.",
     "example_it": "La nanotecnologia potrebbe rivoluzionare la medicina.",
-    "cultural_note": "'Revolutionieren' regge l'accusativo diretto, un termine formale che descrive un cambiamento radicale.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "cultural_note": "Dal greco 'nános' (nano, molto piccolo) + 'Technologie'. Un nanometro è un miliardesimo di metro.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "health",
     "cefr_band": "C1",
     "session_scenario": "Discussing emerging technologies",
     "example_en": "Nanotechnology could revolutionize medicine.",
-    "cultural_note_en": "'Revolutionieren' takes a direct accusative object, a formal term describing radical change."
+    "cultural_note_en": "From Greek 'nános' (dwarf, very small) + 'Technologie'. A nanometre is a billionth of a metre."
   },
   {
     "word": "Quantencomputer",
@@ -3289,13 +3272,13 @@
     "meaning_it": "polemica",
     "example": "Die Polemik richtet sich gegen die Regierung.",
     "example_it": "La polemica è rivolta contro il governo.",
-    "cultural_note": "'Sich richten gegen' regge l'accusativo: 'gegen die Regierung', struttura fissa per indicare il bersaglio di una critica.",
+    "cultural_note": "Critica aspra e aggressiva, spesso personale. L'aggettivo è 'polemisch', il verbo 'polemisieren'.",
     "grammar_angle": "ACCUSATIVE_PREP",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Analysing a critical public statement",
     "example_en": "The polemic is directed against the government.",
-    "cultural_note_en": "'Sich richten gegen' takes the accusative: 'gegen die Regierung' — a fixed structure for indicating a criticism's target."
+    "cultural_note_en": "Sharp, aggressive criticism, often personal. The adjective is 'polemisch', the verb 'polemisieren'."
   },
   {
     "word": "Invektive",
@@ -5193,13 +5176,13 @@
     "meaning_it": "bolla informativa",
     "example": "Die Filterblase verengt den Horizont.",
     "example_it": "La bolla informativa restringe l'orizzonte.",
-    "cultural_note": "'Verengen' regge l'accusativo diretto e significa 'restringere', usato criticamente riguardo agli algoritmi personalizzati.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "cultural_note": "Composto di 'Filter' + 'Blase' (bolla); calco dall'inglese 'filter bubble', reso popolare nel 2011 da Eli Pariser.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Discussing algorithmic content curation",
     "example_en": "The filter bubble narrows one's horizon.",
-    "cultural_note_en": "'Verengen' takes a direct accusative object and means 'to narrow', used critically regarding personalized algorithms."
+    "cultural_note_en": "Compound of 'Filter' + 'Blase' (bubble); a calque of English 'filter bubble', popularised by Eli Pariser in 2011."
   },
   {
     "word": "Polarisierung",
@@ -5907,13 +5890,13 @@
     "meaning_it": "capacità di giudizio",
     "example": "Ein gutes Urteilsvermögen ist im Beruf unerlässlich.",
     "example_it": "Una buona capacità di giudizio è indispensabile nella professione.",
-    "cultural_note": "'Urteilsvermögen' unisce 'Urteil' (giudizio) e 'Vermögen' (capacità), un termine chiave nella filosofia kantiana.",
+    "cultural_note": "Unisce 'Urteil' (giudizio) e 'Vermögen' (capacità): saper valutare con criterio. Sinonimo più letterario: 'Urteilskraft'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C1",
     "session_scenario": "Discussing professional decision-making skills",
     "example_en": "Good judgement is essential in the profession.",
-    "cultural_note_en": "'Urteilsvermögen' combines 'Urteil' (judgement) and 'Vermögen' (capacity), a key term in Kantian philosophy."
+    "cultural_note_en": "Combines 'Urteil' (judgement) and 'Vermögen' (ability): being able to assess sensibly. A more literary synonym is 'Urteilskraft'."
   },
   {
     "word": "Unvoreingenommenheit",
@@ -6108,16 +6091,16 @@
     "part_of_speech": "noun",
     "ipa": "ɡəˈʃtaltʊŋsʃpiːlˌʁaʊm",
     "meaning_en": "scope for design / discretion",
-    "meaning_it": "margine discrezionale",
+    "meaning_it": "margine di manovra",
     "example": "Lehrer haben einen gewissen Gestaltungsspielraum.",
     "example_it": "Gli insegnanti hanno un certo margine discrezionale.",
-    "cultural_note": "'Gestaltungsspielraum' unisce 'gestalten' (plasmare, progettare) e 'Spielraum' (margine), termine comune nel diritto amministrativo.",
+    "cultural_note": "Unisce 'gestalten' (plasmare, configurare) e 'Spielraum' (margine). Termine comune in ambito giuridico, aziendale e scolastico.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "work",
     "cefr_band": "C1",
     "session_scenario": "Discussing professional discretion",
     "example_en": "Teachers have a certain scope for discretion.",
-    "cultural_note_en": "'Gestaltungsspielraum' combines 'gestalten' (to shape, design) and 'Spielraum' (margin), a term common in administrative law."
+    "cultural_note_en": "Combines 'gestalten' (to shape, to configure) and 'Spielraum' (room to manoeuvre). Common in legal, business and educational contexts."
   },
   {
     "word": "Ermessensspielraum",
@@ -6203,5 +6186,90 @@
     "session_scenario": "Praising thorough, conscientious work",
     "example_en": "Conscientiousness sets her work apart.",
     "cultural_note_en": "'Gewissenhaftigkeit' comes from 'Gewissen' (conscience) with the double suffix '-haft' and '-igkeit', a high-register term."
+  },
+  {
+    "word": "Kuddelmuddel",
+    "article": "das",
+    "part_of_speech": "noun",
+    "ipa": "ˈkʊdl̩ˌmʊdl̩",
+    "meaning_en": "chaotic mess / muddle",
+    "meaning_it": "caos totale / pasticcio",
+    "example": "In der Küche herrschte ein echtes Kuddelmuddel.",
+    "example_it": "In cucina regnava un vero pasticcio.",
+    "cultural_note": "Parola colloquiale: raddoppiamento in rima di 'Muddel' (confusione), di origine bassotedesca. È neutro: 'ein Kuddelmuddel'.",
+    "grammar_angle": "WORD_ORDER_V2",
+    "topic_domain": "home",
+    "cefr_band": "C1",
+    "session_scenario": "Describing a chaotic mess playfully",
+    "example_en": "The kitchen was in a real muddle.",
+    "cultural_note_en": "Colloquial rhyming reduplication of 'Muddel' (muddle), of Low German origin. It is neuter: 'ein Kuddelmuddel'."
+  },
+  {
+    "word": "Kuriosität",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "kuʁioziˈtɛːt",
+    "meaning_en": "curiosity / oddity",
+    "meaning_it": "curiosità (oggetto strano)",
+    "example": "Das Museum zeigt historische Kuriositäten.",
+    "example_it": "Il museo espone curiosità storiche.",
+    "cultural_note": "'Kuriosität' descrive un oggetto o fatto insolito e affascinante, diverso da 'Neugier' che è il tratto psicologico della curiosità.",
+    "grammar_angle": "NOUN_GENDER",
+    "topic_domain": "culture",
+    "cefr_band": "C1",
+    "session_scenario": "Describing unusual museum exhibits",
+    "example_en": "The museum shows historical curiosities.",
+    "cultural_note_en": "'Kuriosität' describes an unusual, fascinating object or fact, distinct from 'Neugier', the psychological trait of curiosity."
+  },
+  {
+    "word": "Selbstgerechtigkeit",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ˈzɛlpstɡəˌʁɛçtɪçkaɪt",
+    "meaning_en": "self-righteousness",
+    "meaning_it": "presunzione morale, supponenza",
+    "example": "Seine Selbstgerechtigkeit ging vielen auf die Nerven.",
+    "example_it": "Il suo perbenismo dava sui nervi a molti.",
+    "cultural_note": "Da 'selbstgerecht': chi si ritiene sempre nel giusto e giudica gli altri dall'alto.",
+    "grammar_angle": "DATIV_PREP",
+    "topic_domain": "culture",
+    "cefr_band": "C1",
+    "session_scenario": "Criticising sanctimonious behaviour",
+    "example_en": "His self-righteousness got on many people's nerves.",
+    "cultural_note_en": "'Selbstgerechtigkeit' combines 'selbst' and 'Gerechtigkeit' (justice): the moralistic conviction of always being right."
+  },
+  {
+    "word": "hypothetisch",
+    "article": null,
+    "part_of_speech": "adj",
+    "ipa": "hypoˈteːtɪʃ",
+    "meaning_en": "hypothetical",
+    "meaning_it": "ipotetico",
+    "example": "Nehmen wir hypothetisch an, das stimmt.",
+    "example_it": "Supponiamo ipoteticamente che sia vero.",
+    "cultural_note": "Da 'Hypothese' (ipotesi). Con 'annehmen' introduce uno scenario: 'Nehmen wir hypothetisch an, ...'.",
+    "grammar_angle": "SEPARABLE_VERB",
+    "topic_domain": "culture",
+    "cefr_band": "C1",
+    "session_scenario": "Introducing a hypothetical scenario",
+    "example_en": "Let's hypothetically assume that's true.",
+    "cultural_note_en": "From 'Hypothese'. With 'annehmen' it introduces a scenario: 'Nehmen wir hypothetisch an, ...'."
+  },
+  {
+    "word": "Achillesferse",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "aˈxɪlɛsˌfɛʁzə",
+    "meaning_en": "Achilles' heel",
+    "meaning_it": "tallone d'Achille",
+    "example": "Die Logistik ist die Achillesferse des Unternehmens.",
+    "example_it": "La logistica è il tallone d'Achille dell'azienda.",
+    "cultural_note": "Riferimento mitologico classico, usato in tedesco esattamente come in italiano per un punto debole decisivo.",
+    "grammar_angle": "GENITIV_CASE",
+    "topic_domain": "work",
+    "cefr_band": "C1",
+    "session_scenario": "Identifying a critical weakness",
+    "example_en": "Logistics is the company's Achilles' heel.",
+    "cultural_note_en": "A classic mythological reference, used in German exactly as in English for a decisive weak point."
   }
 ]

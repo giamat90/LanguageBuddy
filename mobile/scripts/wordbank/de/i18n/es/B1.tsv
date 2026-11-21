@@ -11,7 +11,7 @@ B1	Feierabend	fin de la jornada laboral	Después del trabajo quedo con amigos.	F
 B1	sich freuen	alegrarse, tener ganas de	Tengo ganas de que llegue el fin de semana.	'Sich freuen auf' mira al futuro, 'sich freuen über' al presente o pasado: dos preposiciones para dos marcos temporales.
 B1	trotzdem	a pesar de todo, igualmente	Era tarde, pero igualmente fuimos a pasear.	Al principio de la frase, 'trotzdem' cuenta como primer elemento y manda el sujeto después del verbo: la regla del verbo en segunda posición.
 B1	beantragen	solicitar (oficialmente)	Tengo que solicitar un documento de identidad nuevo.	En Alemania casi todo lo oficial se 'beantragt' con un formulario: el verbo evoca de inmediato la burocracia.
-B1	Ausland	extranjero	Vivió un año en el extranjero.	'Ins Ausland gehen' y 'im Ausland leben' usan el artículo: en alemán, 'el extranjero' es un lugar gramaticalmente definido.
+B1	Ausland	extranjero	Vivió un año en el extranjero.	'Ausland' es lo opuesto de 'Inland'. Se dice 'im Ausland' (dónde) e 'ins Ausland' (adónde); no tiene plural.
 B1	sich beschweren	quejarse	Se quejó del ruido.	En Alemania, una queja formal por escrito ('Beschwerde') se ve como un derecho legítimo, no como una descortesía.
 B1	Gewohnheit	hábito, costumbre	Levantarme temprano se ha convertido en un hábito para mí.	El sufijo '-heit', como '-keit' y '-ung', forma sustantivos abstractos femeninos: 'gewohnt' → 'Gewohnheit'.
 B1	damit	para que	Lo apunto para no olvidarlo.	'Damit' como conjunción manda el verbo al final; como adverbio ('con eso') no lo hace: la misma palabra, dos comportamientos.
@@ -50,7 +50,6 @@ B1	doch	(partícula enfática: pues, anda)	¡Anda, ven con nosotros!	Las partíc
 B1	Erwartung	expectativa	Las expectativas eran altas.	'Erwartung' viene de 'erwarten' (esperar), un verbo inseparable muy común en contextos profesionales.
 B1	Voraussetzung	requisito, condición previa	Los conocimientos de alemán son un requisito.	'Voraussetzung' viene de 'voraussetzen' (presuponer), un compuesto de 'voraus' (de antemano) y 'setzen' (poner).
 B1	Konsequenz	consecuencia	Esta decisión tiene consecuencias.	'Konsequenz' significa tanto 'consecuencia' como 'coherencia' (en el comportamiento): dos significados distintos de la misma raíz.
-B1	Auswirkung	repercusión, impacto	El cambio climático tiene repercusiones globales.	'Auswirkung auf' lleva acusativo: 'auf die Umwelt' (sobre el medio ambiente): una estructura fija común en el discurso medioambiental.
 B1	Ursache	causa	La causa del problema no está clara.	'Ursache' y 'Grund' son casi sinónimos, pero 'Ursache' suena más científico y objetivo, 'Grund' más personal.
 B1	Wirkung	efecto	El medicamento hace efecto rápidamente.	'Wirkung zeigen' es la colocación fija habitual, sobre todo en contextos médicos y científicos.
 B1	Faktor	factor	El tiempo es un factor importante.	'Faktor' es casi idéntico en muchos idiomas, un préstamo culto latino compartido internacionalmente.
@@ -94,7 +93,7 @@ B1	Erstattung	reembolso	El reembolso tarda dos semanas.	'Erstattung' viene de 'e
 B1	Garantie	garantía	El aparato tiene dos años de garantía.	En toda la UE, la garantía legal mínima de los productos nuevos es de dos años, independientemente del fabricante.
 B1	Reklamation	reclamación	La empresa está tramitando su reclamación.	'Reklamation' es más formal y técnico que 'Beschwerde', y se usa típicamente en contextos comerciales y administrativos.
 B1	Behörde	organismo oficial, autoridad	Este organismo es competente en materia de visados.	'Zuständig sein für' lleva acusativo y es la estructura habitual para indicar el ámbito de competencia de una oficina.
-B1	Anmeldung	empadronamiento, inscripción	El empadronamiento debe hacerse en el plazo de una semana.	En Alemania, la 'Anmeldung' en la oficina del registro es obligatoria por ley en las dos semanas siguientes a la mudanza.
+B1	Anmeldung	registro, inscripción	El registro debe hacerse en un plazo de dos semanas.	En Alemania, la 'Anmeldung' en la oficina de registro es obligatoria por ley en las dos semanas siguientes a la mudanza.
 B1	Aufenthaltstitel	permiso de residencia	Está solicitando un nuevo permiso de residencia.	'Beantragen' no es separable: pertenece al grupo de verbos con el prefijo inseparable 'be-'.
 B1	Staatsangehörigkeit	nacionalidad	Mi nacionalidad es italiana.	'Staatsangehörigkeit' es un compuesto complejo: 'Staat' (estado) + 'angehören' (pertenecer a) + el sufijo '-keit'.
 B1	Einbürgerung	naturalización	La naturalización suele tardar años.	'Einbürgerung' viene de 'Bürger' (ciudadano), con el prefijo 'ein-' que indica el proceso de 'entrar' en la ciudadanía.
@@ -130,7 +129,7 @@ B1	Reifen	neumático	El neumático está pinchado.	'Platt' describe un neumátic
 B1	Tankstelle	gasolinera	La próxima gasolinera está a cinco kilómetros.	En muchas autopistas alemanas los precios del combustible varían enormemente de una gasolinera a otra: conviene comparar.
 B1	tanken	repostar	Todavía tenemos que repostar.	'Tanken' lleva un complemento directo en acusativo al especificar el tipo de combustible: 'Diesel tanken' (repostar diésel).
 B1	Verkehrszeichen	señal de tráfico	No conozco esta señal de tráfico.	'Verkehrszeichen' combina 'Verkehr' (tráfico) y 'Zeichen' (señal): un compuesto transparente típico del lenguaje técnico.
-B1	überholen	adelantar	Aquí no se puede adelantar.	'Überholen' no es separable: pertenece al grupo de verbos con el prefijo inseparable 'über-'.
+B1	überholen	adelantar	Aquí no se puede adelantar.	Con el sentido de 'adelantar' es inseparable y se acentúa en la raíz: 'er überholt', 'hat überholt' (sin 'ge-').
 B1	bremsen	frenar	Tuvo que frenar de repente.	'Bremsen' es regular y comparte raíz con 'Bremse' (freno), el sustantivo correspondiente.
 B1	Geschwindigkeit	velocidad	Aquí la velocidad está limitada.	En muchos tramos de la Autobahn alemana no hay límite de velocidad, pero el límite de 50 km/h en carreteras normales de ciudad se aplica estrictamente.
 B1	Bußgeld	multa	Tuvo que pagar una multa elevada.	'Bußgeld' combina 'Buße' (penitencia, multa) y 'Geld' (dinero): literalmente 'dinero como penitencia'.
@@ -141,7 +140,7 @@ B1	speichern	guardar (un archivo)	No olvides guardar el documento.	'Speichern' v
 B1	löschen	borrar, eliminar	He borrado el archivo sin querer.	'Löschen' significa tanto 'borrar datos' como 'apagar un fuego': la idea común es 'hacer desaparecer'.
 B1	herunterladen	descargar	Estoy descargando la aplicación ahora mismo.	'Herunterladen' es separable: 'lade herunter' en presente, con el prefijo largo separado al final.
 B1	hochladen	subir (a internet)	Estoy subiendo las fotos a la nube.	'Hochladen' es el opuesto exacto de 'herunterladen', formado con el prefijo 'hoch-' (arriba) en lugar de 'herunter-' (abajo).
-B1	Passwort	contraseña	He olvidado mi contraseña.	'Passwort' es un calco parcial del inglés, que combina el préstamo 'Pass' con la palabra alemana 'Wort' (palabra).
+B1	Passwort	contraseña	He olvidado mi contraseña.	'Passwort' es un calco del inglés 'password': 'Pass' (pase, permiso) + 'Wort' (palabra). El plural es 'Passwörter'.
 B1	Benutzername	nombre de usuario	Introduzca su nombre de usuario.	'Eingeben' es separable y significa 'introducir, teclear', usado a menudo en interfaces digitales.
 B1	Datenschutz	protección de datos, privacidad	La protección de datos es muy importante en Alemania.	Alemania es de los países más estrictos de Europa en materia de privacidad, con una larga tradición jurídica anterior al RGPD de la UE.
 B1	soziale Medien	redes sociales	Uso poco las redes sociales.	'Soziale Medien' es la traducción alemana oficial, aunque muchos usan simplemente el préstamo inglés 'Social Media'.
@@ -164,7 +163,7 @@ B1	Turnier	torneo	El torneo dura una semana.	'Turnier' viene del francés mediev
 B1	Sieg	victoria	Fue una victoria importante.	'Sieg' es la raíz de 'Siegerin' (ganadora) y 'siegen' (ganar), una familia de palabras muy común en el deporte.
 B1	Niederlage	derrota	Tras la derrota, el equipo estaba decepcionado.	'Niederlage' viene de 'niederlegen' (depositar, abatir): literalmente 'el acto de ser derribado'.
 B1	Fan	aficionado, fan	Soy un gran fan de este grupo.	'Fan' es un préstamo directo del inglés, plenamente integrado en la gramática alemana con artículo masculino.
-B1	Stadion	estadio	El estadio estaba completamente lleno.	Los estadios de fútbol alemanes, como el Signal Iduna Park de Dortmund, están entre los más grandes y ruidosos de Europa.
+B1	Stadion	estadio	El estadio estaba completamente lleno.	El plural de 'Stadion' es 'Stadien' (menos frecuente 'Stadions'). Viene del griego 'stádion'.
 B1	Zuschauer	espectador	Había miles de espectadores.	'Zuschauer' viene de 'zuschauen' (mirar, asistir), un verbo separable muy común en contextos deportivos.
 B1	Ausrüstung	equipamiento, equipo	Necesito equipo nuevo para hacer senderismo.	'Ausrüstung' viene de 'ausrüsten' (equipar), un verbo separable usado en contextos técnicos y deportivos.
 B1	Wanderung	excursión a pie, senderismo	La excursión duró cinco horas.	Los Alpes bávaros y la Selva Negra ofrecen algunas de las rutas de senderismo más famosas de Europa.
@@ -178,7 +177,7 @@ B1	braten	freír, asar	Frío las verduras en la sartén.	'Braten' es un verbo fu
 B1	kochen	cocinar, hervir	¿Quién cocina esta noche?	'Kochen' significa tanto 'cocinar en general' como específicamente 'hervir': el contexto aclara a cuál de los dos sentidos se refiere.
 B1	backen	hornear	El fin de semana horneo un pastel.	'Backen' puede ser regular o algo irregular en el Präteritum ('backte' o 'buk'): una rara doble forma en alemán.
 B1	schneiden	cortar	Corta la cebolla en trozos pequeños.	'Schneiden' es un verbo fuerte irregular: 'schnitt, geschnitten', con un cambio vocálico e-i-i.
-B1	würzen	sazonar, condimentar	Sazona la sopa con pimienta.	'Würzen' viene de 'Gewürz' (especia), un verbo regular muy común en las recetas.
+B1	würzen	sazonar, condimentar	Sazona la sopa con pimienta.	'Würzen' es el verbo del que deriva 'Gewürz' (especia). Lleva 'mit': 'mit Pfeffer würzen'.
 B1	Pfeffer	pimienta	Un poco más de pimienta vendría bien.	La pimienta era tan valiosa en la Alemania medieval que se usaba casi como una forma de moneda.
 B1	Gewürz	especia	No conozco esta especia.	'Gewürz' viene de 'würzen' (sazonar), con el típico prefijo colectivo 'ge-' de los sustantivos neutros.
 B1	Vorspeise	entrante	De entrante tomaré sopa.	'Vorspeise' combina 'vor' (antes) y 'Speise' (plato): literalmente 'antes-plato', el entrante.
@@ -201,16 +200,13 @@ B1	Erkältung	resfriado	Tengo un ligero resfriado.	'Erkältung' viene de 'kalt' 
 B1	Grippe	gripe	Está en cama con gripe.	'Mit Grippe im Bett liegen' es la expresión habitual para describir el reposo forzoso por enfermedad.
 B1	Impfstoff	vacuna (sustancia)	La vacuna se desarrolló rápidamente.	'Wurde entwickelt' es la pasiva en Präteritum: 'werden' más un participio, a menudo usada en el lenguaje científico.
 B1	Therapie	terapia	Ella hace terapia psicológica.	En Alemania la psicoterapia suele estar cubierta por el seguro médico obligatorio, aunque las listas de espera son largas.
-B1	seelisch	psíquico, mental	La salud mental es igual de importante.	'Seelisch' viene de 'Seele' (alma), usado en contraste con 'körperlich' (físico, corporal).
 B1	Burnout	agotamiento (burnout)	Muchos empleados sufren agotamiento laboral.	'Leiden unter' lleva dativo: 'unter Burnout', la estructura habitual para expresar sufrimiento causado por algo.
 B1	Work-Life-Balance	conciliación de vida laboral y personal	La conciliación entre trabajo y vida personal es muy importante para ella.	Toda esta expresión inglesa se usa sin cambios en alemán, sin una traducción oficial extendida.
 B1	Auszeit	pausa, tiempo de descanso	Se toma un descanso del trabajo.	'Auszeit' combina 'aus' y 'Zeit': un periodo en el que uno sale temporalmente de la rutina.
-B1	Achtsamkeit	atención plena, mindfulness	La atención plena ayuda contra el estrés.	'Achtsamkeit' viene de 'achtsam' (atento, cuidadoso), un concepto cada vez más extendido en la cultura alemana del bienestar.
 B1	Meditation	meditación	Todas las mañanas medito.	'Meditation' es casi idéntica en todos los idiomas, un término internacional compartido.
 B1	Schlafmangel	falta de sueño	La falta de sueño afecta a la concentración.	'Beeinflussen' no es separable: pertenece al grupo de verbos con el prefijo inseparable 'be-'.
 B1	Alltag	día a día, vida cotidiana	El día a día puede ser estresante.	'Alltag' combina 'all-' (todo) y 'Tag' (día): literalmente 'todos los días', la rutina diaria.
 B1	Routine	rutina	Tengo una rutina matinal fija.	'Routine' es un préstamo del francés, plenamente integrado en el alemán cotidiano.
-B1	Gewohnheit ändern	cambiar un hábito	Es difícil cambiar un hábito.	'Ändern' lleva siempre un complemento directo en acusativo sin preposición, un verbo muy común para hablar de cambio.
 B1	Balance halten	mantener el equilibrio	Es importante mantener un equilibrio.	'Eine Balance halten' es la colocación habitual, usada tanto en sentido físico como figurado para el equilibrio vital.
 B1	Prioritäten setzen	establecer prioridades	Tengo que replantear mis prioridades.	'Prioritäten setzen' es la colocación fija habitual en el lenguaje laboral y de organización personal.
 B1	sich Zeit nehmen	tomarse tiempo, dedicar tiempo	Dedícate tiempo a ti mismo.	'Sich Zeit nehmen für' lleva acusativo y el pronombre reflexivo en dativo: una estructura compleja pero muy común.
@@ -227,7 +223,7 @@ B1	Treibhauseffekt	efecto invernadero	El efecto invernadero calienta la Tierra.	
 B1	Artenvielfalt	biodiversidad	El bosque protege la biodiversidad.	'Artenvielfalt' combina 'Art' (especie) y 'Vielfalt' (variedad): literalmente 'variedad de especies'.
 B1	Aussterben	extinción	Muchas especies animales están amenazadas de extinción.	'Vom Aussterben bedroht' es una estructura pasiva fija, usada en el lenguaje de la conservación del medio ambiente.
 B1	Landwirtschaft	agricultura	La agricultura está cambiando mucho.	'Landwirtschaft' combina 'Land' (tierra) y 'Wirtschaft' (economía): literalmente 'la economía de la tierra'.
-B1	Bio-Lebensmittel	alimento ecológico	Los alimentos ecológicos suelen ser más caros.	El sello alemán 'Bio' de agricultura ecológica está regulado por ley y goza de gran confianza entre los consumidores.
+B1	Bio-Lebensmittel	alimentos ecológicos	Los alimentos ecológicos suelen ser más caros.	Se usa casi siempre en plural. 'Bio' en un alimento está protegido por el reglamento ecológico de la UE; el 'Bio-Siegel' alemán es un sello nacional distinto.
 B1	regional einkaufen	comprar productos locales	Cada vez más gente compra productos locales.	'Regional' como adverbio describe de dónde proceden los productos, un tema que resuena mucho en la cultura alimentaria alemana.
 B1	Konsum	consumo	Nuestro consumo perjudica al medio ambiente.	'Belasten' lleva siempre un complemento directo en acusativo y se usa a menudo en contextos medioambientales y financieros.
 B1	Verzicht	renuncia	Renunciar a la carne le cuesta a mucha gente.	'Verzicht auf' lleva acusativo: 'auf Fleisch', una estructura fija común al hablar de renunciar a cosas.
@@ -238,7 +234,6 @@ B1	Verein	club, asociación	Soy miembro de un club deportivo.	Alemania tiene una
 B1	Gemeinschaft	comunidad	La comunidad se ayuda mutuamente.	'Gemeinschaft' viene de 'gemein' (común) con el sufijo colectivo '-schaft', que crea un sentimiento de pertenencia compartida.
 B1	Solidarität	solidaridad	Mostramos solidaridad con los afectados.	'Solidarität zeigen mit' lleva dativo, la estructura habitual para expresar apoyo en contextos públicos.
 B1	Gerechtigkeit	justicia	Ella lucha por la justicia social.	'Kämpfen für' lleva acusativo: 'für Gerechtigkeit', una estructura muy común en el discurso cívico.
-B1	Gleichberechtigung	igualdad de derechos	La igualdad de derechos está consagrada en la Constitución.	'Verankert' viene de 'Anker' (ancla): una imagen marítima para decir que un principio está firmemente establecido.
 B1	Vielfalt schätzen	valorar la diversidad	Nuestra sociedad debería valorar la diversidad.	'Schätzen' lleva un complemento directo en acusativo y significa tanto 'estimar/apreciar' como 'tasar' económicamente.
 B1	Toleranz	tolerancia	La tolerancia es un valor importante.	'Toleranz' es casi idéntica en todos los idiomas, un término social internacional compartido.
 B1	Vorurteile abbauen	eliminar prejuicios	La educación ayuda a eliminar prejuicios.	'Abbauen' es separable y lleva acusativo, usado tanto para prejuicios como para estructuras físicas que se desmontan.
@@ -260,7 +255,7 @@ B1	scheitern	fracasar	Por desgracia el proyecto ha fracasado.	'Scheitern' usa 's
 B1	aufgeben	rendirse, abandonar	¡No te rindas tan pronto!	'Aufgeben' es separable: 'gib auf' en imperativo, con el prefijo separado al final de la frase.
 B1	durchhalten	aguantar, perseverar	Solo tenemos que aguantar un poco más.	'Durchhalten' es separable: 'halte durch' en presente, con el prefijo separado al final de la frase.
 B1	Wohngemeinschaft	piso compartido	Vivo en un piso compartido con otros tres estudiantes.	Las WG (Wohngemeinschaft) son muy comunes entre los estudiantes alemanes, a menudo más baratas que un estudio.
-B1	Möbliert	amueblado	El piso está completamente amueblado.	'Möbliert' viene del francés 'meublé', integrado con la terminación adjetival alemana normal.
+B1	möbliert	amueblado	El piso está completamente amueblado.	'Möbliert' viene de 'möblieren' (amueblar), del francés 'meubler'. En los anuncios de alquiler: 'möbliert' o 'unmöbliert'.
 B1	Nachmieter	inquilino entrante (siguiente)	Buscamos un inquilino que nos releve en el piso.	Encontrar un 'Nachmieter' que asuma el contrato suele ser responsabilidad del inquilino saliente, por práctica común alemana.
 B1	Umzugskarton	caja de mudanza	Necesitamos más cajas de mudanza.	'Umzugskarton' combina 'Umzug' (mudanza) y 'Karton' (caja): un compuesto muy práctico y transparente.
 B1	renovieren	reformar, renovar	Ahora estamos reformando la cocina.	'Renovieren' es un préstamo del latín, conjugado de forma regular como cualquier verbo alemán moderno.
@@ -278,7 +273,6 @@ B1	Etage	piso, planta	Vivimos en el tercer piso.	'Etage' es un préstamo del fra
 B1	Erdgeschoss	planta baja	El buzón está en la planta baja.	En alemán, el recuento de pisos empieza en cero: 'Erdgeschoss' es la planta baja, 'erster Stock' ya es el piso de arriba.
 B1	Dachgeschoss	buhardilla, ático	La buhardilla tiene paredes inclinadas.	Muchos pisos en el Dachgeschoss de edificios históricos alemanes tienen techos inclinados característicos y alquileres más bajos.
 B1	Klingel	timbre	El timbre no funciona.	'Klingel' viene del verbo 'klingeln' (sonar, tintinear), también usado para un despertador o un teléfono.
-B1	Briefkasten	buzón	Mira en el buzón, por favor.	'Nachschauen' es separable: 'schau nach' en imperativo, con el prefijo separado al final.
 B1	Vermietung	alquiler (acción de alquilar)	El alquiler se gestiona a través de una agencia.	'Laufen über' lleva acusativo tras 'über' al indicar el canal de un proceso: 'über eine Agentur laufen'.
 B1	Sozialwohnung	vivienda social	Hay muy pocas viviendas sociales.	La escasez de Sozialwohnungen ha sido uno de los temas más debatidos de la política urbana alemana en los últimos años.
 B1	Mietpreisbremse	tope al alquiler	El tope al alquiler pretende limitar los alquileres.	'Mietpreisbremse' es una medida legislativa introducida en muchas grandes ciudades alemanas para frenar la subida de los alquileres.
@@ -294,8 +288,6 @@ B1	Miteigentümer	copropietario	Todos los copropietarios deben estar de acuerdo.
 B1	Eigentumswohnung	piso en propiedad	Han comprado un piso en propiedad.	En Alemania, la tasa de propiedad de vivienda es más baja que en muchos otros países europeos, incluida Italia.
 B1	Hypothek	hipoteca	Hemos pedido una hipoteca sobre la casa.	'Eine Hypothek aufnehmen' es la colocación fija habitual, casi idéntica a 'einen Kredit aufnehmen' (pedir un préstamo).
 B1	Zins	interés (financiero)	Los tipos de interés están bajos actualmente.	'Zins' se usa casi siempre en plural 'Zinsen' al referirse al tipo global de un préstamo.
-B1	Absicherung	protección, cobertura	Un seguro sirve como protección.	'Dienen' lleva dativo: 'der Absicherung dienen', un verbo formal usado en contextos jurídicos y financieros.
-B1	Klausel	cláusula	Esta cláusula es importante en el contrato.	'Klausel' es un término jurídico tomado del latín 'clausula', casi idéntico en muchas lenguas europeas.
 B1	Kündigungsschutz	protección contra el despido	La protección contra el despido se aplica a los seis meses.	La ley alemana de Kündigungsschutz protege con fuerza a los empleados tras un periodo mínimo de empleo continuado.
 B1	Abfindung	indemnización por despido	Ha recibido una indemnización por despido.	'Abfindung' viene de 'abfinden' (arreglar, compensar), un término típico del derecho laboral alemán.
 B1	Flugverspätung	retraso de vuelo	Por el retraso del vuelo perdimos la conexión.	'Wegen' lleva genitivo o, coloquialmente, dativo: ambas formas se oyen en el habla moderna.
@@ -313,16 +305,15 @@ B1	einchecken	hacer el check-in, registrarse	Hacemos el check-in a las dos.	'Ein
 B1	auschecken	hacer el check-out, dejar el hotel	Tenemos que dejar la habitación a las once.	Como 'einchecken', 'auschecken' también es separable y sigue la misma estructura gramatical.
 B1	Zimmerservice	servicio de habitaciones	Pedimos algo al servicio de habitaciones.	'Beim Zimmerservice bestellen' lleva dativo tras 'bei', la preposición habitual para 'a, en'.
 B1	Rundreise	circuito turístico, viaje en ruta	Hacemos un circuito por el sur de Alemania.	'Durch' lleva acusativo: 'durch Süddeutschland', que describe un movimiento a través de una región.
-B1	Sehenswürdigkeiten besichtigen	visitar los lugares de interés	Hoy visitamos los principales lugares de interés.	'Besichtigen' lleva un complemento directo en acusativo sin preposición, como 'besuchen'.
+B1	besichtigen	visitar (un lugar de interés)	Hoy visitamos la catedral.	'Besichtigen' se usa para lugares y edificios que se van a ver (catedral, museo, piso); 'besuchen' se usa sobre todo para personas o una visita en general.
 B1	Stadtführung	visita guiada por la ciudad	La visita guiada dura dos horas.	'Stadtführung' combina 'Stadt' y 'Führung' (guía): un recorrido organizado con guía turístico.
 B1	Reiseveranstalter	operador turístico	Hemos reservado el viaje a través de un operador turístico.	'Über' lleva acusativo al indicar un canal: 'über einen Reiseveranstalter buchen' (reservar a través de un operador turístico).
 B1	Pauschalreise	viaje organizado, paquete turístico	Un viaje organizado suele ser más barato.	'Pauschal' significa 'a tanto alzado, todo incluido': un único precio que cubre vuelo, hotel y a veces comidas.
 B1	Reiseversicherung	seguro de viaje	Siempre contrato un seguro de viaje.	'Abschließen' es separable y lleva acusativo: 'eine Versicherung abschließen' es la colocación fija para contratar un seguro.
-B1	Zeitverschiebung	diferencia horaria	La diferencia horaria me cansa.	'Zeitverschiebung' combina 'Zeit' (tiempo) y 'Verschiebung' (desplazamiento): el término técnico para la diferencia horaria.
+B1	Zeitverschiebung	diferencia horaria	La diferencia horaria con Nueva York es de seis horas.	'Zeitverschiebung' es la diferencia de hora entre dos lugares; el cansancio que provoca se llama 'Jetlag'.
 B1	Kulturschock	choque cultural	Después de mudarse tuvo un auténtico choque cultural.	'Kulturschock' describe la desorientación inicial de vivir en un país con normas culturales muy distintas.
 B1	Auswanderer	emigrante	Muchos emigrantes se van a Canadá.	'Auswanderer' viene de 'auswandern' (emigrar), el opuesto directo de 'Einwanderer' (inmigrante).
 B1	Einwanderer	inmigrante	Alemania ha acogido a muchos inmigrantes.	'Aufnehmen' es separable y significa 'acoger', un verbo común en el discurso político sobre inmigración.
-B1	Zugehörigkeit	pertenencia	El sentimiento de pertenencia es importante.	'Zugehörigkeit' viene de 'zugehören' (pertenecer a), un compuesto abstracto con el sufijo '-keit'.
 B1	fließend sprechen	hablar con fluidez	Habla alemán e inglés con fluidez.	'Fließend' como adverbio describe un nivel lingüístico muy alto, cercano al nativo.
 B1	zweisprachig	bilingüe	Nuestros hijos crecen bilingües.	'Aufwachsen' es separable y significa 'crecer': un verbo típico al hablar de la infancia.
 B1	Sprachbarriere	barrera lingüística	Al principio había una barrera lingüística.	'Sprachbarriere' combina 'Sprache' y 'Barriere' (barrera), un término muy común en contextos de integración.
@@ -337,7 +328,6 @@ B1	riskieren	arriesgar	Se arriesga mucho con esta decisión.	'Riskieren' es un p
 B1	Risiko eingehen	correr un riesgo	A veces hay que correr un riesgo.	'Eingehen' es separable y lleva acusativo: 'ein Risiko eingehen' es la colocación fija habitual.
 B1	absichern	asegurar, proteger	Tenemos que protegernos económicamente.	'Sich absichern' es reflexivo y a menudo lleva genitivo o una preposición según el contexto concreto.
 B1	Konsequenzen tragen	asumir las consecuencias	Cada uno debe asumir las consecuencias de sus actos.	'Tragen' significa tanto 'llevar físicamente' como, en sentido figurado, 'soportar, asumir'.
-B1	Wendepunkt	punto de inflexión	Esta decisión fue un punto de inflexión en mi vida.	'Wendepunkt' combina 'Wende' (giro) y 'Punkt' (punto): un momento decisivo que cambia el curso de los acontecimientos.
 B1	Perspektive wechseln	cambiar de perspectiva	A veces ayuda cambiar de perspectiva.	'Wechseln' lleva un complemento directo en acusativo y se usa tanto para perspectivas como para cosas concretas como la ropa o la moneda.
 B1	Selbstreflexion	autorreflexión	La autorreflexión ayuda en las decisiones importantes.	'Selbstreflexion' combina 'selbst' (uno mismo) y 'Reflexion' (reflexión), un término cada vez más usado en contextos de crecimiento personal.
 B1	Lebensqualität	calidad de vida	La calidad de vida aquí es alta.	Varias ciudades alemanas, como Múnich y Düsseldorf, aparecen regularmente en clasificaciones internacionales de calidad de vida.
@@ -354,12 +344,18 @@ B1	Neugier	curiosidad	La curiosidad impulsa a muchos científicos.	'Antreiben' e
 B1	Kreativität	creatividad	La creatividad no se puede forzar.	'Sich erzwingen lassen' con negación significa 'no se puede forzar': una estructura reflexiva de tipo pasivo.
 B1	Inspiration	inspiración	El viaje fue una gran fuente de inspiración para ella.	'Inspiration' es casi idéntica en todos los idiomas, otro préstamo latino compartido.
 B1	Ausdauer	resistencia, aguante	Un maratón exige mucho aguante.	'Ausdauer' combina 'aus' y 'dauern' (durar): literalmente 'la capacidad de durar hasta el final'.
-B1	Willenskraft	fuerza de voluntad	Con algo de fuerza de voluntad lo conseguirás.	'Willenskraft' combina 'Wille' (voluntad) y 'Kraft' (fuerza): un compuesto muy transparente.
 B1	Selbstvertrauen	confianza en uno mismo	Viajar refuerza la confianza en uno mismo.	'Selbstvertrauen' combina 'selbst' y 'Vertrauen' (confianza): distinto de 'Selbstbewusstsein', que se refiere más a la conciencia de sí.
-B1	Anpassungsfähigkeit	capacidad de adaptación	La capacidad de adaptación es importante en el extranjero.	'Anpassungsfähigkeit' viene de 'sich anpassen' (adaptarse) con el sufijo de capacidad '-fähigkeit'.
-B1	Durchhaltevermögen	constancia, perseverancia	Una carrera universitaria exige constancia.	'Durchhaltevermögen' combina 'durchhalten' (perseverar) y 'Vermögen' (capacidad): un compuesto larguísimo pero transparente.
-B1	Lebensfreude	alegría de vivir	Irradia una alegría de vivir contagiosa.	'Ausstrahlen' es separable y significa 'irradiar, emanar', usado a menudo para cualidades personales positivas.
-B1	Bescheidenheit	modestia	A pesar de su éxito, conserva la modestia.	'Bescheidenheit' viene de 'bescheiden' (modesto) con el sufijo abstracto '-heit'.
+B1	Lebensfreude	alegría de vivir	Transmite una alegría de vivir contagiosa.	'Lebensfreude' = 'Leben' + 'Freude': el gozo de vivir como energía positiva duradera. También: 'voller Lebensfreude'.
 B1	Neuanfang	nuevo comienzo	La mudanza fue para ella un auténtico nuevo comienzo.	'Neuanfang' combina 'neu' (nuevo) y 'Anfang' (comienzo): un compuesto sencillo pero muy común para los cambios de vida.
 B1	Lebensweg	camino de la vida	Cada uno tiene su propio camino de vida.	'Lebensweg' combina 'Leben' (vida) y 'Weg' (camino): la metáfora del camino aplicada a la existencia.
 B1	persönliche Errungenschaft	logro personal	Graduarse fue su mayor logro.	'Errungenschaft' viene de 'erringen' (alcanzar con esfuerzo): un hito logrado con trabajo duro y mérito.
+B1	Diagnose	diagnóstico	El médico hace un diagnóstico.	'Eine Diagnose stellen' ('hacer un diagnóstico') es la colocación fija habitual en contextos médicos.
+B1	Feuchtigkeit	humedad	La humedad del sótano es un problema.	'Feuchtigkeit' viene de 'feucht' (húmedo) con el sufijo abstracto '-igkeit', una variante de '-keit'.
+B1	Fließband	cadena de montaje	Trabaja en la cadena de montaje.	'Fließband' combina 'fließen' (fluir) y 'Band' (cinta): literalmente una 'cinta que fluye'.
+B1	Klima	clima	El clima cambia rápidamente.	'Klima' es neutro (das Klima) y designa el clima de una región; 'Wetter' es el tiempo de hoy. 'Klimawandel' es el cambio climático.
+B1	Kompass	brújula	Sin brújula no encontramos el camino.	'Kompass' es masculino y termina en doble 's'. También se usa en sentido figurado: 'ein moralischer Kompass' (una brújula moral).
+B1	Solarenergie	energía solar	En nuestro tejado producimos energía solar.	'Solarenergie' es la energía procedente del sol; la instalación del tejado es una 'Solaranlage' o 'Photovoltaikanlage'.
+B1	Spiegelbild	reflejo	Veo mi reflejo.	'Spiegelbild' combina 'Spiegel' (espejo) y 'Bild' (imagen): la imagen reflejada en un espejo.
+B1	würde	auxiliar del condicional (habría, haría)	Me gustaría vivir en Berlín.	'Würde + infinitivo' es la forma más habitual de expresar el Konjunktiv II en el habla, en lugar de formas más raras como 'lebte'.
+B1	hätte	habría, tuviera (subjuntivo)	En tu lugar, yo habría reaccionado de otra manera.	'Hätte' y 'wäre' están entre las pocas formas del Konjunktiv II aún vivas en el habla: decir 'ich würde haben' suena forzado.
+B1	Ernährung	alimentación, dieta	Una alimentación sana te ayuda a mantenerte en forma.	'Ernährung' viene de 'ernähren' (alimentar, nutrir) y designa la forma de comer en general, mientras que 'Essen' es la comida o el plato.

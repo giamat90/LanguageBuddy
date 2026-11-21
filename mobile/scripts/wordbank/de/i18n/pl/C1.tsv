@@ -1,11 +1,11 @@
 C1	Zeitgeist	duch czasu, duch epoki	Ta powieść doskonale oddaje ducha czasu.	Hegel uczynił z niego pojęcie filozoficzne na początku XIX wieku. Weszło do angielskiego niemal bez zmian i jest dziś używane na całym świecie.
 C1	Fingerspitzengefühl	wyczucie, taktowny instynkt	Do tych negocjacji potrzeba prawdziwego wyczucia.	Dosłownie 'wyczucie czubków palców': oddaje niemieckie uznanie dla precyzyjnej, intuicyjnej umiejętności, w dyplomacji tak samo jak w medycynie.
 C1	Doppelgänger	sobowtór	Podczas podróży spotkał swojego sobowtóra.	W niemieckiej literaturze romantycznej Doppelgänger był nadprzyrodzonym alter ego. Rozsławił go E.T.A. Hoffmann, a Freud wrócił do niego w psychoanalizie.
-C1	heiße	głosi, brzmi (tryb przypuszczający I)	W komunikacie głosi się, że zakład został zamknięty.	Konjunktiv I ('sei', 'heiße') oznacza dziennikarską mowę zależną: dystansuje mówiącego od przekazywanego twierdzenia.
+C1	es heißt	mówi się, jest napisane	W komunikacie jest napisane, że zakład został zamknięty.	„Es heißt, ...” wprowadza to, co się mówi lub co jest napisane w tekście. W mowie zależnej następne zdanie często ma Konjunktiv I („sei”).
 C1	Vergangenheitsbewältigung	rozliczenie się z przeszłością	Rozliczenie się z przeszłością jest centralną częścią niemieckiej tożsamości.	Złożenie wyjątkowo niemieckie: opisuje trwający zbiorowy proces rozliczania się z nazizmem, poprzez szkoły, pomniki i prawo.
 C1	vorgeworfen werden	być oskarżanym, być obarczanym zarzutem	Zarzuca mu się niedbalstwo.	W stronie biernej z 'vorwerfen' oskarżenie staje się bezosobowe: ruch odzwierciedlający ostrożność niemieckiego języka prawniczego i dziennikarskiego.
 C1	Schadenersatz	odszkodowanie	Firma musi wypłacić odszkodowanie.	Niemieckie prawo konsumenckie należy do najsilniejszych w Europie: roszczenia o 'Schadenersatz' są częste i kulturowo normalne.
-C1	Heimlichkeit	tajemniczość, skrytość	Tajemniczość spotkania sprawiała, że było ekscytujące.	Freud analizował 'Das Unheimliche' (niesamowite) jako powrót wypartej Heimlichkeit: słowo ma podwójne znaczenie 'zażyły' i 'niepokojąco ukryty'.
+C1	Heimlichkeit	tajemniczość, skrytość	Tajemniczość spotkania sprawiała, że było ekscytujące.	Od „heimlich” (tajny, potajemny). Liczba mnoga „Heimlichkeiten” oznacza małe sekrety; „unheimlich” znaczy niesamowity, złowieszczy.
 C1	Querdenker	myśliciel nieszablonowy	Jako myśliciel nieszablonowy zawsze znajduje niezwykłe rozwiązania.	Pierwotnie pozytywne określenie twórczych myślicieli, w latach 2020-21 zostało na nowo zdefiniowane dla ruchów przeciwnych lockdownowi: uderzający przykład dryfu semantycznego pod presją polityczną.
 C1	Weltschmerz	ból istnienia, światosmutek	W jego oczach malował się głęboki ból istnienia.	Ukuty przez Jeana Paula w 1827 roku, opisuje ból płynący z rozdźwięku między rzeczywistością a ideałami: centralne pojęcie niemieckiego romantyzmu.
 C1	beileibe nicht	bynajmniej, w żadnym razie	To bynajmniej nie jedyne wyjaśnienie.	Dobitne wyrażenie wysokiego rejestru, w którym 'bei Leibe' ('na moje ciało') to dawna przysięga skamieniała w języku.
@@ -20,7 +20,7 @@ C1	Tragweite	doniosłość, zasięg skutków	Doniosłość tej decyzji nie była
 C1	beschönigen	łagodzić, upiększać (zniekształcać)	Próbował upiększyć te liczby.	Od 'schön' (piękny): przedstawianie czegoś jako 'ładniejszego', niż jest. Powracający zarzut w debacie politycznej i środowiskowej.
 C1	vermeintlich	rzekomy, domniemany	Rzekomy skrót kosztował nas godzinę.	Sygnalizuje sceptycyzm: powiedzenie 'vermeintlich' sugeruje, że oczekiwanie okazało się błędne.
 C1	Zäsur	cezura, punkt zwrotny	Rok 1989 był głęboką cezurą w historii Europy.	Pożyczka z łaciny przez miarę wiersza: oznacza przerwę tak wyraźną, że 'po' nie przypomina już 'przed'.
-C1	im Zuge	w toku, w ramach	W toku remontu wymieniono też dach.	Łączy się z dopełniaczem. Skamieniały obraz kolejowy: rzeczy dzieją się 'w pociągnięciu' większego procesu.
+C1	im Zuge	w trakcie, w ramach	W ramach remontu wymieniono też dach.	Łączy się z dopełniaczem: „im Zuge der Renovierung”. „Zug” oznacza tu nie pociąg, lecz „przebieg, postęp”: znaczy „w trakcie”.
 C1	unterschwellig	podprogowy, ukryty pod powierzchnią	W debacie dawała się wyczuć ukryta agresja.	Dosłownie 'poniżej progu' (Schwelle) świadomego postrzegania: stosowane do tonów, napięć i przekazów reklamowych.
 C1	mutmaßlich	domniemany, rzekomy (prawnie)	Domniemany sprawca został zatrzymany.	'Mutmaßlich' pochodzi od 'Mutmaßung' (przypuszczenie): używane w języku prawniczym i dziennikarskim, by nie sugerować udowodnionej winy.
 C1	unumstritten	bezsporny	Jego kompetencje są bezsporne.	'Unumstritten' łączy przeczący przedrostek 'un-' i 'umstritten' (kontrowersyjny): dosłownie 'niekontrowersyjny'.
@@ -34,7 +34,6 @@ C1	nichtsdestotrotz	niemniej jednak	Padało, ale mimo to poszli na wędrówkę.	
 C1	fürwahr	zaiste, istotnie (archaiczne)	To był zaiste pamiętny dzień.	'Fürwahr' to przysłówek archaiczny, dziś używany niemal tylko ironicznie lub literacko dla podkreślenia wypowiedzi.
 C1	mitnichten	bynajmniej (formalnie)	To bynajmniej nie jedyne wyjaśnienie.	'Mitnichten' to dobitne zaprzeczenie wysokiego rejestru, formalna alternatywa dla 'keineswegs'.
 C1	keineswegs	w żadnym wypadku, wcale nie	To wcale nie jest pewne.	'Keineswegs' to standardowe dobitne zaprzeczenie formalnego rejestru pisanego, częstsze niż 'mitnichten'.
-C1	allerdings	jednak, aczkolwiek	Pomysł jest dobry, brakuje jednak budżetu.	'Allerdings' wprowadza ograniczenie lub zastrzeżenie, bardzo częste zarówno w formalnej, jak i nieformalnej mowie argumentacyjnej.
 C1	insofern	pod tym względem, o tyle	Pod tym względem ma rację.	'Insofern' może też wprowadzać zdanie podrzędne z 'als': 'insofern, als...' ('o tyle, o ile...').
 C1	diesbezüglich	w tej kwestii, w tym względzie	W tej kwestii są jeszcze otwarte pytania.	'Diesbezüglich' łączy 'dies' (to) i 'bezüglich' (w związku z): łącznik typowy dla korespondencji formalnej.
 C1	nunmehr	obecnie, już teraz (formalnie)	Termin upłynął już teraz.	'Nunmehr' to formalny wariant 'jetzt', typowy dla języka prawniczego i administracyjnego.
@@ -65,7 +64,7 @@ C1	Umsicht	ostrożność, rozwaga (przezorność)	Działał z wielką ostrożno�
 C1	Sachverhalt	stan faktyczny	Stan faktyczny należy dokładnie zbadać.	'Geprüft werden' to strona bierna, typowa dla języka prawniczego i administracyjnego przy formalnym badaniu.
 C1	Sachlage	sytuacja, stan rzeczy	W obliczu tej sytuacji należy zachować ostrożność.	'Angesichts' łączy się z dopełniaczem i jest typowe dla rejestru formalno-administracyjnego.
 C1	Gutachten	opinia biegłego, ekspertyza	Ekspertyza potwierdza obawy o bezpieczeństwo.	'Gutachten' łączy 'gut' i 'achten' (dobrze zważać): formalna ocena techniczna przeprowadzona przez eksperta.
-C1	Vollzug	wykonanie, egzekucja (prawnie)	Wykonanie wyroku rozpoczyna się natychmiast.	'Vollzug' pochodzi od 'vollziehen' (wykonać), formalny termin prawny na praktyczne wprowadzenie decyzji w życie.
+C1	Vollzug	wykonanie, egzekwowanie (wyroku)	Wykonanie kary rozpocznie się w przyszłym tygodniu.	Od „vollziehen”. Termin prawny: „Strafvollzug” oznacza system więziennictwa. W odniesieniu do wyroku częstsze jest „Vollstreckung”.
 C1	rechtskräftig	prawomocny	Wyrok jest już prawomocny.	'Rechtskräftig' łączy 'Recht' i 'Kraft' (siła): decyzja, która uzyskała pełną, ostateczną moc prawną.
 C1	Berufung einlegen	wnieść apelację	Adwokat wnosi apelację.	'Einlegen' jest rozdzielne i łączy się z biernikiem: 'Berufung einlegen' to standardowe utrwalone połączenie w prawie niemieckim.
 C1	Beweislast	ciężar dowodu	Ciężar dowodu spoczywa na powodzie.	'Liegen bei' łączy się z celownikiem: 'beim Kläger', utrwalona konstrukcja prawnicza wskazująca, kto ponosi odpowiedzialność.
@@ -104,7 +103,7 @@ C1	Dogmatismus	dogmatyzm	Dogmatyzm uniemożliwia otwarty dyskurs.	'Verhindern' �
 C1	Reduktionismus	redukcjonizm	Redukcjonizm zbyt mocno upraszcza złożone zjawiska.	'Zu stark' wzmacnia 'vereinfachen' (upraszczać), wskazując krytyczną nadmierność.
 C1	Determinismus	determinizm	Determinizm podaje w wątpliwość wolną wolę.	'Infrage stellen' to utrwalony zwrot znaczący 'podawać w wątpliwość, kwestionować'.
 C1	freier Wille	wolna wola	Pytanie o wolną wolę pozostaje otwarte.	'Die Frage nach' łączy się z celownikiem: 'nach dem freien Willen', utrwalona konstrukcja wprowadzająca pytanie filozoficzne.
-C1	Existenzialismus	egzystencjalizm	Egzystencjalizm podkreśla indywidualną odpowiedzialność.	'Betonen' łączy się z biernikiem i znaczy 'podkreślać', formalny czasownik nierozdzielny.
+C1	Existenzialismus	egzystencjalizm	Egzystencjalizm podkreśla indywidualną odpowiedzialność.	Dwudziestowieczny nurt filozoficzny (Sartre, Heidegger). Występuje też pisownia „Existentialismus”; przymiotnik to „existenzialistisch”.
 C1	Nihilismus	nihilizm	Nihilizm odrzuca wszelki obiektywny sens.	'Verneinen' łączy się z biernikiem i znaczy 'zaprzeczać', formalny termin filozoficzny.
 C1	Absolutheit	absolutność	Absolutność tego twierdzenia mnie nie przekonuje.	'Absolutheit' pochodzi od 'absolut' z abstrakcyjnym przyrostkiem '-heit', termin filozoficzny wysokiego rejestru.
 C1	Relativismus	relatywizm	Relatywizm kulturowy bywa często krytykowany.	'Kritisiert werden' to strona bierna, częsta w dyskursie akademickim przy opisie spornych stanowisk.
@@ -174,12 +173,12 @@ C1	Neurowissenschaft	neuronauka	Neuronauka wyjaśnia wiele wzorców zachowań.	'
 C1	Synapse	synapsa	Synapsy przekazują sygnały elektryczne.	'Übertragen' łączy się z biernikiem i znaczy 'przekazywać', czasownik techniczny częsty w neuronauce.
 C1	Plastizität	plastyczność (neuronalna)	Plastyczność mózgu maleje z wiekiem.	'Abnehmen' jest rozdzielne i znaczy 'maleć', częste w dyskursie o starzeniu się poznawczym.
 C1	kognitiv	poznawczy, kognitywny	Zdolności poznawcze zmieniają się z wiekiem.	'Kognitiv' to pożyczka z łaciny, standardowy termin w psychologii i neuronauce.
-C1	Demenz	demencja, otępienie	Demencja dotyka coraz więcej ludzi na całym świecie.	'Immer mehr' wzmacnia ideę postępującego wzrostu, bardzo częsta konstrukcja stopnia wyższego w niemieckim.
+C1	Demenz	demencja, otępienie	Demencja dotyka coraz więcej ludzi na całym świecie.	Używane w liczbie pojedynczej: „an Demenz leiden” (cierpieć na demencję, „an” + celownik). Przymiotnik to „dement”; choroba Alzheimera to jedna z postaci „Demenz”.
 C1	Neurodegeneration	neurodegeneracja	Neurodegeneracja przebiega zazwyczaj podstępnie.	'Schleichend' pochodzi od 'schleichen' (skradać się), używane do opisu stopniowych procesów patologicznych.
 C1	Genom	genom	Ludzki genom został zsekwencjonowany w 2003 roku.	'Sequenziert werden' to strona bierna, odnosząca się do zakończenia międzynarodowego Projektu Poznania Ludzkiego Genomu.
 C1	Mutation	mutacja	Niektóre mutacje są nieszkodliwe.	'Manche' znaczy 'niektórzy, pewne', częsty zaimek/przymiotnik nieokreślony w ogólnym dyskursie naukowym.
 C1	Biotechnologie	biotechnologia	Biotechnologia otwiera nowe możliwości medyczne.	'Eröffnen' nie jest rozdzielne i łączy się z biernikiem, znaczy 'otwierać' w sensie przenośnym lub dosłownym.
-C1	Nanotechnologie	nanotechnologia	Nanotechnologia mogłaby zrewolucjonizować medycynę.	'Revolutionieren' łączy się z biernikiem, formalny termin opisujący radykalną zmianę.
+C1	Nanotechnologie	nanotechnologia	Nanotechnologia mogłaby zrewolucjonizować medycynę.	Od greckiego „nános” (karzeł, bardzo mały) + „Technologie”. Nanometr to miliardowa część metra.
 C1	Quantencomputer	komputer kwantowy	Komputer kwantowy rozwiązuje niektóre problemy znacznie szybciej.	'Viel schneller' wzmacnia stopień wyższy 'schneller' przez 'viel', wskazując znaczną różnicę.
 C1	maschinelles Lernen	uczenie maszynowe	Uczenie maszynowe stale się poprawia.	'Sich verbessern' jest zwrotne i znaczy 'poprawiać się', często używane o systemach technologicznych.
 C1	neuronales Netz	sieć neuronowa	Sieć neuronowa symuluje ludzki mózg.	'Simulieren' łączy się z biernikiem, standardowy termin techniczny w sztucznej inteligencji.
@@ -191,7 +190,7 @@ C1	Anapher	anafora	Mówca użył mocnej anafory.	'Anapher' to powtórzenie słow
 C1	Pathos	patos	Tekst silnie odwołuje się do patosu.	'Appellieren an' łączy się z biernikiem: 'an das Pathos', utrwalona konstrukcja w klasycznej analizie retorycznej (etos, patos, logos).
 C1	Ethos	etos	Mówca najpierw buduje swój etos.	'Aufbauen' jest rozdzielne i łączy się z biernikiem: w klasycznej analizie retorycznej etos to wiarygodność mówcy.
 C1	Logos-Argument	argument logosu, argument racjonalny	Argument logosu opiera się na faktach.	'Sich stützen auf' łączy się z biernikiem: 'auf Fakten', trzeci filar klasycznej retoryki obok etosu i patosu.
-C1	Polemik	polemika	Polemika jest skierowana przeciwko rządowi.	'Sich richten gegen' łączy się z biernikiem: 'gegen die Regierung', utrwalona konstrukcja wskazująca cel krytyki.
+C1	Polemik	polemika	Polemika jest skierowana przeciwko rządowi.	Ostra, agresywna krytyka, często osobista. Przymiotnik to „polemisch”, czasownik „polemisieren”.
 C1	Invektive	inwektywa, obelga	Przemówienie zmieniło się w zwykłą inwektywę.	'Geraten zu' łączy się z celownikiem: 'zu einer Invektive', utrwalona konstrukcja opisująca niezamierzone wyrodzenie się czegoś.
 C1	Ambivalenz	ambiwalencja	Ambiwalencja jego postawy jest oczywista.	'Offensichtlich' znaczy 'oczywisty, ewidentny', formalny przymiotnik częsty w analizie krytycznej.
 C1	Zwiespalt	rozdarcie wewnętrzne, dylemat	Jest głęboko rozdarta wewnętrznie.	'Stecken in' łączy się z celownikiem: 'in einem Zwiespalt', utrwalona konstrukcja opisująca utknięcie w trudnej sytuacji.
@@ -303,7 +302,7 @@ C1	Konformitätsdruck	presja konformizmu	Presja konformizmu często tłumi odmie
 C1	Meinungsklima	klimat opinii	Klimat opinii wyraźnie się zmienił.	'Merklich' znaczy 'wyraźnie, zauważalnie', formalny przysłówek używany do dostrzegalnych zmian.
 C1	Schweigespirale	spirala milczenia	Spirala milczenia wyjaśnia, dlaczego opinie mniejszości zamilkają.	Pojęcie socjologiczne niemieckiej badaczki Elisabeth Noelle-Neumann, bardzo wpływowe w badaniach komunikacji politycznej.
 C1	Echokammer	komora pogłosowa, bańka echa	Sieci społecznościowe często tworzą komory pogłosowe.	'Echokammer' to metafora zaczerpnięta z akustyki, stosowana do polaryzacji informacji w sieci.
-C1	Filterblase	bańka filtrująca	Bańka filtrująca zawęża horyzont.	'Verengen' łączy się z biernikiem i znaczy 'zawężać', używane krytycznie wobec spersonalizowanych algorytmów.
+C1	Filterblase	bańka informacyjna	Bańka informacyjna zawęża horyzonty.	Złożenie „Filter” + „Blase” (bańka); kalka z angielskiego „filter bubble”, spopularyzowanego przez Eliego Parisera w 2011 roku.
 C1	Polarisierung	polaryzacja	Polaryzacja polityczna narasta.	'Zunehmen' jest rozdzielne i znaczy 'narastać', bardzo częste w dyskursie o fragmentaryzacji politycznej.
 C1	Radikalisierung	radykalizacja	Radykalizacji w sieci trudno przeciwdziałać.	'Schwer zu bekämpfen' łączy się z bezokolicznikiem z 'zu', używane do wyrażenia trwałego wyzwania.
 C1	Verrohung	brutalizacja, zdziczenie (dyskursu)	Brutalizacja języka w sieci niepokoi wielu.	'Verrohung' pochodzi od 'roh' (surowy, prymitywny): postępujący spadek kultury publicznego dyskursu.
@@ -345,7 +344,7 @@ C1	innere Leere	pustka wewnętrzna	Mimo sukcesu czuł wewnętrzną pustkę.	'Tro
 C1	Sinnstiftung	nadawanie sensu	Praca służy wielu jako źródło sensu.	'Dienen zu' łączy się z celownikiem: 'zur Sinnstiftung', utrwalona konstrukcja wyrażająca cel czegoś.
 C1	Kontingenzbewältigung	radzenie sobie z przygodnością	Religia służyła historycznie radzeniu sobie z przygodnością.	Złożony termin socjologiczno-teologiczny, odnoszący się do sposobu, w jaki ludzie radzą sobie z nieprzewidywalnością życia.
 C1	Reflexionsvermögen	zdolność refleksji	Zdolność refleksji ją wyróżnia.	'Auszeichnen' jest rozdzielne i łączy się z biernikiem: 'zeichnet aus' znaczy 'wyróżniać'.
-C1	Urteilsvermögen	zdolność sądzenia, rozsądek	Dobra zdolność sądzenia jest w zawodzie niezbędna.	'Urteilsvermögen' łączy 'Urteil' (sąd) i 'Vermögen' (zdolność), kluczowy termin filozofii Kanta.
+C1	Urteilsvermögen	zdolność oceny, osąd	Dobra zdolność oceny jest w zawodzie niezbędna.	Łączy „Urteil” (osąd) i „Vermögen” (zdolność): umiejętność rozsądnej oceny. Bardziej literackim synonimem jest „Urteilskraft”.
 C1	Unvoreingenommenheit	bezstronność	Sędziowie muszą zachować bezstronność.	'Wahren' łączy się z biernikiem i znaczy 'zachowywać, strzec', formalny czasownik nierozdzielny.
 C1	Aufrichtigkeit	szczerość	Szczerość jest podstawą każdej prawdziwej relacji.	'Aufrichtigkeit' pochodzi od 'aufrichtig' (szczery), dosłownie 'wyprostowany', czyli bez oszustwa.
 C1	Verschwiegenheit	dyskrecja, poufność	Lekarze są zobowiązani do zachowania poufności.	'Verpflichtet sein zu' łączy się z celownikiem: 'zur Verschwiegenheit', formalna konstrukcja dla zobowiązań zawodowych.
@@ -357,9 +356,14 @@ C1	Zugeständnis	ustępstwo	Obie strony poczyniły ustępstwa.	'Zugeständnisse 
 C1	Kompromissbereitschaft	gotowość do kompromisu	Gotowość do kompromisu jest w polityce decydująca.	'Entscheidend' znaczy 'decydujący', używane o cechach uznawanych w danym kontekście za kluczowe.
 C1	Sachzwang	przymus rzeczowy, obiektywna konieczność	Politycy często powołują się na obiektywną konieczność.	'Sich berufen auf' łączy się z biernikiem: 'auf Sachzwänge', często używane krytycznie do uzasadniania niepopularnych decyzji.
 C1	Handlungsspielraum	pole manewru	Pole manewru rządu jest ograniczone.	'Handlungsspielraum' łączy 'Handlung' (działanie), 'Spiel' (luz) i 'Raum' (przestrzeń): przestrzeń swobody działania.
-C1	Gestaltungsspielraum	swoboda kształtowania, zakres uznania	Nauczyciele mają pewną swobodę kształtowania.	'Gestaltungsspielraum' łączy 'gestalten' (kształtować) i 'Spielraum' (margines), termin częsty w prawie administracyjnym.
+C1	Gestaltungsspielraum	swoboda kształtowania, pole manewru	Nauczyciele mają pewną swobodę w kształtowaniu zajęć.	Łączy „gestalten” (kształtować, urządzać) i „Spielraum” (pole manewru). Częste w kontekstach prawnych, biznesowych i edukacyjnych.
 C1	Ermessensspielraum	margines uznania	Urzędnik ma margines uznania.	'Ermessensspielraum' to techniczny termin prawny na przestrzeń decyzyjną przyznaną organowi w pewnych granicach.
 C1	Verhältnismäßigkeit	proporcjonalność	Zasada proporcjonalności ogranicza działania państwa.	'Verhältnismäßigkeit' to podstawowa zasada konstytucyjna w Niemczech, stosowana w całym prawie publicznym.
 C1	Zumutbarkeit	racjonalność wymagania, dopuszczalność	Racjonalność wymagania tego środka jest wątpliwa.	'Zumutbarkeit' pochodzi od 'zumutbar' (do przyjęcia, dający się wymagać), termin prawny do oceny, czy wymaganie jest rozsądne.
 C1	Nachvollziehbarkeit	możliwość prześledzenia, zrozumiałość	Możliwość prześledzenia decyzji buduje zaufanie.	'Nachvollziehbarkeit' pochodzi od 'nachvollziehbar' (zrozumiały, dający się prześledzić), kluczowy termin przejrzystości instytucjonalnej.
 C1	Gewissenhaftigkeit	sumienność	Sumienność wyróżnia jej pracę.	'Gewissenhaftigkeit' pochodzi od 'Gewissen' (sumienie) z podwójnym przyrostkiem '-haft' i '-igkeit', termin wysokiego rejestru.
+C1	Kuddelmuddel	bałagan, zamieszanie	W kuchni panował prawdziwy bałagan.	Potoczne rymowane powtórzenie od „Muddel” (bałagan), pochodzenia dolnoniemieckiego. Jest rodzaju nijakiego: „ein Kuddelmuddel”.
+C1	Kuriosität	osobliwość, ciekawostka	Muzeum pokazuje historyczne osobliwości.	'Kuriosität' opisuje niezwykły, fascynujący przedmiot lub fakt, w odróżnieniu od 'Neugier', psychologicznej cechy ciekawości.
+C1	Selbstgerechtigkeit	zadufanie, poczucie własnej słuszności	Jego zadufanie wielu działało na nerwy.	'Selbstgerechtigkeit' łączy 'selbst' i 'Gerechtigkeit' (sprawiedliwość): moralizatorskie przekonanie o byciu zawsze w prawie.
+C1	hypothetisch	hipotetyczny	Załóżmy hipotetycznie, że to prawda.	Od „Hypothese”. Z „annehmen” wprowadza scenariusz: „Nehmen wir hypothetisch an, ...”.
+C1	Achillesferse	pięta achillesowa	Logistyka jest piętą achillesową firmy.	Klasyczne odniesienie mitologiczne, używane w niemieckim dokładnie jak w polskim na oznaczenie decydującego słabego punktu.

@@ -1,5 +1,5 @@
 A2	einkaufen	alışverişe çıkmak, alışveriş yapmak	Bu akşam alışverişe çıkıyorum.	Alman süpermarketleri erken kapanır ve hemen her pazar günü kapalı kalır; bu, Akdeniz ülkelerinden gelen ziyaretçileri şaşırtır.
-A2	anrufen	telefonla aramak	Seni yarın arayacağım.	Almanlar, başkalarının kısa mesajla hallettiği şeyler için, örneğin bir randevuyu iptal etmek için, resmî bir telefon görüşmesi yapmaktan çekinmez.
+A2	anrufen	telefon etmek, aramak	Seni yarın arayacağım.	'Anrufen' ayrılabilen bir fiildir: 'ich rufe an', Perfekt 'hat angerufen'. Akuzatif alır: 'jemanden anrufen'.
 A2	fahren	araba kullanmak, araçla gitmek, seyahat etmek	O her gün bisikletle gidiyor.	'fährt'teki 'a → ä' ses değişimi Almanca'nın en yaygın düzensiz kalıplarından biridir ve düzinelerce gündelik fiil tarafından paylaşılır.
 A2	Freizeit	boş zaman	Boş zamanlarımda gitar çalıyorum.	Almanlar Freizeit'larını sıkı sıkıya savunur: yasa en az 20 günlük ücretli izni garanti eder ve ücretsiz fazla mesai hoş karşılanmaz.
 A2	Küche	mutfak	Alman mutfağı çok çeşitli.	Almanca'da 'Küche' hem odayı hem de yemek geleneğini ifade eder — iki merkezî kavram için tek sözcük.
@@ -7,7 +7,7 @@ A2	essen	yemek, yemek yemek	O balık yemeyi seviyor.	'essen'in düzensiz 'isst' 
 A2	Urlaub	tatil, izin	İtalya'da tatil yapıyoruz.	Almanya turizme en çok harcama yapan ülkeler arasındadır ve İtalya uzun süredir Almanların gözde destinasyonudur.
 A2	Krankenhaus	hastane	Hastane şehir merkezinde.	Kelimesi kelimesine 'hastalar evi' olan Krankenhaus saydam bir bileşiktir: Almanca anlam çoğu zaman yalnızca sözcüğü parçalara ayırarak çözülür.
 A2	Kollege	iş arkadaşı	İş arkadaşım bana her zaman yardım eder.	Almanlar Kollege (iş arkadaşı) ile Freund (arkadaş) arasında keskin bir çizgi çeker: bir iş arkadaşına 'Freund' demek çok daha derin bir bağı ima eder.
-A2	aufräumen	toparlamak, düzenlemek	Odamı topluyorum.	Ordnung (düzen) kavramı Almanya'da o kadar önemlidir ki 'Ordnung muss sein' ('düzen olmalı') neredeyse ulusal bir slogan gibi işler.
+A2	aufräumen	toplamak, düzenlemek	Odamı topluyorum.	'Aufräumen' ayrılabilen bir fiildir: 'ich räume auf', Perfekt 'hat aufgeräumt'.
 A2	abfahren	hareket etmek, kalkmak	Tren beş dakika sonra kalkıyor.	Alman panolarında kalkış 'Abfahrt', varış 'Ankunft'tur — ayrılabilir fiillerden türeyen iki isim.
 A2	Rechnung	hesap, fatura	Hesabı alabilir miyiz lütfen?	Alman restoranlarında çoğu zaman 'zusammen oder getrennt?' ('birlikte mi ayrı mı?') diye sorulur — hesabı bölüşmek tamamen normaldir.
 A2	vorbereiten	hazırlamak	Yemeği hazırlıyorum.	'vor-' (önce, önünde) öneki, 'vorschlagen' (önermek) ve 'vorstellen' (tanıtmak) gibi düzinelerce ayrılabilir fiil üretir.
@@ -101,7 +101,7 @@ A2	Überraschung	sürpriz	Bu harika bir sürprizdi!	'Überraschung', ayrılmaz '
 A2	Sorge	endişe, kaygı	Endişelenme.	'Sich Sorgen machen' ('kendine endişe yapmak'), kaygı veya endişeyi ifade etmenin standart yoludur.
 A2	Wunsch	dilek, istek	Özel bir dileğin var mı?	'Auf Wunsch' ('istek üzerine'), restoranlardan kamu dairelerine kadar hizmet bağlamlarında çok yaygın bir ifadedir.
 A2	Freude	sevinç	Sevinç büyüktü.	'Mit Freude' ('sevinçle'), bir daveti kabul etmek için resmî mektuplarda bile kullanılan standart ifadedir.
-A2	Angst	korku, endişe	O köpeklerden korkmuyor.	'Angst' her zaman dişil ve tekildir, ama birkaç farklı korkudan bahsetmek için çoğul 'Ängste' alabilir.
+A2	Angst	korku	Köpeklerden korkmuyor.	'Angst haben vor' tamlamasında datif kullanılır: 'Angst vor Hunden'. Çoğul 'Ängste' vardır ama nadirdir; normal biçim tekildir.
 A2	Wut	öfke, hiddet	Onun öfkesi anlaşılırdı.	'Wut', 'Ärger'den (sinirlenme, bozulma) daha yoğundur: güçlü, neredeyse kontrol edilemez bir öfkeyi anlatır.
 A2	Ruhe	sakinlik, huzur	Şimdi biraz huzura ihtiyacım var.	'Lass mich in Ruhe' ('beni huzurumla bırak'), 'Ruhe'yi istenen bir durum olarak kullanır — aile çatışmalarında en yaygın ifadelerden biri.
 A2	Stress	stres	Şu sıralar çok stres altındayım.	'Stress' İngilizce'den doğrudan bir ödünç sözcüktür ve diğer Almanca soyut isimlerle benzetmeyle eril cinsiyet verilmiştir.
@@ -111,10 +111,9 @@ A2	aufpassen	dikkat etmek, sakınmak	Dikkat et, yol kaygan!	'Aufpassen auf', dik
 A2	sich konzentrieren auf	odaklanmak, yoğunlaşmak	İşime odaklanmam gerekiyor.	'Sich konzentrieren auf' belirtme hâlini alır: 'auf die Arbeit' — okul ve iş bağlamlarında çok yaygın sabit bir yapı.
 A2	nachdenken über	düşünmek, üzerinde düşünmek	Önerini düşünüyorum.	'Nachdenken über' ayrılabilirdir ve belirtme hâlini alır: 'über deinen Vorschlag'; düz 'denken an'dan farklıdır.
 A2	sich entschuldigen	özür dilemek	Özür dilemek istiyorum.	'Sich entschuldigen für' özür dilenen şeyin belirtme hâlini, kişi için ise 'bei' artı yönelme hâlini alır.
-A2	versprechen	söz vermek	Sana zamanında olacağıma söz veriyorum.	'Versprechen', 'ver-' önekli birçok fiil gibi, kendisine söz verilen kişinin yönelme hâlini alır.
+A2	versprechen	söz vermek	Sana zamanında geleceğime söz veriyorum.	'Versprechen' fiilinde kişi datif, şey akuzatif olur ('Ich verspreche dir Hilfe'). Düzensizdir: versprach, hat versprochen.
 A2	erlauben	izin vermek	Ailem buna bana izin vermiyor.	'Erlauben', izin verilen kişinin yönelme hâlini alır: 'mir erlauben'.
 A2	verbieten	yasaklamak	Burada sigara içmek yasak.	'Verboten' geçmiş ortaç olarak her yerde kamu tabelalarında kullanılır: 'Parken verboten' (park yapmak yasak), 'Rauchen verboten' (sigara içmek yasak).
-A2	empfehlen sich	tavsiye edilir olmak	Erken rezervasyon yapmak tavsiye edilir.	'Es empfiehlt sich' resmî, şahıssız bir yapıdır; yazılı metinlerde ve seyahat rehberlerinde yaygındır.
 A2	sich verspäten	gecikmek	Tren gecikti.	'Sich verspäten' bir ulaşım aracının ya da kişinin gecikmesini resmî ve belirli bir biçimde anlatır.
 A2	sich verabschieden	vedalaşmak	Kapıda vedalaşıyoruz.	'Sich verabschieden von', vedalaştığınız kişinin yönelme hâlini alır: 'von meinen Freunden'.
 A2	Vermieter	ev sahibi	Ev sahibi kirayı artırıyor.	Almanya'da kira artışları belirli bir dönemde yasal olarak azami bir yüzdeyle sınırlandırılmıştır.
@@ -143,10 +142,8 @@ A2	Flasche	şişe	Lütfen şişeyi uzat.	'Pfand' sayesinde hemen her Alman şiş
 A2	Dose	kutu, teneke	Kutu boş.	Kutular da çöpü azaltmak için 2003'te getirilen bir depozito ('Dosenpfand') taşır.
 A2	Verpackung	ambalaj	Ambalaj plastikten.	Almanya, plastik ambalajı azaltmaya dair en sıkı düzenlemelere sahip Avrupa ülkeleri arasındadır.
 A2	Umwelt	çevre	Çevreyi korumalıyız.	'Umwelt' kelimesi kelimesine 'etrafımızdaki dünya' demektir — çok saydam bir bileşik; aynı zamanda 'umweltfreundlich' (çevre dostu) sözcüğünün de köküdür.
-A2	Klima	iklim	İklim hızla değişiyor.	'Klimawandel' (iklim değişikliği), son yirmi yılda Almanya'da en çok tartışılan siyasi konulardan biri olmuştur.
 A2	Energie	enerji	Evde enerji tasarrufu yapıyoruz.	Almanya 2000'lerden beri, özellikle rüzgâr ve güneşte, yenilenebilir enerjiye büyük yatırım yaptı.
-A2	Solarenergie	güneş enerjisi	Birçok ev güneş enerjisi kullanıyor.	Güneş panelleri Alman çatılarında son derece yaygındır; yıllarca süren devlet teşvikleriyle desteklenmiştir.
-A2	sparen mit Strom	elektrikten tasarruf etmek	Mümkünse elektrikten tasarruf ediyoruz.	'Sparen', tasarruf edilen miktardan bahsedilirken edatsız doğrudan belirtme hâli nesnesi alır.
+A2	Strom sparen	elektrik tasarrufu yapmak	Mümkün olduğunda elektrikten tasarruf ediyoruz.	'Sparen' edatsız, doğrudan akuzatif nesne alır: 'Strom sparen', 'Geld sparen', 'Zeit sparen'.
 A2	Neuigkeit	haber (tek bir haber)	En son haberi duydun mu?	'Neuigkeit' tek bir haberi anlatır; çoğul 'die Nachrichten' ise bir bütün olarak haber yayınını ifade eder.
 A2	Zeitung	gazete	Her sabah gazete okurum.	'Zeitung', 'Zeit' (zaman) ile aynı kökü paylaşır: kelimesi kelimesine güncel olaylar, şimdiki zaman hakkında bilgi veren şey.
 A2	Artikel	makale, artikel	Makale çok ilginçti.	'Artikel' hem 'gazete makalesi' hem 'dilbilgisel artikel' (der/die/das) demektir — iki kavram için aynı sözcük.
@@ -171,7 +168,6 @@ A2	Vorstellungsgespräch	iş görüşmesi	Yarın bir iş görüşmem var.	'Vorst
 A2	Kollegin	iş arkadaşı (kadın)	İş arkadaşım çok yetkin.	Dişil '-in' eki, özellikle bir kadından bahsederken standart Almanca'da zorunludur.
 A2	Teamarbeit	ekip çalışması	Bizde ekip çalışması önemlidir.	'Teamarbeit', İngilizce ödünç sözcük 'Team' ile Almanca 'Arbeit' (iş) sözcüğünü birleştirir — yaygın bir melez bileşik.
 A2	Projekt	proje	Proje iyi gidiyor.	'Laufen', bir projenin nasıl gittiğini mecazen anlatmak için kullanılır; İngilizce 'the project is running well'deki 'run' gibi.
-A2	Frist	süre, son tarih	Son tarih yarın doluyor.	'Ablaufen' ayrılabilir: şimdiki zamanda 'läuft ab' olur; yaklaşan bir son tarihi anlatmak için kullanılır.
 A2	Homeoffice	evden çalışma	Bugün evden çalışıyorum.	'Homeoffice' 2020'den sonra Almanca'da son derece yaygınlaştı ve 'von zu Hause arbeiten' ifadesinin yerini neredeyse tamamen aldı.
 A2	Kündigungsfrist	ihbar süresi	İhbar süresi üç ay.	Almanya'da uzun vadeli iş sözleşmeleri için standart Kündigungsfrist çoğu zaman yasal olarak dört hafta veya daha fazladır.
 A2	Feierabendbier	mesai sonrası bira	Birlikte mesai sonrası bir bira içiyoruz.	Bu gündelik bileşik, 'Feierabend' (iş gününün sonu) ve 'Bier'i birleştirir: Almanya'da çok yaygın küçük bir toplumsal ritüel.
@@ -179,7 +175,6 @@ A2	Betriebsausflug	şirket gezisi	Şirket gezisi Haziran'da yapılıyor.	'Stattf
 A2	Gewerkschaft	sendika	O bir sendikanın üyesi.	Alman sendikaları çoğu zaman şirket şirket değil, bütün bir sektör düzeyinde müzakere eder — ayırt edici bir Avrupa modeli.
 A2	Streik	grev	Bugün demiryolu grevi var.	Toplu taşıma grevleri, özellikle Deutsche Bahn'ınkiler, nispeten sık görülür ve önceden iyi duyurulur.
 A2	Fabrik	fabrika	Amcam bir fabrikada çalışıyor.	Almanya, otomotiv endüstrisinin uluslararası sembolü olduğu, Avrupa'nın büyük imalat güçlerinden biri olmaya devam ediyor.
-A2	Fließband	montaj hattı, bant	O montaj hattında çalışıyor.	'Fließband', 'fließen' (akmak) ve 'Band' (bant) sözcüklerini birleştirir: kelimesi kelimesine 'akan bant'.
 A2	Handwerk	zanaat	Zanaatın Almanya'da uzun bir geleneği var.	'Handwerk hat goldenen Boden' ('zanaatın altın bir zemini vardır'), el sanatlarının ekonomik değeri hakkında bir Alman atasözüdür.
 A2	Tischler	marangoz	Marangoz dolabı yapıyor.	Almanya'da Tischler olmak genellikle yüksek yapılandırılmış bir sistem olan üç yıllık bir çıraklık ('Ausbildung') gerektirir.
 A2	Elektriker	elektrikçi	Bir elektrikçiye ihtiyacımız var.	Marangoz gibi, bir Alman elektrikçi de sıkı bir ikili çıraklık yolunu (okul artı iş) izler.
@@ -226,7 +221,6 @@ A2	Untersuchung	muayene, kontrol	Muayene yirmi dakika sürüyor.	'Untersuchung',
 A2	Zahnarzt	diş hekimi	Yarın diş hekiminde randevum var.	'Beim Zahnarzt', 'bei dem Zahnarzt' kısaltmasıdır: hangi muayenehaneyi ziyaret ettiğinizi belirtmek için kullanılır.
 A2	Tierarzt	veteriner	Veteriner köpeği muayene ediyor.	'Tierarzt', 'Tier' (hayvan) ve 'Arzt' (doktor) sözcüklerini birleştirir: kelimesi kelimesine 'hayvan doktoru'.
 A2	Apothekerin	eczacı (kadın)	Eczacı bana iyi tavsiye veriyor.	Dişil '-in' eki, neredeyse tüm Almanca mesleklerle aynı düzenli kalıbı izler.
-A2	Diagnose	teşhis	Doktor bir teşhis koyuyor.	'Eine Diagnose stellen' ('teşhis koymak'), tıbbi bağlamlarda kullanılan standart sabit eşdizimdir.
 A2	Behandlung	tedavi	Tedavi birkaç hafta sürüyor.	'Behandlung', sabit 'be-' önekli ayrılmaz bir fiil olan 'behandeln'den (tedavi etmek) gelir.
 A2	Konzert	konser	Bu akşam konsere gidiyoruz.	'Ins Konzert gehen' belirtme hâlini kullanır çünkü belirli bir etkinliğe doğru hareketi anlatır.
 A2	Ausstellung	sergi	Sergi pazar gününe kadar açık.	'Ausstellung', müze bağlamlarında çok yaygın ayrılabilir bir fiil olan 'ausstellen'den (sergilemek) gelir.
@@ -286,7 +280,6 @@ A2	Wetterbericht	hava raporu	Hava raporunu gördün mü?	'Wetterbericht', 'Wette
 A2	Nebel	sis	Bu sabah yoğun sis vardı.	'Im Nebel stochern' ('sisin içinde karıştırmak') kesin olmadan, karanlıkta el yordamıyla ilerlemek demektir.
 A2	Frost	don	Gece don vardı.	'Frost', 'frieren' (donmak, üşümek) ile aynı kökü paylaşır; ikisi de şiddetli kış soğuğuna bağlıdır.
 A2	Hitze	sıcak (aşırı), sıcaklık	Yazın sıcak bazen aşırıdır.	Almanya'da sıcak hava dalgaları son yıllarda giderek sıklaşmıştır; iklim değişikliğine bağlı bir sorun.
-A2	Feuchtigkeit	nem	Bugün nem yüksek.	'Feuchtigkeit', soyut '-igkeit' ekiyle 'feucht'tan (nemli) gelir; '-keit'in bir çeşidi.
 A2	Sturm	fırtına	Güçlü bir fırtına yaklaşıyor.	'Ein Sturm im Wasserglas' ('su bardağında fırtına'), İngilizce 'a storm in a teacup' ile örtüşür.
 A2	Blitz	şimşek, yıldırım	Şimşek çok parlaktı.	'Blitz', İngilizce 'blitzkrieg' sözcüğünün ve fotoğrafçılıktaki 'flaş'ın köküdür — ikisi de ani hız ve ışığa bağlıdır.
 A2	Donner	gök gürültüsü	Şimşekten sonra gök gürültüsü geldi.	'Donner', Germen mitolojisinde gök gürültüsünün koruyucusu olan İskandinav tanrısı Thor/Donar ile aynı kökü paylaşır.
@@ -332,7 +325,7 @@ A2	ehrlich	dürüst	Dürüst olmak gerekirse, bilmiyorum.	'Ehrlich gesagt' ('dü
 A2	geduldig	sabırlı	Öğretmenim çok sabırlı.	'Geduldig', Almanca'da çok üretken olan '-ig' sıfat ekiyle 'Geduld'dan (sabır) türer.
 A2	neugierig	meraklı	Çocuklar doğuştan meraklıdır.	'Neugierig', 'neu' (yeni) ve 'gierig' (açgözlü) sözcüklerini birleştirir: kelimesi kelimesine 'yeni şeylere açgözlü'.
 A2	großzügig	cömert	O zamanı konusunda çok cömert.	'Großzügig', 'groß' (büyük) ve 'Zug' (özellik/çekiş) sözcüklerini birleştirir: kelimesi kelimesine 'büyük çizgili', yani yüce gönüllü.
-A2	schüchtern	utangaç	Çocukken çok utangaçtım.	'Schüchtern' utangaçlığı tarafsız biçimde anlatır; başka dillerde bazen taşıdığı olumsuz çağrışım yoktur.
+A2	schüchtern	utangaç, çekingen	Çocukken çok utangaçtım.	'Schüchtern', utangaç kişileri ve davranışları anlatır: 'ein schüchterner Junge', 'schüchtern lächeln'.
 A2	mutig	cesur	Bu cesur bir karardı.	'Mutig', Almanca sıfat oluşumunun en düzenli kalıplarından biri olan '-ig' ekiyle 'Mut'tan (cesaret) gelir.
 A2	faul	tembel	Hafta sonları bazen tembelim.	'Faul' yiyecekler için kullanıldığında aynı zamanda 'çürük, bozulmuş' demektir — aynı sözcükten iki ayrı anlam.
 A2	fleißig	çalışkan	O çok çalışkan bir öğrenci.	'Fleißig', 'faul'un tam karşıtıdır ve çoğu zaman adanmış öğrencilere iltifat etmek için kullanılır.
@@ -344,10 +337,9 @@ A2	überrascht	şaşırmış	Partiye tamamen şaşırdım.	'Überrascht sein von
 A2	enttäuscht	hayal kırıklığına uğramış	Sonuçtan hayal kırıklığına uğradım.	'Enttäuscht', 'enttäuschen'in (hayal kırıklığına uğratmak) geçmiş ortacıdır ve 'von' artı yönelme hâliyle sıfat olarak kullanılır.
 A2	begeistert	heyecanlı, coşkulu	O gezi konusunda çok heyecanlı.	'Begeistert von' yönelme hâlini alır; 'enttäuscht' ve 'überrascht'ın kullandığı aynı yapı.
 A2	verwirrt	kafası karışmış	Talimatlar kafamı karıştırdı.	'Verwirrt', ayrılmaz 'ver-' önekli bir fiil olan 'verwirren'den (karıştırmak) gelir.
-A2	gelangweilt	sıkılmış	Çocuklar sıkılmıştı.	'Gelangweilt', ailelerde sık kullanılan dönüşlü bir fiil olan 'sich langweilen'den (sıkılmak) gelir.
+A2	gelangweilt	canı sıkılmış	Çocukların canı sıkılmıştı.	'Gelangweilt', sıfat olarak kullanılan bir ortaçtır: nasıl hissettiğinizi anlatır ('ich bin gelangweilt'). 'Langweilig' ise sıkıntının nedenini anlatır: 'der Film ist langweilig'.
 A2	zufrieden	memnun	İşimden memnunum.	'Zufrieden mit' yönelme hâlini alır: 'mit meiner Arbeit' — memnuniyeti ifade etmek için yaygın bir yapı.
 A2	nervös	gergin, sinirli	Sınavdan önce hep gerginim.	'Nervös', birçok yerli Almanca sıfatın aksine son hecede vurgulanan bir Fransızca ödünç sözcüktür.
-A2	gelassen	sakin, soğukkanlı	Stresli durumlarda bile sakin kalır.	'Gelassen', 'lassen'in (bırakmak) ortacından gelir: kelimesi kelimesine gerginliği 'bırakan' biri.
 A2	verlegen	mahcup, utangaç	Bir anda tamamen mahcup oldu.	Sıfat olarak 'verlegen', fiil olarak 'verlegen'den (taşımak, yanlış yere koymak) farklıdır — aynı biçim, bağlama göre farklı anlamlar.
 A2	dankbar	minnettar	Yardımın için sana çok minnettarım.	'Dankbar für' belirtme hâlini alır: 'für deine Hilfe'; tek başına 'dankbar' kişinin yönelme hâlini de alabilir.
 A2	Gefühl	duygu, his	Tuhaf bir his var içimde.	'Gefühl', birçok soyut nötr isme özgü toplu 'ge-' önekiyle 'fühlen'den (hissetmek) gelir.
@@ -363,3 +355,8 @@ A2	Tradition	gelenek	Bu gelenek nesillerdir yaşatılıyor.	'Pflegen' hem bir ge
 A2	Vielfalt	çeşitlilik	Lehçelerin çeşitliliği etkileyici.	Almanya'da birbirinden çok farklı düzinelerce bölgesel lehçe vardır; bazıları yalnızca standart Almanca bilenler için neredeyse anlaşılmazdır.
 A2	Dialekt	lehçe, ağız	Bavyera'da insanlar sık sık lehçeyle konuşur.	Bavyera, Saksonya ve Köln lehçesi en ayırt edici Alman lehçeleri arasındadır ve standart Almanca öğrenenlerin takip etmesi çoğu zaman zordur.
 A2	Hochdeutsch	standart Almanca	Okulda standart Almanca öğrenilir.	'Hochdeutsch' kelimesi kelimesine 'yüksek Almanca' demektir; bir değer yargısı değil, coğrafyaya bağlı tarihsel bir terimdir.
+A2	Regenbogen	gökkuşağı	Yağmurdan sonra bir gökkuşağı çıktı.	'Regenbogen' saydam bir bileşiktir: 'Regen' (yağmur) + 'Bogen' (yay), kelimesi kelimesine 'yağmur yayı'.
+A2	Termin vereinbaren	randevu almak	Bir randevu almak istiyorum.	'Vereinbaren' ayrılabilir değildir: her zaman ayrılmaz 'ver-' önekli fiiller grubuna aittir.
+A2	sich verlaufen	yolunu kaybetmek (yürürken)	Şehirde kayboldu.	'Sich verlaufen' yürürken kaybolmayı anlatır; araçla kaybolmak için karşılığı 'sich verfahren'dir.
+A2	Briefkasten	posta kutusu	Lütfen posta kutusuna bir bak.	'Briefkasten' = 'Brief' (mektup) + 'Kasten' (kutu): hem evdeki hem de sokaktaki sarı kutu için kullanılır.
+A2	Übernachtung	geceleme	Otelde bir gecelik konaklama seksen euro tutuyor.	'Übernachtung', 'übernachten' (gecelemek) fiilinin adıdır. Sıkça 'Übernachtung mit Frühstück' (kahvaltı dahil konaklama) ifadesini görürsünüz.

@@ -50,7 +50,7 @@ A1	Vater	ojciec, tata	Mój tata dużo pracuje.	„Vatertag”, niemiecki Dzień 
 A1	Bruder	brat	Mam starszego brata.	Liczba mnoga „Brüder” przyjmuje umlaut — typowy wzorzec jednosylabowych niemieckich rzeczowników rodzaju męskiego.
 A1	Schwester	siostra	Moja siostra mieszka w Kolonii.	„Geschwister” to zbiorcze słowo na „rodzeństwo” jako grupę, bez rozróżnienia płci.
 A1	Großmutter	babcia	Moja babcia lubi opowiadać historie.	W mowie potocznej prawie wszyscy mówią „Oma” zamiast pełnej formy „Großmutter”.
-A1	Großvater	dziadek	Mój dziadek był nauczycielem.	Podobnie jak „Oma”, „Opa” to czułą i znacznie częstsza forma od „Großvater”.
+A1	Großvater	dziadek	Mój dziadek był nauczycielem.	W codziennej mowie zwykle mówi się „Opa”; „Großvater” to forma neutralna lub bardziej formalna.
 A1	Milch	mleko	Nie piję mleka.	Po niemiecku „keine Milch” neguje bezpośrednio rzeczownik, podczas gdy angielski neguje czasownik przez „don't”.
 A1	Käse	ser	Ser bardzo dobrze smakuje.	Niemcy produkują ponad 600 rodzajów sera — mniej znanych za granicą niż francuskie czy włoskie, ale bardzo zróżnicowanych.
 A1	Ei	jajko	Na śniadanie jem jajko.	„Ei” to jeden z najkrótszych niemieckich rzeczowników; liczba mnoga „Eier” dodaje całą dodatkową sylabę.
@@ -59,7 +59,7 @@ A1	Fisch	ryba	W piątki często jest ryba.	Katolicka tradycja jedzenia ryby w pi
 A1	Gemüse	warzywa	Lubię jeść warzywa.	„Gemüse” to zbiorczy rzeczownik w liczbie pojedynczej: nie ma popularnej liczby mnogiej, w przeciwieństwie do angielskiego „vegetables”.
 A1	Obst	owoce	Kupujemy świeże owoce.	Podobnie jak „Gemüse”, „Obst” to zawsze zbiorczy rzeczownik w liczbie pojedynczej: nie można powiedzieć „three fruits”, trzeba „drei Obstsorten” (trzy rodzaje owoców).
 A1	Suppe	zupa	Zupa jest jeszcze gorąca.	W niemieckich stołówkach zupa jest często standardową przystawką, podawaną w porze obiadu prawie codziennie.
-A1	Salz	sól	Podaj mi proszę sól.	W niemieckim są częste idiomy kulinarne; ze solą „jemandem nicht das Salz in der Suppe gönnen” znaczy zazdrościć komuś nawet najmniejszego sukcesu.
+A1	Salz	sól	Podaj mi proszę sól.	„Salz” jest rodzaju nijakiego: „das Salz”. Utarta para to „Salz und Pfeffer”, zawsze w tej kolejności.
 A1	Zucker	cukier	Piję kawę bez cukru.	„Zucker” jest po niemiecku prawie zawsze niepoliczalny, tak jak w angielskim: mówi się „etwas Zucker” (trochę cukru), nie „ein Zucker”.
 A1	Bier	piwo	Dwa piwa, proszę.	W niemieckim barze można zamówić piwo w niezmienionej liczbie mnogiej „zwei Bier” — bez żadnej końcówki.
 A1	Wein	wino	Wino pochodzi z tego regionu.	Najsłynniejsze niemieckie regiony winiarskie, jak Mozela, produkują głównie wina białe, w przeciwieństwie do Włoch.
@@ -69,7 +69,7 @@ A1	Messer	nóż	Nóż jest bardzo ostry.	„Auf Messers Schneide stehen” („s
 A1	Gabel	widelec	Potrzebuję jeszcze widelca.	Słowo „Gabel” ma wspólny rdzeń z „gabeln” (rozwidlać się) — kształt przypomina jego zęby.
 A1	Löffel	łyżka	Weź łyżkę do zupy.	„Über den Löffel balbieren” („golić łyżką”) to stare powiedzenie oznaczające „oszukać kogoś”.
 A1	Fenster	okno	Zamknij proszę okno.	„Fenster” pochodzi od łacińskiego „fenestra”, jednego z niewielu starych romańskich zapożyczeń wciąż używanych w codziennej niemczyźnie.
-A1	Tür	drzwi	Drzwi są otwarte.	W wielu niemieckich budynkach drzwi otwierają się do wnętrza mieszkania, a nie na korytarz, ze względu na przepisy przeciwpożarowe.
+A1	Tür	drzwi	Drzwi są otwarte.	„Tür” jest rodzaju żeńskiego: „die Tür”. „Die Tür aufmachen/zumachen” = otworzyć/zamknąć drzwi. „Tor” to brama lub bramka w piłce nożnej.
 A1	Tisch	stół	Siedzimy przy stole.	„Reinen Tisch machen” („zrobić czysty stół”) znaczy raz na zawsze wyjaśnić sprawy.
 A1	Stuhl	krzesło	Krzesło jest wygodne.	Liczba mnoga „Stühle” przyjmuje umlaut, jak wiele popularnych jednosylabowych rzeczowników rodzaju męskiego.
 A1	Bett	łóżko	Wcześnie idę do łóżka.	„Ins Bett gehen” wymaga biernika, ponieważ opisuje ruch w stronę miejsca, a nie statyczne położenie.
@@ -109,7 +109,7 @@ A1	Fuß	stopa, noga	Idę do pracy pieszo.	„Zu Fuß gehen” to stałe wyrażen
 A1	Herz	serce	Moje serce bije szybko.	„Herz” to jeden z niewielu rzeczowników rodzaju nijakiego o nieregularnej deklinacji w dopełniaczu i celowniku: „des Herzens”, „dem Herzen”.
 A1	krank	chory	Dziś jestem chory.	W Niemczech zwolnienie lekarskie („Krankschreibung”) jest prawie zawsze wymagane od trzeciego dnia nieobecności.
 A1	gesund	zdrowy	On odżywia się bardzo zdrowo.	„Gesund” jest też rdzeniem słowa „Gesundheit”, używanego jako życzenie zdrowia, gdy ktoś kichnie.
-A1	Woche	tydzień	W przyszłym tygodniu wyjeżdżam.	„Nächste Woche” nie potrzebuje po niemiecku przyimka, w przeciwieństwie do niektórych innych języków, które go używają przy „w przyszłym tygodniu”.
+A1	Woche	tydzień	W przyszłym tygodniu wyjeżdżam.	„Woche” jest rodzaju żeńskiego: „die Woche”, liczba mnoga „Wochen”. „Nächste Woche” używa się bez przyimka.
 A1	Monat	miesiąc	Pierwszy miesiąc był trudny.	„Monat” ma wspólny rdzeń z „Mond” (księżyc): niemiecki miesiąc, jak w wielu językach, wywodzi się z cyklu księżycowego.
 A1	Jahr	rok	Uczę się niemieckiego od roku.	„Seit einem Jahr” używa celownika po „seit” razem z czasem teraźniejszym, a nie przeszłym jak w „I have studied”.
 A1	heute	dziś, dzisiaj	Co robisz dzisiaj?	„Heute” często stoi na pierwszym miejscu w zdaniu, spychając czasownik na drugie miejsce zgodnie z zasadą V2.
@@ -130,7 +130,7 @@ A1	Flugzeug	samolot	Samolot ląduje punktualnie.	„Flugzeug” to przejrzysty z
 A1	Schiff	statek	Statek płynie do Norwegii.	Hamburg ma jeden z największych portów w Europie, a jego historia jest głęboko związana z żeglugą.
 A1	Taxi	taksówka	Bierzemy taksówkę na dworzec.	W wielu niemieckich miastach taksówki wyglądają prawie identycznie — często to kremowe mercedesy — i jeżdżą według stałych miejskich taryf.
 A1	Koffer	walizka	Moja walizka jest za ciężka.	Niemieckie tanie linie lotnicze bardzo rygorystycznie sprawdzają wagę bagażu podręcznego.
-A1	Pass	paszport	Potrzebuję paszportu.	W strefie Schengen paszport nie jest już wymagany, ale ważny dokument tożsamości wciąż jest obowiązkowy.
+A1	Pass	paszport	Potrzebuję paszportu.	„Pass” to skrót od „Reisepass”. Dowód osobisty to „Personalausweis”; „Ausweis” oznacza dokument tożsamości w ogóle.
 A1	Karte	bilet, karta, mapa	Kupuję bilet na pociąg.	„Karte” to bardzo wszechstronne słowo: oznacza bilet, kartę kredytową, pocztówkę lub mapę, zależnie od kontekstu.
 A1	Geschäft	sklep, interes	Sklep zamyka się o osiemnastej.	„Geschäft” oznacza zarówno fizyczny sklep, jak i transakcję biznesową w sensie abstrakcyjnym — dwa znaczenia w jednym słowie.
 A1	Preis	cena, nagroda	Cena jest za wysoka.	„Preis” oznacza zarówno „cenę”, jak i „nagrodę”: „Nobelpreis” to nagroda, a nie cena do zapłacenia.
@@ -214,7 +214,7 @@ A1	elf	jedenaście	W klasie jest jedenaście uczniów.	„Elf” i „zwölf” 
 A1	zwölf	dwanaście	Dzień ma dwanaście godzin światła.	„Ein Dutzend” (tuzin) odpowiada dokładnie „zwölf” — jednostka wciąż używana u piekarza.
 A1	zwanzig	dwadzieścia	Ona ma dwadzieścia lat.	Od „zwanzig” wzwyż wszystkie liczby tworzy się przez dodawanie: „einundzwanzig” to dosłownie „jeden-i-dwadzieścia”.
 A1	dreißig	trzydzieści	On wkrótce skończy trzydzieści lat.	Niemieckie dziesiątki od „dreißig” wzwyż mają nieregularną końcówkę („-ßig”), inną niż normalne „-zig” w „zwanzig”, „vierzig” itd.
-A1	hundert	sto	Książka ma sto stron.	„Hundert” nie potrzebuje przed sobą nieokreślonego rodzajnika „ein”, w przeciwieństwie do wielu innych języków.
+A1	hundert	sto	Książka ma sto stron.	„Hundert” się nie odmienia i pisze się razem z liczebnikami: „zweihundert”, „dreihundert”.
 A1	Onkel	wuj, stryj, wujek	Mój wujek mieszka w Berlinie.	„Onkel” pochodzi od francuskiego „oncle”: jedno z wielu romańskich zapożyczeń, które weszły do niemieckiego przez arystokratyczną kulturę XVIII wieku.
 A1	Tante	ciotka, ciocia	Moja ciocia często nas odwiedza.	Podobnie jak „Onkel”, „Tante” to też francuskie zapożyczenie, które weszło do niemieckiego wraz z wieloma dworskimi słowami w XVIII wieku.
 A1	Cousin	kuzyn	Mój kuzyn studiuje medycynę.	Wymowa „Cousin” pozostaje bardzo bliska francuskiemu oryginałowi, z zachowaniem końcowego dźwięku nosowego.
@@ -248,7 +248,7 @@ A1	Fest	przyjęcie, święto	Wyprawiamy wielkie przyjęcie.	„Fest” jest rdze
 A1	Weihnachten	Boże Narodzenie	Boże Narodzenie spędzamy z rodziną.	„Weihnachten” jest historycznie gramatycznie zarówno w liczbie pojedynczej, jak i mnogiej; dziś traktuje się je prawie zawsze jako rodzaj nijaki liczby pojedynczej.
 A1	Ostern	Wielkanoc	W Wielkanoc odwiedzamy dziadków.	„Ostern” ma wspólny rdzeń z „Osten” (wschód): niektóre teorie wywodzą je od imienia dawnej germańskiej bogini jutrzenki.
 A1	Silvester	sylwester	W sylwestra są fajerwerki.	„Silvester” nazwano od papieża Sylwestra I, którego dzień przypada w kalendarzu katolickim na 31 grudnia.
-A1	Geschenk machen	robić prezent	Chciałbym ci sprezentować prezent.	„Jemandem ein Geschenk machen” używa celownika dla osoby obdarowywanej i biernika dla samego prezentu.
+A1	schenken	darować, dawać w prezencie	Daję mamie kwiaty w prezencie.	„Schenken” wymaga celownika dla osoby (meiner Mutter) i biernika dla prezentu (Blumen). Perfekt: „hat geschenkt”.
 A1	gratulieren	gratulować	Gratuluję ci urodzin.	„Gratulieren” łączy się z celownikiem osoby: „dir gratulieren”, kolejny z wielu niemieckich czasowników z celownikiem.
 A1	einladen zur Feier	zapraszać na uroczystość	Zapraszamy wszystkich przyjaciół na przyjęcie.	„Zur Feier” to skrót od „zu der Feier”: „zu” zawsze wymaga celownika.
 A1	Wohnzimmer	salon	Siedzimy w salonie.	„Wohnzimmer” to przejrzyste złożenie: „wohnen” (mieszkać) + „Zimmer” (pokój) — pokój, w którym spędza się najwięcej czasu.
@@ -260,7 +260,6 @@ A1	Balkon	balkon	Jemy śniadanie na balkonie.	„Auf dem Balkon” używa celown
 A1	Aufzug	winda	Winda jest zepsuta.	„Aufzug” pochodzi od czasownika „aufziehen” (podciągać) — znacznie bardziej konkretne określenie niż pochodzący z francuskiego „Lift”, używany też regionalnie.
 A1	Treppe	schody	Idę po schodach w górę.	„Die Treppe hoch gehen” to częsta konstrukcja potoczna, alternatywa dla bardziej formalnego „die Treppe hinaufgehen”.
 A1	Nachricht schicken	wysyłać wiadomość	Wyślę ci wiadomość.	„Schicken” łączy się z celownikiem osoby i biernikiem rzeczy wysyłanej: „dir eine Nachricht schicken”.
-A1	anrufen bitte	proszę zadzwonić	Zadzwoń do mnie, gdy dotrzesz.	„Anrufen” jest rozdzielne: w trybie rozkazującym staje się „ruf an”, z przedrostkiem oddzielonym na końcu.
 A1	warten	czekać	Czekam na ciebie.	„Warten auf” łączy się z biernikiem: „auf dich warten”, stała struktura do zapamiętania razem z czasownikiem.
 A1	suchen	szukać	Szukam swojego klucza.	„Suchen” zawsze łączy się z bezpośrednim dopełnieniem w bierniku, bez przyimka, w przeciwieństwie do wielu języków romańskich.
 A1	finden	znajdować	Nie mogę znaleźć swoich okularów.	„Finden” używa się też do wyrażania opinii: „ich finde das gut” znaczy „uważam, że to dobre”.
@@ -279,7 +278,7 @@ A1	Kleid	sukienka	Sukienka dobrze na tobie leży.	„Kleid” w liczbie mnogiej 
 A1	Socke	skarpetka	Szukam czystej skarpetki.	„Sich auf die Socken machen” („wziąć się na skarpetki”) to potoczne wyrażenie na „ruszać w drogę, pospieszyć się”.
 A1	Gürtel	pasek	Pasek jest ze skóry.	„Den Gürtel enger schnallen” („zacisnąć pasek”) znaczy konieczność ograniczenia wydatków, tak jak w angielskim idiomie.
 A1	Ring	pierścionek	Ona nosi złoty pierścionek.	W Niemczech pierścionek zaręczynowy nosi się często na lewej ręce, a po ślubie przenosi na prawą.
-A1	Uhr tragen	nosić zegarek	On zawsze nosi zegarek.	„Tragen” znaczy zarówno „nosić (na sobie)”, jak i „nieść” — kontekst wyjaśnia, o które znaczenie chodzi.
+A1	tragen	nosić	On zawsze nosi zegarek.	„Tragen” jest nieregularne: „er trägt”, Perfekt „hat getragen”. Znaczy zarówno „nosić na sobie”, jak i „nieść”; wynika to z kontekstu.
 A1	laufen	biegać, chodzić	Co rano biegam w parku.	W południowoniemieckich dialektach „laufen” często znaczy po prostu „iść pieszo”, a na północy dokładniej „biegać”.
 A1	schwimmen	pływać	Latem często pływamy.	Perfekt od „schwimmen” używa „sein”: „ich bin geschwommen”, ponieważ opisuje ruch ze zmianą stanu.
 A1	springen	skakać	Dziecko skacze z radości.	„Springen” używa „sein” w Perfekt, gdy opisuje ruch: „ich bin gesprungen”.
@@ -291,14 +290,12 @@ A1	packen	pakować	Muszę jeszcze spakować walizkę.	„Packen” łączy się 
 A1	Ausweis	dowód osobisty	Proszę okazać dowód osobisty.	W Niemczech posiadanie przy sobie ważnego dokumentu tożsamości jest wymogiem prawnym.
 A1	Formular	formularz	Proszę wypełnić formularz.	„Ausfüllen” jest rozdzielne: „füllen Sie aus” w formalnym trybie rozkazującym, z przedrostkiem oddzielonym na końcu.
 A1	Unterschrift	podpis	Potrzebuję pańskiego podpisu.	„Unterschrift” to złożenie: „unter” (pod) + „Schrift” (pismo), dosłownie „pismo pod” dokumentem.
-A1	Termin vereinbaren	umawiać wizytę	Chciałbym umówić wizytę.	„Vereinbaren” nie jest rozdzielne: należy do grupy czasowników z zawsze nierozdzielnym przedrostkiem „ver-”.
 A1	Rezept	recepta, przepis	Lekarz wypisuje receptę.	„Rezept” oznacza zarówno „receptę lekarską”, jak i „przepis kulinarny” — niemieckie słowo obejmuje oba znaczenia, tak jak we włoskim.
 A1	Fieber	gorączka	Dziecko ma gorączkę.	„Fieber haben” nie potrzebuje rodzajnika przed rzeczownikiem — stała struktura częsta z wieloma objawami.
 A1	Husten	kaszel	Od kilku dni mam kaszel.	„Seit Tagen” używa celownika liczby mnogiej po „seit”, w parze z czasem teraźniejszym dla czynności wciąż trwającej.
 A1	Schmerzen	ból	Mam silne bóle.	„Schmerzen” jest po niemiecku prawie zawsze używane w liczbie mnogiej dla bólu fizycznego, nawet przy pojedynczym, zlokalizowanym bólu.
 A1	Tablette	tabletka	Weź tę tabletkę na ból.	„Gegen” zawsze wymaga biernika: „gegen die Schmerzen” (przeciw bólowi) — bardzo częsty przyimek w kontekście medycznym.
 A1	Versicherung	ubezpieczenie	Mam dobre ubezpieczenie.	W Niemczech ubezpieczenie zdrowotne jest obowiązkiem prawnym od 1883 roku — pierwszy taki system na świecie.
-A1	Woche geht schnell	tydzień szybko mija	W tym tygodniu naprawdę szybko minął czas.	„Vergehen” opisuje upływ czasu i odmienia się z „sein” w Perfekt: „ist vergangen”.
 A1	links	w lewo, po lewej	Proszę tu skręcić w lewo.	„Links” i „rechts” nie przyjmują końcówek: to niezmienne przysłówki używane do wskazywania kierunków na ulicy.
 A1	rechts	w prawo, po prawej	Poczta jest po prawej.	„Nach rechts” wskazuje ruch w prawo, a samo „rechts” wskazuje położenie statyczne.
 A1	geradeaus	prosto	Proszę iść po prostu prosto.	„Geradeaus” to złożenie „gerade” (prosto) i „aus”, dziś jeden niezmienny przysłówek.
@@ -311,10 +308,10 @@ A1	Stau	korek	Stoimy w korku.	Niemieckie autostrady („Autobahn”) słyną z b
 A1	Parkplatz	miejsce parkingowe	Nie znaleźliśmy miejsca parkingowego.	W centrach niemieckich miast parkowanie jest często płatne i regulowane obowiązkowym limitem czasu z tarczą parkingową.
 A1	Fahrkarte	bilet (na przejazd)	Nie mam przy sobie biletu.	W niemieckim transporcie publicznym kontrole biletów są często wyrywkowe, ale kary za jazdę bez biletu są bardzo wysokie.
 A1	Gleis	peron, tor	Pociąg odjeżdża z peronu trzeciego.	Na niemieckich dworcach peron może się zmienić w ostatniej chwili — zawsze warto sprawdzić tablice.
-A1	Fahrplan	rozkład jazdy	Sprawdzam w rozkładzie jazdy.	„Nachschauen” jest rozdzielne: „schaue nach” w czasie teraźniejszym, z przedrostkiem oddzielonym na końcu zdania.
+A1	Fahrplan	rozkład jazdy	Sprawdzam rozkład jazdy.	„Fahrplan” to rozkład jazdy pociągów i autobusów. Dla szkoły jest „Stundenplan”, dla zmian w pracy „Dienstplan”.
 A1	Ticket kaufen	kupować bilet	Kupuję bilet przez internet.	W Niemczech bilety kupione online są często tańsze niż te kupowane bezpośrednio w pojeździe.
 A1	Ausflug machen	jechać na wycieczkę	Jutro jedziemy na wycieczkę.	„Einen Ausflug machen” to standardowa struktura do mówienia o wycieczkach — nie ma prostego czasownika „ausflügen”.
-A1	Karte spielen	grać w karty	Wieczorami często gramy w karty.	„Karten spielen” nie wymaga rodzajnika przed „Karten”, gdy mówi się o czynności ogólnie.
+A1	Karten spielen	grać w karty	Wieczorami często gramy w karty.	Tę czynność wyraża się w liczbie mnogiej: „Karten spielen”. Liczba pojedyncza „Karte” to pojedyncza karta, bilet lub mapa.
 A1	Ball	piłka	Dzieci bawią się piłką.	„Mit dem Ball spielen” używa celownika po „mit”, jednym z najczęstszych przyimków z celownikiem.
 A1	Fußball	piłka nożna	Piłka nożna jest w Niemczech bardzo popularna.	Niemiecka Bundesliga należy do najchętniej oglądanych lig piłkarskich na świecie, z jedną z najwyższych frekwencji na stadionach.
 A1	Schwimmbad	basen	Idziemy na basen.	Wiele niemieckich miast prowadzi publiczne baseny miejskie (latem odkryty „Freibad”) po bardzo przystępnych cenach.
@@ -324,7 +321,6 @@ A1	Fitnessstudio	siłownia	Chodzę na siłownię trzy razy w tygodniu.	„Dreima
 A1	Handtuch	ręcznik	Potrzebuję czystego ręcznika.	„Handtuch” to złożenie: „Hand” (ręka) + „Tuch” (ścierka), mimo że dziś używa się go dla całego ciała.
 A1	Seife	mydło	Mydło pachnie lawendą.	„Riechen nach” łączy się z celownikiem: „nach Lavendel”, używane do opisu konkretnego zapachu.
 A1	Zahnbürste	szczoteczka do zębów	Zapomniałem szczoteczki do zębów.	„Zahnbürste” to złożenie: „Zahn” (ząb) + „Bürste” (szczotka), dosłownie „szczotka do zębów”.
-A1	Spiegelbild	odbicie	Widzę swoje odbicie.	„Spiegelbild” łączy „Spiegel” (lustro) i „Bild” (obraz): obraz odbity w lustrze.
 A1	Haar	włos, włosy	Ona ma długie włosy.	Liczba pojedyncza „Haar” może oznaczać pojedynczy włos lub, potocznie, włosy jako całość.
 A1	Bart	broda	On nosi krótką brodę.	Zadbana broda wróciła w Niemczech do mody w ostatniej dekadzie, zwłaszcza wśród młodszych ludzi.
 A1	Brille	okulary	Potrzebuję nowych okularów.	„Brille” jest po niemiecku w liczbie pojedynczej dla jednej pary okularów, podczas gdy angielski używa liczby mnogiej „glasses”.
@@ -333,7 +329,7 @@ A1	Nase	nos	Mam zatkany nos.	„Die Nase voll haben” („mieć pełny nos”) 
 A1	Mund	usta	Otwórz usta.	„Aufmachen” jest rozdzielne: „mach auf” w potocznym trybie rozkazującym, z przedrostkiem oddzielonym na końcu.
 A1	Zahn	ząb	Boli mnie ząb.	Liczba mnoga „Zähne” przyjmuje umlaut, jak wiele krótkich rzeczowników rodzaju męskiego oznaczających części ciała.
 A1	Bein	noga	On złamał sobie nogę.	„Sich das Bein brechen” używa zwrotnego celownika „sich” plus biernika „das Bein”: dotknięta część ciała jest dopełnieniem bliższym.
-A1	Arm	ramię, ręka	Ona ma silne ramię.	„Arm” jako przymiotnik znaczy też „biedny”: dwa identycznie zapisywane słowa o zupełnie różnym pochodzeniu.
+A1	Arm	ramię, ręka	Boli mnie ręka.	„Arm” jako przymiotnik znaczy też „biedny”: dwa identycznie zapisywane słowa o zupełnie różnym pochodzeniu.
 A1	Finger	palec	Skaleczyłem się w palec.	„Sich in den Finger schneiden” opisuje przypadkowe zranienie za pomocą zwrotnego celownika i biernika dotkniętej części.
 A1	Bauch	brzuch	Boli mnie brzuch.	„Bauchschmerzen” (ból brzucha) to bardzo częste złożenie, którego rodzice używają wobec małych dzieci.
 A1	Rücken	plecy	Bolą mnie plecy.	„Hinter dem Rücken” („za plecami”) znaczy robić coś „za czyimiś plecami”, tak jak w angielskim.
@@ -341,7 +337,6 @@ A1	Schulter	bark, ramię	On niesie torbę na ramieniu.	„Auf der Schulter” u�
 A1	Sonnenschein	blask słońca	Cieszymy się słońcem.	„Genießen” zawsze łączy się z bezpośrednim dopełnieniem w bierniku bez przyimka: „den Sonnenschein genießen”.
 A1	Wolke	chmura	Niebo jest pełne chmur.	„Auf Wolke sieben schweben” („unosić się na chmurze siódmej”) to niemiecki odpowiednik angielskiego „to be on cloud nine”.
 A1	Gewitter	burza	Dziś wieczorem będzie burza.	„Es gibt” plus biernik to standardowa struktura do zapowiadania zjawisk pogodowych lub istnienia czegoś.
-A1	Regenbogen	tęcza	Po deszczu pojawiła się tęcza.	„Regenbogen” to przejrzyste złożenie: „Regen” (deszcz) + „Bogen” (łuk), dosłownie „łuk deszczu”.
 A1	Insel	wyspa	Sylt to znana wyspa.	Sylt na Morzu Północnym to jedno z najbardziej ekskluzywnych miejsc plażowych, uwielbiane przez zamożnych Niemców.
 A1	Strand	plaża	Leżymy na plaży cały dzień.	„Am Strand” używa celownika, ponieważ opisuje, gdzie się jest, czyli położenie, a nie ruch.
 A1	Sand	piasek	Piasek jest bardzo drobny.	„Sand ins Getriebe streuen” („sypać piasek w trybiki”) znaczy sabotować lub utrudniać jakiś proces.
@@ -352,10 +347,8 @@ A1	Zelt	namiot	Śpimy w namiocie.	Camping to w Niemczech bardzo popularne letnie
 A1	Feuer machen	rozpalać ogień	Wieczorem rozpalamy ognisko.	„Ein Feuer machen” to stała struktura na „rozpalić ognisko”, inna niż „anzünden” używane przy zapałkach czy świecach.
 A1	Rucksack	plecak	Mój plecak jest bardzo ciężki.	„Rucksack” to złożenie: „Rücken” (plecy) + „Sack” (worek), dosłownie „worek na plecy”.
 A1	Landkarte	mapa	Patrzymy na mapę.	„Landkarte” odróżnia mapę geograficzną od ogólnego „Karte”, które może też znaczyć bilet lub kartę kredytową.
-A1	Kompass	kompas	Bez kompasu nie znajdziemy drogi.	„Ohne” zawsze łączy się z biernikiem: „ohne Kompass”, jeden z najczęstszych przyimków z biernikiem obok „für” i „durch”.
 A1	Weg	droga, ścieżka	Droga na dworzec jest krótka.	„Weg” oznacza zarówno fizyczną ścieżkę, jak i w przenośni „sposób, środek”, jak w „znaleźć sposób, bez względu na wszystko”.
 A1	Richtung	kierunek	Jedziemy w złym kierunku.	„In die Richtung” używa biernika, ponieważ opisuje ruch skierowany w konkretnym kierunku.
-A1	verlaufen sich	zabłądzić (pieszo)	Zabłądziliśmy w mieście.	„Sich verlaufen” opisuje zgubienie się pieszo; „sich verfahren” to odpowiednik zgubienia się podczas jazdy.
 A1	Reiseführer	przewodnik turystyczny	Kupujemy przewodnik po Berlinie.	„Reiseführer” oznacza zarówno książkę, jak i osobę oprowadzającą turystów — dwa znaczenia w jednym słowie.
 A1	Sehenswürdigkeit	zabytek, atrakcja	Katedra w Kolonii to słynna atrakcja.	„Sehenswürdigkeit” łączy „sehen” (widzieć) i „würdig” (godny): dosłownie „to, co warto zobaczyć”.
 A1	Foto machen	robić zdjęcie	Możesz zrobić zdjęcie?	„Ein Foto machen” to forma standardowa; czasownik „fotografieren” istnieje, ale jest nieco bardziej formalny.
@@ -367,3 +360,5 @@ A1	Wörterbuch	słownik	Często używam słownika.	„Wörterbuch” to złożen
 A1	üben	ćwiczyć	Ćwiczę niemiecki codziennie.	„Üben” jest regularne i leży u podstaw „Übung” (ćwiczenie), jednego z najczęstszych słów w materiałach do nauki.
 A1	Fehler machen	popełniać błędy	To normalne popełniać błędy.	„Fehler machen” to struktura standardowa; bezokolicznik z „zu” podlega precyzyjnym regułom po wyrażeniach bezosobowych jak „es ist normal”.
 A1	Prüfung bestehen	zdać egzamin	Mam nadzieję zdać egzamin.	„Bestehen” nie jest rozdzielne: należy do grupy czasowników z zawsze nierozdzielnym przedrostkiem „be-”.
+A1	Mittagspause	przerwa obiadowa	W przerwie obiadowej jemy w stołówce.	„Mittagspause” łączy „Mittag” i „Pause”. Mówi się „Mittagspause machen” lub „in der Mittagspause”.
+A1	Ankunft	przyjazd, przybycie	Pociąg przyjeżdża o dziesiątej.	„Ankunft” jest rodzaju żeńskiego i pochodzi od „ankommen”. Przeciwieństwem jest „Abfahrt” (odjazd).

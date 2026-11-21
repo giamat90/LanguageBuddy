@@ -1,5 +1,5 @@
 A2	einkaufen	购物，买东西	我今天晚上去购物。	德国的超市关门早，而且几乎每个星期日都不营业，这让来自地中海国家的游客感到惊讶。
-A2	anrufen	打电话，来电	我明天给你打电话。	德国人乐于用正式的电话来处理别人用短信解决的事情，比如取消预约。
+A2	anrufen	打电话给	我明天给你打电话。	“Anrufen”是可分动词：“ich rufe an”，完成时“hat angerufen”。它接第四格：“jemanden anrufen”。
 A2	fahren	开车，行驶，出行	她每天骑自行车。	“fährt”中的“a → ä”元音变化是德语最常见的不规则模式之一，几十个日常动词都有。
 A2	Freizeit	空闲时间，业余时间	我在业余时间弹吉他。	德国人坚决捍卫自己的Freizeit：法律保障至少20天带薪休假，无偿加班是不被认可的。
 A2	Küche	厨房，菜系	德国菜非常多样。	在德语中，“Küche”既指房间也指烹饪传统——一个词表示两个核心概念。
@@ -7,7 +7,7 @@ A2	essen	吃，吃饭	他喜欢吃鱼。	“essen”的不规则形式“isst”
 A2	Urlaub	休假，度假	我们去意大利度假。	德国是世界上旅游消费最高的国家之一，意大利长期以来都是德国人最喜爱的目的地。
 A2	Krankenhaus	医院	医院在市中心。	“Krankenhaus”字面意思是“病人的房子”，是透明的复合词：德语的意思往往把词拆开就能解读。
 A2	Kollege	同事	我的同事总是帮我。	德国人把Kollege（工作同事）和Freund（朋友）区分得很清楚：称同事为“Freund”意味着深厚得多的情谊。
-A2	aufräumen	收拾，整理	我在收拾我的房间。	“Ordnung”（秩序）在德国非常重要，“Ordnung muss sein”（“必须有秩序”）几乎成了全国的座右铭。
+A2	aufräumen	整理，收拾	我在收拾我的房间。	“Aufräumen”是可分动词：“ich räume auf”，完成时“hat aufgeräumt”。
 A2	abfahren	出发，驶离	火车五分钟后出发。	在德国的显示牌上，出发是“Abfahrt”，到达是“Ankunft”——两个由可分动词派生的名词。
 A2	Rechnung	账单，发票	请给我们账单好吗？	在德国的餐馆，常会被问“zusammen oder getrennt?”（“一起还是分开？”）——分开结账完全正常。
 A2	vorbereiten	准备	我在准备饭菜。	前缀“vor-”（在前）能构成几十个可分动词，如“vorschlagen”（建议）和“vorstellen”（介绍）。
@@ -101,7 +101,7 @@ A2	Überraschung	惊喜，意外	那真是个美妙的惊喜！	“Überraschung
 A2	Sorge	担忧，忧虑	别担心。	“Sich Sorgen machen”（“给自己制造忧虑”）是表达焦虑或担忧的标准说法。
 A2	Wunsch	愿望，心愿	你有什么特别的愿望吗？	“Auf Wunsch”（“应要求”）是服务语境中非常常见的短语，从餐馆到政府机关都有。
 A2	Freude	快乐，喜悦	喜悦之情很浓。	“Mit Freude”（“欣然”）是标准短语，即使在正式信件中也用来接受邀请。
-A2	Angst	害怕，恐惧	她不怕狗。	“Angst”总是阴性单数，但可以用复数“Ängste”来谈论几种不同的恐惧。
+A2	Angst	恐惧，害怕	她不怕狗。	“Angst haben vor”后接第三格：“Angst vor Hunden”。复数“Ängste”存在但很少用，通常用单数。
 A2	Wut	愤怒，怒火	他的愤怒是可以理解的。	“Wut”比“Ärger”（恼火，生气）更强烈：它描述强烈的、几乎无法控制的愤怒。
 A2	Ruhe	平静，安静	我现在需要一点安静。	“Lass mich in Ruhe”（“让我安静”）把“Ruhe”作为一种期望的状态——家庭冲突中最常见的表达之一。
 A2	Stress	压力，紧张	我目前压力很大。	“Stress”是直接借自英语的词，类比其他德语抽象名词被定为阳性。
@@ -111,10 +111,9 @@ A2	aufpassen	注意，小心	小心，路很滑！	“Aufpassen auf”在说明�
 A2	sich konzentrieren auf	专注于，集中精力于	我得专心工作。	“Sich konzentrieren auf”接四格：“auf die Arbeit”——在学校和工作语境中非常常见的固定结构。
 A2	nachdenken über	思考，考虑	我在考虑你的建议。	“Nachdenken über”是可分动词，接四格：“über deinen Vorschlag”，不同于单纯的“denken an”。
 A2	sich entschuldigen	道歉，请求原谅	我想道个歉。	“Sich entschuldigen für”对所道歉的事用四格，对人则用“bei”加三格。
-A2	versprechen	承诺，答应	我向你保证会准时。	“Versprechen”对被承诺的人用三格，和许多带前缀“ver-”的动词一样。
+A2	versprechen	答应，承诺	我答应你会准时。	“Versprechen”：人用第三格，事物用第四格（“Ich verspreche dir Hilfe”）。它是不规则动词：versprach, hat versprochen。
 A2	erlauben	允许，准许	我父母不允许我那样做。	“Erlauben”对被允许的人用三格：“mir erlauben”。
 A2	verbieten	禁止，不准	这里禁止吸烟。	作为过去分词，“verboten”到处出现在公共标志上：“Parken verboten”（禁止停车），“Rauchen verboten”（禁止吸烟）。
-A2	empfehlen sich	宜，最好	最好提早预订。	“Es empfiehlt sich”是正式的无人称结构，常见于书面文本和旅游指南。
 A2	sich verspäten	迟到，晚点	火车晚点了。	“Sich verspäten”以正式而具体的方式描述交通工具或人的迟到。
 A2	sich verabschieden	告别，道别	我们在门口告别。	“Sich verabschieden von”对告别的人用三格：“von meinen Freunden”。
 A2	Vermieter	房东	房东要涨房租。	在德国，房租上涨在一定期间内受法律规定的最高百分比限制。
@@ -143,10 +142,8 @@ A2	Flasche	瓶子	请把瓶子递给我。	由于“Pfand”，几乎每个德�
 A2	Dose	罐，罐头	罐子空了。	罐子也有押金（“Dosenpfand”），于2003年引入，以减少乱扔垃圾。
 A2	Verpackung	包装	包装是塑料的。	德国是欧洲对减少塑料包装规定最严格的国家之一。
 A2	Umwelt	环境	我们必须保护环境。	“Umwelt”字面意思是“周围的世界”——非常透明的复合词，也是“umweltfreundlich”（环保的）的词根。
-A2	Klima	气候	气候变化得很快。	“Klimawandel”（气候变化）在过去二十年里一直是德国辩论最多的政治话题之一。
 A2	Energie	能源，能量	我们在家里节约能源。	自2000年代以来，德国在可再生能源，特别是风能和太阳能方面投入巨大。
-A2	Solarenergie	太阳能	许多房子使用太阳能。	太阳能板在德国屋顶上极为常见，多年的国家补贴起了推动作用。
-A2	sparen mit Strom	节约用电	可能的话我们节约用电。	“Sparen”在指节省的数量时，直接接四格宾语，不需要介词。
+A2	Strom sparen	节约用电	我们尽可能节约用电。	“Sparen”直接接第四格宾语，不用介词：“Strom sparen”、“Geld sparen”、“Zeit sparen”。
 A2	Neuigkeit	新消息，新闻	你听说最新的消息了吗？	“Neuigkeit”指一条消息，而复数“die Nachrichten”指整个新闻广播。
 A2	Zeitung	报纸	我每天早上看报纸。	“Zeitung”与“Zeit”（时间）同根：字面意思是告知当前时间、时事的东西。
 A2	Artikel	文章，冠词	这篇文章非常有趣。	“Artikel”既指“报纸文章”也指“语法冠词”（der/die/das）——一个词表示两个概念。
@@ -171,7 +168,6 @@ A2	Vorstellungsgespräch	面试，求职面试	我明天有个面试。	“Vorst
 A2	Kollegin	女同事	我的女同事非常能干。	在标准德语中，专指女性时必须使用阴性词尾“-in”。
 A2	Teamarbeit	团队合作	团队合作对我们很重要。	“Teamarbeit”把英语借词“Team”与德语词“Arbeit”（工作）结合在一起——常见的混合复合词。
 A2	Projekt	项目，计划	项目进展顺利。	“Laufen”被比喻性地用来描述项目的进展，就像英语的“the project is running well”。
-A2	Frist	期限，截止日期	期限明天到期。	“Ablaufen”是可分动词：现在时为“läuft ab”，用来描述期限临近。
 A2	Homeoffice	居家办公，在家办公	我今天在家办公。	“Homeoffice”在2020年之后在德语中变得极为常见，几乎完全取代了“von zu Hause arbeiten”这个说法。
 A2	Kündigungsfrist	解约通知期	解约通知期为三个月。	在德国，长期雇佣合同的标准Kündigungsfrist依法往往是四周或更长。
 A2	Feierabendbier	下班后的啤酒	我们一起喝杯下班啤酒。	这个随意的复合词把“Feierabend”（工作日结束）和“Bier”结合在一起：德国非常常见的小小社交仪式。
@@ -179,7 +175,6 @@ A2	Betriebsausflug	公司郊游	公司郊游在六月举行。	“Stattfinden”
 A2	Gewerkschaft	工会	他是一个工会的成员。	德国的工会往往在整个行业层面而不是逐个公司谈判——一种独特的欧洲模式。
 A2	Streik	罢工	今天有铁路罢工。	公共交通的罢工，尤其是德国铁路的罢工，相对频繁，并且会提前很久通知。
 A2	Fabrik	工厂	我叔叔在一家工厂工作。	德国仍然是欧洲的制造业强国之一，汽车工业是其国际象征。
-A2	Fließband	流水线，传送带	他在流水线上工作。	“Fließband”由“fließen”（流动）和“Band”（带）组成：字面意思是“流动的带子”。
 A2	Handwerk	手工业，手艺	手工业在德国有悠久的传统。	“Handwerk hat goldenen Boden”（“手艺有金子般的根基”）是关于手工行业经济价值的德语谚语。
 A2	Tischler	木匠，细木工	木匠在做衣柜。	在德国，成为Tischler通常需要三年的学徒培训（“Ausbildung”），是高度结构化的体系。
 A2	Elektriker	电工	我们需要一个电工。	和木匠一样，德国电工也要经过严格的双元制学徒之路（学校加工作）。
@@ -226,7 +221,6 @@ A2	Untersuchung	检查，体检	检查需要二十分钟。	“Untersuchung”�
 A2	Zahnarzt	牙医	我明天约了牙医。	“Beim Zahnarzt”是“bei dem Zahnarzt”的缩合形式：用来表示你要去谁的诊所。
 A2	Tierarzt	兽医	兽医在检查狗。	“Tierarzt”由“Tier”（动物）和“Arzt”（医生）组成：字面意思是“动物医生”。
 A2	Apothekerin	女药剂师	药剂师给了我很好的建议。	阴性词尾“-in”遵循与几乎所有德语职业相同的规则模式。
-A2	Diagnose	诊断	医生作出诊断。	“Eine Diagnose stellen”（“作出诊断”）是医疗语境中使用的标准固定搭配。
 A2	Behandlung	治疗，处理	治疗需要几个星期。	“Behandlung”来自“behandeln”（治疗），一个带固定前缀“be-”的不可分动词。
 A2	Konzert	音乐会	我们今天晚上去听音乐会。	“Ins Konzert gehen”用四格，因为它描述的是朝向某个具体活动的移动。
 A2	Ausstellung	展览	展览开放到星期日。	“Ausstellung”来自“ausstellen”（展出），博物馆语境中非常常见的可分动词。
@@ -286,7 +280,6 @@ A2	Wetterbericht	天气预报	你看天气预报了吗？	“Wetterbericht”由
 A2	Nebel	雾	今天早上雾很浓。	“Im Nebel stochern”（“在雾里乱戳”）意思是在没有把握的情况下推进，摸黑摸索。
 A2	Frost	霜冻，严寒	夜里有霜冻。	“Frost”与“frieren”（冻）同根，都与冬天的严寒有关。
 A2	Hitze	酷热，高温	夏天的酷热有时很极端。	近年来德国的热浪越来越频繁，这是与气候变化相关的问题。
-A2	Feuchtigkeit	湿度，潮湿	今天空气湿度很高。	“Feuchtigkeit”来自“feucht”（潮湿的）加抽象后缀“-igkeit”，是“-keit”的变体。
 A2	Sturm	风暴，暴风雨	一场强风暴正在逼近。	“Ein Sturm im Wasserglas”（“水杯里的风暴”）与英语的“茶杯里的风暴”相同。
 A2	Blitz	闪电	闪电非常亮。	“Blitz”是英语词“blitzkrieg”和摄影“闪光灯”的词根——都与突然的速度和光亮有关。
 A2	Donner	雷，雷声	闪电之后是雷声。	“Donner”与北欧神托尔/多纳尔同根，他在日耳曼神话中是雷的守护者。
@@ -332,7 +325,7 @@ A2	ehrlich	诚实的，老实的	说实话，我不知道。	“Ehrlich gesagt�
 A2	geduldig	耐心的	我的老师非常有耐心。	“Geduldig”由“Geduld”（耐心）加形容词后缀“-ig”派生，在德语中非常能产。
 A2	neugierig	好奇的	孩子天生好奇。	“Neugierig”由“neu”（新）和“gierig”（贪婪）组成：字面意思是“对新事物贪婪”。
 A2	großzügig	慷慨的，大方的	他在时间上非常大方。	“Großzügig”由“groß”（大）和“Zug”（特征/拉）组成：字面意思是“特质宏大的”，即宽宏大量。
-A2	schüchtern	害羞的，腼腆的	小时候我很害羞。	“Schüchtern”以中性方式描述害羞，没有它在其他语言中有时带有的负面含义。
+A2	schüchtern	害羞的，腼腆的	我小时候非常害羞。	“Schüchtern”形容害羞的人和行为：“ein schüchterner Junge”（一个腼腆的男孩）、“schüchtern lächeln”（腼腆地微笑）。
 A2	mutig	勇敢的	这是一个勇敢的决定。	“Mutig”来自“Mut”（勇气）加后缀“-ig”，是德语形容词构成最规则的模式之一。
 A2	faul	懒的，腐烂的	周末我有时很懒。	“Faul”用于食物时也表示“腐烂的，变质的”——同一个词有两个不同的含义。
 A2	fleißig	勤奋的，用功的	她是个非常勤奋的学生。	“Fleißig”是“faul”的直接反义词，常用来称赞用功的学生。
@@ -344,10 +337,9 @@ A2	überrascht	惊讶的，吃惊的	我对这个派对完全感到惊讶。	“
 A2	enttäuscht	失望的	我对结果感到失望。	“Enttäuscht”是“enttäuschen”（使失望）的过去分词，用作形容词，与“von”加三格连用。
 A2	begeistert	热情的，兴奋的	她对这次旅行很兴奋。	“Begeistert von”接三格，与“enttäuscht”和“überrascht”所用的结构相同。
 A2	verwirrt	困惑的，迷惑的	这些说明让我很困惑。	“Verwirrt”来自“verwirren”（使困惑），一个带前缀“ver-”的不可分动词。
-A2	gelangweilt	无聊的，厌烦的	孩子们很无聊。	“Gelangweilt”来自“sich langweilen”（感到无聊），一个在家庭中常用的反身动词。
+A2	gelangweilt	感到无聊的	孩子们觉得很无聊。	“Gelangweilt”是用作形容词的分词：描述你的感受（“ich bin gelangweilt”）。“Langweilig”描述造成无聊的事物：“der Film ist langweilig”。
 A2	zufrieden	满意的，满足的	我对我的工作很满意。	“Zufrieden mit”接三格：“mit meiner Arbeit”——表达满意的常见结构。
 A2	nervös	紧张的，不安的	考试之前我总是很紧张。	“Nervös”是借自法语的词，重音在最后一个音节，不同于许多德语本土形容词。
-A2	gelassen	镇定的，从容的	即使在压力情境下她也保持镇定。	“Gelassen”来自“lassen”（放开）的分词：字面意思是“放下”紧张的人。
 A2	verlegen	尴尬的，窘迫的	他变得很尴尬。	作形容词的“verlegen”不同于作动词的“verlegen”（移动，放错地方）——形式相同，意思因语境而异。
 A2	dankbar	感激的，感谢的	我非常感谢你的帮助。	“Dankbar für”接四格：“für deine Hilfe”，而单独的“dankbar”也可以对人用三格。
 A2	Gefühl	感觉，情感	我有一种奇怪的感觉。	“Gefühl”来自“fühlen”（感觉），带有许多抽象中性名词典型的集合前缀“ge-”。
@@ -363,3 +355,8 @@ A2	Tradition	传统	这一传统已被保持了几代人。	“Pflegen”既指�
 A2	Vielfalt	多样性	方言的多样性令人印象深刻。	德国有几十种差别很大的地方方言，有些对只会标准德语的人几乎无法理解。
 A2	Dialekt	方言	在巴伐利亚，人们常说方言。	巴伐利亚方言、萨克森方言和科隆方言是最有特色的德语方言之一，标准德语学习者常常难以听懂。
 A2	Hochdeutsch	标准德语	在学校里学的是标准德语。	“Hochdeutsch”字面意思是“高地德语”，是与地理相关的历史术语，而不是价值判断。
+A2	Regenbogen	彩虹	雨后出现了彩虹。	“Regenbogen”是透明的复合词：“Regen”（雨）+“Bogen”（弧），字面意思是“雨的弧”。
+A2	Termin vereinbaren	预约，约定时间	我想预约一个时间。	“Vereinbaren”不可分：它属于总是带不可分前缀“ver-”的动词一类。
+A2	sich verlaufen	迷路（步行）	我们在城里迷路了。	“Sich verlaufen”描述步行时迷路；“sich verfahren”是开车时迷路的对应说法。
+A2	Briefkasten	信箱	请看一下信箱。	“Briefkasten”=“Brief”（信）+“Kasten”（箱）：既指家里的信箱，也指街上的黄色邮筒。
+A2	Übernachtung	住宿一晚，过夜	酒店住一晚要八十欧元。	“Übernachtung”是“übernachten”（过夜）的名词形式。常见“Übernachtung mit Frühstück”（住宿含早餐）。

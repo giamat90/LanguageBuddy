@@ -1,6 +1,6 @@
 # TASK-059 — German word bank: fix what the native-agent audit found
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-058 (done)

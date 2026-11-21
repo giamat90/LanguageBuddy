@@ -50,7 +50,7 @@ A1	Vater	父亲，爸爸	我爸爸工作很多。	“Vatertag”即德国的父�
 A1	Bruder	哥哥，弟弟，兄弟	我有一个哥哥。	复数“Brüder”要变音——这是德语单音节阳性名词的典型模式。
 A1	Schwester	姐姐，妹妹，姐妹	我姐姐住在科隆。	“Geschwister”是“兄弟姐妹”的集体名词，不区分性别。
 A1	Großmutter	祖母，外祖母	我奶奶喜欢讲故事。	在日常口语中，几乎所有人都说“Oma”而不是完整形式“Großmutter”。
-A1	Großvater	祖父，外祖父	我爷爷是老师。	与“Oma”一样，“Opa”是“Großvater”亲切且常用得多的形式。
+A1	Großvater	祖父，外祖父	我的祖父是老师。	日常口语中人们通常说“Opa”；“Großvater”是中性或较正式的说法。
 A1	Milch	牛奶	我不喝牛奶。	在德语中“keine Milch”直接否定名词，而英语用“don't”否定动词。
 A1	Käse	奶酪	这奶酪味道很好。	德国生产六百多种奶酪——在国外不如法国或意大利奶酪出名，但种类非常丰富。
 A1	Ei	蛋，鸡蛋	早餐我吃一个鸡蛋。	“Ei”是最短的德语名词之一；复数“Eier”多出了整整一个音节。
@@ -59,7 +59,7 @@ A1	Fisch	鱼	星期五常常有鱼。	星期五吃鱼的天主教传统在德国
 A1	Gemüse	蔬菜	我喜欢吃蔬菜。	“Gemüse”是单数集合名词：不像英语的“vegetables”，它没有常用的复数。
 A1	Obst	水果	我们买新鲜水果。	和“Gemüse”一样，“Obst”总是单数集合名词：不能说“三个水果”，要说“drei Obstsorten”（三种水果）。
 A1	Suppe	汤	汤还很烫。	在德国的食堂里，汤常常是标准的开胃菜，几乎每天午餐都供应。
-A1	Salz	盐	请把盐递给我。	德语中有很多烹饪方面的习语；与盐有关的“jemandem nicht das Salz in der Suppe gönnen”意思是连别人最小的成功也嫉妒。
+A1	Salz	盐	请把盐递给我。	“Salz”是中性词：“das Salz”。固定搭配是“Salz und Pfeffer”（盐和胡椒），顺序始终如此。
 A1	Zucker	糖	我喝不加糖的咖啡。	“Zucker”在德语中几乎总是不可数的，和英语一样：你说“etwas Zucker”（一些糖），而不说“ein Zucker”。
 A1	Bier	啤酒	请来两杯啤酒。	在德国的酒吧，你可以用不变的复数形式“zwei Bier”点啤酒——不需要加后缀。
 A1	Wein	葡萄酒	这葡萄酒产自本地区。	德国最著名的葡萄酒产区，如摩泽尔，主要出产白葡萄酒，与意大利不同。
@@ -69,7 +69,7 @@ A1	Messer	刀	这把刀很锋利。	“Auf Messers Schneide stehen”（“站�
 A1	Gabel	叉子	我还需要一把叉子。	“Gabel”一词与“gabeln”（分叉）同根——形状呼应了它的叉齿。
 A1	Löffel	勺子	拿一把勺子喝汤。	“Über den Löffel balbieren”（“用勺子刮脸”）是一句古老的俗语，意思是“欺骗某人”。
 A1	Fenster	窗户	请把窗户关上。	“Fenster”来自拉丁语“fenestra”，是日常德语中少数仍在使用的古罗曼语借词之一。
-A1	Tür	门	门开着。	由于消防安全规定，许多德国建筑的门向内开进公寓，而不是向走廊开。
+A1	Tür	门	门开着。	“Tür”是阴性词：“die Tür”。“Die Tür aufmachen/zumachen”意为开门/关门。“Tor”指大门或足球的球门。
 A1	Tisch	桌子	我们坐在桌旁。	“Reinen Tisch machen”（“把桌子清理干净”）意思是彻底澄清误会。
 A1	Stuhl	椅子	这把椅子很舒服。	复数“Stühle”要变音，和许多常见的单音节阳性名词一样。
 A1	Bett	床	我很早就上床睡觉。	“Ins Bett gehen”用四格，因为它描述的是朝某个地方的移动，而不是静态位置。
@@ -109,7 +109,7 @@ A1	Fuß	脚	我步行去上班。	“Zu Fuß gehen”是不带冠词的固定表
 A1	Herz	心，心脏	我的心跳得很快。	“Herz”是少数在二格和三格中有不规则变格的中性名词之一：“des Herzens”，“dem Herzen”。
 A1	krank	生病的	我今天生病了。	在德国，缺勤从第三天起几乎总是需要医生的证明（“Krankschreibung”）。
 A1	gesund	健康的	他吃得很健康。	“Gesund”也是“Gesundheit”的词根，别人打喷嚏后用来表示祝福。
-A1	Woche	星期，周	下周我要出远门。	德语中“Nächste Woche”不需要介词，不像有些语言说“下周”要用介词。
+A1	Woche	星期，周	下周我要出远门。	“Woche”是阴性词：“die Woche”，复数“Wochen”。“Nächste Woche”不需要介词。
 A1	Monat	月，月份	第一个月很困难。	“Monat”与“Mond”（月亮）同根：德语的月份和许多语言一样来自月亮的周期。
 A1	Jahr	年	我学德语已经一年了。	“Seit einem Jahr”在“seit”之后用三格并搭配现在时，而不像“我已经学了”那样用过去时。
 A1	heute	今天	你今天做什么？	“Heute”常放在句首，根据V2规则把动词推到第二位。
@@ -130,7 +130,7 @@ A1	Flugzeug	飞机	飞机准时降落。	“Flugzeug”是透明的复合词：�
 A1	Schiff	船，轮船	这艘船开往挪威。	汉堡拥有欧洲最大的港口之一，其历史与航运密不可分。
 A1	Taxi	出租车	我们打一辆出租车去车站。	在许多德国城市，出租车看起来几乎一模一样——常常是米色的奔驰——并按市政规定的固定价格收费。
 A1	Koffer	行李箱，手提箱	我的行李箱太重了。	德国的廉价航空公司对随身行李的重量检查非常严格。
-A1	Pass	护照	我需要我的护照。	在申根区内不再需要护照，但仍必须携带有效的身份证件。
+A1	Pass	护照	我需要我的护照。	“Pass”是“Reisepass”的简称。身份证是“Personalausweis”；“Ausweis”泛指身份证件。
 A1	Karte	票，卡，地图	我买一张火车票。	“Karte”是个用途很广的词：根据上下文可以指车票、信用卡、明信片或地图。
 A1	Geschäft	商店，生意	商店十八点关门。	“Geschäft”既指实体商店，也抽象地指一笔生意——一个词两种意思。
 A1	Preis	价格，奖	价格太高了。	“Preis”既是“价格”也是“奖”：“Nobelpreis”是一个奖，而不是要付的价钱。
@@ -214,7 +214,7 @@ A1	elf	十一	这个班有十一个学生。	“Elf”和“zwölf”是德语�
 A1	zwölf	十二	白天有十二个小时的光照。	“Ein Dutzend”（一打）正好对应“zwölf”——面包师至今仍在使用的单位。
 A1	zwanzig	二十	她二十岁。	从“zwanzig”起，所有数字都由加法构成：“einundzwanzig”字面意思是“一与二十”。
 A1	dreißig	三十	他快三十岁了。	从“dreißig”起，德语的整十数有不规则的词尾（“-ßig”），不同于“zwanzig”、“vierzig”等的正常“-zig”。
-A1	hundert	一百	这本书有一百页。	“Hundert”前面不需要不定冠词“ein”，不像许多其他语言。
+A1	hundert	一百	这本书有一百页。	“Hundert”不变化，与个位数连写：“zweihundert”（二百）、“dreihundert”（三百）。
 A1	Onkel	叔叔，舅舅，伯父	我叔叔住在柏林。	“Onkel”来自法语“oncle”：是通过18世纪贵族文化进入德语的众多罗曼语借词之一。
 A1	Tante	姑姑，阿姨，舅妈	我姑姑常来看我们。	和“Onkel”一样，“Tante”也是法语借词，18世纪与许多宫廷用语一同进入德语。
 A1	Cousin	表兄弟，堂兄弟（男）	我的表哥在学医。	“Cousin”的发音非常接近原来的法语，保留了词尾的鼻音。
@@ -248,7 +248,7 @@ A1	Fest	聚会，节日	我们举办一场盛大的聚会。	“Fest”是“Fes
 A1	Weihnachten	圣诞节	我们和家人一起过圣诞节。	“Weihnachten”在语法上历史上既可单数也可复数；如今几乎总是被当作中性单数。
 A1	Ostern	复活节	复活节我们去看望祖父母。	“Ostern”与“Osten”（东方）同根：有些理论认为它源自古日耳曼黎明女神的名字。
 A1	Silvester	除夕	除夕有烟花。	“Silvester”以教皇西尔维斯特一世命名，在天主教历中他的瞻礼日在12月31日。
-A1	Geschenk machen	送礼物	我想送你一份礼物。	“Jemandem ein Geschenk machen”对接受者用三格，对礼物本身用四格。
+A1	schenken	赠送，送礼	我送我妈妈花。	“Schenken”中，人（meiner Mutter）用第三格，礼物（Blumen）用第四格。完成时：“hat geschenkt”。
 A1	gratulieren	祝贺，恭喜	祝你生日快乐。	“Gratulieren”对人用三格：“dir gratulieren”，是德语众多三格动词之一。
 A1	einladen zur Feier	邀请参加庆祝活动	我们邀请所有朋友参加庆祝。	“Zur Feier”是“zu der Feier”的缩合形式：“zu”总是接三格。
 A1	Wohnzimmer	客厅，起居室	我们坐在客厅里。	“Wohnzimmer”是透明的复合词：“wohnen”（居住）+“Zimmer”（房间）——你待得最久的房间。
@@ -260,7 +260,6 @@ A1	Balkon	阳台	我们在阳台上吃早餐。	“Auf dem Balkon”用三格，
 A1	Aufzug	电梯	电梯坏了。	“Aufzug”来自动词“aufziehen”（拉上去）——比源自法语、也在某些地区使用的“Lift”要具体得多。
 A1	Treppe	楼梯	我走楼梯上去。	“Die Treppe hoch gehen”是常见的口语结构，是较正式的“die Treppe hinaufgehen”的替代说法。
 A1	Nachricht schicken	发消息	我给你发一条消息。	“Schicken”对人用三格，对寄出的东西用四格：“dir eine Nachricht schicken”。
-A1	anrufen bitte	请打电话	你到了请给我打电话。	“Anrufen”是可分动词：祈使句变成“ruf an”，前缀在末尾分离。
 A1	warten	等，等待	我在等你。	“Warten auf”接四格：“auf dich warten”，是要与动词一起记住的固定结构。
 A1	suchen	寻找，找	我在找我的钥匙。	“Suchen”总是直接接四格宾语，不需要介词，不像许多罗曼语言。
 A1	finden	找到，发现，觉得	我找不到我的眼镜。	“Finden”也用来表达看法：“ich finde das gut”意思是“我觉得这很好”。
@@ -279,7 +278,7 @@ A1	Kleid	连衣裙	这条连衣裙很适合你。	“Kleid”的复数“Kleider
 A1	Socke	袜子	我在找一只干净的袜子。	“Sich auf die Socken machen”（“把自己放到袜子上”）是口语表达，意思是“出发，快点”。
 A1	Gürtel	腰带，皮带	这条腰带是皮的。	“Den Gürtel enger schnallen”（“把腰带勒紧”）意思是不得不节省开支，与英语习语相同。
 A1	Ring	戒指	她戴着一枚金戒指。	在德国，订婚戒指通常戴在左手，婚后移到右手。
-A1	Uhr tragen	戴手表	他总是戴着手表。	“Tragen”既表示“穿戴”也表示“携带”——由上下文判断是哪个意思。
+A1	tragen	穿，戴；携带	他总是戴着一块手表。	“Tragen”是不规则动词：“er trägt”，完成时“hat getragen”。它既表示“穿戴”也表示“携带”，具体看语境。
 A1	laufen	跑，走	我每天早晨在公园里跑步。	在德国南部方言中，“laufen”常常只是“走”的意思，而在北部更特指“跑”。
 A1	schwimmen	游泳	夏天我们常常游泳。	“schwimmen”的完成时用“sein”：“ich bin geschwommen”，因为它描述的是带有状态变化的移动。
 A1	springen	跳，跳跃	孩子高兴得跳起来。	“Springen”在描述移动时完成时用“sein”：“ich bin gesprungen”。
@@ -291,14 +290,12 @@ A1	packen	打包，收拾	我还得收拾我的行李箱。	“Packen”直接�
 A1	Ausweis	身份证，证件	请出示您的证件。	在德国，随时携带有效的身份证件是法律要求。
 A1	Formular	表格，表单	请填写这张表格。	“Ausfüllen”是可分动词：正式祈使句为“füllen Sie aus”，前缀在末尾分离。
 A1	Unterschrift	签名	我需要您的签名。	“Unterschrift”是复合词：“unter”（下面）+“Schrift”（文字），字面意思是“写在文件下面的字”。
-A1	Termin vereinbaren	预约，约定时间	我想预约一个时间。	“Vereinbaren”不可分：它属于总是带不可分前缀“ver-”的动词一类。
 A1	Rezept	处方，食谱	医生开了一张处方。	“Rezept”既指“医疗处方”也指“烹饪食谱”——德语这个词涵盖两种含义，和意大利语一样。
 A1	Fieber	发烧，发热	孩子发烧了。	“Fieber haben”名词前不需要冠词——这是许多症状常用的固定结构。
 A1	Husten	咳嗽	我咳嗽好几天了。	“Seit Tagen”在“seit”之后用三格复数，搭配现在时表示仍在持续的动作。
 A1	Schmerzen	疼痛	我很痛。	德语中表示身体疼痛时几乎总是用复数“Schmerzen”，即使只是一处局部的疼痛。
 A1	Tablette	药片	吃这片药止痛。	“Gegen”总是接四格：“gegen die Schmerzen”（对抗疼痛）——医疗语境中非常常见的介词。
 A1	Versicherung	保险	我有一份很好的保险。	在德国，医疗保险自1883年起就是法定要求——是世界上第一个此类制度。
-A1	Woche geht schnell	一周过得很快	这一周真的过得很快。	“Vergehen”描述时间流逝，完成时用“sein”变位：“ist vergangen”。
 A1	links	左边，向左	在这里向左走。	“Links”和“rechts”从不带词尾：它们是用于指路的不变副词。
 A1	rechts	右边，向右	邮局在右边。	“Nach rechts”表示向右移动，而单独的“rechts”表示静态位置。
 A1	geradeaus	一直向前，直走	一直往前走就行。	“Geradeaus”由“gerade”（直的）和“aus”组成，现在是单一的不变副词。
@@ -311,10 +308,10 @@ A1	Stau	堵车，交通堵塞	我们堵在路上了。	德国的高速公路（�
 A1	Parkplatz	停车位	我们没找到停车位。	在德国市中心，停车通常收费，并由必须使用的停车盘规定时间限制。
 A1	Fahrkarte	车票	我没带车票。	在德国的公共交通上，查票往往是随机的，但无票乘车的罚款非常高。
 A1	Gleis	站台，轨道	火车从三号站台出发。	在德国的车站，站台可能在最后一刻改变——查看显示牌总是值得的。
-A1	Fahrplan	时刻表	我查一下时刻表。	“Nachschauen”是可分动词：现在时为“schaue nach”，前缀在句末分离。
+A1	Fahrplan	（车辆）时刻表	我在查时刻表。	“Fahrplan”是火车和公交车的时刻表。学校的课表是“Stundenplan”，工作的排班表是“Dienstplan”。
 A1	Ticket kaufen	买票	我在网上买票。	在德国，网上购买的票往往比直接在车上购买的便宜。
 A1	Ausflug machen	去郊游	我们明天去郊游。	“Einen Ausflug machen”是谈论郊游的标准结构——没有简单的动词“ausflügen”。
-A1	Karte spielen	玩纸牌	我们晚上常常玩纸牌。	泛指这项活动时，“Karten spielen”中“Karten”前不需要冠词。
+A1	Karten spielen	打牌	我们晚上常常打牌。	这项活动用复数表达：“Karten spielen”。单数“Karte”指一张牌、一张票或一张地图。
 A1	Ball	球	孩子们在玩球。	“Mit dem Ball spielen”在“mit”之后用三格，这是最常用的三格介词之一。
 A1	Fußball	足球	足球在德国非常受欢迎。	德国足球甲级联赛是世界上收视率最高的足球联赛之一，球场上座率也是最高的之一。
 A1	Schwimmbad	游泳池	我们去游泳池。	许多德国城镇经营公共市政游泳池（夏天有露天的“Freibad”），价格非常实惠。
@@ -324,7 +321,6 @@ A1	Fitnessstudio	健身房	我每周去三次健身房。	“Dreimal die Woche�
 A1	Handtuch	毛巾	我需要一条干净的毛巾。	“Handtuch”是复合词：“Hand”（手）+“Tuch”（布），尽管如今它用于全身。
 A1	Seife	肥皂	肥皂有薰衣草的香味。	“Riechen nach”接三格：“nach Lavendel”，用来描述特定的气味。
 A1	Zahnbürste	牙刷	我忘了带牙刷。	“Zahnbürste”是复合词：“Zahn”（牙）+“Bürste”（刷子），字面意思是“刷牙的刷子”。
-A1	Spiegelbild	镜中的影像	我看到我的影像。	“Spiegelbild”由“Spiegel”（镜子）和“Bild”（影像）组成：镜子中映出的图像。
 A1	Haar	头发，毛发	她有一头长发。	单数“Haar”可指一根头发，口语中也可指整体的头发。
 A1	Bart	胡子	他留着短胡子。	在过去十年里，修剪整齐的胡子在德国重新流行，尤其是在年轻人中。
 A1	Brille	眼镜	我需要一副新眼镜。	“Brille”在德语中指一副眼镜时是单数，而英语用复数“glasses”。
@@ -333,7 +329,7 @@ A1	Nase	鼻子	我的鼻子堵了。	“Die Nase voll haben”（“鼻子满了
 A1	Mund	嘴，嘴巴	把嘴张开。	“Aufmachen”是可分动词：随意的祈使句为“mach auf”，前缀在末尾分离。
 A1	Zahn	牙齿	我的牙疼。	复数“Zähne”要变音，和许多表示身体部位的短阳性名词一样。
 A1	Bein	腿	他摔断了腿。	“Sich das Bein brechen”用反身三格“sich”加四格“das Bein”：受影响的身体部位是直接宾语。
-A1	Arm	手臂，胳膊	她的手臂很有力。	“Arm”作形容词也表示“穷的”：两个拼写相同但来源完全不同的词。
+A1	Arm	手臂	我的手臂很疼。	“Arm”作形容词还表示“贫穷的”：这是两个拼写相同、来源完全不同的词。
 A1	Finger	手指	我切到了手指。	“Sich in den Finger schneiden”用反身三格和受伤部位的四格来描述意外受伤。
 A1	Bauch	肚子，腹部	我肚子疼。	“Bauchschmerzen”（肚子疼）是父母对小孩子很常用的复合词。
 A1	Rücken	背，后背	我背疼。	“Hinter dem Rücken”（“在背后”）意思是“背着某人”做事，和英语一样。
@@ -341,7 +337,6 @@ A1	Schulter	肩膀	他把包背在肩上。	“Auf der Schulter”用三格，�
 A1	Sonnenschein	阳光，日照	我们享受着阳光。	“Genießen”总是直接接四格宾语，不需要介词：“den Sonnenschein genießen”。
 A1	Wolke	云	天空布满了云。	“Auf Wolke sieben schweben”（“飘在七号云上”）相当于英语的“to be on cloud nine”。
 A1	Gewitter	雷雨	今晚有雷雨。	“Es gibt”加四格是宣告天气现象或某物存在的标准结构。
-A1	Regenbogen	彩虹	雨后出现了彩虹。	“Regenbogen”是透明的复合词：“Regen”（雨）+“Bogen”（弧），字面意思是“雨的弧”。
 A1	Insel	岛，岛屿	叙尔特岛是一座著名的岛屿。	北海的叙尔特岛是最高档的海滩度假地之一，深受富裕的德国人喜爱。
 A1	Strand	海滩，沙滩	我们整天躺在海滩上。	“Am Strand”用三格，因为它描述的是你所在的位置，而不是移动。
 A1	Sand	沙子	沙子非常细。	“Sand ins Getriebe streuen”（“往齿轮里撒沙子”）意思是破坏或阻碍某个过程。
@@ -352,10 +347,8 @@ A1	Zelt	帐篷	我们睡在帐篷里。	露营是德国非常受欢迎的夏季�
 A1	Feuer machen	生火	晚上我们生一堆火。	“Ein Feuer machen”是表示“点篝火”的固定结构，不同于用于火柴或蜡烛的“anzünden”。
 A1	Rucksack	背包，双肩包	我的背包很重。	“Rucksack”是复合词：“Rücken”（背）+“Sack”（袋），字面意思是“背上的袋子”。
 A1	Landkarte	地图	我们看着地图。	“Landkarte”指地理地图，区别于也可表示车票或信用卡的泛称“Karte”。
-A1	Kompass	指南针，罗盘	没有指南针我们找不到路。	“Ohne”总是接四格：“ohne Kompass”，与“für”和“durch”一样是最常见的四格介词之一。
 A1	Weg	路，道路，方式	去车站的路很短。	“Weg”既指实际的路，也比喻“方法、办法”，如“不管怎样都要找到办法”。
 A1	Richtung	方向	我们开错了方向。	“In die Richtung”用四格，因为它描述的是朝向某个具体方向的移动。
-A1	verlaufen sich	迷路（步行）	我们在城里迷路了。	“Sich verlaufen”描述步行时迷路；“sich verfahren”是开车时迷路的对应说法。
 A1	Reiseführer	旅游指南，导游	我们买一本柏林旅游指南。	“Reiseführer”既指书也指带领游客的人——同一个词有两种意思。
 A1	Sehenswürdigkeit	名胜，景点	科隆大教堂是著名的景点。	“Sehenswürdigkeit”由“sehen”（看）和“würdig”（值得的）组成：字面意思是“值得一看的东西”。
 A1	Foto machen	拍照	你能帮忙拍张照吗？	“Ein Foto machen”是标准说法；动词“fotografieren”也存在，但略显正式。
@@ -367,3 +360,5 @@ A1	Wörterbuch	词典，字典	我经常使用词典。	“Wörterbuch”是复�
 A1	üben	练习，训练	我每天练习德语。	“Üben”是规则的，是“Übung”（练习）的词根，是学习材料中反复出现的词之一。
 A1	Fehler machen	犯错误	犯错误是正常的。	“Fehler machen”是标准结构；在“es ist normal”这类无人称表达之后，带“zu”的不定式有明确的规则。
 A1	Prüfung bestehen	通过考试	我希望通过考试。	“Bestehen”不可分：它属于总是带不可分前缀“be-”的动词一类。
+A1	Mittagspause	午休	午休时我们在食堂吃饭。	“Mittagspause”由“Mittag”和“Pause”组成。可以说“Mittagspause machen”或“in der Mittagspause”。
+A1	Ankunft	到达，抵达	火车十点到站。	“Ankunft”是阴性词，来自“ankommen”。反义词是“Abfahrt”（出发）。

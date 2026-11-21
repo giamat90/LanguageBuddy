@@ -892,13 +892,13 @@
     "meaning_it": "nonno",
     "example": "Mein Großvater war Lehrer.",
     "example_it": "Mio nonno era insegnante.",
-    "cultural_note": "Come 'Oma', anche 'Opa' è la forma affettuosa e molto più comune di 'Großvater'.",
+    "cultural_note": "Nella lingua parlata si dice più spesso 'Opa'; 'Großvater' è la forma neutra o più formale.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "home",
     "cefr_band": "A1",
     "session_scenario": "Talking about a grandparent's profession",
     "example_en": "My grandfather was a teacher.",
-    "cultural_note_en": "Like 'Oma', 'Opa' is the affectionate and far more common form of 'Großvater'."
+    "cultural_note_en": "In everyday speech people usually say 'Opa'; 'Großvater' is the neutral or more formal form."
   },
   {
     "word": "Milch",
@@ -1045,13 +1045,13 @@
     "meaning_it": "sale",
     "example": "Gib mir bitte das Salz.",
     "example_it": "Passami il sale, per favore.",
-    "cultural_note": "'Das ist nicht das Gelbe vom Ei' e simili modi di dire culinari sono comuni; con il sale si dice 'jemandem nicht das Salz in der Suppe gönnen', invidiare anche il minimo successo altrui.",
+    "cultural_note": "'Salz' è neutro: 'das Salz'. La coppia fissa è 'Salz und Pfeffer', sempre in questo ordine.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "food",
     "cefr_band": "A1",
     "session_scenario": "Asking someone to pass something at the table",
     "example_en": "Please pass me the salt.",
-    "cultural_note_en": "Culinary idioms are common in German; with salt, 'jemandem nicht das Salz in der Suppe gönnen' means to begrudge someone even their smallest success."
+    "cultural_note_en": "'Salz' is neuter: 'das Salz'. The fixed pair is 'Salz und Pfeffer', always in this order."
   },
   {
     "word": "Zucker",
@@ -1215,13 +1215,13 @@
     "meaning_it": "porta",
     "example": "Die Tür ist offen.",
     "example_it": "La porta è aperta.",
-    "cultural_note": "In molti edifici tedeschi le porte si aprono verso l'interno dell'appartamento, non verso il corridoio, per legge antincendio.",
+    "cultural_note": "'Tür' è femminile: 'die Tür'. 'Die Tür aufmachen/zumachen' = aprire/chiudere la porta. 'Tor' è un portone o la porta del calcio.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "home",
     "cefr_band": "A1",
     "session_scenario": "Noting whether the door is open",
     "example_en": "The door is open.",
-    "cultural_note_en": "In many German buildings, doors open inward into the apartment rather than into the hallway, due to fire-safety rules."
+    "cultural_note_en": "'Tür' is feminine: 'die Tür'. 'Die Tür aufmachen/zumachen' = to open/close the door. 'Tor' is a gate or a football goal."
   },
   {
     "word": "Tisch",
@@ -1895,13 +1895,13 @@
     "meaning_it": "settimana",
     "example": "Nächste Woche fahre ich weg.",
     "example_it": "La settimana prossima parto.",
-    "cultural_note": "'Nächste Woche' non richiede preposizione in tedesco, a differenza dell'italiano 'la settimana prossima' che ne fa a meno solo in parte.",
+    "cultural_note": "'Woche' è femminile: 'die Woche', plurale 'Wochen'. 'Nächste Woche' si usa senza preposizione.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Announcing upcoming travel plans",
     "example_en": "Next week I'm going away.",
-    "cultural_note_en": "'Nächste Woche' needs no preposition in German, unlike some other languages that use one for 'next week'."
+    "cultural_note_en": "'Woche' is feminine: 'die Woche', plural 'Wochen'. 'Nächste Woche' is used without a preposition."
   },
   {
     "word": "Monat",
@@ -2252,13 +2252,13 @@
     "meaning_it": "passaporto",
     "example": "Ich brauche meinen Pass.",
     "example_it": "Mi serve il passaporto.",
-    "cultural_note": "All'interno dell'area Schengen il passaporto non è più necessario, ma resta obbligatorio un documento d'identità valido.",
+    "cultural_note": "'Pass' è l'abbreviazione di 'Reisepass'. La carta d'identità si chiama 'Personalausweis'; 'Ausweis' indica un documento in generale.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Preparing travel documents",
     "example_en": "I need my passport.",
-    "cultural_note_en": "Within the Schengen Area a passport is no longer required, but a valid ID document is still mandatory."
+    "cultural_note_en": "'Pass' is short for 'Reisepass'. The identity card is the 'Personalausweis'; 'Ausweis' means an ID document in general."
   },
   {
     "word": "Karte",
@@ -3680,13 +3680,13 @@
     "meaning_it": "cento",
     "example": "Das Buch hat hundert Seiten.",
     "example_it": "Il libro ha cento pagine.",
-    "cultural_note": "'Hundert' non richiede l'articolo indeterminativo 'ein' davanti a sé come invece fanno molte altre lingue.",
+    "cultural_note": "'Hundert' è invariabile e si scrive unito alle unità: 'zweihundert', 'dreihundert'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "A1",
     "session_scenario": "Describing the length of a book",
     "example_en": "The book has a hundred pages.",
-    "cultural_note_en": "'Hundert' doesn't need the indefinite article 'ein' in front of it, unlike many other languages."
+    "cultural_note_en": "'Hundert' does not change and is written together with units: 'zweihundert', 'dreihundert'."
   },
   {
     "word": "Onkel",
@@ -4250,21 +4250,21 @@
     "cultural_note_en": "'Silvester' is named after Pope Sylvester I, whose feast day falls on December 31st in the Catholic calendar."
   },
   {
-    "word": "Geschenk machen",
+    "word": "schenken",
     "article": null,
     "part_of_speech": "verb",
-    "ipa": "ɡəˈʃɛŋk ˈmaxn̩",
-    "meaning_en": "to give a gift",
-    "meaning_it": "fare un regalo",
-    "example": "Ich möchte dir ein Geschenk machen.",
-    "example_it": "Vorrei farti un regalo.",
-    "cultural_note": "'Jemandem ein Geschenk machen' usa il dativo della persona che riceve e l'accusativo dell'oggetto regalato.",
+    "ipa": "ˈʃɛŋkn̩",
+    "meaning_en": "to give (as a gift)",
+    "meaning_it": "regalare",
+    "example": "Ich schenke meiner Mutter Blumen.",
+    "example_it": "Regalo dei fiori a mia madre.",
+    "cultural_note": "'Schenken' regge il dativo della persona (meiner Mutter) e l'accusativo del regalo (Blumen). Perfekt: 'hat geschenkt'.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "shopping",
     "cefr_band": "A1",
-    "session_scenario": "Talking about giving a gift",
-    "example_en": "I'd like to give you a gift.",
-    "cultural_note_en": "'Jemandem ein Geschenk machen' uses the dative for the person receiving it and the accusative for the gift itself."
+    "session_scenario": "Talking about a present",
+    "example_en": "I am giving my mother flowers.",
+    "cultural_note_en": "'Schenken' takes the dative for the person (meiner Mutter) and the accusative for the gift (Blumen). Perfekt: 'hat geschenkt'."
   },
   {
     "word": "gratulieren",
@@ -4454,21 +4454,21 @@
     "cultural_note_en": "'Schicken' takes the dative for the person and the accusative for the thing sent: 'dir eine Nachricht schicken'."
   },
   {
-    "word": "anrufen bitte",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ˈanˌʁuːfn̩ ˈbɪtə",
-    "meaning_en": "please call",
-    "meaning_it": "chiamare per favore",
-    "example": "Ruf mich bitte an, wenn du ankommst.",
-    "example_it": "Chiamami per favore quando arrivi.",
-    "cultural_note": "'Anrufen' è separabile: all'imperativo diventa 'ruf an', con il prefisso staccato in fondo.",
-    "grammar_angle": "SEPARABLE_VERB",
+    "word": "Ankunft",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ˈanˌkʊnft",
+    "meaning_en": "arrival",
+    "meaning_it": "arrivo",
+    "example": "Die Ankunft des Zuges ist um zehn Uhr.",
+    "example_it": "L'arrivo del treno è alle dieci.",
+    "cultural_note": "'Ankunft' è femminile e deriva da 'ankommen'. Il contrario è 'Abfahrt' (partenza).",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A1",
-    "session_scenario": "Asking someone to call on arrival",
-    "example_en": "Please call me when you arrive.",
-    "cultural_note_en": "'Anrufen' is separable: in the imperative it becomes 'ruf an', with the prefix detached at the end."
+    "session_scenario": "Reading arrival times at the station",
+    "example_en": "The train's arrival is at ten o'clock.",
+    "cultural_note_en": "'Ankunft' is feminine and comes from 'ankommen'. The opposite is 'Abfahrt' (departure)."
   },
   {
     "word": "warten",
@@ -4777,21 +4777,21 @@
     "cultural_note_en": "In Germany the engagement ring is often worn on the left hand, moving to the right after the wedding."
   },
   {
-    "word": "Uhr tragen",
+    "word": "tragen",
     "article": null,
     "part_of_speech": "verb",
-    "ipa": "uːɐ̯ ˈtʁaːɡn̩",
-    "meaning_en": "to wear a watch",
-    "meaning_it": "portare un orologio",
+    "ipa": "ˈtʁaːɡn̩",
+    "meaning_en": "to wear / to carry",
+    "meaning_it": "indossare / portare",
     "example": "Er trägt immer eine Uhr.",
     "example_it": "Lui porta sempre un orologio.",
-    "cultural_note": "'Tragen' significa sia 'indossare' sia 'portare/trasportare': il contesto chiarisce quale senso si intende.",
+    "cultural_note": "'Tragen' è irregolare: 'er trägt', Perfekt 'hat getragen'. Significa sia 'indossare' sia 'portare': il contesto chiarisce il senso.",
     "grammar_angle": "VERB_CONJ_IRREGULAR",
     "topic_domain": "shopping",
     "cefr_band": "A1",
     "session_scenario": "Describing someone's accessories",
     "example_en": "He always wears a watch.",
-    "cultural_note_en": "'Tragen' means both 'to wear' and 'to carry' — context makes clear which sense is meant."
+    "cultural_note_en": "'Tragen' is irregular: 'er trägt', Perfekt 'hat getragen'. It means both 'to wear' and 'to carry'; context tells which."
   },
   {
     "word": "laufen",
@@ -4981,23 +4981,6 @@
     "cultural_note_en": "'Unterschrift' is a compound: 'unter' (under) + 'Schrift' (writing), literally 'writing under' the document."
   },
   {
-    "word": "Termin vereinbaren",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "tɛʁˈmiːn fɛɐ̯ˈaɪnbaːʁən",
-    "meaning_en": "to make an appointment",
-    "meaning_it": "fissare un appuntamento",
-    "example": "Ich möchte einen Termin vereinbaren.",
-    "example_it": "Vorrei fissare un appuntamento.",
-    "cultural_note": "'Vereinbaren' non è separabile: appartiene al gruppo dei verbi con prefisso 've(r)-' sempre inseparabile.",
-    "grammar_angle": "ACCUSATIVE_MASC",
-    "topic_domain": "health",
-    "cefr_band": "A1",
-    "session_scenario": "Scheduling a doctor's visit",
-    "example_en": "I'd like to make an appointment.",
-    "cultural_note_en": "'Vereinbaren' isn't separable: it belongs to the group of verbs with the always-inseparable prefix 'ver-'."
-  },
-  {
     "word": "Rezept",
     "article": "das",
     "part_of_speech": "noun",
@@ -5100,21 +5083,21 @@
     "cultural_note_en": "In Germany, health insurance has been a legal requirement since 1883 — the first system of its kind in the world."
   },
   {
-    "word": "Woche geht schnell",
-    "article": null,
-    "part_of_speech": "adv",
-    "ipa": "ˈvɔxə ɡeːt ʃnɛl",
-    "meaning_en": "the week goes fast",
-    "meaning_it": "la settimana passa in fretta",
-    "example": "Diese Woche ist wirklich schnell vergangen.",
-    "example_it": "Questa settimana è passata davvero in fretta.",
-    "cultural_note": "'Vergehen' descrive il tempo che passa ed è coniugato con 'sein' al Perfekt: 'ist vergangen'.",
-    "grammar_angle": "PERF_SEIN_HABEN",
+    "word": "Mittagspause",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ˈmɪtaːkspaʊzə",
+    "meaning_en": "lunch break",
+    "meaning_it": "pausa pranzo",
+    "example": "In der Mittagspause essen wir in der Kantine.",
+    "example_it": "Durante la pausa pranzo mangiamo alla mensa.",
+    "cultural_note": "'Mittagspause' unisce 'Mittag' e 'Pause'. Si dice 'Mittagspause machen' o 'in der Mittagspause'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "A1",
-    "session_scenario": "Commenting that time flies",
-    "example_en": "This week has really gone by fast.",
-    "cultural_note_en": "'Vergehen' describes time passing and is conjugated with 'sein' in the Perfekt: 'ist vergangen'."
+    "session_scenario": "Talking about the lunch break at work",
+    "example_en": "We eat in the canteen during the lunch break.",
+    "cultural_note_en": "'Mittagspause' joins 'Mittag' and 'Pause'. You say 'Mittagspause machen' or 'in der Mittagspause'."
   },
   {
     "word": "links",
@@ -5329,13 +5312,13 @@
     "meaning_it": "orario (dei trasporti)",
     "example": "Ich schaue im Fahrplan nach.",
     "example_it": "Controllo l'orario.",
-    "cultural_note": "'Nachschauen' è separabile: 'schaue nach' al presente, con il prefisso staccato in fondo alla frase.",
+    "cultural_note": "'Fahrplan' è l'orario di treni e autobus. Per la scuola si dice 'Stundenplan', per i turni di lavoro 'Dienstplan'.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Checking a transport schedule",
     "example_en": "I'm checking the timetable.",
-    "cultural_note_en": "'Nachschauen' is separable: 'schaue nach' in the present tense, with the prefix detached at the end of the sentence."
+    "cultural_note_en": "'Fahrplan' is the timetable of trains and buses. For school it is 'Stundenplan', for work shifts 'Dienstplan'."
   },
   {
     "word": "Ticket kaufen",
@@ -5372,21 +5355,21 @@
     "cultural_note_en": "'Einen Ausflug machen' is the standard structure for talking about trips — there's no simple verb 'ausflügen'."
   },
   {
-    "word": "Karte spielen",
+    "word": "Karten spielen",
     "article": null,
     "part_of_speech": "verb",
-    "ipa": "ˈkaʁtə ˈʃpiːlən",
+    "ipa": "ˈkaʁtn̩ ˈʃpiːlən",
     "meaning_en": "to play cards",
     "meaning_it": "giocare a carte",
     "example": "Wir spielen abends oft Karten.",
     "example_it": "Giochiamo spesso a carte la sera.",
-    "cultural_note": "'Karten spielen' non richiede l'articolo davanti a 'Karten' quando si parla dell'attività in generale.",
+    "cultural_note": "Il gioco in generale si dice al plurale: 'Karten spielen'. 'Karte' al singolare è una singola carta, un biglietto o una mappa.",
     "grammar_angle": "VERB_CONJ_REGULAR",
     "topic_domain": "leisure",
     "cefr_band": "A1",
     "session_scenario": "Talking about evening activities",
     "example_en": "We often play cards in the evening.",
-    "cultural_note_en": "'Karten spielen' needs no article before 'Karten' when talking about the activity in general."
+    "cultural_note_en": "The activity is said in the plural: 'Karten spielen'. Singular 'Karte' is a single card, a ticket or a map."
   },
   {
     "word": "Ball",
@@ -5542,23 +5525,6 @@
     "cultural_note_en": "'Zahnbürste' is a compound: 'Zahn' (tooth) + 'Bürste' (brush), literally a 'brush for teeth'."
   },
   {
-    "word": "Spiegelbild",
-    "article": "das",
-    "part_of_speech": "noun",
-    "ipa": "ˈʃpiːɡl̩ˌbɪlt",
-    "meaning_en": "reflection",
-    "meaning_it": "riflesso (immagine)",
-    "example": "Ich sehe mein Spiegelbild.",
-    "example_it": "Vedo il mio riflesso.",
-    "cultural_note": "'Spiegelbild' unisce 'Spiegel' (specchio) e 'Bild' (immagine): l'immagine riflessa in uno specchio.",
-    "grammar_angle": "ACCUSATIVE_MASC",
-    "topic_domain": "home",
-    "cefr_band": "A1",
-    "session_scenario": "Describing looking in a mirror",
-    "example_en": "I see my reflection.",
-    "cultural_note_en": "'Spiegelbild' combines 'Spiegel' (mirror) and 'Bild' (image): the image reflected in a mirror."
-  },
-  {
     "word": "Haar",
     "article": "das",
     "part_of_speech": "noun",
@@ -5701,14 +5667,14 @@
     "ipa": "aʁm",
     "meaning_en": "arm",
     "meaning_it": "braccio",
-    "example": "Sie hat einen starken Arm.",
-    "example_it": "Lei ha un braccio forte.",
+    "example": "Mein Arm tut weh.",
+    "example_it": "Mi fa male il braccio.",
     "cultural_note": "'Arm' significa anche 'povero' come aggettivo: due parole omografe di origine completamente diversa.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "A1",
-    "session_scenario": "Describing physical strength",
-    "example_en": "She has a strong arm.",
+    "session_scenario": "Telling a doctor where it hurts",
+    "example_en": "My arm hurts.",
     "cultural_note_en": "'Arm' also means 'poor' as an adjective: two identically spelled words of completely different origin."
   },
   {
@@ -5829,23 +5795,6 @@
     "session_scenario": "Forecasting bad weather",
     "example_en": "Tonight there will be a thunderstorm.",
     "cultural_note_en": "'Es gibt' plus the accusative is the standard structure for announcing weather events or the existence of something."
-  },
-  {
-    "word": "Regenbogen",
-    "article": "der",
-    "part_of_speech": "noun",
-    "ipa": "ˈʁeːɡn̩ˌboːɡn̩",
-    "meaning_en": "rainbow",
-    "meaning_it": "arcobaleno",
-    "example": "Nach dem Regen kam ein Regenbogen.",
-    "example_it": "Dopo la pioggia è apparso un arcobaleno.",
-    "cultural_note": "'Regenbogen' è un composto trasparente: 'Regen' (pioggia) + 'Bogen' (arco), letteralmente 'arco di pioggia'.",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "leisure",
-    "cefr_band": "A1",
-    "session_scenario": "Describing weather after rain",
-    "example_en": "After the rain a rainbow appeared.",
-    "cultural_note_en": "'Regenbogen' is a transparent compound: 'Regen' (rain) + 'Bogen' (arc/bow), literally a 'rain arc'."
   },
   {
     "word": "Insel",
@@ -6018,23 +5967,6 @@
     "cultural_note_en": "'Landkarte' distinguishes the geographic map from the generic term 'Karte', which can also mean ticket or credit card."
   },
   {
-    "word": "Kompass",
-    "article": "der",
-    "part_of_speech": "noun",
-    "ipa": "kɔmˈpas",
-    "meaning_en": "compass",
-    "meaning_it": "bussola",
-    "example": "Ohne Kompass finden wir den Weg nicht.",
-    "example_it": "Senza bussola non troviamo la strada.",
-    "cultural_note": "'Ohne' regge sempre l'accusativo: 'ohne Kompass', una delle preposizioni accusativo più comuni insieme a 'für' e 'durch'.",
-    "grammar_angle": "ACCUSATIVE_PREP",
-    "topic_domain": "leisure",
-    "cefr_band": "A1",
-    "session_scenario": "Explaining you're lost without navigation",
-    "example_en": "Without a compass we can't find the way.",
-    "cultural_note_en": "'Ohne' always takes the accusative: 'ohne Kompass', one of the most common accusative prepositions along with 'für' and 'durch'."
-  },
-  {
     "word": "Weg",
     "article": "der",
     "part_of_speech": "noun",
@@ -6067,23 +5999,6 @@
     "session_scenario": "Realizing you're going the wrong way",
     "example_en": "We're going in the wrong direction.",
     "cultural_note_en": "'In die Richtung' uses the accusative because it describes movement directed toward a specific direction."
-  },
-  {
-    "word": "verlaufen sich",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "fɛɐ̯ˈlaʊfn̩ zɪç",
-    "meaning_en": "to get lost",
-    "meaning_it": "perdersi",
-    "example": "Wir haben uns in der Stadt verlaufen.",
-    "example_it": "Ci siamo persi in città.",
-    "cultural_note": "'Sich verlaufen' descrive perdersi a piedi; 'sich verfahren' è l'equivalente per chi si perde in auto.",
-    "grammar_angle": "PERF_SEIN_HABEN",
-    "topic_domain": "travel",
-    "cefr_band": "A1",
-    "session_scenario": "Explaining you got lost",
-    "example_en": "We got lost in the city.",
-    "cultural_note_en": "'Sich verlaufen' describes getting lost on foot; 'sich verfahren' is the equivalent for getting lost while driving."
   },
   {
     "word": "Reiseführer",

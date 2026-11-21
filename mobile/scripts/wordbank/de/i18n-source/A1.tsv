@@ -50,7 +50,7 @@ A1	Vater	der	noun	father	Mein Vater arbeitet viel.	My father works a lot.	'Vater
 A1	Bruder	der	noun	brother	Ich habe einen älteren Bruder.	I have an older brother.	The plural 'Brüder' takes an umlaut — a typical pattern for one-syllable German masculine nouns.
 A1	Schwester	die	noun	sister	Meine Schwester wohnt in Köln.	My sister lives in Cologne.	'Geschwister' is the collective word for 'siblings' as a group, with no gender distinction.
 A1	Großmutter	die	noun	grandmother	Meine Großmutter erzählt gern Geschichten.	My grandmother loves telling stories.	In everyday speech almost everyone says 'Oma' instead of the full form 'Großmutter'.
-A1	Großvater	der	noun	grandfather	Mein Großvater war Lehrer.	My grandfather was a teacher.	Like 'Oma', 'Opa' is the affectionate and far more common form of 'Großvater'.
+A1	Großvater	der	noun	grandfather	Mein Großvater war Lehrer.	My grandfather was a teacher.	In everyday speech people usually say 'Opa'; 'Großvater' is the neutral or more formal form.
 A1	Milch	die	noun	milk	Ich trinke keine Milch.	I don't drink milk.	In German 'keine Milch' negates the noun directly, while English negates the verb with 'don't'.
 A1	Käse	der	noun	cheese	Der Käse schmeckt sehr gut.	The cheese tastes very good.	Germany produces over 600 types of cheese — less famous abroad than French or Italian cheeses, but very varied.
 A1	Ei	das	noun	egg	Zum Frühstück esse ich ein Ei.	For breakfast I eat an egg.	'Ei' is one of the shortest German nouns; the plural 'Eier' adds a whole extra syllable.
@@ -59,7 +59,7 @@ A1	Fisch	der	noun	fish	Am Freitag gibt es oft Fisch.	On Fridays there's often fi
 A1	Gemüse	das	noun	vegetables	Ich esse gern Gemüse.	I like eating vegetables.	'Gemüse' is a singular collective noun: there's no common plural, unlike English 'vegetables'.
 A1	Obst	das	noun	fruit	Wir kaufen frisches Obst.	We're buying fresh fruit.	Like 'Gemüse', 'Obst' is always a singular collective noun: you can't say 'three fruits', you need 'drei Obstsorten' (three kinds of fruit).
 A1	Suppe	die	noun	soup	Die Suppe ist noch heiß.	The soup is still hot.	In German cafeterias, soup is often the standard starter, served at lunch nearly every day.
-A1	Salz	das	noun	salt	Gib mir bitte das Salz.	Please pass me the salt.	Culinary idioms are common in German; with salt, 'jemandem nicht das Salz in der Suppe gönnen' means to begrudge someone even their smallest success.
+A1	Salz	das	noun	salt	Gib mir bitte das Salz.	Please pass me the salt.	'Salz' is neuter: 'das Salz'. The fixed pair is 'Salz und Pfeffer', always in this order.
 A1	Zucker	der	noun	sugar	Ich trinke Kaffee ohne Zucker.	I drink coffee without sugar.	'Zucker' is almost always uncountable in German, just like in English: you say 'etwas Zucker' (some sugar), not 'ein Zucker'.
 A1	Bier	das	noun	beer	Zwei Bier, bitte.	Two beers, please.	At a German bar, you can order beer with the plain unchanged plural 'zwei Bier' — no suffix needed.
 A1	Wein	der	noun	wine	Der Wein kommt aus der Region.	The wine comes from the region.	Germany's most famous wine regions, like the Moselle, mostly produce white wines, unlike Italy.
@@ -69,7 +69,7 @@ A1	Messer	das	noun	knife	Das Messer ist sehr scharf.	The knife is very sharp.	'A
 A1	Gabel	die	noun	fork	Ich brauche noch eine Gabel.	I still need a fork.	The word 'Gabel' shares a root with 'gabeln' (to fork/branch off) — the shape echoes its prongs.
 A1	Löffel	der	noun	spoon	Nimm einen Löffel für die Suppe.	Take a spoon for the soup.	'Über den Löffel balbieren' ('to shave with a spoon') is an old saying meaning 'to trick someone'.
 A1	Fenster	das	noun	window	Mach bitte das Fenster zu.	Please close the window.	'Fenster' comes from the Latin 'fenestra', one of the few old Romance loanwords still in everyday German.
-A1	Tür	die	noun	door	Die Tür ist offen.	The door is open.	In many German buildings, doors open inward into the apartment rather than into the hallway, due to fire-safety rules.
+A1	Tür	die	noun	door	Die Tür ist offen.	The door is open.	'Tür' is feminine: 'die Tür'. 'Die Tür aufmachen/zumachen' = to open/close the door. 'Tor' is a gate or a football goal.
 A1	Tisch	der	noun	table	Wir sitzen am Tisch.	We're sitting at the table.	'Reinen Tisch machen' ('to make a clean table') means to clear the air once and for all.
 A1	Stuhl	der	noun	chair	Der Stuhl ist bequem.	The chair is comfortable.	The plural 'Stühle' takes an umlaut, like many common one-syllable masculine nouns.
 A1	Bett	das	noun	bed	Ich gehe früh ins Bett.	I go to bed early.	'Ins Bett gehen' uses the accusative because it describes movement toward a place, not a static position.
@@ -109,7 +109,7 @@ A1	Fuß	der	noun	foot	Ich gehe zu Fuß zur Arbeit.	I walk to work.	'Zu Fuß gehe
 A1	Herz	das	noun	heart	Mein Herz schlägt schnell.	My heart is beating fast.	'Herz' is one of the few neuter nouns with an irregular declension in the genitive and dative: 'des Herzens', 'dem Herzen'.
 A1	krank	-	adj	sick	Ich bin heute krank.	I'm sick today.	In Germany, a doctor's note ('Krankschreibung') is almost always required starting from the third day of absence.
 A1	gesund	-	adj	healthy	Er isst sehr gesund.	He eats very healthily.	'Gesund' is also the root of 'Gesundheit', used as a well-wish after someone sneezes.
-A1	Woche	die	noun	week	Nächste Woche fahre ich weg.	Next week I'm going away.	'Nächste Woche' needs no preposition in German, unlike some other languages that use one for 'next week'.
+A1	Woche	die	noun	week	Nächste Woche fahre ich weg.	Next week I'm going away.	'Woche' is feminine: 'die Woche', plural 'Wochen'. 'Nächste Woche' is used without a preposition.
 A1	Monat	der	noun	month	Der erste Monat war schwierig.	The first month was difficult.	'Monat' shares a root with 'Mond' (moon): the German month, as in many languages, comes from the lunar cycle.
 A1	Jahr	das	noun	year	Ich lerne seit einem Jahr Deutsch.	I've been learning German for a year.	'Seit einem Jahr' uses the dative after 'seit' together with the present tense, not the past as in 'I have studied'.
 A1	heute	-	adv	today	Was machst du heute?	What are you doing today?	'Heute' often takes first position in the sentence, pushing the verb into second position under the V2 rule.
@@ -130,7 +130,7 @@ A1	Flugzeug	das	noun	airplane	Das Flugzeug landet pünktlich.	The plane lands on
 A1	Schiff	das	noun	ship	Das Schiff fährt nach Norwegen.	The ship is sailing to Norway.	Hamburg has one of the largest ports in Europe, and its history is deeply tied to shipping.
 A1	Taxi	das	noun	taxi	Wir nehmen ein Taxi zum Bahnhof.	We're taking a taxi to the station.	In many German cities, taxis look almost identical — often cream-colored Mercedes — and run on fixed municipal fares.
 A1	Koffer	der	noun	suitcase	Mein Koffer ist zu schwer.	My suitcase is too heavy.	German low-cost airlines check carry-on baggage weight with great strictness.
-A1	Pass	der	noun	passport	Ich brauche meinen Pass.	I need my passport.	Within the Schengen Area a passport is no longer required, but a valid ID document is still mandatory.
+A1	Pass	der	noun	passport	Ich brauche meinen Pass.	I need my passport.	'Pass' is short for 'Reisepass'. The identity card is the 'Personalausweis'; 'Ausweis' means an ID document in general.
 A1	Karte	die	noun	ticket / card / map	Ich kaufe eine Karte für den Zug.	I'm buying a ticket for the train.	'Karte' is a very versatile word: it means ticket, credit card, postcard, or map depending on context.
 A1	Geschäft	das	noun	shop / business	Das Geschäft schließt um achtzehn Uhr.	The shop closes at eighteen o'clock.	'Geschäft' means both the physical shop and a business deal in the abstract sense — two meanings in one word.
 A1	Preis	der	noun	price	Der Preis ist zu hoch.	The price is too high.	'Preis' means both 'price' and 'prize': a 'Nobelpreis' is a prize, not a price to pay.
@@ -214,7 +214,7 @@ A1	elf	-	adj	eleven	Die Klasse hat elf Schüler.	The class has eleven pupils.	'E
 A1	zwölf	-	adj	twelve	Der Tag hat zwölf Stunden Licht.	The day has twelve hours of light.	'Ein Dutzend' (a dozen) corresponds exactly to 'zwölf' — a unit still used by the baker.
 A1	zwanzig	-	adj	twenty	Sie ist zwanzig Jahre alt.	She is twenty years old.	From 'zwanzig' onward, all numbers are built by addition: 'einundzwanzig' is literally 'one-and-twenty'.
 A1	dreißig	-	adj	thirty	Er wird bald dreißig.	He'll soon turn thirty.	German decades from 'dreißig' onward have an irregular ending ('-ßig'), different from the normal '-zig' of 'zwanzig', 'vierzig', etc.
-A1	hundert	-	adj	hundred	Das Buch hat hundert Seiten.	The book has a hundred pages.	'Hundert' doesn't need the indefinite article 'ein' in front of it, unlike many other languages.
+A1	hundert	-	adj	hundred	Das Buch hat hundert Seiten.	The book has a hundred pages.	'Hundert' does not change and is written together with units: 'zweihundert', 'dreihundert'.
 A1	Onkel	der	noun	uncle	Mein Onkel wohnt in Berlin.	My uncle lives in Berlin.	'Onkel' comes from the French 'oncle': one of many Romance loanwords that entered German through 18th-century aristocratic culture.
 A1	Tante	die	noun	aunt	Meine Tante besucht uns oft.	My aunt visits us often.	Like 'Onkel', 'Tante' is also a French loanword, entering German along with many courtly words in the 18th century.
 A1	Cousin	der	noun	cousin (male)	Mein Cousin studiert Medizin.	My cousin studies medicine.	The pronunciation of 'Cousin' stays very close to the original French, keeping the final nasal sound.
@@ -248,7 +248,7 @@ A1	Fest	das	noun	party / festival	Wir feiern ein großes Fest.	We're celebrating
 A1	Weihnachten	das	noun	Christmas	Wir feiern Weihnachten bei der Familie.	We celebrate Christmas with the family.	'Weihnachten' is historically both singular and plural in grammar; today it's almost always treated as neuter singular.
 A1	Ostern	das	noun	Easter	An Ostern besuchen wir die Großeltern.	At Easter we visit the grandparents.	'Ostern' shares a root with 'Osten' (east): some theories trace it to the name of an old Germanic dawn goddess.
 A1	Silvester	das	noun	New Year's Eve	An Silvester gibt es Feuerwerk.	On New Year's Eve there are fireworks.	'Silvester' is named after Pope Sylvester I, whose feast day falls on December 31st in the Catholic calendar.
-A1	Geschenk machen	-	verb	to give a gift	Ich möchte dir ein Geschenk machen.	I'd like to give you a gift.	'Jemandem ein Geschenk machen' uses the dative for the person receiving it and the accusative for the gift itself.
+A1	schenken	-	verb	to give (as a gift)	Ich schenke meiner Mutter Blumen.	I am giving my mother flowers.	'Schenken' takes the dative for the person (meiner Mutter) and the accusative for the gift (Blumen). Perfekt: 'hat geschenkt'.
 A1	gratulieren	-	verb	to congratulate	Ich gratuliere dir zum Geburtstag.	I wish you a happy birthday.	'Gratulieren' takes the dative of the person: 'dir gratulieren', another of German's many dative verbs.
 A1	einladen zur Feier	-	verb	to invite to a celebration	Wir laden alle Freunde zur Feier ein.	We're inviting all our friends to the party.	'Zur Feier' is the contraction of 'zu der Feier': 'zu' always takes the dative.
 A1	Wohnzimmer	das	noun	living room	Wir sitzen im Wohnzimmer.	We're sitting in the living room.	'Wohnzimmer' is a transparent compound: 'wohnen' (to live) + 'Zimmer' (room) — the room you spend the most time in.
@@ -260,7 +260,7 @@ A1	Balkon	der	noun	balcony	Wir frühstücken auf dem Balkon.	We have breakfast o
 A1	Aufzug	der	noun	elevator / lift	Der Aufzug ist kaputt.	The elevator is broken.	'Aufzug' comes from the verb 'aufziehen' (to pull up) — a much more concrete term than the French-derived 'Lift', also used regionally.
 A1	Treppe	die	noun	stairs	Ich gehe die Treppe hoch.	I'm going up the stairs.	'Die Treppe hoch gehen' is a common colloquial structure, an alternative to the more formal 'die Treppe hinaufgehen'.
 A1	Nachricht schicken	-	verb	to send a message	Ich schicke dir eine Nachricht.	I'll send you a message.	'Schicken' takes the dative for the person and the accusative for the thing sent: 'dir eine Nachricht schicken'.
-A1	anrufen bitte	-	verb	please call	Ruf mich bitte an, wenn du ankommst.	Please call me when you arrive.	'Anrufen' is separable: in the imperative it becomes 'ruf an', with the prefix detached at the end.
+A1	Ankunft	die	noun	arrival	Die Ankunft des Zuges ist um zehn Uhr.	The train's arrival is at ten o'clock.	'Ankunft' is feminine and comes from 'ankommen'. The opposite is 'Abfahrt' (departure).
 A1	warten	-	verb	to wait	Ich warte auf dich.	I'm waiting for you.	'Warten auf' takes the accusative: 'auf dich warten', a fixed structure to memorize together with the verb.
 A1	suchen	-	verb	to look for	Ich suche meinen Schlüssel.	I'm looking for my key.	'Suchen' always takes a direct accusative object, with no preposition needed, unlike many Romance languages.
 A1	finden	-	verb	to find	Ich finde meine Brille nicht.	I can't find my glasses.	'Finden' is also used to express an opinion: 'ich finde das gut' means 'I think that's good'.
@@ -279,7 +279,7 @@ A1	Kleid	das	noun	dress	Das Kleid steht dir gut.	The dress suits you.	'Kleid' in
 A1	Socke	die	noun	sock	Ich suche eine saubere Socke.	I'm looking for a clean sock.	'Sich auf die Socken machen' ('to put oneself on the socks') is a colloquial expression for 'to get going, hurry up'.
 A1	Gürtel	der	noun	belt	Der Gürtel ist aus Leder.	The belt is made of leather.	'Den Gürtel enger schnallen' ('to tighten the belt') means having to cut back on spending, just like the English idiom.
 A1	Ring	der	noun	ring	Sie trägt einen goldenen Ring.	She's wearing a gold ring.	In Germany the engagement ring is often worn on the left hand, moving to the right after the wedding.
-A1	Uhr tragen	-	verb	to wear a watch	Er trägt immer eine Uhr.	He always wears a watch.	'Tragen' means both 'to wear' and 'to carry' — context makes clear which sense is meant.
+A1	tragen	-	verb	to wear / to carry	Er trägt immer eine Uhr.	He always wears a watch.	'Tragen' is irregular: 'er trägt', Perfekt 'hat getragen'. It means both 'to wear' and 'to carry'; context tells which.
 A1	laufen	-	verb	to run / to walk	Ich laufe jeden Morgen im Park.	I run in the park every morning.	In southern German dialects, 'laufen' often simply means 'to walk', while in the north it more specifically means 'to run'.
 A1	schwimmen	-	verb	to swim	Wir schwimmen im Sommer oft.	We swim often in summer.	The Perfekt of 'schwimmen' uses 'sein': 'ich bin geschwommen', because it describes movement with a change of state.
 A1	springen	-	verb	to jump	Das Kind springt vor Freude.	The child is jumping for joy.	'Springen' uses 'sein' in the Perfekt when it describes movement: 'ich bin gesprungen'.
@@ -291,14 +291,13 @@ A1	packen	-	verb	to pack	Ich muss noch meinen Koffer packen.	I still have to pac
 A1	Ausweis	der	noun	ID card	Zeigen Sie bitte Ihren Ausweis.	Please show your ID.	In Germany, carrying a valid ID document at all times is a legal requirement.
 A1	Formular	das	noun	form (document)	Bitte füllen Sie das Formular aus.	Please fill out the form.	'Ausfüllen' is separable: 'füllen Sie aus' in the formal imperative, with the prefix detached at the end.
 A1	Unterschrift	die	noun	signature	Ich brauche Ihre Unterschrift.	I need your signature.	'Unterschrift' is a compound: 'unter' (under) + 'Schrift' (writing), literally 'writing under' the document.
-A1	Termin vereinbaren	-	verb	to make an appointment	Ich möchte einen Termin vereinbaren.	I'd like to make an appointment.	'Vereinbaren' isn't separable: it belongs to the group of verbs with the always-inseparable prefix 'ver-'.
 A1	Rezept	das	noun	prescription / recipe	Der Arzt schreibt ein Rezept.	The doctor is writing a prescription.	'Rezept' means both 'medical prescription' and 'cooking recipe' — the German word covers both senses, just like in Italian.
 A1	Fieber	das	noun	fever	Das Kind hat Fieber.	The child has a fever.	'Fieber haben' needs no article before the noun — a fixed structure common with many symptoms.
 A1	Husten	der	noun	cough	Ich habe seit Tagen Husten.	I've had a cough for days.	'Seit Tagen' uses the dative plural after 'seit', paired with the present tense for an action still ongoing.
 A1	Schmerzen	die	noun	pain	Ich habe starke Schmerzen.	I'm in a lot of pain.	'Schmerzen' is almost always used in the plural in German for physical pain, even for a single localized ache.
 A1	Tablette	die	noun	pill / tablet	Nimm diese Tablette gegen die Schmerzen.	Take this pill for the pain.	'Gegen' always takes the accusative: 'gegen die Schmerzen' (against the pain) — a very common preposition in medical contexts.
 A1	Versicherung	die	noun	insurance	Ich habe eine gute Versicherung.	I have good insurance.	In Germany, health insurance has been a legal requirement since 1883 — the first system of its kind in the world.
-A1	Woche geht schnell	-	adv	the week goes fast	Diese Woche ist wirklich schnell vergangen.	This week has really gone by fast.	'Vergehen' describes time passing and is conjugated with 'sein' in the Perfekt: 'ist vergangen'.
+A1	Mittagspause	die	noun	lunch break	In der Mittagspause essen wir in der Kantine.	We eat in the canteen during the lunch break.	'Mittagspause' joins 'Mittag' and 'Pause'. You say 'Mittagspause machen' or 'in der Mittagspause'.
 A1	links	-	adv	left	Gehen Sie hier links.	Go left here.	'Links' and 'rechts' never take an ending: they are invariable adverbs used for street directions.
 A1	rechts	-	adv	right	Die Post ist rechts.	The post office is on the right.	'Nach rechts' indicates movement toward the right, while 'rechts' alone indicates a static position.
 A1	geradeaus	-	adv	straight ahead	Gehen Sie einfach geradeaus.	Just go straight ahead.	'Geradeaus' is a compound of 'gerade' (straight) and 'aus', now a single invariable adverb.
@@ -311,10 +310,10 @@ A1	Stau	der	noun	traffic jam	Wir stehen im Stau.	We're stuck in a traffic jam.	G
 A1	Parkplatz	der	noun	parking space	Wir haben keinen Parkplatz gefunden.	We couldn't find a parking space.	In German city centers, parking is often paid and regulated by a mandatory parking-disc time limit.
 A1	Fahrkarte	die	noun	travel ticket	Ich habe keine Fahrkarte dabei.	I don't have my ticket with me.	On German public transport, ticket checks are often random, but fines for riding without one are very steep.
 A1	Gleis	das	noun	platform / track	Der Zug fährt von Gleis drei ab.	The train departs from platform three.	At German stations the platform can change at the last minute — it's always worth checking the boards.
-A1	Fahrplan	der	noun	timetable	Ich schaue im Fahrplan nach.	I'm checking the timetable.	'Nachschauen' is separable: 'schaue nach' in the present tense, with the prefix detached at the end of the sentence.
+A1	Fahrplan	der	noun	timetable	Ich schaue im Fahrplan nach.	I'm checking the timetable.	'Fahrplan' is the timetable of trains and buses. For school it is 'Stundenplan', for work shifts 'Dienstplan'.
 A1	Ticket kaufen	-	verb	to buy a ticket	Ich kaufe das Ticket online.	I'm buying the ticket online.	In Germany, tickets bought online often cost less than those bought directly on board.
 A1	Ausflug machen	-	verb	to go on a trip	Wir machen morgen einen Ausflug.	Tomorrow we're going on a trip.	'Einen Ausflug machen' is the standard structure for talking about trips — there's no simple verb 'ausflügen'.
-A1	Karte spielen	-	verb	to play cards	Wir spielen abends oft Karten.	We often play cards in the evening.	'Karten spielen' needs no article before 'Karten' when talking about the activity in general.
+A1	Karten spielen	-	verb	to play cards	Wir spielen abends oft Karten.	We often play cards in the evening.	The activity is said in the plural: 'Karten spielen'. Singular 'Karte' is a single card, a ticket or a map.
 A1	Ball	der	noun	ball	Die Kinder spielen mit dem Ball.	The children are playing with the ball.	'Mit dem Ball spielen' uses the dative after 'mit', one of the most frequent dative prepositions of all.
 A1	Fußball	der	noun	football / soccer	Fußball ist in Deutschland sehr beliebt.	Football is very popular in Germany.	The German Bundesliga is among the most-watched football leagues in the world, with some of the highest stadium attendance.
 A1	Schwimmbad	das	noun	swimming pool	Wir gehen ins Schwimmbad.	We're going to the swimming pool.	Many German towns run public municipal pools (an open-air 'Freibad' in summer) at very affordable prices.
@@ -324,7 +323,6 @@ A1	Fitnessstudio	das	noun	gym	Ich gehe dreimal die Woche ins Fitnessstudio.	I go
 A1	Handtuch	das	noun	towel	Ich brauche ein sauberes Handtuch.	I need a clean towel.	'Handtuch' is a compound: 'Hand' (hand) + 'Tuch' (cloth), even though today it's used for the whole body.
 A1	Seife	die	noun	soap	Die Seife riecht nach Lavendel.	The soap smells of lavender.	'Riechen nach' takes the dative: 'nach Lavendel', used to describe a specific scent.
 A1	Zahnbürste	die	noun	toothbrush	Ich habe meine Zahnbürste vergessen.	I forgot my toothbrush.	'Zahnbürste' is a compound: 'Zahn' (tooth) + 'Bürste' (brush), literally a 'brush for teeth'.
-A1	Spiegelbild	das	noun	reflection	Ich sehe mein Spiegelbild.	I see my reflection.	'Spiegelbild' combines 'Spiegel' (mirror) and 'Bild' (image): the image reflected in a mirror.
 A1	Haar	das	noun	hair	Sie hat lange Haare.	She has long hair.	Singular 'Haar' can mean either a single hair or, colloquially, hair as a whole.
 A1	Bart	der	noun	beard	Er trägt einen kurzen Bart.	He wears a short beard.	A well-groomed beard has come back into fashion in Germany over the last decade, especially among younger people.
 A1	Brille	die	noun	glasses	Ich brauche eine neue Brille.	I need new glasses.	'Brille' is singular in German for a single pair of glasses, while English uses the plural 'glasses'.
@@ -333,7 +331,7 @@ A1	Nase	die	noun	nose	Meine Nase ist verstopft.	My nose is blocked.	'Die Nase vo
 A1	Mund	der	noun	mouth	Mach den Mund auf.	Open your mouth.	'Aufmachen' is separable: 'mach auf' in the casual imperative, with the prefix detached at the end.
 A1	Zahn	der	noun	tooth	Mein Zahn tut weh.	My tooth hurts.	The plural 'Zähne' takes an umlaut, like many short masculine nouns for body parts.
 A1	Bein	das	noun	leg	Er hat sich das Bein gebrochen.	He broke his leg.	'Sich das Bein brechen' uses the reflexive dative 'sich' plus the accusative 'das Bein': the affected body part is the direct object.
-A1	Arm	der	noun	arm	Sie hat einen starken Arm.	She has a strong arm.	'Arm' also means 'poor' as an adjective: two identically spelled words of completely different origin.
+A1	Arm	der	noun	arm	Mein Arm tut weh.	My arm hurts.	'Arm' also means 'poor' as an adjective: two identically spelled words of completely different origin.
 A1	Finger	der	noun	finger	Ich habe mir in den Finger geschnitten.	I cut my finger.	'Sich in den Finger schneiden' describes an accidental injury with the reflexive dative and the accusative of the affected part.
 A1	Bauch	der	noun	belly / stomach	Mein Bauch tut weh.	My stomach hurts.	'Bauchschmerzen' (stomach ache) is a very common compound word parents use with small children.
 A1	Rücken	der	noun	back	Mein Rücken tut mir weh.	My back hurts.	'Hinter dem Rücken' ('behind the back') means doing something 'behind someone's back', just as in English.
@@ -341,7 +339,6 @@ A1	Schulter	die	noun	shoulder	Er trägt die Tasche auf der Schulter.	He carries 
 A1	Sonnenschein	der	noun	sunshine	Wir genießen den Sonnenschein.	We're enjoying the sunshine.	'Genießen' always takes a direct accusative object with no preposition: 'den Sonnenschein genießen'.
 A1	Wolke	die	noun	cloud	Der Himmel ist voller Wolken.	The sky is full of clouds.	'Auf Wolke sieben schweben' ('to float on cloud seven') is the German equivalent of the English 'to be on cloud nine'.
 A1	Gewitter	das	noun	thunderstorm	Heute Abend gibt es ein Gewitter.	Tonight there will be a thunderstorm.	'Es gibt' plus the accusative is the standard structure for announcing weather events or the existence of something.
-A1	Regenbogen	der	noun	rainbow	Nach dem Regen kam ein Regenbogen.	After the rain a rainbow appeared.	'Regenbogen' is a transparent compound: 'Regen' (rain) + 'Bogen' (arc/bow), literally a 'rain arc'.
 A1	Insel	die	noun	island	Sylt ist eine bekannte Insel.	Sylt is a well-known island.	Sylt, in the North Sea, is one of the most exclusive beach destinations, beloved by well-off Germans.
 A1	Strand	der	noun	beach	Wir liegen den ganzen Tag am Strand.	We're lying on the beach all day.	'Am Strand' uses the dative because it describes where you are, a position, not movement.
 A1	Sand	der	noun	sand	Der Sand ist sehr fein.	The sand is very fine.	'Sand ins Getriebe streuen' ('to sprinkle sand into the gears') means to sabotage or hinder a process.
@@ -352,10 +349,8 @@ A1	Zelt	das	noun	tent	Wir schlafen im Zelt.	We sleep in the tent.	Camping is a v
 A1	Feuer machen	-	verb	to make a fire	Wir machen am Abend ein Feuer.	In the evening we make a fire.	'Ein Feuer machen' is the fixed structure for 'lighting a bonfire', different from 'anzünden' used for matches or candles.
 A1	Rucksack	der	noun	backpack	Mein Rucksack ist sehr schwer.	My backpack is very heavy.	'Rucksack' is a compound: 'Rücken' (back) + 'Sack' (sack), literally a 'back sack'.
 A1	Landkarte	die	noun	map	Wir schauen auf die Landkarte.	We're looking at the map.	'Landkarte' distinguishes the geographic map from the generic term 'Karte', which can also mean ticket or credit card.
-A1	Kompass	der	noun	compass	Ohne Kompass finden wir den Weg nicht.	Without a compass we can't find the way.	'Ohne' always takes the accusative: 'ohne Kompass', one of the most common accusative prepositions along with 'für' and 'durch'.
 A1	Weg	der	noun	way / path	Der Weg zum Bahnhof ist kurz.	The way to the station is short.	'Weg' means both a physical path and, figuratively, a 'way, means', as in 'to find a way, no matter what'.
 A1	Richtung	die	noun	direction	Wir fahren in die falsche Richtung.	We're going in the wrong direction.	'In die Richtung' uses the accusative because it describes movement directed toward a specific direction.
-A1	verlaufen sich	-	verb	to get lost	Wir haben uns in der Stadt verlaufen.	We got lost in the city.	'Sich verlaufen' describes getting lost on foot; 'sich verfahren' is the equivalent for getting lost while driving.
 A1	Reiseführer	der	noun	travel guide / guidebook	Wir kaufen einen Reiseführer für Berlin.	We're buying a guidebook for Berlin.	'Reiseführer' means both the book and the person who guides tourists — two meanings in the same word.
 A1	Sehenswürdigkeit	die	noun	sight / landmark	Der Kölner Dom ist eine berühmte Sehenswürdigkeit.	Cologne Cathedral is a famous landmark.	'Sehenswürdigkeit' combines 'sehen' (to see) and 'würdig' (worthy): literally 'that which is worth seeing'.
 A1	Foto machen	-	verb	to take a photo	Kannst du bitte ein Foto machen?	Can you please take a photo?	'Ein Foto machen' is the standard form; the verb 'fotografieren' exists but is slightly more formal.

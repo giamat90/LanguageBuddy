@@ -3,7 +3,7 @@ import { WORD_CONTENT_LOADERS } from '../src/i18n/wordContentLoaders';
 
 describe('German word bank layout (TASK-042)', () => {
   it('keeps the level sizes', () => {
-    expect(CEFR_ORDER.map((l) => WORD_BANK[l].length)).toEqual([369, 365, 365, 365, 365, 365]);
+    expect(CEFR_ORDER.map((l) => WORD_BANK[l].length)).toEqual([364, 362, 361, 379, 369, 359]);
     expect(allEntries()).toHaveLength(2194);
   });
 

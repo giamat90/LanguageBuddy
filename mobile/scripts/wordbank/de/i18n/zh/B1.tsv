@@ -11,7 +11,7 @@ B1	Feierabend	下班，下班后的时间	下班后我和朋友见面。	“Feie
 B1	sich freuen	高兴，期待	我期待着周末。	“Sich freuen auf”着眼于未来，“sich freuen über”着眼于现在或过去——两个介词对应两个时间框架。
 B1	trotzdem	尽管如此，还是	已经很晚了，但我们还是去散步了。	在句首，“trotzdem”算作第一个成分，把主语推到动词之后：动词第二位规则。
 B1	beantragen	申请（官方）	我必须申请一张新身份证。	在德国，几乎所有官方事务都要通过表格来“beantragt”：这个动词立刻让人联想到官僚体系。
-B1	Ausland	国外，外国	她在国外生活了一年。	“Ins Ausland gehen”和“im Ausland leben”都用冠词：在德语中，“国外”是语法上明确界定的地方。
+B1	Ausland	国外，外国	她在国外生活了一年。	“Ausland”是“Inland”（国内）的反义词。说“im Ausland”（在哪里）和“ins Ausland”（到哪里去）；它没有复数。
 B1	sich beschweren	抱怨，投诉	他投诉了噪音。	在德国，正式的书面投诉（“Beschwerde”）被视为一种正当权利，而不是不礼貌。
 B1	Gewohnheit	习惯	早起对我来说已成了习惯。	后缀“-heit”和“-keit”、“-ung”一样，构成阴性抽象名词：“gewohnt”→“Gewohnheit”。
 B1	damit	为了，以便	我把它写下来，以免忘记。	作为连词，“damit”把动词送到末尾；作为副词（“用那个”）则不会——同一个词，两种表现。
@@ -50,7 +50,6 @@ B1	doch	（语气词）可是，还是，嘛	来嘛，和我们一起来！	像�
 B1	Erwartung	期望，期待	期望很高。	“Erwartung”来自“erwarten”（期待），一个在职场语境中非常常见的不可分动词。
 B1	Voraussetzung	前提，先决条件	德语能力是一项前提条件。	“Voraussetzung”来自“voraussetzen”（预设），由“voraus”（预先）和“setzen”（放置）组成。
 B1	Konsequenz	后果，结果	这个决定会有后果。	“Konsequenz”既指“后果”，也指（行为上的）“一贯性”——同一词根的两个不同含义。
-B1	Auswirkung	影响，作用	气候变化具有全球性影响。	“Auswirkung auf”接四格：“auf die Umwelt”（对环境）——环境话语中常见的固定结构。
 B1	Ursache	起因，成因	问题的起因不明。	“Ursache”和“Grund”近义，但“Ursache”听起来更科学客观，“Grund”更个人化。
 B1	Wirkung	效果，作用	这种药见效很快。	“Wirkung zeigen”是标准的固定搭配，尤其用于医学和科学语境。
 B1	Faktor	因素	时间是一个重要因素。	“Faktor”在许多语言中几乎相同，是国际通用的书面拉丁语借词。
@@ -94,7 +93,7 @@ B1	Erstattung	退款，报销	退款需要两周。	“Erstattung”来自“ers
 B1	Garantie	保修，担保	这台设备有两年保修。	在整个欧盟，新产品的最低法定保修期是两年，不论制造商是谁。
 B1	Reklamation	投诉（正式），索赔	公司正在处理您的投诉。	“Reklamation”比“Beschwerde”更正式、更技术性，通常用于商业和行政语境。
 B1	Behörde	政府机关，主管部门	这个机关负责签证。	“Zuständig sein für”接四格，是说明机关职责范围的标准结构。
-B1	Anmeldung	登记，注册	登记必须在一周内完成。	在德国，搬家后两周内必须到户籍办公室办理“Anmeldung”，这是法律要求。
+B1	Anmeldung	登记，报名	登记必须在两周内完成。	在德国，搬家后两周内必须到户籍登记处完成“Anmeldung”，这是法律规定。
 B1	Aufenthaltstitel	居留许可	他在申请新的居留许可。	“Beantragen”不可分：它属于带不可分前缀“be-”的动词一类。
 B1	Staatsangehörigkeit	国籍	我的国籍是意大利。	“Staatsangehörigkeit”是复杂的复合词：“Staat”（国家）+“angehören”（属于）+后缀“-keit”。
 B1	Einbürgerung	入籍，归化	入籍往往需要数年。	“Einbürgerung”来自“Bürger”（公民），前缀“ein-”表示“进入”公民身份的过程。
@@ -130,7 +129,7 @@ B1	Reifen	轮胎	轮胎瘪了。	“Platt”描述轮胎瘪了或被扎破，是
 B1	Tankstelle	加油站	下一个加油站在五公里外。	在德国的许多高速公路上，各加油站的油价相差很大——值得比较一下。
 B1	tanken	加油	我们还得加油。	“Tanken”在说明燃料类型时直接接四格宾语：“Diesel tanken”（加满柴油）。
 B1	Verkehrszeichen	交通标志	这个交通标志我不认识。	“Verkehrszeichen”由“Verkehr”（交通）和“Zeichen”（标志）组成：技术语言中典型的透明复合词。
-B1	überholen	超车	这里不许超车。	“Überholen”不可分：它属于带不可分前缀“über-”的动词一类。
+B1	überholen	超车	这里不允许超车。	表示“超车”时它是不可分动词，重音在词干上：“er überholt”，“hat überholt”（没有“ge-”）。
 B1	bremsen	刹车，制动	她不得不突然刹车。	“Bremsen”是规则动词，与相应的名词“Bremse”（刹车）同根。
 B1	Geschwindigkeit	速度，车速	这里限速。	在德国高速公路的许多路段没有限速，但普通道路上城市50公里/小时的限速执行得很严格。
 B1	Bußgeld	罚款	他不得不付一笔高额罚款。	“Bußgeld”由“Buße”（赎罪，罚款）和“Geld”（钱）组成：字面意思是“作为赎罪的钱”。
@@ -141,7 +140,7 @@ B1	speichern	保存，存储	别忘了保存文档。	“Speichern”来自“Sp
 B1	löschen	删除，扑灭	我不小心删除了文件。	“Löschen”既指“删除数据”也指“灭火”——共同的概念是“使消失”。
 B1	herunterladen	下载	我正在下载这个应用。	“Herunterladen”是可分动词：现在时为“lade herunter”，长前缀在末尾分离。
 B1	hochladen	上传	我把照片上传到云端。	“Hochladen”是“herunterladen”的正好反义词，用前缀“hoch-”（向上）取代“herunter-”（向下）构成。
-B1	Passwort	密码	我忘了我的密码。	“Passwort”是部分仿译自英语，由借词“Pass”和德语词“Wort”（词）组成。
+B1	Passwort	密码	我忘记了我的密码。	“Passwort”是英语“password”的仿造词：“Pass”（通行证）+“Wort”（词）。复数是“Passwörter”。
 B1	Benutzername	用户名	请输入您的用户名。	“Eingeben”是可分动词，意思是“输入”，常用于数字界面。
 B1	Datenschutz	数据保护，隐私	数据保护在德国非常重要。	德国是欧洲隐私保护最严格的国家之一，其法律传统早于欧盟的GDPR。
 B1	soziale Medien	社交媒体	我很少使用社交媒体。	“Soziale Medien”是官方的德语译法，不过许多人直接使用英语借词“Social Media”。
@@ -164,7 +163,7 @@ B1	Turnier	锦标赛，比武大会	锦标赛持续一周。	“Turnier”来自
 B1	Sieg	胜利	那是一场重要的胜利。	“Sieg”是“Siegerin”（女获胜者）和“siegen”（获胜）的词根，在体育中非常常见的词族。
 B1	Niederlage	失败，败北	失败之后，球队很失望。	“Niederlage”来自“niederlegen”（放下）：字面意思是“被击倒的行为”。
 B1	Fan	粉丝，球迷	我是这支乐队的忠实粉丝。	“Fan”是直接借自英语的词，用阳性冠词完全融入德语语法。
-B1	Stadion	体育场，球场	体育场座无虚席。	德国的足球场，如多特蒙德的西格纳伊度纳公园球场，是欧洲最大、最嘈杂的球场之一。
+B1	Stadion	体育场	体育场座无虚席。	“Stadion”的复数是“Stadien”（较少见的是“Stadions”）。它来自希腊语“stádion”。
 B1	Zuschauer	观众	成千上万的观众到场。	“Zuschauer”来自“zuschauen”（观看，旁观），体育语境中非常常见的可分动词。
 B1	Ausrüstung	装备，设备	我需要新的徒步装备。	“Ausrüstung”来自“ausrüsten”（装备），技术和体育语境中使用的可分动词。
 B1	Wanderung	徒步旅行，远足	这次徒步花了五个小时。	巴伐利亚阿尔卑斯山和黑森林提供了欧洲一些最著名的徒步路线。
@@ -178,7 +177,7 @@ B1	braten	煎，烤	我在平底锅里煎蔬菜。	“Braten”是不规则强�
 B1	kochen	烹饪，煮	今晚谁做饭？	“Kochen”既指一般的“烹饪”，也特指“煮沸”——由上下文判断是哪个意思。
 B1	backen	烘焙，烤	周末我烤蛋糕。	“Backen”的过去式可以是规则的或略不规则的（“backte”或“buk”）——德语中少见的双重形式。
 B1	schneiden	切，剪	把洋葱切碎。	“Schneiden”是不规则强变化动词：“schnitt, geschnitten”，有e-i-i的元音变化。
-B1	würzen	调味，加香料	用胡椒给汤调味。	“Würzen”来自“Gewürz”（香料），食谱中非常常见的规则动词。
+B1	würzen	给（食物）调味	用胡椒给汤调味。	“Würzen”是“Gewürz”（香料）所由来的动词。它搭配“mit”：“mit Pfeffer würzen”。
 B1	Pfeffer	胡椒	再多一点胡椒就好了。	胡椒在中世纪德国非常珍贵，几乎被当作一种货币使用。
 B1	Gewürz	香料，调料	这种香料我不认识。	“Gewürz”来自“würzen”（调味），带有中性名词典型的集合前缀“ge-”。
 B1	Vorspeise	前菜，开胃菜	作为前菜我要汤。	“Vorspeise”由“vor”（之前）和“Speise”（菜肴）组成：字面意思是“前面的菜”，即前菜。
@@ -201,16 +200,13 @@ B1	Erkältung	感冒，着凉	我有点轻微感冒。	“Erkältung”来自“
 B1	Grippe	流感	他得了流感卧床不起。	“Mit Grippe im Bett liegen”是描述因病被迫休息的标准说法。
 B1	Impfstoff	疫苗	疫苗研发得很快。	“Wurde entwickelt”是过去时的被动态：“werden”加分词，常用于科学语言。
 B1	Therapie	治疗，疗法	她在接受心理治疗。	在德国，心理治疗通常由法定医疗保险承担，不过等候名单很长。
-B1	seelisch	心理的，精神的	心理健康同样重要。	“Seelisch”来自“Seele”（灵魂），与“körperlich”（身体的）相对。
 B1	Burnout	职业倦怠，过劳	许多员工患有职业倦怠。	“Leiden unter”接三格：“unter Burnout”——表达因某事而受苦的标准结构。
 B1	Work-Life-Balance	工作与生活的平衡	工作与生活的平衡对她非常重要。	这个整个英语借来的短语在德语中原样使用，没有广泛通行的官方译法。
 B1	Auszeit	暂停，休整	他从工作中抽身休整一段时间。	“Auszeit”由“aus”和“Zeit”组成：暂时脱离日常生活的一段时间。
-B1	Achtsamkeit	正念，留心	正念有助于缓解压力。	“Achtsamkeit”来自“achtsam”（留心的，关切的），这一概念在现代德国养生文化中日益普及。
 B1	Meditation	冥想，静思	我每天早上做冥想。	“Meditation”在各种语言中几乎相同，是国际通用的术语。
 B1	Schlafmangel	睡眠不足	睡眠不足会影响注意力。	“Beeinflussen”不可分：它属于带不可分前缀“be-”的动词一类。
 B1	Alltag	日常生活，日常	日常生活可能充满压力。	“Alltag”由“all-”（所有）和“Tag”（日）组成：字面意思是“每一天”，即日常例行事务。
 B1	Routine	例行程序，惯例	我有固定的晨间惯例。	“Routine”是法语借词，已完全融入日常德语。
-B1	Gewohnheit ändern	改变习惯	改变习惯很难。	“Ändern”总是直接接四格宾语，不需要介词，谈论变化时非常常见的动词。
 B1	Balance halten	保持平衡	保持平衡很重要。	“Eine Balance halten”是标准搭配，既用于身体上，也比喻生活的平衡。
 B1	Prioritäten setzen	确定优先事项	我得重新确定我的优先事项。	“Prioritäten setzen”是工作和个人安排用语中的标准固定搭配。
 B1	sich Zeit nehmen	花时间，抽出时间	给自己留点时间。	“Sich Zeit nehmen für”接四格和反身三格代词——复杂但非常常见的结构。
@@ -227,7 +223,7 @@ B1	Treibhauseffekt	温室效应	温室效应使地球变暖。	“Treibhauseffek
 B1	Artenvielfalt	物种多样性，生物多样性	森林保护着物种多样性。	“Artenvielfalt”由“Art”（物种）和“Vielfalt”（多样性）组成：字面意思是“物种的多样”。
 B1	Aussterben	灭绝，绝种	许多动物物种面临灭绝的威胁。	“Vom Aussterben bedroht”是固定的被动结构，用于环境保护的语言中。
 B1	Landwirtschaft	农业	农业正在发生巨大变化。	“Landwirtschaft”由“Land”（土地）和“Wirtschaft”（经济）组成：字面意思是“土地的经济”。
-B1	Bio-Lebensmittel	有机食品	有机食品往往更贵。	德国的“Bio”有机标志受法律规范，深受消费者信任。
+B1	Bio-Lebensmittel	有机食品	有机食品往往更贵。	几乎总是用复数。食品上的“Bio”受欧盟有机法规保护；德国的“Bio-Siegel”是另一个独立的国家标志。
 B1	regional einkaufen	购买本地产品	越来越多的人购买本地产品。	作为副词的“regional”描述产品的产地，这个话题在德国饮食文化中引起强烈共鸣。
 B1	Konsum	消费	我们的消费给环境带来负担。	“Belasten”总是直接接四格宾语，常用于环境和财务语境。
 B1	Verzicht	放弃，舍弃	对许多人来说，戒掉肉类很难。	“Verzicht auf”接四格：“auf Fleisch”——谈论放弃某些东西时常见的固定结构。
@@ -238,7 +234,6 @@ B1	Verein	协会，俱乐部	我是一个体育俱乐部的会员。	德国有�
 B1	Gemeinschaft	共同体，社群	大家互相帮助。	“Gemeinschaft”来自“gemein”（共同的）加集合后缀“-schaft”，营造出共同归属感。
 B1	Solidarität	团结，声援	我们向受影响者表示声援。	“Solidarität zeigen mit”接三格，在公共语境中表达支持的标准结构。
 B1	Gerechtigkeit	公正，正义	她为社会正义而奋斗。	“Kämpfen für”接四格：“für Gerechtigkeit”——公民话语中非常常见的结构。
-B1	Gleichberechtigung	平等权利，男女平等	平等权利写入了宪法。	“Verankert”来自“Anker”（锚）：用航海意象表示一项原则被牢固确立。
 B1	Vielfalt schätzen	珍视多样性	我们的社会应当珍视多样性。	“Schätzen”直接接四格宾语，既指“尊重，欣赏”也指“估价”。
 B1	Toleranz	宽容，包容	宽容是一项重要的价值观。	“Toleranz”在各种语言中几乎相同，是国际通用的社会术语。
 B1	Vorurteile abbauen	消除偏见	教育有助于消除偏见。	“Abbauen”是可分动词，接四格，既用于偏见，也用于被拆除的实体结构。
@@ -260,7 +255,7 @@ B1	scheitern	失败，受挫	这个项目很遗憾失败了。	“Scheitern”�
 B1	aufgeben	放弃	别这么快就放弃！	“Aufgeben”是可分动词：祈使句为“gib auf”，前缀在句末分离。
 B1	durchhalten	坚持，挺住	我们还得再坚持一会儿。	“Durchhalten”是可分动词：现在时为“halte durch”，前缀在句末分离。
 B1	Wohngemeinschaft	合租公寓，合租房	我和另外三个学生合租一套公寓。	WG（Wohngemeinschaft）在德国学生中极为常见，往往比单间公寓便宜。
-B1	Möbliert	带家具的	这套公寓家具齐全。	“Möbliert”来自法语“meublé”，加上了标准的德语形容词词尾。
+B1	möbliert	带家具的	这套公寓配有齐全的家具。	“Möbliert”来自“möblieren”（配备家具），源自法语“meubler”。租房广告中：“möbliert”或“unmöbliert”（不带家具）。
 B1	Nachmieter	下一任租客，接租人	我们在为这套公寓找接租的租客。	按德国通行做法，找到接手合同的“Nachmieter”往往是搬出的租客的责任。
 B1	Umzugskarton	搬家纸箱	我们还需要更多搬家纸箱。	“Umzugskarton”由“Umzug”（搬家）和“Karton”（纸箱）组成——非常实用、透明的复合词。
 B1	renovieren	翻新，装修	我们正在翻新厨房。	“Renovieren”是借自拉丁语的词，像任何现代德语动词一样规则变位。
@@ -278,7 +273,6 @@ B1	Etage	楼层	我们住在四楼。	“Etage”是法语借词；在标准德�
 B1	Erdgeschoss	底层，一楼	邮箱在一楼。	在德语中，楼层从零开始数：“Erdgeschoss”是地面层，“erster Stock”已经是它的上一层。
 B1	Dachgeschoss	阁楼，顶层	阁楼的墙是斜的。	德国历史建筑的Dachgeschoss里许多公寓有特色的斜顶，租金也较低。
 B1	Klingel	门铃	门铃坏了。	“Klingel”来自动词“klingeln”（响铃，叮当作响），也用于闹钟或电话。
-B1	Briefkasten	信箱	请看一下信箱。	“Nachschauen”是可分动词：祈使句为“schau nach”，前缀在末尾分离。
 B1	Vermietung	出租	出租事宜通过一家中介办理。	表示过程的渠道时，“laufen über”中的“über”接四格：“über eine Agentur laufen”。
 B1	Sozialwohnung	社会住房，保障房	社会住房太少了。	社会住房短缺是近年来德国城市政策中争论最多的话题之一。
 B1	Mietpreisbremse	租金管制，限租令	租金管制旨在限制租金。	“Mietpreisbremse”是在许多德国大城市为遏制租金上涨而推出的立法措施。
@@ -294,8 +288,6 @@ B1	Miteigentümer	共同所有人	所有共同所有人都必须同意。	“Mit
 B1	Eigentumswohnung	产权公寓，自有住房	他们买了一套产权公寓。	在德国，住房自有率低于包括意大利在内的许多其他欧洲国家。
 B1	Hypothek	抵押贷款	我们用房子作抵押贷了款。	“Eine Hypothek aufnehmen”是标准的固定搭配，与“einen Kredit aufnehmen”（贷款）几乎相同。
 B1	Zins	利息	目前利率很低。	指贷款的整体利率时，“Zins”几乎总是用复数“Zinsen”。
-B1	Absicherung	保障，防护	保险起保障作用。	“Dienen”接三格：“der Absicherung dienen”，法律和金融语境中使用的正式动词。
-B1	Klausel	条款	这条条款在合同中很重要。	“Klausel”是取自拉丁语“clausula”的法律术语，在许多欧洲语言中几乎相同。
 B1	Kündigungsschutz	解雇保护	解雇保护在六个月后适用。	德国的Kündigungsschutz法律在连续工作满一段最短时间后对雇员提供强力保护。
 B1	Abfindung	遣散费，补偿金	他拿到了一笔遣散费。	“Abfindung”来自“abfinden”（了结，补偿），德国劳动法的典型术语。
 B1	Flugverspätung	航班延误	由于航班延误，我们错过了转机。	“Wegen”接二格，或在口语中接三格：现代口语中两种形式都能听到。
@@ -313,16 +305,15 @@ B1	einchecken	办理入住，登记	我们两点办理入住。	“Einchecken”
 B1	auschecken	办理退房	我们必须十一点退房。	和“einchecken”一样，“auschecken”也是可分的，遵循相同的语法结构。
 B1	Zimmerservice	客房服务	我们向客房服务点点东西。	“Beim Zimmerservice bestellen”在“bei”之后用三格，表示“从、在”的标准介词。
 B1	Rundreise	环游，巡游	我们要在德国南部环游一圈。	“Durch”接四格：“durch Süddeutschland”，描述穿过某个地区的移动。
-B1	Sehenswürdigkeiten besichtigen	参观名胜	今天我们参观主要的名胜。	“Besichtigen”直接接四格宾语，不需要介词，和“besuchen”一样。
+B1	besichtigen	参观，游览（景点）	我们今天参观大教堂。	“Besichtigen”用于去观看的地方和建筑（大教堂、博物馆、住房）；“besuchen”多用于拜访人或泛指的访问。
 B1	Stadtführung	城市导览，市区游览	城市导览持续两个小时。	“Stadtführung”由“Stadt”和“Führung”（引导）组成：由导游带领的有组织的游览。
 B1	Reiseveranstalter	旅行社，旅游运营商	我们通过旅行社订了这次旅行。	表示渠道时，“über”接四格：“über einen Reiseveranstalter buchen”（通过旅行社预订）。
 B1	Pauschalreise	包价旅游，套餐旅行	包价旅游往往更划算。	“Pauschal”意思是“统包的，全包的”：一个价格涵盖机票、酒店，有时还包括餐食。
 B1	Reiseversicherung	旅行保险	我总是买旅行保险。	“Abschließen”是可分动词，接四格：“eine Versicherung abschließen”是购买保险的固定搭配。
-B1	Zeitverschiebung	时差	时差让我很累。	“Zeitverschiebung”由“Zeit”（时间）和“Verschiebung”（移动）组成：时差的技术术语。
+B1	Zeitverschiebung	时差	与纽约的时差是六个小时。	“Zeitverschiebung”指两地之间的钟点差；由此带来的疲倦叫“Jetlag”。
 B1	Kulturschock	文化冲击	搬家之后，她经历了真正的文化冲击。	“Kulturschock”描述在文化规范大相径庭的国家生活时最初的茫然无措。
 B1	Auswanderer	移民出境者，移居国外的人	许多移居国外的人搬到加拿大。	“Auswanderer”来自“auswandern”（移居国外），是“Einwanderer”（移入者）的直接反义词。
 B1	Einwanderer	移民入境者，外来移民	德国接纳了许多移民。	“Aufnehmen”是可分动词，意思是“接纳”，关于移民的政治话语中常见的动词。
-B1	Zugehörigkeit	归属，隶属	归属感很重要。	“Zugehörigkeit”来自“zugehören”（属于），带后缀“-keit”的抽象复合词。
 B1	fließend sprechen	流利地说	她德语和英语都说得很流利。	作副词的“fließend”描述非常高的语言流利程度，接近母语。
 B1	zweisprachig	双语的	我们的孩子在双语环境中长大。	“Aufwachsen”是可分动词，意思是“长大”——谈论童年时的典型动词。
 B1	Sprachbarriere	语言障碍	一开始存在语言障碍。	“Sprachbarriere”由“Sprache”和“Barriere”（障碍）组成，融入语境中非常常见的术语。
@@ -337,7 +328,6 @@ B1	riskieren	冒险，冒……的风险	他为这个决定冒了很大的风险
 B1	Risiko eingehen	冒风险	有时候人必须冒点风险。	“Eingehen”是可分动词，接四格：“ein Risiko eingehen”是标准的固定搭配。
 B1	absichern	保障，防范	我们必须在经济上有所保障。	“Sich absichern”是反身动词，根据具体语境常接二格或介词。
 B1	Konsequenzen tragen	承担后果	每个人都必须承担自己行为的后果。	“Tragen”既指“实际携带”，也比喻“承担，承受”。
-B1	Wendepunkt	转折点	这个决定是我生活中的转折点。	“Wendepunkt”由“Wende”（转向）和“Punkt”（点）组成：改变事件进程的决定性时刻。
 B1	Perspektive wechseln	转换视角	有时候换个角度会有帮助。	“Wechseln”直接接四格宾语，既用于视角，也用于衣服或货币等具体事物。
 B1	Selbstreflexion	自我反思	自我反思有助于做重要的决定。	“Selbstreflexion”由“selbst”（自己）和“Reflexion”（反思）组成，在个人成长语境中越来越常用的术语。
 B1	Lebensqualität	生活质量	这里的生活质量很高。	慕尼黑和杜塞尔多夫等几座德国城市经常出现在国际生活质量排名中。
@@ -354,12 +344,18 @@ B1	Neugier	好奇心	好奇心驱动着许多科学家。	“Antreiben”是可�
 B1	Kreativität	创造力	创造力是无法强求的。	带否定的“Sich erzwingen lassen”意思是“无法被强迫”——一种反身的类被动结构。
 B1	Inspiration	灵感，启发	这次旅行给了她极大的启发。	“Inspiration”在各种语言中几乎相同，是另一个共享的拉丁语借词。
 B1	Ausdauer	耐力，持久力	马拉松需要很强的耐力。	“Ausdauer”由“aus”和“dauern”（持续）组成：字面意思是“坚持到底的能力”。
-B1	Willenskraft	意志力	有一点意志力，你就能做到。	“Willenskraft”由“Wille”（意志）和“Kraft”（力量）组成：非常透明的复合词。
 B1	Selbstvertrauen	自信，自我信任	旅行能增强自信。	“Selbstvertrauen”由“selbst”和“Vertrauen”（信任）组成：不同于更偏重自我认识的“Selbstbewusstsein”。
-B1	Anpassungsfähigkeit	适应能力	适应能力在国外很重要。	“Anpassungsfähigkeit”来自“sich anpassen”（适应）加表示能力的后缀“-fähigkeit”。
-B1	Durchhaltevermögen	毅力，持久力	读大学需要毅力。	“Durchhaltevermögen”由“durchhalten”（坚持）和“Vermögen”（能力）组成：很长但透明的复合词。
-B1	Lebensfreude	生活的乐趣，生活热情	她散发着富有感染力的生活热情。	“Ausstrahlen”是可分动词，意思是“散发，流露”，常用于积极的个人品质。
-B1	Bescheidenheit	谦虚，谦逊	尽管成功了，他仍保持谦虚。	“Bescheidenheit”来自“bescheiden”（谦虚的）加抽象后缀“-heit”。
+B1	Lebensfreude	生活的乐趣，对生活的热情	她散发着富有感染力的生活热情。	“Lebensfreude”=“Leben”+“Freude”：把生活的快乐当作一种持久的正面能量。也说：“voller Lebensfreude”（充满生活的乐趣）。
 B1	Neuanfang	重新开始，新的开端	搬家对她来说是真正的重新开始。	“Neuanfang”由“neu”（新）和“Anfang”（开始）组成：用于生活变化的简单而非常常见的复合词。
 B1	Lebensweg	人生道路	每个人都有自己的人生道路。	“Lebensweg”由“Leben”（生命）和“Weg”（路）组成：用于存在的道路隐喻。
 B1	persönliche Errungenschaft	个人成就	毕业是她最大的成就。	“Errungenschaft”来自“erringen”（通过努力获得）：凭辛勤劳动和才能达到的里程碑。
+B1	Diagnose	诊断	医生作出诊断。	“Eine Diagnose stellen”（“作出诊断”）是医疗语境中使用的标准固定搭配。
+B1	Feuchtigkeit	湿度，潮气	地下室的潮气是个问题。	“Feuchtigkeit”来自“feucht”（潮湿的），加上抽象名词后缀“-igkeit”，它是“-keit”的变体。
+B1	Fließband	流水线，传送带	他在流水线上工作。	“Fließband”由“fließen”（流动）和“Band”（带）组成：字面意思是“流动的带子”。
+B1	Klima	气候	气候变化得很快。	“Klima”是中性词（das Klima），指一个地区的气候；“Wetter”则是当天的天气。“Klimawandel”是气候变化。
+B1	Kompass	指南针	没有指南针，我们找不到路。	“Kompass”是阳性词，结尾是双“s”。它也有比喻用法：“ein moralischer Kompass”（道德的指南针）。
+B1	Solarenergie	太阳能	我们在屋顶上生产太阳能。	“Solarenergie”是来自太阳的能量；屋顶上的系统叫“Solaranlage”或“Photovoltaikanlage”。
+B1	Spiegelbild	镜中的影像	我看到我的影像。	“Spiegelbild”由“Spiegel”（镜子）和“Bild”（影像）组成：镜子中映出的图像。
+B1	würde	会，将会（虚拟式助动词）	我很想住在柏林。	'Würde + 不定式'是口语中表达第二虚拟式最常见的方式，用来代替 'lebte' 之类较少用的形式。
+B1	hätte	本会，曾会（虚拟式）	如果我是你，我会做出不同的反应。	'Hätte' 和 'wäre' 是少数在口语中仍然通行的第二虚拟式形式：说 'ich würde haben' 听起来很别扭。
+B1	Ernährung	营养，饮食	健康的饮食有助于你保持健康。	“Ernährung”来自“ernähren”（喂养，滋养），指一个人总体的饮食方式，而“Essen”指食物或一餐饭。

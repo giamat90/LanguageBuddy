@@ -1,5 +1,5 @@
 A2	einkaufen	robić zakupy	Dziś wieczorem robię zakupy.	Niemieckie supermarkety zamykają się wcześnie i są zamknięte prawie w każdą niedzielę, co zaskakuje gości z krajów śródziemnomorskich.
-A2	anrufen	dzwonić, telefonować	Zadzwonię do ciebie jutro.	Niemcy chętnie używają formalnego telefonu nawet do spraw, które inni załatwiają SMS-em, jak odwołanie wizyty.
+A2	anrufen	zadzwonić, dzwonić	Zadzwonię do ciebie jutro.	„Anrufen” jest rozdzielnie złożone: „ich rufe an”, Perfekt „hat angerufen”. Wymaga biernika: „jemanden anrufen”.
 A2	fahren	prowadzić (pojazd), podróżować	Ona codziennie jeździ rowerem.	Zmiana samogłoski „a → ä” w „fährt” to jeden z najczęstszych nieregularnych wzorców w niemieckim, wspólny dla dziesiątek codziennych czasowników.
 A2	Freizeit	czas wolny	W wolnym czasie gram na gitarze.	Niemcy stanowczo bronią swojego Freizeit: prawo gwarantuje co najmniej 20 płatnych dni urlopu, a nieodpłatne nadgodziny są źle widziane.
 A2	Küche	kuchnia (pomieszczenie, sztuka kulinarna)	Kuchnia niemiecka jest bardzo zróżnicowana.	Po niemiecku „Küche” oznacza zarówno pomieszczenie, jak i tradycję kulinarną — jedno słowo na dwa centralne pojęcia.
@@ -7,7 +7,7 @@ A2	essen	jeść	On lubi jeść ryby.	Nieregularne „isst” od „essen” to z
 A2	Urlaub	urlop	Spędzamy urlop we Włoszech.	Niemcy należą do czołowych wydających na turystykę na świecie, a Włochy od dawna są ich ulubionym celem.
 A2	Krankenhaus	szpital	Szpital jest w centrum miasta.	Dosłownie „dom chorych”, Krankenhaus to przejrzyste złożenie: niemieckie znaczenie często da się odczytać, rozkładając słowo na części.
 A2	Kollege	kolega z pracy	Mój kolega zawsze mi pomaga.	Niemcy wyraźnie odróżniają Kollege (kolegę z pracy) od Freund (przyjaciela): nazwanie kolegi „Freund” oznacza znacznie głębszą więź.
-A2	aufräumen	sprzątać, porządkować	Sprzątam swój pokój.	Pojęcie Ordnung (porządku) jest w Niemczech tak ważne, że „Ordnung muss sein” („porządek musi być”) działa niemal jak narodowe motto.
+A2	aufräumen	sprzątać, porządkować	Sprzątam swój pokój.	„Aufräumen” jest rozdzielnie złożone: „ich räume auf”, Perfekt „hat aufgeräumt”.
 A2	abfahren	odjeżdżać	Pociąg odjeżdża za pięć minut.	Na niemieckich tablicach odjazd to „Abfahrt”, a przyjazd to „Ankunft” — dwa rzeczowniki pochodzące od czasowników rozdzielnych.
 A2	Rechnung	rachunek, faktura	Czy możemy prosić o rachunek?	W niemieckich restauracjach często pyta się „zusammen oder getrennt?” („razem czy osobno?”) — dzielenie rachunku jest zupełnie normalne.
 A2	vorbereiten	przygotowywać	Przygotowuję posiłek.	Przedrostek „vor-” (przed) tworzy dziesiątki czasowników rozdzielnych, jak „vorschlagen” (proponować) i „vorstellen” (przedstawiać).
@@ -101,7 +101,7 @@ A2	Überraschung	niespodzianka	To była wspaniała niespodzianka!	„Überraschu
 A2	Sorge	zmartwienie, troska	Nie martw się.	„Sich Sorgen machen” („robić sobie zmartwienia”) to standardowe wyrażenie na okazywanie niepokoju lub zmartwienia.
 A2	Wunsch	życzenie	Masz jakieś szczególne życzenie?	„Auf Wunsch” („na życzenie”) to bardzo częsta fraza w kontekstach usługowych, od restauracji po urzędy.
 A2	Freude	radość	Radość była wielka.	„Mit Freude” („z radością”) to standardowa fraza używana nawet w oficjalnych listach przy przyjęciu zaproszenia.
-A2	Angst	strach, lęk	Ona nie boi się psów.	„Angst” jest zawsze rodzaju żeńskiego i w liczbie pojedynczej, ale może mieć liczbę mnogą „Ängste” przy mówieniu o kilku różnych lękach.
+A2	Angst	strach, lęk	Ona nie boi się psów.	„Angst haben vor” łączy się z celownikiem: „Angst vor Hunden”. Liczba mnoga „Ängste” istnieje, ale jest rzadka; normalna jest liczba pojedyncza.
 A2	Wut	złość, wściekłość	Jego złość była zrozumiała.	„Wut” jest intensywniejsze niż „Ärger” (irytacja, zdenerwowanie): opisuje silną, niemal niekontrolowaną złość.
 A2	Ruhe	spokój, cisza	Teraz potrzebuję trochę spokoju.	„Lass mich in Ruhe” („zostaw mnie w spokoju”) używa „Ruhe” jako pożądanego stanu — jedno z najczęstszych wyrażeń w konfliktach rodzinnych.
 A2	Stress	stres	W tej chwili mam dużo stresu.	„Stress” to bezpośrednie zapożyczenie z angielskiego, któremu nadano rodzaj męski przez analogię do innych niemieckich rzeczowników abstrakcyjnych.
@@ -111,10 +111,9 @@ A2	aufpassen	uważać	Uważaj, droga jest śliska!	„Aufpassen auf” łączy s
 A2	sich konzentrieren auf	koncentrować się na	Muszę skoncentrować się na pracy.	„Sich konzentrieren auf” łączy się z biernikiem: „auf die Arbeit” — bardzo częsta stała struktura w kontekście szkoły i pracy.
 A2	nachdenken über	zastanawiać się nad	Zastanawiam się nad twoją propozycją.	„Nachdenken über” jest rozdzielne i łączy się z biernikiem: „über deinen Vorschlag”, inaczej niż zwykłe „denken an”.
 A2	sich entschuldigen	przepraszać	Chciałbym przeprosić.	„Sich entschuldigen für” łączy się z biernikiem rzeczy, za którą się przeprasza, lub „bei” z celownikiem dla osoby.
-A2	versprechen	obiecywać	Obiecuję ci, że będę punktualnie.	„Versprechen” łączy się z celownikiem osoby, której się coś obiecuje, jak wiele czasowników z przedrostkiem „ver-”.
+A2	versprechen	obiecywać	Obiecuję ci, że będę punktualnie.	„Versprechen”: osoba w celowniku, rzecz w bierniku („Ich verspreche dir Hilfe”). Jest nieregularne: versprach, hat versprochen.
 A2	erlauben	pozwalać	Rodzice mi tego nie pozwalają.	„Erlauben” łączy się z celownikiem osoby, której udzielono pozwolenia: „mir erlauben”.
 A2	verbieten	zakazywać	Palenie jest tu zabronione.	„Verboten” jako imiesłów używa się wszędzie na znakach publicznych: „Parken verboten” (zakaz parkowania), „Rauchen verboten” (zakaz palenia).
-A2	empfehlen sich	być wskazanym	Warto zarezerwować wcześnie.	„Es empfiehlt sich” to formalna struktura bezosobowa, częsta w tekstach pisanych i przewodnikach turystycznych.
 A2	sich verspäten	spóźniać się	Pociąg się spóźnił.	„Sich verspäten” opisuje spóźnienie środka transportu lub osoby w sposób formalny i konkretny.
 A2	sich verabschieden	żegnać się	Żegnamy się przy drzwiach.	„Sich verabschieden von” łączy się z celownikiem osoby, z którą się żegnamy: „von meinen Freunden”.
 A2	Vermieter	wynajmujący, właściciel mieszkania	Wynajmujący podnosi czynsz.	W Niemczech podwyżki czynszu są prawnie ograniczone maksymalnym procentem w danym okresie.
@@ -143,10 +142,8 @@ A2	Flasche	butelka	Podaj mi proszę butelkę.	Dzięki „Pfand” prawie każda 
 A2	Dose	puszka	Puszka jest pusta.	Puszki też mają kaucję („Dosenpfand”), wprowadzoną w 2003 roku, aby ograniczyć zaśmiecanie.
 A2	Verpackung	opakowanie	Opakowanie jest z plastiku.	Niemcy należą do europejskich krajów o najsurowszych przepisach ograniczających plastikowe opakowania.
 A2	Umwelt	środowisko	Musimy chronić środowisko.	„Umwelt” dosłownie znaczy „świat dookoła” — bardzo przejrzyste złożenie, będące też rdzeniem „umweltfreundlich” (przyjazny środowisku).
-A2	Klima	klimat	Klimat szybko się zmienia.	„Klimawandel” (zmiana klimatu) to jeden z najczęściej dyskutowanych tematów politycznych w Niemczech w ostatnich dwudziestu latach.
 A2	Energie	energia	Oszczędzamy energię w gospodarstwie domowym.	Niemcy intensywnie inwestują w energię odnawialną, zwłaszcza wiatrową i słoneczną, od lat 2000.
-A2	Solarenergie	energia słoneczna	Wiele domów korzysta z energii słonecznej.	Panele słoneczne są na niemieckich dachach niezwykle częste, wspierane przez lata dotacji państwowych.
-A2	sparen mit Strom	oszczędzać prąd	Oszczędzamy prąd, gdy to możliwe.	„Sparen” łączy się z bezpośrednim dopełnieniem w bierniku bez przyimka, gdy chodzi o oszczędzaną ilość.
+A2	Strom sparen	oszczędzać prąd	Oszczędzamy prąd, kiedy to możliwe.	„Sparen” łączy się z dopełnieniem w bierniku, bez przyimka: „Strom sparen”, „Geld sparen”, „Zeit sparen”.
 A2	Neuigkeit	nowina, wiadomość	Słyszałeś najnowszą nowinę?	„Neuigkeit” oznacza pojedynczą wiadomość, podczas gdy liczba mnoga „die Nachrichten” odnosi się do całego serwisu informacyjnego.
 A2	Zeitung	gazeta	Co rano czytam gazetę.	„Zeitung” ma wspólny rdzeń z „Zeit” (czas): dosłownie to, co informuje o bieżącym czasie, aktualnych wydarzeniach.
 A2	Artikel	artykuł, rodzajnik	Artykuł był bardzo interesujący.	„Artikel” oznacza zarówno „artykuł prasowy”, jak i „rodzajnik gramatyczny” (der/die/das) — to samo słowo na dwa pojęcia.
@@ -171,7 +168,6 @@ A2	Vorstellungsgespräch	rozmowa kwalifikacyjna	Jutro mam rozmowę kwalifikacyjn
 A2	Kollegin	koleżanka z pracy	Moja koleżanka z pracy jest bardzo kompetentna.	Żeński przyrostek „-in” jest obowiązkowy w standardowym niemieckim, gdy mówi się konkretnie o kobiecie.
 A2	Teamarbeit	praca zespołowa	Praca zespołowa jest u nas ważna.	„Teamarbeit” łączy angielskie zapożyczenie „Team” z niemieckim „Arbeit” (praca) — częste hybrydowe złożenie.
 A2	Projekt	projekt	Projekt idzie dobrze.	„Laufen” używa się przenośnie do opisu przebiegu projektu, tak jak angielskie „to run” w „the project is running well”.
-A2	Frist	termin, ostateczny termin	Termin mija jutro.	„Ablaufen” jest rozdzielne: „läuft ab” w czasie teraźniejszym, używane do opisu zbliżającego się terminu.
 A2	Homeoffice	praca zdalna z domu	Dziś pracuję z domu.	„Homeoffice” stało się po 2020 roku w niemieckim niezwykle częste, niemal całkowicie zastępując frazę „von zu Hause arbeiten”.
 A2	Kündigungsfrist	okres wypowiedzenia	Okres wypowiedzenia wynosi trzy miesiące.	W Niemczech standardowy Kündigungsfrist dla długoterminowych umów o pracę wynosi prawnie często cztery tygodnie lub więcej.
 A2	Feierabendbier	piwo po pracy	Pijemy razem piwo po pracy.	To swobodne złożenie łączy „Feierabend” (koniec dnia pracy) i „Bier”: mały rytuał towarzyski bardzo częsty w Niemczech.
@@ -179,7 +175,6 @@ A2	Betriebsausflug	wyjazd integracyjny firmy	Wyjazd integracyjny firmy odbędzie
 A2	Gewerkschaft	związek zawodowy	On jest członkiem związku zawodowego.	Niemieckie związki zawodowe często negocjują na poziomie całej branży, a nie firma po firmie — wyróżniający europejski model.
 A2	Streik	strajk	Dziś jest strajk kolei.	Strajki w transporcie publicznym, zwłaszcza Deutsche Bahn, są stosunkowo częste i zapowiadane z wyprzedzeniem.
 A2	Fabrik	fabryka	Mój wujek pracuje w fabryce.	Niemcy pozostają jedną z wielkich europejskich potęg produkcyjnych, a przemysł samochodowy jest ich międzynarodowym symbolem.
-A2	Fließband	taśma produkcyjna	On pracuje na taśmie produkcyjnej.	„Fließband” łączy „fließen” (płynąć) i „Band” (taśma): dosłownie „płynąca taśma”.
 A2	Handwerk	rzemiosło	Rzemiosło ma w Niemczech długą tradycję.	„Handwerk hat goldenen Boden” („rzemiosło ma złote dno”) to niemieckie przysłowie o ekonomicznej wartości zawodów manualnych.
 A2	Tischler	stolarz	Stolarz robi szafę.	W Niemczech zostanie Tischlerem wymaga zwykle trzyletniej nauki zawodu („Ausbildung”), w bardzo uporządkowanym systemie.
 A2	Elektriker	elektryk	Potrzebujemy elektryka.	Podobnie jak stolarz, niemiecki elektryk przechodzi rygorystyczną dualną ścieżkę nauki zawodu (szkoła plus praca).
@@ -226,7 +221,6 @@ A2	Untersuchung	badanie, kontrola	Badanie trwa dwadzieścia minut.	„Untersuchu
 A2	Zahnarzt	dentysta	Jutro mam wizytę u dentysty.	„Beim Zahnarzt” to skrót od „bei dem Zahnarzt”: używany do wskazania, czyj gabinet się odwiedza.
 A2	Tierarzt	weterynarz	Weterynarz bada psa.	„Tierarzt” łączy „Tier” (zwierzę) i „Arzt” (lekarz): dosłownie „lekarz zwierząt”.
 A2	Apothekerin	farmaceutka	Farmaceutka dobrze mi doradza.	Żeński przyrostek „-in” podlega tej samej regularnej zasadzie co prawie wszystkie niemieckie zawody.
-A2	Diagnose	diagnoza	Lekarz stawia diagnozę.	„Eine Diagnose stellen” („postawić diagnozę”) to standardowa stała kolokacja używana w kontekście medycznym.
 A2	Behandlung	leczenie, terapia	Leczenie trwa kilka tygodni.	„Behandlung” pochodzi od „behandeln” (leczyć, traktować), czasownika nierozdzielnego ze stałym przedrostkiem „be-”.
 A2	Konzert	koncert	Dziś wieczorem idziemy na koncert.	„Ins Konzert gehen” używa biernika, ponieważ opisuje ruch w stronę konkretnego wydarzenia.
 A2	Ausstellung	wystawa	Wystawa jest otwarta do niedzieli.	„Ausstellung” pochodzi od „ausstellen” (wystawiać), czasownika rozdzielnego bardzo częstego w kontekście muzealnym.
@@ -286,7 +280,6 @@ A2	Wetterbericht	prognoza pogody (komunikat)	Widziałeś prognozę pogody?	„We
 A2	Nebel	mgła	Dziś rano była gęsta mgła.	„Im Nebel stochern” („grzebać we mgle”) znaczy działać bez pewności, po omacku.
 A2	Frost	mróz	W nocy był mróz.	„Frost” ma wspólny rdzeń z „frieren” (marznąć), oba związane z intensywnym zimowym chłodem.
 A2	Hitze	upał	Upał latem bywa ekstremalny.	Fale upałów w Niemczech stały się w ostatnich latach coraz częstsze, co jest związane ze zmianą klimatu.
-A2	Feuchtigkeit	wilgoć, wilgotność	Wilgotność powietrza jest dziś wysoka.	„Feuchtigkeit” pochodzi od „feucht” (wilgotny) z przyrostkiem abstrakcyjnym „-igkeit”, wariantem „-keit”.
 A2	Sturm	burza (wichura), sztorm	Nadciąga silna wichura.	„Ein Sturm im Wasserglas” („burza w szklance wody”) odpowiada angielskiemu „a storm in a teacup”.
 A2	Blitz	błyskawica, piorun	Błyskawica była bardzo jasna.	„Blitz” jest rdzeniem angielskiego „blitzkrieg” i fotograficznego „flash” — oba związane z nagłą szybkością i światłem.
 A2	Donner	grzmot	Po błyskawicy przyszedł grzmot.	„Donner” ma wspólny rdzeń z nordyckim bogiem Thorem/Donarem, opiekunem gromu w mitologii germańskiej.
@@ -332,7 +325,7 @@ A2	ehrlich	uczciwy, szczery	Szczerze mówiąc, nie wiem.	„Ehrlich gesagt” (�
 A2	geduldig	cierpliwy	Moja nauczycielka jest bardzo cierpliwa.	„Geduldig” pochodzi od „Geduld” (cierpliwość) z przyrostkiem przymiotnikowym „-ig”, bardzo produktywnym w niemieckim.
 A2	neugierig	ciekawski	Dzieci są z natury ciekawskie.	„Neugierig” łączy „neu” (nowy) i „gierig” (łapczywy): dosłownie „łapczywy na nowości”.
 A2	großzügig	hojny	On jest bardzo hojny ze swoim czasem.	„Großzügig” łączy „groß” (duży) i „Zug” (cecha/pociągnięcie): dosłownie „o wielkich rysach”, czyli wielkoduszny.
-A2	schüchtern	nieśmiały	Jako dziecko byłem bardzo nieśmiały.	„Schüchtern” opisuje nieśmiałość w sposób neutralny, bez negatywnego zabarwienia, jakie bywa w innych językach.
+A2	schüchtern	nieśmiały	Jako dziecko byłem bardzo nieśmiały.	„Schüchtern” opisuje nieśmiałych ludzi i zachowanie: „ein schüchterner Junge”, „schüchtern lächeln”.
 A2	mutig	odważny	To była odważna decyzja.	„Mutig” pochodzi od „Mut” (odwaga) z przyrostkiem „-ig”, jednym z najbardziej regularnych wzorców tworzenia niemieckich przymiotników.
 A2	faul	leniwy	W weekendy bywam leniwy.	„Faul” znaczy też „zgniły, zepsuty” w odniesieniu do jedzenia — dwa odrębne znaczenia tego samego słowa.
 A2	fleißig	pracowity, pilny	Ona jest bardzo pilną studentką.	„Fleißig” jest bezpośrednim przeciwieństwem „faul” i często służy do pochwalenia oddanych uczniów.
@@ -344,10 +337,9 @@ A2	überrascht	zaskoczony	Byłem całkowicie zaskoczony imprezą.	„Überrascht
 A2	enttäuscht	rozczarowany	Jestem rozczarowany wynikiem.	„Enttäuscht” to imiesłów od „enttäuschen” (rozczarować), używany jako przymiotnik z „von” plus celownik.
 A2	begeistert	zachwycony	Ona jest zachwycona podróżą.	„Begeistert von” łączy się z celownikiem, tak samo jak „enttäuscht” i „überrascht”.
 A2	verwirrt	zdezorientowany, zmieszany	Instrukcje mnie zmyliły.	„Verwirrt” pochodzi od „verwirren” (zmylić), czasownika nierozdzielnego z przedrostkiem „ver-”.
-A2	gelangweilt	znudzony	Dzieci były znudzone.	„Gelangweilt” pochodzi od „sich langweilen” (nudzić się), czasownika zwrotnego często używanego w rodzinach.
+A2	gelangweilt	znudzony	Dzieci były znudzone.	„Gelangweilt” to imiesłów używany jako przymiotnik: opisuje, jak się czujesz („ich bin gelangweilt”). „Langweilig” opisuje to, co to wywołuje: „der Film ist langweilig”.
 A2	zufrieden	zadowolony	Jestem zadowolony ze swojej pracy.	„Zufrieden mit” łączy się z celownikiem: „mit meiner Arbeit” — częsta struktura wyrażająca zadowolenie.
 A2	nervös	zdenerwowany	Przed egzaminem zawsze jestem zdenerwowany.	„Nervös” to zapożyczenie z francuskiego, akcentowane na ostatniej sylabie, inaczej niż wiele rodzimych niemieckich przymiotników.
-A2	gelassen	opanowany, spokojny	Ona zachowuje spokój nawet w stresujących sytuacjach.	„Gelassen” pochodzi od imiesłowu od „lassen” (puszczać): dosłownie ktoś, kto „puszcza” napięcie.
 A2	verlegen	zakłopotany, speszony	On zupełnie się speszył.	„Verlegen” jako przymiotnik różni się od „verlegen” jako czasownika (przenosić, zapodziać) — ta sama forma, inne znaczenie zależnie od kontekstu.
 A2	dankbar	wdzięczny	Jestem ci bardzo wdzięczny za pomoc.	„Dankbar für” łączy się z biernikiem: „für deine Hilfe”, podczas gdy samo „dankbar” może łączyć się też z celownikiem osoby.
 A2	Gefühl	uczucie, odczucie	Mam dziwne przeczucie.	„Gefühl” pochodzi od „fühlen” (czuć), ze zbiorczym przedrostkiem „ge-” typowym dla wielu abstrakcyjnych rzeczowników rodzaju nijakiego.
@@ -363,3 +355,8 @@ A2	Tradition	tradycja	Ta tradycja jest pielęgnowana od pokoleń.	„Pflegen” 
 A2	Vielfalt	różnorodność	Różnorodność dialektów robi wrażenie.	Niemcy mają dziesiątki regionalnych dialektów, które bardzo się różnią, niektóre prawie niezrozumiałe dla osób znających tylko standardowy niemiecki.
 A2	Dialekt	dialekt	W Bawarii często mówi się dialektem.	Dialekty bawarski, saksoński i kolońskie należą do najbardziej charakterystycznych niemieckich dialektów, często trudnych do śledzenia dla uczących się standardowego niemieckiego.
 A2	Hochdeutsch	standardowy niemiecki	W szkole uczy się standardowego niemieckiego.	„Hochdeutsch” dosłownie znaczy „wysoki niemiecki”, termin historyczny związany z geografią, a nie z oceną wartości.
+A2	Regenbogen	tęcza	Po deszczu pojawiła się tęcza.	„Regenbogen” to przejrzyste złożenie: „Regen” (deszcz) + „Bogen” (łuk), dosłownie „łuk deszczu”.
+A2	Termin vereinbaren	umawiać wizytę	Chciałbym umówić wizytę.	„Vereinbaren” nie jest rozdzielne: należy do grupy czasowników z zawsze nierozdzielnym przedrostkiem „ver-”.
+A2	sich verlaufen	zabłądzić (pieszo)	Zabłądziliśmy w mieście.	„Sich verlaufen” opisuje zgubienie się pieszo; „sich verfahren” to odpowiednik zgubienia się podczas jazdy.
+A2	Briefkasten	skrzynka pocztowa	Sprawdź proszę skrzynkę pocztową.	„Briefkasten” = „Brief” (list) + „Kasten” (skrzynka): zarówno ta w domu, jak i żółta na ulicy.
+A2	Übernachtung	nocleg	Nocleg w hotelu kosztuje osiemdziesiąt euro.	„Übernachtung” to rzeczownik od „übernachten” (nocować). Często widać „Übernachtung mit Frühstück”.

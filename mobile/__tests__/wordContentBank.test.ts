@@ -47,7 +47,7 @@ describe.each(shipped.length ? shipped : (['none'] as unknown as NativeLanguage[
   });
 
   it('gives the two levels of a word their own row', () => {
-    for (const w of ['essen', 'fahren', 'gesund', 'trotzdem']) {
+    for (const w of ['essen', 'fahren', 'gesund']) {
       const levels = entries.filter((e) => e.entry.word.toLowerCase() === w).map((e) => e.level);
       expect(levels).toHaveLength(2);
       for (const level of levels) expect(getWordContent(lang, w, level)).not.toBeNull();

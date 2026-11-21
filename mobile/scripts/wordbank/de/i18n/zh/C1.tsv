@@ -1,11 +1,11 @@
 C1	Zeitgeist	时代精神	这部小说完美地抓住了时代精神。	黑格尔在19世纪初把它变成了一个哲学概念。它几乎原样进入英语，如今在全世界通用。
 C1	Fingerspitzengefühl	敏锐的分寸感，得体的直觉	这场谈判需要真正的分寸感。	字面意思是“指尖的感觉”：它体现了德国人对精准、凭直觉的技巧的推崇，无论在外交还是医学中。
 C1	Doppelgänger	长相酷似的人，分身	他在一次旅行中遇到了自己的分身。	在德国浪漫主义文学中，Doppelgänger 是一种超自然的另一个自我。E.T.A. 霍夫曼使它闻名，弗洛伊德又在精神分析中重新探讨了它。
-C1	heiße	据说，被称为（虚拟式一）	声明中说，该工厂已关闭。	第一虚拟式（'sei'、'heiße'）标志着新闻报道中的转述：它使说话者与被转述的说法保持距离。
+C1	es heißt	据说，（文中）写道	声明中说工厂已关闭。	“Es heißt, ...”引出文中所说或所写的内容。在转述中，随后的从句常用虚拟式一式（“sei”）。
 C1	Vergangenheitsbewältigung	正视并清算历史，克服历史包袱	正视历史是德国身份认同的核心部分。	一个独特的德语复合词：它描述了通过学校、纪念馆和法律对纳粹主义进行持续的集体清算的过程。
 C1	vorgeworfen werden	被指责，被责备	他被指控玩忽职守。	'vorwerfen' 的被动态使指责去人格化：这反映了德国法律和新闻语言的谨慎。
 C1	Schadenersatz	损害赔偿	这家公司必须作出损害赔偿。	德国的消费者法是欧洲最严格的之一：'Schadenersatz'（损害赔偿）的索赔很常见，在文化上也被视为正常。
-C1	Heimlichkeit	隐秘，秘密性	会面的隐秘性使它令人兴奋。	弗洛伊德把“怪怪的感觉”（'Das Unheimliche'）分析为被压抑的 Heimlichkeit 的回归：这个词同时带有“亲密”和“令人不安地隐藏”两层意思。
+C1	Heimlichkeit	隐秘，秘密性	这次会面的隐秘性使它令人兴奋。	来自“heimlich”（秘密的，隐蔽的）。复数“Heimlichkeiten”指小秘密；“unheimlich”意为诡异的、令人毛骨悚然的。
 C1	Querdenker	另类思考者，特立独行者	作为一个另类思考者，他总能找到不同寻常的办法。	这个词原本是对富有创造力的思考者的褒义称呼，在2020至2021年被重新定义为指反封锁运动的人——是语义在政治压力下漂移的典型例子。
 C1	Weltschmerz	厌世感，世界之痛	深深的厌世忧伤写在他的眼中。	由让·保尔于1827年创造，描述现实与理想之间落差带来的痛苦——德国浪漫主义的核心概念。
 C1	beileibe nicht	绝非，决不	这绝非唯一的解释。	这是一种强调的、学术语体的表达，其中 'bei Leibe'（“以[我的]身体起誓”）是固化在语言中的古老誓言。
@@ -20,7 +20,7 @@ C1	Tragweite	影响范围，重大意义	这一决定的深远影响起初无法
 C1	beschönigen	粉饰，美化	他试图粉饰这些数字。	来自 'schön'（美丽的）：把事物弄得比实际“更漂亮”。在政治和环境辩论中是一再出现的指责。
 C1	vermeintlich	所谓的，自以为的	那条所谓的近路让我们多花了一个小时。	表示怀疑：说 'vermeintlich' 暗示期望最终被证明是错的。
 C1	Zäsur	断裂点，重大转折	1989年是欧洲历史上的一次深刻转折。	借自拉丁语，经由诗歌格律传入：指一种彻底的断裂，以致“之后”已不再像“之前”。
-C1	im Zuge	在……过程中，随着	在翻新的过程中，屋顶也被更换了。	要求第二格。是一个固化的铁路形象：事情发生在更大进程的“牵引”之中。
+C1	im Zuge	在……过程中，作为……的一部分	在翻修过程中，屋顶也重新做了。	接第二格：“im Zuge der Renovierung”。这里的“Zug”不是火车，而是“进程，过程”：意为“在……的过程中”。
 C1	unterschwellig	潜在的，隐含的	这场辩论中潜藏着一种攻击性。	字面意思是“在意识感知的门槛（Schwelle）之下”：用于语气、紧张关系和广告信息。
 C1	mutmaßlich	涉嫌的，推测的	涉嫌作案者已被逮捕。	'Mutmaßlich' 来自 'Mutmaßung'（推测）：用于法律和新闻语言，以避免暗示罪行已被证实。
 C1	unumstritten	无可争议的	他的能力是毋庸置疑的。	'Unumstritten' 由否定前缀 'un-' 和 'umstritten'（有争议的）构成：字面意思是“没有争议的”。
@@ -34,7 +34,6 @@ C1	nichtsdestotrotz	尽管如此，依然	下着雨，但他们依然去徒步�
 C1	fürwahr	确实，诚然（古雅文学用语）	那确实是难忘的一天。	'Fürwahr' 是古旧副词，如今几乎只用于讽刺或文学语境，以强调一个论断。
 C1	mitnichten	决非（正式）	这决非唯一的解释。	'Mitnichten' 是语体很高的强调性否定，是 'keineswegs' 的正式替代。
 C1	keineswegs	绝不，丝毫不	这绝不是确定的。	'Keineswegs' 是正式书面语体的标准强调否定，比 'mitnichten' 更常见。
-C1	allerdings	不过，然而（有限制地）	这个主意很好，不过预算还没有着落。	'Allerdings' 引出限制或异议，在正式和非正式的论辩语言中都非常常见。
 C1	insofern	在这一点上，就此而言	在这一点上他是对的。	'Insofern' 也可以与 'als' 一起引导从句：'insofern, als...'（“在……的范围内”）。
 C1	diesbezüglich	就此而言，关于这一点	关于这一点，仍有未解决的问题。	'Diesbezüglich' 由 'dies'（这）和 'bezüglich'（关于）构成：是正式信函的典型连接词。
 C1	nunmehr	至此，现在（正式）	期限至此已经届满。	'Nunmehr' 是 'jetzt' 的正式变体，是法律和行政语言的典型用词。
@@ -65,7 +64,7 @@ C1	Umsicht	周密，谨慎周到	他行事非常周密。	'Umsicht' 由 'um'（�
 C1	Sachverhalt	事实情况，案情	必须仔细审查事实情况。	'Geprüft werden' 是被动态，是法律和行政语言中表示正式审查的典型用法。
 C1	Sachlage	形势，实际情况	鉴于形势，应当谨慎。	'Angesichts' 要求第二格，是正式行政语体的典型用词。
 C1	Gutachten	鉴定报告，专家意见	鉴定报告证实了安全方面的担忧。	'Gutachten' 由 'gut' 和 'achten'（观察）构成：由专家作出的正式技术评估。
-C1	Vollzug	执行，实施（法律）	判决立即开始执行。	'Vollzug' 来自 'vollziehen'（执行），是指决定付诸实践的正式法律术语。
+C1	Vollzug	执行，（刑罚的）执行	刑罚的执行将于下周开始。	来自“vollziehen”。法律术语：“Strafvollzug”指监狱制度。对于判决，更常用的是“Vollstreckung”。
 C1	rechtskräftig	具有法律效力的，已生效的	该判决现已生效。	'Rechtskräftig' 由 'Recht'（法）和 'Kraft'（效力）构成：已获得完全、最终法律效力的决定。
 C1	Berufung einlegen	提出上诉	律师提出上诉。	'Einlegen' 是可分动词，带第四格：'Berufung einlegen' 是德国法律中的标准固定搭配。
 C1	Beweislast	举证责任	举证责任在原告一方。	'Liegen bei' 要求第三格：'beim Kläger'，是表示谁承担责任的固定法律结构。
@@ -104,7 +103,7 @@ C1	Dogmatismus	教条主义	教条主义阻碍开放的论辩。	'Verhindern' �
 C1	Reduktionismus	还原论	还原论把复杂的现象过度简化了。	'Zu stark' 加强 'vereinfachen'（简化）的语气，表示批判性的过度。
 C1	Determinismus	决定论	决定论使自由意志受到质疑。	'Infrage stellen' 是固定短语，意为“使受到怀疑、质疑”。
 C1	freier Wille	自由意志	关于自由意志的问题依然悬而未决。	'Die Frage nach' 要求第三格：'nach dem freien Willen'，是引出哲学问题的固定结构。
-C1	Existenzialismus	存在主义	存在主义强调个人的责任。	'Betonen' 带直接的第四格宾语，意为“强调”，是正式的不可分动词。
+C1	Existenzialismus	存在主义	存在主义强调个人责任。	二十世纪的哲学思潮（萨特、海德格尔）。拼写“Existentialismus”也会出现；形容词是“existenzialistisch”。
 C1	Nihilismus	虚无主义	虚无主义否认任何客观意义。	'Verneinen' 带直接的第四格宾语，意为“否定”，是正式的哲学用语。
 C1	Absolutheit	绝对性	这一论断的绝对性并没有说服我。	'Absolutheit' 来自 'absolut' 加抽象后缀 '-heit'，是高语体的哲学术语。
 C1	Relativismus	相对主义	文化相对主义常常受到批评。	'Kritisiert werden' 是被动态，在学术论述中用于描述有争议的立场。
@@ -174,12 +173,12 @@ C1	Neurowissenschaft	神经科学	神经科学解释了许多行为模式。	'Ne
 C1	Synapse	突触	突触传递电信号。	'Übertragen' 带直接的第四格宾语，意为“传递”，是神经科学中常见的专业动词。
 C1	Plastizität	可塑性（神经）	大脑的可塑性随着年龄增长而下降。	'Abnehmen' 是可分动词，意为“下降”，常见于关于认知衰老的论述。
 C1	kognitiv	认知的	认知能力随年龄而变化。	'Kognitiv' 是拉丁语借词，是心理学和神经科学的标准术语。
-C1	Demenz	痴呆症	全世界受痴呆症影响的人越来越多。	'Immer mehr' 加强了逐步增加的意思，是德语中非常常见的比较结构。
+C1	Demenz	痴呆症，失智症	全世界越来越多的人受到痴呆症的影响。	用单数：“an Demenz leiden”（患痴呆症，“an”+第三格）。形容词是“dement”；阿尔茨海默病是“Demenz”的一种形式。
 C1	Neurodegeneration	神经退行性变	神经退行性变通常进展缓慢而隐匿。	'Schleichend' 来自 'schleichen'（潜行），用于描述逐渐发展的病理过程。
 C1	Genom	基因组	人类基因组于2003年完成测序。	'Sequenziert werden' 是被动态，指国际人类基因组计划的完成。
 C1	Mutation	突变	有些突变是无害的。	'Manche' 意为“一些、某些”，是一般科学论述中常见的不定代词或形容词。
 C1	Biotechnologie	生物技术	生物技术开辟了新的医学可能性。	'Eröffnen' 不可分，带直接的第四格宾语，比喻或字面意义上均可表示“开启”。
-C1	Nanotechnologie	纳米技术	纳米技术可能给医学带来革命。	'Revolutionieren' 带直接的第四格宾语，是描述根本性变革的正式用语。
+C1	Nanotechnologie	纳米技术	纳米技术可能会彻底改变医学。	来自希腊语“nános”（矮人，极小）+“Technologie”。一纳米是十亿分之一米。
 C1	Quantencomputer	量子计算机	量子计算机解决某些问题要快得多。	'Viel schneller' 用 'viel' 加强比较级 'schneller'，表示差距很大。
 C1	maschinelles Lernen	机器学习	机器学习在不断进步。	'Sich verbessern' 是反身动词，意为“（自身）改进”，常用于技术系统。
 C1	neuronales Netz	神经网络	神经网络模拟人类的大脑。	'Simulieren' 带直接的第四格宾语，是人工智能领域的标准专业用语。
@@ -191,7 +190,7 @@ C1	Anapher	首语重复（修辞手法）	演讲者使用了有力的首语重�
 C1	Pathos	感染力，情感诉诸	这篇文章大量诉诸情感。	'Appellieren an' 后接第四格：'an das Pathos'，是古典修辞分析（ethos、pathos、logos）中的固定结构。
 C1	Ethos	人格诉诸，可信度	演讲者首先建立自己的可信度。	'Aufbauen' 是可分动词，带第四格：在古典修辞分析中，ethos 指演讲者的可信度。
 C1	Logos-Argument	逻辑诉求论证	逻辑诉求的论证建立在事实之上。	'Sich stützen auf' 后接第四格：'auf Fakten'——与 ethos 和 pathos 并列的古典修辞学第三大支柱。
-C1	Polemik	论战，激烈的抨击	这篇论战文章矛头指向政府。	'Sich richten gegen' 后接第四格：'gegen die Regierung'，是表示批评对象的固定结构。
+C1	Polemik	论战，激烈抨击	这场论战是针对政府的。	尖锐、带攻击性的批评，常带有人身攻击。形容词是“polemisch”，动词是“polemisieren”。
 C1	Invektive	谩骂，痛斥	这次演讲沦为纯粹的谩骂。	'Geraten zu' 要求第三格：'zu einer Invektive'，是描述无意中退化为某种状态的固定结构。
 C1	Ambivalenz	矛盾心理，两面性	他态度中的矛盾显而易见。	'Offensichtlich' 意为“显而易见的”，是批评分析中常见的正式形容词。
 C1	Zwiespalt	内心矛盾，两难	她陷入了深深的内心矛盾之中。	'Stecken in' 要求第三格：'in einem Zwiespalt'，是描述陷入困境的固定结构。
@@ -303,7 +302,7 @@ C1	Konformitätsdruck	从众压力	从众压力常常压制不同的意见。	'U
 C1	Meinungsklima	舆论氛围	舆论氛围已经明显变化。	'Merklich' 意为“明显地”，是用于可察觉的变化的正式副词。
 C1	Schweigespirale	沉默的螺旋	沉默的螺旋解释了为什么少数派的意见会销声匿迹。	德国人伊丽莎白·诺埃尔-诺伊曼提出的社会学概念，在政治传播研究中影响深远。
 C1	Echokammer	回音室	社交网络常常制造回音室。	'Echokammer' 是取自声学的隐喻，用于网络信息的极化。
-C1	Filterblase	过滤气泡，信息茧房	过滤气泡使视野变窄。	'Verengen' 带直接的第四格宾语，意为“使变窄”，用于对个性化算法的批评。
+C1	Filterblase	过滤气泡，信息茧房	过滤气泡使人的视野变窄。	由“Filter”+“Blase”（气泡）构成的复合词；仿造英语“filter bubble”，2011年由伊莱·帕里泽推广。
 C1	Polarisierung	两极分化	政治上的两极分化在加剧。	'Zunehmen' 是可分动词，意为“增加”，在关于政治分裂的论述中非常常见。
 C1	Radikalisierung	激进化	网络上的激进化很难遏制。	'Schwer zu bekämpfen' 使用带 'zu' 的不定式，用来表示一种持续的挑战。
 C1	Verrohung	粗鄙化，野蛮化（言论）	网络上语言的粗鄙化让许多人担忧。	'Verrohung' 来自 'roh'（粗野的）：公共话语中文明程度的逐步下降。
@@ -345,7 +344,7 @@ C1	innere Leere	内心空虚	尽管成功了，他仍感到内心空虚。	'Trot
 C1	Sinnstiftung	赋予意义	对许多人来说，工作是意义的来源。	'Dienen zu' 要求第三格：'zur Sinnstiftung'，是表达某物用途的固定结构。
 C1	Kontingenzbewältigung	应对偶然性	历史上，宗教曾用于应对偶然性。	一个复杂的社会学—神学术语，指人类如何应对生活的不可预测性。
 C1	Reflexionsvermögen	反思能力	她的反思能力使她与众不同。	'Auszeichnen' 是可分动词，带第四格：'zeichnet aus' 意为“使突出、使与众不同”。
-C1	Urteilsvermögen	判断力	良好的判断力对职业来说必不可少。	'Urteilsvermögen' 由 'Urteil'（判断）和 'Vermögen'（能力）构成，是康德哲学的关键术语。
+C1	Urteilsvermögen	判断力	良好的判断力在职业中不可或缺。	由“Urteil”（判断）和“Vermögen”（能力）组成：能够做出合理的评估。更具文学色彩的同义词是“Urteilskraft”。
 C1	Unvoreingenommenheit	公正无偏，不带成见	法官必须保持公正无偏。	'Wahren' 带直接的第四格宾语，意为“保持、维护”，是正式的不可分动词。
 C1	Aufrichtigkeit	真诚，坦率	真诚是一切真正关系的基础。	'Aufrichtigkeit' 来自 'aufrichtig'（真诚的），字面意思是“挺直的”，即不欺骗。
 C1	Verschwiegenheit	保密，守口如瓶	医生负有保密的义务。	'Verpflichtet sein zu' 要求第三格：'zur Verschwiegenheit'，是表示职业义务的正式结构。
@@ -357,9 +356,14 @@ C1	Zugeständnis	让步	双方都作出了让步。	'Zugeständnisse machen' 是
 C1	Kompromissbereitschaft	妥协意愿	妥协意愿在政治中至关重要。	'Entscheidend' 意为“决定性的”，用于在特定情境中被视为必不可少的品质。
 C1	Sachzwang	客观约束，现实压力	政客们常常援引客观约束。	'Sich berufen auf' 后接第四格：'auf Sachzwänge'，常带批评意味地用来为不受欢迎的决定辩护。
 C1	Handlungsspielraum	行动空间	政府的行动空间有限。	'Handlungsspielraum' 由 'Handlung'（行动）、'Spiel'（余地）和 'Raum'（空间）构成：自由行动的空间。
-C1	Gestaltungsspielraum	自主塑造空间，可自行安排的余地	教师有一定的自主安排空间。	'Gestaltungsspielraum' 由 'gestalten'（塑造、设计）和 'Spielraum'（余地）构成，是行政法中常用的术语。
+C1	Gestaltungsspielraum	可自主发挥的空间，裁量空间	教师拥有一定的自主发挥空间。	由“gestalten”（塑造，设计）和“Spielraum”（回旋余地）组成。常见于法律、商业和教育领域。
 C1	Ermessensspielraum	裁量空间	这位官员有裁量空间。	'Ermessensspielraum' 是法律专业术语，指在一定限度内授予机关的决策空间。
 C1	Verhältnismäßigkeit	比例原则，相称性	比例原则限制国家行为。	'Verhältnismäßigkeit' 是德国宪法的基本原则，适用于整个公法。
 C1	Zumutbarkeit	可期待性，合理可行性	这项措施的合理可行性令人怀疑。	'Zumutbarkeit' 来自 'zumutbar'（可接受的、合理可要求的），是评估某项要求是否合理的法律术语。
 C1	Nachvollziehbarkeit	可追溯性，可理解性	决策的可追溯性能建立信任。	'Nachvollziehbarkeit' 来自 'nachvollziehbar'（可理解的、可追溯的），是机构透明度的关键术语。
 C1	Gewissenhaftigkeit	尽责，一丝不苟的责任心	尽责是她工作的特点。	'Gewissenhaftigkeit' 来自 'Gewissen'（良知），带双重后缀 '-haft' 和 '-igkeit'，是高语体用词。
+C1	Kuddelmuddel	乱糟糟，一团乱	厨房里真是乱成一团。	“Muddel”（混乱）的口语叠韵重复形式，源自低地德语。它是中性词：“ein Kuddelmuddel”。
+C1	Kuriosität	珍奇之物，稀罕事	博物馆展出历史上的珍奇物品。	'Kuriosität' 描述不寻常而引人入胜的物品或事实，不同于 'Neugier'（好奇心），后者是心理特质。
+C1	Selbstgerechtigkeit	自以为是的正义感	他那自以为是的正义感让很多人烦透了。	'Selbstgerechtigkeit' 由 'selbst'（自己）和 'Gerechtigkeit'（正义）构成：始终认为自己正确的说教式信念。
+C1	hypothetisch	假设的，假定的	我们假设这是真的。	来自“Hypothese”（假设）。与“annehmen”连用时引出一种设想：“Nehmen wir hypothetisch an, ...”。
+C1	Achillesferse	阿喀琉斯之踵，致命弱点	物流是这家公司的致命弱点。	一个经典的神话典故，德语中的用法与英语完全相同，指决定性的弱点。

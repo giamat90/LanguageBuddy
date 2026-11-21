@@ -11,7 +11,7 @@ B1	Feierabend	終業、仕事の終わり	仕事が終わったら、私は友�
 B1	sich freuen	喜ぶ、楽しみにする	私は週末を楽しみにしています。	「sich freuen auf」は未来、「sich freuen über」は現在や過去に向かう。2つの時間枠に2つの前置詞がある。
 B1	trotzdem	それでも、それにもかかわらず	遅かったが、それでも私たちは散歩に行きました。	文頭では、「trotzdem」は第1要素として数えられ、主語を動詞の後ろに押しやる。動詞第2位の規則である。
 B1	beantragen	申請する	私は新しい身分証明書を申請しなければなりません。	ドイツでは公的なことのほとんどが書類で「beantragt」（申請）される。この動詞はすぐに官僚制を連想させる。
-B1	Ausland	外国、海外	彼女は1年間海外で暮らしました。	「Ins Ausland gehen」や「im Ausland leben」は冠詞を使う。ドイツ語では「海外」は文法的に定義された場所なのである。
+B1	Ausland	外国、海外	彼女は1年間海外で暮らしました。	「Ausland」は「Inland」（国内）の反対語。「im Ausland」（どこで）と「ins Ausland」（どこへ）を使い分け、複数形はない。
 B1	sich beschweren	苦情を言う、不満を述べる	彼は騒音について苦情を言いました。	ドイツでは、正式な書面での苦情（「Beschwerde」）は無礼ではなく、正当な権利と見なされている。
 B1	Gewohnheit	習慣、癖	早起きは私にとって習慣になりました。	接尾辞「-heit」は「-keit」や「-ung」と同様に、女性の抽象名詞を作る。「gewohnt」→「Gewohnheit」。
 B1	damit	〜するために、〜するように	忘れないように、書き留めておきます。	接続詞の「damit」は動詞を最後に送るが、副詞（「それとともに」）としては送らない。同じ語で2つの振る舞いがある。
@@ -50,7 +50,6 @@ B1	doch	（強調の小辞）やはり、〜してよ	ねえ、私たちと一�
 B1	Erwartung	期待、予想	期待は高かったです。	「Erwartung」は「erwarten」（期待する）に由来し、仕事の場面で非常によく使われる非分離動詞である。
 B1	Voraussetzung	前提条件、必要条件	ドイツ語の能力は必須条件です。	「Voraussetzung」は「voraussetzen」（前提とする）に由来し、「voraus」（前もって）と「setzen」（置く）の複合語である。
 B1	Konsequenz	結果、帰結、一貫性	この決定には結果が伴います。	「Konsequenz」は「結果」と（行動の）「一貫性」の両方を意味し、同じ語根から2つの異なる意味が生じている。
-B1	Auswirkung	影響	気候変動は世界的な影響を及ぼします。	「Auswirkung auf」は4格を取る。「auf die Umwelt」（環境への）は、環境に関する議論でよく使われる固定構文である。
 B1	Ursache	原因	問題の原因ははっきりしません。	「Ursache」と「Grund」はほぼ同義だが、「Ursache」はより科学的で客観的に、「Grund」はより個人的に響く。
 B1	Wirkung	効果、作用	その薬はすぐに効果を示します。	「Wirkung zeigen」は、特に医療や科学の場面で使われる標準的な固定連語である。
 B1	Faktor	要因、因子	時間は重要な要因です。	「Faktor」は多くの言語でほぼ同じ形で、国際的に共有されている学術的なラテン語の借用語である。
@@ -94,7 +93,7 @@ B1	Erstattung	払い戻し、返金、精算	払い戻しには2週間かかり�
 B1	Garantie	保証、保証期間	その機器には2年間の保証があります。	EU全域で、新製品の法定最低保証は、メーカーにかかわらず2年である。
 B1	Reklamation	クレーム、苦情申し立て（正式）	会社があなたのクレームを処理しています。	「Reklamation」は「Beschwerde」より改まっていて専門的で、通常は商取引や行政の場面で使われる。
 B1	Behörde	官庁、役所	この役所はビザを担当しています。	「zuständig sein für」は4格を取り、役所の担当分野を述べる標準的な構文である。
-B1	Anmeldung	届出、登録	登録は1週間以内に行わなければなりません。	ドイツでは、住民登録事務所での「Anmeldung」は、引っ越しから2週間以内に法律上義務づけられている。
+B1	Anmeldung	届出、登録	登録は2週間以内に行わなければなりません。	ドイツでは、引っ越してから2週間以内に役所で「Anmeldung」（住民登録）をすることが法律で義務づけられている。
 B1	Aufenthaltstitel	在留資格、滞在許可	彼は新しい在留許可を申請しています。	「beantragen」は分離しない。非分離の前綴り「be-」を持つ動詞のグループに属している。
 B1	Staatsangehörigkeit	国籍	私の国籍はイタリアです。	「Staatsangehörigkeit」は複雑な複合語で、「Staat」（国家）＋「angehören」（属する）＋接尾辞「-keit」である。
 B1	Einbürgerung	帰化	帰化には何年もかかることが多いです。	「Einbürgerung」は「Bürger」（市民）に由来し、前綴り「ein-」は市民権に「入る」過程を表す。
@@ -130,7 +129,7 @@ B1	Reifen	タイヤ	タイヤがパンクしています。	「platt」は平ら
 B1	Tankstelle	ガソリンスタンド	次のガソリンスタンドは5キロ先です。	ドイツの多くの高速道路では、燃料価格がスタンドごとに大きく異なるので、比較する価値がある。
 B1	tanken	給油する	私たちはまだ給油しなければなりません。	「tanken」は燃料の種類を示すとき直接の4格目的語を取る。「Diesel tanken」（ディーゼルを入れる）。
 B1	Verkehrszeichen	交通標識	この交通標識は知りません。	「Verkehrszeichen」は「Verkehr」（交通）と「Zeichen」（標識）を組み合わせた、専門用語に典型的な分かりやすい複合語である。
-B1	überholen	追い越す	ここでは追い越しをしてはいけません。	「überholen」は分離しない。非分離の前綴り「über-」を持つ動詞のグループに属している。
+B1	überholen	追い越す	ここでは追い越してはいけません。	「追い越す」の意味では非分離動詞で、語幹にアクセントが置かれる。「er überholt」、「hat überholt」（「ge-」は付かない）。
 B1	bremsen	ブレーキをかける	彼女は急にブレーキをかけなければなりませんでした。	「bremsen」は規則動詞で、対応する名詞「Bremse」（ブレーキ）と語根が同じである。
 B1	Geschwindigkeit	速度、スピード	ここは速度が制限されています。	ドイツのアウトバーンの多くの区間では速度制限がないが、一般道の市街地の時速50キロの制限は厳しく取り締まられる。
 B1	Bußgeld	罰金、反則金	彼は高額な罰金を払わなければなりませんでした。	「Bußgeld」は「Buße」（罪滅ぼし、罰金）と「Geld」（金）を組み合わせたもので、文字どおり「償いとしての金」である。
@@ -141,7 +140,7 @@ B1	speichern	保存する、記憶させる	書類を保存するのを忘れな
 B1	löschen	削除する、消す	私は誤ってファイルを削除してしまいました。	「löschen」は「データを削除する」と「火を消す」の両方を意味し、共通の考えは「消えさせる」ことである。
 B1	herunterladen	ダウンロードする	私は今、アプリをダウンロードしています。	「herunterladen」は分離動詞で、現在形では「lade herunter」となり、長い前綴りが文末に離れる。
 B1	hochladen	アップロードする	私は写真をクラウドにアップロードしています。	「hochladen」は「herunterladen」のちょうど反対で、「herunter-」（下へ）の代わりに前綴り「hoch-」（上へ）で作られる。
-B1	Passwort	パスワード	私はパスワードを忘れました。	「Passwort」は英語からの部分的な翻訳借用で、借用語の「Pass」とドイツ語の「Wort」（語）を組み合わせたものである。
+B1	Passwort	パスワード	私はパスワードを忘れました。	「Passwort」は英語「password」の翻訳借用語で、「Pass」（通行許可）と「Wort」（言葉）からなる。複数形は「Passwörter」。
 B1	Benutzername	ユーザー名	ユーザー名を入力してください。	「eingeben」は分離動詞で「入力する」という意味で、デジタルの画面でよく使われる。
 B1	Datenschutz	データ保護、プライバシー保護	ドイツではデータ保護がとても重要です。	ドイツはプライバシーに関してヨーロッパで最も厳しい国のひとつで、EUのGDPRより前から長い法的伝統がある。
 B1	soziale Medien	ソーシャルメディア、SNS	私はソーシャルメディアをあまり使いません。	「Soziale Medien」は公式のドイツ語訳だが、多くの人は英語の借用語「Social Media」をそのまま使う。
@@ -164,7 +163,7 @@ B1	Turnier	トーナメント、大会	その大会は1週間続きます。	「
 B1	Sieg	勝利	それは重要な勝利でした。	「Sieg」は「Siegerin」（女性の勝者）と「siegen」（勝つ）の語根で、スポーツでよく使われる語族である。
 B1	Niederlage	敗北、負け	敗北の後、チームはがっかりしていました。	「Niederlage」は「niederlegen」（倒す）に由来し、文字どおり「打ち倒されること」である。
 B1	Fan	ファン	私はこのバンドの大ファンです。	「Fan」は英語からの直接の借用語で、男性名詞としてドイツ語の文法にすっかり組み込まれている。
-B1	Stadion	スタジアム	スタジアムは満員でした。	ドルトムントのシグナル・イドゥナ・パルクのようなドイツのサッカースタジアムは、ヨーロッパでも最大級で最も騒がしい。
+B1	Stadion	スタジアム、競技場	スタジアムは満員でした。	「Stadion」の複数形は「Stadien」（まれに「Stadions」）。ギリシャ語の「stádion」に由来する。
 B1	Zuschauer	観客	何千人もの観客がいました。	「Zuschauer」は「zuschauen」（見物する）に由来し、スポーツの場面でとてもよく使われる分離動詞である。
 B1	Ausrüstung	装備、用具	私はハイキング用の新しい装備が必要です。	「Ausrüstung」は「ausrüsten」（装備させる）に由来し、技術やスポーツの場面で使われる分離動詞である。
 B1	Wanderung	ハイキング、山歩き	ハイキングは5時間かかりました。	バイエルン・アルプスとシュヴァルツヴァルトには、ヨーロッパで最も有名なハイキングコースがある。
@@ -178,7 +177,7 @@ B1	braten	焼く、炒める	私はフライパンで野菜を炒めます。	�
 B1	kochen	料理する、ゆでる、沸かす	今晩は誰が料理しますか。	「kochen」は「一般に料理する」ことと、特に「ゆでる」ことの両方を意味し、どちらかは文脈で分かる。
 B1	backen	焼く（パンやケーキを）	週末に私はケーキを焼きます。	「backen」は過去形で規則形か少し不規則な形（「backte」または「buk」）になりうる。ドイツ語では珍しい二重の形である。
 B1	schneiden	切る	玉ねぎをみじん切りにしなさい。	「schneiden」は不規則な強変化動詞で、「schnitt, geschnitten」と母音が変わる。
-B1	würzen	味つけする、香辛料を加える	スープにこしょうで味をつけなさい。	「würzen」は「Gewürz」（香辛料）に由来する規則動詞で、レシピでとてもよく使われる。
+B1	würzen	味付けする、香辛料を加える	スープにこしょうで味をつけてください。	「Würzen」は「Gewürz」（香辛料）の元になった動詞。「mit」を取り、「mit Pfeffer würzen」（こしょうで味付けする）と言う。
 B1	Pfeffer	こしょう	もう少しこしょうがあると良いでしょう。	こしょうは中世のドイツでは非常に高価で、ほとんど通貨のように使われた。
 B1	Gewürz	香辛料、スパイス	この香辛料は知りません。	「Gewürz」は「würzen」（味つけする）に由来し、中性名詞に典型的な集合の前綴り「ge-」がつく。
 B1	Vorspeise	前菜	前菜として私はスープにします。	「Vorspeise」は「vor」（前に）と「Speise」（料理）を組み合わせたもので、文字どおり「前の料理」、つまり前菜である。
@@ -201,16 +200,13 @@ B1	Erkältung	風邪	私は軽い風邪を引いています。	「Erkältung」
 B1	Grippe	インフルエンザ	彼はインフルエンザで寝込んでいます。	「Mit Grippe im Bett liegen」は、病気のために安静を強いられていることを表す標準的な表現である。
 B1	Impfstoff	ワクチン	そのワクチンは急速に開発されました。	「wurde entwickelt」は過去形の受動で、「werden」＋分詞であり、科学の言葉でよく使われる。
 B1	Therapie	治療法、セラピー	彼女は心理療法を受けています。	ドイツでは、心理療法は義務の健康保険でカバーされることが多いが、待機者リストは長い。
-B1	seelisch	心の、精神的な	心の健康も同じくらい大切です。	「seelisch」は「Seele」（魂）に由来し、「körperlich」（身体的な）と対比して使われる。
 B1	Burnout	燃え尽き症候群	多くの会社員が燃え尽き症候群に苦しんでいます。	「Leiden unter」は3格を取る。「unter Burnout」は、何かが原因の苦しみを表す標準的な構文である。
 B1	Work-Life-Balance	ワークライフバランス	ワークライフバランスは彼女にとってとても大切です。	この英語の句全体が、広く通用する公式の訳語なしに、ドイツ語でそのまま使われている。
 B1	Auszeit	休み、休息期間	彼は仕事から離れて休みを取ります。	「Auszeit」は「aus」と「Zeit」を組み合わせたもので、一時的に日常から抜け出す期間である。
-B1	Achtsamkeit	マインドフルネス、注意深さ	マインドフルネスはストレスに効果があります。	「Achtsamkeit」は「achtsam」（注意深い、気を配る）に由来し、現代ドイツのウェルネス文化でますます広まっている概念である。
 B1	Meditation	瞑想	私は毎朝瞑想をします。	「Meditation」は言語を越えてほぼ同じ形の、国際的に共有された用語である。
 B1	Schlafmangel	睡眠不足	睡眠不足は集中力に影響します。	「beeinflussen」は分離しない。非分離の前綴り「be-」を持つ動詞のグループに属している。
 B1	Alltag	日常、日々の生活	日常生活はストレスになることがあります。	「Alltag」は「all-」（すべての）と「Tag」（日）を組み合わせたもので、文字どおり「毎日」、つまり日々の営みである。
 B1	Routine	日課、ルーティン	私は朝の決まった日課があります。	「Routine」はフランス語からの借用語で、日常のドイツ語にすっかり組み込まれている。
-B1	Gewohnheit ändern	習慣を変える	習慣を変えるのは難しいです。	「ändern」は前置詞なしで常に直接の4格目的語を取る動詞で、変化について話すときにとてもよく使われる。
 B1	Balance halten	バランスを保つ	バランスを保つことが大切です。	「Eine Balance halten」は標準的な連語で、身体的にも、生活のバランスとして比喩的にも使われる。
 B1	Prioritäten setzen	優先順位をつける	私は優先順位をつけ直さなければなりません。	「Prioritäten setzen」は、仕事や個人の整理の言葉における標準的な固定連語である。
 B1	sich Zeit nehmen	時間を取る、時間をかける	自分のために時間を取りなさい。	「sich Zeit nehmen für」は4格と再帰の3格代名詞を取る。複雑だが非常によく使われる構文である。
@@ -227,7 +223,7 @@ B1	Treibhauseffekt	温室効果	温室効果が地球を温暖化させていま
 B1	Artenvielfalt	生物多様性、種の多様性	森は生物多様性を守っています。	「Artenvielfalt」は「Art」（種）と「Vielfalt」（多様性）を組み合わせたもので、文字どおり「種の多様さ」である。
 B1	Aussterben	絶滅	多くの動物種が絶滅の危機に瀕しています。	「Vom Aussterben bedroht」は固定の受動構文で、自然保護の言葉で使われる。
 B1	Landwirtschaft	農業	農業は大きく変わりつつあります。	「Landwirtschaft」は「Land」（土地）と「Wirtschaft」（経済）を組み合わせたもので、文字どおり「土地の経済」である。
-B1	Bio-Lebensmittel	有機食品、オーガニック食品	オーガニック食品は高いことが多いです。	ドイツの「Bio」の有機表示は法的に規制されており、消費者から高く信頼されている。
+B1	Bio-Lebensmittel	有機食品	有機食品はたいてい値段が高めです。	ほとんど常に複数形で使う。食品の「Bio」表示はEUのオーガニック規則で保護されており、ドイツの「Bio-Siegel」は別の国内認証マークである。
 B1	regional einkaufen	地元産のものを買う	ますます多くの人が地元産のものを買います。	副詞の「regional」は産品の産地を表し、ドイツの食文化で強く共感されている話題である。
 B1	Konsum	消費	私たちの消費は環境に負担をかけています。	「belasten」は常に直接の4格目的語を取り、環境や金銭の場面でよく使われる。
 B1	Verzicht	断念、我慢、控えること	肉を控えることは多くの人にとって難しいです。	「Verzicht auf」は4格を取る。「auf Fleisch」は、何かを諦めることについて話すときのよく使われる固定構文である。
@@ -238,7 +234,6 @@ B1	Verein	クラブ、協会	私はスポーツクラブの会員です。	ド�
 B1	Gemeinschaft	共同体、コミュニティ	共同体は互いに助け合います。	「Gemeinschaft」は「gemein」（共通の）に集合の接尾辞「-schaft」がついたもので、共有された帰属の感覚を作り出す。
 B1	Solidarität	連帯	私たちは被害を受けた人々との連帯を示します。	「Solidarität zeigen mit」は3格を取り、公的な場面で支持を表す標準的な構文である。
 B1	Gerechtigkeit	正義、公正	彼女は社会正義のために闘っています。	「Kämpfen für」は4格を取る。「für Gerechtigkeit」は、市民に関する議論でとてもよく使われる構文である。
-B1	Gleichberechtigung	平等、同権	平等は憲法に明記されています。	「verankert」は「Anker」（錨）に由来し、原則がしっかり確立されていることを表す海事的なイメージである。
 B1	Vielfalt schätzen	多様性を尊重する	私たちの社会は多様性を尊重すべきです。	「schätzen」は直接の4格目的語を取り、「高く評価する」と「金銭的に見積もる」の両方を意味する。
 B1	Toleranz	寛容、寛容さ	寛容は重要な価値です。	「Toleranz」は言語を越えてほぼ同じ形の、国際的に共有された社会用語である。
 B1	Vorurteile abbauen	さまざまな偏見を取り除いていく	教育は偏見を取り除くのに役立ちます。	「abbauen」は分離動詞で4格を取り、偏見にも、取り壊される物理的な構造物にも使われる。
@@ -260,7 +255,7 @@ B1	scheitern	失敗する、挫折する	そのプロジェクトは残念なが
 B1	aufgeben	諦める、やめる	そんなに早く諦めないで！	「aufgeben」は分離動詞で、命令形では「gib auf」となり、前綴りが文末に離れる。
 B1	durchhalten	耐え抜く、持ちこたえる	あともう少し持ちこたえなければなりません。	「durchhalten」は分離動詞で、現在形では「halte durch」となり、前綴りが文末に離れる。
 B1	Wohngemeinschaft	ルームシェア、共同住居	私は他の3人の学生とルームシェアで暮らしています。	WG（Wohngemeinschaft）はドイツの学生の間で非常に一般的で、ワンルームより安いことが多い。
-B1	Möbliert	家具付きの	そのアパートは家具が完備されています。	「möbliert」はフランス語の「meublé」に由来し、ドイツ語の標準的な形容詞の語尾で組み込まれている。
+B1	möbliert	家具付きの	その部屋は家具がすべて付いています。	「Möbliert」は「möblieren」（家具を備える）から来ており、語源はフランス語の「meubler」。賃貸広告では「möbliert」か「unmöbliert」と書かれる。
 B1	Nachmieter	次の借り主、後任の入居者	私たちはそのアパートの次の借り主を探しています。	契約を引き継ぐ「Nachmieter」を見つけることは、ドイツの慣行として、出ていく借り主の責任であることが多い。
 B1	Umzugskarton	引っ越し用段ボール箱	私たちはもっと引っ越し用の段ボール箱が必要です。	「Umzugskarton」は「Umzug」（引っ越し）と「Karton」（箱）を組み合わせた、とても実用的で分かりやすい複合語である。
 B1	renovieren	改装する、リフォームする	私たちは今、台所を改装しています。	「renovieren」はラテン語からの借用語で、現代ドイツ語の動詞と同じく規則的に活用する。
@@ -278,7 +273,6 @@ B1	Etage	階、フロア	私たちは3階に住んでいます。	「Etage」は
 B1	Erdgeschoss	1階（地上階）	郵便受けは1階にあります。	ドイツ語では階の数え方は0から始まり、「Erdgeschoss」が地上階で、「erster Stock」はすでにその上の階である。
 B1	Dachgeschoss	屋根裏階、最上階	最上階は壁が斜めになっています。	歴史あるドイツの建物の「Dachgeschoss」にある多くのアパートは、特徴的な傾斜天井と、安めの家賃を持つ。
 B1	Klingel	呼び鈴、ベル	呼び鈴が鳴りません。	「Klingel」は動詞「klingeln」（鳴る、チリンと鳴る）に由来し、目覚まし時計や電話にも使われる。
-B1	Briefkasten	郵便受け、ポスト	郵便受けを見てください。	「nachschauen」は分離動詞で、命令形では「schau nach」となり、前綴りが文末に離れる。
 B1	Vermietung	賃貸、貸し出し	賃貸は代理店を通して行われます。	「laufen über」は、過程の経路を示すとき「über」の後に4格を取る。「über eine Agentur laufen」。
 B1	Sozialwohnung	公営住宅、社会住宅	公営住宅が足りません。	「Sozialwohnung」の不足は、近年ドイツの都市政策で最も議論された話題のひとつである。
 B1	Mietpreisbremse	家賃規制、家賃上昇の抑制	家賃規制は家賃を抑えることを目的としています。	「Mietpreisbremse」は、家賃の高騰を抑えるためにドイツの多くの大都市で導入された立法措置である。
@@ -294,8 +288,6 @@ B1	Miteigentümer	共同所有者	共同所有者全員が同意しなければ�
 B1	Eigentumswohnung	分譲マンション、持ち家の部屋	彼らは分譲マンションを買いました。	ドイツでは、持ち家率はイタリアを含む他の多くのヨーロッパの国より低い。
 B1	Hypothek	住宅ローン、抵当	私たちは家を担保に住宅ローンを組みました。	「Eine Hypothek aufnehmen」は標準的な固定連語で、「einen Kredit aufnehmen」（ローンを組む）とほぼ同じである。
 B1	Zins	利子、金利	金利は現在低いです。	「Zins」は、ローンの全体的な利率を指すとき、ほとんど常に複数形の「Zinsen」で使われる。
-B1	Absicherung	備え、保障、安全策	保険は備えとして役立ちます。	「dienen」は3格を取る。「der Absicherung dienen」は、法律や金融の場面で使われる改まった動詞である。
-B1	Klausel	条項	この条項は契約書で重要です。	「Klausel」はラテン語の「clausula」に由来する法律用語で、多くのヨーロッパの言語でほぼ同じ形である。
 B1	Kündigungsschutz	解雇からの保護	解雇からの保護は6か月後に適用されます。	ドイツの「Kündigungsschutz」法は、一定期間継続して雇用された後、従業員を強く保護する。
 B1	Abfindung	退職金、解雇手当	彼は退職金をもらいました。	「Abfindung」は「abfinden」（折り合いをつける、補償する）に由来し、ドイツの労働法に典型的な用語である。
 B1	Flugverspätung	フライトの遅れ	フライトが遅れたため、私たちは乗り継ぎに間に合いませんでした。	「Wegen」は2格を取るが、口語では3格を取ることもあり、現代の話し言葉ではどちらの形も耳にする。
@@ -313,16 +305,15 @@ B1	einchecken	チェックインする	私たちは14時にチェックインし
 B1	auschecken	チェックアウトする	私たちは11時にチェックアウトしなければなりません。	「einchecken」と同様に、「auschecken」も分離動詞で、同じ文法構造に従う。
 B1	Zimmerservice	ルームサービス	私たちはルームサービスで何か注文します。	「Beim Zimmerservice bestellen」は「bei」の後に3格を取る。「〜から、〜で」を表す標準的な前置詞である。
 B1	Rundreise	周遊旅行、ツアー	私たちは南ドイツを周遊します。	「durch」は4格を取る。「durch Süddeutschland」は、地域を通り抜ける移動を表す。
-B1	Sehenswürdigkeiten besichtigen	名所を見て回る、観光する	今日は私たちは主な名所を見て回ります。	「besichtigen」は「besuchen」と同様に、前置詞なしで直接の4格目的語を取る。
+B1	besichtigen	見学する、観光する（名所）	今日、私たちは大聖堂を見学します。	「Besichtigen」は見に行く場所や建物（大聖堂、博物館、住まいなど）に使う。「besuchen」は主に人を訪ねる場合や一般的な訪問に使う。
 B1	Stadtführung	市内ガイドツアー、街歩きガイド	市内ガイドツアーは2時間かかります。	「Stadtführung」は「Stadt」と「Führung」（案内）を組み合わせたもので、ガイド付きの団体ツアーである。
 B1	Reiseveranstalter	旅行会社、ツアー主催者	私たちは旅行会社を通じて旅行を予約しました。	「über」は経路を示すとき4格を取る。「über einen Reiseveranstalter buchen」（旅行会社を通じて予約する）。
 B1	Pauschalreise	パッケージツアー	パッケージツアーのほうが安いことが多いです。	「Pauschal」は「定額の、すべて込みの」という意味で、航空券、ホテル、時には食事を含む単一の料金である。
 B1	Reiseversicherung	旅行保険	私はいつも旅行保険に入ります。	「abschließen」は分離動詞で4格を取る。「eine Versicherung abschließen」は、保険に加入するときの固定連語である。
-B1	Zeitverschiebung	時差	時差で私は眠くなります。	「Zeitverschiebung」は「Zeit」（時間）と「Verschiebung」（ずれ）を組み合わせたもので、時差を表す専門用語である。
+B1	Zeitverschiebung	時差	ニューヨークとの時差は6時間です。	「Zeitverschiebung」は二つの場所の間の時計の差のこと。その結果生じる疲れは「Jetlag」と呼ばれる。
 B1	Kulturschock	カルチャーショック	引っ越しの後、彼女は本当にカルチャーショックを受けました。	「Kulturschock」は、文化的な規範が大きく異なる国に住み始めたときの、最初の混乱を表す。
 B1	Auswanderer	移住者（出国する人）	多くの移住者がカナダに移ります。	「Auswanderer」は「auswandern」（移住する）に由来し、「Einwanderer」（入国してくる移民）の直接の反対である。
 B1	Einwanderer	移民（入国する人）	ドイツは多くの移民を受け入れてきました。	「aufnehmen」は分離動詞で「受け入れる」という意味で、移民についての政治的な議論でよく使われる動詞である。
-B1	Zugehörigkeit	帰属、所属	帰属意識は重要です。	「Zugehörigkeit」は「zugehören」（属する）に由来し、接尾辞「-keit」を持つ抽象的な複合語である。
 B1	fließend sprechen	流暢に話す	彼女はドイツ語と英語を流暢に話します。	副詞の「fließend」は、母語に近い非常に高い言語の流暢さを表す。
 B1	zweisprachig	二言語を話す、バイリンガルの	私たちの子どもたちはバイリンガルで育っています。	「aufwachsen」は分離動詞で「育つ」という意味で、子ども時代について話すときに典型的な動詞である。
 B1	Sprachbarriere	言葉の壁	最初は言葉の壁がありました。	「Sprachbarriere」は「Sprache」と「Barriere」（障壁）を組み合わせたもので、統合の場面でとてもよく使われる用語である。
@@ -337,7 +328,6 @@ B1	riskieren	危険を冒す、賭ける	彼はこの決断で多くを賭けて
 B1	Risiko eingehen	リスクを取る	時にはリスクを取らなければなりません。	「eingehen」は分離動詞で4格を取る。「ein Risiko eingehen」は標準的な固定連語である。
 B1	absichern	守る、備える、安全を確保する	私たちは経済的に備えなければなりません。	「sich absichern」は再帰動詞で、具体的な文脈によって2格や前置詞を取ることが多い。
 B1	Konsequenzen tragen	結果の責任を負う	誰もが自分の行いの結果を引き受けなければなりません。	「tragen」は「物理的に運ぶ」ことと、比喩的に「負う、耐える」ことの両方を意味する。
-B1	Wendepunkt	転換点	この決断は私の人生の転換点でした。	「Wendepunkt」は「Wende」（転回）と「Punkt」（点）を組み合わせたもので、出来事の流れを変える決定的な瞬間である。
 B1	Perspektive wechseln	視点を変える	時には視点を変えるのが役に立ちます。	「wechseln」は直接の4格目的語を取り、視点にも、服や通貨のような具体的なものにも使われる。
 B1	Selbstreflexion	自己省察、内省	内省は重要な決断の助けになります。	「Selbstreflexion」は「selbst」（自分）と「Reflexion」（省察）を組み合わせたもので、自己成長の場面でますます使われる用語である。
 B1	Lebensqualität	生活の質	ここは生活の質が高いです。	ミュンヘンやデュッセルドルフなど、いくつかのドイツの都市は、国際的な生活の質ランキングに定期的に登場する。
@@ -354,12 +344,18 @@ B1	Neugier	好奇心	好奇心は多くの科学者を突き動かしていま�
 B1	Kreativität	創造性	創造性は無理強いできません。	否定を伴う「sich erzwingen lassen」は「強制できない」という意味で、再帰的な受動に似た構文である。
 B1	Inspiration	インスピレーション、着想	その旅は彼女にとって大きなインスピレーションになりました。	「Inspiration」は言語を越えてほぼ同じ形の、もうひとつの共有されたラテン語の借用語である。
 B1	Ausdauer	持久力、粘り強さ	マラソンには多くの持久力が必要です。	「Ausdauer」は「aus」と「dauern」（続く）を組み合わせたもので、文字どおり「最後まで持ちこたえる能力」である。
-B1	Willenskraft	意志の力	少し意志の力があれば、あなたはできます。	「Willenskraft」は「Wille」（意志）と「Kraft」（力）を組み合わせた、とても分かりやすい複合語である。
 B1	Selbstvertrauen	自分を信じる力、自己信頼	旅行は自分を信じる力を育てます。	「Selbstvertrauen」は「selbst」と「Vertrauen」（信頼）を組み合わせたもので、自覚に関わる「Selbstbewusstsein」とは異なる。
-B1	Anpassungsfähigkeit	適応力	海外では適応力が重要です。	「Anpassungsfähigkeit」は「sich anpassen」（適応する）に、能力を表す接尾辞「-fähigkeit」をつけたものである。
-B1	Durchhaltevermögen	持続力、粘り強さ（やり抜く力）	大学の勉強にはやり抜く力が必要です。	「Durchhaltevermögen」は「durchhalten」（耐え抜く）と「Vermögen」（能力）を組み合わせた、とても長いが分かりやすい複合語である。
-B1	Lebensfreude	生きる喜び、人生を楽しむ気持ち	彼女は人を引きつける生きる喜びを放っています。	「ausstrahlen」は分離動詞で「放つ、発散する」という意味で、肯定的な個人の資質によく使われる。
-B1	Bescheidenheit	控えめさ、謙虚さ	成功にもかかわらず、彼は控えめなままです。	「Bescheidenheit」は「bescheiden」（控えめな）に抽象名詞の接尾辞「-heit」をつけたものである。
+B1	Lebensfreude	生きる喜び、人生の楽しみ	彼女は人を引き込むような生きる喜びを放っています。	「Lebensfreude」は「Leben」と「Freude」からなり、生きることの喜びが持続する前向きなエネルギーを表す。「voller Lebensfreude」（生きる喜びに満ちた）とも言う。
 B1	Neuanfang	新たな出発、再出発	その引っ越しは彼女にとって本当の再出発でした。	「Neuanfang」は「neu」（新しい）と「Anfang」（始まり）を組み合わせた、単純だが人生の変化にとてもよく使われる複合語である。
 B1	Lebensweg	人生の道	誰もが自分だけの人生の道を持っています。	「Lebensweg」は「Leben」（人生）と「Weg」（道）を組み合わせたもので、存在に当てはめた道の比喩である。
 B1	persönliche Errungenschaft	個人的な達成	卒業は彼女の最大の達成でした。	「Errungenschaft」は「erringen」（努力して勝ち取る）に由来し、努力と実力で到達した節目である。
+B1	Diagnose	診断	医者が診断を下します。	「Eine Diagnose stellen」（「診断を下す」）は、医療の場面で使われる標準的な固定連語である。
+B1	Feuchtigkeit	湿気、水分	地下室の湿気が問題です。	「Feuchtigkeit」は「feucht」（湿った）に抽象名詞を作る接尾辞「-igkeit」（「-keit」の変種）が付いた語である。
+B1	Fließband	ベルトコンベヤー、組み立てライン	彼は組み立てラインで働いています。	「Fließband」は「fließen」（流れる）と「Band」（ベルト）を組み合わせたもので、文字どおり「流れるベルト」である。
+B1	Klima	気候	気候は急速に変化しています。	「Klima」は中性名詞（das Klima）で、ある地域の気候を表す。「Wetter」は今日の天気。「Klimawandel」は気候変動のこと。
+B1	Kompass	方位磁石、コンパス	コンパスがなければ、私たちは道を見つけられません。	「Kompass」は男性名詞で、語末は ss と二重になる。比喩的にも使われ、「ein moralischer Kompass」（道徳的な指針）のように言う。
+B1	Solarenergie	太陽エネルギー	私たちは屋根の上で太陽エネルギーを作っています。	「Solarenergie」は太陽から得るエネルギーのこと。屋根の上の設備は「Solaranlage」または「Photovoltaikanlage」という。
+B1	Spiegelbild	鏡に映った姿	私は鏡に映った自分の姿を見ます。	「Spiegelbild」は「Spiegel」（鏡）と「Bild」（像）を組み合わせたもので、鏡に映る像である。
+B1	würde	〜だろう（接続法IIの助動詞）	私はベルリンに住みたいです。	「würde＋不定詞」は、'lebte' のようなまれな形の代わりに、話し言葉で接続法IIを表す最も一般的な方法である。
+B1	hätte	〜したであろう、持っていた（接続法）	君の立場だったら、私は違う反応をしたでしょう。	'Hätte' と 'wäre' は話し言葉に今も生きている数少ない接続法IIの形で、'ich würde haben' と言うと不自然に聞こえる。
+B1	Ernährung	食生活、栄養	健康的な食生活は、体調を保つのに役立ちます。	「Ernährung」は「ernähren」（養う）から来た語で、普段の食べ方全般を指す。「Essen」は食べ物や食事そのものを指す。

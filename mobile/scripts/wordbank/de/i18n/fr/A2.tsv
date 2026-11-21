@@ -1,5 +1,5 @@
 A2	einkaufen	faire les courses	Je fais les courses ce soir.	Les supermarchés allemands ferment tôt et restent fermés presque tous les dimanches, ce qui surprend les visiteurs des pays méditerranéens.
-A2	anrufen	appeler (par téléphone)	Je t'appelle demain.	Les Allemands recourent volontiers à un appel téléphonique formel, même pour des choses que d'autres règlent par SMS, comme annuler un rendez-vous.
+A2	anrufen	appeler (par téléphone)	Je t'appelle demain.	« Anrufen » est séparable : « ich rufe an », parfait « hat angerufen ». Il prend l'accusatif : « jemanden anrufen ».
 A2	fahren	conduire, voyager	Elle va à vélo tous les jours.	Le changement de voyelle « a → ä » dans « fährt » est l'un des schémas irréguliers les plus courants de l'allemand, partagé par des dizaines de verbes du quotidien.
 A2	Freizeit	temps libre, loisirs	Pendant mon temps libre, je joue de la guitare.	Les Allemands défendent fermement leur « Freizeit » : la loi garantit au moins 20 jours de congés payés, et les heures supplémentaires non rémunérées sont mal vues.
 A2	Küche	cuisine	La cuisine allemande est très variée.	En allemand, « Küche » désigne à la fois la pièce et la tradition culinaire : un mot pour deux concepts essentiels.
@@ -7,7 +7,7 @@ A2	essen	manger	Il aime manger du poisson.	Le « isst » irrégulier de « essen
 A2	Urlaub	vacances, congé	Nous passons des vacances en Italie.	L'Allemagne figure parmi les premiers pays au monde en dépenses touristiques, et l'Italie est depuis longtemps la destination préférée des Allemands.
 A2	Krankenhaus	hôpital	L'hôpital est dans le centre-ville.	Littéralement « maison des malades », « Krankenhaus » est un composé transparent : le sens allemand se déchiffre souvent en découpant simplement le mot.
 A2	Kollege	collègue	Mon collègue m'aide toujours.	Les Allemands tracent une nette ligne entre « Kollege » (collègue de travail) et « Freund » (ami) : appeler un collègue « Freund » suppose un lien bien plus profond.
-A2	aufräumen	ranger	Je range ma chambre.	Le concept d'« Ordnung » (ordre) est si important en Allemagne que « Ordnung muss sein » (« il faut de l'ordre ») fait presque office de devise nationale.
+A2	aufräumen	ranger	Je range ma chambre.	« Aufräumen » est séparable : « ich räume auf », parfait « hat aufgeräumt ».
 A2	abfahren	partir (véhicule)	Le train part dans cinq minutes.	Sur les panneaux allemands, le départ est « Abfahrt » et l'arrivée « Ankunft » : deux noms dérivés de verbes séparables.
 A2	Rechnung	addition, facture	Pouvons-nous avoir l'addition, s'il vous plaît ?	Dans les restaurants allemands, on vous demande souvent « zusammen oder getrennt ? » (« ensemble ou séparément ? ») : partager l'addition est tout à fait normal.
 A2	vorbereiten	préparer	Je prépare le repas.	Le préfixe « vor- » (avant, devant) génère des dizaines de verbes séparables comme « vorschlagen » (suggérer) et « vorstellen » (présenter).
@@ -101,7 +101,7 @@ A2	Überraschung	surprise	C'était une merveilleuse surprise !	« Überraschung 
 A2	Sorge	souci, inquiétude	Ne t'inquiète pas.	« Sich Sorgen machen » (« se faire des soucis ») est l'expression habituelle pour exprimer l'angoisse ou l'inquiétude.
 A2	Wunsch	souhait, vœu	As-tu un souhait particulier ?	« Auf Wunsch » (« sur demande ») est une locution très courante dans les contextes de service, des restaurants aux administrations.
 A2	Freude	joie	La joie était grande.	« Mit Freude » (« avec joie ») est la formule habituelle, employée même dans les lettres formelles pour accepter une invitation.
-A2	Angst	peur	Elle n'a pas peur des chiens.	« Angst » est toujours féminin et singulier, mais peut prendre le pluriel « Ängste » pour parler de plusieurs peurs différentes.
+A2	Angst	peur, angoisse	Elle n'a pas peur des chiens.	« Angst haben vor » se construit avec le datif : « Angst vor Hunden ». Le pluriel « Ängste » existe mais est rare ; le singulier est la forme normale.
 A2	Wut	colère, rage	Sa colère était compréhensible.	« Wut » est plus intense que « Ärger » (agacement, irritation) : elle décrit une colère forte, presque incontrôlable.
 A2	Ruhe	calme, tranquillité	J'ai besoin d'un peu de calme maintenant.	« Lass mich in Ruhe » (« laisse-moi en paix ») emploie « Ruhe » comme état désiré : l'une des expressions les plus courantes dans les conflits familiaux.
 A2	Stress	stress	J'ai beaucoup de stress en ce moment.	« Stress » est un emprunt direct à l'anglais, de genre masculin par analogie avec d'autres noms abstraits allemands.
@@ -111,10 +111,9 @@ A2	aufpassen	faire attention	Attention, la route est glissante !	« Aufpassen au
 A2	sich konzentrieren auf	se concentrer sur	Je dois me concentrer sur mon travail.	« Sich konzentrieren auf » prend l'accusatif : « auf die Arbeit », une structure fixe très courante en contexte scolaire et professionnel.
 A2	nachdenken über	réfléchir à	Je réfléchis à ta proposition.	« Nachdenken über » est séparable et prend l'accusatif : « über deinen Vorschlag », différent du simple « denken an ».
 A2	sich entschuldigen	s'excuser	Je voudrais m'excuser.	« Sich entschuldigen für » prend l'accusatif de la chose pour laquelle on s'excuse, ou « bei » plus le datif pour la personne.
-A2	versprechen	promettre	Je te promets d'être à l'heure.	« Versprechen » prend le datif de la personne à qui l'on promet quelque chose, comme beaucoup de verbes au préfixe « ver- ».
+A2	versprechen	promettre	Je te promets d'être à l'heure.	« Versprechen » : la personne est au datif, la chose à l'accusatif (« Ich verspreche dir Hilfe »). Il est irrégulier : versprach, hat versprochen.
 A2	erlauben	permettre, autoriser	Mes parents ne me le permettent pas.	« Erlauben » prend le datif de la personne à qui l'on accorde la permission : « mir erlauben ».
 A2	verbieten	interdire	Il est interdit de fumer ici.	« Verboten » en participe passé s'emploie partout sur les panneaux publics : « Parken verboten » (stationnement interdit), « Rauchen verboten » (défense de fumer).
-A2	empfehlen sich	être conseillé	Il est conseillé de réserver tôt.	« Es empfiehlt sich » est une structure impersonnelle formelle, courante dans les textes écrits et les guides de voyage.
 A2	sich verspäten	être en retard	Le train a eu du retard.	« Sich verspäten » décrit le retard d'un moyen de transport ou d'une personne de façon formelle et précise.
 A2	sich verabschieden	dire au revoir, prendre congé	Nous nous disons au revoir à la porte.	« Sich verabschieden von » prend le datif de la personne à qui l'on dit au revoir : « von meinen Freunden ».
 A2	Vermieter	propriétaire (bailleur)	Le propriétaire augmente le loyer.	En Allemagne, les hausses de loyer sont légalement plafonnées à un pourcentage maximal sur une période donnée.
@@ -143,10 +142,8 @@ A2	Flasche	bouteille	Passe-moi la bouteille, s'il te plaît.	Grâce à la « Pfa
 A2	Dose	canette, boîte de conserve	La canette est vide.	Les canettes ont aussi une consigne (« Dosenpfand »), introduite en 2003 pour réduire les déchets sauvages.
 A2	Verpackung	emballage	L'emballage est en plastique.	L'Allemagne est l'un des pays européens aux réglementations les plus strictes pour réduire les emballages plastiques.
 A2	Umwelt	environnement	Nous devons protéger l'environnement.	« Umwelt » signifie littéralement « le monde autour » : un composé très transparent, également la racine de « umweltfreundlich » (écologique).
-A2	Klima	climat	Le climat change rapidement.	« Klimawandel » (changement climatique) est l'un des sujets politiques les plus débattus en Allemagne depuis vingt ans.
 A2	Energie	énergie	Nous économisons l'énergie à la maison.	L'Allemagne a beaucoup investi dans les énergies renouvelables, surtout l'éolien et le solaire, depuis les années 2000.
-A2	Solarenergie	énergie solaire	Beaucoup de maisons utilisent l'énergie solaire.	Les panneaux solaires sont extrêmement courants sur les toits allemands, encouragés par des années de subventions de l'État.
-A2	sparen mit Strom	économiser l'électricité	Nous économisons l'électricité quand c'est possible.	« Sparen » prend un complément d'objet direct à l'accusatif sans préposition quand il désigne la quantité économisée.
+A2	Strom sparen	économiser l'électricité	Nous économisons l'électricité quand c'est possible.	« Sparen » prend directement un complément à l'accusatif, sans préposition : « Strom sparen », « Geld sparen », « Zeit sparen ».
 A2	Neuigkeit	nouvelle, information	As-tu entendu la dernière nouvelle ?	« Neuigkeit » désigne une seule nouvelle, tandis que le pluriel « die Nachrichten » renvoie au journal d'information dans son ensemble.
 A2	Zeitung	journal	Je lis le journal tous les matins.	« Zeitung » partage sa racine avec « Zeit » (temps) : littéralement ce qui informe sur le temps présent, l'actualité.
 A2	Artikel	article	L'article était très intéressant.	« Artikel » signifie à la fois « article de presse » et « article grammatical » (der/die/das) : le même mot pour deux concepts.
@@ -171,7 +168,6 @@ A2	Vorstellungsgespräch	entretien d'embauche	J'ai un entretien d'embauche demai
 A2	Kollegin	collègue (femme)	Ma collègue est très compétente.	La terminaison féminine « -in » est obligatoire en allemand standard quand on désigne spécifiquement une femme.
 A2	Teamarbeit	travail d'équipe	Le travail d'équipe est important chez nous.	« Teamarbeit » combine l'emprunt anglais « Team » et le mot allemand « Arbeit » (travail) : un composé hybride courant.
 A2	Projekt	projet	Le projet avance bien.	« Laufen » s'emploie au figuré pour dire comment un projet se déroule, comme « to run » en anglais dans « the project is running well ».
-A2	Frist	délai, échéance	Le délai expire demain.	« Ablaufen » est séparable : « läuft ab » au présent, employé pour dire qu'une échéance approche.
 A2	Homeoffice	télétravail	Aujourd'hui, je travaille à la maison.	« Homeoffice » est devenu extrêmement courant en allemand après 2020, remplaçant presque entièrement l'expression « von zu Hause arbeiten ».
 A2	Kündigungsfrist	délai de préavis	Le délai de préavis est de trois mois.	En Allemagne, le « Kündigungsfrist » standard pour les contrats de travail de longue durée est légalement souvent de quatre semaines ou plus.
 A2	Feierabendbier	bière après le travail	Nous buvons une bière ensemble après le travail.	Ce composé familier combine « Feierabend » (fin de la journée de travail) et « Bier » : un petit rituel social très courant en Allemagne.
@@ -179,7 +175,6 @@ A2	Betriebsausflug	sortie d'entreprise	La sortie d'entreprise a lieu en juin.	«
 A2	Gewerkschaft	syndicat	Il est membre d'un syndicat.	Les syndicats allemands négocient souvent au niveau de toute une branche, et non entreprise par entreprise : un modèle européen distinctif.
 A2	Streik	grève	Aujourd'hui, il y a une grève des chemins de fer.	Les grèves des transports publics, surtout de la Deutsche Bahn, sont relativement fréquentes et bien annoncées à l'avance.
 A2	Fabrik	usine	Mon oncle travaille dans une usine.	L'Allemagne reste l'une des grandes puissances manufacturières d'Europe, avec son industrie automobile comme symbole international.
-A2	Fließband	chaîne de montage	Il travaille à la chaîne.	« Fließband » combine « fließen » (couler) et « Band » (bande) : littéralement une « bande qui coule ».
 A2	Handwerk	artisanat	L'artisanat a une longue tradition en Allemagne.	« Handwerk hat goldenen Boden » (« l'artisanat a un sol en or ») est un proverbe allemand sur la valeur économique des métiers manuels.
 A2	Tischler	menuisier	Le menuisier construit l'armoire.	En Allemagne, devenir « Tischler » exige généralement un apprentissage de trois ans (« Ausbildung »), un système très structuré.
 A2	Elektriker	électricien	Nous avons besoin d'un électricien.	Comme le menuisier, l'électricien allemand suit lui aussi un parcours rigoureux d'apprentissage en alternance (école plus travail).
@@ -226,7 +221,6 @@ A2	Untersuchung	examen, contrôle médical	L'examen dure vingt minutes.	« Unter
 A2	Zahnarzt	dentiste	J'ai rendez-vous chez le dentiste demain.	« Beim Zahnarzt » est la contraction de « bei dem Zahnarzt » : employée pour indiquer chez qui l'on se rend.
 A2	Tierarzt	vétérinaire	Le vétérinaire examine le chien.	« Tierarzt » combine « Tier » (animal) et « Arzt » (médecin) : littéralement « médecin des animaux ».
 A2	Apothekerin	pharmacienne	La pharmacienne me conseille bien.	La terminaison féminine « -in » suit le même modèle régulier que presque toutes les professions allemandes.
-A2	Diagnose	diagnostic	Le médecin pose un diagnostic.	« Eine Diagnose stellen » (« poser un diagnostic ») est la collocation fixe habituelle dans les contextes médicaux.
 A2	Behandlung	traitement	Le traitement dure plusieurs semaines.	« Behandlung » vient de « behandeln » (traiter), un verbe inséparable au préfixe fixe « be- ».
 A2	Konzert	concert	Ce soir, nous allons au concert.	« Ins Konzert gehen » utilise l'accusatif parce qu'il décrit un mouvement vers un événement précis.
 A2	Ausstellung	exposition	L'exposition est ouverte jusqu'à dimanche.	« Ausstellung » vient de « ausstellen » (exposer), un verbe séparable très courant dans le contexte des musées.
@@ -286,7 +280,6 @@ A2	Wetterbericht	bulletin météo	As-tu vu le bulletin météo ?	« Wetterberich
 A2	Nebel	brouillard	Ce matin, il y avait un épais brouillard.	« Im Nebel stochern » (« fouiller dans le brouillard ») signifie avancer sans certitude, à tâtons.
 A2	Frost	gel, gelée	Pendant la nuit, il y a eu du gel.	« Frost » partage sa racine avec « frieren » (geler), tous deux liés au froid intense de l'hiver.
 A2	Hitze	chaleur	La chaleur de l'été est parfois extrême.	Les vagues de chaleur en Allemagne sont devenues de plus en plus fréquentes ces dernières années, un problème lié au changement climatique.
-A2	Feuchtigkeit	humidité	L'humidité de l'air est élevée aujourd'hui.	« Feuchtigkeit » vient de « feucht » (humide) avec le suffixe abstrait « -igkeit », variante de « -keit ».
 A2	Sturm	tempête	Une forte tempête approche.	« Ein Sturm im Wasserglas » (« une tempête dans un verre d'eau ») correspond au français « une tempête dans un verre d'eau ».
 A2	Blitz	éclair	L'éclair était très lumineux.	« Blitz » est la racine du mot anglais « blitzkrieg » et du « flash » photographique : tous deux liés à une vitesse et une lumière soudaines.
 A2	Donner	tonnerre	Après l'éclair est venu le tonnerre.	« Donner » partage sa racine avec le dieu nordique Thor/Donar, protecteur du tonnerre dans la mythologie germanique.
@@ -332,7 +325,7 @@ A2	ehrlich	honnête	Honnêtement, je ne sais pas.	« Ehrlich gesagt » (« honn�
 A2	geduldig	patient	Mon enseignante est très patiente.	« Geduldig » dérive de « Geduld » (patience) avec le suffixe adjectival « -ig », très productif en allemand.
 A2	neugierig	curieux	Les enfants sont curieux par nature.	« Neugierig » combine « neu » (nouveau) et « gierig » (avide) : littéralement « avide de nouveautés ».
 A2	großzügig	généreux	Il est très généreux de son temps.	« Großzügig » combine « groß » (grand) et « Zug » (trait) : littéralement « aux grands traits », c'est-à-dire magnanime.
-A2	schüchtern	timide	Enfant, j'étais très timide.	« Schüchtern » décrit la timidité de façon neutre, sans la connotation négative qu'elle a parfois dans d'autres langues.
+A2	schüchtern	timide	Enfant, j'étais très timide.	« Schüchtern » décrit les personnes et les comportements timides : « ein schüchterner Junge », « schüchtern lächeln ».
 A2	mutig	courageux	C'était une décision courageuse.	« Mutig » vient de « Mut » (courage) avec le suffixe « -ig », l'un des schémas les plus réguliers de formation des adjectifs allemands.
 A2	faul	paresseux	Le week-end, je suis parfois paresseux.	« Faul » signifie aussi « pourri, gâté » à propos de la nourriture : deux sens distincts pour le même mot.
 A2	fleißig	travailleur, studieux	C'est une étudiante très travailleuse.	« Fleißig » est l'opposé direct de « faul » et s'emploie souvent pour complimenter des étudiants appliqués.
@@ -344,10 +337,9 @@ A2	überrascht	surpris	J'ai été totalement surpris par la fête.	« Überrasch
 A2	enttäuscht	déçu	Je suis déçu du résultat.	« Enttäuscht » est le participe passé de « enttäuschen » (décevoir), employé comme adjectif avec « von » plus le datif.
 A2	begeistert	enthousiaste	Elle est enthousiasmée par le voyage.	« Begeistert von » prend le datif, la même structure que « enttäuscht » et « überrascht ».
 A2	verwirrt	confus, perplexe	Les instructions m'ont dérouté.	« Verwirrt » vient de « verwirren » (embrouiller), un verbe inséparable au préfixe « ver- ».
-A2	gelangweilt	ennuyé	Les enfants s'ennuyaient.	« Gelangweilt » vient de « sich langweilen » (s'ennuyer), un verbe réfléchi souvent employé en famille.
+A2	gelangweilt	qui s'ennuie	Les enfants s'ennuyaient.	« Gelangweilt » est un participe employé comme adjectif : il décrit ce que l'on ressent (« ich bin gelangweilt »). « Langweilig » décrit ce qui provoque l'ennui : « der Film ist langweilig ».
 A2	zufrieden	satisfait, content	Je suis satisfait de mon travail.	« Zufrieden mit » prend le datif : « mit meiner Arbeit », une structure courante pour exprimer la satisfaction.
 A2	nervös	nerveux	Avant l'examen, je suis toujours nerveux.	« Nervös » est un emprunt au français, accentué sur la dernière syllabe, contrairement à beaucoup d'adjectifs allemands d'origine.
-A2	gelassen	serein, calme	Elle reste calme même dans les situations stressantes.	« Gelassen » vient du participe de « lassen » (laisser) : littéralement quelqu'un qui « lâche prise » face à la tension.
 A2	verlegen	gêné	Il est devenu tout gêné.	« Verlegen » comme adjectif est différent de « verlegen » comme verbe (déplacer, égarer) : même forme, sens différents selon le contexte.
 A2	dankbar	reconnaissant	Je te suis très reconnaissant pour ton aide.	« Dankbar für » prend l'accusatif : « für deine Hilfe », tandis que « dankbar » seul peut aussi prendre le datif de la personne.
 A2	Gefühl	sentiment, sensation	J'ai un étrange pressentiment.	« Gefühl » vient de « fühlen » (sentir), avec le préfixe collectif « ge- » typique de nombreux noms abstraits neutres.
@@ -363,3 +355,8 @@ A2	Tradition	tradition	Cette tradition est entretenue depuis des générations.	
 A2	Vielfalt	diversité	La diversité des dialectes est impressionnante.	L'Allemagne compte des dizaines de dialectes régionaux très différents, certains presque incompréhensibles pour ceux qui ne parlent que l'allemand standard.
 A2	Dialekt	dialecte	En Bavière, on parle souvent en dialecte.	Le bavarois, le saxon et le dialecte de Cologne figurent parmi les dialectes allemands les plus distinctifs, souvent difficiles à suivre pour les apprenants d'allemand standard.
 A2	Hochdeutsch	allemand standard	À l'école, on apprend l'allemand standard.	« Hochdeutsch » signifie littéralement « haut allemand », un terme historique lié à la géographie plutôt qu'à un jugement de valeur.
+A2	Regenbogen	arc-en-ciel	Après la pluie, un arc-en-ciel est apparu.	« Regenbogen » est un composé transparent : « Regen » (pluie) + « Bogen » (arc), littéralement un « arc de pluie ».
+A2	Termin vereinbaren	prendre rendez-vous	Je voudrais prendre rendez-vous.	« Vereinbaren » n'est pas séparable : il fait partie des verbes au préfixe « ver- » toujours inséparable.
+A2	sich verlaufen	se perdre (à pied)	Nous nous sommes perdus dans la ville.	« Sich verlaufen » décrit le fait de se perdre à pied ; « sich verfahren » est l'équivalent pour se perdre en conduisant.
+A2	Briefkasten	boîte aux lettres	Regarde dans la boîte aux lettres, s'il te plaît.	« Briefkasten » = « Brief » (lettre) + « Kasten » (boîte) : aussi bien celle de la maison que la boîte jaune dans la rue.
+A2	Übernachtung	nuitée	La nuit à l'hôtel coûte quatre-vingts euros.	« Übernachtung » est le nom de « übernachten » (passer la nuit). On voit souvent « Übernachtung mit Frühstück » (nuitée avec petit-déjeuner).

@@ -1,11 +1,11 @@
 C1	Zeitgeist	espírito da época	Este romance capta perfeitamente o espírito da época.	Hegel o transformou em conceito filosófico no início do século XIX. Entrou no inglês quase sem alteração e hoje é usado no mundo inteiro.
 C1	Fingerspitzengefühl	sensibilidade, tato, intuição delicada	Para esta negociação é preciso ter verdadeiro tato.	Literalmente 'sensibilidade na ponta dos dedos': expressa a valorização alemã de uma habilidade precisa e intuitiva, na diplomacia como na medicina.
 C1	Doppelgänger	sósia, duplo	Ele encontrou o seu duplo numa viagem.	Na literatura romântica alemã, o Doppelgänger era um alter ego sobrenatural. E.T.A. Hoffmann o tornou famoso, e Freud o retomou na psicanálise.
-C1	heiße	diz-se, consta (subjuntivo I)	No comunicado consta que a fábrica estaria fechada.	O Konjunktiv I ('sei', 'heiße') marca o discurso indireto jornalístico: distancia quem fala da afirmação que está sendo transmitida.
+C1	es heißt	diz-se / consta (em um texto)	No comunicado consta que a fábrica foi fechada.	'Es heißt, ...' introduz o que se diz ou o que está escrito em um texto. No discurso indireto, a oração seguinte costuma usar o Konjunktiv I ('sei').
 C1	Vergangenheitsbewältigung	superação do passado, acerto de contas com o passado	A superação do passado é uma parte central da identidade alemã.	Um composto tipicamente alemão: descreve o processo coletivo contínuo de lidar com o nazismo, por meio das escolas, dos memoriais e da lei.
 C1	vorgeworfen werden	ser acusado, ser censurado	Ele é acusado de negligência.	Na passiva com 'vorwerfen', a acusação se despersonaliza, um movimento que reflete a cautela da linguagem jurídica e jornalística alemã.
 C1	Schadenersatz	indenização, reparação de danos	A empresa deve pagar indenização.	O direito do consumidor alemão está entre os mais fortes da Europa: as ações de 'Schadenersatz' são comuns e culturalmente normais.
-C1	Heimlichkeit	segredo, ocultamento	O caráter secreto do encontro o tornou emocionante.	Freud analisou 'Das Unheimliche' (o estranho) como o retorno de uma Heimlichkeit reprimida: a palavra carrega o duplo sentido de 'íntimo' e 'inquietantemente oculto'.
+C1	Heimlichkeit	sigilo / segredo (ato de esconder)	O sigilo do encontro o tornava emocionante.	De 'heimlich' (secreto, às escondidas). O plural 'Heimlichkeiten' significa pequenos segredos; 'unheimlich' significa sinistro.
 C1	Querdenker	pensador fora da caixa, inconformista	Como pensador fora da caixa, ele sempre encontra soluções incomuns.	Originalmente um termo positivo para pensadores criativos, foi redefinido em 2020-21 para os movimentos contra o lockdown, um caso marcante de deriva semântica sob pressão política.
 C1	Weltschmerz	melancolia do mundo, tédio existencial	Uma profunda melancolia do mundo estava em seus olhos.	Cunhado por Jean Paul em 1827, descreve a dor da distância entre a realidade e os ideais, um conceito central do Romantismo alemão.
 C1	beileibe nicht	de modo algum, certamente não	Esta não é, de modo algum, a única explicação.	Uma expressão enfática de registro culto, em que 'bei Leibe' ('pelo [meu] corpo') é um antigo juramento fossilizado na língua.
@@ -20,7 +20,7 @@ C1	Tragweite	alcance, importância de longo alcance	O alcance desta decisão nã
 C1	beschönigen	embelezar, atenuar	Ele tentou maquiar os números.	Vem de 'schön' (bonito): tornar algo 'mais bonito' do que é. Uma acusação recorrente no debate político e ambiental.
 C1	vermeintlich	suposto, pretenso	O suposto atalho nos custou uma hora.	Sinaliza ceticismo: dizer 'vermeintlich' sugere que a expectativa se revelou errada.
 C1	Zäsur	ruptura, cesura	O ano de 1989 foi uma profunda ruptura na história europeia.	Um empréstimo do latim, via métrica poética: designa uma quebra tão nítida que o 'depois' já não se parece com o 'antes'.
-C1	im Zuge	no decurso de, no âmbito de	No decurso da reforma, o telhado também foi refeito.	Rege o genitivo. Uma imagem ferroviária fossilizada: as coisas acontecem 'na esteira' de um processo maior.
+C1	im Zuge	no decurso de / como parte de	No decurso da reforma, o telhado também foi renovado.	Rege o genitivo: 'im Zuge der Renovierung'. Aqui 'Zug' não é o trem, mas 'curso, andamento': significa 'no decurso de'.
 C1	unterschwellig	subliminar, latente	Havia uma agressividade latente no debate.	Literalmente 'abaixo do limiar' (Schwelle) da percepção consciente: aplica-se a tons, tensões e mensagens publicitárias.
 C1	mutmaßlich	presumido, provável (juridicamente)	O presumido autor foi preso.	'Mutmaßlich' vem de 'Mutmaßung' (conjectura): usado na linguagem jurídica e jornalística para não implicar culpa comprovada.
 C1	unumstritten	incontestado, indiscutível	A competência dele é indiscutível.	'Unumstritten' combina o prefixo negativo 'un-' e 'umstritten' (controverso): literalmente 'não controverso'.
@@ -34,7 +34,6 @@ C1	nichtsdestotrotz	não obstante, mesmo assim	Estava chovendo, mas mesmo assim 
 C1	fürwahr	em verdade, deveras (arcaico)	Foi deveras um dia memorável.	'Fürwahr' é um advérbio arcaico, hoje usado quase só de forma irônica ou literária para enfatizar uma afirmação.
 C1	mitnichten	de forma alguma (formal)	Esta não é de forma alguma a única explicação.	'Mitnichten' é uma negação enfática de registro elevado, uma alternativa formal a 'keineswegs'.
 C1	keineswegs	de modo nenhum	Isso não é de modo nenhum certo.	'Keineswegs' é a negação enfática padrão do registro escrito formal, mais comum que 'mitnichten'.
-C1	allerdings	porém, no entanto	A ideia é boa, porém falta orçamento.	'Allerdings' introduz uma restrição ou objeção, muito comum na fala argumentativa tanto formal quanto informal.
 C1	insofern	nesse sentido, na medida em que	Nesse sentido, ele tem razão.	'Insofern' também pode introduzir uma oração subordinada com 'als': 'insofern, als...' ('na medida em que...').
 C1	diesbezüglich	a este respeito	A este respeito, ainda há questões em aberto.	'Diesbezüglich' combina 'dies' (isto) e 'bezüglich' (a respeito de): um conectivo típico da correspondência formal.
 C1	nunmehr	agora (formal)	O prazo expirou agora.	'Nunmehr' é uma variante formal de 'jetzt', típica da linguagem jurídica e administrativa.
@@ -65,7 +64,7 @@ C1	Umsicht	cautela, prudência	Ele agiu com grande cautela.	'Umsicht' combina 'u
 C1	Sachverhalt	estado de coisas, fatos	Os fatos precisam ser examinados com precisão.	'Geprüft werden' é passiva, típica da linguagem jurídica e administrativa para uma verificação formal.
 C1	Sachlage	situação, circunstâncias	Diante da situação, é recomendável cautela.	'Angesichts' rege o genitivo e é típico do registro formal-administrativo.
 C1	Gutachten	laudo, parecer técnico	O laudo confirma as preocupações com a segurança.	'Gutachten' combina 'gut' (bem) e 'achten' (observar): uma avaliação técnica formal feita por um perito.
-C1	Vollzug	execução, cumprimento (jurídico)	A execução da sentença começa imediatamente.	'Vollzug' vem de 'vollziehen' (executar), um termo jurídico formal para a implementação prática de uma decisão.
+C1	Vollzug	execução (de uma pena)	O cumprimento da pena começa na semana que vem.	De 'vollziehen'. Termo jurídico: 'Strafvollzug' significa o sistema prisional. Para uma sentença, 'Vollstreckung' é mais usual.
 C1	rechtskräftig	transitado em julgado, juridicamente vinculante	A sentença já transitou em julgado.	'Rechtskräftig' combina 'Recht' (direito) e 'Kraft' (força): uma decisão que adquiriu plena e definitiva força legal.
 C1	Berufung einlegen	interpor recurso, apelar	O advogado interpõe recurso.	'Einlegen' é separável e leva o acusativo: 'Berufung einlegen' é a colocação fixa padrão no direito alemão.
 C1	Beweislast	ônus da prova	O ônus da prova cabe ao autor.	'Liegen bei' leva o dativo: 'beim Kläger', uma estrutura jurídica fixa para indicar quem arca com uma responsabilidade.
@@ -104,7 +103,7 @@ C1	Dogmatismus	dogmatismo	O dogmatismo impede um discurso aberto.	'Verhindern' l
 C1	Reduktionismus	reducionismo	O reducionismo simplifica demais fenômenos complexos.	'Zu stark' reforça 'vereinfachen' (simplificar), indicando um excesso criticável.
 C1	Determinismus	determinismo	O determinismo põe em questão o livre-arbítrio.	'Infrage stellen' é uma expressão fixa que significa 'pôr em dúvida, questionar'.
 C1	freier Wille	livre-arbítrio	A questão do livre-arbítrio continua em aberto.	'Die Frage nach' leva o dativo: 'nach dem freien Willen', uma estrutura fixa para introduzir uma questão filosófica.
-C1	Existenzialismus	existencialismo	O existencialismo enfatiza a responsabilidade individual.	'Betonen' leva objeto direto no acusativo e significa 'enfatizar', um verbo formal inseparável.
+C1	Existenzialismus	existencialismo	O existencialismo enfatiza a responsabilidade individual.	Movimento filosófico do século XX (Sartre, Heidegger). A grafia 'Existentialismus' também ocorre; o adjetivo é 'existenzialistisch'.
 C1	Nihilismus	niilismo	O niilismo nega todo sentido objetivo.	'Verneinen' leva objeto direto no acusativo e significa 'negar', um termo filosófico formal.
 C1	Absolutheit	caráter absoluto	O caráter absoluto desta afirmação não me convence.	'Absolutheit' vem de 'absolut' com o sufixo abstrato '-heit', um termo filosófico de registro elevado.
 C1	Relativismus	relativismo	O relativismo cultural é frequentemente criticado.	'Kritisiert werden' é passiva, comum no discurso acadêmico para descrever posições contestadas.
@@ -174,12 +173,12 @@ C1	Neurowissenschaft	neurociência	A neurociência explica muitos padrões de co
 C1	Synapse	sinapse	As sinapses transmitem sinais elétricos.	'Übertragen' leva objeto direto no acusativo e significa 'transmitir', um verbo técnico comum na neurociência.
 C1	Plastizität	plasticidade (neural)	A plasticidade do cérebro diminui com a idade.	'Abnehmen' é separável e significa 'diminuir', comum no discurso sobre o envelhecimento cognitivo.
 C1	kognitiv	cognitivo	As capacidades cognitivas mudam com a idade.	'Kognitiv' é um empréstimo latino, termo padrão em psicologia e neurociência.
-C1	Demenz	demência	A demência afeta cada vez mais pessoas no mundo todo.	'Immer mehr' reforça um aumento progressivo, uma estrutura comparativa muito comum em alemão.
+C1	Demenz	demência	A demência afeta cada vez mais pessoas no mundo todo.	Usado no singular: 'an Demenz leiden' (sofrer de demência, 'an' + dativo). O adjetivo é 'dement'; o Alzheimer é uma forma de Demenz.
 C1	Neurodegeneration	neurodegeneração	A neurodegeneração costuma avançar de forma insidiosa.	'Schleichend' vem de 'schleichen' (rastejar), usado para descrever processos patológicos graduais.
 C1	Genom	genoma	O genoma humano foi sequenciado em 2003.	'Sequenziert werden' é passiva, referindo-se à conclusão do projeto internacional Genoma Humano.
 C1	Mutation	mutação	Algumas mutações são inofensivas.	'Manche' significa 'alguns, certos', um pronome/adjetivo indefinido comum no discurso científico geral.
 C1	Biotechnologie	biotecnologia	A biotecnologia abre novas possibilidades médicas.	'Eröffnen' não é separável e leva objeto direto no acusativo, com o sentido de 'abrir' em sentido figurado ou literal.
-C1	Nanotechnologie	nanotecnologia	A nanotecnologia poderia revolucionar a medicina.	'Revolutionieren' leva objeto direto no acusativo, um termo formal que descreve mudança radical.
+C1	Nanotechnologie	nanotecnologia	A nanotecnologia poderia revolucionar a medicina.	Do grego 'nános' (anão, muito pequeno) + 'Technologie'. Um nanômetro é um bilionésimo de metro.
 C1	Quantencomputer	computador quântico	Um computador quântico resolve alguns problemas muito mais rápido.	'Viel schneller' reforça o comparativo 'schneller' com 'viel', indicando uma diferença substancial.
 C1	maschinelles Lernen	aprendizado de máquina	O aprendizado de máquina melhora constantemente.	'Sich verbessern' é reflexivo e significa 'melhorar', muito usado para sistemas tecnológicos.
 C1	neuronales Netz	rede neural	Uma rede neural simula o cérebro humano.	'Simulieren' leva objeto direto no acusativo, um termo técnico padrão em inteligência artificial.
@@ -191,7 +190,7 @@ C1	Anapher	anáfora (figura retórica)	O orador usou uma poderosa anáfora.	'Ana
 C1	Pathos	pathos	O texto apela fortemente ao pathos.	'Appellieren an' leva o acusativo: 'an das Pathos', uma estrutura fixa na análise retórica clássica (ethos, pathos, logos).
 C1	Ethos	ethos	O orador primeiro constrói o seu ethos.	'Aufbauen' é separável e leva o acusativo: na análise retórica clássica, o ethos é a credibilidade do orador.
 C1	Logos-Argument	argumento lógico (logos)	Um argumento lógico apoia-se em fatos.	'Sich stützen auf' leva o acusativo: 'auf Fakten', o terceiro pilar da retórica clássica ao lado do ethos e do pathos.
-C1	Polemik	polêmica	A polêmica se dirige contra o governo.	'Sich richten gegen' leva o acusativo: 'gegen die Regierung', uma estrutura fixa para indicar o alvo de uma crítica.
+C1	Polemik	polêmica	A polêmica é dirigida contra o governo.	Crítica dura e agressiva, muitas vezes pessoal. O adjetivo é 'polemisch', o verbo é 'polemisieren'.
 C1	Invektive	invectiva	O discurso degenerou numa mera invectiva.	'Geraten zu' leva o dativo: 'zu einer Invektive', uma estrutura fixa para descrever uma degeneração não intencional.
 C1	Ambivalenz	ambivalência	A ambivalência da sua postura é evidente.	'Offensichtlich' significa 'óbvio, evidente', um adjetivo formal comum na análise crítica.
 C1	Zwiespalt	conflito interior, dilaceramento	Ela está presa num profundo conflito interior.	'Stecken in' leva o dativo: 'in einem Zwiespalt', uma estrutura fixa para descrever estar preso numa situação difícil.
@@ -303,7 +302,7 @@ C1	Konformitätsdruck	pressão para a conformidade	A pressão para a conformidad
 C1	Meinungsklima	clima de opinião	O clima de opinião mudou visivelmente.	'Merklich' significa 'perceptivelmente', um advérbio formal usado para mudanças perceptíveis.
 C1	Schweigespirale	espiral do silêncio	A espiral do silêncio explica por que as opiniões minoritárias se calam.	Um conceito sociológico da alemã Elisabeth Noelle-Neumann, muito influente nos estudos de comunicação política.
 C1	Echokammer	câmara de eco	As redes sociais muitas vezes criam câmaras de eco.	'Echokammer' é uma metáfora tirada da acústica, aplicada à polarização da informação online.
-C1	Filterblase	bolha de filtro	A bolha de filtro estreita o horizonte.	'Verengen' leva objeto direto no acusativo e significa 'estreitar', usado de forma crítica a respeito de algoritmos personalizados.
+C1	Filterblase	bolha de filtro	A bolha de filtro estreita o horizonte.	Composto de 'Filter' + 'Blase' (bolha); um decalque do inglês 'filter bubble', popularizado por Eli Pariser em 2011.
 C1	Polarisierung	polarização	A polarização política está aumentando.	'Zunehmen' é separável e significa 'aumentar', muito comum no discurso sobre a fragmentação política.
 C1	Radikalisierung	radicalização	A radicalização online é difícil de combater.	'Schwer zu bekämpfen' leva o infinitivo com 'zu', usado para expressar um desafio persistente.
 C1	Verrohung	embrutecimento (do discurso)	O embrutecimento da linguagem na internet preocupa muitos.	'Verrohung' vem de 'roh' (cru, grosseiro): o declínio progressivo da civilidade do discurso público.
@@ -345,7 +344,7 @@ C1	innere Leere	vazio interior	Apesar do sucesso, ele sentia um vazio interior.	
 C1	Sinnstiftung	criação de sentido	Para muitos, o trabalho serve de fonte de sentido.	'Dienen zu' leva o dativo: 'zur Sinnstiftung', uma estrutura fixa para expressar a finalidade de algo.
 C1	Kontingenzbewältigung	lidar com a contingência	Historicamente, a religião serviu para lidar com a contingência.	Um termo sociológico-teológico complexo, que se refere à maneira como os seres humanos lidam com a imprevisibilidade da vida.
 C1	Reflexionsvermögen	capacidade de reflexão	A sua capacidade de reflexão a distingue.	'Auszeichnen' é separável e leva o acusativo: 'zeichnet aus' significa 'distinguir, destacar'.
-C1	Urteilsvermögen	capacidade de julgamento	Um bom discernimento é indispensável na profissão.	'Urteilsvermögen' combina 'Urteil' (juízo) e 'Vermögen' (capacidade), um termo-chave da filosofia kantiana.
+C1	Urteilsvermögen	capacidade de julgamento	Um bom discernimento é indispensável na profissão.	Combina 'Urteil' (julgamento) e 'Vermögen' (capacidade): saber avaliar com bom senso. Um sinônimo mais literário é 'Urteilskraft'.
 C1	Unvoreingenommenheit	imparcialidade	Os juízes devem manter a imparcialidade.	'Wahren' leva objeto direto no acusativo e significa 'manter, preservar', um verbo formal inseparável.
 C1	Aufrichtigkeit	sinceridade	A sinceridade é a base de toda relação genuína.	'Aufrichtigkeit' vem de 'aufrichtig' (sincero), literalmente 'erguido, reto', isto é, sem engano.
 C1	Verschwiegenheit	discrição, sigilo	Os médicos são obrigados ao sigilo.	'Verpflichtet sein zu' leva o dativo: 'zur Verschwiegenheit', uma estrutura formal para obrigações profissionais.
@@ -357,9 +356,14 @@ C1	Zugeständnis	concessão	Ambos os lados fizeram concessões.	'Zugeständnisse
 C1	Kompromissbereitschaft	disposição para o compromisso	A disposição para o compromisso é decisiva na política.	'Entscheidend' significa 'decisivo', usado para qualidades consideradas essenciais num dado contexto.
 C1	Sachzwang	imperativo prático, restrição objetiva	Os políticos muitas vezes invocam restrições objetivas.	'Sich berufen auf' leva o acusativo: 'auf Sachzwänge', muitas vezes usado de forma crítica para justificar decisões impopulares.
 C1	Handlungsspielraum	margem de manobra	A margem de manobra do governo é limitada.	'Handlungsspielraum' combina 'Handlung' (ação), 'Spiel' (jogo, folga) e 'Raum' (espaço): o espaço de liberdade para agir.
-C1	Gestaltungsspielraum	margem de atuação, liberdade de configuração	Os professores têm uma certa margem de atuação.	'Gestaltungsspielraum' combina 'gestalten' (moldar, configurar) e 'Spielraum' (margem), um termo comum no direito administrativo.
+C1	Gestaltungsspielraum	margem de manobra criativa	Os professores têm uma certa margem de manobra.	Combina 'gestalten' (moldar, configurar) e 'Spielraum' (espaço para manobrar). Comum em contextos jurídicos, empresariais e educacionais.
 C1	Ermessensspielraum	margem de discricionariedade	O funcionário tem uma margem de discricionariedade.	'Ermessensspielraum' é um termo jurídico técnico para o espaço decisório concedido a uma autoridade dentro de certos limites.
 C1	Verhältnismäßigkeit	proporcionalidade	O princípio da proporcionalidade limita a ação do Estado.	'Verhältnismäßigkeit' é um princípio constitucional fundamental na Alemanha, aplicado em todo o direito público.
 C1	Zumutbarkeit	razoabilidade, exigibilidade	A razoabilidade desta medida é duvidosa.	'Zumutbarkeit' vem de 'zumutbar' (aceitável, razoável de se exigir), um termo jurídico para avaliar se uma exigência é razoável.
 C1	Nachvollziehbarkeit	rastreabilidade, compreensibilidade	A rastreabilidade das decisões gera confiança.	'Nachvollziehbarkeit' vem de 'nachvollziehbar' (compreensível, rastreável), um termo-chave da transparência institucional.
 C1	Gewissenhaftigkeit	conscienciosidade, escrúpulo	A conscienciosidade caracteriza o trabalho dela.	'Gewissenhaftigkeit' vem de 'Gewissen' (consciência moral) com o duplo sufixo '-haft' e '-igkeit', um termo de registro elevado.
+C1	Kuddelmuddel	bagunça / confusão	Na cozinha reinava uma verdadeira bagunça.	Reduplicação rimada coloquial de 'Muddel' (confusão), de origem do baixo-alemão. É neutro: 'ein Kuddelmuddel'.
+C1	Kuriosität	curiosidade (objeto curioso), raridade	O museu exibe curiosidades históricas.	'Kuriosität' descreve um objeto ou fato incomum e fascinante, distinto de 'Neugier', o traço psicológico da curiosidade.
+C1	Selbstgerechtigkeit	farisaísmo, presunção de ter sempre razão moral	A sua presunção de ter sempre razão moral irritava muita gente.	'Selbstgerechtigkeit' combina 'selbst' (si mesmo) e 'Gerechtigkeit' (justiça): a convicção moralista de estar sempre certo.
+C1	hypothetisch	hipotético	Vamos supor, hipoteticamente, que isso seja verdade.	De 'Hypothese'. Com 'annehmen' introduz um cenário: 'Nehmen wir hypothetisch an, ...'.
+C1	Achillesferse	calcanhar de Aquiles	A logística é o calcanhar de Aquiles da empresa.	Uma referência mitológica clássica, usada em alemão exatamente como em português para um ponto fraco decisivo.

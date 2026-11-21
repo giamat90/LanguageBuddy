@@ -1,11 +1,11 @@
 C1	Zeitgeist	çağın ruhu	Bu roman çağın ruhunu mükemmel yakalıyor.	Hegel onu 19. yüzyılın başında felsefi bir kavrama dönüştürdü. İngilizceye neredeyse değişmeden girdi ve bugün dünya çapında kullanılıyor.
 C1	Fingerspitzengefühl	incelik, sezgisel ince hassasiyet	Bu müzakere için gerçek bir incelik gerekiyor.	Kelimesi kelimesine 'parmak ucu duyusu': diplomasiden tıbba kadar hassas ve sezgisel beceriye duyulan Alman takdirini yansıtır.
 C1	Doppelgänger	çift, ikiz görünümlü kişi	Bir yolculukta kendi çiftiyle karşılaştı.	Alman Romantik edebiyatında Doppelgänger doğaüstü bir alter egoydu. E.T.A. Hoffmann onu ünlü kıldı, Freud da psikanalizde yeniden ele aldı.
-C1	heiße	denir, söylenir (dilek kipi I)	Açıklamada fabrikanın kapalı olduğu bildiriliyor.	Konjunktiv I ('sei', 'heiße') gazetecilik dolaylı anlatımını işaretler: konuşanı aktarılan iddiadan uzaklaştırır.
+C1	es heißt	denir ki, deniliyor	Açıklamada fabrikanın kapatıldığı belirtiliyor.	'Es heißt, ...' bir metinde söylenen ya da yazılanı aktarmaya başlar. Dolaylı anlatımda ardından gelen cümlede çoğunlukla Konjunktiv I kullanılır ('sei').
 C1	Vergangenheitsbewältigung	geçmişle hesaplaşma	Geçmişle hesaplaşma Alman kimliğinin merkezî bir parçasıdır.	Yalnızca Almancaya özgü bir bileşiktir: okullar, anıtlar ve hukuk yoluyla Nazizmle süren ortak hesaplaşma sürecini anlatır.
 C1	vorgeworfen werden	suçlanmak, yüzüne vurulmak	Kendisine ihmal suçlaması yöneltiliyor.	'vorwerfen' ile edilgen yapıda suçlama kişisizleşir; bu, Alman hukuk ve gazetecilik dilinin ihtiyatını yansıtır.
 C1	Schadenersatz	tazminat	Şirket tazminat ödemek zorunda.	Alman tüketici hukuku Avrupa'nın en güçlülerindendir: 'Schadenersatz' talepleri yaygın ve kültürel olarak olağandır.
-C1	Heimlichkeit	gizlilik, örtülülük	Buluşmanın gizliliği onu heyecanlı kıldı.	Freud 'Das Unheimliche'yi (tekinsiz) bastırılmış bir Heimlichkeit'ın dönüşü olarak çözümledi: sözcük hem 'samimi' hem 'tedirgin edici biçimde gizli' çift anlamını taşır.
+C1	Heimlichkeit	gizlilik, gizli saklılık	Buluşmanın gizliliği onu heyecanlı kıldı.	'heimlich' (gizli, örtülü) sözcüğünden. Çoğulu 'Heimlichkeiten' küçük sırlar demektir; 'unheimlich' ise ürkütücü anlamına gelir.
 C1	Querdenker	özgün düşünür, aykırı düşünen kişi	Özgün düşünür olarak hep alışılmadık çözümler buluyor.	Başlangıçta yaratıcı düşünürler için olumlu bir terimdi; 2020-21'de karantina karşıtı hareketler için yeniden tanımlandı: siyasi baskı altında çarpıcı bir anlam kayması.
 C1	Weltschmerz	dünya acısı, varoluşsal hüzün	Gözlerinde derin bir dünya acısı vardı.	1827'de Jean Paul tarafından türetildi; gerçeklik ile idealler arasındaki uçurumun acısını anlatır: Alman Romantizminin merkezî bir kavramı.
 C1	beileibe nicht	asla, kesinlikle değil	Bu asla tek açıklama değil.	Vurgulu, bilgiççe bir ifadedir; 'bei Leibe' ('bedenim üzerine') dile yerleşmiş eski bir yemin kalıntısıdır.
@@ -20,7 +20,7 @@ C1	Tragweite	kapsam, geniş çaplı önem	Bu kararın kapsamı başlangıçta ö
 C1	beschönigen	güzelleştirmek, olduğundan iyi göstermek	Rakamları olduğundan iyi göstermeye çalıştı.	'schön' (güzel) sözcüğünden gelir: bir şeyi olduğundan 'daha güzel' göstermek. Siyasi ve çevresel tartışmalarda sık yinelenen bir suçlamadır.
 C1	vermeintlich	sözde, sanılan	Sözde kestirme bize bir saatimize mal oldu.	Kuşkuculuğu belirtir: 'vermeintlich' demek, beklentinin yanlış çıktığına işaret eder.
 C1	Zäsur	kırılma noktası, derin kesinti	1989 Avrupa tarihinde derin bir kırılma noktasıydı.	Şiir ölçüsü yoluyla Latinceden gelen bir alıntıdır: 'sonrası'nın artık 'öncesi'ne benzemediği kadar keskin bir kopuşu anlatır.
-C1	im Zuge	sırasında, çerçevesinde	Yenileme sırasında çatı da yenilendi.	Genitifle kullanılır. Fosilleşmiş bir demiryolu imgesi: şeyler daha büyük bir sürecin 'çekişinde' gerçekleşir.
+C1	im Zuge	-in sırasında, kapsamında	Yenileme kapsamında çatı da yenilendi.	Genitif alır: 'im Zuge der Renovierung'. Buradaki 'Zug' tren değil, 'gidişat, süreç' anlamındadır: 'sırasında, çerçevesinde' demektir.
 C1	unterschwellig	bilinçaltı düzeyinde, örtük	Tartışmada örtük bir saldırganlık vardı.	Kelimesi kelimesine bilinçli algının 'eşiğinin altında' (Schwelle): tonlar, gerilimler ve reklam mesajları için kullanılır.
 C1	mutmaßlich	sanık, iddia edilen	Zanlı gözaltına alındı.	'Mutmaßlich', 'Mutmaßung' (tahmin) sözcüğünden gelir: kanıtlanmış suçluluk ima etmemek için hukuk ve gazetecilik dilinde kullanılır.
 C1	unumstritten	tartışmasız	Yetkinliği tartışmasız.	'Unumstritten', olumsuzlayan 'un-' önekiyle 'umstritten' (tartışmalı) sözcüğünü birleştirir: kelimesi kelimesine 'tartışmalı olmayan'.
@@ -34,7 +34,6 @@ C1	nichtsdestotrotz	her şeye rağmen, bununla birlikte	Yağmur yağıyordu, her
 C1	fürwahr	gerçekten, hakikaten (eski-edebî)	Bu gerçekten unutulmaz bir gündü.	'Fürwahr' eski bir zarftır; bugün neredeyse yalnızca ironik ya da edebî biçimde bir ifadeyi vurgulamak için kullanılır.
 C1	mitnichten	hiçbir şekilde (resmî)	Bu hiçbir şekilde tek açıklama değil.	'Mitnichten', yüksek üslupta vurgulu bir olumsuzlamadır; 'keineswegs'in resmî alternatifidir.
 C1	keineswegs	hiçbir surette, asla	Bu hiç de kesin değil.	'Keineswegs' resmî yazı dilinin standart vurgulu olumsuzlamasıdır; 'mitnichten'den daha yaygındır.
-C1	allerdings	ancak, gerçi	Fikir iyi, ancak bütçe yok.	'Allerdings' bir kısıtlama ya da itiraz getirir; hem resmî hem gayriresmî tartışma konuşmalarında çok yaygındır.
 C1	insofern	bu bakımdan, o ölçüde	Bu bakımdan haklı.	'Insofern', 'als' ile yan cümle de kurabilir: 'insofern, als...' ('...ölçüde').
 C1	diesbezüglich	bu konuda, bu bağlamda	Bu konuda hâlâ açık sorular var.	'Diesbezüglich', 'dies' (bu) ve 'bezüglich' (ilgili) sözcüklerini birleştirir: resmî yazışmalara özgü bir bağlaçtır.
 C1	nunmehr	artık (resmî)	Süre artık dolmuştur.	'Nunmehr', 'jetzt'in resmî bir çeşididir; hukuk ve idare diline özgüdür.
@@ -65,7 +64,7 @@ C1	Umsicht	dikkatlilik, sağgörü	Büyük bir dikkatlilikle hareket etti.	'Umsi
 C1	Sachverhalt	olgu durumu, vakıa	Olgu durumu dikkatle incelenmelidir.	'Geprüft werden' edilgendir; resmî bir inceleme için hukuk ve idare diline özgüdür.
 C1	Sachlage	durum, olayın gidişi	Durum karşısında dikkatli olmak gerekiyor.	'Angesichts' genitif alır ve resmî-idari üsluba özgüdür.
 C1	Gutachten	bilirkişi raporu, görüş yazısı	Bilirkişi raporu güvenlik kaygılarını doğruluyor.	'Gutachten', 'gut' (iyi) ve 'achten' (dikkat etmek) sözcüklerini birleştirir: bir uzmanın yaptığı resmî teknik değerlendirme.
-C1	Vollzug	infaz, yürütme (hukuki)	Hükmün infazı hemen başlıyor.	'Vollzug', 'vollziehen' (yerine getirmek) fiilinden gelir; bir kararın uygulamaya konması için resmî bir hukuk terimidir.
+C1	Vollzug	yerine getirme, infaz	Cezanın infazı gelecek hafta başlıyor.	'vollziehen' fiilinden. Hukuk terimi: 'Strafvollzug' ceza infaz sistemi demektir. Bir hüküm için 'Vollstreckung' daha yaygındır.
 C1	rechtskräftig	kesinleşmiş, bağlayıcı	Karar artık kesinleşmiş durumda.	'Rechtskräftig', 'Recht' (hukuk) ve 'Kraft' (güç) sözcüklerini birleştirir: tam ve nihai hukuki güç kazanmış bir karar.
 C1	Berufung einlegen	istinaf yoluna başvurmak	Avukat istinaf yoluna başvuruyor.	'Einlegen' ayrılabilir ve akuzatif alır: 'Berufung einlegen' Alman hukukunda standart sabit eşdizimdir.
 C1	Beweislast	ispat yükü	İspat yükü davacıdadır.	'Liegen bei' datif alır: 'beim Kläger'; sorumluluğu kimin taşıdığını belirten sabit bir hukuk yapısıdır.
@@ -104,7 +103,7 @@ C1	Dogmatismus	dogmatizm	Dogmatizm açık söylemi engeller.	'Verhindern' doğru
 C1	Reduktionismus	indirgemecilik	İndirgemecilik karmaşık olguları fazlasıyla basitleştirir.	'Zu stark', 'vereinfachen' (basitleştirmek) fiilini pekiştirir ve eleştirel bir aşırılığı gösterir.
 C1	Determinismus	determinizm, belirlenimcilik	Determinizm özgür iradeyi sorgulatır.	'Infrage stellen' 'şüpheye düşürmek, sorgulatmak' demek olan sabit bir ifadedir.
 C1	freier Wille	özgür irade	Özgür irade sorusu açık kalıyor.	'Die Frage nach' datif alır: 'nach dem freien Willen'; felsefi bir soruyu açmak için sabit bir yapıdır.
-C1	Existenzialismus	varoluşçuluk	Varoluşçuluk bireysel sorumluluğu vurgular.	'Betonen' doğrudan tümleç alır ve 'vurgulamak' demektir; resmî ayrılmaz bir fiildir.
+C1	Existenzialismus	varoluşçuluk	Varoluşçuluk bireysel sorumluluğu vurgular.	Yirminci yüzyıla ait felsefi akım (Sartre, Heidegger). 'Existentialismus' yazımı da görülür; sıfatı 'existenzialistisch'tir.
 C1	Nihilismus	nihilizm	Nihilizm her nesnel anlamı yadsır.	'Verneinen' doğrudan tümleç alır ve 'yadsımak, reddetmek' demektir; resmî felsefi bir terimdir.
 C1	Absolutheit	mutlaklık	Bu ifadenin mutlaklığı beni ikna etmiyor.	'Absolutheit', 'absolut' sözcüğüne soyut '-heit' ekinin eklenmesiyle oluşur; yüksek üslupta felsefi bir terimdir.
 C1	Relativismus	görecelilik, rölativizm	Kültürel görecelilik sıkça eleştirilir.	'Kritisiert werden' edilgendir; tartışmalı konumları anlatmak için akademik söylemde yaygındır.
@@ -174,12 +173,12 @@ C1	Neurowissenschaft	sinirbilim	Sinirbilim birçok davranış kalıbını açık
 C1	Synapse	sinaps	Sinapslar elektriksel sinyalleri iletir.	'Übertragen' doğrudan tümleç alır ve 'iletmek' demektir; sinirbilimde yaygın teknik bir fiildir.
 C1	Plastizität	plastisite, esneklik (sinirsel)	Beynin plastisitesi yaşla birlikte azalır.	'Abnehmen' ayrılabilir ve 'azalmak' demektir; bilişsel yaşlanma söyleminde yaygındır.
 C1	kognitiv	bilişsel	Bilişsel yetenekler yaşla birlikte değişir.	'Kognitiv' Latince bir alıntıdır; psikoloji ve sinirbilimde standart bir terimdir.
-C1	Demenz	bunama, demans	Demans dünya çapında giderek daha çok insanı etkiliyor.	'Immer mehr' aşamalı bir artışı pekiştirir; Almancada çok yaygın bir karşılaştırma yapısıdır.
+C1	Demenz	bunama, demans	Demans dünya çapında giderek daha fazla insanı etkiliyor.	Tekil kullanılır: 'an Demenz leiden' (demanstan muzdarip olmak, 'an' + datif). Sıfatı 'dement'tir; Alzheimer, Demenz'in bir türüdür.
 C1	Neurodegeneration	nörodejenerasyon	Nörodejenerasyon çoğunlukla sinsice ilerler.	'Schleichend', 'schleichen' (sürünmek) fiilinden gelir; kademeli patolojik süreçleri anlatmak için kullanılır.
 C1	Genom	genom (tam gen takımı)	İnsan genomu 2003'te dizilendi.	'Sequenziert werden' edilgendir; uluslararası İnsan Genomu Projesi'nin tamamlanmasına gönderme yapar.
 C1	Mutation	mutasyon	Bazı mutasyonlar zararsızdır.	'Manche' 'bazı, kimi' demektir; genel bilimsel söylemde yaygın belgisiz bir zamir/sıfattır.
 C1	Biotechnologie	biyoteknoloji	Biyoteknoloji yeni tıbbi olanaklar açıyor.	'Eröffnen' ayrılmazdır ve doğrudan tümleç alır; mecazi ya da gerçek anlamda 'açmak' demektir.
-C1	Nanotechnologie	nanoteknoloji	Nanoteknoloji tıpta devrim yaratabilir.	'Revolutionieren' doğrudan tümleç alır; köklü değişimi anlatan resmî bir terimdir.
+C1	Nanotechnologie	nanoteknoloji	Nanoteknoloji tıpta devrim yaratabilir.	Yunanca 'nános' (cüce, çok küçük) + 'Technologie' sözcüklerinden. Bir nanometre, metrenin milyarda biridir.
 C1	Quantencomputer	kuantum bilgisayarı	Bir kuantum bilgisayarı bazı sorunları çok daha hızlı çözer.	'Viel schneller', 'schneller' karşılaştırmasını 'viel' ile pekiştirir; önemli bir farkı gösterir.
 C1	maschinelles Lernen	makine öğrenmesi	Makine öğrenmesi sürekli gelişiyor.	'Sich verbessern' dönüşlüdür ve 'gelişmek' demektir; çoğunlukla teknolojik sistemler için kullanılır.
 C1	neuronales Netz	sinir ağı	Bir sinir ağı insan beynini simüle eder.	'Simulieren' doğrudan tümleç alır; yapay zekâda standart bir teknik terimdir.
@@ -191,7 +190,7 @@ C1	Anapher	anafora (retorik sanat)	Konuşmacı güçlü bir anafora kullandı.	'
 C1	Pathos	patos	Metin güçlü biçimde patosa seslenir.	'Appellieren an' akuzatif alır: 'an das Pathos'; klasik retorik çözümlemede (etos, patos, logos) sabit bir yapıdır.
 C1	Ethos	etos	Konuşmacı önce kendi etosunu inşa eder.	'Aufbauen' ayrılabilir ve akuzatif alır: klasik retorik çözümlemede etos, konuşmacının güvenilirliğidir.
 C1	Logos-Argument	logos argümanı	Bir logos argümanı olgulara dayanır.	'Sich stützen auf' akuzatif alır: 'auf Fakten'; etos ve patosun yanında klasik retoriğin üçüncü dayanağıdır.
-C1	Polemik	polemik	Polemik hükûmete yöneliktir.	'Sich richten gegen' akuzatif alır: 'gegen die Regierung'; bir eleştirinin hedefini göstermek için sabit yapıdır.
+C1	Polemik	polemik, sert tartışma	Polemik hükûmete yöneliktir.	Çoğunlukla kişisel olan sert, saldırgan eleştiri. Sıfatı 'polemisch', fiili 'polemisieren'dir.
 C1	Invektive	sövgü, ağır hakaret	Konuşma düpedüz bir sövgüye dönüştü.	'Geraten zu' datif alır: 'zu einer Invektive'; istenmeyen bir yozlaşmayı anlatan sabit yapıdır.
 C1	Ambivalenz	iki değerlilik, kararsızlık	Tutumunun iki değerliliği ortada.	'Offensichtlich' 'açık, belli' demektir; eleştirel çözümlemede yaygın resmî bir sıfattır.
 C1	Zwiespalt	iç çatışma, ikilem	Derin bir iç çatışma yaşıyor.	'Stecken in' datif alır: 'in einem Zwiespalt'; zor bir durumda sıkışıp kalmayı anlatan sabit yapıdır.
@@ -303,7 +302,7 @@ C1	Konformitätsdruck	çoğunluğa uyma baskısı	Uyum baskısı çoğu zaman ay
 C1	Meinungsklima	kamuoyu havası	Kamuoyu havası gözle görülür biçimde değişti.	'Merklich' 'gözle görülür biçimde' demektir; fark edilebilir değişimler için resmî bir zarftır.
 C1	Schweigespirale	suskunluk sarmalı	Suskunluk sarmalı azınlık görüşlerinin neden sustuğunu açıklıyor.	Alman Elisabeth Noelle-Neumann'dan gelen sosyolojik bir kavramdır; siyasal iletişim çalışmalarında çok etkilidir.
 C1	Echokammer	yankı odası	Sosyal ağlar çoğu zaman yankı odaları yaratır.	'Echokammer', akustikten alınmış bir metafordur; çevrimiçi bilgi kutuplaşmasına uygulanır.
-C1	Filterblase	filtre balonu	Filtre balonu ufku daraltır.	'Verengen' doğrudan tümleç alır ve 'daraltmak' demektir; kişiselleştirilmiş algoritmalar bağlamında eleştirel kullanılır.
+C1	Filterblase	filtre balonu	Filtre balonu bakış açısını daraltır.	'Filter' + 'Blase' (balon) bileşiği; 2011'de Eli Pariser'in yaygınlaştırdığı İngilizce 'filter bubble' sözcüğünün birebir çevirisidir.
 C1	Polarisierung	kutuplaşma	Siyasi kutuplaşma artıyor.	'Zunehmen' ayrılabilir ve 'artmak' demektir; siyasi parçalanma söyleminde çok yaygındır.
 C1	Radikalisierung	radikalleşme	Çevrimiçi radikalleşmeyle mücadele etmek zor.	'Schwer zu bekämpfen', 'zu' ile mastar alır; süregiden bir güçlüğü ifade etmek için kullanılır.
 C1	Verrohung	kabalaşma, sertleşme (söylemde)	Ağdaki dilin kabalaşması birçok kişiyi kaygılandırıyor.	'Verrohung', 'roh' (ham, kaba) sözcüğünden gelir: kamusal söylemdeki nezaketin giderek yitmesi.
@@ -345,7 +344,7 @@ C1	innere Leere	iç boşluk	Başarıya rağmen içinde bir boşluk hissetti.	'Tr
 C1	Sinnstiftung	anlam kazandırma	Birçokları için iş anlam kazandırır.	'Dienen zu' datif alır: 'zur Sinnstiftung'; bir şeyin amacını ifade eden sabit yapıdır.
 C1	Kontingenzbewältigung	olumsallıkla başa çıkma	Din tarihsel olarak olumsallıkla başa çıkmaya hizmet etti.	İnsanların yaşamın öngörülemezliğiyle nasıl başa çıktığına gönderme yapan karmaşık bir sosyolojik-teolojik terimdir.
 C1	Reflexionsvermögen	düşünsel yansıtma yetisi	Düşünsel yansıtma yetisi onu öne çıkarıyor.	'Auszeichnen' ayrılabilir ve akuzatif alır: 'zeichnet aus' '(birini) öne çıkarmak, ayırt etmek' demektir.
-C1	Urteilsvermögen	yargı gücü	İyi bir yargı gücü meslekte vazgeçilmezdir.	'Urteilsvermögen', 'Urteil' (yargı) ve 'Vermögen' (kapasite) sözcüklerini birleştirir; Kant felsefesinin anahtar terimidir.
+C1	Urteilsvermögen	yargılama yetisi	İyi bir yargılama yetisi meslekte vazgeçilmezdir.	'Urteil' (yargı) ile 'Vermögen' (yeti) sözcüklerini birleştirir: bir durumu akıllıca değerlendirebilme. Daha edebî bir eş anlamlısı 'Urteilskraft'tır.
 C1	Unvoreingenommenheit	tarafsızlık, önyargısızlık	Hâkimler tarafsızlıklarını korumak zorundadır.	'Wahren' doğrudan tümleç alır ve 'korumak, sürdürmek' demektir; resmî ayrılmaz bir fiildir.
 C1	Aufrichtigkeit	içtenlik, dürüstlük	İçtenlik her gerçek ilişkinin temelidir.	'Aufrichtigkeit', 'aufrichtig' (içten) sözcüğünden gelir; kelimesi kelimesine 'dik duran', yani aldatmasız.
 C1	Verschwiegenheit	sır saklama yükümlülüğü, ketumluk	Doktorlar sır saklamakla yükümlüdür.	'Verpflichtet sein zu' datif alır: 'zur Verschwiegenheit'; mesleki yükümlülükler için resmî bir yapıdır.
@@ -357,9 +356,14 @@ C1	Zugeständnis	ödün	İki taraf da ödün verdi.	'Zugeständnisse machen' sta
 C1	Kompromissbereitschaft	uzlaşmaya hazır olma	Siyasette uzlaşmaya hazır olmak belirleyicidir.	'Entscheidend' 'belirleyici' demektir; belirli bir bağlamda vazgeçilmez sayılan nitelikler için kullanılır.
 C1	Sachzwang	nesnel zorunluluk, kısıt	Siyasetçiler sıkça nesnel zorunluluklara dayanıyor.	'Sich berufen auf' akuzatif alır: 'auf Sachzwänge'; popüler olmayan kararları haklı çıkarmak için çoğu zaman eleştirel kullanılır.
 C1	Handlungsspielraum	hareket alanı, manevra payı	Hükûmetin hareket alanı sınırlı.	'Handlungsspielraum', 'Handlung' (eylem), 'Spiel' (oyun) ve 'Raum' (alan) sözcüklerini birleştirir: eylem özgürlüğü alanı.
-C1	Gestaltungsspielraum	şekillendirme serbestisi	Öğretmenlerin belli bir şekillendirme serbestisi vardır.	'Gestaltungsspielraum', 'gestalten' (şekillendirmek, tasarlamak) ve 'Spielraum' (pay) sözcüklerini birleştirir; idare hukukunda yaygın bir terimdir.
+C1	Gestaltungsspielraum	şekillendirme serbestisi	Öğretmenlerin belli bir şekillendirme serbestisi vardır.	'gestalten' (biçimlendirmek, düzenlemek) ile 'Spielraum' (hareket alanı) sözcüklerini birleştirir. Hukuk, iş ve eğitim alanlarında yaygındır.
 C1	Ermessensspielraum	takdir yetkisi	Memurun bir takdir yetkisi var.	'Ermessensspielraum', bir otoriteye belirli sınırlar içinde tanınan karar verme alanı için teknik bir hukuk terimidir.
 C1	Verhältnismäßigkeit	orantılılık	Orantılılık ilkesi devletin eylemini sınırlar.	'Verhältnismäßigkeit', Almanya'da kamu hukukunun tamamında uygulanan temel bir anayasal ilkedir.
 C1	Zumutbarkeit	makul beklenebilirlik, katlanılabilirlik	Bu önlemin makul beklenebilirliği tartışmalı.	'Zumutbarkeit', 'zumutbar' (makul ölçüde beklenebilir) sözcüğünden gelir; bir talebin makul olup olmadığını değerlendiren hukuk terimidir.
 C1	Nachvollziehbarkeit	izlenebilirlik, anlaşılabilirlik	Kararların izlenebilirliği güven yaratır.	'Nachvollziehbarkeit', 'nachvollziehbar' (anlaşılabilir, izlenebilir) sözcüğünden gelir; kurumsal şeffaflığın anahtar terimidir.
 C1	Gewissenhaftigkeit	vicdanlılık, titizlik	Vicdanlılık onun işini öne çıkarıyor.	'Gewissenhaftigkeit', 'Gewissen' (vicdan) sözcüğüne '-haft' ve '-igkeit' çifte ekinin eklenmesiyle oluşur; yüksek üslup bir terimdir.
+C1	Kuddelmuddel	karmaşa, curcuna	Mutfakta tam bir karmaşa vardı.	'Muddel' (karışıklık) sözcüğünün Aşağı Almanca kökenli, konuşma diline ait kafiyeli ikilemesidir. Nötrdür: 'ein Kuddelmuddel'.
+C1	Kuriosität	acayiplik, ilginç nesne	Müze tarihî acayiplikler sergiliyor.	'Kuriosität' alışılmadık, büyüleyici bir nesne ya da olguyu anlatır; merak psikolojik özelliği olan 'Neugier'den farklıdır.
+C1	Selbstgerechtigkeit	kendini haklı görme, ahlaki üstünlük taslama	Kendini haklı görmesi birçok kişinin sinirine dokundu.	'Selbstgerechtigkeit', 'selbst' ve 'Gerechtigkeit' (adalet) sözcüklerini birleştirir: her zaman haklı olduğuna dair ahlakçı inanç.
+C1	hypothetisch	varsayımsal	Diyelim ki bu doğru.	'Hypothese' sözcüğünden. 'annehmen' ile bir senaryoyu başlatır: 'Nehmen wir hypothetisch an, ...'.
+C1	Achillesferse	Aşil topuğu	Lojistik şirketin Aşil topuğu.	Klasik bir mitolojik gönderme; Almancada da Türkçedeki gibi belirleyici bir zayıf nokta için kullanılır.

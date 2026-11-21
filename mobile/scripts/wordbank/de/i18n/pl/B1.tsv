@@ -11,7 +11,7 @@ B1	Feierabend	koniec dnia pracy, po pracy	Po pracy spotykam się z przyjaciółm
 B1	sich freuen	cieszyć się, nie móc się doczekać	Cieszę się na weekend.	„Sich freuen auf” odnosi się do przyszłości, „sich freuen über” do teraźniejszości lub przeszłości — dwa przyimki dla dwóch ram czasowych.
 B1	trotzdem	mimo to, jednak	Było późno, a mimo to poszliśmy jeszcze na spacer.	Na początku zdania „trotzdem” liczy się jako pierwszy element i przesuwa podmiot za czasownik: reguła drugiego miejsca czasownika.
 B1	beantragen	składać wniosek o	Muszę złożyć wniosek o nowy dowód osobisty.	W Niemczech prawie wszystko urzędowe „beantragt” się formularzem: ten czasownik natychmiast przywodzi na myśl biurokrację.
-B1	Ausland	zagranica	Rok mieszkała za granicą.	„Ins Ausland gehen” i „im Ausland leben” używają rodzajnika: po niemiecku „zagranica” jest gramatycznie zdefiniowanym miejscem.
+B1	Ausland	zagranica	Przez rok mieszkała za granicą.	„Ausland” jest przeciwieństwem „Inland”. Mówi się „im Ausland” (gdzie) i „ins Ausland” (dokąd); nie ma liczby mnogiej.
 B1	sich beschweren	skarżyć się	Poskarżył się na hałas.	W Niemczech formalna pisemna skarga („Beschwerde”) jest uważana za uprawnione prawo, a nie za nieuprzejmość.
 B1	Gewohnheit	nawyk	Wczesne wstawanie stało się dla mnie nawykiem.	Przyrostek „-heit”, jak „-keit” i „-ung”, tworzy abstrakcyjne rzeczowniki żeńskie: „gewohnt” → „Gewohnheit”.
 B1	damit	żeby, aby	Zapisuję to, żebym nie zapomniał.	„Damit” jako spójnik przesuwa czasownik na koniec; jako przysłówek („tym”) nie — to samo słowo, dwa zachowania.
@@ -50,7 +50,6 @@ B1	doch	przecież, no (partykuła)	Chodź z nami!	Partykuły modalne jak „doch
 B1	Erwartung	oczekiwanie	Oczekiwania były wysokie.	„Erwartung” pochodzi od „erwarten” (oczekiwać), bardzo częstego czasownika nierozdzielnego w kontekstach zawodowych.
 B1	Voraussetzung	warunek wstępny, wymóg	Znajomość niemieckiego jest wymogiem.	„Voraussetzung” pochodzi od „voraussetzen” (zakładać), złożenia „voraus” (z góry) i „setzen” (stawiać).
 B1	Konsequenz	konsekwencja	Ta decyzja ma konsekwencje.	„Konsequenz” oznacza zarówno „następstwo”, jak i „konsekwencję” (w zachowaniu) — dwa odrębne znaczenia od tego samego rdzenia.
-B1	Auswirkung	skutek, wpływ	Zmiana klimatu ma globalne skutki.	„Auswirkung auf” łączy się z biernikiem: „auf die Umwelt” (na środowisko) — częsta stała struktura w dyskursie ekologicznym.
 B1	Ursache	przyczyna	Przyczyna problemu jest niejasna.	„Ursache” i „Grund” to prawie synonimy, ale „Ursache” brzmi bardziej naukowo i obiektywnie, „Grund” bardziej osobiście.
 B1	Wirkung	działanie, efekt	Lek działa szybko.	„Wirkung zeigen” to standardowa stała kolokacja używana zwłaszcza w kontekstach medycznych i naukowych.
 B1	Faktor	czynnik	Czas jest ważnym czynnikiem.	„Faktor” jest prawie identyczny w wielu językach, uczone łacińskie zapożyczenie wspólne międzynarodowo.
@@ -94,7 +93,7 @@ B1	Erstattung	zwrot kosztów	Zwrot kosztów trwa dwa tygodnie.	„Erstattung” 
 B1	Garantie	gwarancja	Urządzenie ma dwa lata gwarancji.	W całej UE minimalna ustawowa gwarancja na nowe produkty wynosi dwa lata, niezależnie od producenta.
 B1	Reklamation	reklamacja	Firma rozpatruje państwa reklamację.	„Reklamation” jest bardziej formalne i techniczne niż „Beschwerde”, zwykle używane w kontekstach handlowych i administracyjnych.
 B1	Behörde	urząd, organ władzy	Ten urząd odpowiada za wizy.	„Zuständig sein für” łączy się z biernikiem i jest standardową strukturą do określenia zakresu kompetencji urzędu.
-B1	Anmeldung	zameldowanie, rejestracja	Zameldowanie musi nastąpić w ciągu tygodnia.	W Niemczech „Anmeldung” w urzędzie meldunkowym jest prawnie wymagana w ciągu dwóch tygodni od przeprowadzki.
+B1	Anmeldung	zameldowanie, rejestracja	Zameldowanie musi nastąpić w ciągu dwóch tygodni.	W Niemczech „Anmeldung” w urzędzie meldunkowym jest wymagana prawem w ciągu dwóch tygodni od przeprowadzki.
 B1	Aufenthaltstitel	zezwolenie na pobyt	Składa wniosek o nowe zezwolenie na pobyt.	„Beantragen” nie jest rozdzielne: należy do grupy czasowników z nierozdzielnym przedrostkiem „be-”.
 B1	Staatsangehörigkeit	obywatelstwo	Moje obywatelstwo jest włoskie.	„Staatsangehörigkeit” to złożone złożenie: „Staat” (państwo) + „angehören” (przynależeć) + przyrostek „-keit”.
 B1	Einbürgerung	naturalizacja	Naturalizacja często trwa latami.	„Einbürgerung” pochodzi od „Bürger” (obywatel), a przedrostek „ein-” wskazuje proces „wchodzenia” w obywatelstwo.
@@ -130,7 +129,7 @@ B1	Reifen	opona	Opona jest przebita.	„Platt” opisuje przebitą lub bez powie
 B1	Tankstelle	stacja benzynowa	Następna stacja benzynowa jest pięć kilometrów stąd.	Na wielu niemieckich autostradach ceny paliwa bardzo się różnią między stacjami — warto je porównywać.
 B1	tanken	tankować	Musimy jeszcze zatankować.	„Tanken” łączy się z bezpośrednim dopełnieniem w bierniku przy podaniu rodzaju paliwa: „Diesel tanken” (zatankować olej napędowy).
 B1	Verkehrszeichen	znak drogowy	Tego znaku drogowego nie znam.	„Verkehrszeichen” łączy „Verkehr” (ruch) i „Zeichen” (znak): przejrzyste złożenie typowe dla języka technicznego.
-B1	überholen	wyprzedzać	Tu nie wolno wyprzedzać.	„Überholen” nie jest rozdzielne: należy do grupy czasowników z nierozdzielnym przedrostkiem „über-”.
+B1	überholen	wyprzedzać	Tutaj nie wolno wyprzedzać.	W znaczeniu „wyprzedzać” jest nierozdzielne i akcentowane na rdzeniu: „er überholt”, „hat überholt” (bez „ge-”).
 B1	bremsen	hamować	Musiała nagle zahamować.	„Bremsen” jest regularne i ma wspólny rdzeń z „Bremse” (hamulec), odpowiadającym rzeczownikiem.
 B1	Geschwindigkeit	prędkość	Prędkość jest tu ograniczona.	Na wielu odcinkach niemieckiej Autobahn nie ma ograniczenia prędkości, ale limit 50 km/h w miastach na zwykłych drogach jest ściśle egzekwowany.
 B1	Bußgeld	grzywna, mandat	Musiał zapłacić wysoki mandat.	„Bußgeld” łączy „Buße” (pokuta, kara) i „Geld” (pieniądze): dosłownie „pieniądze jako pokuta”.
@@ -141,7 +140,7 @@ B1	speichern	zapisywać (plik)	Nie zapomnij zapisać dokumentu.	„Speichern” 
 B1	löschen	usuwać, kasować	Przypadkowo usunąłem plik.	„Löschen” znaczy zarówno „usunąć dane”, jak i „ugasić ogień” — wspólna idea to „sprawić, by zniknęło”.
 B1	herunterladen	pobierać (z internetu)	Właśnie pobieram aplikację.	„Herunterladen” jest rozdzielne: „lade herunter” w czasie teraźniejszym, z długim przedrostkiem oddzielonym na końcu.
 B1	hochladen	wgrywać (do internetu)	Wgrywam zdjęcia do chmury.	„Hochladen” jest dokładnym przeciwieństwem „herunterladen”, utworzone z przedrostkiem „hoch-” (w górę) zamiast „herunter-” (w dół).
-B1	Passwort	hasło	Zapomniałem hasła.	„Passwort” to częściowa kalka z angielskiego, łącząca zapożyczenie „Pass” z niemieckim słowem „Wort” (słowo).
+B1	Passwort	hasło	Zapomniałem hasła.	„Passwort” to kalka z angielskiego „password”: „Pass” (przepustka) + „Wort” (słowo). Liczba mnoga to „Passwörter”.
 B1	Benutzername	nazwa użytkownika	Proszę podać nazwę użytkownika.	„Eingeben” jest rozdzielne i znaczy „wprowadzać, wpisywać”, często używane w interfejsach cyfrowych.
 B1	Datenschutz	ochrona danych	Ochrona danych jest w Niemczech bardzo ważna.	Niemcy należą do najbardziej rygorystycznych krajów Europy w kwestii prywatności, z długą tradycją prawną poprzedzającą unijne RODO.
 B1	soziale Medien	media społecznościowe	Rzadko korzystam z mediów społecznościowych.	„Soziale Medien” to oficjalne niemieckie tłumaczenie, choć wielu używa po prostu angielskiego zapożyczenia „Social Media”.
@@ -164,7 +163,7 @@ B1	Turnier	turniej	Turniej trwa tydzień.	„Turnier” pochodzi od średniowiec
 B1	Sieg	zwycięstwo	To było ważne zwycięstwo.	„Sieg” jest rdzeniem „Siegerin” (zwyciężczyni) i „siegen” (zwyciężać), rodziny słów bardzo częstej w sporcie.
 B1	Niederlage	porażka	Po porażce drużyna była rozczarowana.	„Niederlage” pochodzi od „niederlegen” (kłaść): dosłownie „akt bycia powalonym”.
 B1	Fan	fan, kibic	Jestem wielkim fanem tego zespołu.	„Fan” to bezpośrednie zapożyczenie z angielskiego, w pełni włączone do niemieckiej gramatyki z rodzajnikiem męskim.
-B1	Stadion	stadion	Stadion był całkowicie pełny.	Niemieckie stadiony piłkarskie, jak Signal Iduna Park w Dortmundzie, należą do największych i najgłośniejszych w Europie.
+B1	Stadion	stadion	Stadion był zapełniony do ostatniego miejsca.	Liczba mnoga od „Stadion” to „Stadien” (rzadziej „Stadions”). Słowo pochodzi z greckiego „stádion”.
 B1	Zuschauer	widz	Były tam tysiące widzów.	„Zuschauer” pochodzi od „zuschauen” (przyglądać się), czasownika rozdzielnego bardzo częstego w kontekście sportowym.
 B1	Ausrüstung	wyposażenie, sprzęt	Potrzebuję nowego sprzętu do wędrówek.	„Ausrüstung” pochodzi od „ausrüsten” (wyposażać), czasownika rozdzielnego używanego w kontekstach technicznych i sportowych.
 B1	Wanderung	wędrówka, piesza wycieczka	Wędrówka trwała pięć godzin.	Alpy Bawarskie i Schwarzwald oferują jedne z najsłynniejszych szlaków turystycznych w Europie.
@@ -178,7 +177,7 @@ B1	braten	smażyć, piec	Smażę warzywa na patelni.	„Braten” to mocny czaso
 B1	kochen	gotować	Kto dziś wieczorem gotuje?	„Kochen” znaczy zarówno „gotować w ogóle”, jak i konkretnie „wrzeć/gotować w wodzie” — kontekst wyjaśnia, o które chodzi.
 B1	backen	piec (ciasto)	W weekend upiekę ciasto.	„Backen” w Präteritum może być regularne lub lekko nieregularne („backte” lub „buk”) — rzadka podwójna forma w niemieckim.
 B1	schneiden	kroić, ciąć	Pokrój cebulę drobno.	„Schneiden” to mocny czasownik nieregularny: „schnitt, geschnitten”, ze zmianą samogłoski e-i-i.
-B1	würzen	doprawiać	Dopraw zupę pieprzem.	„Würzen” pochodzi od „Gewürz” (przyprawa), czasownik regularny bardzo częsty w przepisach.
+B1	würzen	przyprawiać	Dopraw zupę pieprzem.	„Würzen” to czasownik, od którego pochodzi „Gewürz” (przyprawa). Łączy się z „mit”: „mit Pfeffer würzen”.
 B1	Pfeffer	pieprz	Trochę więcej pieprzu byłoby dobrze.	Pieprz był w średniowiecznych Niemczech tak cenny, że służył niemal jako waluta.
 B1	Gewürz	przyprawa	Tej przyprawy nie znam.	„Gewürz” pochodzi od „würzen” (doprawiać), ze typowym zbiorczym przedrostkiem „ge-” rzeczowników rodzaju nijakiego.
 B1	Vorspeise	przystawka	Na przystawkę wezmę zupę.	„Vorspeise” łączy „vor” (przed) i „Speise” (danie): dosłownie „przed-danie”, przystawka.
@@ -201,16 +200,13 @@ B1	Erkältung	przeziębienie	Mam lekkie przeziębienie.	„Erkältung” pochodz
 B1	Grippe	grypa	Leży w łóżku z grypą.	„Mit Grippe im Bett liegen” to standardowe wyrażenie na opisanie przymusowego odpoczynku z powodu choroby.
 B1	Impfstoff	szczepionka	Szczepionkę opracowano szybko.	„Wurde entwickelt” to strona bierna w Präteritum: „werden” plus imiesłów, często używana w języku naukowym.
 B1	Therapie	terapia	Ona uczęszcza na terapię psychologiczną.	W Niemczech psychoterapia jest często pokrywana z obowiązkowego ubezpieczenia zdrowotnego, choć listy oczekujących są długie.
-B1	seelisch	psychiczny, duchowy	Zdrowie psychiczne jest równie ważne.	„Seelisch” pochodzi od „Seele” (dusza), używane w kontraście do „körperlich” (fizyczny, cielesny).
 B1	Burnout	wypalenie zawodowe	Wielu pracowników cierpi na wypalenie zawodowe.	„Leiden unter” łączy się z celownikiem: „unter Burnout” — standardowa struktura wyrażająca cierpienie spowodowane czymś.
 B1	Work-Life-Balance	równowaga między pracą a życiem	Równowaga między pracą a życiem jest dla niej bardzo ważna.	Cała ta angielska fraza jest używana w niemieckim bez zmian, bez szeroko przyjętego oficjalnego tłumaczenia.
 B1	Auszeit	przerwa, urlop od życia	Bierze przerwę od pracy.	„Auszeit” łączy „aus” i „Zeit”: okres, gdy ktoś tymczasowo wychodzi z rutyny.
-B1	Achtsamkeit	uważność	Uważność pomaga na stres.	„Achtsamkeit” pochodzi od „achtsam” (uważny, troskliwy), pojęcie coraz powszechniejsze we współczesnej niemieckiej kulturze wellness.
 B1	Meditation	medytacja	Co rano medytuję.	„Meditation” jest prawie identyczna w różnych językach, wspólny międzynarodowy termin.
 B1	Schlafmangel	niedobór snu	Niedobór snu wpływa na koncentrację.	„Beeinflussen” nie jest rozdzielne: należy do grupy czasowników z nierozdzielnym przedrostkiem „be-”.
 B1	Alltag	codzienność	Codzienność może być stresująca.	„Alltag” łączy „all-” (wszystek) i „Tag” (dzień): dosłownie „każdy dzień”, codzienna rutyna.
 B1	Routine	rutyna	Mam stałą poranną rutynę.	„Routine” to zapożyczenie z francuskiego, w pełni włączone do codziennego niemieckiego.
-B1	Gewohnheit ändern	zmieniać nawyk	Trudno zmienić nawyk.	„Ändern” zawsze łączy się z bezpośrednim dopełnieniem w bierniku bez przyimka, czasownik bardzo częsty przy mówieniu o zmianie.
 B1	Balance halten	utrzymywać równowagę	Ważne jest utrzymywanie równowagi.	„Eine Balance halten” to standardowa kolokacja, używana zarówno fizycznie, jak i w przenośni dla równowagi w życiu.
 B1	Prioritäten setzen	ustalać priorytety	Muszę na nowo ustalić swoje priorytety.	„Prioritäten setzen” to standardowa stała kolokacja w języku pracy i osobistej organizacji.
 B1	sich Zeit nehmen	poświęcać czas	Poświęć czas dla siebie.	„Sich Zeit nehmen für” łączy się z biernikiem i zwrotnym zaimkiem w celowniku — struktura złożona, ale bardzo częsta.
@@ -227,7 +223,7 @@ B1	Treibhauseffekt	efekt cieplarniany	Efekt cieplarniany ogrzewa Ziemię.	„Tre
 B1	Artenvielfalt	różnorodność gatunkowa	Las chroni różnorodność gatunkową.	„Artenvielfalt” łączy „Art” (gatunek) i „Vielfalt” (różnorodność): dosłownie „różnorodność gatunków”.
 B1	Aussterben	wymieranie	Wiele gatunków zwierząt jest zagrożonych wymarciem.	„Vom Aussterben bedroht” to stała struktura bierna, używana w języku ochrony przyrody.
 B1	Landwirtschaft	rolnictwo	Rolnictwo bardzo się zmienia.	„Landwirtschaft” łączy „Land” (ziemia) i „Wirtschaft” (gospodarka): dosłownie „gospodarka ziemi”.
-B1	Bio-Lebensmittel	żywność ekologiczna	Żywność ekologiczna jest często droższa.	Niemiecka etykieta „Bio” jest prawnie uregulowana i cieszy się dużym zaufaniem konsumentów.
+B1	Bio-Lebensmittel	żywność ekologiczna	Żywność ekologiczna jest często droższa.	Używane prawie zawsze w liczbie mnogiej. „Bio” na żywności jest chronione unijnym rozporządzeniem o produkcji ekologicznej; niemieckie „Bio-Siegel” to osobny znak krajowy.
 B1	regional einkaufen	kupować lokalnie	Coraz więcej osób kupuje lokalnie.	„Regional” jako przysłówek opisuje, skąd pochodzą produkty — temat silnie rezonujący w niemieckiej kulturze żywieniowej.
 B1	Konsum	konsumpcja	Nasza konsumpcja obciąża środowisko.	„Belasten” zawsze łączy się z bezpośrednim dopełnieniem w bierniku i jest często używane w kontekstach ekologicznych i finansowych.
 B1	Verzicht	wyrzeczenie, rezygnacja	Wielu osobom trudno zrezygnować z mięsa.	„Verzicht auf” łączy się z biernikiem: „auf Fleisch” — częsta stała struktura przy mówieniu o rezygnowaniu z rzeczy.
@@ -238,7 +234,6 @@ B1	Verein	klub, stowarzyszenie	Jestem członkiem klubu sportowego.	Niemcy mają 
 B1	Gemeinschaft	wspólnota	Wspólnota pomaga sobie nawzajem.	„Gemeinschaft” pochodzi od „gemein” (wspólny) ze zbiorczym przyrostkiem „-schaft”, tworząc poczucie wspólnej przynależności.
 B1	Solidarität	solidarność	Okazujemy solidarność poszkodowanym.	„Solidarität zeigen mit” łączy się z celownikiem, standardową strukturą wyrażania poparcia w kontekstach publicznych.
 B1	Gerechtigkeit	sprawiedliwość	Ona walczy o sprawiedliwość społeczną.	„Kämpfen für” łączy się z biernikiem: „für Gerechtigkeit” — bardzo częsta struktura w dyskursie obywatelskim.
-B1	Gleichberechtigung	równouprawnienie	Równouprawnienie jest zapisane w konstytucji.	„Verankert” pochodzi od „Anker” (kotwica): morski obraz na powiedzenie, że zasada jest mocno ugruntowana.
 B1	Vielfalt schätzen	cenić różnorodność	Nasze społeczeństwo powinno cenić różnorodność.	„Schätzen” łączy się z bezpośrednim dopełnieniem w bierniku i znaczy zarówno „cenić/doceniać”, jak i „szacować finansowo”.
 B1	Toleranz	tolerancja	Tolerancja jest ważną wartością.	„Toleranz” jest prawie identyczna w różnych językach, wspólny międzynarodowy termin społeczny.
 B1	Vorurteile abbauen	przełamywać uprzedzenia	Edukacja pomaga przełamywać uprzedzenia.	„Abbauen” jest rozdzielne i łączy się z biernikiem, używane zarówno dla uprzedzeń, jak i rozbieranych fizycznych konstrukcji.
@@ -260,7 +255,7 @@ B1	scheitern	ponosić porażkę, kończyć się fiaskiem	Projekt niestety się n
 B1	aufgeben	poddawać się, rezygnować	Nie poddawaj się tak szybko!	„Aufgeben” jest rozdzielne: „gib auf” w trybie rozkazującym, z przedrostkiem oddzielonym na końcu zdania.
 B1	durchhalten	wytrwać, wytrzymać	Musimy jeszcze trochę wytrwać.	„Durchhalten” jest rozdzielne: „halte durch” w czasie teraźniejszym, z przedrostkiem oddzielonym na końcu zdania.
 B1	Wohngemeinschaft	mieszkanie współdzielone	Mieszkam we współdzielonym mieszkaniu z trzema innymi studentami.	WG (Wohngemeinschaft) są wśród niemieckich studentów niezwykle częste, często tańsze niż kawalerka.
-B1	Möbliert	umeblowany	Mieszkanie jest w pełni umeblowane.	„Möbliert” pochodzi od francuskiego „meublé”, włączone ze standardową niemiecką końcówką przymiotnikową.
+B1	möbliert	umeblowany	Mieszkanie jest w pełni umeblowane.	„Möbliert” pochodzi od „möblieren” (meblować), z francuskiego „meubler”. W ogłoszeniach o wynajmie: „möbliert” lub „unmöbliert”.
 B1	Nachmieter	następny najemca	Szukamy następnego najemcy mieszkania.	Znalezienie „Nachmieter” do przejęcia umowy jest zwykle zadaniem odchodzącego najemcy, zgodnie z niemiecką praktyką.
 B1	Umzugskarton	karton do przeprowadzki	Potrzebujemy jeszcze więcej kartonów do przeprowadzki.	„Umzugskarton” łączy „Umzug” (przeprowadzka) i „Karton” (pudło) — bardzo praktyczne, przejrzyste złożenie.
 B1	renovieren	remontować	Właśnie remontujemy kuchnię.	„Renovieren” to zapożyczenie z łaciny, odmieniane regularnie jak każdy współczesny niemiecki czasownik.
@@ -278,7 +273,6 @@ B1	Etage	piętro	Mieszkamy na trzecim piętrze.	„Etage” to zapożyczenie z f
 B1	Erdgeschoss	parter	Skrzynka na listy jest na parterze.	W niemieckim liczenie pięter zaczyna się od zera: „Erdgeschoss” to parter, „erster Stock” to już piętro nad nim.
 B1	Dachgeschoss	poddasze, ostatnie piętro	Poddasze ma skośne ściany.	Wiele mieszkań na poddaszach historycznych niemieckich budynków ma charakterystyczne skośne sufity i niższe czynsze.
 B1	Klingel	dzwonek do drzwi	Dzwonek do drzwi nie działa.	„Klingel” pochodzi od czasownika „klingeln” (dzwonić), używanego też dla budzika lub telefonu.
-B1	Briefkasten	skrzynka na listy	Sprawdź proszę skrzynkę na listy.	„Nachschauen” jest rozdzielne: „schau nach” w trybie rozkazującym, z przedrostkiem oddzielonym na końcu.
 B1	Vermietung	wynajmowanie	Wynajmem zajmuje się agencja.	„Laufen über” łączy się z biernikiem po „über” przy wskazaniu kanału procesu: „über eine Agentur laufen”.
 B1	Sozialwohnung	mieszkanie socjalne	Jest za mało mieszkań socjalnych.	Niedobór Sozialwohnungen był w ostatnich latach jednym z najczęściej dyskutowanych tematów niemieckiej polityki miejskiej.
 B1	Mietpreisbremse	hamulec cen najmu	Hamulec cen najmu ma ograniczać czynsze.	„Mietpreisbremse” to środek legislacyjny wprowadzony w wielu dużych niemieckich miastach, by powstrzymać rosnące czynsze.
@@ -294,8 +288,6 @@ B1	Miteigentümer	współwłaściciel	Wszyscy współwłaściciele muszą się z
 B1	Eigentumswohnung	mieszkanie własnościowe	Kupili mieszkanie własnościowe.	W Niemczech odsetek właścicieli domów jest niższy niż w wielu innych krajach europejskich, w tym we Włoszech.
 B1	Hypothek	hipoteka	Zaciągnęliśmy hipotekę na dom.	„Eine Hypothek aufnehmen” to standardowa stała kolokacja, niemal identyczna z „einen Kredit aufnehmen” (wziąć kredyt).
 B1	Zins	odsetki, procent	Stopy procentowe są obecnie niskie.	„Zins” jest prawie zawsze używane w liczbie mnogiej „Zinsen” przy mówieniu o ogólnej stopie od pożyczki.
-B1	Absicherung	zabezpieczenie	Ubezpieczenie służy zabezpieczeniu.	„Dienen” łączy się z celownikiem: „der Absicherung dienen”, formalny czasownik używany w kontekstach prawnych i finansowych.
-B1	Klausel	klauzula	Ta klauzula jest w umowie ważna.	„Klausel” to termin prawny z łacińskiego „clausula”, prawie identyczny w wielu europejskich językach.
 B1	Kündigungsschutz	ochrona przed wypowiedzeniem	Ochrona przed wypowiedzeniem obowiązuje po sześciu miesiącach.	Niemieckie prawo Kündigungsschutz silnie chroni pracowników po minimalnym okresie ciągłego zatrudnienia.
 B1	Abfindung	odprawa	On dostał odprawę.	„Abfindung” pochodzi od „abfinden” (załatwiać polubownie, odszkodować), termin typowy dla niemieckiego prawa pracy.
 B1	Flugverspätung	opóźnienie lotu	Z powodu opóźnienia lotu spóźniliśmy się na przesiadkę.	„Wegen” łączy się z dopełniaczem lub, potocznie, z celownikiem: obie formy słychać we współczesnej mowie.
@@ -313,16 +305,15 @@ B1	einchecken	zameldować się (odprawić się)	Meldujemy się o czternastej.	�
 B1	auschecken	wymeldować się	Musimy wymeldować się o jedenastej.	Tak jak „einchecken”, „auschecken” jest też rozdzielne i ma tę samą strukturę gramatyczną.
 B1	Zimmerservice	obsługa pokojowa	Zamawiamy coś z obsługi pokojowej.	„Beim Zimmerservice bestellen” łączy się z celownikiem po „bei”, standardowym przyimkiem na „u, w”.
 B1	Rundreise	objazd, wycieczka objazdowa	Robimy objazd po południowych Niemczech.	„Durch” łączy się z biernikiem: „durch Süddeutschland”, opisując ruch przez region.
-B1	Sehenswürdigkeiten besichtigen	zwiedzać zabytki	Dziś zwiedzamy najważniejsze atrakcje.	„Besichtigen” łączy się z bezpośrednim dopełnieniem w bierniku bez przyimka, jak „besuchen”.
+B1	besichtigen	zwiedzać (zabytek)	Dziś zwiedzamy katedrę.	„Besichtigen” dotyczy miejsc i budynków, które się ogląda (katedra, muzeum, mieszkanie); „besuchen” odnosi się głównie do osób lub ogólnej wizyty.
 B1	Stadtführung	wycieczka z przewodnikiem po mieście	Wycieczka z przewodnikiem po mieście trwa dwie godziny.	„Stadtführung” łączy „Stadt” i „Führung” (prowadzenie): zorganizowana wycieczka z przewodnikiem.
 B1	Reiseveranstalter	organizator podróży	Zarezerwowaliśmy podróż przez organizatora.	„Über” łączy się z biernikiem przy wskazywaniu kanału: „über einen Reiseveranstalter buchen” (rezerwować przez organizatora).
 B1	Pauschalreise	wczasy zorganizowane	Wczasy zorganizowane są często tańsze.	„Pauschal” znaczy „ryczałtowy, all inclusive”: jedna cena obejmująca lot, hotel, a czasem posiłki.
 B1	Reiseversicherung	ubezpieczenie podróżne	Zawsze wykupuję ubezpieczenie podróżne.	„Abschließen” jest rozdzielne i łączy się z biernikiem: „eine Versicherung abschließen” to stała kolokacja na wykupienie ubezpieczenia.
-B1	Zeitverschiebung	różnica czasu	Różnica czasu mnie męczy.	„Zeitverschiebung” łączy „Zeit” (czas) i „Verschiebung” (przesunięcie): techniczny termin na różnicę czasu.
+B1	Zeitverschiebung	różnica czasu (stref)	Różnica czasu do Nowego Jorku wynosi sześć godzin.	„Zeitverschiebung” to różnica zegarów między dwoma miejscami; wynikające z niej zmęczenie nazywa się „Jetlag”.
 B1	Kulturschock	szok kulturowy	Po przeprowadzce przeżyła prawdziwy szok kulturowy.	„Kulturschock” opisuje początkowe zdezorientowanie życiem w kraju o bardzo odmiennych normach kulturowych.
 B1	Auswanderer	emigrant	Wielu emigrantów przeprowadza się do Kanady.	„Auswanderer” pochodzi od „auswandern” (emigrować), bezpośrednie przeciwieństwo „Einwanderer” (imigrant).
 B1	Einwanderer	imigrant	Niemcy przyjęły wielu imigrantów.	„Aufnehmen” jest rozdzielne i znaczy „przyjąć”, czasownik częsty w dyskursie politycznym o imigracji.
-B1	Zugehörigkeit	przynależność	Poczucie przynależności jest ważne.	„Zugehörigkeit” pochodzi od „zugehören” (przynależeć), abstrakcyjne złożenie z przyrostkiem „-keit”.
 B1	fließend sprechen	mówić płynnie	Ona płynnie mówi po niemiecku i angielsku.	„Fließend” jako przysłówek opisuje bardzo wysoki poziom biegłości językowej, bliski rodzimemu.
 B1	zweisprachig	dwujęzyczny	Nasze dzieci dorastają dwujęzycznie.	„Aufwachsen” jest rozdzielne i znaczy „dorastać” — typowy czasownik przy mówieniu o dzieciństwie.
 B1	Sprachbarriere	bariera językowa	Na początku była bariera językowa.	„Sprachbarriere” łączy „Sprache” i „Barriere” (bariera), termin bardzo częsty w kontekstach integracji.
@@ -337,7 +328,6 @@ B1	riskieren	ryzykować	On wiele ryzykuje tą decyzją.	„Riskieren” to zapo�
 B1	Risiko eingehen	podejmować ryzyko	Czasem trzeba podjąć ryzyko.	„Eingehen” jest rozdzielne i łączy się z biernikiem: „ein Risiko eingehen” to standardowa stała kolokacja.
 B1	absichern	zabezpieczać	Musimy się zabezpieczyć finansowo.	„Sich absichern” jest zwrotne i często łączy się z dopełniaczem lub przyimkiem zależnie od kontekstu.
 B1	Konsequenzen tragen	ponosić konsekwencje	Każdy musi ponosić konsekwencje swoich czynów.	„Tragen” znaczy zarówno „fizycznie nieść”, jak i w przenośni „znosić, ponosić”.
-B1	Wendepunkt	punkt zwrotny	Ta decyzja była punktem zwrotnym w moim życiu.	„Wendepunkt” łączy „Wende” (zwrot) i „Punkt” (punkt): decydujący moment zmieniający bieg wydarzeń.
 B1	Perspektive wechseln	zmieniać perspektywę	Czasem pomaga zmiana perspektywy.	„Wechseln” łączy się z bezpośrednim dopełnieniem w bierniku i używa się go zarówno dla perspektyw, jak i konkretnych rzeczy, jak ubrania czy waluta.
 B1	Selbstreflexion	autorefleksja	Autorefleksja pomaga w ważnych decyzjach.	„Selbstreflexion” łączy „selbst” (siebie) i „Reflexion” (refleksja), termin coraz częściej używany w kontekstach rozwoju osobistego.
 B1	Lebensqualität	jakość życia	Jakość życia jest tu wysoka.	Kilka niemieckich miast, jak Monachium i Düsseldorf, regularnie pojawia się w międzynarodowych rankingach jakości życia.
@@ -354,12 +344,18 @@ B1	Neugier	ciekawość	Ciekawość napędza wielu naukowców.	„Antreiben” je
 B1	Kreativität	kreatywność	Kreatywności nie da się wymusić.	„Sich erzwingen lassen” z przeczeniem znaczy „nie da się wymusić” — struktura zwrotna o znaczeniu zbliżonym do biernego.
 B1	Inspiration	inspiracja	Podróż była dla niej wielką inspiracją.	„Inspiration” jest prawie identyczna w różnych językach, kolejne wspólne łacińskie zapożyczenie.
 B1	Ausdauer	wytrzymałość, wytrwałość	Maraton wymaga dużej wytrzymałości.	„Ausdauer” łączy „aus” i „dauern” (trwać): dosłownie „zdolność wytrwania do końca”.
-B1	Willenskraft	siła woli	Z odrobiną siły woli dasz radę.	„Willenskraft” łączy „Wille” (wola) i „Kraft” (siła): bardzo przejrzyste złożenie.
 B1	Selbstvertrauen	zaufanie do siebie	Podróżowanie buduje zaufanie do siebie.	„Selbstvertrauen” łączy „selbst” i „Vertrauen” (zaufanie): inne niż „Selbstbewusstsein”, które dotyczy raczej świadomości.
-B1	Anpassungsfähigkeit	zdolność adaptacji	Zdolność adaptacji jest za granicą ważna.	„Anpassungsfähigkeit” pochodzi od „sich anpassen” (dostosowywać się) z przyrostkiem zdolności „-fähigkeit”.
-B1	Durchhaltevermögen	wytrwałość, siła przetrwania	Studia wymagają wytrwałości.	„Durchhaltevermögen” łączy „durchhalten” (wytrwać) i „Vermögen” (zdolność): bardzo długie, ale przejrzyste złożenie.
-B1	Lebensfreude	radość życia	Ona promieniuje zaraźliwą radością życia.	„Ausstrahlen” jest rozdzielne i znaczy „promieniować, emanować”, często używane dla pozytywnych cech osobistych.
-B1	Bescheidenheit	skromność	Mimo sukcesu pozostaje skromny.	„Bescheidenheit” pochodzi od „bescheiden” (skromny) z abstrakcyjnym przyrostkiem „-heit”.
+B1	Lebensfreude	radość życia	Ona promieniuje zaraźliwą radością życia.	„Lebensfreude” = „Leben” + „Freude”: radość z życia jako trwała, pozytywna energia. Także: „voller Lebensfreude”.
 B1	Neuanfang	nowy początek	Przeprowadzka była dla niej prawdziwym nowym początkiem.	„Neuanfang” łączy „neu” (nowy) i „Anfang” (początek): proste, ale bardzo częste złożenie dla życiowych zmian.
 B1	Lebensweg	droga życiowa	Każdy ma swoją własną drogę życiową.	„Lebensweg” łączy „Leben” (życie) i „Weg” (droga): metafora drogi zastosowana do egzystencji.
 B1	persönliche Errungenschaft	osobiste osiągnięcie	Ukończenie studiów było jej największym osiągnięciem.	„Errungenschaft” pochodzi od „erringen” (osiągnąć dzięki wysiłkowi): kamień milowy osiągnięty ciężką pracą i zasługami.
+B1	Diagnose	diagnoza	Lekarz stawia diagnozę.	„Eine Diagnose stellen” („postawić diagnozę”) to standardowa stała kolokacja używana w kontekście medycznym.
+B1	Feuchtigkeit	wilgoć, wilgotność	Wilgoć w piwnicy to problem.	„Feuchtigkeit” pochodzi od „feucht” (wilgotny) z przyrostkiem abstrakcyjnym „-igkeit”, odmianą „-keit”.
+B1	Fließband	taśma produkcyjna	On pracuje na taśmie produkcyjnej.	„Fließband” łączy „fließen” (płynąć) i „Band” (taśma): dosłownie „płynąca taśma”.
+B1	Klima	klimat	Klimat zmienia się szybko.	„Klima” jest rodzaju nijakiego (das Klima) i oznacza klimat regionu; „Wetter” to dzisiejsza pogoda. „Klimawandel” to zmiana klimatu.
+B1	Kompass	kompas	Bez kompasu nie znajdziemy drogi.	„Kompass” jest rodzaju męskiego i kończy się na podwójne „s”. Używa się go też w przenośni: „ein moralischer Kompass”.
+B1	Solarenergie	energia słoneczna	Na naszym dachu produkujemy energię słoneczną.	„Solarenergie” to energia ze Słońca; instalacja na dachu to „Solaranlage” lub „Photovoltaikanlage”.
+B1	Spiegelbild	odbicie	Widzę swoje odbicie.	„Spiegelbild” łączy „Spiegel” (lustro) i „Bild” (obraz): obraz odbity w lustrze.
+B1	würde	by (tryb warunkowy), pomocnicze	Chciałbym mieszkać w Berlinie.	'Würde + bezokolicznik' to w mowie najczęstszy sposób wyrażania Konjunktiv II zamiast rzadszych form, takich jak 'lebte'.
+B1	hätte	miałbym, byłbym miał (tryb przypuszczający)	Na twoim miejscu zareagowałbym inaczej.	'Hätte' i 'wäre' należą do nielicznych form Konjunktiv II wciąż żywych w mowie: 'ich würde haben' brzmi nieporadnie.
+B1	Ernährung	odżywianie, dieta	Zdrowa dieta pomaga ci zachować formę.	„Ernährung” pochodzi od „ernähren” (karmić, odżywiać) i oznacza sposób odżywiania się w ogóle, podczas gdy „Essen” to jedzenie lub posiłek.

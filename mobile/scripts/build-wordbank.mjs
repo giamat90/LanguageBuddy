@@ -51,20 +51,24 @@ for (const lang of folders) {
     continue;
   }
   const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
-  if (cfg.draft) {
+  // A draft language is built from the levels it already has; with none it is skipped.
+  if (cfg.draft && !(cfg.levels ?? ALL_LEVELS).some((l) => existsSync(join(srcDir, `${l}.tsv`)))) {
     console.log(`skipped draft language ${lang}`);
     continue;
   }
-  const LEVELS = cfg.levels ?? ALL_LEVELS;
+  const CONFIGURED = cfg.levels ?? ALL_LEVELS;
+  const LEVELS = [];
   mkdirSync(outDir, { recursive: true });
   console.log(`${lang}:`);
 
-  for (const level of LEVELS) {
+  for (const level of CONFIGURED) {
     const tsvPath = join(srcDir, `${level}.tsv`);
     if (!existsSync(tsvPath)) {
-      problems.push(`${lang}: ${level}.tsv missing`);
+      if (cfg.draft) console.log(`${lang}: no ${level}.tsv (draft)`);
+      else problems.push(`${lang}: ${level}.tsv missing`);
       continue;
     }
+    LEVELS.push(level);
     const raw = readFileSync(tsvPath, 'utf8');
     const entries = [];
     const seen = new Set();
@@ -118,7 +122,7 @@ for (const lang of folders) {
     mkdirSync(i18nOut, { recursive: true });
     for (const native of readdirSync(i18nSrc)) {
       const dir = join(i18nSrc, native);
-      if (!i18n.LANGS.includes(native)) {
+      if (!(cfg.i18nLanguages ?? i18n.LANGS).includes(native)) {
         problems.push(`${lang}/i18n/${native}: not a supported language code`);
         continue;
       }

@@ -5,7 +5,7 @@
  * one line per bank entry, in bank order. Re-run after the word bank changes.
  * Usage: node scripts/export-i18n-source.mjs [--lang de]
  */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -17,6 +17,7 @@ const outDir = join(here, 'wordbank', lang, 'i18n-source');
 mkdirSync(outDir, { recursive: true });
 
 for (const level of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
+  if (!existsSync(join(bankDir, `${level}.json`))) continue; // a draft language may have only some levels
   const entries = JSON.parse(readFileSync(join(bankDir, `${level}.json`), 'utf8'));
   const lines = entries.map((e) =>
     [level, e.word, e.article ?? '-', e.part_of_speech, e.meaning_en, e.example, e.example_en, e.cultural_note_en].join('\t'),

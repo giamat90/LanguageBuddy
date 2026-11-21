@@ -205,3 +205,96 @@ describe('draft languages and rule checks (TASK-044)', () => {
     expect(validateFixture(withRule('Estás aquí, no es tarde.', { ...LANG_JSON, ruleChecks: { SER_ESTAR: { mustContainAny: ['está'] } } })).status).not.toBe(0);
   });
 });
+
+describe('partial draft languages and example rules (TASK-045)', () => {
+  const DRAFT = { ...LANG_JSON, ruleCodes: [...LANG_JSON.ruleCodes, 'VERB_PRESENT_REGULAR'], draft: true, levels: ['A1', 'A2', 'B1'] };
+  const RULES = {
+    exampleRules: { minTokens: 4, maxTokens: 10, stemMinLength: 3, forbidden: ['\\bvale\\b'] },
+  };
+  const build = (f: { root: string; out: string }) => run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+  const validate = (f: { root: string; out: string }) => run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+  /** A fixture whose A1 holds one given row (other levels absent). */
+  const a1Only = (rows: string[], lang: object) => {
+    const root = mkdtempSync(join(tmpdir(), 'wb-part-'));
+    const out = mkdtempSync(join(tmpdir(), 'wb-part-out-'));
+    dirs.push(root, out);
+    mkdirSync(join(root, 'xx'));
+    writeFileSync(join(root, 'xx', 'language.json'), JSON.stringify(lang));
+    writeFileSync(join(root, 'xx', 'A1.tsv'), rows.join('\n') + '\n');
+    return { root, out };
+  };
+  const ok = row({ word: 'comer', article: '-', pos: 'verb', ex: 'Yo como pan todos los días.', rule: 'VERB_PRESENT_REGULAR' });
+
+  it('a draft language builds the levels it has and warns for the others', () => {
+    const f = a1Only([row(), ok], DRAFT);
+    const b = build(f);
+    expect(b.status).toBe(0);
+    expect(existsSync(join(f.out, 'xx', 'A1.json'))).toBe(true);
+    expect(b.stdout + b.stderr).toMatch(/xx: no A2\.tsv \(draft\)/);
+    expect(existsSync(join(f.out, 'xx', 'A2.json'))).toBe(false);
+  });
+
+  it('a draft language validates only the levels that exist', () => {
+    const f = a1Only([row(), ok], DRAFT);
+    build(f);
+    expect(validate(f).status).toBe(0);
+  });
+
+  it('a draft language with a broken present level still fails', () => {
+    const f = a1Only([row({ topic: 'nonsense' })], DRAFT);
+    build(f);
+    expect(validate(f).status).not.toBe(0);
+  });
+
+  it('a language that is not a draft still needs every level', () => {
+    const f = a1Only([row(), ok], { ...DRAFT, draft: false });
+    const b = build(f);
+    expect(b.status).not.toBe(0);
+    expect(b.stderr).toMatch(/A2\.tsv/);
+  });
+
+  describe('exampleRules', () => {
+    const check = (example: string, over: Partial<Record<string, string>> = {}) => {
+      const f = a1Only([row({ word: 'comer', article: '-', pos: 'verb', rule: 'VERB_PRESENT_REGULAR', ex: example, ...over })], { ...DRAFT, ...RULES });
+      build(f);
+      return validate(f);
+    };
+    const msg = (r: { stderr: string; stdout: string }) => r.stderr + r.stdout;
+
+    it('accepts a good sentence', () => expect(check('Yo como pan todos los días.').status).toBe(0));
+    it('accepts a conjugated form through the stem', () => expect(check('Nosotros comemos arroz hoy.').status).toBe(0));
+    it('accepts the infinitive and a question with both marks', () => {
+      expect(check('Quiero comer pan hoy.').status).toBe(0);
+      expect(check('¿Dónde quieres comer hoy?').status).toBe(0);
+    });
+    it('rejects a sentence without the word or its stem', () => {
+      const r = check('Yo bebo agua todos los días.');
+      expect(r.status).not.toBe(0);
+      expect(msg(r)).toMatch(/example must contain the word or its stem/);
+    });
+    it('rejects too few or too many tokens', () => {
+      expect(msg(check('Yo como pan.'))).toMatch(/example has 3 tokens \(4–10\)/);
+      expect(msg(check('Yo como pan todos los días con mucha mucha mucha leche.'))).toMatch(/tokens \(4–10\)/);
+    });
+    it('rejects a lower-case start or a missing end mark', () => {
+      expect(msg(check('yo como pan todos los días.'))).toMatch(/must start upper-case and end with/);
+      expect(msg(check('Yo como pan todos los días'))).toMatch(/must start upper-case and end with/);
+    });
+    it('rejects a forbidden form', () => {
+      expect(msg(check('Vale, yo como pan hoy.'))).toMatch(/uses forbidden form/);
+    });
+    it('rejects an unpaired inverted question mark', () => {
+      expect(msg(check('Dónde quieres comer hoy?'))).toMatch(/"¿" and "\?" must come together/);
+      expect(msg(check('¿Dónde quieres comer hoy.'))).toMatch(/must start upper-case and end with|must come together/);
+    });
+    it('matches a noun as a whole word', () => {
+      const r = check('La casita es muy bonita.', { word: 'casa', article: 'la', pos: 'noun', rule: 'NOUN_GENDER' });
+      expect(msg(r)).toMatch(/example must contain the word or its stem/);
+    });
+    it('does not apply when the language has no exampleRules', () => {
+      const f = a1Only([row({ word: 'comer', article: '-', pos: 'verb', rule: 'VERB_PRESENT_REGULAR', ex: 'vale.' })], DRAFT);
+      build(f);
+      expect(validate(f).status).toBe(0);
+    });
+  });
+});

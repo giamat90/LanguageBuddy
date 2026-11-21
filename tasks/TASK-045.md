@@ -1,6 +1,6 @@
 # TASK-045 — Spanish word bank: pipeline, content rules and the A1 slice
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-044 (pushed, `167da72`)

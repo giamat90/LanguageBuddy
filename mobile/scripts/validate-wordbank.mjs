@@ -37,6 +37,36 @@ let total = 0;
 let i18nCount = 0;
 let languages = 0;
 
+/** Content rules of a language's example sentences (language.json `exampleRules`); returns problem texts. */
+function exampleProblems(entry, rules) {
+  const out = [];
+  const ex = entry.example.trim();
+  const words = ex.toLowerCase().split(/[^\p{L}]+/u).filter(Boolean);
+  const tokens = ex.split(/\s+/);
+  const word = entry.word.toLowerCase();
+  const joined = ' ' + words.join(' ') + ' ';
+  let found = joined.includes(' ' + word.split(/[^\p{L}]+/u).join(' ') + ' ');
+  if (!found && entry.part_of_speech === 'verb') {
+    const stem = word.replace(/(ar|er|ir)(se)?$/, '');
+    found = stem.length >= (rules.stemMinLength ?? 3) && words.some((w) => w.startsWith(stem));
+  }
+  if (!found && entry.part_of_speech === 'adj' && word.endsWith('o')) {
+    const stem = word.slice(0, -1);
+    found = words.some((w) => w === stem + 'a' || w === stem + 'os' || w === stem + 'as');
+  }
+  if (!found) out.push('example must contain the word or its stem');
+  if (tokens.length < rules.minTokens || tokens.length > rules.maxTokens) {
+    out.push(`example has ${tokens.length} tokens (${rules.minTokens}–${rules.maxTokens})`);
+  }
+  const first = ex.replace(/^[¿¡"«(]+/, '').charAt(0);
+  if (!first || first === first.toLowerCase() || !/[.?!]$/.test(ex)) out.push('example must start upper-case and end with . ? or !');
+  for (const re of rules.forbidden ?? []) {
+    if (new RegExp(re, 'iu').test(ex)) out.push(`example uses forbidden form /${re}/`);
+  }
+  if (ex.includes('¿') !== ex.includes('?')) out.push('"¿" and "?" must come together');
+  return out;
+}
+
 const wanted = opt('--lang');
 const folders = readdirSync(srcRoot).filter((d) => statSync(join(srcRoot, d)).isDirectory());
 for (const lang of folders) {
@@ -47,12 +77,14 @@ for (const lang of folders) {
     continue;
   }
   const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
-  if (cfg.draft) {
+  if (cfg.draft && !(cfg.levels ?? ALL_LEVELS).some((l) => existsSync(join(bankRoot, lang, `${l}.json`)))) {
     console.log(`skipped draft language ${lang}`);
     continue;
   }
   languages++;
-  const LEVELS = cfg.levels ?? ALL_LEVELS;
+  // A draft language is checked for the levels it already has; any other must have them all.
+  const LEVELS = (cfg.levels ?? ALL_LEVELS).filter((l) => !cfg.draft || existsSync(join(bankRoot, lang, `${l}.json`)));
+  const RULES = cfg.exampleRules;
   const RULE_CODES = new Set(cfg.ruleCodes);
   const POS = new Set(cfg.partsOfSpeech);
   const ARTICLES = new Set(cfg.articles);
@@ -87,6 +119,7 @@ for (const lang of folders) {
       }
       if (!POS.has(entry.part_of_speech)) errors.push(`${at}: invalid part_of_speech "${entry.part_of_speech}"`);
       if (!RULE_CODES.has(entry.grammar_angle)) errors.push(`${at}: invalid grammar_angle "${entry.grammar_angle}"`);
+      if (RULES && typeof entry.example === 'string') exampleProblems(entry, RULES).forEach((p) => errors.push(`${at}: ${p}`));
       const check = cfg.ruleChecks?.[entry.grammar_angle];
       if (check && typeof entry.example === 'string') {
         const words = entry.example.toLowerCase().split(/[^\p{L}]+/u);
@@ -120,7 +153,7 @@ for (const lang of folders) {
     for (const file of readdirSync(i18nDir).filter((f) => f.endsWith('.json'))) {
       const native = file.replace(/\.json$/, '');
       const tag = `${lang}/i18n/${file}`;
-      if (!i18n.LANGS.includes(native)) {
+      if (!(cfg.i18nLanguages ?? i18n.LANGS).includes(native)) {
         errors.push(`${tag}: not a supported language code`);
         continue;
       }

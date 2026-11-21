@@ -178,7 +178,7 @@ transaction and inserts only columns that exist in the installed schema (column 
 **excluded unless the user opts in** when exporting; a restored base URL is applied only together with the same backup's own key.
 **Automatic backup** (`src/lib/autoBackup/`, Android only): an optional copy written through the Storage Access Framework to a folder the user picked, shortly after backed-up tables change (database change listener, debounced). It **never** contains AI keys or provider settings, keeps the newest 10 files from its own URI list, and has no network code. Android's own cloud backup is restricted by the `withAndroidBackupRules` plugin (allowlist; the `ai`, `notifications-store` and `auto-backup` MMKV stores are excluded).
 
-### Grammar rule codes (canonical list)
+### Grammar rule codes (canonical list, German; each language lists its own in `scripts/wordbank/<lang>/language.json`)
 ```
 A1: VERB_CONJ_REGULAR, NOUN_GENDER, WORD_ORDER_V2, NEGATION_NICHT_KEIN
 A2: VERB_CONJ_IRREGULAR, ACCUSATIVE_MASC, ACCUSATIVE_PREP, SEPARABLE_VERB
@@ -188,6 +188,7 @@ C1: KONJUNKTIV_I, EXTENDED_ATTR
 ```
 Every word-bank entry carries one of these in `grammar_angle`. The grammar drill currently covers `NOUN_GENDER` (article picker) and the case rules
 `ACCUSATIVE_MASC`, `ACCUSATIVE_PREP`, `DATIV_PREP`, `DATIV_INDIRECT_OBJ`, `GENITIV_CASE` (case cloze).
+Spanish (draft until TASK-045) drills `NOUN_GENDER` (el/la) and the *choice* rules `SER_ESTAR`, `POR_PARA`, `DIRECT_OBJECT_PRONOUN` (`pack.choices`: sets of mutually exclusive forms; only sentences an author tagged with the rule are used). A `language.json` with `"draft": true` is skipped by build/validate and cannot be activated.
 
 ---
 

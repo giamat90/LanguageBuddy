@@ -46,8 +46,12 @@ for (const lang of folders) {
     errors.push(`${lang}: language.json missing`);
     continue;
   }
-  languages++;
   const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+  if (cfg.draft) {
+    console.log(`skipped draft language ${lang}`);
+    continue;
+  }
+  languages++;
   const LEVELS = cfg.levels ?? ALL_LEVELS;
   const RULE_CODES = new Set(cfg.ruleCodes);
   const POS = new Set(cfg.partsOfSpeech);
@@ -83,6 +87,13 @@ for (const lang of folders) {
       }
       if (!POS.has(entry.part_of_speech)) errors.push(`${at}: invalid part_of_speech "${entry.part_of_speech}"`);
       if (!RULE_CODES.has(entry.grammar_angle)) errors.push(`${at}: invalid grammar_angle "${entry.grammar_angle}"`);
+      const check = cfg.ruleChecks?.[entry.grammar_angle];
+      if (check && typeof entry.example === 'string') {
+        const words = entry.example.toLowerCase().split(/[^\p{L}]+/u);
+        if (!check.mustContainAny.some((f) => words.includes(f.toLowerCase()))) {
+          errors.push(`${at}: example for ${entry.grammar_angle} has none of its forms`);
+        }
+      }
       if (!TOPICS.has(entry.topic_domain)) errors.push(`${at}: invalid topic_domain "${entry.topic_domain}"`);
       if (entry.cefr_band !== level) errors.push(`${at}: cefr_band "${entry.cefr_band}" must equal "${level}"`);
       if (entry.part_of_speech === 'noun' && !entry.article) {

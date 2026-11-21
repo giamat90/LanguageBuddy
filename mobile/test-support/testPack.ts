@@ -31,6 +31,7 @@ export const testPack: LanguagePack = {
   },
   cases: null,
   // Different correct positions than German, to prove the quiz follows the pack.
+  choices: null,
   quiz: [
     { n: 1, correctIndex: 1 }, { n: 2, correctIndex: 1 }, { n: 3, correctIndex: 0 },
     { n: 4, correctIndex: 0 }, { n: 5, correctIndex: 1 },

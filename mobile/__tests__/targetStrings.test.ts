@@ -30,7 +30,12 @@ describe('target-language string overlays', () => {
       for (const k of REQUIRED_TARGET_KEYS) expect(keys).toContain(k);
     });
 
-    it.each(SUPPORTED_NATIVE_LANGUAGES.filter((l) => l !== 'it'))('%s: same keys, placeholders, non-empty, translated', (ui) => {
+    const offered = (require(`../src/languages/${target}`)[target].uiLanguages as NativeLanguage[]);
+    it('has exactly the files of its offered app languages', () => {
+      expect(offered.slice().sort()).toEqual(readdirSync(join(langRoot, target, 'strings')).map((f) => f.replace('.ts', '')).sort());
+    });
+
+    it.each(offered.filter((l) => l !== 'it'))('%s: same keys, placeholders, non-empty, translated', (ui) => {
       const dict = load(target, ui);
       expect(Object.keys(dict).sort()).toEqual(keys);
       const bad = keys.filter((k) => typeof dict[k] !== 'string' || dict[k].trim() === '' || placeholders(dict[k]) !== placeholders(it_[k]));

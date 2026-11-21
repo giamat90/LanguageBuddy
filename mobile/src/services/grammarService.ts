@@ -5,6 +5,8 @@ import {
   caseRules,
   buildArticleQuestion,
   buildCaseQuestion,
+  buildChoiceQuestion,
+  choiceRules,
   pickWeighted,
   type GrammarQuestion,
   type Rng,
@@ -40,10 +42,12 @@ function buildPools(level: CefrLevel, rng: Rng): Map<string, GrammarQuestion[]> 
     pools.set(q.ruleCode, list);
   };
   const rules = caseRules();
+  const choices = choiceRules();
   for (const lvl of CEFR_ORDER.slice(0, CEFR_ORDER.indexOf(level) + 1)) {
     for (const entry of WORD_BANK[lvl]) {
       if (entry.part_of_speech === 'noun') add(buildArticleQuestion(entry, rng));
       if (rules.includes(entry.grammar_angle)) add(buildCaseQuestion(entry, rng));
+      if (choices.includes(entry.grammar_angle)) add(buildChoiceQuestion(entry, rng));
     }
   }
   return pools;

@@ -21,6 +21,7 @@ export function setActiveLanguage(code, { root, src, nativeCodes }) {
   if (problems.length) return { problems };
 
   const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+  if (cfg.draft) return { problems: [`${code} is a draft language (no word bank yet)`] };
   const levels = cfg.levels ?? LEVELS;
   if (levels.join() !== LEVELS.join()) problems.push(`"${code}" cannot be active: it must define all six levels`);
   for (const l of LEVELS) {

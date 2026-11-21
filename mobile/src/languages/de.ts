@@ -75,6 +75,7 @@ export const de: LanguagePack = {
       return DATIVE_PREPOSITIONS.has(previousWord) ? 'DATIV_PREP' : 'DATIV_INDIRECT_OBJ';
     },
   },
+  choices: null,
   quiz: [
     { n: 1, correctIndex: 0 },
     { n: 2, correctIndex: 0 },

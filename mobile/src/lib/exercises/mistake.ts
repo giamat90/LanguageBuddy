@@ -1,4 +1,4 @@
-import { caseForms, caseOptions, shuffle, type Rng } from '../grammar';
+import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, type Rng } from '../grammar';
 import { de } from '../../languages/de';
 import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
@@ -102,16 +102,39 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
     }
   }
 
-  if (genderAt < 0 && caseAt < 0) return null;
-  const useGender = genderAt >= 0 && (caseAt < 0 || rng() < 0.5);
-  const index = useGender ? genderAt : caseAt;
+  // Choice slot: the first member of a form set of the sentence's tagged rule.
+  const choice = card.grammarAngle ? buildChoiceCloze(card.example, card.grammarAngle, pack) : null;
+  let choiceAt = -1;
+  if (choice) {
+    const sets = pack.choices!.ruleSets[card.grammarAngle as string];
+    for (let i = 0; i < tokens.length; i++) {
+      if (sets.some((s) => s.includes(core(i)))) {
+        choiceAt = i;
+        break;
+      }
+    }
+  }
+
+  // One rng call picks the kind, only when several are possible (two kinds: floor(rng()*2) equals rng() < 0.5 flipped).
+  const kinds: Array<'gender' | 'case' | 'choice'> = [];
+  if (genderAt >= 0) kinds.push('gender');
+  if (caseAt >= 0) kinds.push('case');
+  if (choiceAt >= 0) kinds.push('choice');
+  if (kinds.length === 0) return null;
+  const kind = kinds.length === 1 ? kinds[0] : kinds[Math.min(kinds.length - 1, Math.floor(rng() * kinds.length))];
+  const useGender = kind === 'gender';
+  const index = useGender ? genderAt : kind === 'case' ? caseAt : choiceAt;
 
   const original = tokens[index];
   const { lead, core: originalCore, trail } = splitToken(original, pack);
   const originalLower = originalCore.toLowerCase();
 
   let wrongForm: string;
-  if (useGender) {
+  let choiceSet: readonly string[] = [];
+  if (kind === 'choice') {
+    choiceSet = choice!.set.includes(originalLower) ? choice!.set : pack.choices!.ruleSets[card.grammarAngle as string].find((s) => s.includes(originalLower))!;
+    wrongForm = pick(choiceSet.filter((f) => f !== originalLower), rng);
+  } else if (useGender) {
     const safe = lookalike ? gender!.lookalike.onlyWrongFor[article as string] : undefined;
     wrongForm = pick(safe ?? gender!.neverValid[article as string], rng);
   } else {
@@ -123,14 +146,17 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
   corrupted[index] = lead + matchCase(wrongForm, originalCore) + trail;
 
   const genderForms = pack.articles ? pack.articles.forms : Object.keys(gender?.forms ?? {});
-  const optionForms = useGender ? shuffle([...genderForms], rng) : caseOptions(originalLower, rng, pack);
+  const optionForms =
+    kind === 'choice' ? choiceOptions(originalLower, choiceSet, rng)
+    : useGender ? shuffle([...genderForms], rng)
+    : caseOptions(originalLower, rng, pack);
   const options = optionForms.map((f) => matchCase(f, originalCore));
 
   return {
     kind: 'find_mistake',
     card,
-    mistakeKind: useGender ? 'gender' : 'case',
-    ruleCode: useGender ? (pack.articles?.rule ?? '') : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : '', pack),
+    mistakeKind: kind,
+    ruleCode: kind === 'choice' ? (card.grammarAngle as string) : useGender ? (pack.articles?.rule ?? '') : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : '', pack),
     tokens: corrupted,
     wrongIndex: index,
     correctToken: original,

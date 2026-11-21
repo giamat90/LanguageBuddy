@@ -151,3 +151,57 @@ describe('the repository layout', () => {
       .toEqual(['ar', 'es', 'fr', 'hi', 'ja', 'pl', 'pt', 'ru', 'tr', 'uk', 'zh']);
   });
 });
+
+describe('draft languages and rule checks (TASK-044)', () => {
+  const CHECKED = { ...LANG_JSON, ruleChecks: { SER_ESTAR: { mustContainAny: ['es', 'está'] } } };
+  const withRule = (example: string, lang: object) =>
+    fixture([row()], [row({ word: 'cansada', article: '-', pos: 'verb', ex: example, rule: 'SER_ESTAR' })], lang);
+  const validateFixture = (f: { root: string; out: string }) => {
+    expect(run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+    return run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+  };
+
+  it('build and validate skip a draft language even without its TSVs', () => {
+    const root = mkdtempSync(join(tmpdir(), 'wb-draft-'));
+    const out = mkdtempSync(join(tmpdir(), 'wb-draft-out-'));
+    dirs.push(root, out);
+    mkdirSync(join(root, 'xx'));
+    writeFileSync(join(root, 'xx', 'language.json'), JSON.stringify({ ...LANG_JSON, draft: true }));
+    const b = run('build-wordbank.mjs', ['--root', root, '--out', out]);
+    expect(b.status).toBe(0);
+    expect(b.stdout).toMatch(/skipped draft language xx/);
+    expect(existsSync(join(out, 'xx'))).toBe(false);
+    const v = run('validate-wordbank.mjs', ['--root', root, '--out', out]);
+    expect(v.status).toBe(0);
+    expect(v.stdout).toMatch(/skipped draft language xx/);
+  });
+
+  it('set-active-language refuses a draft language and writes nothing', () => {
+    const root = mkdtempSync(join(tmpdir(), 'wb-draft-'));
+    const src = mkdtempSync(join(tmpdir(), 'wb-src-'));
+    dirs.push(root, src);
+    mkdirSync(join(root, 'xx'));
+    mkdirSync(join(src, 'languages'));
+    writeFileSync(join(root, 'xx', 'language.json'), JSON.stringify({ ...LANG_JSON, draft: true }));
+    writeFileSync(join(src, 'languages', 'xx.ts'), '');
+    const r = run('set-active-language.mjs', ['xx', '--root', root, '--src', src]);
+    expect(r.status).toBe(1);
+    expect(r.stderr).toMatch(/xx is a draft language/);
+    expect(existsSync(join(src, 'languages', 'active.ts'))).toBe(false);
+  });
+
+  it('a rule check accepts an example with one of the forms', () => {
+    expect(validateFixture(withRule('Mi madre está cansada.', CHECKED)).status).toBe(0);
+  });
+
+  it('a rule check rejects an example with none of them', () => {
+    const r = validateFixture(withRule('Quiero comer.', CHECKED));
+    expect(r.status).not.toBe(0);
+    expect(r.stderr + r.stdout).toMatch(/example for SER_ESTAR has none of its forms/);
+  });
+
+  it('matches whole words only, ignoring case', () => {
+    expect(validateFixture(withRule('Está lloviendo.', CHECKED)).status).toBe(0);
+    expect(validateFixture(withRule('Estás aquí, no es tarde.', { ...LANG_JSON, ruleChecks: { SER_ESTAR: { mustContainAny: ['está'] } } })).status).not.toBe(0);
+  });
+});

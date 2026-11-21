@@ -1,5 +1,5 @@
-/** The language being studied. Widened by later tasks ('es', 'fr', …); today only German ships. */
-export type TargetLanguageCode = 'de';
+/** The language being studied. Widened by later tasks ('fr', …). */
+export type TargetLanguageCode = 'de' | 'es';
 
 import type { NativeLanguage } from '../i18n/language';
 
@@ -45,6 +45,11 @@ export interface CaseSupport {
   ruleForForm(form: string, previousWord: string): string;
 }
 
+export interface ChoiceSupport {
+  /** Rule code → sets of mutually exclusive forms. A token that is a member of a set is a possible blank. */
+  ruleSets: Record<string, readonly (readonly string[])[]>;
+}
+
 /**
  * Everything that is specific to the language being studied. Parts a language does not
  * have are `null`, and the features built on them switch off instead of failing.
@@ -70,6 +75,8 @@ export interface LanguagePack {
   gender: GenderSupport | null;
   /** null → no case drill and no case slot in "find the mistake". */
   cases: CaseSupport | null;
+  /** null → no choice drill and no choice slot in "find the mistake". */
+  choices: ChoiceSupport | null;
   /** The placement quiz: the sentences live in `strings`, the right answers here. */
   quiz: readonly QuizItem[];
   /** The app languages (UI) this app offers; a native speaker of the target language is left out. */

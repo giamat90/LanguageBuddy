@@ -1,6 +1,6 @@
 # TASK-044 — The Spanish `LanguagePack` (rules, grammar drill, quiz, strings; no word content)
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-043 (pushed, `003813f`)

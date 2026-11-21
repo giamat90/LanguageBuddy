@@ -50,7 +50,12 @@ for (const lang of folders) {
     problems.push(`${lang}: language.json missing in ${srcDir}`);
     continue;
   }
-  const LEVELS = JSON.parse(readFileSync(cfgPath, 'utf8')).levels ?? ALL_LEVELS;
+  const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+  if (cfg.draft) {
+    console.log(`skipped draft language ${lang}`);
+    continue;
+  }
+  const LEVELS = cfg.levels ?? ALL_LEVELS;
   mkdirSync(outDir, { recursive: true });
   console.log(`${lang}:`);
 

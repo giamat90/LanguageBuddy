@@ -58,8 +58,8 @@ export interface SentenceReorderModel {
 export interface FindMistakeModel {
   kind: 'find_mistake';
   card: ReviewCard;
-  mistakeKind: 'gender' | 'case';
-  /** Key of the grammar explanation: NOUN_GENDER, ACCUSATIVE_MASC, ACCUSATIVE_PREP, DATIV_PREP, DATIV_INDIRECT_OBJ or GENITIV_CASE. */
+  mistakeKind: 'gender' | 'case' | 'choice';
+  /** Key of the grammar explanation: the pack's article rule, a case rule (German) or a choice rule (Spanish). */
   ruleCode: string;
   /** The sentence as shown; exactly one token is wrong. */
   tokens: string[];

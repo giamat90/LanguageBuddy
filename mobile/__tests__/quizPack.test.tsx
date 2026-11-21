@@ -4,6 +4,7 @@ import QuizScreen from '../src/screens/QuizScreen';
 import { setActivePackForTests } from '../src/languages';
 import { testPack } from '../test-support/testPack';
 import { de } from '../src/languages/de';
+import { es } from '../src/languages/es';
 
 const mockPush = jest.fn();
 jest.mock('expo-router', () => ({
@@ -42,5 +43,12 @@ describe('the placement quiz follows the pack', () => {
     expect(answer([1, 1, 0, 0, 1])).toBe('B2');
     mockPush.mockClear();
     expect(answer([0, 0, 0, 1, 0])).toBe('A1'); // only q3 matches
+  });
+
+  it('Spanish: all right gives B2, all wrong A1', () => {
+    setActivePackForTests(es);
+    expect(answer([0, 0, 0, 1, 1])).toBe('B2');
+    mockPush.mockClear();
+    expect(answer([1, 1, 1, 0, 0])).toBe('A1');
   });
 });

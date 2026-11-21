@@ -18,6 +18,8 @@ export interface ReviewCard {
   partOfSpeech?: string | null;
   cefrBand?: string | null;
   topicDomain?: string | null;
+  /** The bank's rule tag for the example sentence (drives the choice slot of "find the mistake"). */
+  grammarAngle?: string | null;
   timesSeen: number;
   retentionScore: number;
 }
@@ -39,6 +41,7 @@ interface BankInfo {
   pos: string;
   band: string;
   topic: string;
+  angle: string;
 }
 
 let bankIndex: Map<string, BankInfo> | null = null;
@@ -54,6 +57,7 @@ function bankFor(word: string): BankInfo | undefined {
         pos: entry.part_of_speech,
         band: level,
         topic: entry.topic_domain,
+        angle: entry.grammar_angle,
       });
     }
   }
@@ -74,6 +78,7 @@ function toCard(r: ReviewRow): ReviewCard {
     partOfSpeech: bank?.pos ?? null,
     cefrBand: bank?.band ?? null,
     topicDomain: bank?.topic ?? null,
+    grammarAngle: bank?.angle ?? null,
     timesSeen: r.times_seen,
     retentionScore: r.retention_score,
   };

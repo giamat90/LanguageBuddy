@@ -1,0 +1,20 @@
+{
+  "code": "es",
+  "draft": true,
+  "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
+  "ruleCodes": [
+    "NOUN_GENDER", "ADJ_AGREEMENT", "VERB_PRESENT_REGULAR", "SER_ESTAR", "NEGATION_NO",
+    "VERB_PRESENT_IRREGULAR", "REFLEXIVE_VERBS", "POR_PARA", "PRETERITO_PERFECTO", "PRETERITO_INDEFINIDO", "DIRECT_OBJECT_PRONOUN",
+    "PRETERITO_IMPERFECTO", "FUTURO_SIMPLE", "CONDICIONAL", "IMPERATIVO", "INDIRECT_OBJECT_PRONOUN", "GUSTAR_VERBS",
+    "SUBJUNTIVO_PRESENTE", "SUBJUNTIVO_IMPERFECTO", "PERIFRASIS_VERBAL", "PASIVA_REFLEJA", "RELATIVOS",
+    "SUBJUNTIVO_COMPUESTO", "ORACIONES_CONDICIONALES", "SER_ESTAR_ADJETIVOS",
+    "CONCORDANCIA_TEMPORAL", "REGISTRO_FORMAL"
+  ],
+  "partsOfSpeech": ["noun", "verb", "adj", "prep", "conj", "adv", "pron"],
+  "articles": ["el", "la"],
+  "ruleChecks": {
+    "SER_ESTAR": { "mustContainAny": ["soy", "estoy", "eres", "estás", "es", "está", "somos", "estamos", "son", "están", "era", "estaba", "eran", "estaban", "fue", "estuvo"] },
+    "POR_PARA": { "mustContainAny": ["por", "para"] },
+    "DIRECT_OBJECT_PRONOUN": { "mustContainAny": ["lo", "la", "los", "las"] }
+  }
+}

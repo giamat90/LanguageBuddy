@@ -8,6 +8,42 @@ export function caseRules(pack: LanguagePack = getActivePack()): string[] {
   return pack.cases ? Object.keys(pack.cases.ruleForms) : [];
 }
 
+/** Rule codes the choice drill can use for this language (none when it has no choice sets). */
+export function choiceRules(pack: LanguagePack = getActivePack()): string[] {
+  return pack.choices ? Object.keys(pack.choices.ruleSets) : [];
+}
+
+export interface ChoiceCloze extends CaseCloze {
+  /** The set of mutually exclusive forms the answer belongs to. */
+  set: readonly string[];
+}
+
+/** The first token that is a member of one of the rule's sets becomes the blank. */
+export function buildChoiceCloze(
+  sentence: string | null | undefined,
+  ruleCode: string,
+  pack: LanguagePack = getActivePack(),
+): ChoiceCloze | null {
+  const sets = pack.choices?.ruleSets[ruleCode];
+  if (!sets || !sentence) return null;
+  const parts = sentence.split(pack.letters);
+  for (let i = 1; i < parts.length; i += 2) {
+    const lower = parts[i].toLowerCase();
+    const set = sets.find((s) => s.includes(lower));
+    if (set) {
+      return { before: parts.slice(0, i).join(''), after: parts.slice(i + 1).join(''), answer: lower, set };
+    }
+  }
+  return null;
+}
+
+/** The answer plus (for a big set) two others, shuffled. */
+export function choiceOptions(answer: string, set: readonly string[], rng: Rng = Math.random): string[] {
+  const others = set.filter((f) => f !== answer);
+  const picked = others.length > 2 ? shuffle(others, rng).slice(0, 2) : others;
+  return shuffle([answer, ...picked], rng);
+}
+
 /** The article question's rule code, or null when the language has no article drill. */
 export function articleRule(pack: LanguagePack = getActivePack()): string | null {
   return pack.articles ? pack.articles.rule : null;
@@ -145,6 +181,29 @@ export function buildCaseQuestion(
     before: cloze.before,
     after: cloze.after,
     options: caseOptions(cloze.answer, rng, pack).map(fmt),
+    answer: fmt(cloze.answer),
+    word: entry.word,
+    translationIt: entry.example_it,
+    translationEn: entry.example_en,
+    cefrBand: entry.cefr_band ?? null,
+  };
+}
+
+export function buildChoiceQuestion(
+  entry: { word: string; example: string; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
+  rng: Rng = Math.random,
+  pack: LanguagePack = getActivePack(),
+): GrammarQuestion | null {
+  const cloze = buildChoiceCloze(entry.example, entry.grammar_angle, pack);
+  if (!cloze) return null;
+  const initial = cloze.before.trim() === '';
+  const fmt = (s: string) => (initial ? capitalize(s) : s);
+  return {
+    id: `choice:${entry.word}`,
+    ruleCode: entry.grammar_angle,
+    before: cloze.before,
+    after: cloze.after,
+    options: choiceOptions(cloze.answer, cloze.set, rng).map(fmt),
     answer: fmt(cloze.answer),
     word: entry.word,
     translationIt: entry.example_it,

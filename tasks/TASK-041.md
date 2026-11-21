@@ -1,6 +1,6 @@
 # TASK-041 — `LanguagePack`: move every German-specific rule behind one interface
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** none (first task of the LanguageBuddy monorepo; numbering continues from GermanBuddy)
@@ -46,7 +46,7 @@ Part of the plan: 041 (this), 042 (bank schema neutral names, pack-driven bank),
 mobile/src/languages/types.ts           — LanguagePack and its parts
 mobile/src/languages/de.ts              — the German pack (today's rules, moved)
 mobile/src/languages/index.ts           — active pack accessor
-mobile/__tests__/helpers/testPack.ts    — fake Spanish-like pack (not shipped; tests only)
+mobile/test-support/testPack.ts          — fake Spanish-like pack (not shipped; tests only)
 mobile/__tests__/languagePack.test.ts   — characterization of `de` + abstraction proof with `testPack`
 ```
 

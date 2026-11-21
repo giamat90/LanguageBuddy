@@ -8,7 +8,7 @@ import { t } from '../i18n';
 import { localizedText } from '../i18n/wordContent';
 import { useUserStore } from '../store/useUserStore';
 import PrimaryButton from '../components/ui/PrimaryButton';
-import { ARTICLE_RULE, type GrammarQuestion } from '../lib/grammar';
+import { articleRule, type GrammarQuestion } from '../lib/grammar';
 import type { CefrLevel } from '../data/wordbank';
 import { buildDrill, recordAnswer } from '../services/grammarService';
 
@@ -104,11 +104,11 @@ export default function GrammarScreen() {
 
   const answered = chosen !== null;
   const correct = chosen === current.answer;
-  const isArticle = current.ruleCode === ARTICLE_RULE;
+  const isArticle = current.ruleCode === articleRule();
   // An article question hints the word's meaning; a case question hints its example sentence.
   const hint = localizedText(
     lang,
-    current.ruleCode === 'NOUN_GENDER' ? 'meaning' : 'example',
+    isArticle ? 'meaning' : 'example',
     { word: current.word, level: current.cefrBand },
     current.translationIt,
     current.translationEn,

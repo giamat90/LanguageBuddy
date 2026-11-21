@@ -1,6 +1,5 @@
 import type { TypedResult } from './exercises/quality';
-
-export const LETTERS = /([A-Za-zÄÖÜäöüß]+)/;
+import { getActivePack, type LanguagePack } from '../languages';
 
 export interface Cloze {
   /** Sentence parts around the blank. */
@@ -9,10 +8,14 @@ export interface Cloze {
 }
 
 /** Blanks the first whole-word occurrence of `word` in `sentence`, or null if absent. */
-export function buildCloze(sentence: string | null | undefined, word: string): Cloze | null {
+export function buildCloze(
+  sentence: string | null | undefined,
+  word: string,
+  pack: LanguagePack = getActivePack(),
+): Cloze | null {
   if (!sentence) return null;
   const target = word.toLowerCase();
-  const parts = sentence.split(LETTERS);
+  const parts = sentence.split(pack.letters);
   // Odd indexes are the captured letter runs.
   for (let i = 1; i < parts.length; i += 2) {
     if (parts[i].toLowerCase() === target) {
@@ -20,16 +23,6 @@ export function buildCloze(sentence: string | null | undefined, word: string): C
     }
   }
   return null;
-}
-
-function normalize(s: string): string {
-  return s
-    .trim()
-    .toLowerCase()
-    .replace(/ß/g, 'ss')
-    .replace(/ä/g, 'a')
-    .replace(/ö/g, 'o')
-    .replace(/ü/g, 'u');
 }
 
 function editDistance(a: string, b: string): number {
@@ -50,24 +43,24 @@ function editDistance(a: string, b: string): number {
 
 /**
  * Grades a typed answer against the target word.
- *  - exact: same word, ignoring case and surrounding space (umlauts and ß must match)
- *  - close: matches once umlauts/ß are folded, or one typo on a word of 5+ letters
+ *  - exact: same word, ignoring case and surrounding space (accents and special letters must match)
+ *  - close: matches once the pack folds them (German: umlauts/ß), or one typo on a word of `typoMinLength`+ letters
  *  - wrong: anything else, including empty input
  */
-export function gradeTypedAnswer(answer: string, word: string): TypedResult {
+export function gradeTypedAnswer(answer: string, word: string, pack: LanguagePack = getActivePack()): TypedResult {
   // NFC so a decomposed "ü" (u + combining diaeresis) from a paste compares equal.
   const typed = answer.normalize('NFC').trim();
   const target = word.normalize('NFC');
   if (!typed) return 'wrong';
   if (typed.toLowerCase() === target.toLowerCase()) return 'exact';
 
-  const a = normalize(typed);
-  const w = normalize(target);
+  const a = pack.fold(typed);
+  const w = pack.fold(target);
   if (a === w) return 'close';
-  return w.length >= 5 && editDistance(a, w) <= 1 ? 'close' : 'wrong';
+  return w.length >= pack.typoMinLength && editDistance(a, w) <= 1 ? 'close' : 'wrong';
 }
 
 /** True for exact and close answers. */
-export function isAnswerCorrect(answer: string, word: string): boolean {
-  return gradeTypedAnswer(answer, word) !== 'wrong';
+export function isAnswerCorrect(answer: string, word: string, pack: LanguagePack = getActivePack()): boolean {
+  return gradeTypedAnswer(answer, word, pack) !== 'wrong';
 }

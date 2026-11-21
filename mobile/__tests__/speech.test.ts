@@ -1,5 +1,5 @@
 import * as Speech from 'expo-speech';
-import { speechText, speakGerman, stopSpeaking } from '../src/lib/speech';
+import { speechText, speak, stopSpeaking } from '../src/lib/speech';
 import { allEntries } from '../src/data/wordbank';
 
 const mock = Speech as unknown as { __last(): { text: string; opts: any } | null; __reset(): void; stop: jest.Mock };
@@ -19,7 +19,7 @@ describe('speech helper', () => {
     const order: string[] = [];
     mock.stop.mockImplementationOnce(() => { order.push('stop'); });
     const handlers = { onDone: jest.fn(), onStopped: jest.fn(), onError: jest.fn() };
-    speakGerman('der Tisch', handlers);
+    speak('der Tisch', handlers);
     expect(order).toEqual(['stop']);
     expect(mock.__last()!.text).toBe('der Tisch');
     expect(mock.__last()!.opts.language).toBe('de-DE');

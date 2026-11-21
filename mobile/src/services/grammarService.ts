@@ -2,7 +2,7 @@ import { getDb } from '../data/db';
 import { updateMastery } from '../data/srs';
 import { CEFR_ORDER, WORD_BANK, type CefrLevel } from '../data/wordbank';
 import {
-  CASE_RULES,
+  caseRules,
   buildArticleQuestion,
   buildCaseQuestion,
   pickWeighted,
@@ -39,10 +39,11 @@ function buildPools(level: CefrLevel, rng: Rng): Map<string, GrammarQuestion[]> 
     list.push(q);
     pools.set(q.ruleCode, list);
   };
+  const rules = caseRules();
   for (const lvl of CEFR_ORDER.slice(0, CEFR_ORDER.indexOf(level) + 1)) {
     for (const entry of WORD_BANK[lvl]) {
       if (entry.part_of_speech === 'noun') add(buildArticleQuestion(entry, rng));
-      if (CASE_RULES.includes(entry.grammar_angle)) add(buildCaseQuestion(entry, rng));
+      if (rules.includes(entry.grammar_angle)) add(buildCaseQuestion(entry, rng));
     }
   }
   return pools;

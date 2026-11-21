@@ -1,4 +1,5 @@
 import * as Speech from 'expo-speech';
+import { getActivePack } from '../languages';
 
 /** What is read aloud for a word: the article is part of how a noun is learned. */
 export function speechText(word: string, article: string | null): string {
@@ -11,12 +12,13 @@ export interface SpeechHandlers {
   onError(e: unknown): void;
 }
 
-/** Speaks German with the phone's own TTS engine (no network code of ours). One utterance at a time. */
-export function speakGerman(text: string, handlers: SpeechHandlers): void {
+/** Speaks the target language with the phone's own TTS engine (no network code of ours). One utterance at a time. */
+export function speak(text: string, handlers: SpeechHandlers): void {
+  const { locale, rate } = getActivePack().speech;
   Speech.stop();
   Speech.speak(text, {
-    language: 'de-DE',
-    rate: 0.9,
+    language: locale,
+    rate,
     onDone: handlers.onDone,
     onStopped: handlers.onStopped,
     onError: handlers.onError,

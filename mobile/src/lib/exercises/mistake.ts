@@ -1,6 +1,6 @@
-import {
-  CASE_FORMS, DEFINITE_FORMS, INDEFINITE_FORMS, TWO_WAY_PREPOSITIONS, caseOptions, shuffle, type Rng,
-} from '../grammar';
+import { caseForms, caseOptions, shuffle, type Rng } from '../grammar';
+import { de } from '../../languages/de';
+import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
 import { FORMAT_QUALITY } from './quality';
 import type { FindMistakeModel } from './types';
@@ -22,50 +22,27 @@ import type { FindMistakeModel } from './types';
 export const MISTAKE_MIN_TOKENS = 4;
 export const MISTAKE_MAX_TOKENS = 12;
 
-type Article = 'der' | 'die' | 'das';
-
+// German tables kept as named exports for documentation and tests; code paths read the pack.
 /** Forms that can precede this noun in SOME case (documentation and tests). */
-export const GENDER_FORMS: Record<Article, string[]> = {
-  der: ['der', 'den', 'dem', 'des'],
-  die: ['die', 'der'],
-  das: ['das', 'dem', 'des'],
-};
+export const GENDER_FORMS = de.gender!.forms;
 
 /** Forms that can never precede a singular noun of this gender, in any case. */
-export const NEVER_VALID: Record<Article, string[]> = {
-  der: ['die', 'das'],
-  die: ['das', 'den', 'dem', 'des'],
-  das: ['der', 'die', 'den'],
-};
-
-/**
- * Nouns ending like this often have a plural identical to the singular (der Lehrer / die Lehrer,
- * das Zimmer / die Zimmer, das Handelsabkommen / die Handelsabkommen). For them "Die X wird …" reads
- * as a plural with the wrong verb, so the learner could blame the verb. Every article form is valid
- * for a neuter one (singular or plural), so neuter ones are skipped; for masculine ones only "das"
- * is certainly wrong.
- */
-const PLURAL_LOOKALIKE = /(er|el|en|chen|lein)$/i;
-
-const LEAD = /^[„"«(‹‚“‘']+/;
-const TRAIL = /[.,!?;:“”"»)›’'…]+$/;
+export const NEVER_VALID = de.gender!.neverValid;
 
 /** Splits quotes and punctuation off a token so the bare word can be compared and rebuilt. */
-export function splitToken(token: string): { lead: string; core: string; trail: string } {
-  const lead = token.match(LEAD)?.[0] ?? '';
+export function splitToken(
+  token: string,
+  pack: LanguagePack = getActivePack(),
+): { lead: string; core: string; trail: string } {
+  const lead = token.match(pack.punctuation.lead)?.[0] ?? '';
   const rest = token.slice(lead.length);
-  const trail = rest.match(TRAIL)?.[0] ?? '';
+  const trail = rest.match(pack.punctuation.trail)?.[0] ?? '';
   return { lead, core: rest.slice(0, rest.length - trail.length), trail };
 }
 
-const DATIVE_PREPOSITIONS = new Set(['aus', 'bei', 'mit', 'nach', 'seit', 'von', 'zu']);
-const ACCUSATIVE_PREPOSITIONS = new Set(['durch', 'für', 'gegen', 'ohne', 'um']);
-
-/** Which grammar explanation fits a case-fixing determiner (both arguments lower-case). */
-export function ruleForCaseForm(form: string, previousWord: string): string {
-  if (form === 'des' || form === 'eines') return 'GENITIV_CASE';
-  if (form === 'einen') return ACCUSATIVE_PREPOSITIONS.has(previousWord) ? 'ACCUSATIVE_PREP' : 'ACCUSATIVE_MASC';
-  return DATIVE_PREPOSITIONS.has(previousWord) ? 'DATIV_PREP' : 'DATIV_INDIRECT_OBJ';
+/** Which grammar explanation fits a German case-fixing determiner (both arguments lower-case). */
+export function ruleForCaseForm(form: string, previousWord: string, pack: LanguagePack = getActivePack()): string {
+  return pack.cases ? pack.cases.ruleForForm(form, previousWord) : '';
 }
 
 /** Capitalises `form` iff `like` starts with an upper-case letter (sentence-initial determiners). */
@@ -88,18 +65,22 @@ function pick<T>(list: T[], rng: Rng): T {
  * rng is consumed in a fixed order so seeded tests are reproducible: (1) one call to choose the
  * kind, only when both kinds are possible; (2) one call for the wrong form; (3) the options shuffle.
  */
-export function buildFindMistake(card: ReviewCard, rng: Rng): FindMistakeModel | null {
+export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack = getActivePack()): FindMistakeModel | null {
   if (!card.exampleDe) return null;
   const tokens = card.exampleDe.trim().split(/\s+/);
   if (tokens.length < MISTAKE_MIN_TOKENS || tokens.length > MISTAKE_MAX_TOKENS) return null;
 
-  const core = (i: number) => splitToken(tokens[i]).core.toLowerCase();
+  const core = (i: number) => splitToken(tokens[i], pack).core.toLowerCase();
+  const { gender, cases } = pack;
 
   // Gender slot: the card's own article directly before the word.
-  const article = card.article as Article | null;
-  const lookalike = PLURAL_LOOKALIKE.test(card.word);
+  const article = card.article;
+  const lookalike = gender ? gender.pluralLookalike.test(card.word) : false;
   let genderAt = -1;
-  if (card.partOfSpeech === 'noun' && article && article in GENDER_FORMS && !(lookalike && article === 'das')) {
+  if (
+    gender && card.partOfSpeech === 'noun' && article && article in gender.forms &&
+    !(lookalike && article === gender.lookalike.skipArticle)
+  ) {
     const word = card.word.toLowerCase();
     for (let j = 1; j < tokens.length; j++) {
       if (core(j) === word && core(j - 1) === article) {
@@ -110,11 +91,14 @@ export function buildFindMistake(card: ReviewCard, rng: Rng): FindMistakeModel |
   }
 
   // Case slot: the first case-fixing determiner that is not right after a two-way preposition.
+  const forms = caseForms(pack);
   let caseAt = -1;
-  for (let i = 0; i < tokens.length; i++) {
-    if (CASE_FORMS.has(core(i)) && !TWO_WAY_PREPOSITIONS.has(i > 0 ? core(i - 1) : '')) {
-      caseAt = i;
-      break;
+  if (cases) {
+    for (let i = 0; i < tokens.length; i++) {
+      if (forms.has(core(i)) && !cases.twoWayPrepositions.has(i > 0 ? core(i - 1) : '')) {
+        caseAt = i;
+        break;
+      }
     }
   }
 
@@ -123,28 +107,30 @@ export function buildFindMistake(card: ReviewCard, rng: Rng): FindMistakeModel |
   const index = useGender ? genderAt : caseAt;
 
   const original = tokens[index];
-  const { lead, core: originalCore, trail } = splitToken(original);
+  const { lead, core: originalCore, trail } = splitToken(original, pack);
   const originalLower = originalCore.toLowerCase();
 
   let wrongForm: string;
   if (useGender) {
-    wrongForm = pick(lookalike && article === 'der' ? ['das'] : NEVER_VALID[article as Article], rng);
+    const safe = lookalike ? gender!.lookalike.onlyWrongFor[article as string] : undefined;
+    wrongForm = pick(safe ?? gender!.neverValid[article as string], rng);
   } else {
-    const family = DEFINITE_FORMS.includes(originalLower) ? DEFINITE_FORMS : INDEFINITE_FORMS;
+    const family = cases!.definiteForms.includes(originalLower) ? cases!.definiteForms : cases!.indefiniteForms;
     wrongForm = pick(family.filter((f) => f !== originalLower), rng);
   }
 
   const corrupted = [...tokens];
   corrupted[index] = lead + matchCase(wrongForm, originalCore) + trail;
 
-  const forms = useGender ? shuffle(['der', 'die', 'das'], rng) : caseOptions(originalLower, rng);
-  const options = forms.map((f) => matchCase(f, originalCore));
+  const genderForms = pack.articles ? pack.articles.forms : Object.keys(gender?.forms ?? {});
+  const optionForms = useGender ? shuffle([...genderForms], rng) : caseOptions(originalLower, rng, pack);
+  const options = optionForms.map((f) => matchCase(f, originalCore));
 
   return {
     kind: 'find_mistake',
     card,
     mistakeKind: useGender ? 'gender' : 'case',
-    ruleCode: useGender ? 'NOUN_GENDER' : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : ''),
+    ruleCode: useGender ? (pack.articles?.rule ?? '') : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : '', pack),
     tokens: corrupted,
     wrongIndex: index,
     correctToken: original,

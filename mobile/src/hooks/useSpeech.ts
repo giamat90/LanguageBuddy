@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Alert } from 'react-native';
 import { t } from '../i18n';
-import { speakGerman, stopSpeaking } from '../lib/speech';
+import { speak, stopSpeaking } from '../lib/speech';
 
 // Shared by every hook instance: with auto-play on, each exercise card mounts a new instance and a
 // missing German voice must not raise the same alert on every card.
@@ -33,7 +33,7 @@ export function useSpeech() {
       return;
     }
     set(id);
-    speakGerman(text, {
+    speak(text, {
       onDone: () => clearIfCurrent(id),
       onStopped: () => clearIfCurrent(id),
       onError: (e) => {

@@ -1,4 +1,5 @@
 import { callLLM } from './llm';
+import { getActivePack } from '../../languages';
 import { languageEnglishName, type NativeLanguage } from '../../i18n/language';
 
 /**
@@ -37,7 +38,8 @@ interface WordInsightInput {
 
 function buildSystem(lang: NativeLanguage): string {
   const name = languageEnglishName(lang);
-  return `You are an assistant for learning German, for ${name}-speaking
+  const target = getActivePack().ai.languageName;
+  return `You are an assistant for learning ${target}, for ${name}-speaking
 students. Give short, practical explanations in ${name}. Respond ONLY
 with valid JSON, no text before or after, no markdown.`;
 }
@@ -45,6 +47,7 @@ with valid JSON, no text before or after, no markdown.`;
 function buildPrompt({ word, article, meaningNative, cefrLevel, nativeLanguage }: WordInsightInput): string {
   const headword = article ? `${article} ${word}` : word;
   const langName = languageEnglishName(nativeLanguage);
+  const { languageName: target, exampleKey } = getActivePack().ai;
   return `Word: ${headword}${meaningNative ? ` (${meaningNative})` : ''}
 Student's level: ${cefrLevel}
 
@@ -53,18 +56,18 @@ Generate study material for this word, suitable for level ${cefrLevel}.
 Respond with exactly this JSON shape:
 {
   "examples": [
-    { "de": "a German sentence using the word", "native": "${langName} translation" }
+    { "${exampleKey}": "a ${target} sentence using the word", "native": "${langName} translation" }
   ],
   "note": "a usage note in ${langName}, max 2 sentences (register, nuance, common mistakes, related words)",
   "exercise": {
-    "sentence": "a German sentence with ___ in place of the word",
+    "sentence": "a ${target} sentence with ___ in place of the word",
     "answer": "the exact form that goes in ___"
   }
 }
 
 Rules:
 - exactly 3 examples, natural and appropriately sized for level ${cefrLevel}
-- every German example sentence MUST contain the word "${word}"
+- every ${target} example sentence MUST contain the word "${word}"
 - the exercise: a different sentence from the examples, with "___" where the word goes; "answer" is the word (with any needed inflection)
 - no markdown, no text outside the JSON`;
 }

@@ -1,33 +1,31 @@
-import { LETTERS } from './cloze';
+import { de } from '../languages/de';
+import { getActivePack, type LanguagePack } from '../languages';
 
 export type Rng = () => number;
 
-export const ARTICLES = ['der', 'die', 'das'] as const;
+/** Rule codes the case-cloze can drill for this language (none when it has no cases). */
+export function caseRules(pack: LanguagePack = getActivePack()): string[] {
+  return pack.cases ? Object.keys(pack.cases.ruleForms) : [];
+}
 
-export const ARTICLE_RULE = 'NOUN_GENDER';
+/** The article question's rule code, or null when the language has no article drill. */
+export function articleRule(pack: LanguagePack = getActivePack()): string | null {
+  return pack.articles ? pack.articles.rule : null;
+}
 
-/** Rules the case-cloze can drill, and the unambiguous determiner forms that test each. */
-const RULE_FORMS: Record<string, string[]> = {
-  ACCUSATIVE_MASC: ['einen'],
-  ACCUSATIVE_PREP: ['einen'],
-  DATIV_PREP: ['dem', 'einem'],
-  DATIV_INDIRECT_OBJ: ['dem', 'einem'],
-  GENITIV_CASE: ['des', 'eines'],
-};
-
-export const CASE_RULES = Object.keys(RULE_FORMS);
-
+// German constants kept for callers and tests that name them; code paths read the pack.
 /** Every determiner form that fixes a case on its own (einen, dem, einem, des, eines). */
-export const CASE_FORMS = new Set<string>(Object.values(RULE_FORMS).flat());
-
-export const DEFINITE_FORMS = ['der', 'die', 'das', 'dem', 'den', 'des'];
-export const INDEFINITE_FORMS = ['ein', 'eine', 'einen', 'einem', 'einer', 'eines'];
-
+export const CASE_FORMS = new Set<string>(Object.values(de.cases!.ruleForms).flat());
+export const DEFINITE_FORMS = de.cases!.definiteForms;
+export const INDEFINITE_FORMS = de.cases!.indefiniteForms;
 // After these, both accusative and dative are grammatical (dem/den both fit), so
 // the blank would have two defensible answers.
-export const TWO_WAY_PREPOSITIONS = new Set([
-  'an', 'auf', 'hinter', 'in', 'neben', 'über', 'unter', 'vor', 'zwischen',
-]);
+export const TWO_WAY_PREPOSITIONS = de.cases!.twoWayPrepositions;
+
+/** Every case-fixing form of the pack (see CASE_FORMS for German). */
+export function caseForms(pack: LanguagePack = getActivePack()): Set<string> {
+  return new Set(pack.cases ? Object.values(pack.cases.ruleForms).flat() : []);
+}
 
 export interface CaseCloze {
   before: string;
@@ -43,14 +41,19 @@ function capitalize(s: string): string {
  * Finds a determiner whose form alone fixes the case (dem, einem, einen, des,
  * eines) and that exercises `ruleCode`. Returns null if the sentence has none.
  */
-export function buildCaseCloze(sentence: string | null | undefined, ruleCode: string): CaseCloze | null {
-  const forms = RULE_FORMS[ruleCode];
-  if (!sentence || !forms) return null;
-  const parts = sentence.split(LETTERS);
+export function buildCaseCloze(
+  sentence: string | null | undefined,
+  ruleCode: string,
+  pack: LanguagePack = getActivePack(),
+): CaseCloze | null {
+  const cases = pack.cases;
+  const forms = cases?.ruleForms[ruleCode];
+  if (!cases || !sentence || !forms) return null;
+  const parts = sentence.split(pack.letters);
   let prevWord = '';
   for (let i = 1; i < parts.length; i += 2) {
     const lower = parts[i].toLowerCase();
-    if (forms.includes(lower) && !TWO_WAY_PREPOSITIONS.has(prevWord)) {
+    if (forms.includes(lower) && !cases.twoWayPrepositions.has(prevWord)) {
       return {
         before: parts.slice(0, i).join(''),
         after: parts.slice(i + 1).join(''),
@@ -72,8 +75,10 @@ export function shuffle<T>(arr: T[], rng: Rng): T[] {
 }
 
 /** The answer plus two distractors from the same definiteness family, shuffled. */
-export function caseOptions(answer: string, rng: Rng = Math.random): string[] {
-  const family = DEFINITE_FORMS.includes(answer) ? DEFINITE_FORMS : INDEFINITE_FORMS;
+export function caseOptions(answer: string, rng: Rng = Math.random, pack: LanguagePack = getActivePack()): string[] {
+  const cases = pack.cases;
+  if (!cases) return [answer];
+  const family = cases.definiteForms.includes(answer) ? cases.definiteForms : cases.indefiniteForms;
   const distractors = shuffle(family.filter((f) => f !== answer), rng).slice(0, 2);
   return shuffle([answer, ...distractors], rng);
 }
@@ -107,14 +112,16 @@ export interface GrammarQuestion {
 export function buildArticleQuestion(
   entry: { word: string; article: string | null; meaning_it: string; meaning_en: string; cefr_band?: string },
   rng: Rng = Math.random,
+  pack: LanguagePack = getActivePack(),
 ): GrammarQuestion | null {
-  if (!entry.article || !(ARTICLES as readonly string[]).includes(entry.article)) return null;
+  const articles = pack.articles;
+  if (!articles || !entry.article || !articles.forms.includes(entry.article)) return null;
   return {
     id: `art:${entry.word}`,
-    ruleCode: ARTICLE_RULE,
+    ruleCode: articles.rule,
     before: '',
     after: ` ${entry.word}`,
-    options: shuffle([...ARTICLES], rng),
+    options: shuffle([...articles.forms], rng),
     answer: entry.article,
     word: entry.word,
     translationIt: entry.meaning_it,
@@ -126,8 +133,9 @@ export function buildArticleQuestion(
 export function buildCaseQuestion(
   entry: { word: string; example_de: string; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
   rng: Rng = Math.random,
+  pack: LanguagePack = getActivePack(),
 ): GrammarQuestion | null {
-  const cloze = buildCaseCloze(entry.example_de, entry.grammar_angle);
+  const cloze = buildCaseCloze(entry.example_de, entry.grammar_angle, pack);
   if (!cloze) return null;
   const initial = cloze.before.trim() === '';
   const fmt = (s: string) => (initial ? capitalize(s) : s);
@@ -136,7 +144,7 @@ export function buildCaseQuestion(
     ruleCode: entry.grammar_angle,
     before: cloze.before,
     after: cloze.after,
-    options: caseOptions(cloze.answer, rng).map(fmt),
+    options: caseOptions(cloze.answer, rng, pack).map(fmt),
     answer: fmt(cloze.answer),
     word: entry.word,
     translationIt: entry.example_it,

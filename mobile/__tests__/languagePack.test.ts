@@ -26,7 +26,7 @@ afterEach(() => setActivePackForTests(null));
 function card(over: Partial<ReviewCard> = {}): ReviewCard {
   return {
     id: 'c1', word: 'Haus', article: 'das', translationIt: 'casa', translationEn: 'house',
-    exampleDe: 'Das Haus ist sehr groß.', exampleIt: '', exampleEn: '', partOfSpeech: 'noun',
+    example: 'Das Haus ist sehr groß.', exampleIt: '', exampleEn: '', partOfSpeech: 'noun',
     cefrBand: 'A1', topicDomain: 'home', timesSeen: 3, retentionScore: 0.7, ...over,
   };
 }
@@ -39,7 +39,8 @@ describe('the German pack reproduces the old constants', () => {
     expect(de.fold('  Straße ÄÖÜ ')).toBe('strasse aou');
     expect(de.typoMinLength).toBe(5);
     expect(de.speech).toEqual({ locale: 'de-DE', rate: 0.9 });
-    expect(de.ai).toEqual({ languageName: 'German', exampleKey: 'de' });
+    expect(de.ai).toEqual({ languageName: 'German' });
+    expect(de.app).toEqual({ name: 'GermanBuddy', backupTag: 'GermanBuddy', dbFile: 'germanbuddy.db' });
     expect(de.punctuation.lead.source).toBe("^[„\"«(‹‚“‘']+");
     expect(de.punctuation.trail.source).toBe('[.,!?;:“”"»)›’\'…]+$');
   });
@@ -100,7 +101,7 @@ describe('a second language plugs in (testPack: accents, el/la, no cases)', () =
   it('has no case drill', () => {
     expect(buildCaseCloze('Ich gebe dem Mann ein Buch.', 'DATIV_INDIRECT_OBJ', testPack)).toBeNull();
     expect(buildCaseQuestion({
-      word: 'Mann', example_de: 'Ich gebe dem Mann ein Buch.', example_it: '', example_en: '', grammar_angle: 'DATIV_INDIRECT_OBJ',
+      word: 'Mann', example: 'Ich gebe dem Mann ein Buch.', example_it: '', example_en: '', grammar_angle: 'DATIV_INDIRECT_OBJ',
     }, Math.random, testPack)).toBeNull();
     setActivePackForTests(testPack);
     expect(caseRules()).toEqual([]);
@@ -116,14 +117,14 @@ describe('a second language plugs in (testPack: accents, el/la, no cases)', () =
   });
 
   it('finds only gender mistakes, and none without an article slot', () => {
-    const c = card({ word: 'perro', article: 'el', exampleDe: 'El perro come la carne ahora', partOfSpeech: 'noun' });
+    const c = card({ word: 'perro', article: 'el', example: 'El perro come la carne ahora', partOfSpeech: 'noun' });
     const m = buildFindMistake(c, seq(0.1, 0.1, 0.1), testPack)!;
     expect(m.mistakeKind).toBe('gender');
     // sentence-initial: the capital letter is kept on the swapped form
     expect(m.tokens[m.wrongIndex]).toBe('La');
     expect(m.correctToken).toBe('El');
     expect([...m.options].sort()).toEqual(['El', 'La']);
-    const noSlot = card({ word: 'perro', article: 'el', exampleDe: 'Corre rápido por el parque grande', partOfSpeech: 'noun' });
+    const noSlot = card({ word: 'perro', article: 'el', example: 'Corre rápido por el parque grande', partOfSpeech: 'noun' });
     expect(buildFindMistake(noSlot, () => 0.1, testPack)).toBeNull();
   });
 

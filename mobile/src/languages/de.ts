@@ -6,6 +6,7 @@ const ACCUSATIVE_PREPOSITIONS = new Set(['durch', 'für', 'gegen', 'ohne', 'um']
 export const de: LanguagePack = {
   code: 'de',
   name: 'German',
+  app: { name: 'GermanBuddy', backupTag: 'GermanBuddy', dbFile: 'germanbuddy.db' },
   letters: /([A-Za-zÄÖÜäöüß]+)/,
   fold: (s) =>
     s
@@ -21,7 +22,7 @@ export const de: LanguagePack = {
     trail: /[.,!?;:“”"»)›’'…]+$/,
   },
   speech: { locale: 'de-DE', rate: 0.9 },
-  ai: { languageName: 'German', exampleKey: 'de' },
+  ai: { languageName: 'German' },
   articles: {
     forms: ['der', 'die', 'das'],
     rule: 'NOUN_GENDER',

@@ -2,9 +2,9 @@
 /**
  * Validates one language's translated word content while it is being written.
  *
- *   node scripts/validate-i18n.mjs <lang> [--dir <path>] [--levels A1,A2]
+ *   node scripts/validate-i18n.mjs <lang> [--target de] [--dir <path>] [--levels A1,A2]
  *
- * Reads <dir>/<LEVEL>.tsv (default: scripts/wordbank/i18n-wip/<lang>) and checks the
+ * Reads <dir>/<LEVEL>.tsv (default: scripts/wordbank/<target>/i18n-wip/<lang>) and checks the
  * levels given (default: all) against the bundled word bank. Exit code 1 on any problem.
  */
 import { readFileSync, existsSync } from 'node:fs';
@@ -15,8 +15,6 @@ import { dirname, join, resolve } from 'node:path';
 const require = createRequire(import.meta.url);
 const lib = require('./wordbank-i18n-lib.cjs');
 const here = dirname(fileURLToPath(import.meta.url));
-const bankDir = join(here, '..', 'src', 'data', 'wordbank');
-
 const args = process.argv.slice(2);
 const lang = args[0];
 const opt = (name) => {
@@ -27,7 +25,9 @@ if (!lang || !lib.LANGS.includes(lang)) {
   console.error(`usage: validate-i18n.mjs <${lib.LANGS.join('|')}> [--dir path] [--levels A1,A2]`);
   process.exit(2);
 }
-const dir = resolve(opt('--dir') ?? join(here, 'wordbank', 'i18n-wip', lang));
+const target = opt('--target') ?? 'de';
+const bankDir = join(here, '..', 'src', 'data', 'wordbank', target);
+const dir = resolve(opt('--dir') ?? join(here, 'wordbank', target, 'i18n-wip', lang));
 const levels = (opt('--levels') ?? lib.LEVELS.join(',')).split(',');
 
 const bank = {};

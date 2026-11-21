@@ -1,7 +1,7 @@
 import { getDb } from '../data/db';
 import { allEntries } from '../data/wordbank';
 import { VaultItem, VaultWordDetail } from '../types/domain';
-import type { WordInsightResult } from '../lib/ai/wordInsight';
+import { normalizeExample, type InsightExample, type WordInsightResult } from '../lib/ai/wordInsight';
 import type { NativeLanguage } from '../i18n/language';
 
 interface VocabRow {
@@ -104,7 +104,7 @@ export async function fetchVaultWord(id: string): Promise<VaultWordDetail | null
     partOfSpeech: v.part_of_speech ?? bank?.part_of_speech ?? null,
     meaningIt: v.translation_it ?? daily?.meaning_it ?? bank?.meaning_it ?? null,
     meaningEn: v.translation_en ?? bank?.meaning_en ?? null,
-    exampleDe: daily?.example_de ?? bank?.example_de ?? null,
+    example: daily?.example_de ?? bank?.example ?? null,
     exampleIt: daily?.example_it ?? bank?.example_it ?? null,
     exampleEn: daily?.example_en ?? bank?.example_en ?? null,
     culturalNote: daily?.cultural_note ?? bank?.cultural_note ?? null,
@@ -134,7 +134,12 @@ export async function getWordInsight(word: string, lang: NativeLanguage): Promis
   if (!row) return null;
   try {
     const { lang: cachedLang, ...result } = JSON.parse(row.payload) as WordInsightResult & { lang?: string };
-    return cachedLang === lang ? (result as WordInsightResult) : null;
+    if (cachedLang !== lang) return null;
+    // Notes cached before TASK-042 keep the sentence under `de`; read both, never rewrite the row.
+    const examples = (Array.isArray(result.examples) ? result.examples : [])
+      .map(normalizeExample)
+      .filter((e): e is InsightExample => e !== null);
+    return { ...result, examples } as WordInsightResult;
   } catch {
     return null;
   }

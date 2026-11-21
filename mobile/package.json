@@ -9,6 +9,7 @@
     "ios": "expo run:ios",
     "build:wordbank": "node scripts/build-wordbank.mjs",
     "validate:wordbank": "node scripts/validate-wordbank.mjs",
+    "set:language": "node scripts/set-active-language.mjs",
     "pretest": "node scripts/validate-wordbank.mjs",
     "test": "jest --watchAll=false",
     "check:16kb": "node scripts/check-16kb.js",

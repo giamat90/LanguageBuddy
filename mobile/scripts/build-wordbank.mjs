@@ -1,144 +1,150 @@
 #!/usr/bin/env node
 /**
- * Builds src/data/wordbank/<LEVEL>.json from the compact TSV sources in
- * scripts/wordbank/<LEVEL>.tsv (the editable source of truth).
+ * Builds src/data/wordbank/<lang>/<LEVEL>.json from the compact TSV sources in
+ * scripts/wordbank/<lang>/<LEVEL>.tsv (the editable source of truth), for every language folder
+ * that has a language.json. Translated content: scripts/wordbank/<lang>/i18n/<native>/<LEVEL>.tsv
+ * becomes src/data/wordbank/<lang>/i18n/<native>.json.
  *
  * TSV columns (tab-separated, no header, one entry per line):
  *   word  article  part_of_speech  ipa  meaning_en  meaning_it
- *   example_de  example_it  cultural_note  grammar_angle  topic_domain  session_scenario
+ *   example  example_it  cultural_note  grammar_angle  topic_domain  session_scenario
  *   example_en  cultural_note_en
  * Use "-" for a null article (non-nouns). Blank lines and lines starting with # are ignored.
  *
+ * Options: --root <dir> --out <dir> (tests; the active-language seams are then left alone),
+ *          --lang <code> (only that language). BUDDY_LANG picks the active language (default de).
  * Run: npm run build:wordbank   (also runs on pretest, before the validator)
  */
-import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync, statSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { setActiveLanguage, LEVELS as ALL_LEVELS } from './lib/active-language.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const srcDir = join(here, 'wordbank');
-const outDir = join(here, '..', 'src', 'data', 'wordbank');
-const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const require = createRequire(import.meta.url);
+const i18n = require('./wordbank-i18n-lib.cjs');
+const args = process.argv.slice(2);
+const opt = (name) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : undefined; };
+const custom = opt('--root') !== undefined || opt('--out') !== undefined;
+const srcRoot = opt('--root') ?? join(here, 'wordbank');
+const outRoot = opt('--out') ?? join(here, '..', 'src', 'data', 'wordbank');
 
 const COLS = [
   'word', 'article', 'part_of_speech', 'ipa', 'meaning_en', 'meaning_it',
-  'example_de', 'example_it', 'cultural_note', 'grammar_angle', 'topic_domain',
+  'example', 'example_it', 'cultural_note', 'grammar_angle', 'topic_domain',
   'session_scenario', 'example_en', 'cultural_note_en',
 ];
 
 let totalOut = 0;
 const problems = [];
 
-for (const level of LEVELS) {
-  const tsvPath = join(srcDir, `${level}.tsv`);
-  let raw;
-  try {
-    raw = readFileSync(tsvPath, 'utf8');
-  } catch {
-    problems.push(`${level}.tsv missing`);
+const folders = readdirSync(srcRoot).filter((d) => statSync(join(srcRoot, d)).isDirectory());
+const wanted = opt('--lang');
+for (const lang of folders) {
+  if (wanted && lang !== wanted) continue;
+  const srcDir = join(srcRoot, lang);
+  const outDir = join(outRoot, lang);
+  const cfgPath = join(srcDir, 'language.json');
+  if (!existsSync(cfgPath)) {
+    problems.push(`${lang}: language.json missing in ${srcDir}`);
     continue;
   }
-  const entries = [];
-  const seen = new Set();
-  raw.split(/\r?\n/).forEach((line, idx) => {
-    if (!line.trim() || line.startsWith('#')) return;
-    const parts = line.split('\t');
-    if (parts.length !== COLS.length) {
-      problems.push(`${level}.tsv:${idx + 1} has ${parts.length} columns, expected ${COLS.length}`);
-      return;
-    }
-    const e = {};
-    COLS.forEach((c, i) => (e[c] = parts[i].trim()));
-    e.article = e.article === '-' || e.article === '' ? null : e.article;
-    e.cefr_band = level;
-    const key = e.word.toLowerCase();
-    if (seen.has(key)) {
-      problems.push(`${level}.tsv:${idx + 1} duplicate word "${e.word}"`);
-      return;
-    }
-    seen.add(key);
-    entries.push({
-      word: e.word,
-      article: e.article,
-      part_of_speech: e.part_of_speech,
-      ipa: e.ipa,
-      meaning_en: e.meaning_en,
-      meaning_it: e.meaning_it,
-      example_de: e.example_de,
-      example_it: e.example_it,
-      cultural_note: e.cultural_note,
-      grammar_angle: e.grammar_angle,
-      topic_domain: e.topic_domain,
-      cefr_band: level,
-      session_scenario: e.session_scenario,
-      example_en: e.example_en,
-      cultural_note_en: e.cultural_note_en,
-    });
-  });
-  writeFileSync(join(outDir, `${level}.json`), JSON.stringify(entries, null, 2) + '\n');
-  totalOut += entries.length;
-  console.log(`  ${level}: ${entries.length} entries`);
-}
+  const LEVELS = JSON.parse(readFileSync(cfgPath, 'utf8')).levels ?? ALL_LEVELS;
+  mkdirSync(outDir, { recursive: true });
+  console.log(`${lang}:`);
 
-// ─── translated content (TASK-025): scripts/wordbank/i18n/<lang>/<LEVEL>.tsv → src/data/wordbank/i18n/<lang>.json
-const require = createRequire(import.meta.url);
-const i18n = require('./wordbank-i18n-lib.cjs');
-const i18nSrc = join(srcDir, 'i18n');
-const i18nOut = join(outDir, 'i18n');
-if (existsSync(i18nSrc) && problems.length === 0) {
-  const bank = Object.fromEntries(
-    LEVELS.map((l) => [l, JSON.parse(readFileSync(join(outDir, `${l}.json`), 'utf8'))]),
-  );
-  mkdirSync(i18nOut, { recursive: true });
-  for (const lang of readdirSync(i18nSrc)) {
-    const dir = join(i18nSrc, lang);
-    if (!i18n.LANGS.includes(lang)) {
-      problems.push(`i18n/${lang}: not a supported language code`);
+  for (const level of LEVELS) {
+    const tsvPath = join(srcDir, `${level}.tsv`);
+    if (!existsSync(tsvPath)) {
+      problems.push(`${lang}: ${level}.tsv missing`);
       continue;
     }
-    const rows = [];
-    let broken = false;
-    for (const level of LEVELS) {
-      const file = join(dir, `${level}.tsv`);
-      if (!existsSync(file)) {
-        problems.push(`i18n/${lang}/${level}.tsv missing`);
-        broken = true;
+    const raw = readFileSync(tsvPath, 'utf8');
+    const entries = [];
+    const seen = new Set();
+    raw.split(/\r?\n/).forEach((line, idx) => {
+      if (!line.trim() || line.startsWith('#')) return;
+      const parts = line.split('\t');
+      if (parts.length !== COLS.length) {
+        problems.push(`${lang}/${level}.tsv:${idx + 1} has ${parts.length} columns, expected ${COLS.length}`);
+        return;
+      }
+      const e = {};
+      COLS.forEach((c, i) => (e[c] = parts[i].trim()));
+      e.article = e.article === '-' || e.article === '' ? null : e.article;
+      e.cefr_band = level;
+      const key = e.word.toLowerCase();
+      if (seen.has(key)) {
+        problems.push(`${lang}/${level}.tsv:${idx + 1} duplicate word "${e.word}"`);
+        return;
+      }
+      seen.add(key);
+      entries.push({
+        word: e.word,
+        article: e.article,
+        part_of_speech: e.part_of_speech,
+        ipa: e.ipa,
+        meaning_en: e.meaning_en,
+        meaning_it: e.meaning_it,
+        example: e.example,
+        example_it: e.example_it,
+        cultural_note: e.cultural_note,
+        grammar_angle: e.grammar_angle,
+        topic_domain: e.topic_domain,
+        cefr_band: level,
+        session_scenario: e.session_scenario,
+        example_en: e.example_en,
+        cultural_note_en: e.cultural_note_en,
+      });
+    });
+    writeFileSync(join(outDir, `${level}.json`), JSON.stringify(entries, null, 2) + '\n');
+    totalOut += entries.length;
+    console.log(`  ${level}: ${entries.length} entries`);
+  }
+
+  // translated content (TASK-025): <lang>/i18n/<native>/<LEVEL>.tsv → <lang>/i18n/<native>.json
+  const i18nSrc = join(srcDir, 'i18n');
+  const i18nOut = join(outDir, 'i18n');
+  if (existsSync(i18nSrc) && problems.length === 0) {
+    const bank = Object.fromEntries(
+      LEVELS.map((l) => [l, JSON.parse(readFileSync(join(outDir, `${l}.json`), 'utf8'))]),
+    );
+    mkdirSync(i18nOut, { recursive: true });
+    for (const native of readdirSync(i18nSrc)) {
+      const dir = join(i18nSrc, native);
+      if (!i18n.LANGS.includes(native)) {
+        problems.push(`${lang}/i18n/${native}: not a supported language code`);
         continue;
       }
-      const parsed = i18n.parseTsv(readFileSync(file, 'utf8'), level);
-      parsed.problems.forEach((p) => problems.push(`i18n/${lang}/${p}`));
-      rows.push(...parsed.rows);
-    }
-    if (broken) continue;
-    const found = i18n.validateLanguage({ lang, rows, bank });
-    found.forEach((p) => problems.push(`i18n/${lang}: ${p}`));
-    if (found.length === 0) {
-      writeFileSync(join(i18nOut, `${lang}.json`), JSON.stringify(i18n.buildTable(rows)) + '\n');
-      console.log(`  i18n ${lang}: ${rows.length} entries`);
+      const rows = [];
+      let broken = false;
+      for (const level of LEVELS) {
+        const file = join(dir, `${level}.tsv`);
+        if (!existsSync(file)) {
+          problems.push(`${lang}/i18n/${native}/${level}.tsv missing`);
+          broken = true;
+          continue;
+        }
+        const parsed = i18n.parseTsv(readFileSync(file, 'utf8'), level);
+        parsed.problems.forEach((p) => problems.push(`${lang}/i18n/${native}/${p}`));
+        rows.push(...parsed.rows);
+      }
+      if (broken) continue;
+      const found = i18n.validateLanguage({ lang: native, rows, bank, levels: LEVELS });
+      found.forEach((p) => problems.push(`${lang}/i18n/${native}: ${p}`));
+      if (found.length === 0) {
+        writeFileSync(join(i18nOut, `${native}.json`), JSON.stringify(i18n.buildTable(rows)) + '\n');
+        console.log(`  i18n ${native}: ${rows.length} entries`);
+      }
     }
   }
 }
 
-// The app loads each translated language through a static require table (Metro needs static paths).
-if (problems.length === 0 && existsSync(i18nOut)) {
-  const langs = readdirSync(i18nOut)
-    .filter((f) => f.endsWith('.json'))
-    .map((f) => f.replace(/\.json$/, ''))
-    .filter((l) => i18n.LANGS.includes(l))
-    .sort();
-  const entries = langs.map((l) => `  ${l}: () => require('../data/wordbank/i18n/${l}.json'),`);
-  const body = [
-    '// GENERATED by scripts/build-wordbank.mjs from src/data/wordbank/i18n/*.json — do not edit.',
-    "import type { NativeLanguage } from './language';",
-    "import type { WordContentTriple } from './wordContent';",
-    '',
-    'export const WORD_CONTENT_LOADERS: Partial<',
-    '  Record<NativeLanguage, () => Record<string, WordContentTriple>>',
-    entries.length ? `> = {\n${entries.join('\n')}\n};` : '> = {};',
-    '',
-  ].join('\n');
-  writeFileSync(join(here, '..', 'src', 'i18n', 'wordContentLoaders.ts'), body);
+if (problems.length === 0 && !custom) {
+  const active = process.env.BUDDY_LANG ?? 'de';
+  const res = setActiveLanguage(active, { root: srcRoot, src: join(here, '..', 'src'), nativeCodes: i18n.LANGS });
+  res.problems.forEach((p) => problems.push(`active language: ${p}`));
 }
 
 if (problems.length) {
@@ -147,6 +153,3 @@ if (problems.length) {
   process.exit(1);
 }
 console.log(`✓ Built word bank — ${totalOut} entries.`);
-
-// ignore unused import in some environments
-void readdirSync;

@@ -57,7 +57,7 @@ describe('questions', () => {
   it('capitalises options when the blank starts the sentence', () => {
     const q = buildCaseQuestion({
       word: 'Freund',
-      example_de: 'Einem Freund helfe ich gern.',
+      example: 'Einem Freund helfe ich gern.',
       example_it: '',
       example_en: '',
       grammar_angle: 'DATIV_INDIRECT_OBJ',

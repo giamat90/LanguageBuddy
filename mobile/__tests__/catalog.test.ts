@@ -6,7 +6,7 @@ import { STATUS_COLORS } from '../src/theme/statusColors';
 
 const entry = (word: string, topic: string, article: string | null = null): WordBankEntry => ({
   word, article, part_of_speech: 'noun', ipa: '', meaning_en: `${word}-en`, meaning_it: `${word}-it`,
-  example_de: '', example_it: '', cultural_note: '', grammar_angle: 'NOUN_GENDER',
+  example: '', example_it: '', cultural_note: '', grammar_angle: 'NOUN_GENDER',
   topic_domain: topic, cefr_band: '', session_scenario: '', example_en: '', cultural_note_en: '',
 });
 const emptyBank = (): Record<CefrLevel, WordBankEntry[]> =>

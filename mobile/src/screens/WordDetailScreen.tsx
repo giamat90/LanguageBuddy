@@ -136,16 +136,16 @@ export default function WordDetailScreen() {
           <SectionLabel label={t('word_detail_translation')} />
           {meaning ? <Text style={[typography.body, styles.bodyText]}>{meaning}</Text> : null}
 
-          {item.exampleDe ? (
+          {item.example ? (
             <>
               <Divider style={styles.divider} />
               <SectionLabel label={t('word_section_example')} />
               <View style={styles.sentenceRow}>
-                <Text style={[typography.exampleDe, styles.bodyText, { flex: 1 }]}>{item.exampleDe}</Text>
+                <Text style={[typography.exampleDe, styles.bodyText, { flex: 1 }]}>{item.example}</Text>
                 <SpeakButton
                   kind="sentence"
                   speaking={speakingId === 'sentence:example'}
-                  onPress={() => toggle('sentence:example', item.exampleDe as string)}
+                  onPress={() => toggle('sentence:example', item.example as string)}
                   testID="speak-example"
                 />
               </View>
@@ -205,11 +205,11 @@ export default function WordDetailScreen() {
               {insight.examples.map((ex, i) => (
                 <View key={i} style={styles.coachExample}>
                   <View style={styles.sentenceRow}>
-                    <Text style={[typography.exampleDe, { color: colors.ink, flex: 1 }]}>{ex.de}</Text>
+                    <Text style={[typography.exampleDe, { color: colors.ink, flex: 1 }]}>{ex.target}</Text>
                     <SpeakButton
                       kind="sentence"
                       speaking={speakingId === `sentence:insight-${i}`}
-                      onPress={() => toggle(`sentence:insight-${i}`, ex.de)}
+                      onPress={() => toggle(`sentence:insight-${i}`, ex.target)}
                       testID={`speak-insight-${i}`}
                     />
                   </View>

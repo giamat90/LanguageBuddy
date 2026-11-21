@@ -26,7 +26,7 @@ const sp = Speech as unknown as {
 
 const card: ReviewCard = {
   id: 'c1', word: 'Wasser', article: 'das', translationIt: 'acqua', translationEn: 'water',
-  exampleDe: 'Ich trinke Wasser jeden Tag.', exampleIt: 'Bevo acqua ogni giorno.', exampleEn: 'I drink water every day.',
+  example: 'Ich trinke Wasser jeden Tag.', exampleIt: 'Bevo acqua ogni giorno.', exampleEn: 'I drink water every day.',
   cefrBand: 'A1', timesSeen: 1, retentionScore: 0.5,
 };
 
@@ -106,12 +106,12 @@ describe('find the mistake', () => {
 describe('word detail', () => {
   const word = {
     id: 'w1', word: 'Tisch', article: 'der', ipa: 'tɪʃ', partOfSpeech: 'noun',
-    meaningIt: 'tavolo', meaningEn: 'table', exampleDe: 'Der Tisch ist groß.', exampleIt: 'Il tavolo è grande.', exampleEn: 'The table is big.',
+    meaningIt: 'tavolo', meaningEn: 'table', example: 'Der Tisch ist groß.', exampleIt: 'Il tavolo è grande.', exampleEn: 'The table is big.',
     culturalNote: null, culturalNoteEn: null, cefrBand: 'A1', retentionScore: 0.5,
     nextReviewAt: new Date().toISOString(), timesSeen: 1, timesUsed: 0, firstSeenAt: new Date().toISOString(),
   };
   const insight = {
-    examples: [{ de: 'Ein Tisch.', native: 'Un tavolo.' }, { de: 'Zwei Tische.', native: 'Due tavoli.' }],
+    examples: [{ target: 'Ein Tisch.', native: 'Un tavolo.' }, { target: 'Zwei Tische.', native: 'Due tavoli.' }],
     note: 'nota',
     exercise: { sentence: 'Das ist ein ___.', answer: 'Tisch' },
   };
@@ -165,7 +165,7 @@ describe('word card and settings', () => {
   it('today\'s word card has a sentence button', () => {
     const WordCard = require('../src/components/ui/WordCard').default;
     const w = { id: 'd1', word: 'Tisch', article: 'der', ipa: 'tɪʃ', partOfSpeech: 'noun', meaningIt: 'tavolo', meaningEn: 'table',
-      exampleDe: 'Der Tisch ist groß.', exampleIt: 'x', exampleEn: 'y', culturalNote: null, culturalNoteEn: null, cefrBand: 'A1' };
+      example: 'Der Tisch ist groß.', exampleIt: 'x', exampleEn: 'y', culturalNote: null, culturalNoteEn: null, cefrBand: 'A1' };
     const r = render(<WordCard word={w} saveState="idle" streakDays={1} onSave={() => {}} onSkip={() => {}} />);
     fireEvent.press(r.getByTestId('speak-example'));
     expect(sp.__last()!.text).toBe('Der Tisch ist groß.');

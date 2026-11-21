@@ -17,7 +17,7 @@ function card(id: string, i: number, tier: 'new' | 'learning' = 'new', over: Par
     article: 'das',
     translationIt: it,
     translationEn: en,
-    exampleDe: null,
+    example: null,
     exampleIt: null,
     exampleEn: null,
     partOfSpeech: 'noun',

@@ -52,13 +52,13 @@ export default function WordCard({ word, saveState, streakDays, onSave, onSkip }
       <Divider style={styles.divider} />
 
       <SectionLabel label={t('word_section_example')} />
-      {word.exampleDe ? (
+      {word.example ? (
         <View style={styles.sentenceRow}>
-          <Text style={[typography.exampleDe, styles.exampleDe, { flex: 1 }]}>{word.exampleDe}</Text>
+          <Text style={[typography.exampleDe, styles.exampleDe, { flex: 1 }]}>{word.example}</Text>
           <SpeakButton
             kind="sentence"
             speaking={speakingId === 'sentence:example'}
-            onPress={() => toggle('sentence:example', word.exampleDe as string)}
+            onPress={() => toggle('sentence:example', word.example as string)}
             testID="speak-example"
           />
         </View>

@@ -1,0 +1,13 @@
+{
+  "code": "de",
+  "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
+  "ruleCodes": [
+    "VERB_CONJ_REGULAR", "NOUN_GENDER", "WORD_ORDER_V2", "NEGATION_NICHT_KEIN",
+    "VERB_CONJ_IRREGULAR", "ACCUSATIVE_MASC", "ACCUSATIVE_PREP", "SEPARABLE_VERB",
+    "DATIV_PREP", "DATIV_INDIRECT_OBJ", "MODAL_VERB", "PERF_SEIN_HABEN", "SUBORD_VERB_FINAL",
+    "KONJUNKTIV_II", "GENITIV_CASE", "PASSIVE_VOICE",
+    "KONJUNKTIV_I", "EXTENDED_ATTR"
+  ],
+  "partsOfSpeech": ["noun", "verb", "adj", "prep", "conj", "adv"],
+  "articles": ["der", "die", "das"]
+}

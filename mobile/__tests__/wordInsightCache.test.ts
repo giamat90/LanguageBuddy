@@ -6,7 +6,7 @@ import type { WordInsightResult } from '../src/lib/ai/wordInsight';
 const sqlite = require('expo-sqlite');
 
 const RESULT: WordInsightResult = {
-  examples: [{ de: 'Der Strom ist teuer.', native: 'The electricity is expensive.' }],
+  examples: [{ target: 'Der Strom ist teuer.', native: 'The electricity is expensive.' }],
   note: 'A note.',
   exercise: null,
 };

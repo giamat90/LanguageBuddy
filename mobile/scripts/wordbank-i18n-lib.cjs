@@ -3,10 +3,10 @@
  * and the Jest suite: parsing, validating and building the translated word content
  * (meaning, example sentence, cultural note) for the app languages beyond it/en.
  *
- * Source files: scripts/wordbank/i18n/<lang>/<LEVEL>.tsv, five tab-separated columns:
+ * Source files: scripts/wordbank/<target>/i18n/<lang>/<LEVEL>.tsv, five tab-separated columns:
  *   LEVEL  word  meaning  example  note
- * (`word` exactly as in the bank, `example` translates example_de, `note` translates the
- * cultural note). Output: src/data/wordbank/i18n/<lang>.json, `{ "<LEVEL>:<word>": [m, e, n] }`.
+ * (`word` exactly as in the bank, `example` translates the example, `note` translates the
+ * cultural note). Output: src/data/wordbank/<target>/i18n/<lang>.json, `{ "<LEVEL>:<word>": [m, e, n] }`.
  * Plain CommonJS so node scripts and jest can both require it.
  */
 
@@ -102,8 +102,8 @@ function validateLanguage({ lang, rows, bank, levels = LEVELS }) {
     if (r.note && r.note.length > e.cultural_note_en.length * 3 + 40) {
       problems.push(`${id}: note is too long (${r.note.length} for an English source of ${e.cultural_note_en.length})${at}`);
     }
-    if (r.example && r.example.trim() === e.example_de.trim()) {
-      problems.push(`${id}: example is still the German sentence${at}`);
+    if (r.example && r.example.trim() === e.example.trim()) {
+      problems.push(`${id}: example is still the source-language sentence${at}`);
     }
   }
 

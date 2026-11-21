@@ -106,7 +106,7 @@ GermanBuddy/
 │   │   ├── onboarding.tsx, quiz.tsx, topics.tsx
 │   │   └── (app)/                   # index (Vocabolario), today, review, practice, practice-session, grammar, word, settings
 │   ├── src/
-│   │   ├── data/                    # db.ts, schema.ts, srs.ts, backup.ts, dailyWord.ts, bootstrap.ts, wordbank/*.json
+│   │   ├── data/                    # db.ts, schema.ts, srs.ts, backup.ts, dailyWord.ts, bootstrap.ts, wordbank/<lang>/*.json
 │   │   ├── services/                # profile, word, vault, review (due + practice grading), grammar, restore
 │   │   ├── lib/
 │   │   │   ├── exercises/           # the exercise engine — pure TypeScript, no I/O (see §8)
@@ -117,7 +117,7 @@ GermanBuddy/
 │   │   ├── components/ui/           # design-system components
 │   │   ├── components/exercises/    # one view per exercise format
 │   │   └── store/ (incl. useAutoBackupStore), i18n/, theme/, types/, hooks/
-│   ├── scripts/                     # build-wordbank.mjs, validate-wordbank.mjs, wordbank/*.tsv (source of the word bank)
+│   ├── scripts/                     # build-wordbank.mjs, validate-wordbank.mjs, set-active-language.mjs, wordbank/<lang>/*.tsv (source of each word bank)
 │   ├── plugins/                     # withReleaseSigning.js, withAndroidBackupRules.js (Expo config plugins)
 │   ├── __tests__/, __mocks__/       # jest-expo; expo-sqlite and react-native-mmkv are mocked in memory
 │   └── app.config.js                # version and versionCode — single source of truth
@@ -168,8 +168,9 @@ for new tables, and `ensureColumn(...)` in `runMigrations` for new columns on ex
 | `ai_word_notes` | cached AI output, one row per word |
 | `schema_meta` | local bookkeeping (e.g. word-bank version) |
 
-**Word bank:** `mobile/src/data/wordbank/{A1…C2}.json` (2,194 entries; one example sentence each), generated from the TSV files in
-`mobile/scripts/wordbank/` with `npm run build:wordbank`. **Edit the TSVs, never the JSON.** `npm test` validates the bank first (`pretest`).
+**Word bank:** one folder per target language: `mobile/src/data/wordbank/<lang>/{A1…C2}.json` (German: 2,194 entries; one example sentence each, field `example`), generated from the TSV files in
+`mobile/scripts/wordbank/<lang>/` (plus its `language.json` with the rule codes, parts of speech and articles the validator accepts) with `npm run build:wordbank`.
+One language is active per build: `npm run set:language -- <code>` (default `de`) regenerates the seams `src/data/wordbank/active.ts`, `src/i18n/wordContentLoaders.ts` and `src/languages/active.ts`. Database columns keep their legacy names (`example_de`); the data layer maps them to `example`. **Edit the TSVs, never the JSON.** `npm test` validates the bank first (`pretest`).
 Bump `WORDBANK_VERSION` in `wordbank/index.ts` whenever the bundled data changes.
 
 **Backups** (`src/data/backup.ts`): a single JSON file (`format` 1) holding every user table plus a few MMKV values. Restore replaces **all** local data in a

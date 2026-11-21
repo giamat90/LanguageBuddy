@@ -64,7 +64,7 @@ describe('fetchVaultCards', () => {
     expect(brot).toMatchObject({
       id: 'v2', timesSeen: 4, retentionScore: 0.9, partOfSpeech: 'noun', cefrBand: 'A1',
     });
-    expect(typeof brot.exampleDe).toBe('string');
+    expect(typeof brot.example).toBe('string');
   });
 });
 

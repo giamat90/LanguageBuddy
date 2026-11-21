@@ -6,7 +6,7 @@ export interface DailyWord {
   ipa: string | null;
   meaningIt: string | null;
   meaningEn: string | null;
-  exampleDe: string | null;
+  example: string | null;
   exampleIt: string | null;
   exampleEn: string | null;
   culturalNote: string | null;
@@ -37,7 +37,7 @@ export interface VaultWordDetail {
   partOfSpeech: string | null;
   meaningIt: string | null;
   meaningEn: string | null;
-  exampleDe: string | null;
+  example: string | null;
   exampleIt: string | null;
   exampleEn: string | null;
   culturalNote: string | null;

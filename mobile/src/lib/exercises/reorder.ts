@@ -28,8 +28,8 @@ export function shuffleTokens(tokens: string[], rng: Rng): string[] {
  * exercise is about that word and fits a phone screen.
  */
 export function buildReorder(card: ReviewCard, rng: Rng): SentenceReorderModel | null {
-  if (!card.exampleDe || !buildCloze(card.exampleDe, card.word)) return null;
-  const solution = tokenizeSentence(card.exampleDe);
+  if (!card.example || !buildCloze(card.example, card.word)) return null;
+  const solution = tokenizeSentence(card.example);
   if (solution.length < REORDER_MIN_TOKENS || solution.length > REORDER_MAX_TOKENS) return null;
 
   const tokens = shuffleTokens(solution, rng);

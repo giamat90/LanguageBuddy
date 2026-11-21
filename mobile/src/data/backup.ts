@@ -1,3 +1,4 @@
+import { getActivePack } from '../languages';
 import Constants from 'expo-constants';
 import * as DocumentPicker from 'expo-document-picker';
 import * as FileSystem from 'expo-file-system';
@@ -30,7 +31,8 @@ import {
  */
 
 const BACKUP_FORMAT = 1;
-const APP_TAG = 'GermanBuddy';
+// The tag a backup carries and must carry to be restored: a backup of one app is never accepted by another.
+const appTag = (): string => getActivePack().app.backupTag;
 
 /** User-data tables, in FK-safe insert order. schema_meta is deliberately
  *  excluded — it's local bundle state, re-derived on next launch. */
@@ -138,7 +140,7 @@ export async function buildBackup(opts: BackupOptions = {}): Promise<BackupFile>
 
   return {
     format: BACKUP_FORMAT,
-    app: APP_TAG,
+    app: appTag(),
     appVersion: Constants.expoConfig?.version ?? 'unknown',
     createdAt: new Date().toISOString(),
     counts: {
@@ -156,7 +158,7 @@ export async function exportBackup(opts: BackupOptions = {}): Promise<void> {
   }
 
   const backup = await buildBackup(opts);
-  const target = `${FileSystem.cacheDirectory}${APP_TAG}-backup-${stamp()}.json`;
+  const target = `${FileSystem.cacheDirectory}${appTag()}-backup-${stamp()}.json`;
   await FileSystem.writeAsStringAsync(target, JSON.stringify(backup), {
     encoding: FileSystem.EncodingType.UTF8,
   });
@@ -173,7 +175,7 @@ export async function exportBackup(opts: BackupOptions = {}): Promise<void> {
 function validate(raw: unknown): BackupFile {
   if (!raw || typeof raw !== 'object') throw new Error('Il file di backup non è valido.');
   const b = raw as Partial<BackupFile>;
-  if (b.app !== APP_TAG || typeof b.format !== 'number' || !b.db || typeof b.db !== 'object') {
+  if (b.app !== appTag() || typeof b.format !== 'number' || !b.db || typeof b.db !== 'object') {
     throw new Error('Questo file non è un backup di GermanBuddy.');
   }
   for (const table of DATA_TABLES) {

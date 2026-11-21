@@ -17,7 +17,7 @@ function makeCard(over: Partial<ReviewCard> = {}): ReviewCard {
     article: 'das',
     translationIt: 'pane',
     translationEn: 'bread',
-    exampleDe: 'Ich kaufe das Brot beim Bäcker.',
+    example: 'Ich kaufe das Brot beim Bäcker.',
     exampleIt: 'Compro il pane dal panettiere.',
     exampleEn: 'I buy the bread at the baker.',
     partOfSpeech: 'noun',
@@ -208,12 +208,12 @@ describe('sentence reorder', () => {
   });
 
   it('buildReorder respects the 4..10 token window and requires the word in the sentence', () => {
-    expect(buildReorder(makeCard({ word: 'Wasser', exampleDe: 'Ich trinke Wasser.' }), () => 0.3)).toBeNull(); // 3 tokens
-    expect(buildReorder(makeCard({ word: 'Wasser', exampleDe: 'Ich trinke Wasser.' }), () => 0.3)).toBeNull();
-    expect(buildReorder(makeCard({ word: 'Brot', exampleDe: 'Ich esse heute Abend mit meiner Familie gern frisches Brot zum Fruehstueck.' }), () => 0.3)).toBeNull(); // 11 tokens
-    expect(buildReorder(makeCard({ word: 'Brot', exampleDe: 'Ich trinke heute Abend gern Wasser.' }), () => 0.3)).toBeNull(); // no "Brot"
-    expect(buildReorder(makeCard({ exampleDe: null }), () => 0.3)).toBeNull();
-    expect(buildReorder(makeCard({ word: 'Ja', exampleDe: 'Ja Ja Ja Ja' }), () => 0.3)).toBeNull(); // identical tiles cannot be shuffled
+    expect(buildReorder(makeCard({ word: 'Wasser', example: 'Ich trinke Wasser.' }), () => 0.3)).toBeNull(); // 3 tokens
+    expect(buildReorder(makeCard({ word: 'Wasser', example: 'Ich trinke Wasser.' }), () => 0.3)).toBeNull();
+    expect(buildReorder(makeCard({ word: 'Brot', example: 'Ich esse heute Abend mit meiner Familie gern frisches Brot zum Fruehstueck.' }), () => 0.3)).toBeNull(); // 11 tokens
+    expect(buildReorder(makeCard({ word: 'Brot', example: 'Ich trinke heute Abend gern Wasser.' }), () => 0.3)).toBeNull(); // no "Brot"
+    expect(buildReorder(makeCard({ example: null }), () => 0.3)).toBeNull();
+    expect(buildReorder(makeCard({ word: 'Ja', example: 'Ja Ja Ja Ja' }), () => 0.3)).toBeNull(); // identical tiles cannot be shuffled
   });
 
   it('gradeReorder compares token by token', () => {
@@ -226,7 +226,7 @@ describe('sentence reorder', () => {
   it('is available for most of the real bank', () => {
     let eligible = 0;
     for (const { entry } of allEntries()) {
-      const card = makeCard({ word: entry.word, exampleDe: entry.example_de });
+      const card = makeCard({ word: entry.word, example: entry.example });
       if (buildReorder(card, () => 0.3)) eligible++;
     }
     expect(eligible).toBeGreaterThanOrEqual(1500);
@@ -301,14 +301,14 @@ describe('registry: tier gating and weights', () => {
   });
 
   it('typed cloze is the only choice when the sentence is too short to reorder', () => {
-    const card = makeCard({ word: 'Wasser', exampleDe: 'Ich trinke Wasser.' });
+    const card = makeCard({ word: 'Wasser', example: 'Ich trinke Wasser.' });
     for (const r of [0, 0.5, 0.99]) {
       expect(pickExercise(card, DEFAULT_REGISTRY, () => r).kind).toBe('typed_cloze');
     }
   });
 
   it('falls back to a flashcard when nothing applies', () => {
-    expect(pickExercise(makeCard({ exampleDe: null })).kind).toBe('flashcard');             // learning, no example
+    expect(pickExercise(makeCard({ example: null })).kind).toBe('flashcard');             // learning, no example
     expect(pickExercise(newCard({ partOfSpeech: 'interj' })).kind).toBe('flashcard');       // new, no distractors
     expect(pickExercise(newCard({ partOfSpeech: null })).kind).toBe('flashcard');
   });

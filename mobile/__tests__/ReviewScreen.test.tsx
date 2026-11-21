@@ -19,13 +19,13 @@ const wasser: ReviewCard = {
   article: 'das',
   translationIt: 'acqua',
   translationEn: 'water',
-  exampleDe: 'Ich trinke Wasser.',
+  example: 'Ich trinke Wasser.',
   exampleIt: 'Bevo acqua.',
   exampleEn: 'I drink water.',
   timesSeen: 2,
   retentionScore: 0.7,
 };
-const flashOnly: ReviewCard = { ...wasser, id: 'c2', word: 'Haus', exampleDe: null };
+const flashOnly: ReviewCard = { ...wasser, id: 'c2', word: 'Haus', example: null };
 
 const PLACEHOLDER = 'Scrivi la parola mancante';
 

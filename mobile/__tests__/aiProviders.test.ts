@@ -217,7 +217,7 @@ describe('generateWordInsight through the openai provider', () => {
     const res = await generateWordInsight({
       word: 'Haus', article: 'das', meaningNative: 'casa', cefrLevel: 'A1', nativeLanguage: 'it',
     });
-    expect(res.examples[0].de).toContain('Haus');
+    expect(res.examples[0].target).toContain('Haus');
     expect(res.exercise?.answer).toBe('Haus');
 
     const { body } = lastCall();

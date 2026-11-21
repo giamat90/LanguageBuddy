@@ -16,7 +16,7 @@ it('speaks article + word from the detail screen', async () => {
   speechMock.__reset();
   (vaultService.fetchVaultWord as jest.Mock).mockResolvedValue({
     id: 'w1', word: 'Tisch', article: 'der', ipa: 'tɪʃ', partOfSpeech: 'noun',
-    meaningIt: 'tavolo', meaningEn: 'table', exampleDe: null, exampleIt: null, exampleEn: null,
+    meaningIt: 'tavolo', meaningEn: 'table', example: null, exampleIt: null, exampleEn: null,
     culturalNote: null, culturalNoteEn: null, cefrBand: 'A1', retentionScore: 0.5,
     nextReviewAt: new Date().toISOString(), timesSeen: 1, timesUsed: 0, firstSeenAt: new Date().toISOString(),
   });

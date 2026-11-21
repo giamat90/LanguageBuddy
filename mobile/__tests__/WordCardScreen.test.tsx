@@ -16,7 +16,7 @@ jest.mock('expo-router', () => ({
 const mockWord: DailyWord = {
   id: '1', word: 'Gemütlichkeit', article: 'die', partOfSpeech: 'noun',
   ipa: 'ɡəˈmyːtlɪçkaɪt', meaningIt: 'accoglienza, calore', meaningEn: 'coziness',
-  exampleDe: 'Das Café hat eine tolle Gemütlichkeit.',
+  example: 'Das Café hat eine tolle Gemütlichkeit.',
   exampleIt: 'Il caffè ha una grande accoglienza.',
   exampleEn: 'The café has a great coziness.',
   culturalNote: 'Un concetto tedesco intraducibile.',

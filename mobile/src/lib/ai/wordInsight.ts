@@ -12,12 +12,25 @@ import { languageEnglishName, type NativeLanguage } from '../../i18n/language';
  */
 
 export interface InsightExample {
-  de: string;
+  target: string;
   native: string;
 }
 
+/**
+ * One example from an AI answer. The sentence is under `target`; answers cached before TASK-042
+ * (and a model that still answers the old way) use `de`, which stays readable.
+ * Returns null when there is no usable sentence or translation.
+ */
+export function normalizeExample(e: unknown): InsightExample | null {
+  if (!e || typeof e !== 'object') return null;
+  const r = e as { target?: unknown; de?: unknown; native?: unknown };
+  const sentence = typeof r.target === 'string' ? r.target : typeof r.de === 'string' ? r.de : null;
+  if (sentence === null || typeof r.native !== 'string') return null;
+  return { target: sentence, native: r.native };
+}
+
 export interface InsightExercise {
-  /** A German sentence with the target word replaced by "___". */
+  /** A sentence in the target language with the target word replaced by "___". */
   sentence: string;
   answer: string;
 }
@@ -47,7 +60,7 @@ with valid JSON, no text before or after, no markdown.`;
 function buildPrompt({ word, article, meaningNative, cefrLevel, nativeLanguage }: WordInsightInput): string {
   const headword = article ? `${article} ${word}` : word;
   const langName = languageEnglishName(nativeLanguage);
-  const { languageName: target, exampleKey } = getActivePack().ai;
+  const target = getActivePack().ai.languageName;
   return `Word: ${headword}${meaningNative ? ` (${meaningNative})` : ''}
 Student's level: ${cefrLevel}
 
@@ -56,7 +69,7 @@ Generate study material for this word, suitable for level ${cefrLevel}.
 Respond with exactly this JSON shape:
 {
   "examples": [
-    { "${exampleKey}": "a ${target} sentence using the word", "native": "${langName} translation" }
+    { "target": "a ${target} sentence using the word", "native": "${langName} translation" }
   ],
   "note": "a usage note in ${langName}, max 2 sentences (register, nuance, common mistakes, related words)",
   "exercise": {
@@ -85,11 +98,9 @@ export async function generateWordInsight(input: WordInsightInput): Promise<Word
     throw new Error('invalid AI response');
   }
 
-  const parsed = JSON.parse(match[0]) as Partial<WordInsightResult>;
+  const parsed = JSON.parse(match[0]) as { examples?: unknown[]; note?: unknown; exercise?: { sentence?: unknown; answer?: unknown } | null };
   const examples = Array.isArray(parsed.examples)
-    ? parsed.examples
-        .filter((e): e is InsightExample => !!e && typeof e.de === 'string' && typeof e.native === 'string')
-        .slice(0, 3)
+    ? parsed.examples.map(normalizeExample).filter((e): e is InsightExample => e !== null).slice(0, 3)
     : [];
   if (examples.length === 0 || typeof parsed.note !== 'string') {
     console.error('[wordInsight] malformed AI payload:', parsed);

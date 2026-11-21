@@ -28,7 +28,7 @@ const { MMKV } = require('react-native-mmkv');
 const word: DailyWord = {
   id: '1', word: 'Brot', article: 'das', partOfSpeech: 'noun', ipa: 'bʁoːt',
   meaningIt: 'pane', meaningEn: 'bread',
-  exampleDe: 'Ich kaufe das Brot.', exampleIt: 'Compro il pane.', exampleEn: 'I buy the bread.',
+  example: 'Ich kaufe das Brot.', exampleIt: 'Compro il pane.', exampleEn: 'I buy the bread.',
   culturalNote: 'Nota italiana.', culturalNoteEn: 'English note.',
   grammarAngle: 'NOUN_GENDER', topicDomain: 'food', cefrBand: 'A1', date: '2026-10-15', isSaved: false,
 };

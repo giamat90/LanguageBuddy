@@ -16,7 +16,7 @@ function card(
     article: 'das',
     translationIt: it,
     translationEn: en,
-    exampleDe: null,
+    example: null,
     exampleIt: null,
     exampleEn: null,
     partOfSpeech: 'noun',
@@ -29,7 +29,7 @@ function card(
 }
 
 const withSentence = (id: string, word: string, it: string, en: string, sentence: string, over: Partial<ReviewCard> = {}) =>
-  card(id, word, it, en, { exampleDe: sentence, exampleIt: 'x', exampleEn: 'x', ...over });
+  card(id, word, it, en, { example: sentence, exampleIt: 'x', exampleEn: 'x', ...over });
 
 const brot = (over: Partial<ReviewCard> = {}) =>
   withSentence('1', 'Brot', 'pane', 'bread', 'Ich kaufe das Brot beim Bäcker.', over);

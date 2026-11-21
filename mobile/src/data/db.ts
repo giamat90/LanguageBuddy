@@ -1,5 +1,6 @@
 import * as SQLite from 'expo-sqlite';
 import { runMigrations } from './schema';
+import { getActivePack } from '../languages';
 
 type NativeDb = SQLite.SQLiteDatabase;
 
@@ -62,7 +63,7 @@ async function whileLocked<T>(fn: () => Promise<T>): Promise<T> {
 
 async function openRaw(): Promise<NativeDb> {
   // enableChangeListener lets the automatic backup (lib/autoBackup) hear about every write.
-  const db = await SQLite.openDatabaseAsync('germanbuddy.db', {
+  const db = await SQLite.openDatabaseAsync(getActivePack().app.dbFile, {
     enableChangeListener: true,
     useNewConnection: true,
   });

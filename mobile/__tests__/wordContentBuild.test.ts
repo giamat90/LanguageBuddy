@@ -4,12 +4,12 @@ import { normalizeLocal } from '../src/lib/exercises/distractors';
 
 const bank = {
   A1: [
-    { word: 'Brot', part_of_speech: 'noun', meaning_en: 'bread', example_de: 'Ich kaufe das Brot.', example_en: 'I buy the bread.', cultural_note_en: 'Germany has over 3,000 types of bread.' },
-    { word: 'Haus', part_of_speech: 'noun', meaning_en: 'house', example_de: 'Das Haus ist groß.', example_en: 'The house is big.', cultural_note_en: 'Houses often have a cellar.' },
-    { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example_de: 'Wir gehen heute.', example_en: 'We go today.', cultural_note_en: 'Gehen forms many expressions.' },
+    { word: 'Brot', part_of_speech: 'noun', meaning_en: 'bread', example: 'Ich kaufe das Brot.', example_en: 'I buy the bread.', cultural_note_en: 'Germany has over 3,000 types of bread.' },
+    { word: 'Haus', part_of_speech: 'noun', meaning_en: 'house', example: 'Das Haus ist groß.', example_en: 'The house is big.', cultural_note_en: 'Houses often have a cellar.' },
+    { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example: 'Wir gehen heute.', example_en: 'We go today.', cultural_note_en: 'Gehen forms many expressions.' },
   ],
   A2: [
-    { word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat', example_de: 'Wir essen um acht.', example_en: 'We eat at eight.', cultural_note_en: 'Dinner is early.' },
+    { word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat', example: 'Wir essen um acht.', example_en: 'We eat at eight.', cultural_note_en: 'Dinner is early.' },
   ],
 };
 
@@ -89,10 +89,10 @@ describe('validateLanguage', () => {
     expect(out).toMatch(/A1:Haus.*note.*too long/);
   });
 
-  it('reports an example left as the German sentence', () => {
+  it('reports an example left as the source sentence', () => {
     const rows = good();
     rows[0].example = 'Ich kaufe das Brot.';
-    expect(run(rows).join('\n')).toMatch(/A1:Brot.*example.*German/);
+    expect(run(rows).join('\n')).toMatch(/A1:Brot.*example.*source/);
   });
 
   it('allows a meaning equal to the German word (loanwords)', () => {
@@ -131,8 +131,8 @@ describe('validateLanguage', () => {
   it('reports same-part-of-speech entries that read identically, when English tells them apart', () => {
     const two = {
       A1: [
-        { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example_de: 'a', example_en: 'a b', cultural_note_en: 'n' },
-        { word: 'eilen', part_of_speech: 'verb', meaning_en: 'to hurry', example_de: 'c', example_en: 'c d', cultural_note_en: 'n' },
+        { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example: 'a', example_en: 'a b', cultural_note_en: 'n' },
+        { word: 'eilen', part_of_speech: 'verb', meaning_en: 'to hurry', example: 'c', example_en: 'c d', cultural_note_en: 'n' },
       ],
     };
     const rows = [
@@ -146,8 +146,8 @@ describe('validateLanguage', () => {
   it('does not report a collision when a qualifier tells the two apart', () => {
     const two = {
       A1: [
-        { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example_de: 'a', example_en: 'a b', cultural_note_en: 'n' },
-        { word: 'eilen', part_of_speech: 'verb', meaning_en: 'to hurry', example_de: 'c', example_en: 'c d', cultural_note_en: 'n' },
+        { word: 'gehen', part_of_speech: 'verb', meaning_en: 'to go', example: 'a', example_en: 'a b', cultural_note_en: 'n' },
+        { word: 'eilen', part_of_speech: 'verb', meaning_en: 'to hurry', example: 'c', example_en: 'c d', cultural_note_en: 'n' },
       ],
     };
     const rows = [
@@ -160,8 +160,8 @@ describe('validateLanguage', () => {
   it('does not report a collision when English reads the same too (nothing to tell apart)', () => {
     const two = {
       A1: [
-        { word: 'a', part_of_speech: 'noun', meaning_en: 'car', example_de: 'a', example_en: 'a b', cultural_note_en: 'n' },
-        { word: 'b', part_of_speech: 'noun', meaning_en: 'Car', example_de: 'c', example_en: 'c d', cultural_note_en: 'n' },
+        { word: 'a', part_of_speech: 'noun', meaning_en: 'car', example: 'a', example_en: 'a b', cultural_note_en: 'n' },
+        { word: 'b', part_of_speech: 'noun', meaning_en: 'Car', example: 'c', example_en: 'c d', cultural_note_en: 'n' },
       ],
     };
     const rows = [
@@ -173,8 +173,8 @@ describe('validateLanguage', () => {
 
   it('does not report a collision between the same word listed in two levels', () => {
     const two = {
-      A1: [{ word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat', example_de: 'a', example_en: 'a b', cultural_note_en: 'n' }],
-      A2: [{ word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat (a meal)', example_de: 'c', example_en: 'c d', cultural_note_en: 'n' }],
+      A1: [{ word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat', example: 'a', example_en: 'a b', cultural_note_en: 'n' }],
+      A2: [{ word: 'essen', part_of_speech: 'verb', meaning_en: 'to eat (a meal)', example: 'c', example_en: 'c d', cultural_note_en: 'n' }],
     };
     const rows = [
       { level: 'A1', word: 'essen', meaning: 'manger', example: 'x y', note: 'n' },

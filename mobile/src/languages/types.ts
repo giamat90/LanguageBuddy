@@ -42,6 +42,8 @@ export interface LanguagePack {
   code: TargetLanguageCode;
   /** English name, used in AI prompts ("German"). */
   name: string;
+  /** App identity: the name shown in dialogs, the tag written into (and required of) backups, the SQLite file. */
+  app: { name: string; backupTag: string; dbFile: string };
   /** What a word is made of: a regex with exactly ONE capture group (so `split` keeps the words). */
   letters: RegExp;
   /** Lower-cases, trims and folds the letters a learner may slip on (ß→ss, ä→a …). */
@@ -51,7 +53,7 @@ export interface LanguagePack {
   /** Quotes and punctuation split off a token. */
   punctuation: { lead: RegExp; trail: RegExp };
   speech: { locale: string; rate: number };
-  ai: { languageName: string; exampleKey: string };
+  ai: { languageName: string };
   articles: ArticleSupport | null;
   /** null → "find the mistake" has no gender slot. */
   gender: GenderSupport | null;

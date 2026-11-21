@@ -46,7 +46,7 @@ function mapRow(r: DailyItemRow): DailyWord {
     ipa: r.ipa,
     meaningIt: r.meaning_it,
     meaningEn: r.meaning_en,
-    exampleDe: r.example_de,
+    example: r.example_de,
     exampleIt: r.example_it,
     exampleEn: r.example_en,
     culturalNote: r.cultural_note,
@@ -96,7 +96,7 @@ export async function fetchTodayWord(): Promise<DailyWord | null> {
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL)`,
     [
       `${id}:${today}`, today, entry.word, entry.article, entry.part_of_speech, entry.ipa,
-      entry.meaning_en, entry.meaning_it, entry.example_de, entry.example_it, entry.example_en,
+      entry.meaning_en, entry.meaning_it, entry.example, entry.example_it, entry.example_en,
       entry.cultural_note, entry.cultural_note_en, entry.grammar_angle, entry.topic_domain,
       entry.cefr_band, entry.session_scenario,
     ],

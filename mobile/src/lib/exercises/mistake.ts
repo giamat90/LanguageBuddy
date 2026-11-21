@@ -66,8 +66,8 @@ function pick<T>(list: T[], rng: Rng): T {
  * kind, only when both kinds are possible; (2) one call for the wrong form; (3) the options shuffle.
  */
 export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack = getActivePack()): FindMistakeModel | null {
-  if (!card.exampleDe) return null;
-  const tokens = card.exampleDe.trim().split(/\s+/);
+  if (!card.example) return null;
+  const tokens = card.example.trim().split(/\s+/);
   if (tokens.length < MISTAKE_MIN_TOKENS || tokens.length > MISTAKE_MAX_TOKENS) return null;
 
   const core = (i: number) => splitToken(tokens[i], pack).core.toLowerCase();

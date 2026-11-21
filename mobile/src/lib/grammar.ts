@@ -131,11 +131,11 @@ export function buildArticleQuestion(
 }
 
 export function buildCaseQuestion(
-  entry: { word: string; example_de: string; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
+  entry: { word: string; example: string; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
   rng: Rng = Math.random,
   pack: LanguagePack = getActivePack(),
 ): GrammarQuestion | null {
-  const cloze = buildCaseCloze(entry.example_de, entry.grammar_angle, pack);
+  const cloze = buildCaseCloze(entry.example, entry.grammar_angle, pack);
   if (!cloze) return null;
   const initial = cloze.before.trim() === '';
   const fmt = (s: string) => (initial ? capitalize(s) : s);

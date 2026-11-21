@@ -25,7 +25,7 @@ describe('fetchVaultWord', () => {
 
     expect(detail).not.toBeNull();
     expect(detail!.word).toBe(today!.word);
-    expect(detail!.exampleDe).toBe(today!.exampleDe);
+    expect(detail!.example).toBe(today!.example);
     expect(detail!.culturalNote).toBe(today!.culturalNote);
     expect(detail!.retentionScore).toBe(0.5);
     expect(typeof detail!.nextReviewAt).toBe('string');

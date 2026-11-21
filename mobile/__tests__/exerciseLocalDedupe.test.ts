@@ -8,7 +8,7 @@ const rng = () => 0.5;
 function card(word: string, it: string, en: string, id = word): ReviewCard {
   return {
     id, word, article: null, translationIt: it, translationEn: en,
-    exampleDe: `${word}.`, exampleIt: '', exampleEn: '',
+    example: `${word}.`, exampleIt: '', exampleEn: '',
     partOfSpeech: 'verb', cefrBand: 'A1', topicDomain: 'food', timesSeen: 0, retentionScore: 0.5,
   };
 }

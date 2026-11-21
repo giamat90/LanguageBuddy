@@ -11,7 +11,7 @@ export interface ReviewCard {
   article: string | null;
   translationIt: string | null;
   translationEn: string | null;
-  exampleDe: string | null;
+  example: string | null;
   exampleIt: string | null;
   exampleEn: string | null;
   /** From the word bank; null/absent when the word is not in it. Used to pick multiple-choice distractors. */
@@ -33,7 +33,7 @@ interface ReviewRow {
 }
 
 interface BankInfo {
-  de: string;
+  example: string;
   it: string;
   en: string;
   pos: string;
@@ -48,7 +48,7 @@ function bankFor(word: string): BankInfo | undefined {
     bankIndex = new Map();
     for (const { level, entry } of allEntries()) {
       bankIndex.set(entry.word.toLowerCase(), {
-        de: entry.example_de,
+        example: entry.example,
         it: entry.example_it,
         en: entry.example_en,
         pos: entry.part_of_speech,
@@ -68,7 +68,7 @@ function toCard(r: ReviewRow): ReviewCard {
     article: r.article,
     translationIt: r.translation_it,
     translationEn: r.translation_en,
-    exampleDe: bank?.de ?? null,
+    example: bank?.example ?? null,
     exampleIt: bank?.it ?? null,
     exampleEn: bank?.en ?? null,
     partOfSpeech: bank?.pos ?? null,

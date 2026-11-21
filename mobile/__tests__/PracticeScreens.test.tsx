@@ -23,7 +23,7 @@ function word(id: string, w: string, it: string, en: string, sentence: string | 
     article: 'das',
     translationIt: it,
     translationEn: en,
-    exampleDe: sentence,
+    example: sentence,
     exampleIt: sentence ? 'x' : null,
     exampleEn: sentence ? 'x' : null,
     partOfSpeech: 'noun',

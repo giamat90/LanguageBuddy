@@ -1,6 +1,6 @@
 # TASK-042 — Neutral word-bank schema and one bank per language
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-041 (pushed, `f13d482`)

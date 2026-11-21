@@ -30,7 +30,7 @@ function bank(id: string, word: string, it: string, en: string, over: Partial<Re
     article: 'das',
     translationIt: it,
     translationEn: en,
-    exampleDe: null,
+    example: null,
     exampleIt: null,
     exampleEn: null,
     partOfSpeech: 'noun',
@@ -44,7 +44,7 @@ function bank(id: string, word: string, it: string, en: string, over: Partial<Re
 
 const brotNew = bank('c1', 'Brot', 'pane', 'bread');
 const brotLearning = bank('c1', 'Brot', 'pane', 'bread', {
-  exampleDe: 'Ich kaufe das Brot beim Bäcker.',
+  example: 'Ich kaufe das Brot beim Bäcker.',
   exampleIt: 'Compro il pane dal panettiere.',
   exampleEn: 'I buy the bread at the baker.',
   article: null, // no article: "find the mistake" needs one, so reorder stays the only second candidate
@@ -204,7 +204,7 @@ describe('ReviewScreen — find the mistake', () => {
   afterEach(() => random.mockRestore());
 
   const haus = bank('c1', 'Haus', 'casa', 'house', {
-    exampleDe: 'Das Haus ist sehr groß.',
+    example: 'Das Haus ist sehr groß.',
     exampleIt: 'La casa è molto grande.',
     exampleEn: 'The house is very big.',
     timesSeen: 2,
@@ -213,7 +213,7 @@ describe('ReviewScreen — find the mistake', () => {
   const lehrer = bank('c2', 'sprechen', 'parlare', 'to speak', {
     article: null,
     partOfSpeech: 'verb',
-    exampleDe: 'Ich spreche mit dem Lehrer.',
+    example: 'Ich spreche mit dem Lehrer.',
     exampleIt: 'Parlo con il maestro.',
     exampleEn: 'I speak with the teacher.',
     timesSeen: 2,

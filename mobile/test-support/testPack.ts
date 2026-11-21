@@ -4,6 +4,7 @@ import type { LanguagePack } from '../src/languages';
 export const testPack: LanguagePack = {
   code: 'de', // the code type is only widened by later tasks
   name: 'Spanish',
+  app: { name: 'SpanishBuddy', backupTag: 'SpanishBuddy', dbFile: 'spanishbuddy.db' },
   letters: /([A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+)/,
   fold: (s) =>
     s
@@ -15,7 +16,7 @@ export const testPack: LanguagePack = {
   typoMinLength: 5,
   punctuation: { lead: /^[¿¡"«(']+/, trail: /[.,!?;:"»)'…]+$/ },
   speech: { locale: 'es-ES', rate: 0.9 },
-  ai: { languageName: 'Spanish', exampleKey: 'es' },
+  ai: { languageName: 'Spanish' },
   articles: {
     forms: ['el', 'la'],
     rule: 'NOUN_GENDER',

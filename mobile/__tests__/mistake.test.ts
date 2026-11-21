@@ -18,7 +18,7 @@ function card(over: Partial<ReviewCard> = {}): ReviewCard {
     article: 'das',
     translationIt: 'casa',
     translationEn: 'house',
-    exampleDe: 'Das Haus ist sehr groß.',
+    example: 'Das Haus ist sehr groß.',
     exampleIt: 'La casa è molto grande.',
     exampleEn: 'The house is very big.',
     partOfSpeech: 'noun',
@@ -30,7 +30,7 @@ function card(over: Partial<ReviewCard> = {}): ReviewCard {
   };
 }
 const verb = (sentence: string) =>
-  card({ word: 'gehen', article: null, partOfSpeech: 'verb', exampleDe: sentence });
+  card({ word: 'gehen', article: null, partOfSpeech: 'verb', example: sentence });
 
 function seeded(seed: number): Rng {
   let s = seed >>> 0;
@@ -116,7 +116,7 @@ describe('buildFindMistake — gender kind', () => {
 
   it('only uses forms that are never valid for that gender', () => {
     for (const art of ['der', 'die', 'das'] as const) {
-      const base = card({ article: art, exampleDe: `${art} Haus ist sehr groß.` });
+      const base = card({ article: art, example: `${art} Haus ist sehr groß.` });
       for (const r of [0, 0.3, 0.6, 0.99]) {
         const m = buildFindMistake(base, () => r)!;
         expect(NEVER_VALID[art]).toContain(lowerCore(m.tokens[0]));
@@ -125,11 +125,11 @@ describe('buildFindMistake — gender kind', () => {
   });
 
   it('keeps lower case, and quotes and punctuation attached to the slot token', () => {
-    const lower = buildFindMistake(card({ exampleDe: 'Ich sehe das Haus am See.' }), () => 0.4)!;
+    const lower = buildFindMistake(card({ example: 'Ich sehe das Haus am See.' }), () => 0.4)!;
     expect(lower.tokens[2]).toBe(lower.tokens[2].toLowerCase());
     expect(lower.correctToken).toBe('das');
 
-    const quoted = buildFindMistake(card({ exampleDe: '„Das Haus ist sehr groß.' }), () => 0)!;
+    const quoted = buildFindMistake(card({ example: '„Das Haus ist sehr groß.' }), () => 0)!;
     expect(quoted.correctToken).toBe('„Das');
     expect(quoted.tokens[0].startsWith('„')).toBe(true);
     expect(quoted.tokens[0]).not.toBe('„Das');
@@ -140,16 +140,16 @@ describe('buildFindMistake — gender kind', () => {
     expect([...m.options].sort()).toEqual(['Das', 'Der', 'Die']);
     expect(m.options[m.correctOption]).toBe('Das');
 
-    const lower = buildFindMistake(card({ exampleDe: 'Ich sehe das Haus am See.' }), seeded(3))!;
+    const lower = buildFindMistake(card({ example: 'Ich sehe das Haus am See.' }), seeded(3))!;
     expect([...lower.options].sort()).toEqual(['das', 'der', 'die']);
     expect(lower.options[lower.correctOption]).toBe('das');
   });
 
   it('requires the card article directly before the word', () => {
-    expect(buildFindMistake(card({ exampleDe: 'Ich sehe die Haus.' }), () => 0)).toBeNull(); // wrong article already
-    expect(buildFindMistake(card({ exampleDe: 'Ich sehe ein Haus am See.' }), () => 0)).toBeNull(); // not a definite article
-    expect(buildFindMistake(card({ exampleDe: 'Das schöne Haus ist sehr groß.' }), () => 0)).toBeNull(); // adjective in between
-    expect(buildFindMistake(card({ exampleDe: 'Das Haustür ist sehr neu.' }), () => 0)).toBeNull(); // longer word
+    expect(buildFindMistake(card({ example: 'Ich sehe die Haus.' }), () => 0)).toBeNull(); // wrong article already
+    expect(buildFindMistake(card({ example: 'Ich sehe ein Haus am See.' }), () => 0)).toBeNull(); // not a definite article
+    expect(buildFindMistake(card({ example: 'Das schöne Haus ist sehr groß.' }), () => 0)).toBeNull(); // adjective in between
+    expect(buildFindMistake(card({ example: 'Das Haustür ist sehr neu.' }), () => 0)).toBeNull(); // longer word
   });
 
   it('skips neuter nouns whose plural can look the same: any article form could then be a plural', () => {
@@ -161,12 +161,12 @@ describe('buildFindMistake — gender kind', () => {
       ['Fenster', 'Das Fenster ist noch offen.'],
       ['Mädchen', 'Das Mädchen spielt im Garten.'],
     ]) {
-      expect(buildFindMistake(card({ word, exampleDe: sentence }), () => 0)).toBeNull();
+      expect(buildFindMistake(card({ word, example: sentence }), () => 0)).toBeNull();
     }
   });
 
   it('for masculine nouns whose plural can look the same only "das" is certainly wrong', () => {
-    const lehrer = card({ word: 'Lehrer', article: 'der', exampleDe: 'Der Lehrer ist sehr nett.' });
+    const lehrer = card({ word: 'Lehrer', article: 'der', example: 'Der Lehrer ist sehr nett.' });
     for (const r of [0, 0.4, 0.99]) {
       expect(lowerCore(buildFindMistake(lehrer, () => r)!.tokens[0])).toBe('das');
     }
@@ -232,7 +232,7 @@ describe('buildFindMistake — case kind', () => {
 });
 
 describe('buildFindMistake — choosing a kind and refusing', () => {
-  const both = card({ exampleDe: 'Das Haus gehört dem Mann heute.' });
+  const both = card({ example: 'Das Haus gehört dem Mann heute.' });
 
   it('uses rng to choose when both kinds are possible', () => {
     expect(buildFindMistake(both, () => 0)!.mistakeKind).toBe('gender');
@@ -242,11 +242,11 @@ describe('buildFindMistake — choosing a kind and refusing', () => {
   it('returns null without a sentence, with a slot-less one, or outside the length window', () => {
     expect(MISTAKE_MIN_TOKENS).toBe(4);
     expect(MISTAKE_MAX_TOKENS).toBe(12);
-    expect(buildFindMistake(card({ exampleDe: null }), () => 0)).toBeNull();
-    expect(buildFindMistake(card({ exampleDe: 'Das Haus ist.' }), () => 0)).toBeNull(); // 3 tokens
+    expect(buildFindMistake(card({ example: null }), () => 0)).toBeNull();
+    expect(buildFindMistake(card({ example: 'Das Haus ist.' }), () => 0)).toBeNull(); // 3 tokens
     const long = 'Das Haus steht seit vielen Jahren an der Ecke dieser kleinen ruhigen Strasse.'; // 13 tokens
     expect(tokensOf(long)).toHaveLength(13);
-    expect(buildFindMistake(card({ exampleDe: long }), () => 0)).toBeNull();
+    expect(buildFindMistake(card({ example: long }), () => 0)).toBeNull();
     expect(buildFindMistake(verb('Wir gehen heute nach Hause.'), () => 0)).toBeNull();
   });
 
@@ -254,7 +254,7 @@ describe('buildFindMistake — choosing a kind and refusing', () => {
     const a = buildFindMistake(both, seeded(8))!;
     const b = buildFindMistake(both, seeded(8))!;
     expect(a).toEqual(b);
-    const original = tokensOf(both.exampleDe!);
+    const original = tokensOf(both.example!);
     const changed = a.tokens.map((t, i) => (t !== original[i] ? i : -1)).filter((i) => i >= 0);
     expect(changed).toEqual([a.wrongIndex]);
   });
@@ -273,7 +273,7 @@ describe('registry: find the mistake in the ladder', () => {
   });
 
   it('never appears for words that do not qualify, nor for new words', () => {
-    const plain = card({ word: 'Wasser', exampleDe: 'Ich trinke ein Glas Wasser.' });
+    const plain = card({ word: 'Wasser', example: 'Ich trinke ein Glas Wasser.' });
     for (const r of [0, 0.3, 0.6, 0.9, 0.99]) {
       expect(pickExercise(plain, undefined, () => r).kind).not.toBe('find_mistake');
       expect(pickExercise(card({ timesSeen: 1, retentionScore: 0.5 }), undefined, () => r).kind).toBe('multiple_choice');
@@ -288,7 +288,7 @@ describe('against the real word bank', () => {
     article: entry.article,
     translationIt: entry.meaning_it,
     translationEn: entry.meaning_en,
-    exampleDe: entry.example_de,
+    example: entry.example,
     exampleIt: entry.example_it,
     exampleEn: entry.example_en,
     partOfSpeech: entry.part_of_speech,
@@ -307,7 +307,7 @@ describe('against the real word bank', () => {
       const m = buildFindMistake(c, rng);
       if (!m) continue;
       built++;
-      const original = tokensOf(c.exampleDe!);
+      const original = tokensOf(c.example!);
       const tag = `${c.word}: `;
 
       if (m.tokens.length !== original.length) {

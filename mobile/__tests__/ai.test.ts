@@ -46,7 +46,7 @@ describe('generateWordInsight', () => {
 
     const res = await generateWordInsight({ word: 'Haus', article: 'das', meaningNative: 'casa', cefrLevel: 'A1', nativeLanguage: 'it' });
     expect(res.examples).toHaveLength(3);
-    expect(res.examples[0].de).toContain('Haus');
+    expect(res.examples[0].target).toContain('Haus');
     expect(res.note).toMatch(/Häuser/);
     expect(res.exercise).toEqual({ sentence: 'Ich wohne in einem großen ___.', answer: 'Haus' });
 

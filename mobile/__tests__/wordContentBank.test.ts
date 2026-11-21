@@ -9,7 +9,7 @@ import { localizedText, getWordContent } from '../src/i18n/wordContent';
 import { WORD_CONTENT_LOADERS } from '../src/i18n/wordContentLoaders';
 import type { NativeLanguage } from '../src/i18n/language';
 
-const dir = join(__dirname, '..', 'src', 'data', 'wordbank', 'i18n');
+const dir = join(__dirname, '..', 'src', 'data', 'wordbank', 'de', 'i18n');
 const shipped = (existsSync(dir) ? readdirSync(dir) : [])
   .filter((f) => f.endsWith('.json'))
   .map((f) => f.replace(/\.json$/, '')) as NativeLanguage[];

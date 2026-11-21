@@ -16,7 +16,7 @@ function makeCard(over: Partial<ReviewCard> = {}): ReviewCard {
     article: 'das',
     translationIt: 'pane',
     translationEn: 'bread',
-    exampleDe: 'Ich kaufe das Brot beim Bäcker.',
+    example: 'Ich kaufe das Brot beim Bäcker.',
     exampleIt: 'Compro il pane dal panettiere.',
     exampleEn: 'I buy the bread at the baker.',
     timesSeen: 2,
@@ -112,8 +112,8 @@ describe('pickExercise', () => {
   });
 
   it('falls back to a flashcard without an example, or when the word is not in it', () => {
-    expect(pickExercise(makeCard({ exampleDe: null })).kind).toBe('flashcard');
-    expect(pickExercise(makeCard({ exampleDe: 'Ich trinke Wasser.' })).kind).toBe('flashcard');
+    expect(pickExercise(makeCard({ example: null })).kind).toBe('flashcard');
+    expect(pickExercise(makeCard({ example: 'Ich trinke Wasser.' })).kind).toBe('flashcard');
   });
 
   it('keeps the flashcard out of the random pool (parity with the old screen)', () => {

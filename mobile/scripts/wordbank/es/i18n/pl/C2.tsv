@@ -26,12 +26,10 @@ C2	enajenación	zbycie (alienacja)	Zbycie nieruchomości wymaga zgody wszystkich
 C2	lindero	miedza (granica)	Kamienny mur wyznacza miedzę między dwiema posiadłościami.	Od «linde».
 C2	solar	działka (budowlana)	Kupili działkę na obrzeżach, by zbudować mały dom.	Także przymiotnik.
 C2	lar	ognisko domowe	Wrócił do rodzinnego domu po wielu latach nieobecności.	Słowo literackie.
-C2	cónyuge	małżonek	Każdy małżonek musi podpisać akt, by sprzedać dom.	Taki sam w rodzaju męskim i żeńskim.
 C2	linaje	ród (pochodzenie)	Jego ród wywodzi się ze starej rodziny żeglarzy.	Jak po włosku.
 C2	heredero	spadkobierca	Jedyny spadkobierca otrzymał od dziadka posiadłość i kilka domów.	Rodzaj żeński «heredera».
 C2	sucesión	dziedziczenie	Dziedziczenie majątku wywołało długi konflikt rodzinny.	Także „następstwo”.
 C2	desahuciar	eksmitować	Właściciel zagroził eksmisją rodziny, jeśli nie zapłaci.	«Desahucio» to eksmisja.
-C2	usucapir	zasiedzieć	Po dwudziestu latach spokojnego posiadania mogli zasiedzieć grunt.	Czasownik prawniczy.
 C2	vigía	wartownik (obserwator)	Wartownik o świcie dostrzegł żagiel na horyzoncie.	Rodzaj męski lub żeński.
 C2	aldea	osada (wieś)	Wieś opustoszała, gdy młodzi wyemigrowali do stolicy.	Jak «borgo».
 C2	caserío	przysiółek	Na dnie doliny widać było samotny przysiółek.	Od «casa».
@@ -51,10 +49,7 @@ C2	postergación	odroczenie	Odroczenie procesu oburzyło rodziny ofiar.	Od «pos
 C2	acérrimo	zagorzały	Był zagorzałym obrońcą języka i kultury swego ludu.	Superlatyw od «acre».
 C2	prístino	pierwotny	Zachowywali pierwotną świetność tego dawnego obrzędu.	Styl książkowy.
 C2	baladí	błahy	Pokłócili się o błahą sprawę, szybko zapomnianą.	Niezmienny w rodzaju.
-C2	estraperlo	czarny rynek	Przeżyli dzięki czarnemu rynkowi mąki w latach niedostatku.	Hiszpański termin historyczny.
-C2	alcabala	alkabala (podatek od sprzedaży)	Alkabala obciążała każdą sprzedaż na rynkach kolonialnych.	Z arabskiego.
-C2	peculio	oszczędności (grosz)	Wydał skromne oszczędności na bilet przez ocean.	Z łacińskiego «pecunia».
-C2	haber	aktywa (majątek)	Majątek zmarłego podzielono między troje dzieci.	Także czasownik posiłkowy.
+C2	haber	aktywa; strona Ma (księgowość)	Majątek zmarłego został podzielony między jego troje dzieci.	Liczba mnoga «los haberes» = majątek, wynagrodzenie; w księgowości «el haber» = strona Ma (przeciwieństwo: «el debe»).
 C2	trueque	wymiana barterowa	We wsi nadal praktykowano wymianę zboża na narzędzia.	Od «trocar».
 C2	permutar	zamienić (wymieniać)	Zgodzili się zamienić posiadłość na dom w mieście.	Jak po włosku.
 C2	adeudar	być dłużnym	Firma doszła do tego, że była winna pracownikom pensje za trzy miesiące.	Od «deuda».
@@ -105,8 +100,6 @@ C2	estribación	ostroga (odnoga gór)	Każda odnoga pasma górskiego oferuje ró
 C2	peñasco	skalisty złom	Ogromny skalisty złom blokował ścieżkę po osunięciu.	Od «peña».
 C2	ladera	zbocze	Domy ciągną się zboczem aż do rzeki.	Jak «pendio».
 C2	bordear	biec wzdłuż	Droga biegnie wzdłuż klifu, nie tracąc widoku na morze.	Od «borde».
-C2	yantar	biesiada (poet.)	Rozkoszowali się prostą biesiadą w cieniu figowca.	Słowo archaiczne.
-C2	vianda	potrawa	Podano wyśmienitą potrawę z warzyw z ogrodu.	Na Kubie i w Kolumbii — bulwa bogata w skrobię.
 C2	refrigerio	przekąska (lekki poczęstunek)	Po odczycie uczestnikom podano lekką przekąskę.	Styl oficjalny.
 C2	maridar	łączyć (wino z potrawą)	To białe wino doskonale komponuje się ze świeżymi owocami morza.	Od «marido».
 C2	macerado	maceracja	Długa maceracja nadaje winu wyjątkową głębię.	Termin enologiczny.
@@ -116,8 +109,6 @@ C2	escaldar	sparzyć	Pomidory trzeba sparzyć przez minutę, by łatwo je obrać
 C2	trasegar	przelewać (wino)	Po fermentacji warto przelać wino do czystych beczek.	Zmienia się e→ie.
 C2	lozano	bujny (świeży)	Bujne warzywa z ogrodu kontrastowały z suchą ziemią.	Także o twarzach.
 C2	almibarado	lepko-słodki	Lepko-słodki deser okazał się przesadny nawet dla łakomczuchów.	Od «almíbar».
-C2	rancio	zjełczały	Zjełczały olej całkowicie zepsuł smak sałatki.	Także „stary”.
-C2	paladeo	delektowanie się smakiem	Powolne delektowanie się kawą było częścią jego porannego rytuału.	Od «paladear».
 C2	paladear	smakować (delektować się)	Lubił smakować każdy kęs bez pośpiechu i w ciszy.	Od «paladar».
 C2	yodo	jod	Jod jest niezbędny dla prawidłowego działania tarczycy.	Jak po włosku.
 C2	adolecer	cierpieć na (mieć braki)	System ochrony zdrowia cierpi na poważne braki strukturalne.	Fałszywy przyjaciel: nie „boleć”.
@@ -156,7 +147,6 @@ C2	escenificar	wystawić (na scenie)	Postanowili wystawić sztukę na placu star
 C2	desentonar	fałszować	Śpiewak zaczął fałszować na najwyższej nucie.	Od «tono».
 C2	garabatear	bazgrać	Chłopiec lubił bazgrać rysunki na marginesach zeszytu.	«Garabato» to bazgroł.
 C2	vivaz	żywy (wyrazisty)	Narysował wyrazisty portret rybaków z portu.	Liczba mnoga.
-C2	sublime	wzniosły	Wykonanie sopranistki było wzniosłe i wzruszające.	Jak po włosku.
 C2	solariego	rodowy	Odziedziczył rodową siedzibę rodziny hidalgów.	Od «solar».
 C2	caserón	wielki stary dom	Wielki stary dom skrzypiał przy każdym podmuchu wiatru.	Od «casa».
 C2	zaguán	sień	Zostawił płaszcz w sieni, zanim wszedł do jadalni.	Z arabskiego.
@@ -167,17 +157,13 @@ C2	mampostería	mur z kamienia łamanego	Mury z kamienia łamanego przetrwały w
 C2	cantería	kamieniarka (ciosy)	Kamieniarka portalu zdradza mistrzostwo jej rzemieślników.	Od «cantero».
 C2	amurallar	otoczyć murami	Postanowiono otoczyć miasto murami, by chronić je przed grabieżą.	Od «muralla».
 C2	apuntalar	podpierać (stemplować)	Trzeba było podeprzeć fasadę przed przystąpieniem do renowacji.	Od «puntal».
-C2	enladrillar	wyłożyć cegłą	Kazali wyłożyć dziedziniec cegłą, by uniknąć zimowego błota.	Od «ladrillo».
-C2	cimentar	zakładać fundamenty	Jego prestiż wyrósł na dekadach stałej i uczciwej pracy.	Także „testować”.
+C2	cimentar	zakładać fundamenty, umacniać	Jego prestiż zbudował się na dziesięcioleciach rzetelnej i stałej pracy.	Fałszywy przyjaciel włoskiego «cimentare» (wystawić na próbę): znaczy zakładać, umacniać.
 C2	desvencijar	rozchwiać się (rozlecieć)	Z biegiem lat drzwi zaczęły się rozchwiewać od wilgoci.	Od «vencejo» (jerzyk).
 C2	cobertizo	szopa	Trzymał narzędzia w szopie za domem.	Od «cubierto».
 C2	singladura	dobowy etap żeglugi	Dobowy etap rejsu żaglowca był długi i pełen przygód.	Termin żeglarski.
 C2	derrotero	kurs (trasa)	Zmienili kurs statku, by uniknąć burzy.	Termin żeglarski.
-C2	bajel	okręt (poet.)	Dawny okręt przecinał wody zatoki.	Słowo literackie.
-C2	rada	reda (kotwicowisko)	Statki czekały na redzie, aż sztorm ucichnie.	Jak po włosku.
 C2	escollera	falochron	Fale z impetem rozbijały się o falochron portu.	Od «escollo».
-C2	varadero	pochylnia (do remontu)	Rybak zostawił łódź na pochylni, by ją naprawić.	Od «varar».
-C2	varar	osiąść na mieliźnie	Statek osiadł w nocy na mieliźnie piaszczystej.	Także „wyciągać na brzeg”.
+C2	varar	osiadać na mieliźnie	Statek osiadł w nocy na mieliźnie piaszczystej.	Także «wyciągnąć na brzeg».
 C2	naufragar	rozbić się (okręt)	Żaglowiec w końcu rozbił się blisko brzegu, bez ofiar.	Jak po włosku.
 C2	capear	przetrwać (sztorm)	Zdołali przetrwać sztorm dzięki umiejętnościom kapitana.	Od «capa».
 C2	avistar	dostrzec (na horyzoncie)	Marynarzom udało się dostrzec ląd o świcie trzeciego dnia.	Od «vista».
@@ -187,20 +173,16 @@ C2	escanciar	nalewać (cydr)	Kelner potrafił nalać cydr eleganckim gestem.	Typ
 C2	hartar	przesycić	Obfitość słodyczy przesyciła nawet największych łakomczuchów.	«Harto» to syty lub zmęczony.
 C2	aderezar	doprawiać	Potrafił doprawić sos sekretną szczyptą cynamonu.	Od «aderezo».
 C2	medroso	lękliwy	Lękliwy chłopiec odmówił spróbowania dziwnej potrawy.	Od «miedo».
-C2	copioso	obfity	Po obfitej kolacji nikt nie chciał wstawać od stołu.	Jak po włosku.
 C2	parco	skąpy (umiarkowany)	Zjadł skromny posiłek: tylko chleb i odrobinę sera.	Fałszywy przyjaciel: nie „park”.
 C2	suculencia	soczystość	Soczystość pieczeni podbiła wszystkich biesiadników.	Od «suculento».
-C2	cauterio	przyżeganie (kauter)	Szybkie przyżeganie natychmiast zatrzymało krwotok.	Jak po włosku.
 C2	sutura	szew (chirurgiczny)	Szew wymagał dwunastu ściegów i tygodnia odpoczynku.	Jak po włosku.
-C2	yacija	legowisko	Spał na słomianym legowisku w kącie obory.	Słowo literackie.
 C2	agonía	agonia	Jego agonia trwała kilka tygodni, w otoczeniu rodziny.	Jak po włosku.
 C2	sosegado	niewzruszony (spokojny)	Miał niewzruszony charakter, który udzielał wszystkim spokoju.	Od «sosiego».
 C2	adusto	surowy (posępny)	Surowy lekarz prawie nie odezwał się podczas całej wizyty.	Styl literacki.
 C2	cabal	nienaganny (pełny)	Cieszył się pełnym zdrowiem mimo podeszłego wieku.	Także „być przy zdrowych zmysłach”.
 C2	exhausto	wyczerpany	Padł wyczerpany na łóżko po trzydziestu godzinach dyżuru.	Jak po włosku.
-C2	postrar	powalić (rozłożyć)	Gorączka powaliła biedaka na całe tygodnie.	Jak po włosku.
+C2	postrar	powalić, rozłożyć	Gorączka rozłożyła go w łóżku na całe tygodnie.	«Postrarse» = upaść na twarz; «postrado» = powalony chorobą.
 C2	curtir	hartować (garbować)	Lata ciężkiej pracy zahartowały jego skórę i charakter.	Także „garbować skórę”.
-C2	tullido	kaleka (sparaliżowany)	Sparaliżowany starzec prosił o jałmużnę przy drzwiach kościoła.	Termin archaiczny.
 C2	aprestar	przygotować się	Przygotowali się do obrony placu przed nieuchronnym atakiem.	Czasownik książkowy.
 C2	tertulia	tertulia (krąg dyskusyjny)	Tertulia w kawiarni gromadziła poetów i malarzy co czwartek.	Hiszpańskojęzyczna tradycja rozmów.
 C2	velada	wieczór (spotkanie)	Wieczór muzyczny zakończył się głęboko po północy.	Od «velar».
@@ -209,8 +191,6 @@ C2	verbena	zabawa uliczna	Zabawa uliczna na placu trwała do świtu, z muzyką i
 C2	acuarela	akwarela	Namalował delikatną akwarelę portu we mgle.	Jak po włosku.
 C2	lienzo	płótno (malarskie)	Płótno pokryto warstwą farby olejnej w ciepłych tonach.	Także „tkanina lniana”.
 C2	albacea	wykonawca testamentu	Wykonawca testamentu ujawnił treść testamentu przed całą rodziną.	Z arabskiego.
-C2	prebenda	synekura	Otrzymał w administracji synekurę, nie zasługując na nią.	Styl krytyczny.
-C2	canonjía	ciepła posadka	Zaproponowano mu ciepłą posadkę, zapewniającą wygodne życie.	Styl książkowy.
 C2	trasiego	krzątanina (ruch)	Ruch ciężarówek w porcie trwa nieprzerwanie przez cały dzień.	Od «trasegar».
 C2	ardid	podstęp	Użył podstępu, by oszukać inspektorów celnych.	Jak «stratagemma».
 C2	dilación	zwłoka	Zażądali od ministerstwa odpowiedzi bez dalszej zwłoki.	Styl oficjalny.
@@ -226,15 +206,13 @@ C2	zanjar	zakończyć (rozstrzygnąć)	Musieli rozstrzygnąć spór, zanim przyb
 C2	fehaciente	wiarygodny (niezbity)	Przedstawili niezbity dowód dostarczenia towaru.	Termin prawniczy.
 C2	taimado	przebiegły	Przebiegły kierownik udawał, że nie słyszy skarg klientów.	Styl potoczny.
 C2	diligente	pilny (staranny)	Zawsze była pilną i bardzo punktualną pracownicą.	Jak po włosku.
-C2	asaz	dosyć (zgoła)	Okazało się to sprawą dosyć skomplikowaną jak na tak mało czasu.	Archaizm literacki.
 C2	amén de	oprócz	Oprócz pracy współpracował z kilkoma stowarzyszeniami dobroczynnymi.	Styl oficjalny.
-C2	a tenor de	w świetle (zgodnie z)	W świetle tego, co zaszło, trzeba przemyśleć cały projekt.	Styl oficjalny.
+C2	a tenor de	zgodnie z; w świetle	W świetle tego, co się stało, warto przemyśleć cały projekt.	Rejestr formalny: «a tenor de lo ocurrido» = w świetle tego, co się stało.
 C2	en aras de	w imię	Poświęcił wolny czas w imię wyższego celu.	Styl oficjalny.
 C2	so pena de	pod rygorem	Muszą złożyć sprawozdanie pod rygorem wysokiej grzywny.	Styl prawniczy.
 C2	a la sazón	wówczas (w tym czasie)	Prezydent wówczas przebywał w oficjalnej podróży.	Styl literacki.
 C2	bagatela	drobiazg (błahostka)	Wydał fortunę na błahostkę, której nigdy nie użył.	Jak po włosku.
 C2	baratija	świecidełko	Każdemu turyście w porcie sprzedawano kolorowe świecidełko.	Od «barato».
-C2	quincalla	towary żelazne (tandeta)	Sklep z towarami żelaznymi oferował gwoździe, wkręty i stare narzędzia.	Także „tandeta”.
 C2	menaje	sprzęty domowe	Kupili komplet sprzętów domowych do wyposażenia nowego domu.	Termin handlowy.
 C2	subasta	aukcja	Aukcja obrazu osiągnęła kwotę niespotykaną w kraju.	Jak «asta».
 C2	pujar	podbijać cenę	Kilku kolekcjonerów postanowiło podbijać cenę dawnego rękopisu.	Także „pchać”.
@@ -251,22 +229,18 @@ C2	vericueto	trudna ścieżka	Wąska, trudna ścieżka prowadziła do ukrytej wi
 C2	desfiladero	wąwóz (przełom)	Karawana ostrożnie posuwała się wąskim wąwozem.	Od «desfilar».
 C2	barranco	jar	Głęboki jar dzielił dwie wsie w górach.	Jak «burrone».
 C2	cañada	dolinka	Wiosną dolinka była pokryta żółtymi kwiatami.	Także szlak wędrówki bydła.
-C2	cabalgar	jechać konno	Zwykli jeździć konno o świcie po równinach południa.	Od «caballo».
 C2	esquivar	ominąć (uniknąć)	Zdołali ominąć kontrole policyjne bocznymi drogami.	Jak po włosku.
 C2	vadear	przebrnąć w bród	Musieliśmy przebrnąć rzekę w bród po pas w wodzie.	Od «vado» (bród).
 C2	tortuoso	kręty	Kręta droga wymagała od kierowcy ciągłej uwagi.	Jak po włosku.
 C2	aterido	zdrętwiały z zimna	Dotarł do chaty zdrętwiały z zimna po godzinach śniegu i wiatru.	Od «aterir».
-C2	amanuense	kopista	Kopista przepisywał rękopisy przy świetle świecy.	Jak po włosku.
 C2	folletín	powieść w odcinkach	Powieść w odcinkach ukazywała się w niedzielnej gazecie.	Z francuskiego.
 C2	sainete	sainete (jednoaktówka)	Sainete z humorem przedstawiało obyczaje ludowej dzielnicy.	Krótki gatunek teatralny.
 C2	copla	kopla (pieśń ludowa)	Na placu podczas święta rozbrzmiewała dawna pieśń ludowa.	Ludowa strofa.
 C2	zarzuela	zarzuela	Zarzuela łączy śpiew, dialogi mówione i sceny komiczne.	Hiszpański gatunek liryczny.
-C2	payada	payada (improwizowany śpiew)	Payada znad La Platy polega na improwizowaniu wierszy z gitarą.	Tradycja argentyńska i urugwajska.
 C2	milonga	milonga	Spędzili wieczór na milondze, tańcząc tango z nieznajomymi.	Także taniec i miejsce.
 C2	rasgar	szarpać (struny)	Potrafił szarpnąć struny gitary z siłą, która uciszyła salę.	Także „drzeć”.
 C2	declamar	deklamować	Zwykł deklamować wiersze z pamięci na rodzinnych spotkaniach.	Jak po włosku.
 C2	enaltecer	wychwalać	Krytyka potrafiła wychwalić talent młodej pianistki.	Nieregularny.
-C2	cautivador	urzekający	Urzekający ton jej głosu wypełnił teatr ciszą.	Od «cautivar».
 C2	irreverente	lekceważący (bezczelny)	Bezczelny komik wyśmiał wszystkich obecnych polityków.	Jak po włosku.
 C2	palmar	kopnąć w kalendarz (umrzeć)	Biedny staruszek w końcu kopnął w kalendarz po długiej chorobie.	Styl bardzo potoczny.
 C2	bregar	zmagać się (borykać)	Musiał latami borykać się z życiem, by utrzymać rodzinę.	Czasownik książkowy.
@@ -276,6 +250,25 @@ C2	desfallecer	słabnąć (omdlewać)	Omal nie zemdlał po długim marszu.	Niere
 C2	agostar	wysuszyć (spalić)	Letni upał wysuszył całe pola.	Od «agosto».
 C2	aventar	wiać (ziarno)	Rolnicy zwykli wiać pszenicę na klepisku o zmierzchu.	W Meksyku także „rzucać”.
 C2	fermentación	fermentacja	Powolna fermentacja nadaje temu serowi niepowtarzalny charakter.	Jak po włosku.
-C2	hogaza	bochen	Kupili świeżo upieczony bochen chleba w wiejskiej piekarni.	Od «hogar».
 C2	zumo	sok	Wypił świeżo wyciśnięty sok pomarańczowy przed wyjściem.	W Ameryce Łacińskiej «jugo».
-C2	pitanza	skąpa strawa	Dostawali skąpą strawę, ledwo starczającą na przeżycie.	Styl literacki.
+C2	tabique	ścianka działowa	Zburzyli ściankę, żeby połączyć kuchnię z salonem.	Cienka ściana wewnętrzna; ściana nośna to «muro de carga».
+C2	despilfarrar	trwonić	Roztrwonili spadek w kilka lat luksusu i podróży.	Synonim «derrochar»; rzeczownik to «despilfarro».
+C2	gravar	opodatkować; obciążać	Rząd planuje opodatkować towary luksusowe.	Nie myl z «grabar» (nagrywać, grawerować).
+C2	desembolso	wydatek	Początkowy wydatek był wysoki, ale warto było.	Używane z «hacer»: «hacer un gran desembolso».
+C2	rebozar	panierować	Filety trzeba obtoczyć w mące i jajku przed smażeniem.	Częste w menu jako «rebozado»: «calamares rebozados».
+C2	guarnición	dodatek do dania; garnizon	Łososia podano z dodatkiem pieczonych warzyw.	Także garnizon wojskowy.
+C2	hartarse	najeść się do syta; mieć dość	Najedliśmy się paelli do syta i nikt nie mógł zamówić deseru.	Z «de» znaczy też mieć dość: «me harté de esperar».
+C2	arrendar	wydzierżawić	Postanowili wydzierżawić lokal sieci supermarketów.	Rejestr prawniczy: obejmuje wynajmowanie i najem; w codziennym języku używa się «alquilar».
+C2	trasbordo	zmiana pociągu lub linii	Na tej stacji trzeba się przesiąść na inną linię.	Mówi się «hacer trasbordo»; pisze się też «transbordo».
+C2	embarcadero	pomost, przystań	Statek odpływa z pomostu obok mostu.	Od «embarcar»; jak włoskie «imbarcadero».
+C2	desembarcar	wysiadać ze statku	Pasażerowie mogli zejść na ląd po długim oczekiwaniu w porcie.	Używane też o samolotach i pociągach; pierwsza osoba czasu przeszłego: «desembarqué».
+C2	cicatrizar	goić się (o ranie)	Ta maść pomaga ranie szybciej się zagoić.	Jak we włoskim; rzeczownik to «cicatriz».
+C2	desmayo	omdlenie	Zasłabł na środku ulicy i wezwano karetkę.	Czasownik to «desmayarse» (zemdleć).
+C2	convaleciente	rekonwalescent	Po operacji wciąż dochodzi do siebie, ale zdrowieje dobrze.	Ta sama forma w rodzaju męskim i żeńskim; czasownik to «convalecer».
+C2	plantilla	kadra; wkładka; szablon	Firma zmniejszyła kadrę o dziesięć procent.	Także wkładka do buta i szablon.
+C2	despido	zwolnienie	Sędzia uznał zwolnienie pracownicy za bezpodstawne.	Czasownik to «despedir»; «despido improcedente» = bezpodstawne zwolnienie.
+C2	sobremanera	nad miarę	Sytuacja gospodarcza kraju bardzo mnie niepokoi.	Formalne i pisane; w mowie: «muchísimo».
+C2	cachivache	grat	Zachował jakiś grat, którego nikt nie chciał.	Potocznie, niemal zawsze w liczbie mnogiej: «cachivaches».
+C2	pasatiempo	hobby, rozrywka	Jego ulubionym zajęciem jest restaurowanie starych zegarków.	Od «pasar el tiempo»; synonimy: «afición», «hobby».
+C2	coleccionista	kolekcjoner	Jest kolekcjonerem winyli i ma ponad dwa tysiące płyt.	Ta sama forma w rodzaju męskim i żeńskim: «el/la coleccionista»; czasownik to «coleccionar».
+C2	comensal	biesiadnik, gość przy stole	Każdy z biesiadników zamówił inne danie.	Ta sama forma w rodzaju męskim i żeńskim: «el/la comensal».

@@ -17,7 +17,7 @@ B2	exitoso	réussi	Ce fut un projet réussi pour toute l'entreprise.	Très coura
 B2	eficaz	efficace	Nous cherchons une méthode plus efficace pour travailler.	Pluriel «eficaces».
 B2	eficiente	efficient	Mon équipe est très efficiente avec les délais.	«Eficaz» marche ; «eficiente» utilise bien les ressources.
 B2	guiso	ragoût	Le ragoût de ma grand-mère mijotait des heures.	Plat typique des foyers latino-américains.
-B2	caldo	bouillon	Le bouillon de poulet est idéal quand on a la grippe.	Aussi l'adjectif « chaud ».
+B2	caldo	bouillon	Le bouillon de poulet est idéal quand on a la grippe.	Pas l'italien «caldo» : chaud se dit «caliente», la chaleur «calor». «Caldo» est le bouillon.
 B2	sazonado	assaisonné	Le poisson assaisonné au citron est délicieux.	De «sazonar».
 B2	amasar	pétrir	Ma mère pétrit le pain tous les samedis.	«Masa» est la pâte.
 B2	picar	hacher	Hache l'oignon bien fin, s'il te plaît.	Aussi « piquer ».
@@ -26,14 +26,13 @@ B2	levadura	levure	On ajoute de la levure pour que la pâte lève.	De «levar».
 B2	brindar	trinquer	Je veux trinquer à la santé de tous.	«Brindis» est le toast.
 B2	embriagarse	s'enivrer	Mieux vaut ne pas s'enivrer aux fêtes de famille.	Plus formel que «emborracharse».
 B2	atravesar	traverser	Pour arriver il faut traverser le vieux pont.	Change e→ie : «atravieso».
-B2	carretera	route	La route était fermée à cause de la neige.	«Carretera» est une route hors de la ville.
 B2	averiarse	tomber en panne	La voiture est tombée en panne en plein désert.	«Avería» est la panne.
 B2	remolcar	remorquer	Ils ont dû remorquer la voiture jusqu'au garage.	«Remolque» est la remorque.
 B2	neumático	pneu	Un pneu a crevé en pleine route.	Au Mexique «llanta».
 B2	llanta	pneu	J'ai changé le pneu avant la tombée de la nuit.	En Espagne «neumático».
 B2	envase	emballage, récipient	Cet emballage se recycle facilement.	De «envasar».
 B2	caducar	périmer	Ce lait périme demain, il faut le boire aujourd'hui.	«Caducidad» est la péremption.
-B2	saldo	solde	J'ai consulté le solde de mon compte sur mon portable.	En Amérique latine aussi le crédit téléphonique.
+B2	saldo	solde (de compte)	J'ai consulté le solde de mon compte dans l'application.	Désigne aussi le crédit de téléphone («recargar saldo»). Les soldes (promotions) se disent «rebajas».
 B2	cheque	chèque	J'ai payé le loyer par chèque.	Rarement utilisé aujourd'hui.
 B2	cotizar	cotiser	Je dois cotiser vingt ans pour prendre ma retraite.	«Cotización» est la cotisation.
 B2	estafar	escroquer	Ils ont essayé de m'escroquer avec une fausse offre.	«Estafa» est l'escroquerie.
@@ -48,7 +47,6 @@ B2	mareo	vertige	J'ai eu un vertige en me levant.	De «mar».
 B2	ayuntamiento	mairie	La mairie a organisé une fête pour le quartier.	En Amérique latine «alcaldía».
 B2	alcalde	maire	Le maire a promis de réparer les rues du centre.	Féminin «alcaldesa».
 B2	juez	juge	Le juge a rendu la sentence hier après-midi.	Féminin «la jueza».
-B2	abogado	avocat (juriste)	Mon avocat m'a conseillé de ne rien signer.	Féminin «abogada».
 B2	juicio	procès	Le procès commencera dans deux semaines.	Aussi « jugement ».
 B2	condena	peine	La peine a été de cinq ans de prison.	De «condenar».
 B2	testigo	témoin	Le témoin a déclaré n'avoir rien vu d'étrange.	Identique au masculin et au féminin.
@@ -94,7 +92,7 @@ B2	financiar	financer	La banque va financer l'achat de la maison.	Comme en itali
 B2	reponer	réapprovisionner	Il faut réapprovisionner les stocks chaque semaine.	Irrégulier comme «poner».
 B2	abastecer	approvisionner	Le marché approvisionne toute la zone.	Irrégulier : «abastezco».
 B2	rebasar	dépasser	La dépense va dépasser le budget.	Courant au Mexique.
-B2	amortizar	rembourser, amortir	Il me faudra dix ans pour rembourser le prêt.	«Amortización» est l'amortissement.
+B2	amortizar	amortir, rembourser	Il me faudra dix ans pour rembourser le prêt.	Se dit d'une dette (rembourser un prêt peu à peu) ou d'une dépense qui devient rentable avec le temps.
 B2	inflar	gonfler	Il faut gonfler les pneus avant de partir.	Comme en italien.
 B2	desinfectar	désinfecter	Nous devons désinfecter la plaie avec de l'alcool.	Comme en italien.
 B2	recetar	prescrire	Le médecin va me prescrire un antibiotique.	«Receta» est l'ordonnance ou la recette.
@@ -115,7 +113,7 @@ B2	indispensable	indispensable (nécessaire)	Emporter le passeport est indispens
 B2	meticuloso	méticuleux	Mon chef est méticuleux sur les détails.	Comme en italien.
 B2	imprevisible	imprévisible	Le climat de cette région est imprévisible.	Comme en italien.
 B2	exigente	exigeant	Ma professeure est très exigeante sur les délais.	De «exigir».
-B2	mandón	autoritaire	Mon grand frère est très autoritaire avec tout le monde.	Féminin «mandona».
+B2	mandón	autoritaire	Mon frère aîné est très autoritaire avec tout le monde.	Familier : quelqu'un qui veut commander tout le monde. Féminin «mandona».
 B2	solidario	solidaire	C'est un quartier solidaire où tout le monde s'entraide.	De «solidaridad».
 B2	polémico	polémique	Le sujet est polémique et divise les gens.	De «polémica».
 B2	sagrado	sacré	Pour eux, ce lac est un lieu sacré.	Utilisé pour les lieux et objets de culte.
@@ -139,7 +137,6 @@ B2	tecnología	technologie	La technologie change la vie des gens.	Comme en itali
 B2	inteligencia	intelligence	L'intelligence artificielle avance très vite.	«IA» est l'abréviation.
 B2	dato	donnée	Chaque donnée doit être vérifiée avant d'être publiée.	Souvent au pluriel : «los datos».
 B2	red	réseau	Le réseau du bureau est lent aujourd'hui.	«Redes sociales» sont les réseaux sociaux.
-B2	seguridad	sécurité	La sécurité des données est essentielle.	De «seguro».
 B2	privacidad	vie privée	Il est important qu'il protège sa vie privée en ligne.	En Espagne aussi «intimidad».
 B2	actualizar	mettre à jour	Mieux vaut mettre le programme à jour chaque mois.	«Actualización» est la mise à jour.
 B2	bloquear	bloquer	Je veux que tu bloques ce numéro de téléphone.	«Bloqueo» est le blocage.
@@ -160,7 +157,6 @@ B2	vegetariano	végétarien	Ma sœur est végétarienne depuis des années.	Auss
 B2	orgánico	bio	Je préfère que les fruits soient bio.	En Espagne aussi «ecológico».
 B2	regional	régional	Chaque plat régional raconte une histoire différente.	Comme en italien.
 B2	fermentar	fermenter	Il faut faire fermenter la pâte toute la nuit.	«Fermento» est le ferment.
-B2	maridaje	accord mets-vins	L'accord du vin avec le fromage est parfait.	De «marido».
 B2	paladar	palais (goût)	Ce plat est pour un palais exigeant.	À Cuba aussi un petit restaurant familial.
 B2	degustar	déguster	Les invités vont déguster cinq sortes de vin.	«Degustación» est la dégustation.
 B2	bodega	cave à vin ; épicerie	La cave où nous achetions du vin a fermé cette année.	À Cuba et ailleurs c'est l'épicerie.
@@ -211,12 +207,11 @@ B2	esculpir	sculpter	L'artiste va sculpter une statue dans la pierre.	«Escultur
 B2	pintoresco	pittoresque	C'est un village pittoresque au bord du lac.	Comme en italien.
 B2	auténtico	authentique	Je cherche un restaurant de cuisine authentique.	Comme en italien.
 B2	ancestral	ancestral	Cette recette ancestrale vient de ma famille.	Comme en italien.
-B2	itinerario	itinéraire	Je veux que tu vérifies l'itinéraire du voyage.	Comme en italien.
+B2	itinerario	itinéraire	Je voudrais que tu vérifies l'itinéraire du voyage.	Comme en italien.
 B2	trayecto	trajet	Le trajet en bus dure presque six heures.	Pas «trajectoire».
 B2	escala	escale	Le vol fait une escale à Bogotá.	Aussi une gamme musicale.
 B2	hospedaje	hébergement	L'hébergement comprend le petit-déjeuner et le transport.	Courant en Amérique latine.
-B2	albergue	auberge	Nous avons dormi dans une auberge près de la plage.	Aussi «hostal».
-B2	mochilero	routard	Chaque routard porte sa propre tente.	De «mochila».
+B2	mochilero	routard	Le routard dort dans une auberge.	Vient de «mochila» (sac à dos). Féminin «mochilera».
 B2	trasladarse	déménager (se déplacer)	Si on me mute, je viendrai vivre dans le sud.	«Traslado» est le transfert.
 B2	desplazarse	se déplacer	Pour me déplacer en ville, je prendrais le métro.	«Desplazamiento» est le déplacement.
 B2	explorar	explorer	Je voudrais explorer les villages de la montagne.	Comme en italien.
@@ -224,7 +219,6 @@ B2	cumbre	sommet	Nous sommes arrivés au sommet avant l'aube.	Féminin : «la cu
 B2	orilla	rive	Nous avons marché au bord de la rivière au coucher du soleil.	Pour rivière et mer.
 B2	oleaje	houle	La houle était si forte que nous n'avons pas nagé.	Mer agitée.
 B2	muelle	quai (jetée)	Le quai est plein de petits bateaux.	Aussi un ressort.
-B2	puerto	port	Le port est le cœur de la ville.	«Puerto Rico» = port riche.
 B2	corriente	courant	Il y avait un courant dangereux près du rocher.	Aussi un adjectif.
 B2	brújula	boussole	Sans boussole, nous nous serions perdus dans la jungle.	Mot proparoxyton.
 B2	brisa	brise	Une douce brise venait de la mer.	Comme en italien.
@@ -235,7 +229,7 @@ B2	barrio	quartier	Mon quartier a un très vieux marché.	Terme chaleureux en Am
 B2	albañil	maçon	Le maçon a terminé le mur ce matin.	Féminin «albañila».
 B2	fontanero	plombier	J'ai appelé le plombier parce qu'il y avait une fuite.	En Amérique latine aussi «plomero».
 B2	fuga	fuite	Il y a une fuite d'eau sous l'évier.	Aussi une évasion.
-B2	grifo	robinet	Le robinet de la cuisine goutte toute la nuit.	En Amérique latine aussi «llave».
+B2	grifo	robinet	Le robinet de la cuisine goutte toute la nuit.	Dans de nombreux pays d'Amérique latine, on l'appelle «llave».
 B2	bombilla	ampoule	L'ampoule du couloir a grillé hier soir.	En Argentine, c'est la paille du maté.
 B2	enchufe	prise	J'ai besoin d'une prise près du lit.	De «enchufar».
 B2	tubería	tuyauterie	La tuyauterie a éclaté à cause du froid.	De «tubo».
@@ -285,3 +279,12 @@ B2	mercancía	marchandise	La marchandise est arrivée abîmée par la pluie.	De 
 B2	almacén	entrepôt	L'entrepôt a tout ce dont nous avons besoin.	En Argentine aussi une épicerie.
 B2	proveedor	fournisseur	Le fournisseur livrera la marchandise lundi.	De «proveer».
 B2	mayorista	grossiste	Nous achetons des fruits chez le grossiste chaque matin.	Contraire : «minorista».
+B2	imprescindible	indispensable	Il est indispensable de garder le reçu.	Souvent avec «ser».
+B2	competencia	compétence ; concurrence	La concurrence entre les entreprises favorise les consommateurs.	Deux sens : savoir-faire et rivalité.
+B2	asombroso	stupéfiant	La vitesse du coureur s'est révélée stupéfiante pour tous les présents.	Vient de «asombro» (stupéfaction) ; le verbe est «asombrar».
+B2	estancia	séjour	Son séjour à l'étranger a complètement changé sa vision du monde.	Dans la région du Río de la Plata et au Chili, c'est aussi un grand ranch d'élevage.
+B2	disponer	disposer de	L'entreprise dispose de ressources suffisantes pour agrandir l'usine.	Irrégulier comme «poner».
+B2	desviar	dévier ; faire un détour	Ils ont dû faire un détour par une route de montagne.	«Desvío» est une déviation ; «desviarse» signifie s'écarter de sa route.
+B2	sembrar	semer	Il faut semer le blé avant l'arrivée des pluies.	Change e→ie : «siembro».
+B2	cuarentena	quarantaine	Pendant la quarantaine, personne ne pouvait sortir de chez soi sans autorisation.	Vient de «cuarenta» : à l'origine, les quarante jours d'isolement des navires.
+B2	cabalgar	chevaucher	Ils avaient l'habitude de chevaucher à l'aube dans les plaines du sud.	De «caballo».

@@ -26,12 +26,10 @@ C2	enajenación	devir (mülkün)	Taşınmazın devri tüm mirasçıların onayı
 C2	lindero	sınır (arazi sınırı)	Bir taş duvar iki arazi arasındaki sınırı gösteriyor.	«linde»den.
 C2	solar	arsa	Küçük bir ev yapmak için şehir kıyısında bir arsa aldılar.	Ayrıca sıfat.
 C2	lar	ocak (ev ocağı)	Uzun yıllar sonra baba ocağına döndü.	Edebî sözcük.
-C2	cónyuge	eş (karı-koca)	Evi satabilmek için her iki eşin de senedi imzalaması gerekir.	Eril ve dişilde aynı.
 C2	linaje	soy	Soyu eski bir denizci aileye dayanıyor.	İtalyancadaki gibi.
 C2	heredero	mirasçı	Tek mirasçı, dedesinden bir çiftlik ve birkaç ev aldı.	Dişil «heredera».
 C2	sucesión	miras devri	Mirasın devri uzun bir aile çatışmasına yol açtı.	Ayrıca «ardışıklık».
 C2	desahuciar	tahliye etmek	Ev sahibi, ödemezse aileyi tahliye ettireceğini söyledi.	«Desahucio» tahliyedir.
-C2	usucapir	zamanaşımıyla edinmek	Yirmi yıl barışçıl zilyetlikten sonra araziyi zamanaşımıyla edinebildiler.	Hukuk fiili.
 C2	vigía	gözcü	Gözcü şafakta ufukta bir yelken gördü.	Eril ya da dişil.
 C2	aldea	küçük köy	Gençler başkente göç edince köy boşaldı.	«borgo» gibi.
 C2	caserío	mezra	Vadinin dibinde yalnız bir mezra görünüyordu.	«casa»dan.
@@ -51,10 +49,7 @@ C2	postergación	erteleme	Davanın ertelenmesi kurbanların ailelerini öfkelend
 C2	acérrimo	ateşli	Halkının dilinin ve kültürünün ateşli bir savunucusuydu.	«acre»nin üstünlük derecesi.
 C2	prístino	ilk (bozulmamış)	Bu kadim ayinin bozulmamış ihtişamını korudular.	Resmî dil.
 C2	baladí	önemsiz	Çok geçmeden unutulan önemsiz bir mesele yüzünden tartıştılar.	Cinsiyete göre değişmez.
-C2	estraperlo	karaborsa	Kıtlık yıllarında un karaborsası sayesinde ayakta kaldılar.	İspanyol tarihî terimi.
-C2	alcabala	alcabala (satış vergisi)	Alcabala, sömürge pazarlarındaki her satıştan alınırdı.	Arapçadan.
-C2	peculio	birikim (kuruş)	Mütevazı birikimini okyanusu geçmek için bir bilete harcadı.	Latince «pecunia»dan.
-C2	haber	varlık (mal varlığı)	Merhumun mal varlığı üç çocuğu arasında paylaştırıldı.	Ayrıca yardımcı fiil.
+C2	haber	varlıklar; alacak (muhasebe)	Merhumun malvarlığı üç çocuğu arasında paylaştırıldı.	Çoğul «los haberes» = mal varlığı, maaş; muhasebede «el haber» = alacak (zıttı: «el debe»).
 C2	trueque	takas	Köyde hâlâ tahılın aletlerle takası yapılıyordu.	«trocar»dan.
 C2	permutar	değiş tokuş etmek	Çiftliği şehirdeki bir evle değiş tokuş etmeye karar verdiler.	İtalyancadaki gibi.
 C2	adeudar	borçlu olmak	Şirket çalışanlara üç aylık maaş borçlanacak duruma geldi.	«deuda»dan.
@@ -105,8 +100,6 @@ C2	estribación	dağ eteği kolu	Sıradağların her eteği çeşitli yürüyü�
 C2	peñasco	sivri kaya	Heyelandan sonra kocaman bir sivri kaya patikayı kapatıyordu.	«peña»dan.
 C2	ladera	yamaç	Evler yamaç boyunca nehre kadar uzanıyor.	«pendio» gibi.
 C2	bordear	kıyısından gitmek	Yol, denizi gözden kaçırmadan uçurumun kıyısından ilerliyor.	«borde»den.
-C2	yantar	öğün (şiirsel)	İncir ağacının gölgesinde sade bir öğünün tadını çıkardılar.	Eskimiş sözcük.
-C2	vianda	yemek (nefis yiyecek)	Bahçenin ürünleriyle hazırlanmış nefis bir yemek sundular.	Küba ve Kolombiya'da nişastalı bir kök.
 C2	refrigerio	hafif ikram	Konuşmanın sonunda katılımcılara hafif bir ikram sundular.	Resmî dil.
 C2	maridar	eşleştirmek (yemekle şarap)	Bu beyaz şarap taze deniz ürünleriyle mükemmel eşleşir.	«marido»dan.
 C2	macerado	maserasyon	Uzun maserasyon şaraba eşsiz bir derinlik katar.	Şarapçılık terimi.
@@ -116,8 +109,6 @@ C2	escaldar	haşlamak (kısaca)	Domatesleri kolay soymak için bir dakika haşla
 C2	trasegar	aktarmak (şarabı)	Fermantasyondan sonra şarabı temiz fıçılara aktarmak gerekir.	e→ie değişir.
 C2	lozano	gür (taze)	Bahçenin gür sebzeleri kuru toprakla tezat oluşturuyordu.	Yüz için de kullanılır.
 C2	almibarado	şuruplu (aşırı tatlı)	Aşırı tatlı tatlı, en obur olanlar için bile fazlaydı.	«almíbar»dan.
-C2	rancio	acımış	Acımış yağ salatanın tadını tamamen bozdu.	Ayrıca «eski».
-C2	paladeo	tadını çıkarma	Kahvenin tadını yavaş yavaş çıkarmak sabah ritüelinin parçasıydı.	«paladear»dan.
 C2	paladear	tadını çıkarmak	Her lokmanın tadını acele etmeden ve sessizce çıkarmayı severdi.	«paladar»dan.
 C2	yodo	iyot	İyot, tiroidin düzgün çalışması için gereklidir.	İtalyancadaki gibi.
 C2	adolecer	muzdarip olmak	Sağlık sistemi ciddi yapısal eksikliklerden muzdarip.	Yanıltıcı: «acımak» değil.
@@ -156,7 +147,6 @@ C2	escenificar	sahnelemek	Oyunu eski mahallenin bir meydanında sahnelemeye kara
 C2	desentonar	akortsuz söylemek	Şarkıcı en tiz notada akortsuz söylemeye başladı.	«tono»dan.
 C2	garabatear	çiziktirmek	Çocuk defterin kenarlarına resimler çiziktirirdi.	«Garabato» çiziktirmedir.
 C2	vivaz	canlı (etkileyici)	Limandaki balıkçıların canlı bir portresini çizdi.	Çoğul.
-C2	sublime	yüce	Soprano'nun yorumu yüce ve duygu doluydu.	İtalyancadaki gibi.
 C2	solariego	atalardan kalma	Bir soylu ailenin atalardan kalma konağını miras aldı.	«solar»dan.
 C2	caserón	büyük eski ev	Büyük eski ev her rüzgârda gıcırdıyordu.	«casa»dan.
 C2	zaguán	giriş holü	Yemek odasına girmeden önce paltosunu giriş holüne bıraktı.	Arapçadan.
@@ -167,17 +157,13 @@ C2	mampostería	moloz taş duvar	Moloz taş duvarlar yüzyıllarca yağmura ve d
 C2	cantería	yontma taş işi	Kapının yontma taş işi ustalarının hünerini gösteriyor.	«cantero»dan.
 C2	amurallar	surla çevirmek	Yağmadan korumak için şehri surla çevirmeye karar verdiler.	«muralla»dan.
 C2	apuntalar	payandalamak	Restorasyona geçmeden önce cepheyi payandalamak gerekti.	«puntal»dan.
-C2	enladrillar	tuğla döşemek	Kış çamurunu önlemek için avluya tuğla döşettirdi.	«ladrillo»dan.
-C2	cimentar	temellendirmek	Saygınlığı on yıllarca süren istikrarlı ve dürüst çalışmaya dayandı.	Ayrıca «sınamak».
+C2	cimentar	temel atmak, sağlamlaştırmak	Prestiji, onlarca yıllık sürekli ve dürüst çalışmaya dayanıyor.	İtalyanca «cimentare» (sınamak) ile yanıltıcı benzerlik: kurmak, pekiştirmek demektir.
 C2	desvencijar	dağılmak (gevşemek)	Yıllar içinde kapı nemden gevşemeye başladı.	«vencejo»dan (sağan).
 C2	cobertizo	sundurma	Aletlerini evin arkasındaki bir sundurmada saklardı.	«cubierto»dan.
 C2	singladura	günlük seyir	Yelkenlinin günlük seyri uzun ve çalkantılı geçti.	Denizcilik terimi.
 C2	derrotero	seyir yönü	Fırtınadan kaçınmak için geminin rotasını değiştirdiler.	Denizcilik terimi.
-C2	bajel	gemi (şiirsel)	Eski bir gemi körfezin sularını yarıyordu.	Edebî sözcük.
-C2	rada	liman önü demirleme yeri	Gemiler fırtına dinene kadar demirleme yerinde beklediler.	İtalyancadaki gibi.
 C2	escollera	dalgakıran	Dalgalar limanın dalgakıranına şiddetle çarpıyordu.	«escollo»dan.
-C2	varadero	karaya çekme yeri	Balıkçı tamir etmek için tekneyi karaya çekme yerinde bıraktı.	«varar»dan.
-C2	varar	karaya oturmak	Gemi gece bir kum setine karaya oturdu.	Ayrıca «karaya çekmek».
+C2	varar	karaya oturmak	Gemi gece boyunca bir kum bankına oturdu.	Ayrıca «karaya çekmek» anlamına gelir.
 C2	naufragar	batmak (kazaya uğramak)	Yelkenli sonunda kıyı yakınında battı, kayıp yok.	İtalyancadaki gibi.
 C2	capear	atlatmak (fırtınayı)	Kaptanın ustalığı sayesinde fırtınayı atlatmayı başardılar.	«capa»dan.
 C2	avistar	görmek (uzaktan)	Denizciler üçüncü günün şafağında karayı görmeyi başardı.	«vista»dan.
@@ -187,20 +173,16 @@ C2	escanciar	doldurmak (elma şarabı)	Garson elma şarabını zarif bir hareket
 C2	hartar	bıktırmak (doyurmak)	Tatlıların bolluğu en obur olanları bile bıktırdı.	«Harto» tok ya da bıkkın.
 C2	aderezar	lezzetlendirmek	Sosu gizli bir tutam tarçınla lezzetlendirmeyi bildi.	«aderezo»dan.
 C2	medroso	korkak (ürkek)	Ürkek çocuk tuhaf yemeği tatmayı reddetti.	«miedo»dan.
-C2	copioso	bereketli (bol)	Bol akşam yemeğinden sonra kimse masadan kalkmak istemedi.	İtalyancadaki gibi.
 C2	parco	az (kıt)	Kıt bir öğün yedi, yalnızca ekmek ve biraz peynir.	Yanıltıcı: «park» değil.
 C2	suculencia	sulu lezzet	Kızartmanın sulu lezzeti tüm sofradakileri büyüledi.	«suculento»dan.
-C2	cauterio	dağlama aleti	Hızlı bir dağlama kanamayı hemen durdurdu.	İtalyancadaki gibi.
 C2	sutura	dikiş (ameliyat)	Dikiş on iki ilmek ve bir haftalık istirahat gerektirdi.	İtalyancadaki gibi.
-C2	yacija	yatak (saman döşek)	Ahırın köşesinde saman bir döşekte uyurdu.	Edebî sözcük.
 C2	agonía	can çekişme	Can çekişmesi, ailesi yanında birkaç hafta sürdü.	İtalyancadaki gibi.
 C2	sosegado	dingin	Herkese huzur bulaştıran dingin bir mizacı vardı.	«sosiego»dan.
 C2	adusto	asık suratlı (sert)	Asık suratlı doktor bütün ziyaret boyunca neredeyse hiç konuşmadı.	Edebî dil.
 C2	cabal	tam (eksiksiz)	İleri yaşına rağmen tam bir sağlığa sahipti.	Ayrıca «aklı başında olmak».
 C2	exhausto	bitap	Otuz saatlik nöbetten sonra bitap halde yatağa düştü.	İtalyancadaki gibi.
-C2	postrar	yatağa düşürmek	Ateş zavallı adamı haftalarca yatağa düşürdü.	İtalyancadaki gibi.
+C2	postrar	bitkin düşürmek, yatağa düşürmek	Ateş onu haftalarca yatağa düşürdü.	«Postrarse» = yere kapanmak; «postrado» = bitkin düşmüş.
 C2	curtir	nasırlaştırmak (sertleştirmek)	Yılların ağır emeği derisini ve karakterini sertleştirdi.	Ayrıca «deri tabaklamak».
-C2	tullido	sakat	Sakat bir yaşlı adam kilisenin kapısında sadaka istiyordu.	Eskimiş terim.
 C2	aprestar	hazırlanmak (kolları sıvamak)	Yaklaşan saldırı karşısında meydanı savunmaya hazırlandılar.	Kitabi fiil.
 C2	tertulia	tertulya (sohbet topluluğu)	Kahvedeki tertulya her perşembe şairleri ve ressamları toplardı.	İspanyol dilli sohbet geleneği.
 C2	velada	gece toplantısı	Müzik gecesi sabaha karşı geç saatlere kadar sürdü.	«velar»dan.
@@ -209,8 +191,6 @@ C2	verbena	sokak şenliği	Meydandaki sokak şenliği müzik ve dansla şafağa 
 C2	acuarela	suluboya	Sisli limanın zarif bir suluboyasını yaptı.	İtalyancadaki gibi.
 C2	lienzo	tuval	Tuvale sıcak tonlarda bir kat yağlıboya sürüldü.	Ayrıca «keten bez».
 C2	albacea	vasiyet yürütücüsü	Vasiyet yürütücüsü vasiyetin içeriğini tüm ailenin önünde açıkladı.	Arapçadan.
-C2	prebenda	sinekür	Hak etmeden idarede bir sinekür elde etti.	Eleştirel dil.
-C2	canonjía	rahat koltuk (kolay iş)	Ona rahat bir yaşam sağlayacak kolay bir koltuk önerdiler.	Resmî dil.
 C2	trasiego	gidiş geliş	Limandaki kamyon gidiş gelişi gün boyunca sürekli.	«trasegar»dan.
 C2	ardid	hile	Gümrük müfettişlerini kandırmak için bir hileye başvurdu.	«stratagemma» gibi.
 C2	dilación	gecikme	Bakanlıktan daha fazla gecikmeden yanıt verilmesini istediler.	Resmî dil.
@@ -226,15 +206,13 @@ C2	zanjar	kesin çözüme bağlamak	Yatırımcılar gelmeden önce anlaşmazlı�
 C2	fehaciente	inandırıcı (kesin)	Malın teslim edildiğine dair kesin bir kanıt sundular.	Hukuk terimi.
 C2	taimado	sinsi	Sinsi müdür müşteri şikâyetlerini duymazdan gelirdi.	Günlük konuşma dili.
 C2	diligente	çalışkan	O her zaman çalışkan ve çok dakik bir çalışandı.	İtalyancadaki gibi.
-C2	asaz	oldukça (hayli)	Bu kadar kısa sürede hayli karmaşık bir iş çıktı.	Edebî arkaizm.
 C2	amén de	ayrıca (yanı sıra)	İşinin yanı sıra birkaç hayır derneğiyle de çalışıyordu.	Resmî dil.
-C2	a tenor de	göz önüne alındığında	Olanlar göz önüne alındığında tüm projeyi yeniden düşünmek gerek.	Resmî dil.
+C2	a tenor de	-e göre; ışığında	Olanlar ışığında bütün projenin yeniden düşünülmesi gerekir.	Resmî dil: «a tenor de lo ocurrido» = olanlar ışığında.
 C2	en aras de	uğruna	Daha büyük bir hedef uğruna boş zamanından fedakârlık etti.	Resmî dil.
 C2	so pena de	aksi takdirde (ceza yaptırımıyla)	Raporu teslim etmek zorundalar, aksi takdirde ağır para cezası var.	Hukuk dili.
 C2	a la sazón	o sırada	Cumhurbaşkanı o sırada resmî bir seyahatteydi.	Edebî dil.
 C2	bagatela	ıvır zıvır (önemsiz şey)	Hiç kullanmadığı bir ıvır zıvıra servet harcadı.	İtalyancadaki gibi.
 C2	baratija	ucuz süs	Limandaki her turiste renkli bir ucuz süs satıyorlardı.	«barato»dan.
-C2	quincalla	hırdavat	Hırdavatçı dükkânı çivi, vida ve eski aletler sunuyordu.	Ayrıca «hurda».
 C2	menaje	ev eşyası	Yeni evi donatmak için tüm ev eşyalarını satın aldılar.	Ticaret terimi.
 C2	subasta	müzayede	Tablonun müzayedesi ülkede görülmemiş bir rakama ulaştı.	«asta» gibi.
 C2	pujar	artırma yapmak	Birkaç koleksiyoncu eski el yazmasına artırma yapmaya karar verdi.	Ayrıca «itmek».
@@ -251,22 +229,18 @@ C2	vericueto	çetin patika	Dar ve çetin bir patika saklı köye çıkıyordu.	R
 C2	desfiladero	geçit (dar boğaz)	Kervan dar boğazdan dikkatle ilerledi.	«desfilar»dan.
 C2	barranco	dere yatağı (yarıntı)	Derin bir yarıntı sıradağlardaki iki köyü ayırıyordu.	«burrone» gibi.
 C2	cañada	dar vadi	İlkbaharda dar vadi sarı çiçeklerle kaplıydı.	Ayrıca sürü yolu.
-C2	cabalgar	ata binmek (at sürmek)	Güneyin ovalarında şafakta at sürmeyi âdet edinmişlerdi.	«caballo»dan.
 C2	esquivar	savuşturmak (kaçınmak)	Ara yollardan polis kontrollerini atlatmayı başardılar.	İtalyancadaki gibi.
 C2	vadear	geçmek (nehri)	Nehri belimize kadar suda yürüyerek geçmek zorunda kaldık.	«vado»dan (sığ geçit).
 C2	tortuoso	dolambaçlı	Dolambaçlı yol sürücüden sürekli dikkat istiyordu.	İtalyancadaki gibi.
 C2	aterido	donmuş (üşümüş)	Saatlerce kar ve rüzgârdan sonra kulübeye donmuş halde vardı.	«aterir»den.
-C2	amanuense	kâtip (müstensih)	Müstensih el yazmalarını mum ışığında kopyalıyordu.	İtalyancadaki gibi.
 C2	folletín	tefrika roman	Tefrika roman pazar gazetesinde bölümler halinde yayımlanıyordu.	Fransızcadan.
 C2	sainete	sainete (tek perdelik fars)	Sainete, halk mahallesinin âdetlerini mizahla betimliyordu.	Kısa tiyatro türü.
 C2	copla	kopla (halk türküsü)	Şenlik sırasında meydanda eski bir halk türküsü yankılanıyordu.	Halk kıtası.
 C2	zarzuela	sarsuela	Sarsuela şarkı, konuşma diyaloğu ve komik sahneleri bir araya getirir.	İspanyol lirik türü.
-C2	payada	payada (doğaçlama şarkı)	Río de la Plata'nın payada'sı gitar eşliğinde doğaçlama dize söylemektir.	Arjantin ve Uruguay geleneği.
 C2	milonga	milonga	Geceyi bir milongada yabancılarla tango yaparak geçirdiler.	Ayrıca dans ve mekân.
 C2	rasgar	tellere vurmak	Gitarın tellerine salonu susturan bir güçle vurmayı bildi.	Ayrıca «yırtmak».
 C2	declamar	ezbere okumak (deklame etmek)	Aile toplantılarında ezbere dizeler okumayı âdet edinmişti.	İtalyancadaki gibi.
 C2	enaltecer	yüceltmek	Eleştiri, genç piyanistin yeteneğini yüceltmeyi bildi.	Düzensiz.
-C2	cautivador	büyüleyici	Sesinin büyüleyici tonu tiyatroyu sessizliğe gömdü.	«cautivar»dan.
 C2	irreverente	saygısız	Saygısız komedyen orada bulunan tüm politikacılarla alay etti.	İtalyancadaki gibi.
 C2	palmar	ölüp gitmek (günlük dil)	Zavallı ihtiyar uzun bir hastalıktan sonra sonunda öldü gitti.	Çok günlük dil.
 C2	bregar	çabalamak (didinmek)	Ailesini geçindirmek için yıllarca didinmek zorunda kaldı.	Kitabi fiil.
@@ -276,6 +250,25 @@ C2	desfallecer	bitkin düşmek (halsiz kalmak)	Uzun yürüyüşten sonra neredey
 C2	agostar	kavurmak (kurutmak)	Yaz sıcağı koca tarlaları kavurdu.	«agosto»dan.
 C2	aventar	savurmak (harmanda)	Çiftçiler buğdayı akşamüstü harmanda savurmayı âdet edinmişti.	Meksika'da ayrıca «fırlatmak».
 C2	fermentación	fermantasyon	Yavaş fermantasyon bu peynire eşsiz bir karakter verir.	İtalyancadaki gibi.
-C2	hogaza	iri somun	Köy fırınından taze pişmiş bir iri somun aldılar.	«hogar»dan.
 C2	zumo	meyve suyu	Çıkmadan önce taze sıkılmış bir portakal suyu içti.	Latin Amerika'da «jugo».
-C2	pitanza	kuru ekmek payı	Yaşamaya zar zor yetecek kıt bir pay alıyorlardı.	Edebî dil.
+C2	tabique	bölme duvar	Mutfağı salonla birleştirmek için bölme duvarı yıktılar.	İnce bir iç duvar; taşıyıcı duvar «muro de carga»dır.
+C2	despilfarrar	har vurup harman savurmak	Mirası, lüks ve seyahatle geçen birkaç yılda har vurup harman savurdular.	«Derrochar» ile eş anlamlıdır; ismi «despilfarro»dur.
+C2	gravar	vergilendirmek; yük bindirmek	Hükûmet lüks ürünleri vergilendirmeyi planlıyor.	«Grabar» (kaydetmek, oymak) ile karıştırılmamalı.
+C2	desembolso	nakit harcama, ödeme	İlk harcama yüksekti ama buna değdi.	«Hacer» ile kullanılır: «hacer un gran desembolso».
+C2	rebozar	harca ya da galeta ununa bulamak	Fileto bifteklerini kızartmadan önce una ve yumurtaya bulamak gerekir.	Menülerde «rebozado» olarak çok geçer: «calamares rebozados».
+C2	guarnición	garnitür; garnizon	Somonu közlenmiş sebze garnitürüyle servis ettiler.	Aynı zamanda askerî garnizondur.
+C2	hartarse	tıka basa doymak; bıkmak	Paellayı tıka basa yedik ve kimse tatlı sipariş edemedi.	«De» ile bıkmak anlamına da gelir: «me harté de esperar».
+C2	arrendar	kiralamak (resmî)	Mekânı bir süpermarket zincirine kiralamaya karar verdiler.	Hukuki dil: hem kiraya vermeyi hem kiralamayı kapsar; gündelik sözcük «alquilar»dır.
+C2	trasbordo	aktarma (tren ya da hat)	Bu istasyonda başka bir hatta aktarma yapmak gerekir.	«Hacer trasbordo» denir; «transbordo» diye de yazılır.
+C2	embarcadero	iskele, yanaşma yeri	Tekne köprünün yanındaki iskeleden kalkıyor.	«Embarcar» fiilinden gelir; İtalyanca «imbarcadero» gibi.
+C2	desembarcar	karaya çıkmak, inmek	Yolcular limanda uzun süre bekledikten sonra karaya çıkabildi.	Uçaklar ve trenler için de kullanılır; geçmiş zaman birinci tekil kişi: «desembarqué».
+C2	cicatrizar	(yara) kapanmak, iyileşmek	Bu merhem yaranın daha hızlı kapanmasına yardımcı olur.	İtalyancadaki gibi; ismi «cicatriz»dir.
+C2	desmayo	bayılma	Sokağın ortasında bayıldı ve ambulans çağırdılar.	Fiili «desmayarse»dir (bayılmak).
+C2	convaleciente	nekahet dönemindeki	Ameliyattan sonra hâlâ nekahet döneminde ama iyi toparlanıyor.	Eril ve dişilde aynıdır; fiili «convalecer»dir.
+C2	plantilla	personel kadrosu; tabanlık; şablon	Şirket kadrosunu yüzde on azalttı.	Aynı zamanda ayakkabı tabanlığı ve şablondur.
+C2	despido	işten çıkarma	Hâkim, işçinin işten çıkarılmasını haksız buldu.	Fiili «despedir»dir; «despido improcedente» = haksız işten çıkarma.
+C2	sobremanera	son derece, aşırı ölçüde	Ülkenin ekonomik durumu beni çok endişelendiriyor.	Resmî ve yazılı dil; konuşmada: «muchísimo».
+C2	cachivache	ıvır zıvır, eşya	Kimsenin istemediği bir ıvır zıvırı sakladı.	Gündelik dil, hemen hemen her zaman çoğul: «cachivaches».
+C2	pasatiempo	hobi, boş zaman uğraşı	En sevdiği uğraş antika saatleri onarmak.	«Pasar el tiempo» (zaman geçirmek) ifadesinden gelir; eş anlamlıları: «afición», «hobby».
+C2	coleccionista	koleksiyoncu	Plak koleksiyoncusu ve iki binden fazla plağı var.	Eril ve dişilde aynıdır: «el/la coleccionista»; fiili «coleccionar»dır.
+C2	comensal	sofra arkadaşı, yemek konuğu	Masadaki her kişi farklı bir yemek sipariş etti.	Eril ve dişilde aynıdır: «el/la comensal».

@@ -17,7 +17,7 @@ B2	exitoso	bem-sucedido	Foi um projeto bem-sucedido para toda a empresa.	Muito c
 B2	eficaz	eficaz	Buscamos um método mais eficaz para trabalhar.	Plural «eficaces».
 B2	eficiente	eficiente	Minha equipe é muito eficiente com os prazos.	«Eficaz» funciona; «eficiente» usa bem os recursos.
 B2	guiso	ensopado	O ensopado da minha avó levava horas para cozinhar.	Prato típico dos lares latino-americanos.
-B2	caldo	caldo	O caldo de frango é ideal quando há gripe.	Também o adjetivo «quente».
+B2	caldo	caldo	O caldo de galinha é ideal quando se está gripado.	Não é o italiano «caldo»: quente é «caliente», calor é «calor». «Caldo» é caldo.
 B2	sazonado	temperado	O peixe temperado com limão fica delicioso.	De «sazonar».
 B2	amasar	sovar	Minha mãe sova o pão todos os sábados.	«Masa» é a massa.
 B2	picar	picar (cortar)	Pique a cebola bem fina, por favor.	Também «picar» (ferroar).
@@ -26,14 +26,13 @@ B2	levadura	fermento	Adiciona-se fermento para a massa crescer.	De «levar».
 B2	brindar	brindar	Quero brindar à saúde de todos.	«Brindis» é o brinde.
 B2	embriagarse	embriagar-se	É melhor não se embriagar em festas de família.	Mais formal que «emborracharse».
 B2	atravesar	atravessar	Para chegar é preciso atravessar a ponte velha.	Muda e→ie: «atravieso».
-B2	carretera	estrada	A estrada estava fechada pela neve.	«Carretera» é uma estrada fora da cidade.
 B2	averiarse	quebrar (veículo)	O carro quebrou no meio do deserto.	«Avería» é a avaria.
 B2	remolcar	rebocar	Tiveram que rebocar o carro até a oficina.	«Remolque» é o reboque.
 B2	neumático	pneu	Furou um pneu em plena estrada.	No México «llanta».
 B2	llanta	pneu	Troquei o pneu antes de anoitecer.	Na Espanha «neumático».
 B2	envase	embalagem	Esta embalagem pode ser reciclada facilmente.	De «envasar».
 B2	caducar	vencer (validade)	Este leite vence amanhã, é preciso beber hoje.	«Caducidad» é a validade.
-B2	saldo	saldo	Consultei o saldo da minha conta no celular.	Na América Latina também crédito do celular.
+B2	saldo	saldo	Consultei o saldo da minha conta no aplicativo.	Também crédito de celular («recargar saldo»). Liquidações são «rebajas».
 B2	cheque	cheque	Paguei o aluguel com um cheque.	Pouco usado hoje.
 B2	cotizar	contribuir (previdência)	Preciso contribuir vinte anos para me aposentar.	«Cotización» é a contribuição.
 B2	estafar	enganar (golpe)	Tentaram me enganar com uma oferta falsa.	«Estafa» é o golpe.
@@ -48,7 +47,6 @@ B2	mareo	tontura	Senti uma tontura ao me levantar.	De «mar».
 B2	ayuntamiento	prefeitura	A prefeitura organizou uma festa para o bairro.	Na América Latina «alcaldía».
 B2	alcalde	prefeito	O prefeito prometeu consertar as ruas do centro.	Feminino «alcaldesa».
 B2	juez	juiz	O juiz proferiu a sentença ontem à tarde.	Feminino «la jueza».
-B2	abogado	advogado	Meu advogado me aconselhou a não assinar nada.	Feminino «abogada».
 B2	juicio	julgamento	O julgamento começará dentro de duas semanas.	Também «juízo».
 B2	condena	pena	A pena foi de cinco anos de prisão.	De «condenar».
 B2	testigo	testemunha	A testemunha declarou que não viu nada estranho.	Igual no masculino e no feminino.
@@ -94,7 +92,7 @@ B2	financiar	financiar	O banco vai financiar a compra da casa.	Como em italiano.
 B2	reponer	repor	É preciso repor o estoque toda semana.	Irregular como «poner».
 B2	abastecer	abastecer	O mercado abastece toda a região.	Irregular: «abastezco».
 B2	rebasar	ultrapassar	O gasto vai ultrapassar o orçamento.	Comum no México.
-B2	amortizar	amortizar	Levarei dez anos para amortizar o empréstimo.	«Amortización» é a amortização.
+B2	amortizar	amortizar, quitar	Vou levar dez anos para quitar o empréstimo.	Diz-se de uma dívida (pagar um empréstimo aos poucos) ou de um gasto que se paga com o tempo.
 B2	inflar	encher (de ar)	É preciso encher os pneus antes de sair.	Como em italiano.
 B2	desinfectar	desinfetar	Devemos desinfetar a ferida com álcool.	Como em italiano.
 B2	recetar	receitar	O médico vai me receitar um antibiótico.	«Receta» é a receita médica ou culinária.
@@ -115,7 +113,7 @@ B2	indispensable	insubstituível	Levar o passaporte é indispensável para viaja
 B2	meticuloso	meticuloso	Meu chefe é meticuloso com os detalhes.	Como em italiano.
 B2	imprevisible	imprevisível	O clima desta região é imprevisível.	Como em italiano.
 B2	exigente	exigente	Minha professora é muito exigente com os prazos.	De «exigir».
-B2	mandón	mandão	Meu irmão mais velho é muito mandão com todos.	Feminino «mandona».
+B2	mandón	mandão	Meu irmão mais velho é muito mandão com todo mundo.	Informal: alguém que quer mandar em todos. Feminino «mandona».
 B2	solidario	solidário	É um bairro solidário onde todos se ajudam.	De «solidaridad».
 B2	polémico	polêmico	O tema é polêmico e divide as pessoas.	De «polémica».
 B2	sagrado	sagrado	Para eles, esse lago é um lugar sagrado.	Usado para lugares e objetos de culto.
@@ -139,7 +137,6 @@ B2	tecnología	tecnologia	A tecnologia muda a vida das pessoas.	Como em italiano
 B2	inteligencia	inteligência	A inteligência artificial avança muito rápido.	«IA» é a abreviatura.
 B2	dato	dado	Cada dado deve ser verificado antes de ser publicado.	Muitas vezes no plural: «los datos».
 B2	red	rede	A rede do escritório está lenta hoje.	«Redes sociales» são as redes sociais.
-B2	seguridad	segurança	A segurança dos dados é essencial.	De «seguro».
 B2	privacidad	privacidade	É importante que ele proteja sua privacidade online.	Na Espanha também «intimidad».
 B2	actualizar	atualizar	É melhor atualizar o programa todo mês.	«Actualización» é a atualização.
 B2	bloquear	bloquear	Quero que você bloqueie esse número de telefone.	«Bloqueo» é o bloqueio.
@@ -160,7 +157,6 @@ B2	vegetariano	vegetariano	Minha irmã é vegetariana há anos.	Também substant
 B2	orgánico	orgânico	Prefiro que a fruta seja orgânica.	Na Espanha também «ecológico».
 B2	regional	regional	Cada prato regional conta uma história diferente.	Como em italiano.
 B2	fermentar	fermentar	É preciso fermentar a massa durante a noite toda.	«Fermento» é o fermento.
-B2	maridaje	harmonização (vinho e comida)	A harmonização do vinho com o queijo é perfeita.	De «marido».
 B2	paladar	paladar	Este prato é para um paladar exigente.	Em Cuba também um pequeno restaurante familiar.
 B2	degustar	degustar	Os convidados vão degustar cinco tipos de vinho.	«Degustación» é a degustação.
 B2	bodega	adega; mercearia	A adega onde comprávamos vinho fechou este ano.	Em Cuba e em outros lugares é a mercearia.
@@ -215,8 +211,7 @@ B2	itinerario	itinerário	Quero que você revise o itinerário da viagem.	Como e
 B2	trayecto	trajeto	O trajeto de ônibus dura quase seis horas.	Não «trajetória».
 B2	escala	escala	O voo tem uma escala em Bogotá.	Também uma escala musical.
 B2	hospedaje	hospedagem	A hospedagem inclui café da manhã e transporte.	Comum na América Latina.
-B2	albergue	albergue	Dormimos num albergue perto da praia.	Também «hostal».
-B2	mochilero	mochileiro	Cada mochileiro leva sua própria barraca.	De «mochila».
+B2	mochilero	mochileiro	O mochileiro dorme em um albergue.	Vem de «mochila». Feminino «mochilera».
 B2	trasladarse	mudar-se (deslocar-se)	Se me transferirem, virei morar no sul.	«Traslado» é a transferência.
 B2	desplazarse	deslocar-se	Para me deslocar pela cidade, usaria o metrô.	«Desplazamiento» é o deslocamento.
 B2	explorar	explorar	Gostaria de explorar os povoados da montanha.	Como em italiano.
@@ -224,7 +219,6 @@ B2	cumbre	cume	Chegamos ao cume antes do amanhecer.	Feminino: «la cumbre».
 B2	orilla	margem	Caminhamos pela margem do rio ao entardecer.	Usado para rio e mar.
 B2	oleaje	ondulação	A ondulação estava tão forte que não nadamos.	Mar agitado.
 B2	muelle	cais	O cais está cheio de barcos pequenos.	Também uma mola.
-B2	puerto	porto	O porto é o coração da cidade.	«Puerto Rico» = porto rico.
 B2	corriente	correnteza	Havia uma correnteza perigosa perto da pedra.	Também um adjetivo.
 B2	brújula	bússola	Sem bússola, teríamos nos perdido na selva.	Palavra proparoxítona.
 B2	brisa	brisa	Uma brisa suave vinha do mar.	Como em italiano.
@@ -235,7 +229,7 @@ B2	barrio	bairro	Meu bairro tem um mercado muito antigo.	Termo afetuoso na Amér
 B2	albañil	pedreiro	O pedreiro terminou o muro esta manhã.	Feminino «albañila».
 B2	fontanero	encanador	Chamei o encanador porque havia um vazamento.	Na América Latina também «plomero».
 B2	fuga	vazamento	Há um vazamento de água sob a pia.	Também fuga.
-B2	grifo	torneira	A torneira da cozinha pinga a noite toda.	Na América Latina também «llave».
+B2	grifo	torneira	A torneira da cozinha pinga a noite toda.	Em muitos países da América Latina chama-se «llave».
 B2	bombilla	lâmpada	A lâmpada do corredor queimou ontem à noite.	Na Argentina é o canudo do mate.
 B2	enchufe	tomada	Preciso de uma tomada perto da cama.	De «enchufar».
 B2	tubería	encanamento	O encanamento estourou com o frio.	De «tubo».
@@ -285,3 +279,12 @@ B2	mercancía	mercadoria	A mercadoria chegou danificada pela chuva.	De «mercado
 B2	almacén	armazém	O armazém tem tudo o que precisamos.	Na Argentina também uma mercearia.
 B2	proveedor	fornecedor	O fornecedor entregará a mercadoria na segunda.	De «proveer».
 B2	mayorista	atacadista	Compramos fruta do atacadista toda manhã.	Oposto: «minorista».
+B2	imprescindible	indispensável	É indispensável guardar o recibo.	Muitas vezes com «ser».
+B2	competencia	competência; concorrência	A concorrência entre as empresas favorece os consumidores.	Dois sentidos: habilidade e rivalidade.
+B2	asombroso	assombroso	A velocidade do corredor foi assombrosa para todos os presentes.	Vem de «asombro» (espanto); o verbo é «asombrar».
+B2	estancia	estadia, permanência	Sua estadia no exterior mudou por completo sua visão de mundo.	Na região do Rio da Prata e no Chile, também é uma grande fazenda de gado.
+B2	disponer	dispor de	A empresa dispõe de recursos suficientes para ampliar a fábrica.	Irregular como «poner».
+B2	desviar	desviar; fazer um desvio	Tiveram que fazer um desvio por uma estrada de montanha.	«Desvío» é um desvio; «desviarse» significa sair do caminho.
+B2	sembrar	semear	É preciso semear o trigo antes que cheguem as chuvas.	Muda e→ie: «siembro».
+B2	cuarentena	quarentena	Durante a quarentena ninguém podia sair de casa sem permissão.	Vem de «cuarenta»: originalmente os quarenta dias de isolamento dos navios.
+B2	cabalgar	cavalgar	Costumavam cavalgar ao amanhecer pelas planícies do sul.	De «caballo».

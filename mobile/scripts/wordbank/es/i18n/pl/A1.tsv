@@ -32,7 +32,7 @@ A1	dulce	słodki	Moja kawa jest zawsze słodka.	«Dulce» to przymiotnik i rzecz
 A1	caliente	gorący	Kawa jest bardzo gorąca.	O ludziach mówi się «tener calor», nie «estar caliente», co znaczy coś innego.
 A1	frío	zimny	Piwo jest dobrze schłodzone.	O pogodzie mówi się «hace frío»; o ludziach «tener frío».
 A1	sabroso	pyszny	To danie jest bardzo pyszne.	Używa się go głównie w Ameryce Łacińskiej; w Hiszpanii woli się «rico».
-A1	sal	sól	Brakuje trochę soli.	Mówi się «la sal» (rodzaj żeński); w niektórych wiejskich okolicach słychać błędnie «el sal».
+A1	sal	sól	Brakuje trochę soli.	«Sal» jest rodzaju żeńskiego: «la sal». To także rozkaźnik od «salir»: «¡Sal de aquí!».
 A1	azúcar	cukier	Nie chcę cukru do kawy.	«Azúcar» może być rodzaju męskiego lub żeńskiego, ale dziś prawie zawsze mówi się «el azúcar».
 A1	casa	dom	Mój dom jest blisko parku.	«En casa» znaczy «w domu»: «estoy en casa», «voy a casa».
 A1	cuarto	pokój	Mój pokój jest mały, ale wygodny.	W Ameryce Łacińskiej «cuarto» to pokój; w Hiszpanii częściej «habitación».
@@ -43,10 +43,10 @@ A1	ventana	okno	Okno wychodzi na ogród.	«Ventana» pochodzi od «viento» (wia
 A1	cama	łóżko	Moje łóżko jest bardzo wygodne.	«Cama» to łóżko; «cama matrimonial» to łóżko małżeńskie.
 A1	silla	krzesło	Potrzebuję wyższego krzesła.	«Silla» to krzesło; «sillón» to fotel.
 A1	sofá	sofa	Sofa jest nowa i duża.	Akcent pada na ostatnią sylabę: «sofá», liczba mnoga «sofás».
-A1	llave	klucz	Gdzie jest klucz do domu?	«Llave» w niektórych krajach to też kran: «abrir la llave».
+A1	llave	klucz	Gdzie jest klucz do domu?	«Llave» oznacza też kran w Ameryce Łacińskiej: «abrir la llave»; w Hiszpanii mówi się «grifo».
 A1	jardín	ogród	Mój dziadek dba o ogród.	«Jardín de infantes» to przedszkole w Argentynie.
 A1	familia	rodzina	Moja rodzina mieszka w Limie.	Rzeczownik jest w liczbie pojedynczej: «mi familia vive», nie «viven», nawet gdy osób jest wiele.
-A1	madre	matka	Moja mama bardzo dobrze gotuje.	W Ameryce Łacińskiej mówi się też «mamá»; «madre» jest bardziej formalne.
+A1	madre	matka	Moja mama bardzo dobrze gotuje.	«Mamá» to forma czuła, używana wszędzie; «madre» jest bardziej formalne.
 A1	padre	ojciec	Mój ojciec pracuje w banku.	W liczbie mnogiej «los padres» to rodzice, nie tylko ojcowie.
 A1	hermano	brat	Mój brat ma dwanaście lat.	«Hermanos» może znaczyć braci i siostry razem.
 A1	hijo	syn	Jej syn studiuje medycynę.	W liczbie mnogiej «los hijos» to dzieci, chłopcy i dziewczynki.
@@ -58,7 +58,7 @@ A1	dormir	spać	Muszę spać osiem godzin dziennie.	Nieregularny w czasie teraź
 A1	lavar	myć, prać	Muszę dziś uprać ubrania.	«Lavarse» to myć się: «me lavo las manos».
 A1	grande	duży	Mój dom nie jest bardzo duży.	Przed rzeczownikiem w liczbie pojedynczej przybiera formę «gran»: «un gran día».
 A1	pequeño	mały	Mieszkam w małym miasteczku.	W Ameryce Łacińskiej zamiast «pequeño» bardzo często mówi się «chico».
-A1	nuevo	nowy	Mamy nową sofę.	Szyk: «un carro nuevo» (fabrycznie nowy), ale «un nuevo carro» (kolejny).
+A1	nuevo	nowy	Mamy nową sofę.	Zwykle stoi po rzeczowniku: «un sofá nuevo». Zgadza się w rodzaju i liczbie: «nueva», «nuevos», «nuevas».
 A1	viejo	stary	Ten dom jest bardzo stary.	O człowieku «viejo» może urazić: «mayor» jest delikatniejsze.
 A1	limpio	czysty	Kuchnia jest bardzo czysta.	«Estar limpio» to być czystym teraz; «ser limpio» opisuje schludną osobę.
 A1	cómodo	wygodny	Ten fotel jest bardzo wygodny.	«Cómodo» mówi się o rzeczach i ludziach: «estoy cómodo».
@@ -80,7 +80,7 @@ A1	billete	bilet	Kupuję bilet w jedną stronę.	W Ameryce Łacińskiej zwykle m
 A1	hotel	hotel	Hotel ma basen.	«H» jest nieme: wymawia się «otel».
 A1	mapa	mapa	Potrzebuję mapy miasta.	Kończy się na «-a», ale jest rodzaju męskiego, jak «día» i «problema».
 A1	maleta	walizka	Moja walizka jest niebieska i duża.	«Hacer la maleta» znaczy spakować walizkę.
-A1	playa	plaża	W niedzielę jedziemy na plażę.	«Playa» to plaża, nie morze: morze to «el mar».
+A1	playa	plaża	W niedzielę jedziemy na plażę.	«Playa» to plaża, nie morze: morze to «el mar» (rodzaj męski). Wybrzeże to «la costa».
 A1	viajar	podróżować	Lubię podróżować z rodziną.	«Viajar» i «viaje» pisze się przez «j».
 A1	llegar	przyjeżdżać, dojeżdżać	Zawsze przyjeżdżam na dworzec wcześnie.	«G» przed «e» zmienia się w «gu»: «llegué».
 A1	salir	wychodzić, wyjeżdżać	Pociąg odjeżdża o ósmej.	Fałszywy przyjaciel: «salir» to wyjść lub wyjechać, nie wejść w górę (to «subir»).
@@ -97,11 +97,11 @@ A1	allí	tam	Mój brat mieszka tam od 2020 roku.	Jest też «allá», mniej prec
 A1	derecha	prawa strona	Bank jest po prawej.	Mówi się «a la derecha» i «a la izquierda».
 A1	izquierda	lewa strona	Skręć tutaj w lewo.	«Gira», «dobla» lub «voltea»: trzy czasowniki oznaczające skręcanie, zależnie od kraju.
 A1	estación	dworzec, stacja	Dworzec jest bardzo blisko.	Znaczy też «pora roku»: «las cuatro estaciones».
-A1	aeropuerto	lotnisko	Lotnisko jest bardzo nowoczesne.	Lotnisko często ma skrót: «AIFA» w mieście Meksyk.
+A1	aeropuerto	lotnisko	Lotnisko jest bardzo nowoczesne.	Nie myl «puerto» (port) z «puerta» (drzwi). Na lotnisku jest «la puerta de embarque» (wyjście do samolotu).
 A1	rápido	szybki	Pociąg jest bardzo szybki.	Jako przysłówek pozostaje niezmienny: «habla rápido».
 A1	lento	wolny	Autobus jest zbyt wolny.	Przeciwieństwo «rápido»; «despacio» to przysłówek „powoli”.
 A1	barato	tani	Hotel jest bardzo tani.	Przeciwieństwo: «caro». «Salir barato» znaczy wyjść tanio.
-A1	trabajo	praca	Moja praca zaczyna się o ósmej.	«Trabajo» to praca w ogóle i miejsce pracy; «empleo» to stanowisko.
+A1	trabajo	praca, posada	Moja praca zaczyna się o ósmej.	«Trabajo» to praca lub posada: «buscar trabajo». Czasownik to «trabajar». «Empleo» to formalne słowo oznaczające zatrudnienie.
 A1	oficina	biuro (miejsce)	Moje biuro jest w centrum.	«Oficina» to biuro jako miejsce; «despacho» to gabinet kierownika.
 A1	jefe	szef	Mój szef mówi w trzech językach.	Dla kobiety mówi się «la jefa».
 A1	empresa	firma	Moja firma sprzedaje ubrania przez internet.	«Empresa» to przedsiębiorstwo; «compañía» jest bardziej formalne lub międzynarodowe.
@@ -133,7 +133,7 @@ A1	estudiante	student	Moja siostra jest studentką medycyny.	Taki sam w rodzaju 
 A1	doctor	doktor	Mój wujek jest doktorem fizyki.	Rodzaj żeński: «la doctora»; «médico» to zawód lekarza.
 A1	cliente	klient	Klient chce z tobą porozmawiać.	Taki sam w rodzaju męskim i żeńskim: «el/la cliente».
 A1	tienda	sklep	Sklep otwiera się o dziewiątej.	«Tienda» to sklep; «tienda de campaña» to namiot kempingowy.
-A1	mercado	targ	Kupuję warzywa na targu.	W Ameryce Łacińskiej lokalne targi są bardzo ożywione: «el mercado central».
+A1	mercado	targ, rynek	Warzywa kupuję na targu.	«El mercado» to targ; supermarket to «el supermercado». Także «mercado laboral» (rynek pracy).
 A1	precio	cena	Cena koszuli jest niska.	Mówi się «un precio bajo/alto», nie mała/duża.
 A1	ropa	ubrania	Chcę kupić nowe ubrania.	«Ropa» to rzeczownik zbiorczy w liczbie pojedynczej: «la ropa está limpia».
 A1	camisa	koszula	Ta koszula jest z bawełny.	To nie «camiseta» (T-shirt), bardziej codzienna.
@@ -148,7 +148,6 @@ A1	vender	sprzedawać	Mój wujek sprzedaje buty na targu.	«Vendedor» to sprzed
 A1	costar	kosztować	Ile może kosztować ta koszula?	Temat się zmienia: «cuesta» (o→ue).
 A1	llevar	nosić, zabierać	Dziś mam na sobie białą koszulę.	«Llevar» znaczy zabierać ze sobą i nosić ubranie.
 A1	probar	przymierzać; próbować	Przymierzę te buty.	Temat się zmienia: «pruebo» (o→ue).
-A1	elegir	wybierać	Trudno wybrać prezent.	«Escoger» to bardzo częsty synonim.
 A1	caro	drogi	Ten płaszcz jest zbyt drogi.	Rodzaj żeński «cara»; «salir caro» znaczy wyjść drogo.
 A1	bonito	ładny	Twoja koszula jest bardzo ładna.	«Bonito» jest potoczne i rozpowszechnione w Ameryce Łacińskiej; «bello» jest bardziej formalne.
 A1	blanco	biały	Chcę białą koszulę.	Kolory stoją po rzeczowniku: «una camisa blanca».
@@ -175,13 +174,12 @@ A1	farmacia	apteka	Apteka zamyka się o dziesiątej.	W Hiszpanii apteki mają po
 A1	dolor	ból	Mam ból w plecach.	Mówi się «tener dolor de cabeza» na ból głowy.
 A1	fiebre	gorączka	Mój syn ma gorączkę od wczoraj.	Mówi się «tener fiebre».
 A1	sueño	sen; senność	Dziś wieczorem jestem bardzo śpiący.	Znaczy i sen, i senność: «tener sueño», «un sueño bonito».
-A1	sentir	czuć	Dziś chcę poczuć słońce.	«Lo siento» znaczy „przepraszam”.
+A1	sentir	czuć	Chcę dziś poczuć słońce.	«Lo siento» znaczy «przepraszam». Do uczuć używa się «sentirse»: «me siento bien».
 A1	doler	boleć	Jutro będą mnie boleć plecy.	Używa się z dopełnieniem dalszym: «me duele», «te duelen los pies».
 A1	descansar	odpoczywać	Dziś muszę trochę odpocząć.	«Descanso» to przerwa lub odpoczynek.
 A1	cuidar	dbać	Muszę lepiej dbać o zdrowie.	«¡Cuídate!» to pożegnanie: „dbaj o siebie”.
 A1	tomar	brać; pić	Wezmę tabletkę.	W Ameryce Łacińskiej «tomar» znaczy też „pić”.
 A1	mejorar	poprawiać	W tym roku chcę poprawić zdrowie.	«Mejor» to zarazem „lepiej” (przysł.) i „lepszy” (przym.).
-A1	sano	zdrowy	Mój dziadek jest zdrowym człowiekiem.	O zdrowiu psychicznym mówi się «cuerdo»; «sano» dotyczy głównie ciała.
 A1	enfermo	chory	Mój syn jest dziś chory.	«Estar enfermo» to być chorym teraz; «un enfermo» to pacjent.
 A1	fuerte	silny	Moja babcia jest bardzo silna.	Odnosi się też do dźwięków: «un ruido fuerte».
 A1	débil	słaby	Czuję się słaby po gorączce.	Przeciwieństwo «fuerte».
@@ -224,7 +222,7 @@ A1	ayer	wczoraj	Wczoraj obejrzeliśmy bardzo dobry film.	Używa się z czasem pr
 A1	tarde	popołudnie	Po południu idę do parku.	«Tarde» to też przysłówek „późno”: «llegas tarde».
 A1	siempre	zawsze	Zawsze słucham muzyki rano.	Przeciwieństwo: «nunca».
 A1	nunca	nigdy	Nigdy nie piję kawy wieczorem.	Gdy «nunca» stoi po czasowniku, potrzebne jest «no»: «no bebo nunca café».
-A1	hola	cześć	Cześć, mam na imię Ana.	«H» jest nieme. «Hola» pasuje o każdej porze i w każdej sytuacji.
+A1	hola	cześć	Cześć, nie mówię zbyt dobrze po hiszpańsku.	Litery «h» się nie wymawia. «Hola» pasuje o każdej porze i w każdej sytuacji.
 A1	adiós	do widzenia	Do widzenia, do zobaczenia jutro.	Mniej ostateczne niż włoskie «addio»: to zwykłe pożegnanie.
 A1	gracias	dziękuję	Bardzo dziękuję za pomoc.	Odpowiada się «de nada» lub «con gusto» (Ameryka Łacińska).
 A1	por favor	proszę	Poproszę kawę i rachunek.	Używa się prawie za każdym razem, gdy się o coś prosi.
@@ -238,7 +236,7 @@ A1	vida	życie	Życie jest bardzo piękne.	«¡Es la vida!» to częsty okrzyk.
 A1	tiempo	czas; pogoda	Dziś nie mam dużo czasu.	Znaczy czas i pogodę: «hace buen tiempo».
 A1	mundo	świat	Chcę poznać cały świat.	«Todo el mundo» znaczy „wszyscy”.
 A1	hombre	mężczyzna	Ten mężczyzna to mój wujek.	«H» jest nieme.
-A1	mujer	kobieta	Moja mama jest silną kobietą.	«Mujer» znaczy też „żona”.
+A1	mujer	kobieta	Moja mama to silna kobieta.	Może też znaczyć «żona»: «mi mujer». Bardziej formalnie: «esposa».
 A1	niño	chłopiec, dziecko	Chłopiec bawi się na ulicy.	Rodzaj żeński «niña». «Ñ» ma znaczenie.
 A1	ser	być (tożsamość)	Jestem studentem i chcę być lekarzem.	«Ser» dla tożsamości, pochodzenia, zawodu; «estar» dla stanu i miejsca.
 A1	estar	być (stan, miejsce)	Teraz jestem w domu.	Służy do miejsca i stanu: «estoy en casa», «estoy cansado».
@@ -258,7 +256,7 @@ A1	ellos	oni	Oni pracują w biurze.	Rodzaj żeński: «ellas». W Ameryce Łaci�
 A1	este	ten	Ta książka jest bardzo interesująca.	«Este» to zaimek wskazujący „ten”.
 A1	y	i	Moja mama i mój tata mieszkają tutaj.	Przed «i-» zmienia się w «e»: «padre e hijo».
 A1	pero	ale	Chcę iść, ale nie mogę.	«Pero» (ale) i «perro» (pies) różnią się przez «rr».
-A1	porque	ponieważ	Nie wychodzę, ponieważ jestem dziś zmęczony.	«Porque» to odpowiedź; «por qué» (dwa słowa) to pytanie.
+A1	porque	ponieważ	Nie wychodzę, bo jestem dziś zmęczony.	«Porque» to odpowiedź; «por qué» (dwa słowa) to pytanie.
 A1	con	z	Idę do parku z psem.	«Conmigo» i «contigo» to formy szczególne.
 A1	sin	bez	Piję kawę bez cukru.	Przeciwieństwo «con».
 A1	en	w, na	Mieszkam w dużym mieście.	Bardzo częsty przyimek: «en casa», «en el mar».
@@ -270,7 +268,7 @@ A1	decir	mówić, powiedzieć	Możesz jeszcze raz powiedzieć swoje imię?	Niere
 A1	dar	dawać	Dam mamie prezent.	Nieregularny tylko w pierwszej osobie: «doy».
 A1	poner	kłaść, stawiać	Zaraz nakryję do stołu.	«Poner la mesa» to nakryć do stołu; nieregularny: «pongo».
 A1	usar	używać	Muszę teraz użyć telefonu.	«Utilizar» jest bardziej formalne.
-A1	visitar	odwiedzać	Chcę wkrótce odwiedzić dziadków.	Przy osobach: «visitar a alguien»; przy miejscach bez «a».
+A1	visitar	odwiedzać	Chcę wkrótce odwiedzić dziadków.	Mówi się «visitar a alguien» (pójść kogoś zobaczyć) i «visitar un lugar» (zwiedzać miejsce).
 A1	entrar	wchodzić	Możesz wejść głównym wejściem.	W Ameryce Łacińskiej bardzo częste jest «entrar a»; w Hiszpanii «entrar en».
 A1	volver	wracać	Wrócę do domu wcześnie.	Temat się zmienia: «vuelvo» (o→ue); «volver a» + bezokolicznik znaczy robić coś ponownie.
 A1	subir	wchodzić (na górę)	Musisz wejść na drugie piętro.	Przeciwieństwo: «bajar». Nie mylić z «salir».
@@ -278,7 +276,6 @@ A1	bajar	schodzić	Wysiądę na następnym przystanku.	«Bajar del autobús» zn
 A1	tocar	dotykać; grać (na instrumencie)	Mój brat umie grać na gitarze.	Jeden czasownik na dotykanie i granie na instrumencie.
 A1	practicar	uprawiać, ćwiczyć	Lubię uprawiać sport w soboty.	«Practicar deporte» znaczy uprawiać sport.
 A1	invitar	zapraszać	Chcę zaprosić przyjaciół na kolację.	«Invitar» może też znaczyć „stawiać”: «yo invito».
-A1	recibir	otrzymywać	Jutro dostanę paczkę.	«Recibir» to otrzymywać.
 A1	decidir	decydować	Musimy dziś zdecydować o cenie.	«Decidirse» to zdecydować się.
 A1	olvidar	zapominać	Nie chcę znowu zapomnieć klucza.	«Olvidarse de» lub «olvidar» bez przyimka: «olvidé la llave».
 A1	compartir	dzielić się	Lubię dzielić dom z przyjaciółmi.	«Compartir» to dzielić się.
@@ -302,3 +299,4 @@ A1	de	z, od	Jestem z małego miasta.	«De» wskazuje pochodzenie i przynależno�
 A1	a	do, na	Jadę do biura autobusem.	Przed osobą jako dopełnieniem bliższym: «veo a mi madre».
 A1	o	lub	Chcesz teraz herbatę czy kawę?	Przed «o-» zmienia się w «u»: «siete u ocho».
 A1	cuando	kiedy	Kiedy przychodzę, przygotowuję kolację.	Z akcentem «¿cuándo?» to pytanie.
+A1	cumpleaños	urodziny	Moje urodziny są w grudniu.	Nieodmienne w liczbie mnogiej: «dos cumpleaños».

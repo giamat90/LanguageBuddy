@@ -37,14 +37,14 @@ A2	ducharse	シャワーを浴びる	私はいつも朝食の前にシャワー�
 A2	vestirse	服を着る	今朝は急いで服を着なければなりません。	e→i変化の再帰動詞です。«me visto»。
 A2	acostarse	寝る	今日は早く寝ます。	語幹がo→ue変化します。«me acuesto»。
 A2	sentarse	座る	ソファに座っていいですよ。	«Siéntate»は座るよう勧める言葉です。
-A2	peinarse	髪をとかす	姉は鏡の前で髪をとかします。	«Peine»はくしです。
+A2	peinarse	髪をとかす	私は出かける前に髪をとかします。	再帰動詞です。«me peino»。くしは«el peine»、ブラシは«el cepillo»です。
 A2	espejo	鏡	浴室の鏡は大きいです。	ラテン語«speculum»から来ており、イタリア語«specchio»と同じです。
 A2	toalla	タオル	きれいなタオルが必要です。	«Toalla»はバスタオルで、テーブルクロスは«mantel»です。
 A2	jabón	石けん	私は石けんで手を洗います。	複数形は«jabones»です。
 A2	refrigerador	冷蔵庫	冷蔵庫はほとんど空です。	スペインでは«nevera»、アルゼンチンでは«heladera»です。
 A2	lavadora	洗濯機	洗濯機はとてもうるさいです。	«lavar»から来ており、«lavavajillas»は食洗機です。
 A2	escalera	階段	階段はとても狭いです。	複数形でよく使います。«las escaleras»。
-A2	pared	壁	リビングの壁は青いです。	«Muro»は外壁です。
+A2	pared	壁(室内の壁)	居間の壁は青色です。	«Pared»は部屋や建物の壁です。«muro»は外壁や境界の壁です。«el muro del jardín»。
 A2	suelo	床、地面	猫は床で寝ています。	«Suelo»は床で、国によっては«piso»も使います。
 A2	alfombra	じゅうたん	赤いじゅうたんはとても柔らかいです。	アラビア語«al-hanbal»から来ています。
 A2	lámpara	ランプ	ランプはテーブルの上にあります。	後ろから三番目の音節にアクセントがある語で、«á»にアクセント記号が付きます。
@@ -103,11 +103,10 @@ A2	reunirse	集まる	私たちは毎週月曜日に集まります。	«reunir�
 A2	informe	報告書	今日、最終報告書を仕上げます。	形のないという意味の形容詞でもあります。
 A2	equipo	チーム	私のチームはとてもよく働きます。	«Equipo»は設備も意味します。
 A2	sala	広間、室	会議室は満員です。	«Sala de estar»は居間です。
-A2	cargo	役職	私の役職は営業部長です。	«Estar a cargo»は担当しているという意味です。
 A2	entrevista	面接	明日、就職の面接があります。	«Entrevista de trabajo»は就職面接です。
 A2	solicitud	申請	私は郵便で申請書を送りました。	«Solicitar»は申請することです。
 A2	jubilación	定年退職	父は定年後の生活を楽しんでいます。	«Jubilarse»は退職することです。
-A2	negocio	商売、事業	おじは小さな商売をしています。	«nec-otium»から来ており、余暇の否定です。
+A2	negocio	商売、ビジネス	私の叔父は小さな商売をしています。	«Negocio»は事業のほか、取引も意味します。«un buen negocio»。店は«la tienda»です。
 A2	cobrar	受け取る（給料）；請求する	私は月末に給料を受け取ります。	請求するという意味もあります。«cobran diez dólares»。
 A2	firmar	署名する	ここに署名してください。	«Firma»は署名です。
 A2	enviar	送る	今からメールを送ります。	アクセントが移ります。«envío»（«í»にアクセント）、しかし«enviamos»。
@@ -142,7 +141,6 @@ A2	sombrero	帽子	祖父は麦わら帽子をかぶっています。	メキシ
 A2	calcetín	靴下	引き出しに靴下が一足足りません。	ラテンアメリカでは«media»とも言います。
 A2	reloj	時計	私の時計はとても古いですが良い物です。	腕時計と壁掛け時計に同じ語を使います。
 A2	anillo	指輪	私は銀の指輪を買いました。	ラテン語«anellus»から来ています。
-A2	probador	試着室	試着室は奥にあります。	«probar»から来ています。
 A2	talla	サイズ（服）	靴のサイズはいくつですか。	服には«talla»、多くの地域で靴には«número»を使います。
 A2	devolver	返す、返品する	このシャツを明日返品したいです。	o→ue変化します。«devuelvo»。
 A2	regalar	プレゼントする	母に本をプレゼントします。	人には«regalar a alguien»。
@@ -162,7 +160,7 @@ A2	brazo	腕	祖父は腕を骨折しています。	複数形は«brazos»：«
 A2	dedo	指	ナイフで指を切りました。	手の指と足の指の両方を指します。
 A2	boca	口	口を開けてください。	-aで終わる女性名詞です。
 A2	diente	歯	昨日から歯が一本痛いです。	複数形は«dientes»です。
-A2	oreja	耳（外耳）	左耳が痛いです。	«Oído»は聴覚と内耳です。
+A2	oreja	耳(外耳)	右の耳が痛い。	«Oreja»は外耳です。«oído»は聴覚と内耳を指します。«Me duele el oído»。
 A2	corazón	心臓	心臓がとても速く打っています。	複数形は«corazones»です。
 A2	sangre	血	血液検査が必要です。	スペイン語では女性名詞です。
 A2	resfriado	風邪	ひどい風邪をひいています。	«Estar resfriado»は風邪をひいていることです。
@@ -184,7 +182,7 @@ A2	recuperarse	回復する	父はとてもよく回復しています。	«Recu
 A2	grave	重い、深刻な	状況はあまり深刻ではありません。	低い音にも使います。
 A2	sordo	耳が聞こえない	祖父は少し耳が遠いです。	やわらかい言い方：«duro de oído»。
 A2	mareado	めまいがする	暑さでめまいがします。	«mar»から来ており、船酔いのことです。
-A2	cuerdo	正気の	おじはとても分別のある人です。	反対は«loco»です。
+A2	cuerdo	正気の、分別のある	私の叔父はとても分別のある人です。	反対語は«loco»です。
 A2	pasear	散歩する	私は公園を散歩するのが好きです。	«Paseo»は散歩です。
 A2	descubrir	発見する	今年は新しい場所を発見したいです。	過去分詞は不規則です。«descubierto»。
 A2	disfrutar	味わい楽しむ	私は生演奏をとても楽しみます。	«de»と使います。«disfrutar de»。
@@ -194,7 +192,6 @@ A2	sacar	取り出す、撮る	広場で写真を撮ります。	«Sacar fotos»
 A2	montar	乗る；組み立てる	いとこは馬に乗れます。	«Montar en bici»は自転車に乗ることです。
 A2	quedar	会う約束をする；残る	七時に広場で会いましょう。	«Quedar con alguien»は誰かと会う約束をすることです。
 A2	celebrar	祝う	明日は私の誕生日を祝います。	«Cumpleaños»はいつも男性単数です。
-A2	cumpleaños	誕生日	私の誕生日は十二月です。	複数形も変わりません。«dos cumpleaños»。
 A2	foto	写真	この写真は私の家族のです。	女性名詞です。«la foto»（«fotografía»から）。
 A2	concierto	コンサート	コンサートは九時に始まります。	«Concertar»は取り決めることです。
 A2	entrada	チケット；入口	コンサートのチケットを買いました。	入口と入場券に同じ語を使います。
@@ -227,14 +224,14 @@ A2	verdad	真実	本当のことを教えてください。	«¿Verdad?»は「�
 A2	respuesta	答え	あなたの返事を楽しみに待っています。	«responder»から。
 A2	pregunta	質問	宿題について質問があります。	«Hacer una pregunta»は質問をすることです。
 A2	conocido	知り合い	知り合いがこの助言をくれました。	«conocer»の過去分詞でもあります。
-A2	consejo	助言	母がいい助言をくれます。	単数形：«un consejo»。
+A2	consejo	助言、アドバイス	母は私によい助言をくれます。	«dar un consejo»、«seguir un consejo»という言い方をします。動詞は«aconsejar»です。
 A2	encontrar	見つける	すぐに解決策を見つけます。	o→ue変化します。«encuentro»。
 A2	extrañar	恋しく思う	クリスマスにはみんなが恋しいです。	ラテンアメリカでは«extrañar»、スペインでは«echar de menos»。
 A2	recordar	思い出す	子どものころを思い出したいです。	o→ue変化します。«recuerdo»。
 A2	creer	信じる、思う	あなたの言うとおりだと思います。	«Creo que»+直説法。
 A2	pensar	考える	あなたの提案について考えます。	e→ie変化します。«pienso»。
 A2	contar	語る；数える	祖父は話を語るのが上手です。	o→ue変化します。«cuento»。
-A2	nacer	生まれる	娘は五月に生まれる予定です。	«Nací»は「私は生まれた」です。
+A2	nacer	生まれる	私の娘は5月に生まれました。	«Nací en Roma»は「私はローマで生まれた」という意味です。不規則動詞です。«nazco»。
 A2	casarse	結婚する	姉は六月に結婚します。	用法：«casarse con alguien»。
 A2	llamarse	という名前である	私はアナといいます。あなたは？	再帰動詞：«me llamo, te llamas»。
 A2	acordarse	覚えている	そのことは思い出したくありません。	«de»と使います。
@@ -291,3 +288,6 @@ A2	además	そのうえ	そのうえ、チリに姉がいます。	一語で書�
 A2	mientras	〜している間	音楽を聴きながら料理します。	主語は同じでも違ってもかまいません。
 A2	sino	そうではなく	お茶ではなく、コーヒーがほしいです。	«Sino»は否定のあとに来ます。«si no»は二語です。
 A2	cuyo	その（関係詞）	父親が医者の友達がいます。	あとの名詞に一致します。
+A2	elegir	選ぶ	プレゼントを選ぶのは難しいです。	«Escoger»はとてもよく使われる同義語です。e→iと変化します。«elijo»。
+A2	sano	健康な	私の祖父は健康な人です。	«Sano»は体の健康についていいます。«una dieta sana»。心が健全であることは«cuerdo»です。«saludable»はとてもよく使われる同義語です。
+A2	recibir	受け取る	明日、荷物を受け取る予定です。	«Recibir»は受け取ることです。«recibir un paquete»。人に対しては迎え入れる意味になります。«recibir a alguien»。

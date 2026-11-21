@@ -1,5 +1,4 @@
 C1	trayectoria	kariyer yolu	Mesleki kariyer yolu büyük bir istikrarı gösteriyor.	Aynı zamanda «trayectoria vital» (yaşam yolu).
-C1	competencia	yetkinlik; rekabet	Şirketler arasındaki rekabet tüketicilerin işine yarar.	İki anlamı var: beceri ve rekabet.
 C1	rendimiento	verim	Yeniden yapılanmadan sonra ekibin verimi belirgin biçimde arttı.	«Rendir»den.
 C1	remuneración	ücret (ödenek)	Ücret sabit maaş ve yıllık primleri içeriyor.	«Sueldo»nun resmî karşılığı.
 C1	plantear	gündeme getirmek	Birkaç meslektaşı kaygılandıran bir konuyu gündeme getirmek istiyorum.	«Plantear un problema».
@@ -49,7 +48,7 @@ C1	destartalado	köhne	Nehrin yanında köhne ama çok ucuz bir ev kiraladık.	G
 C1	aforo	kapasite (seyirci)	Stadyumun kapasitesi güvenlik için yarıya indirildi.	«Aforar»dan.
 C1	dorsal	yarış numarası	Maratonun başlamasından bir saat önce yarış numarasını aldı.	Sıfat olarak da.
 C1	contienda	çekişme	Spor çekişmesi üç saat sonra net bir galip olmadan bitti.	Ağdalı üslup.
-C1	liza	arena (mücadele)	Kıta şampiyonluğunu kazanmak için birkaç takım mücadeleye girdi.	«Entrar en liza» — mücadeleye girmek.
+C1	liza	arena, mücadele alanı	Birkaç takım kıta şampiyonluğunu kazanmak için mücadeleye girdi.	Neredeyse yalnızca «entrar en liza» (mücadeleye girmek) kalıbında kullanılır.
 C1	fichaje	transfer (kadroya katma)	Forvetin transferi kulübe rekor bir meblağa mal oldu.	Futbol terimi.
 C1	fichar	transfer etmek (oyuncu)	Kulüp çok yetenekli genç bir kaleciyi transfer etmeyi düşünüyor.	Aynı zamanda «kart basmak».
 C1	remontar	geri dönmek (skorda)	Daha sakin oynasaydık maçta geri dönebilirdik.	Geçmiş gerçek dışı koşul.
@@ -57,7 +56,6 @@ C1	claudicar	pes etmek	Takım rakibin üstünlüğüne rağmen pes etmek istemed
 C1	vitorear	alkışlamak (coşkuyla)	Kalabalık bitişi geçen bisikletçiyi coşkuyla alkışlamaya başladı.	«Vítor» bir tezahürattır.
 C1	cotizado	rağbet gören	Avrupa piyasasında çok rağbet gören bir oyuncu.	«Cotizar»dan.
 C1	infalible	yanılmaz	Satrançta her zaman kazanmak için kimsenin yanılmaz bir tekniği yok.	İtalyancadaki gibi.
-C1	asombroso	şaşırtıcı	Koşucunun hızı orada bulunan herkes için şaşırtıcıydı.	«Asombro»dan.
 C1	cuota	aidat	Spor salonunun aylık aidatı havuz erişimini de kapsıyor.	İtalyancadaki gibi.
 C1	anticipo	avans	İşe başlamak için yüzde otuz avans istediler.	«Anticipar»dan.
 C1	recargo	ek ücret (zam)	Ödeme süre dışında gelirse ek ücret uygulanacak.	«Recargar»dan.
@@ -111,7 +109,6 @@ C1	acuciante	acil (can yakıcı)	Doktor eksikliği kırsalda can yakıcı bir so
 C1	insoportable	dayanılmaz	O saatte sıcak dayanılmaz hâle gelmişti.	İtalyancadaki gibi.
 C1	cuestionar	sorgulamak	Kimse müdürün kararını sorgulamaya cesaret edemedi.	«Cuestión» sorudur.
 C1	reconocer	itiraf etmek	Başkalarının önünde kendi hatalarını kabul etmek zor.	Düzensiz: «reconozco».
-C1	estancia	kalış	Yurtdışındaki kalışı dünya görüşünü tamamen değiştirdi.	Arjantin'de çiftlik.
 C1	travesía	geçiş (yolculuk)	Çölden geçiş dokuz yorucu gün sürdü.	«Atravesar»dan.
 C1	periplo	uzun yolculuk	Latin Amerika'daki uzun yolculuğu ona koca bir kitap ilham etti.	İtalyancadaki gibi.
 C1	escollo	engel	Yolculuğun en büyük engeli izinleri almaktı.	Aynı zamanda «resif».
@@ -125,7 +122,7 @@ C1	sinuoso	kıvrımlı	Kıvrımlı yol dağların arasından gölü çevreliyor.
 C1	menester	gereklilik (iş)	Anlaşmayı kapatmadan önce hesapları gözden geçirmek gerekir.	«Ser menester» = gerekli olmak.
 C1	cotización	kur (borsa)	Dolar kuru bu sabah yine yükseldi.	Aynı zamanda «prim».
 C1	rebaja	fiyat düşüşü	Kış fiyatlarında hatırı sayılır bir indirim bekliyoruz.	Çoğulda: indirimli satışlar.
-C1	detallista	perakendeci	Perakendeci doğrudan yerel üreticiden almayı tercih ediyor.	Yani «minorista».
+C1	detallista	ayrıntılara özen gösteren; perakendeci	Kız kardeşim çok ince düşünceli, bir doğum gününü asla unutmaz.	Sıfat olarak: ayrıntıya özen gösteren, düşünceli; isim olarak: perakendeci («mayorista»nın zıttı).
 C1	arancel	gümrük vergisi	Hükûmet ithal ürünler üzerindeki gümrük vergisini düşürdü.	Aynı zamanda «tarife».
 C1	dilapidar	har vurup harman savurmak	Bir servet miras aldı ve onu birkaç yılda har vurup harman savurdu.	İtalyancadaki gibi.
 C1	sufragar	karşılamak (masrafı)	Şirket yolculuk masraflarını karşılamayı taahhüt ediyor.	Aynı zamanda «oy vermek».
@@ -135,7 +132,6 @@ C1	rentabilizar	kârlı hâle getirmek	Yatırımı beş yıldan kısa sürede k�
 C1	solvente	ödeme gücü olan	Kredi yalnızca ödeme gücü olan müşterilere verilecek.	İtalyancadaki gibi.
 C1	exorbitante	fahiş	Bu kadar küçük bir oda için fahiş bir fiyat istiyorlar.	İtalyancadaki gibi.
 C1	moroso	borcunu geciktiren	Banka borcunu geciktiren müşterilerden alacağını istiyor.	İtalyancadaki gibi.
-C1	medianería	ortak duvar	İki ev arasındaki ortak duvarın acil onarıma ihtiyacı var.	Gayrimenkul terimi.
 C1	umbral	eşik	Girmeye cesaret edemeden evin eşiğinde durdu.	«Soglia» gibi.
 C1	cimiento	temel	Evin temeli yağmurlarla çöktü.	Genellikle çoğul.
 C1	tejado	çatı (kaplama)	Yağmurlar gelmeden çatının onarılması gerekiyor.	«Teja»dan.
@@ -200,7 +196,7 @@ C1	sosegar	yatıştırmak	Müzik hastaların ruh hâlini yatıştırmaya yardım
 C1	ansiolítico	anksiyolitik	Kriz sırasında daha iyi uyuması için ona anksiyolitik yazdılar.	İtalyancadaki gibi.
 C1	robusto	dinç	Dinç sağlığı sayesinde uzun hastalığı atlattı.	İtalyancadaki gibi.
 C1	embarcación	tekne	Tekne, güçlendirilmiş gövdesi sayesinde fırtınaya dayandı.	«embarcar»dan.
-C1	vereda	patika	Dar bir patika ormandaki kulübeye çıkar.	Kolombiya'da kırsal bölge anlamına da gelir.
+C1	vereda	patika; kaldırım (Güney Koni)	Dar bir patika ormandaki kulübeye çıkıyor.	Güney Koni'de ve Peru'da kaldırım; Kolombiya'da kırsal idari bölüm.
 C1	cordillera	dağ silsilesi	And dağ silsilesi kıtayı kuzeyden güneye ikiye böler.	Ayrıca «sierra».
 C1	altiplano	yüksek plato	Bolivya'nın yüksek platosu üç bin metrenin üzerindedir.	And kökenli bir sözcük.
 C1	arrecife	resif	Resif, binlerce renkli balık türüne ev sahipliği yapar.	Arapçadan.
@@ -212,7 +208,6 @@ C1	finiquito	kıdem ve son ödeme	Teşekkür mektubuyla birlikte son ödemesini 
 C1	prórroga	uzatma	Belgeleri teslim süresinin uzatılmasını talep ediyoruz.	Sondan üçüncü hecesi vurgulu sözcük.
 C1	cláusula	madde (sözleşme)	Cezai madde, ihlal durumunda iki tarafı da korur.	Sondan üçüncü hecesi vurgulu sözcük.
 C1	cotizante	prim ödeyen	Prim ödeyen herkes yeni hesaplamayı içeren bir bildirim alacak.	Eril ve dişilde aynı.
-C1	disponer	sahip olmak (elinde bulundurmak)	Şirket, fabrikayı büyütmek için yeterli kaynağa sahip.	«poner» gibi düzensiz.
 C1	aducir	ileri sürmek (gerekçe)	Sanık, yokluğunu haklı çıkarmak için sağlık nedenlerini ileri sürmek istedi.	«conducir» gibi düzensiz.
 C1	esgrimir	ileri sürmek (savunmak)	Muhalefet, tartışmada çelişkili rakamlar ileri sürmeye çalıştı.	Ayrıca «eskrim yapmak».
 C1	desistir	vazgeçmek	Uzun bir pazarlıktan sonra davadan vazgeçmeye karar verdi.	Arkasından «de» gelir.
@@ -242,17 +237,15 @@ C1	captar	çekmek (kitle)	Mağaza daha genç ve talepkâr bir kitleyi çekmek is
 C1	amortiguar	hafifletmek (etkiyi)	İndirimler krizin ticarete etkisini hafifletmeyi başardı.	Şoklar için de kullanılır.
 C1	cotejar	karşılaştırmak	Büyük bir alışveriş yapmadan önce fiyatları karşılaştırmak önerilir.	Resmî fiil.
 C1	enajenar	elden çıkarmak	Aile borçlarını ödemek için çiftliği elden çıkarmak zorunda kaldı.	Hukuk terimi.
-C1	atesorar	biriktirmek (hazine gibi)	Yıllarca tüm kıtalardan eski paralar biriktirdi.	«tesoro»dan.
-C1	fugaz	kısa ömürlü	Kısa ömürlü moda kıyafetlerin çabuk modası geçmesine yol açar.	Çoğul «fugaces».
+C1	atesorar	biriktirmek; değer vermek	Yıllarını dünyanın dört bir yanından antika paralar biriktirmeye adadı.	«Tesoro» (hazine) sözcüğünden gelir; ayrıca değer verip saklamak: «atesorar recuerdos».
+C1	fugaz	kısa ömürlü, geçici	Yarışmayı kazandıktan sonra kısa ömürlü bir şöhretin tadını çıkardı.	«Estrella fugaz» kayan yıldızdır; çoğulu «fugaces».
 C1	suntuoso	gösterişli	Ona saf yünden gösterişli bir palto hediye ettiler.	İtalyancadaki gibi.
 C1	módico	makul	Öğrenciler için makul fiyatlı bir giriş sunuyorlar.	İtalyancadaki gibi.
 C1	despilfarro	israf	Kamu kaynaklarının israfı vatandaşları öfkelendirdi.	«derroche» ile eş anlamlı.
 C1	balneario	kaplıca (tatil yeri)	Kaplıca, termal sular ve rahatlatıcı terapiler sunuyor.	Şili ve Uruguay'da deniz kenarı tatil yeri.
 C1	mirador	seyir tepesi	Gün batımından önce vadiyi seyretmek için seyir tepesine çıktık.	«mirar»dan.
-C1	ruta	rota	Güzergâh şirin köylerden ve yemyeşil vadilerden geçiyor.	Ayrıca «yol».
 C1	parada	durak	Otobüs durağı pazara birkaç metre uzaklıkta.	Ayrıca «geçit töreni».
 C1	atascarse	sıkışmak (trafikte)	Cuma öğleden sonraları otoyolda trafik genellikle sıkışır.	«Atasco» trafik sıkışıklığıdır.
-C1	desviar	saptırmak (yönünü değiştirmek)	Bir dağ yoluna sapmak zorunda kaldılar.	«Desvío» sapaktır.
 C1	escalar	tırmanmak (zirveye)	O zirveye tırmanabilseydim kendimi dünyanın en mutlu adamı sayardım.	Gerçekdışı koşul.
 C1	orientarse	yönünü bulmak	Haritasız eski mahalle sokaklarında yön bulmak zordu.	«Orientación» yönelimdir.
 C1	pernoctar	geceyi geçirmek	Son tırmanıştan önce bir sığınakta geceyi geçirmeye karar verdik.	İtalyancadaki gibi.
@@ -261,11 +254,9 @@ C1	abrupto	dik (sarp)	Sarp iniş, emniyet halatı kullanmamızı gerektirdi.	İt
 C1	fronterizo	sınır (sıfat)	İki komşu ülke arasındaki bir sınır köyünde yaşıyorlardı.	«frontera»dan.
 C1	descomunal	devasa	Fırtına sırasında devasa bir dalga rıhtıma çarptı.	«smisurato» gibi.
 C1	escueto	kısa ve öz	Mesajı kısa ve özdü ama tutumunu açıkça ortaya koydu.	Kitabi dil.
-C1	condumio	yol yemeği	Gezi için ekmek, peynir ve meyveden oluşan basit bir yol yemeği aldık.	Az kullanılan bir sözcük.
 C1	exquisitez	nefis lezzet	O tatlının nefis lezzeti hafızama kazındı.	«exquisito»dan.
 C1	gula	oburluk	Gelenekte oburluk, ölümcül günahlardan biridir.	İtalyancadaki gibi.
 C1	cosechar	hasat etmek	Çiftçiler mısırı don başlamadan hasat etmeyi umuyor.	«Cosecha» hasattır.
-C1	sembrar	ekmek (tohum)	Fasulyeyi yağmur mevsimi başlarken ekmek gerekir.	e→ie değişir.
 C1	moler	öğütmek	Büyükannem tortilla yapmadan önce mısırı elle öğütürdü.	o→ue değişir.
 C1	amasijo	karmakarışık yığın	Malzemelerin karmakarışık yığını yenilebilir bir yemeğe benzemiyordu.	Ayrıca «karışım».
 C1	empachar	midesini bozmak	O kadar çok tatlı yemek en obur olanların bile midesini bozabilir.	«Empacho» hazımsızlıktır.
@@ -273,7 +264,6 @@ C1	apetitoso	iştah açıcı	Çorbanın iştah açıcı kokusu tüm evi doldurdu
 C1	indigesto	ağır (hazmı zor)	Yemek o kadar ağırdı ki kimse iyi uyuyamadı.	İtalyancadaki gibi.
 C1	estrago	tahribat	Salgının tahribatı köydeki her ailede hissedildi.	Genellikle çoğul.
 C1	brote	salgın (ani artış)	Kızamık salgını şehirdeki birkaç okulun kapanmasına yol açtı.	Ayrıca «filiz».
-C1	cuarentena	karantina	Karantina, adının da dediği gibi kırk gün sürdü.	«cuarenta»dan.
 C1	inmunidad	bağışıklık	Toplumsal bağışıklık, aşılı kişilerin oranına bağlıdır.	İtalyancadaki gibi.
 C1	paliativo	geçici çare	Bu şurup yalnızca geçici bir çare, hastalığı iyileştirmez.	İtalyancadaki gibi.
 C1	intoxicar	zehirlemek	Bozulmuş bir yiyecek birkaç konuğu zehirlemiş olabilir.	İtalyancadaki gibi.
@@ -286,3 +276,12 @@ C1	mecer	sallamak (beşiği)	Anne, eski bir şarkının ritmiyle beşiği sallam
 C1	tararear	mırıldanmak	Avludaki bitkileri sularken bir melodi mırıldanırdı.	Yansıma kökenli.
 C1	silbar	ıslık çalmak	Sanatçının geç geldiğini görünce seyirci ıslık çalmaya başladı.	Onaylamamak için de.
 C1	trepar	tırmanmak (ağaca)	Çocuklar parkın en yüksek ağaçlarına tırmanmayı bilir.	Sarmaşık bitkiler için de.
+C1	maridaje	yemek-şarap uyumu	Şarabın peynirle uyumu mükemmel.	«Marido» sözcüğünden gelir: yemekle şarabın başarılı birleşimi.
+C1	cónyuge	eş (karı-koca)	Evi satabilmek için her iki eşin de senedi imzalaması gerekir.	Eril ve dişilde aynı.
+C1	rancio	eskimiş, ekşimiş; (şarap) yıllandırılmış	Rancio şarap, fıçılarda uzun yıllar boyunca yıllanır.	«Vino rancio» yıllandırılmış, güçlendirilmiş bir şaraptır; «de rancio abolengo» = çok eski soylu bir soydan.
+C1	sublime	yüce	Soprano'nun yorumu yüce ve duygu doluydu.	İtalyancadaki gibi.
+C1	copioso	bereketli (bol)	Bol akşam yemeğinden sonra kimse masadan kalkmak istemedi.	İtalyancadaki gibi.
+C1	cautivador	büyüleyici	Sesinin büyüleyici tonu tiyatroyu sessizliğe gömdü.	«cautivar»dan.
+C1	hogaza	iri köy ekmeği	Köy fırınından taze yapılmış büyük bir ekmek aldılar.	Büyük, rustik, yuvarlak bir ekmek; genellikle «una hogaza de pan».
+C1	rehabilitar	restore etmek; rehabilite etmek	Tarihî merkezdeki eski binayı restore etmek istiyorlar.	Kişiler için de kullanılır: «rehabilitar a un paciente».
+C1	sobremesa	yemek sonrası masa sohbeti	Yemek sonrası masa sohbeti akşama kadar uzadı.	Tipik İspanyol bir sözcük: yemekten sonra masada sohbet ederek geçirilen vakit.

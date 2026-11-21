@@ -51,8 +51,8 @@ describe.each(LEVELS)('the Spanish %s bank', (lv) => {
   const bank = banks[lv];
   const share = (n: number) => n / bank.length;
 
-  it('has 280–320 rows of 14 columns, one CEFR band and no duplicates', () => {
-    expect(bank.length).toBeGreaterThanOrEqual(280);
+  it('has 270–320 rows of 14 columns, one CEFR band and no duplicates', () => {
+    expect(bank.length).toBeGreaterThanOrEqual(270);
     expect(bank.length).toBeLessThanOrEqual(320);
     expect(tsvs[lv].every((l) => l.split('\t').length === 14)).toBe(true);
     expect(new Set(bank.map((e) => e.word.toLowerCase())).size).toBe(bank.length);

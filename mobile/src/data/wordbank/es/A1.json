@@ -586,13 +586,13 @@
     "meaning_it": "sale",
     "example": "Falta un poco de sal.",
     "example_it": "Manca un po' di sale.",
-    "cultural_note": "Si dice «la sal» (femminile); in alcune zone rurali si sente «el sal» per errore.",
+    "cultural_note": "«Sal» è femminile: «la sal». È anche l'imperativo di «salir»: «¡Sal de aquí!».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "food",
     "cefr_band": "A1",
     "session_scenario": "Shopping at the market",
     "example_en": "It needs a little salt.",
-    "cultural_note_en": "It is «la sal» (feminine); in some rural areas «el sal» is heard by mistake."
+    "cultural_note_en": "«Sal» is feminine: «la sal». It is also the imperative of «salir»: «¡Sal de aquí!»."
   },
   {
     "word": "azúcar",
@@ -773,13 +773,13 @@
     "meaning_it": "chiave",
     "example": "¿Dónde está la llave de casa?",
     "example_it": "Dov'è la chiave di casa?",
-    "cultural_note": "«Llave» è anche il rubinetto in alcuni paesi: «abrir la llave».",
+    "cultural_note": "«Llave» è anche il rubinetto in America Latina: «abrir la llave»; in Spagna si dice «grifo».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "home",
     "cefr_band": "A1",
     "session_scenario": "Describing your home",
     "example_en": "Where is the house key?",
-    "cultural_note_en": "«Llave» is also the tap in some countries: «abrir la llave»."
+    "cultural_note_en": "«Llave» is also the tap in Latin America: «abrir la llave»; in Spain it is «grifo»."
   },
   {
     "word": "jardín",
@@ -824,13 +824,13 @@
     "meaning_it": "madre",
     "example": "Mi madre cocina muy bien.",
     "example_it": "Mia madre cucina molto bene.",
-    "cultural_note": "In America Latina si dice anche «mamá»; «madre» è più formale.",
+    "cultural_note": "«Mamá» è la forma affettuosa, usata ovunque; «madre» è più formale.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "home",
     "cefr_band": "A1",
     "session_scenario": "Describing your home",
     "example_en": "My mother cooks very well.",
-    "cultural_note_en": "In Latin America people also say «mamá»; «madre» is more formal."
+    "cultural_note_en": "«Mamá» is the affectionate form, used everywhere; «madre» is more formal."
   },
   {
     "word": "padre",
@@ -1028,13 +1028,13 @@
     "meaning_it": "nuovo",
     "example": "Tenemos un sofá nuevo.",
     "example_it": "Abbiamo un divano nuovo.",
-    "cultural_note": "Posizione: «un coche nuevo» (appena comprato) ma «un nuevo coche» (un altro).",
+    "cultural_note": "Di solito va dopo il nome: «un sofá nuevo». Si accorda: «nueva», «nuevos», «nuevas».",
     "grammar_angle": "ADJ_AGREEMENT",
     "topic_domain": "home",
     "cefr_band": "A1",
     "session_scenario": "Describing your home",
     "example_en": "We have a new sofa.",
-    "cultural_note_en": "Position: «un carro nuevo» (brand new) but «un nuevo carro» (another one)."
+    "cultural_note_en": "It usually goes after the noun: «un sofá nuevo». It agrees: «nueva», «nuevos», «nuevas»."
   },
   {
     "word": "viejo",
@@ -1402,13 +1402,13 @@
     "meaning_it": "spiaggia",
     "example": "Vamos a la playa el domingo.",
     "example_it": "Andiamo in spiaggia domenica.",
-    "cultural_note": "«Playa» non è il mare: il mare è «el mar» (maschile, ma «la mar» in poesia).",
+    "cultural_note": "«Playa» è la spiaggia, non il mare: il mare è «el mar» (maschile). La costa è «la costa».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Asking for directions",
     "example_en": "We go to the beach on Sunday.",
-    "cultural_note_en": "«Playa» is the beach, not the sea: the sea is «el mar»."
+    "cultural_note_en": "«Playa» is the beach, not the sea: the sea is «el mar» (masculine). The coast is «la costa»."
   },
   {
     "word": "viajar",
@@ -1691,13 +1691,13 @@
     "meaning_it": "aeroporto",
     "example": "El aeropuerto es muy moderno.",
     "example_it": "L'aeroporto è molto moderno.",
-    "cultural_note": "Si trova scritto con la sigla in molti paesi: «AIFA» a Città del Messico.",
+    "cultural_note": "Non confondere «puerto» (porto) e «puerta» (porta). All'aeroporto c'è «la puerta de embarque» (il gate).",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Travelling around the city",
     "example_en": "The airport is very modern.",
-    "cultural_note_en": "The airport often has an acronym: «AIFA» in Mexico City."
+    "cultural_note_en": "Do not mix up «puerto» (port) and «puerta» (door). At the airport there is «la puerta de embarque» (the gate)."
   },
   {
     "word": "rápido",
@@ -1759,13 +1759,13 @@
     "meaning_it": "lavoro",
     "example": "Mi trabajo empieza a las ocho.",
     "example_it": "Il mio lavoro inizia alle otto.",
-    "cultural_note": "«Trabajo» è sia il lavoro in generale sia il posto di lavoro; «empleo» è il posto.",
+    "cultural_note": "«Trabajo» è il lavoro: «buscar trabajo». Il verbo è «trabajar». «Empleo» è l'impiego, il posto di lavoro.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "A1",
     "session_scenario": "At the office",
     "example_en": "My work starts at eight.",
-    "cultural_note_en": "«Trabajo» is both work in general and a job; «empleo» is the position."
+    "cultural_note_en": "«Trabajo» is work or a job: «buscar trabajo». The verb is «trabajar». «Empleo» is a formal word for employment."
   },
   {
     "word": "oficina",
@@ -2303,13 +2303,13 @@
     "meaning_it": "mercato",
     "example": "Compro verduras en el mercado.",
     "example_it": "Compro verdure al mercato.",
-    "cultural_note": "In America Latina i mercati locali sono luoghi di vita: «el mercado central».",
+    "cultural_note": "«El mercado» è il mercato; il supermercato è «el supermercado». Si dice anche «mercado laboral».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "shopping",
     "cefr_band": "A1",
     "session_scenario": "Paying at the till",
     "example_en": "I buy vegetables at the market.",
-    "cultural_note_en": "In Latin America local markets are lively places: «el mercado central»."
+    "cultural_note_en": "«El mercado» is the market; the supermarket is «el supermercado». Also «mercado laboral» (job market)."
   },
   {
     "word": "precio",
@@ -2548,23 +2548,6 @@
     "session_scenario": "In a clothes shop",
     "example_en": "I am going to try these shoes.",
     "cultural_note_en": "The stem changes: «pruebo» (o→ue)."
-  },
-  {
-    "word": "elegir",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "eleˈxiɾ",
-    "meaning_en": "to choose",
-    "meaning_it": "scegliere",
-    "example": "Es difícil elegir un regalo.",
-    "example_it": "È difficile scegliere un regalo.",
-    "cultural_note": "«Escoger» è un sinonimo molto usato.",
-    "grammar_angle": "VERB_PRESENT_IRREGULAR",
-    "topic_domain": "shopping",
-    "cefr_band": "A1",
-    "session_scenario": "Paying at the till",
-    "example_en": "It is hard to choose a gift.",
-    "cultural_note_en": "«Escoger» is a very common synonym."
   },
   {
     "word": "caro",
@@ -3015,15 +2998,15 @@
     "ipa": "senˈtiɾ",
     "meaning_en": "to feel",
     "meaning_it": "sentire",
-    "example": "Hoy quiero sentir el sol.",
-    "example_it": "Oggi voglio sentire il sole.",
-    "cultural_note": "«Lo siento» significa «mi dispiace».",
+    "example": "Quiero sentir el sol hoy.",
+    "example_it": "Voglio sentire il sole oggi.",
+    "cultural_note": "«Lo siento» significa «mi dispiace». Per i sentimenti si usa «sentirse»: «me siento bien».",
     "grammar_angle": "VERB_PRESENT_IRREGULAR",
     "topic_domain": "health",
     "cefr_band": "A1",
     "session_scenario": "At the pharmacy",
-    "example_en": "Today I want to feel the sun.",
-    "cultural_note_en": "«Lo siento» means «I am sorry»."
+    "example_en": "I want to feel the sun today.",
+    "cultural_note_en": "«Lo siento» means «I am sorry». For feelings use «sentirse»: «me siento bien»."
   },
   {
     "word": "doler",
@@ -3111,23 +3094,6 @@
     "cultural_note_en": "«Mejor» is both «better» (adv.) and «better» (adj.)."
   },
   {
-    "word": "sano",
-    "article": null,
-    "part_of_speech": "adj",
-    "ipa": "ˈsano",
-    "meaning_en": "healthy",
-    "meaning_it": "sano",
-    "example": "Mi abuelo es un hombre sano.",
-    "example_it": "Mio nonno è un uomo sano.",
-    "cultural_note": "Sano di mente si dice «cuerdo»; «sano» riguarda soprattutto il corpo.",
-    "grammar_angle": "ADJ_AGREEMENT",
-    "topic_domain": "health",
-    "cefr_band": "A1",
-    "session_scenario": "At the pharmacy",
-    "example_en": "My grandfather is a healthy man.",
-    "cultural_note_en": "For sound of mind say «cuerdo»; «sano» is mostly about the body."
-  },
-  {
     "word": "enfermo",
     "article": null,
     "part_of_speech": "adj",
@@ -3205,7 +3171,7 @@
     "example": "Mi hermana está triste hoy.",
     "example_it": "Mia sorella è triste oggi.",
     "cultural_note": "Si usa con «estar» per lo stato d'animo.",
-    "grammar_angle": "ADJ_AGREEMENT",
+    "grammar_angle": "SER_ESTAR",
     "topic_domain": "health",
     "cefr_band": "A1",
     "session_scenario": "Talking about how you feel",
@@ -3848,14 +3814,14 @@
     "ipa": "ˈola",
     "meaning_en": "hello",
     "meaning_it": "ciao, salve",
-    "example": "Hola, me llamo Ana.",
-    "example_it": "Ciao, mi chiamo Ana.",
+    "example": "Hola, no hablo muy bien español.",
+    "example_it": "Ciao, non parlo molto bene lo spagnolo.",
     "cultural_note": "La «h» è muta. «Hola» vale a ogni ora e in ogni contesto.",
-    "grammar_angle": "VERB_PRESENT_REGULAR",
+    "grammar_angle": "NEGATION_NO",
     "topic_domain": "culture",
     "cefr_band": "A1",
     "session_scenario": "Meeting new people",
-    "example_en": "Hello, my name is Ana.",
+    "example_en": "Hello, I do not speak Spanish very well.",
     "cultural_note_en": "The «h» is silent. «Hola» works at any hour and in any setting."
   },
   {
@@ -4088,13 +4054,13 @@
     "meaning_it": "donna",
     "example": "Mi madre es una mujer fuerte.",
     "example_it": "Mia madre è una donna forte.",
-    "cultural_note": "«Mujer» vale anche «moglie».",
+    "cultural_note": "Può significare anche «moglie»: «mi mujer». Più formale: «esposa».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "A1",
     "session_scenario": "Greeting someone",
     "example_en": "My mother is a strong woman.",
-    "cultural_note_en": "«Mujer» also means «wife»."
+    "cultural_note_en": "It can also mean «wife»: «mi mujer». More formal: «esposa»."
   },
   {
     "word": "niño",
@@ -4425,11 +4391,11 @@
     "part_of_speech": "conj",
     "ipa": "ˈpoɾke",
     "meaning_en": "because",
-    "meaning_it": "perché (perché)",
+    "meaning_it": "perché",
     "example": "No salgo porque estoy cansado hoy.",
     "example_it": "Non esco perché sono stanco oggi.",
     "cultural_note": "«Porque» è la risposta; «por qué» (due parole) è la domanda.",
-    "grammar_angle": "VERB_PRESENT_REGULAR",
+    "grammar_angle": "NEGATION_NO",
     "topic_domain": "culture",
     "cefr_band": "A1",
     "session_scenario": "Talking about your country",
@@ -4632,13 +4598,13 @@
     "meaning_it": "visitare",
     "example": "Quiero visitar a mis abuelos pronto.",
     "example_it": "Voglio andare a trovare i miei nonni presto.",
-    "cultural_note": "Con persone: «visitar a alguien»; con luoghi senza «a».",
+    "cultural_note": "Si dice «visitar a alguien» (andare a trovare qualcuno) e «visitar un lugar» (visitare un luogo).",
     "grammar_angle": "VERB_PRESENT_REGULAR",
     "topic_domain": "travel",
     "cefr_band": "A1",
     "session_scenario": "Asking for directions",
     "example_en": "I want to visit my grandparents soon.",
-    "cultural_note_en": "With people: «visitar a alguien»; with places, no «a»."
+    "cultural_note_en": "You say «visitar a alguien» (to go and see someone) and «visitar un lugar» (to visit a place)."
   },
   {
     "word": "entrar",
@@ -4758,23 +4724,6 @@
     "session_scenario": "Meeting friends",
     "example_en": "I want to invite my friends to dinner.",
     "cultural_note_en": "«Invitar» can also mean «to treat»: «yo invito»."
-  },
-  {
-    "word": "recibir",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "resiˈβiɾ",
-    "meaning_en": "to receive",
-    "meaning_it": "ricevere",
-    "example": "Voy a recibir un paquete mañana.",
-    "example_it": "Riceverò un pacco domani.",
-    "cultural_note": "«Recibir» è ricevere (non «ricevere in casa» che è «recibir a alguien»).",
-    "grammar_angle": "VERB_PRESENT_REGULAR",
-    "topic_domain": "shopping",
-    "cefr_band": "A1",
-    "session_scenario": "In a clothes shop",
-    "example_en": "I am going to receive a parcel tomorrow.",
-    "cultural_note_en": "«Recibir» is to receive."
   },
   {
     "word": "decidir",
@@ -5166,5 +5115,22 @@
     "session_scenario": "Talking about family",
     "example_en": "When I arrive, I prepare dinner.",
     "cultural_note_en": "With the accent «¿cuándo?» is the question."
+  },
+  {
+    "word": "cumpleaños",
+    "article": "el",
+    "part_of_speech": "noun",
+    "ipa": "kumpleˈaɲos",
+    "meaning_en": "birthday",
+    "meaning_it": "compleanno",
+    "example": "Mi cumpleaños es en diciembre.",
+    "example_it": "Il mio compleanno è a dicembre.",
+    "cultural_note": "Resta invariato al plurale: «dos cumpleaños».",
+    "grammar_angle": "NOUN_GENDER",
+    "topic_domain": "leisure",
+    "cefr_band": "A1",
+    "session_scenario": "Planning the weekend",
+    "example_en": "My birthday is in December.",
+    "cultural_note_en": "Unchanged in the plural: «dos cumpleaños»."
   }
 ]

@@ -1,7 +1,7 @@
 B1	internet	internet	İnternet olmadan bugün çalışamam.	«El internet» de sadece «internet» de denir.
 B1	pantalla	ekran	Telefonumun ekranı kırık.	«Pantalla» aynı zamanda abajurdur.
 B1	contraseña	şifre	E-posta şifremi unuttum.	«Seña» işarettir.
-B1	archivo	dosya	Dosyayı yarın e-postayla gönderirim.	«Archivo» aynı zamanda arşivdir.
+B1	archivo	dosya	Dosyayı sana yarın göndereceğim.	«Archivo» aynı zamanda arşivdir.
 B1	aplicación	uygulama	Bugün yeni bir uygulama indiriyorum.	Kısa biçimi «app».
 B1	descargar	indirmek	Programı bu akşam indireceğim.	«Descarga» indirmedir.
 B1	conectarse	bağlanmak	Telefonla internete bağlanıyorum.	«Conexión» bağlantıdır.
@@ -62,7 +62,6 @@ B1	frijol	fasulye	Siyah fasulye Küba'da popülerdir.	Latin Amerika'da «frijol�
 B1	aguacate	avokado	Her sabah ekmeğe avokado koyuyorum.	Şili ve Arjantin'de «palta».
 B1	chile	acı biber	Bu acı biber benim için fazla acı.	Yalnız ülke değil: «chile» biberdir de.
 B1	tamal	tamal	Annem her Noel'de tamal yapar.	Yaprakta pişen mısır hamuru.
-B1	mole	mole (sos)	Mole poblano çikolata ve biber içerir.	Tipik bir Meksika sosu.
 B1	aderezo	salata sosu	Salatada hafif bir sos kullanıyorum.	İspanya'da «aliño».
 B1	condimentar	baharatlamak (çeşnilemek)	Tavuğu sarımsak ve limonla çeşnilerim.	«Condimento» çeşnidir.
 B1	ajo	sarımsak	Soslarımda hep sarımsak kullanırım.	«J» gırtlaksı bir sestir.
@@ -156,9 +155,9 @@ B1	póliza	poliçe	Poliçem tıbbi giderleri karşılıyor.	«Seguro médico» s
 B1	agotado	bitkin	Uzun yolculuktan sonra bitkindim.	«Agotar»dan.
 B1	preocupado	endişeli	Annem sınavım için endişeli.	«Estar» ile kullanılır.
 B1	asustado	korkmuş	Çocuk fırtınadan korkmuştu.	«Susto»dan.
-B1	avergonzado	utanmış	Dünkü hatamdan utanıyorum.	«Vergüenza»dan.
+B1	avergonzado	utanmış	Dünkü hatam yüzünden utanıyorum.	«Avergonzarse» fiilinden gelir: «me avergüenzo» (ünlü üstünde iki nokta ile).
 B1	tímido	utangaç	Oğlum yabancılara karşı çok utangaç.	İtalyancadaki gibi.
-B1	sensible	duyarlı	Kız kardeşim eleştiriye çok duyarlı.	«Sensato» ile yanıltıcı benzerlik.
+B1	sensible	duyarlı, hassas	Kız kardeşim eleştiriye karşı çok hassas.	İtalyanca «sensibile» ile aynıdır. «Sensato» (makul, akıllı) değildir: o başka bir İspanyolca sözcüktür.
 B1	sociedad	toplum	Bugün toplum çok hızlı değişiyor.	Çoğul «sociedades».
 B1	derecho	hak; hukuk	Hepimizin eğitim hakkı var.	Sıfat «derecho» (düz) da vardır.
 B1	libertad	özgürlük	Basın özgürlüğü temeldir.	Çoğul «libertades».
@@ -231,8 +230,8 @@ B1	impuesto	vergi	Vergi gelecek yıl artıyor.	Çoğulda «impuestos».
 B1	ganancia	kâr	Bu ayın kârı çok küçüktü.	«Ganar»dan.
 B1	pérdida	zarar	Şirket mayısta büyük zarar etti.	«Perder»den.
 B1	inversión	yatırım	Ev almak iyi bir yatırımdır.	Çoğul «inversiones».
-B1	ahorro	birikim	Birikimim yaz tatili için.	Çoğu zaman çoğulda.
-B1	sucursal	şube	Bankanın şubesi meydanda.	Latince «succursus»tan: merkeze destek olan.
+B1	ahorro	tasarruf	Birikimim yolculuk için.	Genellikle çoğuldur: «ahorros» kenara konan paradır. Fiili «ahorrar»dır.
+B1	sucursal	şube	Bankanın şubesi meydanda.	Bir bankanın ya da şirketin şubesi; genel merkez «sede central»dir.
 B1	reembolso	geri ödeme	Ürün kırık olduğu için geri ödeme istedim.	«Reembolsar» geri ödemektir.
 B1	envío	kargo	Büyük alışverişlerde kargo ücretsiz.	«Enviar»ın bir biçimi de.
 B1	pedido	sipariş	Siparişim yarın öğleden sonra gelecek.	Aynı zamanda «pedir»in ortacı.
@@ -243,13 +242,12 @@ B1	rebajar	indirmek (fiyat)	Ocakta fiyatları indirecekler.	«Rebajas» indiriml
 B1	reclamar	talepte bulunmak	Kötü hizmet için şikâyet edeceğim.	«Reclamación» şikâyettir.
 B1	facturar	fatura kesmek	Şirketim aralıkta çok fatura kesiyor.	Bagaj teslim etmek de demektir.
 B1	empaquetar	paketlemek	Hediyeleri çıkmadan önce paketleyeceğiz.	«Paquete» pakettir.
-B1	envolver	sarmak	Hediyeyi sarar mısınız, lütfen?	o→ue değişir: «envuelvo».
+B1	envolver	sarmak, paketlemek	Hediyeyi paketleyebilir misiniz, lütfen?	o→ue değişimi gösterir: «envuelvo».
 B1	rentable	kârlı	Bu iş çok kârlı.	«Renta»dan.
 B1	asequible	uygun fiyatlı	Bu kursun fiyatı uygun.	İtalyancayla yanıltıcı benzerlik.
 B1	gratuito	ücretsiz	Bugün müze girişi ücretsiz.	«Gratis»ten daha resmî.
 B1	defectuoso	kusurlu	Ürün baştan beri kusurluydu.	«Defecto»dan.
-B1	imprescindible	vazgeçilmez	Fişi saklamak şart.	Çoğunlukla «ser» ile.
-B1	anticipar	öne almak	Yolculuğumu bir hafta öne almak istiyorum.	Öne çekmek demektir.
+B1	anticipar	önceden söylemek, erkene almak	Henüz hiçbir şey açıklamak istemiyorum.	İtalyanca «anticipare» gibi (önceden söylemek ya da ödemek). Bir tarihi öne almak için «adelantar» daha yaygındır.
 B1	comprobar	kontrol etmek	Uçuş saatini kontrol edeceğim.	o→ue değişir: «compruebo».
 B1	lograr	başarmak	Seyahat hayalimi gerçekleştirmek istiyorum.	«Lograr + mastar» becermek demektir.
 B1	intentar	denemek	Patronumla konuşmayı deneyeceğim.	«Intento» denemedir.
@@ -265,7 +263,7 @@ B1	adaptarse	uyum sağlamak	Oğlum okula iyi uyum sağladı.	İtalyancadaki gibi
 B1	echar	atmak; eklemek	Çorbaya biraz tuz atacağım.	«Echar de menos» özlemektir.
 B1	mezclarse	karışmak	Kız kardeşim çok farklı insanlarla karışıyor.	Dönüşlü.
 B1	colocar	yerleştirmek	Kitapları rafa yerleştireceğim.	«Colocar» + yer.
-B1	rodear	çevrelemek	Bir orman yeni evi çevreleyecek.	«Rodeo» aynı zamanda rodeodur.
+B1	rodear	çevrelemek	Bir bahçe evi çevreliyor.	«Rodeo» dolambaçlı yoldur («dar un rodeo»); aynı zamanda at gösterisidir.
 B1	cubrir	örtmek	Bu branda masanın tamamını örtebilir.	Düzensiz ortaç: «cubierto».
 B1	meter	içine koymak	Giysileri bavula koyacağım.	«Meterse» girmektir.
 B1	sacudir	silkelemek	Halıyı avluda silkeleyeceğim.	«Sacudida» sarsıntıdır.
@@ -284,3 +282,12 @@ B1	apenas	güçlükle	Bu hafta neredeyse hiç boş zamanım yok.	«Biter bitmez�
 B1	sin embargo	ancak	Pahalı; ancak buna değer.	Resmî bağlaç.
 B1	por lo tanto	bu nedenle	Çok yağmur yağıyor; bu nedenle evde kalıyoruz.	Sonuç bildiren resmî bağlaç.
 B1	mientras tanto	bu arada	Ben yemek yaparken sen bu arada sofrayı kur.	Deyim.
+B1	cargo	görev, makam; ücret	O, şirkette önemli bir görevde.	«Estar a cargo» sorumlu olmak demektir.
+B1	probador	deneme kabini	Deneme kabini en arkada.	«Probarse» bir giysiyi denemektir: «¿Puedo probarme esto?».
+B1	carretera	karayolu	Karayolu kar yüzünden kapalıydı.	«Carretera» şehir dışı yoldur.
+B1	abogado	avukat	Bir avukatla konuşmam gerekiyor.	Dişil biçimi «abogada».
+B1	seguridad	güvenlik	Verilerin güvenliği çok önemli.	«Seguro» sözcüğünden gelir. «Seguridad social» sosyal güvenliktir.
+B1	albergue	hostel, konukevi	Plajın yakınındaki bir hostelde kaldık.	Lüks bir otel («hotel») değildir: hostel ya da sığınaktır. Santiago Yolu'ndaki hacılar «albergue»lerde kalır.
+B1	puerto	liman	Liman şehrin kalbidir.	Ayrıca dağ geçididir («puerto de montaña»). «Puerto Rico» = «zengin liman».
+B1	ruta	güzergâh	Güzergâh şirin köylerden ve yemyeşil vadilerden geçiyor.	Latin Amerika'da ayrıca otoyol anlamına gelir: «la ruta 40».
+B1	sartén	tava	Tavaya biraz yağ koy.	Dişildir: «la sartén» (Latin Amerika'da «el sartén» de duyulur). Pişirme tenceresi «olla»dır.

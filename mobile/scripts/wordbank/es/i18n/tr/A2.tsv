@@ -37,14 +37,14 @@ A2	ducharse	duş almak	Kahvaltıdan önce her zaman duş alırım.	Dönüşlü: 
 A2	vestirse	giyinmek	Bu sabah çabuk giyinmeliyim.	e→i değişimli dönüşlü: «me visto».
 A2	acostarse	yatmak	Bugün erken yatacağım.	Kök o→ue değişir: «me acuesto».
 A2	sentarse	oturmak	Kanepeye oturabilirsin.	«Siéntate» oturma daveti.
-A2	peinarse	saçını taramak	Kız kardeşim aynanın önünde saçını tarıyor.	«Peine» tarak.
+A2	peinarse	saçını taramak	Çıkmadan önce saçımı tarıyorum.	Dönüşlü fiildir: «me peino». Tarak «el peine», fırça «el cepillo»dur.
 A2	espejo	ayna	Banyodaki ayna büyük.	Latince «speculum»dan, İtalyanca «specchio» gibi.
 A2	toalla	havlu	Temiz bir havluya ihtiyacım var.	«Toalla» banyo havlusudur; masa örtüsü «mantel»dir.
 A2	jabón	sabun	Ellerimi sabunla yıkıyorum.	Çoğul «jabones».
 A2	refrigerador	buzdolabı	Buzdolabı neredeyse boş.	İspanya'da «nevera»; Arjantin'de «heladera».
 A2	lavadora	çamaşır makinesi	Çamaşır makinesi çok gürültü yapıyor.	«Lavar»dan: «lavavajillas» bulaşık makinesidir.
 A2	escalera	merdiven	Merdiven çok dar.	Çoğu zaman çoğul: «las escaleras».
-A2	pared	duvar	Salonun duvarı mavi.	«Muro» dış duvardır.
+A2	pared	duvar (oda, bina)	Salonun duvarı mavi.	«Pared» bir odanın ya da binanın duvarıdır; «muro» dış ya da sınır duvarıdır: «el muro del jardín».
 A2	suelo	zemin, yer	Kedi yerde uyuyor.	«Suelo» zemindir; bazı ülkelerde «piso».
 A2	alfombra	halı	Kırmızı halı çok yumuşak.	Arapça «al-hanbal»dan.
 A2	lámpara	lamba	Lamba masanın üstünde.	Sondan üçüncü hecesi vurgulu sözcük: «á» üzerinde yazılı vurgu.
@@ -103,11 +103,10 @@ A2	reunirse	toplanmak, buluşmak	Her pazartesi toplanıyoruz.	«Reunir» olarak 
 A2	informe	rapor	Bugün son raporu bitiriyorum.	Aynı zamanda «biçimsiz» anlamında bir sıfattır.
 A2	equipo	ekip	Ekibim çok iyi çalışıyor.	«Equipo» ekipman da demektir.
 A2	sala	salon	Toplantı salonu dolu.	«Sala de estar» oturma odasıdır.
-A2	cargo	görev, pozisyon	Pozisyonum satış müdürlüğü.	«Estar a cargo» sorumlu olmak demektir.
 A2	entrevista	görüşme	Yarın bir iş görüşmem var.	«Entrevista de trabajo» iş görüşmesidir.
 A2	solicitud	başvuru	Başvurumu postayla gönderdim.	«Solicitar» başvurmaktır.
 A2	jubilación	emeklilik	Babam emekliliğinin tadını çıkarıyor.	«Jubilarse» emekli olmaktır.
-A2	negocio	iş, ticaret	Amcamın küçük bir işi var.	«Nec-otium»dan: boş zamanın inkârı.
+A2	negocio	işletme, ticari iş	Amcamın küçük bir işletmesi var.	«Negocio» hem işletme hem de anlaşma demektir: «un buen negocio». Dükkân «la tienda»dır.
 A2	cobrar	maaş almak; ücret tahsil etmek	Maaşımı ay sonunda alıyorum.	Ücret talep etmek de demektir: «cobran diez dólares».
 A2	firmar	imzalamak	Lütfen buraya imza atın.	«Firma» imzadır.
 A2	enviar	göndermek	E-postayı şimdi göndereceğim.	Vurgu kayar: «envío» («í» üzerinde vurgu), ama «enviamos».
@@ -142,7 +141,6 @@ A2	sombrero	şapka	Dedem hasır şapka takar.	Meksika «sombrero»su yalnızca b
 A2	calcetín	çorap	Çekmecede bir çorap eksik.	Latin Amerika'da «media» da denir.
 A2	reloj	kol saati	Saatim çok eski ama sağlam.	Kol saati ve duvar saati için tek sözcük.
 A2	anillo	yüzük	Gümüş bir yüzük aldım.	Latince «anellus»tan.
-A2	probador	deneme kabini	Deneme kabini en arkada.	«Probar»dan.
 A2	talla	beden	Ayakkabı numaran kaç?	Giysi için «talla», birçok yerde ayakkabı için «número».
 A2	devolver	iade etmek	Bu gömleği yarın iade etmek istiyorum.	o→ue değişir: «devuelvo».
 A2	regalar	hediye etmek	Anneme bir kitap hediye edeceğim.	Kişilerle: «regalar a alguien».
@@ -162,7 +160,7 @@ A2	brazo	kol	Dedemin kolu kırık.	Çoğul «brazos»: «con los brazos abiertos
 A2	dedo	parmak	Elimi bıçakla kestim.	El ve ayak parmaklarını kapsar.
 A2	boca	ağız	Lütfen ağzını aç.	-a ile biter: dişil.
 A2	diente	diş	Dünden beri bir dişim ağrıyor.	Çoğul «dientes».
-A2	oreja	kulak (dış)	Sol kulağım ağrıyor.	«Oído» işitme ve iç kulaktır.
+A2	oreja	kulak (dış)	Sağ kulağım ağrıyor.	«Oreja» dış kulaktır; «oído» işitme duyusu ve iç kulaktır: «Me duele el oído».
 A2	corazón	kalp	Kalbim çok hızlı atıyor.	Çoğul «corazones».
 A2	sangre	kan	Bir kan tahlili gerekiyor.	İspanyolcada dişil.
 A2	resfriado	nezle	Çok kötü bir nezlem var.	«Estar resfriado» nezle olmaktır.
@@ -184,7 +182,7 @@ A2	recuperarse	iyileşmek, toparlanmak	Babam çok iyi toparlanıyor.	Tek başın
 A2	grave	ciddi, ağır	Durum çok ciddi değil.	Pes seslere de uygulanır.
 A2	sordo	sağır	Dedem biraz sağır.	Daha yumuşak: «duro de oído».
 A2	mareado	başı dönen	Sıcaktan başım dönüyor.	«Mar»dan: deniz tutması.
-A2	cuerdo	akıllı, aklı başında	Amcam çok aklı başında bir adam.	Karşıtı: «loco».
+A2	cuerdo	akıllı, akli dengesi yerinde	Amcam çok aklı başında bir adam.	Zıt anlamlısı: «loco».
 A2	pasear	gezmek	Parkta gezmeyi severim.	«Paseo» gezintidir.
 A2	descubrir	keşfetmek	Bu yıl yeni yerler keşfetmek istiyorum.	Düzensiz ortaç: «descubierto».
 A2	disfrutar	keyfini çıkarmak	Canlı müzikten çok keyif alıyorum.	«De» ile kullanılır: «disfrutar de».
@@ -194,7 +192,6 @@ A2	sacar	çıkarmak, çekmek	Meydanda fotoğraf çekeceğim.	«Sacar fotos» fot
 A2	montar	binmek (at, bisiklet)	Kuzenim ata binmeyi biliyor.	«Montar en bici» bisiklete binmektir.
 A2	quedar	buluşmak; kalmak	Saat yedide meydanda buluşacağız.	«Quedar con alguien» biriyle buluşmak için sözleşmek demektir.
 A2	celebrar	kutlamak	Yarın doğum günümü kutlayacağız.	«Cumpleaños» her zaman eril tekildir.
-A2	cumpleaños	doğum günü	Doğum günüm aralık ayında.	Çoğulda değişmez: «dos cumpleaños».
 A2	foto	fotoğraf	Bu fotoğraf ailemin.	Dişil: «la foto» («fotografía»dan).
 A2	concierto	konser	Konser dokuzda başlıyor.	«Concertar» düzenlemek, anlaşmaktır.
 A2	entrada	bilet; giriş	Konser için bir bilet aldım.	Giriş ve giriş bileti için tek sözcük.
@@ -227,14 +224,14 @@ A2	verdad	gerçek	Bana gerçeği söyle lütfen.	«¿Verdad?» aynı zamanda «d
 A2	respuesta	cevap	Cevabını merakla bekliyorum.	«Responder»dan.
 A2	pregunta	soru	Ödevle ilgili bir sorum var.	«Hacer una pregunta» soru sormaktır.
 A2	conocido	tanıdık	Bir tanıdık bana bu tavsiyeyi verdi.	Aynı zamanda «conocer»in ortacıdır.
-A2	consejo	tavsiye	Annem bana iyi bir tavsiye veriyor.	Tekil: «un consejo».
+A2	consejo	öğüt	Annem bana iyi bir öğüt veriyor.	«Dar un consejo» ve «seguir un consejo» denir. Fiili «aconsejar»dır.
 A2	encontrar	bulmak	Yakında bir çözüm bulacağım.	o→ue değişir: «encuentro».
 A2	extrañar	özlemek	Noelde sizi çok özlüyorum.	Latin Amerika'da «extrañar», İspanya'da «echar de menos».
 A2	recordar	hatırlamak	Çocukluğumu hatırlamak istiyorum.	o→ue değişir: «recuerdo».
 A2	creer	inanmak, sanmak	Bence haklısın.	«Creo que» + bildirme kipi.
 A2	pensar	düşünmek	Teklifini düşüneceğim.	e→ie değişir: «pienso».
 A2	contar	anlatmak; saymak	Dedem hikâye anlatmayı bilir.	o→ue değişir: «cuento».
-A2	nacer	doğmak	Kızım mayısta doğacak.	«Nací» «doğdum» demektir.
+A2	nacer	doğmak	Kızım mayıs ayında doğdu.	«Nací en Roma» «Roma'da doğdum» demektir. Düzensizdir: «nazco».
 A2	casarse	evlenmek	Kız kardeşim haziranda evleniyor.	«Casarse con alguien».
 A2	llamarse	adı olmak	Adım Ana, ya seninki?	Dönüşlü: «me llamo, te llamas».
 A2	acordarse	hatırlamak (anımsamak)	Bunu hatırlamak istemiyorum.	«De» ile kullanılır.
@@ -291,3 +288,6 @@ A2	además	ayrıca	Ayrıca Şili'de bir kız kardeşim var.	Tek sözcük yazıl�
 A2	mientras	-ken	Müzik dinlerken yemek yapıyorum.	Aynı ya da farklı özneyle.
 A2	sino	aksine, ...değil ...	Çay değil, kahve istiyorum.	«Sino» olumsuzdan sonra gelir; «si no» iki sözcüktür.
 A2	cuyo	-in, ki onun	Babası doktor olan bir arkadaşım var.	Ardından gelen isimle uyumludur.
+A2	elegir	seçmek	Hediye seçmek zor.	«Escoger» çok yaygın bir eş anlamlısıdır. e→i değişimi gösterir: «elijo».
+A2	sano	sağlıklı (beden)	Büyükbabam sağlıklı bir adam.	«Sano» beden sağlığıyla ilgilidir: «una dieta sana». Akıl sağlığı yerinde olan «cuerdo»dur; «saludable» çok yaygın bir eş anlamlısıdır.
+A2	recibir	almak, teslim almak	Yarın bir koli alacağım.	«Recibir» almaktır: «recibir un paquete». Kişiyle kullanılınca karşılamak demektir: «recibir a alguien».

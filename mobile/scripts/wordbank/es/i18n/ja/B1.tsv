@@ -1,7 +1,7 @@
 B1	internet	インターネット	ネットがないと今日は仕事ができません。	«El internet»も«internet»だけも使います。
 B1	pantalla	画面	私の携帯の画面が割れています。	«Pantalla»はランプシェードの意味もあります。
 B1	contraseña	パスワード	メールのパスワードを忘れました。	«Seña»は合図です。
-B1	archivo	ファイル	明日メールでファイルを送ります。	«Archivo»は保管庫の意味もあります。
+B1	archivo	ファイル	明日あなたにファイルを送ります。	«Archivo»は「保管庫、文書館」の意味もあります。
 B1	aplicación	アプリ	今日新しいアプリをダウンロードします。	短縮形は«app»です。
 B1	descargar	ダウンロードする	今夜そのプログラムをダウンロードします。	«Descarga»はダウンロードです。
 B1	conectarse	接続する	携帯でインターネットに接続します。	«Conexión»は接続です。
@@ -62,7 +62,6 @@ B1	frijol	豆	黒豆はキューバで人気です。	ラテンアメリカで�
 B1	aguacate	アボカド	毎朝パンにアボカドをのせます。	チリとアルゼンチンでは«palta»。
 B1	chile	唐辛子	この唐辛子は私には辛すぎます。	国名だけでなく、«chile»は唐辛子でもあります。
 B1	tamal	タマル	母はクリスマスごとにタマルを作ります。	葉で包んで蒸したトウモロコシ生地です。
-B1	mole	モレ（ソース）	モレ・ポブラノにはチョコレートと唐辛子が入ります。	メキシコの代表的なソースです。
 B1	aderezo	ドレッシング	サラダには軽いドレッシングを使います。	スペインでは«aliño»。
 B1	condimentar	香辛料で味付けする	鶏肉をにんにくとレモンで味付けします。	«Condimento»は調味料です。
 B1	ajo	にんにく	ソースにはいつもにんにくを使います。	「j」は喉音です。
@@ -156,9 +155,9 @@ B1	póliza	保険証券	私の保険は医療費をカバーします。	«Segur
 B1	agotado	疲れ果てた	長旅のあと、私は疲れ果てていました。	«agotar»から。
 B1	preocupado	心配している	母は私の試験を心配しています。	«estar»と使います。
 B1	asustado	怯えた	子どもは嵐に怯えていました。	«susto»から。
-B1	avergonzado	恥じている	昨日の間違いを恥じています。	«vergüenza»から。
+B1	avergonzado	恥じている	私は昨日のミスを恥じています。	«avergonzarse»の派生語です。«me avergüenzo»(ディエレシス付き)。
 B1	tímido	内気な	息子は知らない人にはとても内気です。	イタリア語と同じです。
-B1	sensible	敏感な	姉は批判にとても敏感です。	«sensato»と偽の友です。
+B1	sensible	敏感な、傷つきやすい	私の姉は批判にとても敏感です。	イタリア語の«sensibile»と同じです。«sensato»(分別のある)ではありません。それは別のスペイン語の単語です。
 B1	sociedad	社会	今日、社会はとても速く変わります。	複数形は«sociedades»です。
 B1	derecho	権利；法律	私たちは皆、教育を受ける権利があります。	形容詞«derecho»（まっすぐな）もあります。
 B1	libertad	自由	報道の自由は根本です。	複数形は«libertades»です。
@@ -231,8 +230,8 @@ B1	impuesto	税金	来年、税金が上がります。	複数形で«impuestos�
 B1	ganancia	利益	今月の利益はとても少なかったです。	«ganar»から。
 B1	pérdida	損失	五月に会社は大きな損失を出しました。	«perder»から。
 B1	inversión	投資	家を買うのは良い投資です。	複数形は«inversiones»です。
-B1	ahorro	貯金	私の貯金は夏の旅行のためです。	複数形でよく使います。
-B1	sucursal	支店	銀行の支店は広場にあります。	ラテン語«succursus»から：本店を支えるもの。
+B1	ahorro	貯金、節約	私の貯金は旅行のためのものだ。	ふつう複数形で使います。«ahorros»は取っておいたお金のことです。動詞は«ahorrar»です。
+B1	sucursal	支店	銀行の支店は広場にあります。	銀行や会社の支店のことです。本店は«sede central»です。
 B1	reembolso	払い戻し	製品が壊れていたので払い戻しを頼みました。	«Reembolsar»は払い戻すことです。
 B1	envío	発送	大きな買い物は送料無料です。	«enviar»の活用形でもあります。
 B1	pedido	注文	私の注文は明日の午後に届きます。	«pedir»の過去分詞でもあります。
@@ -243,13 +242,12 @@ B1	rebajar	値下げする	一月に値下げされます。	«Rebajas»はセ�
 B1	reclamar	苦情を言う	ひどいサービスに苦情を言います。	«Reclamación»は苦情です。
 B1	facturar	請求書を出す	私の会社は十二月にたくさん請求書を出します。	荷物を預けることも指します。
 B1	empaquetar	梱包する	出かける前にプレゼントを梱包します。	«Paquete»は小包です。
-B1	envolver	包む	プレゼントを包んでいただけますか。	o→ue変化します。«envuelvo»。
+B1	envolver	包む	プレゼントを包んでいただけますか。	o→ueと変化します。«envuelvo»。
 B1	rentable	採算の取れる	この商売はとても儲かります。	«renta»から。
 B1	asequible	手頃な	この講座の値段は手頃です。	イタリア語と偽の友です。
 B1	gratuito	無償の	今日は博物館の入場が無料です。	«gratis»よりも改まった語です。
 B1	defectuoso	欠陥のある	その製品は最初から欠陥がありました。	«defecto»から。
-B1	imprescindible	不可欠な	レシートを保管することは不可欠です。	よく«ser»と使います。
-B1	anticipar	前倒しにする	旅行を一週間前倒ししたいです。	繰り上げるという意味です。
+B1	anticipar	前もって明かす、先に知らせる	まだ何も明かしたくありません。	イタリア語の«anticipare»(前もって言う、前払いする)と同じです。日程を前倒しするには«adelantar»のほうがふつうです。
 B1	comprobar	確かめる	フライトの時間を確かめます。	o→ue変化します。«compruebo»。
 B1	lograr	達成する	旅をするという夢を実現したいです。	«Lograr + 不定詞»は〜することに成功するです。
 B1	intentar	試みる	上司と話してみます。	«Intento»は試みです。
@@ -265,7 +263,7 @@ B1	adaptarse	適応する	息子は学校によく適応しました。	イタ�
 B1	echar	入れる；投げる	スープに少し塩を入れます。	«Echar de menos»は恋しく思うことです。
 B1	mezclarse	交わる	姉はとてもさまざまな人たちと付き合います。	再帰動詞です。
 B1	colocar	配置する	本を棚に置きます。	«Colocar»+場所。
-B1	rodear	取り囲む	新しい家は森に囲まれます。	«Rodeo»はロデオの意味もあります。
+B1	rodear	取り囲む	庭が家を取り囲んでいます。	«Rodeo»は遠回りのことです(«dar un rodeo»)。また馬のショーも指します。
 B1	cubrir	覆う	このシートはテーブル全体を覆えます。	不規則な過去分詞：«cubierto»。
 B1	meter	入れる	服をスーツケースに入れます。	«Meterse»は入り込むことです。
 B1	sacudir	振り払う	庭でじゅうたんをはたきます。	«Sacudida»は揺れです。
@@ -284,3 +282,12 @@ B1	apenas	ほとんど〜ない	今週はほとんど自由な時間がありま
 B1	sin embargo	それでも	高いです。しかし、その価値はあります。	改まった接続表現です。
 B1	por lo tanto	したがって	雨がひどいので、したがって家にいます。	結果を表す改まった接続表現です。
 B1	mientras tanto	その間に	私が料理する間に、あなたは食卓を整えてください。	句です。
+B1	cargo	役職、担当	彼女は会社で重要な役職に就いています。	«Estar a cargo»は「責任者である」という意味です。
+B1	probador	試着室	試着室は奥にあります。	«Probarse»は服を試着することです。«¿Puedo probarme esto?»。
+B1	carretera	幹線道路	雪で幹線道路が閉鎖されていました。	«Carretera»は郊外の道です。
+B1	abogado	弁護士	私は弁護士と話す必要があります。	女性形は«abogada»です。
+B1	seguridad	安全、セキュリティ	データの安全性は不可欠です。	«seguro»からできた語です。«Seguridad social»は社会保障です。
+B1	albergue	ホステル、宿泊所	私たちは浜辺の近くのホステルに泊まりました。	高級ホテル(«hotel»)ではなく、ホステルや避難所です。サンティアゴ巡礼路の巡礼者は«albergues»に泊まります。
+B1	puerto	港	港は町の心臓部です。	山道(«puerto de montaña»)の意味もあります。«Puerto Rico»は「豊かな港」の意味です。
+B1	ruta	ルート、道筋	そのルートは絵のように美しい村々と緑の谷を通ります。	ラテンアメリカでは幹線道路の意味にもなります。«la ruta 40»。
+B1	sartén	フライパン	フライパンに油を少し入れてください。	女性名詞です。«la sartén»(ラテンアメリカでは«el sartén»とも聞かれます)。調理用の鍋は«olla»です。

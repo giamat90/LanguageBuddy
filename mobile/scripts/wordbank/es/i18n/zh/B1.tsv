@@ -1,7 +1,7 @@
 B1	internet	互联网	没有网络我今天无法工作。	«El internet»和«internet»都常用。
 B1	pantalla	屏幕	我手机的屏幕碎了。	«Pantalla»也指灯罩。
 B1	contraseña	密码	我忘记了邮箱密码。	«Seña»是记号。
-B1	archivo	文件	我明天用邮件发送文件。	«Archivo»也指档案。
+B1	archivo	文件（档案）	我明天把文件发给你。	«Archivo»也指档案馆。
 B1	aplicación	应用程序	我今天下载一个新应用。	简写«app»。
 B1	descargar	下载	我今晚会下载这个程序。	«Descarga»是下载。
 B1	conectarse	连接	我用手机连接网络。	«Conexión»是连接。
@@ -62,7 +62,6 @@ B1	frijol	豆子	黑豆在古巴很受欢迎。	拉丁美洲用«frijol»，西�
 B1	aguacate	牛油果	我每天早上在面包上放牛油果。	智利和阿根廷说«palta»。
 B1	chile	辣椒	这个辣椒对我来说太辣了。	不只是国家：«chile»也是辣椒。
 B1	tamal	玉米粽	我妈妈每年圣诞节做玉米粽。	用叶子包裹蒸熟的玉米面团。
-B1	mole	墨西哥酱	波布拉诺酱含巧克力和辣椒。	典型的墨西哥酱。
 B1	aderezo	沙拉酱	我在沙拉里用清淡的酱。	西班牙说«aliño»。
 B1	condimentar	用香料调味	我会用大蒜和柠檬给鸡肉调味。	«Condimento»是调味料。
 B1	ajo	大蒜	我的酱汁里总会放大蒜。	«j»是喉音。
@@ -156,9 +155,9 @@ B1	póliza	保单	我的保单涵盖医疗费用。	«Seguro médico»是医疗�
 B1	agotado	筋疲力尽的	长途旅行后我筋疲力尽。	来自«agotar»。
 B1	preocupado	担心的	我妈妈为我的考试担心。	与«estar»连用。
 B1	asustado	受惊的	孩子被暴风雨吓坏了。	来自«susto»。
-B1	avergonzado	羞愧的	我为昨天的错误感到羞愧。	来自«vergüenza»。
+B1	avergonzado	感到羞愧的	我为昨天的错误感到羞愧。	来自«avergonzarse»：«me avergüenzo»（带分音符）。
 B1	tímido	害羞的	我儿子在陌生人面前很害羞。	和意大利语一样。
-B1	sensible	敏感的	我姐姐对批评很敏感。	与«sensato»是假朋友。
+B1	sensible	敏感的	我姐姐对批评非常敏感。	与意大利语«sensibile»相同。不要与«sensato»（明智的）混淆：那是另一个西班牙语单词。
 B1	sociedad	社会	如今社会变化得很快。	复数«sociedades»。
 B1	derecho	权利；法律	我们都有受教育的权利。	也有形容词«derecho»（笔直的）。
 B1	libertad	自由	新闻自由是根本。	复数«libertades»。
@@ -231,8 +230,8 @@ B1	impuesto	税	明年税会上涨。	复数用«impuestos»。
 B1	ganancia	利润	这个月的利润很少。	来自«ganar»。
 B1	pérdida	亏损	五月公司出现了大额亏损。	来自«perder»。
 B1	inversión	投资	买房是一项好投资。	复数«inversiones»。
-B1	ahorro	储蓄	我的储蓄是为了夏天的旅行。	常用复数。
-B1	sucursal	分行	银行分行在广场上。	来自拉丁语«succursus»：支撑总部的部分。
+B1	ahorro	积蓄	我的积蓄是用来旅行的。	通常用复数：«ahorros»指存起来的钱。动词是«ahorrar»。
+B1	sucursal	分行；分公司	银行的分行在广场上。	指银行或公司的分支机构；总部是«sede central»。
 B1	reembolso	退款	因为产品坏了，我申请了退款。	«Reembolsar»是退款。
 B1	envío	邮寄、运送	大额购物免运费。	也是«enviar»的一种变位。
 B1	pedido	订单	我的订单明天下午到。	也是«pedir»的过去分词。
@@ -243,13 +242,12 @@ B1	rebajar	降价	一月份会降价。	«Rebajas»是打折季。
 B1	reclamar	投诉	我要投诉这糟糕的服务。	«Reclamación»是投诉。
 B1	facturar	开发票	十二月我公司开很多发票。	也指托运行李。
 B1	empaquetar	打包	出门前我们会把礼物包好。	«Paquete»是包裹。
-B1	envolver	包裹	请您把礼物包起来好吗？	o→ue变化：«envuelvo»。
+B1	envolver	包裹	请问您能把礼物包起来吗？	变化是o→ue：«envuelvo»。
 B1	rentable	有利可图的	这门生意很赚钱。	来自«renta»。
 B1	asequible	价格实惠的	这门课的价格很实惠。	和意大利语是假朋友。
 B1	gratuito	无偿的	今天博物馆入场免费。	比«gratis»更正式。
 B1	defectuoso	有缺陷的	这个产品从一开始就有缺陷。	来自«defecto»。
-B1	imprescindible	必不可少的	保留收据是必不可少的。	常与«ser»连用。
-B1	anticipar	提前	我想把行程提前一周。	意为提前。
+B1	anticipar	提前透露；预支	我现在什么都不想透露。	与意大利语«anticipare»相似（提前说或提前支付）。表示把日期提前，更常用«adelantar»。
 B1	comprobar	核实	我要核实航班时间。	o→ue变化：«compruebo»。
 B1	lograr	实现	我想实现旅行的梦想。	«Lograr + 动词原形»是设法做到。
 B1	intentar	尝试	我会试着和老板谈谈。	«Intento»是尝试。
@@ -265,7 +263,7 @@ B1	adaptarse	适应	我儿子很好地适应了学校。	和意大利语一样�
 B1	echar	放入；扔	我要往汤里放一点盐。	«Echar de menos»是想念。
 B1	mezclarse	混入	我妹妹和各种不同的人来往。	自反动词。
 B1	colocar	安放	我要把书放在书架上。	«Colocar»+地点。
-B1	rodear	环绕	一片树林将环绕新房子。	«Rodeo»也指牛仔竞技。
+B1	rodear	环绕	一座花园环绕着房子。	«Rodeo»指绕道（«dar un rodeo»），也指马术表演。
 B1	cubrir	覆盖	这块防水布能盖住整张桌子。	不规则过去分词：«cubierto»。
 B1	meter	放进	我要把衣服放进行李箱。	«Meterse»是钻进。
 B1	sacudir	抖落	我要在院子里抖地毯。	«Sacudida»是抖动。
@@ -284,3 +282,12 @@ B1	apenas	几乎不	这周我几乎没有空闲时间。	也指“一……就�
 B1	sin embargo	然而	这很贵；然而值得。	正式连接词。
 B1	por lo tanto	因此	雨下得很大，因此我们待在家。	表示结果的正式连接词。
 B1	mientras tanto	与此同时	我做饭，你同时摆桌子。	短语。
+B1	cargo	职务；负责	她在公司担任要职。	«Estar a cargo»的意思是负责。
+B1	probador	试衣间	试衣间在最里面。	«Probarse»是试穿衣服：«¿Puedo probarme esto?»。
+B1	carretera	公路	公路因大雪封闭。	«Carretera»指城外的路。
+B1	abogado	律师	我需要和律师谈谈。	阴性形式是«abogada»。
+B1	seguridad	安全	数据安全至关重要。	来自«seguro»。«Seguridad social»是社会保障。
+B1	albergue	旅舍	我们住在海滩附近的一家旅舍。	不是高档的«hotel»：它是旅舍或庇护所。走圣地亚哥朝圣之路的朝圣者住在«albergues»。
+B1	puerto	港口	港口是这座城市的心脏。	也指山口（«puerto de montaña»）。«Puerto Rico»意为«富饶的港口»。
+B1	ruta	路线	这条路线穿过风景如画的村庄和翠绿的山谷。	在拉丁美洲也指公路：«la ruta 40»。
+B1	sartén	平底锅	往锅里倒一点油。	它是阴性词：«la sartén»（在拉丁美洲也能听到«el sartén»）。煮东西的锅是«olla»。

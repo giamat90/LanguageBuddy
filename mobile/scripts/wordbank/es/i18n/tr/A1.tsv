@@ -32,7 +32,7 @@ A1	dulce	tatlı	Kahvem her zaman tatlıdır.	«Dulce» hem sıfat hem isimdir: �
 A1	caliente	sıcak	Kahve çok sıcak.	İnsanlar için «tener calor» denir, «estar caliente» değil; o başka bir anlama gelir.
 A1	frío	soğuk	Bira buz gibi.	Hava için «hace frío», insan için «tener frío» denir.
 A1	sabroso	nefis	Bu yemek çok nefis.	Çoğunlukla Latin Amerika'da kullanılır; İspanya'da «rico» tercih edilir.
-A1	sal	tuz	Biraz tuz eksik.	«La sal» denir (dişil); bazı kırsal yerlerde yanlışlıkla «el sal» duyulur.
+A1	sal	tuz	Biraz tuz eksik.	«Sal» dişildir: «la sal». Aynı zamanda «salir» fiilinin emir kipidir: «¡Sal de aquí!».
 A1	azúcar	şeker	Kahveme şeker istemiyorum.	«Azúcar» eril ya da dişil olabilir, ama bugün hemen hep «el azúcar» denir.
 A1	casa	ev	Evim parkın yakınında.	«En casa» «evde» demektir: «estoy en casa», «voy a casa».
 A1	cuarto	oda	Odam küçük ama rahat.	Latin Amerika'da «cuarto» odadır; İspanya'da «habitación» daha yaygındır.
@@ -43,10 +43,10 @@ A1	ventana	pencere	Pencere bahçeye bakıyor.	«Ventana», «viento» (rüzgâr)
 A1	cama	yatak	Yatağım çok rahat.	«Cama» yataktır; «cama matrimonial» çift kişilik yataktır.
 A1	silla	sandalye	Daha yüksek bir sandalyeye ihtiyacım var.	«Silla» sandalyedir; «sillón» koltuktur.
 A1	sofá	kanepe	Kanepe yeni ve büyük.	Vurgu son hecededir: «sofá», çoğul «sofás».
-A1	llave	anahtar	Evin anahtarı nerede?	«Llave» bazı ülkelerde musluk anlamına da gelir: «abrir la llave».
+A1	llave	anahtar	Evin anahtarı nerede?	«Llave» Latin Amerika'da musluk anlamına da gelir: «abrir la llave»; İspanya'da musluk «grifo» denir.
 A1	jardín	bahçe	Dedem bahçeyle ilgilenir.	«Jardín de infantes» Arjantin'de anaokuludur.
 A1	familia	aile	Ailem Lima'da yaşıyor.	İsim tekildir: «mi familia vive», «viven» değil; çok kişi olsa bile.
-A1	madre	anne	Annem çok iyi yemek yapar.	Latin Amerika'da «mamá» da denir; «madre» daha resmîdir.
+A1	madre	anne	Annem çok güzel yemek yapar.	«Mamá» sevgi dolu biçimdir ve her yerde kullanılır; «madre» daha resmîdir.
 A1	padre	baba	Babam bir bankada çalışıyor.	Çoğulda «los padres» anne babadır, yalnız babalar değil.
 A1	hermano	erkek kardeş	Kardeşim on iki yaşında.	«Hermanos» erkek ve kız kardeşleri birlikte anlatabilir.
 A1	hijo	oğul	Oğlu tıp okuyor.	Çoğulda «los hijos» çocuklardır, oğlanlar ve kızlar.
@@ -58,7 +58,7 @@ A1	dormir	uyumak	Günde sekiz saat uyumam gerekiyor.	Şimdiki zamanda düzensiz:
 A1	lavar	yıkamak	Bugün çamaşırları yıkamam gerekiyor.	«Lavarse» yıkanmaktır: «me lavo las manos».
 A1	grande	büyük	Evim çok büyük değil.	Tekil isimden önce «gran» olur: «un gran día».
 A1	pequeño	küçük	Küçük bir kasabada yaşıyorum.	Latin Amerika'da «pequeño» yerine «chico» çok yaygındır.
-A1	nuevo	yeni	Yeni bir kanepemiz var.	Sıra önemli: «un carro nuevo» (sıfır), ama «un nuevo carro» (bir başka).
+A1	nuevo	yeni	Yeni bir kanepemiz var.	Genellikle addan sonra gelir: «un sofá nuevo». Uyum sağlar: «nueva», «nuevos», «nuevas».
 A1	viejo	eski, yaşlı	Bu ev çok eski.	İnsan için «viejo» incitebilir: «mayor» daha naziktir.
 A1	limpio	temiz	Mutfak çok temiz.	«Estar limpio» şu an temiz olmaktır; «ser limpio» titiz bir kişiyi anlatır.
 A1	cómodo	rahat	Bu koltuk çok rahat.	«Cómodo» hem eşya hem kişi için kullanılır: «estoy cómodo».
@@ -80,7 +80,7 @@ A1	billete	bilet	Tek yön bir bilet alıyorum.	Latin Amerika'da genelde «boleto
 A1	hotel	otel	Otelin bir havuzu var.	«H» sessizdir: «otel» diye okunur.
 A1	mapa	harita	Şehrin bir haritasına ihtiyacım var.	«-a» ile biter ama erildir, «día» ve «problema» gibi.
 A1	maleta	bavul	Bavulum mavi ve büyük.	«Hacer la maleta» bavul hazırlamak demektir.
-A1	playa	plaj	Pazar günü plaja gidiyoruz.	«Playa» plajdır, deniz değil: deniz «el mar»dır.
+A1	playa	plaj	Pazar günü plaja gidiyoruz.	«Playa» plajdır, deniz değil: deniz «el mar»dır (eril). Kıyı şeridi «la costa»dır.
 A1	viajar	seyahat etmek	Ailemle seyahat etmeyi severim.	«Viajar» ve «viaje» «j» ile yazılır.
 A1	llegar	varmak	İstasyona hep erken varırım.	«G», «e»den önce «gu» olur: «llegué».
 A1	salir	çıkmak, ayrılmak	Tren sekizde kalkıyor.	Yanıltıcı sözcük: «salir» çıkmak ya da ayrılmaktır, yukarı çıkmak değil (o «subir»).
@@ -97,11 +97,11 @@ A1	allí	orada	Kardeşim 2020'den beri orada yaşıyor.	Daha belirsiz ve uzak «
 A1	derecha	sağ taraf	Banka sağda.	«A la derecha» ve «a la izquierda» denir.
 A1	izquierda	sol taraf	Burada sola dön.	«Gira», «dobla» ya da «voltea»: ülkeye göre dönmek için üç fiil.
 A1	estación	istasyon	İstasyon çok yakın.	«Mevsim» de demektir: «las cuatro estaciones».
-A1	aeropuerto	havalimanı	Havalimanı çok modern.	Havalimanının çoğu zaman bir kısaltması olur: Meksiko'da «AIFA».
+A1	aeropuerto	havalimanı	Havalimanı çok modern.	«Puerto» (liman) ile «puerta» (kapı) karıştırılmamalı. Havalimanında «la puerta de embarque» (biniş kapısı) vardır.
 A1	rápido	hızlı	Tren çok hızlı.	Zarf olarak değişmez: «habla rápido».
 A1	lento	yavaş	Otobüs çok yavaş.	«Rápido»nun karşıtı; «despacio» «yavaşça» zarfıdır.
 A1	barato	ucuz	Otel çok ucuz.	Karşıtı: «caro». «Salir barato» ucuza gelmek demektir.
-A1	trabajo	iş	İşim sekizde başlıyor.	«Trabajo» genel olarak iş ve bir işyeridir; «empleo» pozisyondur.
+A1	trabajo	iş, çalışma	İşim sekizde başlıyor.	«Trabajo» iş ya da çalışmadır: «buscar trabajo». Fiili «trabajar»dır. «Empleo» istihdam için resmî bir sözcüktür.
 A1	oficina	ofis	Ofisim şehir merkezinde.	«Oficina» yer olarak ofistir; «despacho» bir müdürün odasıdır.
 A1	jefe	patron, şef	Patronum üç dil konuşuyor.	Kadın için «la jefa» denir.
 A1	empresa	şirket	Şirketim internetten giysi satıyor.	«Empresa» bir işletmedir; «compañía» daha resmî ya da uluslararasıdır.
@@ -133,7 +133,7 @@ A1	estudiante	öğrenci	Kız kardeşim tıp öğrencisi.	Eril ve dişilde aynıd
 A1	doctor	doktor	Amcam fizik doktoru.	Dişili: «la doctora»; «médico» hekimlik mesleğidir.
 A1	cliente	müşteri	Müşteri seninle konuşmak istiyor.	Eril ve dişilde aynıdır: «el/la cliente».
 A1	tienda	dükkân	Dükkân dokuzda açılıyor.	«Tienda» dükkândır; «tienda de campaña» kamp çadırıdır.
-A1	mercado	pazar	Sebzeleri pazardan alıyorum.	Latin Amerika'da yerel pazarlar çok canlıdır: «el mercado central».
+A1	mercado	pazar	Sebzeyi pazardan alıyorum.	«El mercado» pazardır; süpermarket «el supermercado»dur. Ayrıca «mercado laboral» (iş piyasası) denir.
 A1	precio	fiyat	Gömleğin fiyatı düşük.	«Un precio bajo/alto» denir, küçük/büyük değil.
 A1	ropa	giysi	Yeni giysiler almak istiyorum.	«Ropa» tekil toplu isimdir: «la ropa está limpia».
 A1	camisa	gömlek	Bu gömlek pamuklu.	Daha gündelik olan «camiseta» (tişört) değildir.
@@ -148,7 +148,6 @@ A1	vender	satmak	Amcam pazarda ayakkabı satıyor.	«Vendedor» satıcı, «vent
 A1	costar	mal olmak	Bu gömlek ne kadar tutar?	Kök değişir: «cuesta» (o→ue).
 A1	llevar	götürmek; giymek	Bugün beyaz bir gömlek giyiyorum.	«Llevar» yanında götürmek ve giysi giymek demektir.
 A1	probar	denemek; tatmak	Bu ayakkabıları deneyeceğim.	Kök değişir: «pruebo» (o→ue).
-A1	elegir	seçmek	Hediye seçmek zor.	«Escoger» çok yaygın bir eş anlamlıdır.
 A1	caro	pahalı	Bu palto çok pahalı.	Dişili «cara»; «salir caro» pahalıya gelmek demektir.
 A1	bonito	güzel	Gömleğin çok güzel.	«Bonito» konuşma dilidir ve Latin Amerika'da yaygındır; «bello» daha resmîdir.
 A1	blanco	beyaz	Beyaz bir gömlek istiyorum.	Renkler isimden sonra gelir: «una camisa blanca».
@@ -175,13 +174,12 @@ A1	farmacia	eczane	Eczane saat onda kapanıyor.	İspanya'da eczanelerde ışıkl
 A1	dolor	ağrı	Sırtımda bir ağrı var.	Baş ağrısı için «tener dolor de cabeza» denir.
 A1	fiebre	ateş	Oğlumun dünden beri ateşi var.	«Tener fiebre» denir.
 A1	sueño	uyku; rüya	Bu gece çok uykum var.	Hem uyku hem rüya demektir: «tener sueño», «un sueño bonito».
-A1	sentir	hissetmek	Bugün güneşi hissetmek istiyorum.	«Lo siento» «üzgünüm» demektir.
+A1	sentir	hissetmek	Bugün güneşi hissetmek istiyorum.	«Lo siento» «üzgünüm» demektir. Duygular için «sentirse» kullanılır: «me siento bien».
 A1	doler	ağrımak	Yarın sırtım ağrıyacak.	Dolaylı tümleçle kullanılır: «me duele», «te duelen los pies».
 A1	descansar	dinlenmek	Bugün biraz dinlenmem gerekiyor.	«Descanso» moladır ya da dinlenmedir.
 A1	cuidar	bakmak, özen göstermek	Sağlığıma daha iyi bakmalıyım.	«¡Cuídate!» bir vedadır: «kendine iyi bak».
 A1	tomar	almak; içmek	Bir hap alacağım.	Latin Amerika'da «tomar» «içmek» de demektir.
 A1	mejorar	iyileştirmek	Bu yıl sağlığımı iyileştirmek istiyorum.	«Mejor» hem «daha iyi» (zarf) hem «daha iyi» (sıfat)dir.
-A1	sano	sağlıklı	Dedem sağlıklı bir adam.	Ruh sağlığı için «cuerdo» denir; «sano» çoğunlukla bedenle ilgilidir.
 A1	enfermo	hasta	Oğlum bugün hasta.	«Estar enfermo» şimdi hasta olmaktır; «un enfermo» bir hastadır.
 A1	fuerte	güçlü	Büyükannem çok güçlü.	Seslere de uygulanır: «un ruido fuerte».
 A1	débil	zayıf	Ateşten sonra kendimi zayıf hissediyorum.	«Fuerte»nin karşıtı.
@@ -224,7 +222,7 @@ A1	ayer	dün	Dün çok güzel bir film izledik.	Geçmiş zamanla kullanılır: �
 A1	tarde	öğleden sonra	Öğleden sonra parka giderim.	«Tarde» «geç» zarfı da demektir: «llegas tarde».
 A1	siempre	her zaman	Sabahları her zaman müzik dinlerim.	Karşıtı: «nunca».
 A1	nunca	asla, hiç	Geceleri asla kahve içmem.	«Nunca» fiilden sonra gelirse «no» gerekir: «no bebo nunca café».
-A1	hola	merhaba	Merhaba, adım Ana.	«H» sessizdir. «Hola» her saatte ve her ortamda kullanılır.
+A1	hola	merhaba	Merhaba, İspanyolcayı pek iyi konuşamıyorum.	«H» okunmaz. «Hola» günün her saatinde ve her ortamda kullanılır.
 A1	adiós	hoşça kal	Hoşça kal, yarın görüşürüz.	İtalyanca «addio»dan daha az kesindir: sıradan bir vedadır.
 A1	gracias	teşekkürler	Yardımın için çok teşekkürler.	Cevap olarak «de nada» ya da «con gusto» (Latin Amerika) denir.
 A1	por favor	lütfen	Bir kahve lütfen, ve hesap.	Bir şey istenirken neredeyse her seferinde kullanılır.
@@ -238,7 +236,7 @@ A1	vida	hayat	Hayat çok güzel.	«¡Es la vida!» yaygın bir ünlemdir.
 A1	tiempo	zaman; hava durumu	Bugün fazla zamanım yok.	Hem zaman hem hava anlamına gelir: «hace buen tiempo».
 A1	mundo	dünya	Bütün dünyayı tanımak istiyorum.	«Todo el mundo» «herkes» demektir.
 A1	hombre	erkek, adam	O adam benim amcam.	«H» sessizdir.
-A1	mujer	kadın	Annem güçlü bir kadın.	«Mujer» «eş» (karı) anlamına da gelir.
+A1	mujer	kadın	Annem güçlü bir kadın.	«Karı» anlamına da gelebilir: «mi mujer». Daha resmî olanı «esposa»dır.
 A1	niño	erkek çocuk, çocuk	Çocuk sokakta oynuyor.	Dişili «niña». «Ñ» önemlidir.
 A1	ser	olmak (kimlik)	Öğrenciyim ve doktor olmak istiyorum.	«Ser» kimlik, köken, meslek için; «estar» durum ve yer için.
 A1	estar	olmak, bulunmak (durum, yer)	Şimdi evdeyim.	Yer ve durum için kullanılır: «estoy en casa», «estoy cansado».
@@ -258,7 +256,7 @@ A1	ellos	onlar	Onlar bir ofiste çalışıyor.	Dişili: «ellas». Latin Amerika
 A1	este	bu	Bu kitap çok ilginç.	«Este» «bu» işaret sözcüğüdür.
 A1	y	ve	Annem ve babam burada yaşıyor.	«I-»den önce «e» olur: «padre e hijo».
 A1	pero	ama	Gitmek istiyorum, ama gidemem.	«Pero» (ama) ve «perro» (köpek) «rr» ile ayrılır.
-A1	porque	çünkü	Çıkmıyorum çünkü bugün yorgunum.	«Porque» cevaptır; «por qué» (iki sözcük) sorudur.
+A1	porque	çünkü	Bugün yorgun olduğum için dışarı çıkmıyorum.	«Porque» cevaptır; «por qué» (iki sözcük) sorudur.
 A1	con	ile	Köpeğimle parka gidiyorum.	«Conmigo» ve «contigo» özel biçimlerdir.
 A1	sin	-siz	Kahveyi şekersiz içerim.	«Con»un karşıtı.
 A1	en	içinde, üzerinde	Büyük bir şehirde yaşıyorum.	Çok sık kullanılan bir edat: «en casa», «en el mar».
@@ -270,7 +268,7 @@ A1	decir	söylemek	Adını bir kez daha söyler misin?	Düzensiz: «digo, dices,
 A1	dar	vermek	Annem için bir hediye vereceğim.	Yalnızca birinci tekil kişide düzensiz: «doy».
 A1	poner	koymak	Şimdi sofrayı kuracağım.	«Poner la mesa» sofra kurmaktır; düzensiz: «pongo».
 A1	usar	kullanmak	Şimdi telefonu kullanmam gerekiyor.	«Utilizar» daha resmîdir.
-A1	visitar	ziyaret etmek	Yakında büyükanne ve büyükbabamı ziyaret etmek istiyorum.	Kişilerle: «visitar a alguien»; yerlerle «a» olmaz.
+A1	visitar	ziyaret etmek	Yakında büyükanne ve büyükbabamı ziyaret etmek istiyorum.	«Visitar a alguien» (birini görmeye gitmek) ve «visitar un lugar» (bir yeri gezmek) denir.
 A1	entrar	girmek	Ana kapıdan girebilirsin.	Latin Amerika'da «entrar a» çok yaygındır; İspanya'da «entrar en».
 A1	volver	dönmek	Eve erken döneceğim.	Kök değişir: «vuelvo» (o→ue); «volver a» + mastar tekrar yapmak demektir.
 A1	subir	çıkmak (yukarı)	İkinci kata çıkman gerekiyor.	Karşıtı: «bajar». «Salir» ile karıştırılmamalı.
@@ -278,7 +276,6 @@ A1	bajar	inmek	Bir sonraki durakta ineceğim.	«Bajar del autobús» otobüsten 
 A1	tocar	dokunmak; çalmak (çalgı)	Kardeşim gitar çalmayı biliyor.	Dokunmak ve çalgı çalmak için tek fiil.
 A1	practicar	yapmak, uygulamak	Cumartesi günleri spor yapmayı severim.	«Practicar deporte» spor yapmak demektir.
 A1	invitar	davet etmek	Arkadaşlarımı akşam yemeğine davet etmek istiyorum.	«Invitar» ısmarlamak da olabilir: «yo invito».
-A1	recibir	almak (teslim)	Yarın bir paket alacağım.	«Recibir» teslim almaktır.
 A1	decidir	karar vermek	Fiyata bugün karar vermemiz gerekiyor.	«Decidirse» karar vermektir.
 A1	olvidar	unutmak	Anahtarımı yine unutmak istemiyorum.	«Olvidarse de» ya da edatsız «olvidar»: «olvidé la llave».
 A1	compartir	paylaşmak	Evi arkadaşlarla paylaşmayı severim.	«Compartir» paylaşmaktır.
@@ -302,3 +299,4 @@ A1	de	-den, -nin	Küçük bir şehirdenim.	«De» kökeni ve aitliği gösterir:
 A1	a	-e, -a (yönelme)	Ofise otobüsle gidiyorum.	Doğrudan tümleç olan kişiden önce: «veo a mi madre».
 A1	o	ya da	Şimdi çay mı kahve mi istersin?	«O-»dan önce «u» olur: «siete u ocho».
 A1	cuando	-ince, -dığında	Geldiğimde akşam yemeğini hazırlarım.	Vurgulu «¿cuándo?» sorudur.
+A1	cumpleaños	doğum günü	Doğum günüm aralık ayında.	Çoğulda değişmez: «dos cumpleaños».

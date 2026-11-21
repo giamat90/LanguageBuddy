@@ -37,14 +37,14 @@ A2	ducharse	prendre une douche	Je prends toujours une douche avant le petit-déj
 A2	vestirse	s'habiller	Je dois m'habiller vite ce matin.	Pronominal avec e→i : «me visto».
 A2	acostarse	se coucher	Je vais me coucher tôt aujourd'hui.	Le radical change o→ue : «me acuesto».
 A2	sentarse	s'asseoir	Tu peux t'asseoir sur le canapé.	«Siéntate» est l'invitation à s'asseoir.
-A2	peinarse	se coiffer	Ma sœur se coiffe devant le miroir.	«Peine» est le peigne.
+A2	peinarse	se peigner	Je me peigne avant de sortir.	Verbe pronominal : «me peino». Le peigne est «el peine», la brosse «el cepillo».
 A2	espejo	miroir	Le miroir de la salle de bains est grand.	Du latin «speculum», comme l'italien «specchio».
 A2	toalla	serviette de toilette	J'ai besoin d'une serviette propre.	«Toalla» est la serviette de bain ; la nappe est «mantel».
 A2	jabón	savon	J'utilise du savon pour me laver les mains.	Pluriel «jabones».
 A2	refrigerador	réfrigérateur	Le réfrigérateur est presque vide.	En Espagne «nevera» ; en Argentine «heladera».
 A2	lavadora	lave-linge	Le lave-linge fait beaucoup de bruit.	De «lavar» : «lavavajillas» est le lave-vaisselle.
 A2	escalera	escalier	L'escalier est très étroit.	Souvent au pluriel : «las escaleras».
-A2	pared	mur (intérieur)	Le mur du salon est bleu.	«Muro» est le mur extérieur.
+A2	pared	mur (d'une pièce)	Le mur du salon est bleu.	«Pared» est le mur d'une pièce ou d'un bâtiment ; «muro» est un mur extérieur ou de clôture : «el muro del jardín».
 A2	suelo	sol	Le chat dort par terre.	«Suelo» est le sol ; «piso» dans certains pays.
 A2	alfombra	tapis	Le tapis rouge est très doux.	De l'arabe «al-hanbal».
 A2	lámpara	lampe	La lampe est sur la table.	Mot proparoxyton : accent écrit sur «á».
@@ -103,11 +103,10 @@ A2	reunirse	se réunir	Nous nous réunissons tous les lundis.	Il peut s'employer
 A2	informe	rapport	Aujourd'hui je termine le rapport final.	C'est aussi un adjectif signifiant informe.
 A2	equipo	équipe	Mon équipe travaille très bien.	«Equipo» est aussi l'équipement.
 A2	sala	salle	La salle de réunion est pleine.	«Sala de estar» est le salon.
-A2	cargo	poste; charge	Mon poste est directeur des ventes.	«Estar a cargo» veut dire être responsable.
 A2	entrevista	entretien	Demain j'ai un entretien d'embauche.	«Entrevista de trabajo» est l'entretien d'embauche.
 A2	solicitud	demande, candidature	J'ai envoyé ma candidature par courrier.	«Solicitar» est poser sa candidature.
 A2	jubilación	retraite	Mon père profite de sa retraite.	«Jubilarse» est partir à la retraite.
-A2	negocio	commerce, affaire	Mon oncle a un petit commerce.	De «nec-otium» : la négation du loisir.
+A2	negocio	affaire, commerce	Mon oncle a un petit commerce.	«Negocio» est une entreprise et aussi une affaire conclue : «un buen negocio». Le magasin est «la tienda».
 A2	cobrar	toucher (un salaire); facturer	Je touche mon salaire en fin de mois.	Il veut aussi dire facturer : «cobran diez dólares».
 A2	firmar	signer	Tu dois signer ici, s'il te plaît.	«Firma» est la signature.
 A2	enviar	envoyer	Je vais envoyer le courriel maintenant.	L'accent se déplace : «envío» (accent sur «í»), mais «enviamos».
@@ -142,7 +141,6 @@ A2	sombrero	chapeau	Mon grand-père porte un chapeau de paille.	Le «sombrero» 
 A2	calcetín	chaussette	Il manque une chaussette dans le tiroir.	En Amérique latine aussi «media».
 A2	reloj	montre, horloge	Ma montre est très vieille mais bonne.	Un seul mot pour montre et horloge murale.
 A2	anillo	bague	J'ai acheté une bague en argent.	Du latin «anellus».
-A2	probador	cabine d'essayage	La cabine d'essayage est au fond.	De «probar».
 A2	talla	taille (vêtements)	Quelle pointure fais-tu en chaussures ?	«Talla» pour les vêtements, «número» pour les chaussures dans beaucoup d'endroits.
 A2	devolver	rendre, rapporter	Je veux rapporter cette chemise demain.	Change o→ue : «devuelvo».
 A2	regalar	offrir (en cadeau)	Je vais offrir un livre à ma mère.	Avec des personnes : «regalar a alguien».
@@ -162,7 +160,7 @@ A2	brazo	bras	Mon grand-père a le bras cassé.	Pluriel «brazos» : «con los b
 A2	dedo	doigt, orteil	Je me suis coupé le doigt avec le couteau.	Il couvre doigts et orteils.
 A2	boca	bouche	Ouvre la bouche, s'il te plaît.	Finit en -a : féminin.
 A2	diente	dent	J'ai mal à une dent depuis hier.	Pluriel «dientes».
-A2	oreja	oreille (externe)	J'ai mal à l'oreille gauche.	«Oído» est l'ouïe et l'oreille interne.
+A2	oreja	oreille (externe)	J'ai mal à l'oreille droite.	«Oreja» est l'oreille externe ; «oído» désigne l'ouïe et l'oreille interne : «Me duele el oído».
 A2	corazón	cœur	Mon cœur bat très vite.	Pluriel «corazones».
 A2	sangre	sang	J'ai besoin d'une analyse de sang.	Féminin en espagnol.
 A2	resfriado	rhume	J'ai un très gros rhume.	«Estar resfriado» est avoir un rhume.
@@ -184,7 +182,7 @@ A2	recuperarse	se rétablir	Mon père se rétablit très bien.	«Recuperar» seu
 A2	grave	grave	La situation n'est pas très grave.	S'applique aussi aux sons graves.
 A2	sordo	sourd	Mon grand-père est un peu sourd.	Forme plus douce : «duro de oído».
 A2	mareado	étourdi	Je suis étourdi à cause de la chaleur.	De «mar» : le mal de mer.
-A2	cuerdo	sensé	Mon oncle est un homme très sensé.	Contraire : «loco».
+A2	cuerdo	sensé, sain d'esprit	Mon oncle est un homme très sensé.	Contraire : «loco».
 A2	pasear	se promener	J'aime me promener dans le parc.	«Paseo» est la promenade.
 A2	descubrir	découvrir	Je veux découvrir de nouveaux endroits cette année.	Participe irrégulier : «descubierto».
 A2	disfrutar	profiter, apprécier	J'apprécie beaucoup la musique en direct.	S'emploie avec «de» : «disfrutar de».
@@ -194,7 +192,6 @@ A2	sacar	sortir, prendre	Je vais prendre des photos sur la place.	«Sacar fotos�
 A2	montar	monter (à cheval, vélo)	Mon cousin sait monter à cheval.	«Montar en bici» est faire du vélo.
 A2	quedar	se donner rendez-vous; rester	Nous allons nous retrouver à sept heures sur la place.	«Quedar con alguien» veut dire donner rendez-vous.
 A2	celebrar	fêter	Demain nous allons fêter mon anniversaire.	«Cumpleaños» est toujours masculin singulier.
-A2	cumpleaños	anniversaire	Mon anniversaire est en décembre.	Invariable au pluriel : «dos cumpleaños».
 A2	foto	photo	Cette photo est de ma famille.	Féminin : «la foto» (de «fotografía»).
 A2	concierto	concert	Le concert commence à neuf heures.	«Concertar» est organiser, convenir.
 A2	entrada	billet; entrée	J'ai acheté un billet pour le concert.	Un seul mot pour entrée et billet d'accès.
@@ -227,14 +224,14 @@ A2	verdad	vérité	Dis-moi la vérité, s'il te plaît.	«¿Verdad?» veut aussi
 A2	respuesta	réponse	J'attends ta réponse avec intérêt.	De «responder».
 A2	pregunta	question	J'ai une question sur le devoir.	«Hacer una pregunta» est poser une question.
 A2	conocido	connaissance	Une connaissance m'a donné ce conseil.	C'est aussi le participe de «conocer».
-A2	consejo	conseil	Ma mère me donne un bon conseil.	Singulier : «un consejo».
+A2	consejo	conseil	Ma mère me donne un bon conseil.	On dit «dar un consejo» et «seguir un consejo». Le verbe est «aconsejar».
 A2	encontrar	trouver	Je vais bientôt trouver une solution.	Change o→ue : «encuentro».
 A2	extrañar	manquer (à quelqu'un)	Vous me manquez beaucoup à Noël.	En Amérique latine «extrañar» ; en Espagne «echar de menos».
 A2	recordar	se rappeler	Je veux me rappeler mon enfance.	Change o→ue : «recuerdo».
 A2	creer	croire	Je crois que tu as raison.	«Creo que» + indicatif.
 A2	pensar	penser	Je vais réfléchir à ta proposition.	Change e→ie : «pienso».
 A2	contar	raconter; compter	Mon grand-père sait raconter des histoires.	Change o→ue : «cuento».
-A2	nacer	naître	Ma fille va naître en mai.	«Nací» est « je suis né ».
+A2	nacer	naître	Ma fille est née en mai.	«Nací en Roma» signifie «je suis né à Rome». Il est irrégulier : «nazco».
 A2	casarse	se marier	Ma sœur se marie en juin.	«Casarse con alguien».
 A2	llamarse	s'appeler	Je m'appelle Ana, et toi ?	Pronominal : «me llamo, te llamas».
 A2	acordarse	se souvenir	Je ne veux pas m'en souvenir.	S'emploie avec «de».
@@ -291,3 +288,6 @@ A2	además	en plus	En plus, j'ai une sœur au Chili.	Il s'écrit en un seul mot.
 A2	mientras	pendant que	Je cuisine pendant que j'écoute de la musique.	Avec le même sujet ou un sujet différent.
 A2	sino	mais (au contraire)	Je ne veux pas de thé, mais du café.	«Sino» suit une négation ; «si no» s'écrit en deux mots.
 A2	cuyo	dont, de qui	J'ai un ami dont le père est médecin.	S'accorde avec le nom qui suit.
+A2	elegir	choisir	Il est difficile de choisir un cadeau.	«Escoger» est un synonyme très courant. Il change e→i : «elijo».
+A2	sano	sain, en bonne santé	Mon grand-père est un homme en bonne santé.	«Sano» concerne la santé du corps : «una dieta sana». Sain d'esprit se dit «cuerdo» ; «saludable» est un synonyme très courant.
+A2	recibir	recevoir	Je vais recevoir un colis demain.	«Recibir» signifie recevoir : «recibir un paquete». Avec une personne, il signifie accueillir : «recibir a alguien».

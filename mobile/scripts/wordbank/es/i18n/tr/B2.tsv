@@ -17,7 +17,7 @@ B2	exitoso	başarılı	Tüm şirket için başarılı bir proje oldu.	Latin Amer
 B2	eficaz	etkili	Çalışmak için daha etkili bir yöntem arıyoruz.	Çoğul «eficaces».
 B2	eficiente	verimli	Ekibim süreler konusunda çok verimli.	«Eficaz» sonuç verir; «eficiente» kaynakları iyi kullanır.
 B2	guiso	güveç	Büyükannemin güveci saatlerce pişerdi.	Latin Amerika evlerinin tipik yemeği.
-B2	caldo	et suyu	Tavuk suyu gripte idealdir.	Sıfat olarak «sıcak» da demektir.
+B2	caldo	et suyu, çorba	Tavuk suyu grip olunca birebirdir.	İtalyanca «caldo» değildir: sıcak «caliente», sıcaklık «calor»dur. «Caldo» et suyudur.
 B2	sazonado	baharatlı	Limonla tatlandırılmış balık nefis olur.	«Sazonar»dan.
 B2	amasar	yoğurmak	Annem her cumartesi ekmek yoğurur.	«Masa» hamurdur.
 B2	picar	doğramak	Soğanı ince doğra lütfen.	Aynı zamanda «sokmak».
@@ -26,14 +26,13 @@ B2	levadura	maya	Hamur kabarsın diye maya eklenir.	«Levar»dan.
 B2	brindar	kadeh kaldırmak	Herkesin sağlığına kadeh kaldırmak istiyorum.	«Brindis» kadeh kaldırmadır.
 B2	embriagarse	sarhoş olmak	Aile toplantılarında sarhoş olmamak daha iyidir.	«Emborracharse»den daha resmî.
 B2	atravesar	geçmek	Varmak için eski köprüyü geçmek gerek.	e→ie değişir: «atravieso».
-B2	carretera	karayolu	Karayolu kar yüzünden kapalıydı.	«Carretera» şehir dışı yoldur.
 B2	averiarse	arızalanmak	Araba çölün ortasında arızalandı.	«Avería» arızadır.
 B2	remolcar	çekmek (römorkla)	Arabayı tamirhaneye kadar çekmek zorunda kaldılar.	«Remolque» römorktur.
 B2	neumático	lastik	Yolun ortasında bir lastik patladı.	Meksika'da «llanta».
 B2	llanta	lastik (tekerlek)	Hava kararmadan lastiği değiştirdim.	İspanya'da «neumático».
 B2	envase	ambalaj	Bu ambalaj kolayca geri dönüştürülebilir.	«Envasar»dan.
 B2	caducar	süresi dolmak	Bu sütün süresi yarın doluyor, bugün içilmeli.	«Caducidad» son kullanma tarihidir.
-B2	saldo	bakiye	Hesabımın bakiyesini telefondan kontrol ettim.	Latin Amerika'da telefon kontörü de demektir.
+B2	saldo	bakiye	Hesabımın bakiyesine uygulamadan baktım.	Telefon kontörü anlamına da gelir («recargar saldo»). İndirimler «rebajas»tır.
 B2	cheque	çek	Kirayı çekle ödedim.	Bugün nadiren kullanılır.
 B2	cotizar	prim ödemek	Emekli olmak için yirmi yıl prim ödemeliyim.	«Cotización» primdir.
 B2	estafar	dolandırmak	Beni sahte bir teklifle dolandırmaya çalıştılar.	«Estafa» dolandırıcılıktır.
@@ -48,7 +47,6 @@ B2	mareo	baş dönmesi	Ayağa kalkınca baş dönmesi hissettim.	«Mar»dan.
 B2	ayuntamiento	belediye	Belediye mahalle için bir şenlik düzenledi.	Latin Amerika'da «alcaldía».
 B2	alcalde	belediye başkanı	Belediye başkanı merkezdeki sokakları onarmayı vaat etti.	Dişili «alcaldesa».
 B2	juez	yargıç	Yargıç kararı dün öğleden sonra açıkladı.	Dişili «la jueza».
-B2	abogado	avukat	Avukatım hiçbir şey imzalamamamı tavsiye etti.	Dişili «abogada».
 B2	juicio	dava	Dava iki hafta içinde başlayacak.	Aynı zamanda «yargı».
 B2	condena	ceza (mahkûmiyet)	Ceza beş yıl hapisti.	«Condenar»dan.
 B2	testigo	tanık	Tanık garip bir şey görmediğini söyledi.	Eril ve dişilde aynıdır.
@@ -94,7 +92,7 @@ B2	financiar	finanse etmek	Banka evin alımını finanse edecek.	İtalyancadaki 
 B2	reponer	yeniden stoklamak	Stokları her hafta yenilemek gerek.	«Poner» gibi düzensiz.
 B2	abastecer	ikmal etmek	Pazar bütün bölgeyi besliyor.	Düzensiz: «abastezco».
 B2	rebasar	aşmak	Harcama bütçeyi aşacak.	Meksika'da yaygın.
-B2	amortizar	ödemek (borcu)	Krediyi ödemem on yıl sürecek.	«Amortización» itfadır.
+B2	amortizar	(borcu) ödeyip kapatmak	Krediyi kapatmam on yılımı alacak.	Bir borç (krediyi kademeli ödemek) ya da zamanla kendini amorti eden bir harcama için kullanılır.
 B2	inflar	şişirmek	Çıkmadan önce lastikleri şişirmek gerek.	İtalyancadaki gibi.
 B2	desinfectar	dezenfekte etmek	Yarayı alkolle dezenfekte etmeliyiz.	İtalyancadaki gibi.
 B2	recetar	reçete yazmak	Doktor bana bir antibiyotik yazacak.	«Receta» reçete ya da yemek tarifidir.
@@ -115,7 +113,7 @@ B2	indispensable	olmazsa olmaz	Seyahat için pasaportu yanında taşımak şartt
 B2	meticuloso	titiz	Patronum ayrıntılarda titizdir.	İtalyancadaki gibi.
 B2	imprevisible	öngörülemez	Bu bölgenin iklimi öngörülemez.	İtalyancadaki gibi.
 B2	exigente	talepkâr	Öğretmenim süreler konusunda çok talepkâr.	«Exigir»den.
-B2	mandón	buyurgan	Büyük ağabeyim herkese karşı çok buyurgan.	Dişili «mandona».
+B2	mandón	buyurgan	Büyük ağabeyim herkese karşı çok buyurgan.	Gündelik dil: herkese emir vermek isteyen kişi. Dişil biçimi «mandona».
 B2	solidario	dayanışmacı	Herkesin birbirine yardım ettiği dayanışmacı bir mahalle.	«Solidaridad»dan.
 B2	polémico	tartışmalı	Konu tartışmalı ve insanları bölüyor.	«Polémica»dan.
 B2	sagrado	kutsal	Onlar için o göl kutsal bir yer.	İbadet yerleri ve nesneleri için kullanılır.
@@ -139,7 +137,6 @@ B2	tecnología	teknoloji	Teknoloji insanların hayatını değiştiriyor.	İtaly
 B2	inteligencia	zekâ	Yapay zekâ çok hızlı ilerliyor.	«IA» kısaltmadır.
 B2	dato	veri	Her veri yayımlanmadan önce doğrulanmalı.	Çoğunlukla çoğul: «los datos».
 B2	red	ağ	Ofisin ağı bugün yavaş çalışıyor.	«Redes sociales» sosyal medyadır.
-B2	seguridad	güvenlik	Verilerin güvenliği çok önemli.	«Seguro»dan.
 B2	privacidad	gizlilik	İnternette gizliliğini koruması önemli.	İspanya'da «intimidad» da denir.
 B2	actualizar	güncellemek	Programı her ay güncellemek daha iyi.	«Actualización» güncellemedir.
 B2	bloquear	engellemek	O telefon numarasını engellemeni istiyorum.	«Bloqueo» engellemedir.
@@ -160,7 +157,6 @@ B2	vegetariano	vejetaryen	Kız kardeşim yıllardır vejetaryen.	İsim olarak da
 B2	orgánico	organik	Meyvenin organik olmasını tercih ederim.	İspanya'da «ecológico» da denir.
 B2	regional	bölgesel	Her bölgesel yemek farklı bir hikâye anlatır.	İtalyancadaki gibi.
 B2	fermentar	fermente etmek	Hamuru bütün gece fermente etmek gerekir.	«Fermento» mayadır.
-B2	maridaje	şarap-yemek eşleşmesi	Şarabın peynirle eşleşmesi mükemmel.	«Marido»dan.
 B2	paladar	damak	Bu yemek seçici bir damak için.	Küba'da küçük bir aile lokantası da demektir.
 B2	degustar	tatmak (tadım yapmak)	Konuklar beş çeşit şarap tadacak.	«Degustación» tadımdır.
 B2	bodega	şarap mahzeni; bakkal	Şarap aldığımız mahzen bu yıl kapandı.	Küba'da ve başka yerlerde bakkaldır.
@@ -211,12 +207,11 @@ B2	esculpir	heykel yontmak	Sanatçı taştan bir heykel yontacak.	«Escultura» 
 B2	pintoresco	pitoresk	Gölün kıyısında pitoresk bir köy.	İtalyancadaki gibi.
 B2	auténtico	otantik	Otantik yemekler sunan bir restoran arıyorum.	İtalyancadaki gibi.
 B2	ancestral	atalardan kalma	Bu atalardan kalma tarif ailemden geliyor.	İtalyancadaki gibi.
-B2	itinerario	güzergâh	Seyahatin güzergâhını kontrol etmeni istiyorum.	İtalyancadaki gibi.
+B2	itinerario	gezi programı	Seyahatin programına göz atmanı istiyorum.	İtalyancadaki gibi.
 B2	trayecto	yolculuk (mesafe)	Otobüs yolculuğu yaklaşık altı saat sürüyor.	«Yörünge» değil.
 B2	escala	aktarma	Uçuşun Bogotá'da bir aktarması var.	Müzikal gam da demektir.
 B2	hospedaje	konaklama	Konaklama kahvaltı ve ulaşımı kapsıyor.	Latin Amerika'da yaygın.
-B2	albergue	pansiyon (hostel)	Plajın yakınında bir hostelde kaldık.	«Hostal» da denir.
-B2	mochilero	sırt çantalı gezgin	Her sırt çantalı gezgin kendi çadırını taşır.	«Mochila»dan.
+B2	mochilero	sırt çantalı gezgin	Sırt çantalı gezgin bir pansiyonda uyuyor.	«Mochila» (sırt çantası) sözcüğünden gelir. Dişil biçimi «mochilera».
 B2	trasladarse	yer değiştirmek	Beni tayin ederlerse güneye yaşamaya geleceğim.	«Traslado» nakildir.
 B2	desplazarse	ulaşmak (dolaşmak)	Şehirde dolaşmak için metroyu kullanırdım.	«Desplazamiento» yer değiştirmedir.
 B2	explorar	keşif yapmak	Dağdaki köyleri keşfetmek isterdim.	İtalyancadaki gibi.
@@ -224,7 +219,6 @@ B2	cumbre	zirve	Şafaktan önce zirveye vardık.	Dişil: «la cumbre».
 B2	orilla	kenar (kıyı şeridi)	Gün batımında nehrin kıyısında yürüdük.	Nehir ve deniz için.
 B2	oleaje	dalgalanma (deniz)	Dalgalanma o kadar güçlüydü ki yüzmedik.	Çalkantılı deniz.
 B2	muelle	iskele	İskele küçük teknelerle dolu.	Yay (yaylı) da demektir.
-B2	puerto	liman	Liman şehrin kalbidir.	«Puerto Rico» = zengin liman.
 B2	corriente	akıntı	Kayanın yanında tehlikeli bir akıntı vardı.	Sıfat olarak da kullanılır.
 B2	brújula	pusula	Pusula olmasaydı ormanda kaybolurduk.	Sondan üçüncü hecesi vurgulu sözcük.
 B2	brisa	meltem	Denizden hafif bir meltem geliyordu.	İtalyancadaki gibi.
@@ -235,7 +229,7 @@ B2	barrio	mahalle	Benim mahallemde çok eski bir pazar var.	Latin Amerika'da sı
 B2	albañil	duvar ustası	Duvar ustası duvarı bu sabah bitirdi.	Dişili «albañila».
 B2	fontanero	tesisatçı	Sızıntı olduğu için tesisatçıyı çağırdım.	Latin Amerika'da «plomero» da denir.
 B2	fuga	sızıntı	Lavabonun altında bir su sızıntısı var.	Kaçış da demektir.
-B2	grifo	musluk	Mutfak musluğu bütün gece damlıyor.	Latin Amerika'da «llave» da denir.
+B2	grifo	musluk	Mutfak musluğu bütün gece damlıyor.	Birçok Latin Amerika ülkesinde «llave» denir.
 B2	bombilla	ampul	Koridordaki ampul dün gece yandı.	Arjantin'de mate kamışıdır.
 B2	enchufe	priz	Yatağın yanında bir prize ihtiyacım var.	«Enchufar»dan.
 B2	tubería	boru tesisatı	Boru tesisatı soğuktan patladı.	«Tubo»dan.
@@ -285,3 +279,12 @@ B2	mercancía	mal	Mal yağmur yüzünden hasarlı geldi.	«Mercado»dan.
 B2	almacén	depo	Depoda ihtiyacımız olan her şey var.	Arjantin'de bakkal da demektir.
 B2	proveedor	tedarikçi	Tedarikçi malı pazartesi teslim edecek.	«Proveer»den.
 B2	mayorista	toptancı	Her sabah toptancıdan meyve alıyoruz.	Karşıtı: «minorista».
+B2	imprescindible	vazgeçilmez	Fişi saklamak şart.	Çoğunlukla «ser» ile.
+B2	competencia	yetkinlik; rekabet	Şirketler arasındaki rekabet tüketicilerin işine yarar.	İki anlamı var: beceri ve rekabet.
+B2	asombroso	şaşırtıcı, hayret verici	Koşucunun hızı orada bulunan herkesi şaşırttı.	«Asombro» (hayret) sözcüğünden gelir; fiili «asombrar»dır.
+B2	estancia	kalış, konaklama	Yurt dışında kalışı dünya görüşünü tamamen değiştirdi.	Río de la Plata bölgesinde ve Şili'de ayrıca büyük bir sığır çiftliğidir.
+B2	disponer	sahip olmak (elinde bulundurmak)	Şirket, fabrikayı büyütmek için yeterli kaynağa sahip.	«poner» gibi düzensiz.
+B2	desviar	yönünü değiştirmek, sapmak	Bir dağ yoluna sapmak zorunda kaldılar.	«Desvío» yön değiştirmedir; «desviarse» rotadan sapmak demektir.
+B2	sembrar	ekmek (tohum)	Buğday, yağmurlar gelmeden önce ekilmelidir.	e→ie değişimi gösterir: «siembro».
+B2	cuarentena	karantina	Karantina sırasında kimse izinsiz evden çıkamıyordu.	«Cuarenta» (kırk) sözcüğünden gelir: başlangıçta gemiler için kırk günlük tecrit.
+B2	cabalgar	ata binmek (at sürmek)	Güneyin ovalarında şafakta at sürmeyi âdet edinmişlerdi.	«caballo»dan.

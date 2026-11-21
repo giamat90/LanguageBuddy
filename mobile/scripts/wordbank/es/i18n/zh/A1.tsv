@@ -32,7 +32,7 @@ A1	dulce	甜的	我的咖啡总是甜的。	«Dulce»既是形容词也是名词
 A1	caliente	热的	咖啡很烫。	说人觉得热用«tener calor»，不用«estar caliente»，后者意思完全不同。
 A1	frío	冷的	啤酒很冰。	说天气用«hace frío»；说人觉得冷用«tener frío»。
 A1	sabroso	美味的	这道菜非常美味。	主要在拉丁美洲使用；西班牙更喜欢说«rico»。
-A1	sal	盐	还缺一点盐。	说«la sal»（阴性）；在一些乡村地区会误说成«el sal»。
+A1	sal	盐	盐有点不够。	«Sal»是阴性词：«la sal»。它也是«salir»的命令式：«¡Sal de aquí!»。
 A1	azúcar	糖	我咖啡里不要糖。	«Azúcar»可以是阳性或阴性，但今天几乎总是说«el azúcar»。
 A1	casa	房子、家	我家离公园很近。	«En casa»意为“在家”：«estoy en casa»，«voy a casa»。
 A1	cuarto	房间	我的房间很小，但很舒适。	在拉丁美洲«cuarto»指房间；在西班牙更常用«habitación»。
@@ -43,10 +43,10 @@ A1	ventana	窗户	窗户朝着花园。	«Ventana»来自«viento»（风）：�
 A1	cama	床	我的床非常舒服。	«Cama»是床；«cama matrimonial»是双人床。
 A1	silla	椅子	我需要一把更高的椅子。	«Silla»是椅子；«sillón»是扶手椅。
 A1	sofá	沙发	沙发又新又大。	重音在最后一个音节：«sofá»，复数«sofás»。
-A1	llave	钥匙	家里的钥匙在哪儿？	«Llave»在一些国家也指水龙头：«abrir la llave»。
+A1	llave	钥匙	家里的钥匙在哪儿？	«Llave»在拉丁美洲也指水龙头：«abrir la llave»；在西班牙则说«grifo»。
 A1	jardín	花园	我爷爷照看花园。	«Jardín de infantes»在阿根廷指幼儿园。
 A1	familia	家庭	我的家人住在利马。	名词是单数：«mi familia vive»，不是«viven»，即使人很多。
-A1	madre	母亲	我妈妈做饭很好吃。	拉丁美洲也说«mamá»；«madre»更正式。
+A1	madre	母亲	我妈妈做饭很好吃。	«Mamá»是亲昵的说法，各地通用；«madre»更正式。
 A1	padre	父亲	我父亲在银行工作。	复数«los padres»指父母，不只是父亲。
 A1	hermano	兄弟	我弟弟十二岁。	«Hermanos»可以指兄弟姐妹合在一起。
 A1	hijo	儿子	她的儿子学医。	复数«los hijos»指孩子们，包括男孩和女孩。
@@ -58,7 +58,7 @@ A1	dormir	睡觉	我每天需要睡八个小时。	现在时不规则：«duermo
 A1	lavar	洗	我今天得洗衣服。	«Lavarse»是洗自己：«me lavo las manos»。
 A1	grande	大的	我家不是很大。	在单数名词前变成«gran»：«un gran día»。
 A1	pequeño	小的	我住在一个小镇上。	在拉丁美洲，常用«chico»代替«pequeño»。
-A1	nuevo	新的	我们有一张新沙发。	位置不同：«un carro nuevo»（全新的），但«un nuevo carro»（另一辆）。
+A1	nuevo	新的	我们有一张新沙发。	通常放在名词之后：«un sofá nuevo»。要性数配合：«nueva»、«nuevos»、«nuevas»。
 A1	viejo	旧的、老的	这房子很旧。	用于人时«viejo»可能冒犯：«mayor»更客气。
 A1	limpio	干净的	厨房很干净。	«Estar limpio»是此刻干净；«ser limpio»形容爱干净的人。
 A1	cómodo	舒适的	这把扶手椅很舒服。	«Cómodo»可用于物和人：«estoy cómodo»。
@@ -80,7 +80,7 @@ A1	billete	票	我买一张单程票。	拉丁美洲通常说«boleto»或«pasa
 A1	hotel	酒店	酒店有游泳池。	«H»不发音：读作«otel»。
 A1	mapa	地图	我需要一张城市地图。	以«-a»结尾但是阳性，像«día»和«problema»一样。
 A1	maleta	行李箱	我的行李箱又蓝又大。	«Hacer la maleta»是收拾行李。
-A1	playa	海滩	我们星期天去海滩。	«Playa»是海滩，不是大海：大海是«el mar»。
+A1	playa	海滩	我们星期天去海滩。	«Playa»指海滩，不是大海：大海是«el mar»（阳性）。海岸是«la costa»。
 A1	viajar	旅行	我喜欢和家人一起旅行。	«Viajar»和«viaje»都用«j»书写。
 A1	llegar	到达	我总是很早到车站。	«g»在«e»前变成«gu»：«llegué»。
 A1	salir	出去、出发	火车八点出发。	假朋友：«salir»是出去或出发，不是上去（那是«subir»）。
@@ -97,11 +97,11 @@ A1	allí	那里	我哥哥从2020年起就住在那里。	还有«allá»，更�
 A1	derecha	右边	银行在右边。	说«a la derecha»和«a la izquierda»。
 A1	izquierda	左边	在这里向左转。	«Gira»、«dobla»或«voltea»：转弯有三个动词，视国家而定。
 A1	estación	车站	车站就在附近。	也指“季节”：«las cuatro estaciones»。
-A1	aeropuerto	机场	机场非常现代。	机场常有缩写：墨西哥城的«AIFA»。
+A1	aeropuerto	机场	这个机场非常现代化。	不要把«puerto»（港口）和«puerta»（门）混淆。机场里的登机口是«la puerta de embarque»。
 A1	rápido	快的	火车非常快。	用作副词时形式不变：«habla rápido»。
 A1	lento	慢的	公共汽车太慢了。	与«rápido»相反；«despacio»是副词“慢慢地”。
 A1	barato	便宜的	这家酒店非常便宜。	反义词：«caro»。«Salir barato»意为花费不多。
-A1	trabajo	工作	我的工作八点开始。	«Trabajo»既指一般的工作也指一份职业；«empleo»是职位。
+A1	trabajo	工作（劳动）	我的工作八点开始。	«Trabajo»指工作或职业：«buscar trabajo»。动词是«trabajar»。«Empleo»是较正式的就业用语。
 A1	oficina	办公室	我的办公室在市中心。	«Oficina»是作为场所的办公室；«despacho»是经理的房间。
 A1	jefe	老板、上司	我的老板会说三种语言。	女性说«la jefa»。
 A1	empresa	公司	我的公司在网上卖衣服。	«Empresa»是企业；«compañía»更正式或更国际化。
@@ -133,7 +133,7 @@ A1	estudiante	学生	我姐姐是医学院的学生。	阳性和阴性相同：�
 A1	doctor	博士、医生	我叔叔是物理学博士。	阴性：«la doctora»；«médico»是医生这一职业。
 A1	cliente	客户	客户想和你谈谈。	阳性和阴性相同：«el/la cliente»。
 A1	tienda	商店	商店九点开门。	«Tienda»是商店；«tienda de campaña»是露营帐篷。
-A1	mercado	市场	我在市场买蔬菜。	在拉丁美洲，当地市场非常热闹：«el mercado central»。
+A1	mercado	市场	我在市场买蔬菜。	«El mercado»是市场；超市是«el supermercado»。还有«mercado laboral»（劳动力市场）。
 A1	precio	价格	这件衬衫的价格很低。	说«un precio bajo/alto»，而不是小/大。
 A1	ropa	衣服	我想买新衣服。	«Ropa»是单数集合名词：«la ropa está limpia»。
 A1	camisa	衬衫	这件衬衫是棉的。	它不是更随意的«camiseta»（T恤）。
@@ -148,7 +148,6 @@ A1	vender	卖	我叔叔在市场卖鞋。	«Vendedor»是卖家，«venta»是�
 A1	costar	值（多少钱）	这件衬衫大概多少钱？	词干变化：«cuesta»（o→ue）。
 A1	llevar	带；穿	今天我穿一件白衬衫。	«Llevar»既指随身带也指穿衣服。
 A1	probar	试；尝	我要试穿这双鞋。	词干变化：«pruebo»（o→ue）。
-A1	elegir	选择	选礼物很难。	«Escoger»是非常常见的同义词。
 A1	caro	贵的	这件大衣太贵了。	阴性«cara»；«salir caro»意为花费很大。
 A1	bonito	漂亮的	你的衬衫很漂亮。	«Bonito»是口语，在拉丁美洲很普遍；«bello»更正式。
 A1	blanco	白色的	我想要一件白衬衫。	颜色放在名词之后：«una camisa blanca»。
@@ -175,13 +174,12 @@ A1	farmacia	药店	药店十点关门。	在西班牙，药店有发光的绿色
 A1	dolor	疼痛	我背疼。	头疼说«tener dolor de cabeza»。
 A1	fiebre	发烧	我儿子从昨天起就发烧。	说«tener fiebre»。
 A1	sueño	睡意；梦	今晚我很困。	既指睡意也指梦：«tener sueño»，«un sueño bonito»。
-A1	sentir	感觉	今天我想感受阳光。	«Lo siento»意为“对不起”。
+A1	sentir	感觉到	我今天想感受一下阳光。	«Lo siento»的意思是«对不起»。表达感受时用«sentirse»：«me siento bien»。
 A1	doler	疼	明天我的背会疼。	与间接宾语连用：«me duele»，«te duelen los pies»。
 A1	descansar	休息	今天我需要休息一下。	«Descanso»是休息或间歇。
 A1	cuidar	照顾、爱护	我应该更好地照顾自己的健康。	«¡Cuídate!»是告别语：“保重”。
 A1	tomar	拿；喝	我要吃一片药。	在拉丁美洲«tomar»也指“喝”。
 A1	mejorar	改善	今年我想改善我的健康。	«Mejor»既是“更好地”（副词）又是“更好的”（形容词）。
-A1	sano	健康的	我爷爷是个健康的人。	说精神正常用«cuerdo»；«sano»主要指身体。
 A1	enfermo	生病的	我儿子今天生病了。	«Estar enfermo»是此刻生病；«un enfermo»是病人。
 A1	fuerte	强壮的	我奶奶非常强壮。	也用于声音：«un ruido fuerte»。
 A1	débil	虚弱的	发烧后我觉得虚弱。	与«fuerte»相反。
@@ -224,7 +222,7 @@ A1	ayer	昨天	昨天我们看了一部很好的电影。	与过去时连用：�
 A1	tarde	下午	下午我去公园。	«Tarde»也是副词“晚”：«llegas tarde»。
 A1	siempre	总是	我总是在早上听音乐。	反义词：«nunca»。
 A1	nunca	从不	我从不在晚上喝咖啡。	«Nunca»放在动词后时需要«no»：«no bebo nunca café»。
-A1	hola	你好	你好，我叫安娜。	«H»不发音。«Hola»适用于任何时间和任何场合。
+A1	hola	你好	你好，我西班牙语说得不太好。	«h»不发音。«Hola»在任何时间、任何场合都能用。
 A1	adiós	再见	再见，明天见。	不像意大利语«addio»那样决绝：它是普通的告别。
 A1	gracias	谢谢	非常感谢你的帮助。	回答说«de nada»或«con gusto»（拉丁美洲）。
 A1	por favor	请	请给我一杯咖啡，再结账。	几乎每次请求别人时都会用。
@@ -238,7 +236,7 @@ A1	vida	生活、生命	生活非常美好。	«¡Es la vida!»是常见的感�
 A1	tiempo	时间；天气	今天我没有多少时间。	既指时间也指天气：«hace buen tiempo»。
 A1	mundo	世界	我想了解整个世界。	«Todo el mundo»意为“每个人”。
 A1	hombre	男人	那个男人是我叔叔。	«H»不发音。
-A1	mujer	女人	我妈妈是一位坚强的女人。	«Mujer»也指“妻子”。
+A1	mujer	女人；妻子	我妈妈是一位坚强的女性。	它也可以指«妻子»：«mi mujer»。较正式的说法是«esposa»。
 A1	niño	男孩、孩子	男孩在街上玩。	阴性«niña»。«Ñ»很重要。
 A1	ser	是（身份）	我是学生，想当医生。	«Ser»用于身份、来源、职业；«estar»用于状态和位置。
 A1	estar	在、处于（状态、位置）	我现在在家。	用于位置和状态：«estoy en casa»，«estoy cansado»。
@@ -258,7 +256,7 @@ A1	ellos	他们	他们在一间办公室工作。	阴性：«ellas»。在拉丁
 A1	este	这个	这本书非常有趣。	«Este»是指示词“这个”。
 A1	y	和	我妈妈和我爸爸住在这里。	在«i-»前变成«e»：«padre e hijo»。
 A1	pero	但是	我想去，但是不能。	«Pero»（但是）和«perro»（狗）区别在于«rr»。
-A1	porque	因为	我不出去，因为我今天累了。	«Porque»是回答；«por qué»（两个词）是提问。
+A1	porque	因为	我不出去，因为今天我很累。	«Porque»是回答；«por qué»（分写为两个词）是提问。
 A1	con	和、用	我和我的狗去公园。	«Conmigo»和«contigo»是特殊形式。
 A1	sin	没有	我喝不加糖的咖啡。	与«con»相反。
 A1	en	在……里	我住在一个大城市。	非常常用的介词：«en casa»，«en el mar»。
@@ -270,7 +268,7 @@ A1	decir	说	你能再说一遍你的名字吗？	不规则：«digo, dices, dic
 A1	dar	给	我要给我妈妈一件礼物。	只有第一人称不规则：«doy»。
 A1	poner	放	我现在去摆桌子。	«Poner la mesa»是摆餐桌；不规则：«pongo»。
 A1	usar	使用	我现在需要用电话。	«Utilizar»更正式。
-A1	visitar	拜访	我想很快去看望我的祖父母。	对人：«visitar a alguien»；对地方不加«a»。
+A1	visitar	拜访；参观	我想很快去看望我的祖父母。	说«visitar a alguien»（去看望某人）和«visitar un lugar»（参观某地）。
 A1	entrar	进入	你可以从正门进来。	在拉丁美洲«entrar a»很常见；在西班牙说«entrar en»。
 A1	volver	回来	我要早点回家。	词干变化：«vuelvo»（o→ue）；«volver a»加动词原形意为“再做”。
 A1	subir	上去	你得上到二楼。	反义词：«bajar»。不要与«salir»混淆。
@@ -278,7 +276,6 @@ A1	bajar	下去	我在下一站下车。	«Bajar del autobús»意为下公共�
 A1	tocar	碰；演奏	我弟弟会弹吉他。	一个动词既指触碰也指演奏乐器。
 A1	practicar	练习、从事	我喜欢星期六做运动。	«Practicar deporte»意为做运动。
 A1	invitar	邀请	我想邀请朋友们来吃晚饭。	«Invitar»也可以表示请客：«yo invito»。
-A1	recibir	收到	明天我会收到一个包裹。	«Recibir»是收到。
 A1	decidir	决定	我们今天得决定价格。	«Decidirse»是下定决心。
 A1	olvidar	忘记	我不想再忘记我的钥匙。	«Olvidarse de»或不带介词的«olvidar»：«olvidé la llave»。
 A1	compartir	分享、合租	我喜欢和朋友们合住一套房子。	«Compartir»是分享。
@@ -302,3 +299,4 @@ A1	de	的、来自	我来自一个小城市。	«De»表示来源和所属：«e
 A1	a	到、去	我坐公共汽车去办公室。	直接宾语是人时加在前面：«veo a mi madre»。
 A1	o	或者	你现在要茶还是咖啡？	在«o-»前变成«u»：«siete u ocho»。
 A1	cuando	当……时	我到的时候，就准备晚饭。	带重音的«¿cuándo?»是疑问词。
+A1	cumpleaños	生日	我的生日在十二月。	复数不变：«dos cumpleaños»。

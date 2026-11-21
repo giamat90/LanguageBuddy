@@ -1,6 +1,6 @@
 # TASK-060 — Spanish word bank: fix what the native-agent audit found
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-058 (done). Independent of TASK-054 (human reader), but run before it so the reader sees corrected rows.

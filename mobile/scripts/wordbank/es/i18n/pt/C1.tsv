@@ -1,5 +1,4 @@
 C1	trayectoria	trajetória	Sua trajetória profissional demonstra uma enorme constância.	Também «trayectoria vital».
-C1	competencia	competência; concorrência	A concorrência entre as empresas favorece os consumidores.	Dois sentidos: habilidade e rivalidade.
 C1	rendimiento	rendimento	O rendimento da equipe melhorou notavelmente após a reorganização.	De «rendir».
 C1	remuneración	remuneração	A remuneração inclui um salário fixo e bônus anuais.	Formal para «sueldo».
 C1	plantear	levantar (uma questão)	Gostaria de levantar uma questão que preocupa vários colegas.	«Plantear un problema».
@@ -49,7 +48,7 @@ C1	destartalado	decrépito	Alugamos uma casa decrépita, mas muito barata, perto
 C1	aforo	lotação	A lotação do estádio foi reduzida à metade por segurança.	De «aforar».
 C1	dorsal	número de peito	Retirou seu número de peito uma hora antes da largada da maratona.	Também um adjetivo.
 C1	contienda	contenda	A contenda esportiva terminou sem vencedores claros após três horas.	Registro culto.
-C1	liza	liça (arena)	Várias equipes entraram na liça para conquistar o título continental.	«Entrar en liza».
+C1	liza	liça, arena	Várias equipes entraram na liça para conquistar o título continental.	Usada quase só em «entrar en liza» (entrar na disputa).
 C1	fichaje	contratação (de jogador)	A contratação do atacante custou uma cifra recorde ao clube.	Termo do futebol.
 C1	fichar	contratar (jogador)	O clube pensa em contratar um goleiro jovem e muito talentoso.	Também «bater o ponto».
 C1	remontar	virar (o placar)	Se tivéssemos jogado com mais calma, poderíamos ter virado o jogo.	Condicional irreal do passado.
@@ -57,7 +56,6 @@ C1	claudicar	claudicar (ceder)	A equipe não quis ceder apesar da vantagem do ri
 C1	vitorear	aclamar	A multidão começou a aclamar o ciclista que cruzou a linha de chegada.	«Vítor» é uma aclamação.
 C1	cotizado	cobiçado	É um jogador muito cobiçado no mercado europeu.	De «cotizar».
 C1	infalible	infalível	Ninguém possui uma técnica infalível para ganhar sempre no xadrez.	Como em italiano.
-C1	asombroso	assombroso	A velocidade do corredor foi assombrosa para todos os presentes.	De «asombro».
 C1	cuota	mensalidade (cota)	A mensalidade da academia inclui acesso à piscina.	Como em italiano.
 C1	anticipo	adiantamento	Pediram um adiantamento de trinta por cento para iniciar a obra.	De «anticipar».
 C1	recargo	acréscimo (multa)	Aplicarão um acréscimo se o pagamento chegar fora do prazo.	De «recargar».
@@ -111,7 +109,6 @@ C1	acuciante	premente	A falta de médicos é um problema premente no campo.	De �
 C1	insoportable	insuportável	O calor tinha se tornado insuportável àquela hora.	Como em italiano.
 C1	cuestionar	questionar	Ninguém ousou questionar a decisão da diretora.	«Cuestión» é a questão.
 C1	reconocer	reconhecer	É difícil reconhecer os próprios erros diante dos outros.	Irregular: «reconozco».
-C1	estancia	estadia	Sua estadia no exterior mudou completamente sua visão de mundo.	Na Argentina, uma fazenda.
 C1	travesía	travessia	A travessia do deserto durou nove dias exaustivos.	De «atravesar».
 C1	periplo	périplo	Seu périplo pela América Latina inspirou um livro inteiro.	Como em italiano.
 C1	escollo	obstáculo	O maior obstáculo da viagem foi conseguir as licenças.	Também «recife».
@@ -125,7 +122,7 @@ C1	sinuoso	sinuoso	A estrada sinuosa margeia o lago entre montanhas.	Como em ita
 C1	menester	necessidade (tarefa)	É necessário revisar as contas antes de fechar o negócio.	«Ser menester» = ser necessário.
 C1	cotización	cotação	A cotação do dólar subiu de novo esta manhã.	Também «contribuição».
 C1	rebaja	abatimento	Esperamos um desconto considerável nos preços de inverno.	Plural: a liquidação.
-C1	detallista	varejista	O varejista prefere comprar direto do produtor local.	Significa «minorista».
+C1	detallista	detalhista; varejista	Minha irmã é muito detalhista e nunca esquece um aniversário.	Como adjetivo: atento aos detalhes, atencioso; como substantivo: varejista (oposto de «mayorista»).
 C1	arancel	tarifa alfandegária	O governo reduziu a tarifa sobre os produtos importados.	Também «imposto de importação».
 C1	dilapidar	dilapidar	Herdou uma fortuna e conseguiu dilapidá-la em poucos anos.	Como em italiano.
 C1	sufragar	custear	A empresa se compromete a custear as despesas da viagem.	Também «votar».
@@ -135,7 +132,6 @@ C1	rentabilizar	rentabilizar	Querem rentabilizar o investimento em menos de cinc
 C1	solvente	solvente	O empréstimo só será concedido a clientes com situação solvente.	Como em italiano.
 C1	exorbitante	exorbitante	Cobram um preço exorbitante por um quarto tão pequeno.	Como em italiano.
 C1	moroso	inadimplente	O banco cobra a dívida dos clientes inadimplentes.	Como em italiano.
-C1	medianería	parede-meia	A parede-meia entre as duas casas precisa de um conserto urgente.	Termo imobiliário.
 C1	umbral	soleira	Parou na soleira da casa sem se atrever a entrar.	Como «soglia».
 C1	cimiento	alicerce	O alicerce da casa cedeu com as chuvas.	Geralmente no plural.
 C1	tejado	telhado	O telhado precisa de conserto antes que cheguem as chuvas.	De «teja».
@@ -200,7 +196,7 @@ C1	sosegar	acalmar	A música ajudou a acalmar os ânimos dos pacientes.	Muda e�
 C1	ansiolítico	ansiolítico	Receitaram-lhe um ansiolítico para dormir melhor durante a crise.	Como em italiano.
 C1	robusto	robusto	Sua saúde robusta lhe permitiu sobreviver à longa doença.	Como em italiano.
 C1	embarcación	embarcação	A embarcação resistiu à tempestade graças ao casco reforçado.	De «embarcar».
-C1	vereda	trilha	Uma trilha estreita leva até a cabana na floresta.	Na Colômbia também uma zona rural.
+C1	vereda	trilha; calçada (Cone Sul)	Uma trilha estreita leva até a cabana da floresta.	No Cone Sul e no Peru, uma calçada; na Colômbia, uma subdivisão rural.
 C1	cordillera	cordilheira	A cordilheira dos Andes divide o continente de norte a sul.	Também «sierra».
 C1	altiplano	altiplano	O altiplano boliviano fica a mais de três mil metros.	Palavra andina.
 C1	arrecife	recife	O recife abriga milhares de espécies de peixes coloridos.	Do árabe.
@@ -212,7 +208,6 @@ C1	finiquito	acerto rescisório	Recebeu o acerto rescisório junto com uma carta
 C1	prórroga	prorrogação	Solicitamos uma prorrogação do prazo para entregar a documentação.	Palavra proparoxítona.
 C1	cláusula	cláusula	A cláusula penal protege ambas as partes em caso de descumprimento.	Palavra proparoxítona.
 C1	cotizante	contribuinte	Cada contribuinte receberá uma notificação com o novo cálculo.	Igual no masculino e no feminino.
-C1	disponer	dispor de	A empresa dispõe de recursos suficientes para ampliar a fábrica.	Irregular como «poner».
 C1	aducir	alegar	O acusado quis alegar motivos de saúde para justificar sua ausência.	Irregular como «conducir».
 C1	esgrimir	brandir (um argumento)	A oposição tentou brandir números contraditórios no debate.	Também «praticar esgrima».
 C1	desistir	desistir	Decidiu desistir da ação após uma longa negociação.	Seguido de «de».
@@ -242,17 +237,15 @@ C1	captar	captar (atrair)	A loja busca captar um público mais jovem e exigente.
 C1	amortiguar	amortecer	As liquidações conseguiram amortecer o impacto da crise no comércio.	Também para choques.
 C1	cotejar	cotejar	Recomenda-se cotejar os preços antes de fazer uma compra grande.	Verbo formal.
 C1	enajenar	alienar	A família teve que alienar a fazenda para quitar as dívidas.	Termo jurídico.
-C1	atesorar	entesourar	Passou anos entesourando moedas antigas de todos os continentes.	De «tesoro».
-C1	fugaz	fugaz	A moda fugaz faz a roupa sair de moda rapidamente.	Plural «fugaces».
+C1	atesorar	acumular; guardar com carinho	Dedicou anos a acumular moedas antigas do mundo inteiro.	Vem de «tesoro»; também guardar com carinho: «atesorar recuerdos».
+C1	fugaz	fugaz, efêmero	Teve uma fama efêmera depois de ganhar o concurso.	«Estrella fugaz» é estrela cadente; plural «fugaces».
 C1	suntuoso	suntuoso	Deram-lhe de presente um casaco suntuoso de pura lã.	Como em italiano.
 C1	módico	módico	Oferecem entrada a preço módico para estudantes.	Como em italiano.
 C1	despilfarro	esbanjamento	O esbanjamento de recursos públicos indignou os cidadãos.	Sinônimo de «derroche».
 C1	balneario	estância termal	A estância termal oferece águas termais e tratamentos de relaxamento.	No Chile e no Uruguai, um balneário à beira-mar.
 C1	mirador	mirante	Subimos ao mirante para contemplar o vale antes do pôr do sol.	De «mirar».
-C1	ruta	rota	A rota atravessa povoados pitorescos e vales verdes.	Também «caminho».
 C1	parada	ponto (parada)	O ponto de ônibus fica a poucos metros do mercado.	Também «desfile».
 C1	atascarse	atolar-se (engarrafar)	O trânsito costuma engarrafar na rodovia às sextas à tarde.	«Atasco» é o engarrafamento.
-C1	desviar	desviar	Tiveram que desviar por uma estrada de montanha.	«Desvío» é o desvio.
 C1	escalar	escalar	Se eu pudesse escalar aquele cume, me sentiria o homem mais feliz.	Condicional irreal.
 C1	orientarse	orientar-se	Sem mapa, foi difícil se orientar nas ruas do centro histórico.	«Orientación» é a orientação.
 C1	pernoctar	pernoitar	Decidimos pernoitar num refúgio antes da subida final.	Como em italiano.
@@ -261,11 +254,9 @@ C1	abrupto	abrupto	A descida abrupta exigiu que usássemos cordas de segurança.
 C1	fronterizo	fronteiriço	Viviam num povoado fronteiriço entre dois países vizinhos.	De «frontera».
 C1	descomunal	descomunal	Uma onda descomunal atingiu o cais durante a tempestade.	Como «smisurato».
 C1	escueto	conciso	Sua mensagem foi concisa, mas deixou clara sua posição.	Registro culto.
-C1	condumio	farnel	Levamos um farnel simples de pão, queijo e fruta para a excursão.	Palavra pouco comum.
 C1	exquisitez	requinte (iguaria)	O requinte daquela sobremesa ficou gravado na minha memória.	De «exquisito».
 C1	gula	gula	A gula é um dos pecados capitais segundo a tradição.	Como em italiano.
 C1	cosechar	colher	Os camponeses esperam colher o milho antes que cheguem as geadas.	«Cosecha» é a colheita.
-C1	sembrar	semear	É preciso semear o feijão quando começa a estação das chuvas.	Muda e→ie.
 C1	moler	moer	Minha avó costumava moer o milho à mão antes de preparar as tortilhas.	Muda o→ue.
 C1	amasijo	mixórdia	A mixórdia de ingredientes não parecia um prato comestível.	Também «mistura».
 C1	empachar	empanturrar	Comer tantos doces pode empanturrar até os mais gulosos.	«Empacho» é a indigestão.
@@ -273,7 +264,6 @@ C1	apetitoso	apetitoso	O aroma apetitoso da sopa encheu a casa toda.	De «apetit
 C1	indigesto	indigesto	Foi uma refeição tão indigesta que ninguém conseguiu dormir bem.	Como em italiano.
 C1	estrago	estrago	O estrago da epidemia se notou em cada família do povoado.	Geralmente no plural.
 C1	brote	surto	Um surto de sarampo obrigou a fechar várias escolas da cidade.	Também «broto».
-C1	cuarentena	quarentena	A quarentena durou quarenta dias, como o nome indica.	De «cuarenta».
 C1	inmunidad	imunidade	A imunidade coletiva depende da porcentagem de pessoas vacinadas.	Como em italiano.
 C1	paliativo	paliativo	Este xarope é um simples paliativo, não cura a doença.	Como em italiano.
 C1	intoxicar	intoxicar	Um alimento estragado pôde intoxicar vários convidados.	Como em italiano.
@@ -286,3 +276,12 @@ C1	mecer	balançar (berço)	A mãe começou a embalar o berço ao ritmo de uma c
 C1	tararear	cantarolar	Costumava cantarolar uma melodia enquanto regava as plantas do pátio.	Onomatopeico.
 C1	silbar	assobiar	O público começou a assobiar ao ver que o artista chegava tarde.	Também para desaprovar.
 C1	trepar	trepar (subir)	As crianças sabem trepar nas árvores mais altas do parque.	Também para plantas trepadeiras.
+C1	maridaje	harmonização (comida e vinho)	A harmonização do vinho com o queijo é perfeita.	Vem de «marido»: uma união bem-sucedida de comida e vinho.
+C1	cónyuge	cônjuge	Cada cônjuge deve assinar a escritura para poder vender a casa.	Igual no masculino e no feminino.
+C1	rancio	rançoso; (vinho) envelhecido e fortificado	O vinho rancio envelhece em barricas durante muitos anos.	«Vino rancio» é um vinho fortificado envelhecido; «de rancio abolengo» = de antiga linhagem.
+C1	sublime	sublime	A interpretação da soprano foi sublime e comovente.	Como em italiano.
+C1	copioso	copioso	Depois do jantar copioso, ninguém quis sair da mesa.	Como em italiano.
+C1	cautivador	cativante	O tom cativante de sua voz encheu o teatro de silêncio.	De «cautivar».
+C1	hogaza	pão grande rústico	Compraram um pão grande recém-assado na padaria do povoado.	Um pão redondo, grande e rústico; geralmente «una hogaza de pan».
+C1	rehabilitar	reformar; reabilitar	Querem reformar o velho edifício do centro histórico.	Também se usa para pessoas: «rehabilitar a un paciente».
+C1	sobremesa	conversa à mesa após a refeição	A conversa à mesa depois do almoço se estendeu até o fim da tarde.	Uma palavra tipicamente espanhola: o tempo passado conversando à mesa depois de uma refeição.

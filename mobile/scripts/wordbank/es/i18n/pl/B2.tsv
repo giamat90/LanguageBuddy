@@ -17,7 +17,7 @@ B2	exitoso	udany	To był udany projekt dla całej firmy.	Bardzo częste w Ameryc
 B2	eficaz	skuteczny	Szukamy skuteczniejszej metody pracy.	Liczba mnoga «eficaces».
 B2	eficiente	wydajny	Mój zespół jest bardzo wydajny w dotrzymywaniu terminów.	«Eficaz» działa; «eficiente» dobrze wykorzystuje zasoby.
 B2	guiso	potrawka	Potrawka mojej babci gotowała się godzinami.	Typowe danie latynoamerykańskich domów.
-B2	caldo	rosół	Rosół z kurczaka jest idealny przy grypie.	Także przymiotnik „gorący”.
+B2	caldo	rosół, bulion	Rosół z kurczaka jest idealny na grypę.	To nie włoskie «caldo»: gorący to «caliente», upał to «calor». «Caldo» to bulion.
 B2	sazonado	przyprawiony	Ryba przyprawiona cytryną wychodzi pyszna.	Od «sazonar».
 B2	amasar	wyrabiać (ciasto)	Mama wyrabia chleb w każdą sobotę.	«Masa» to ciasto.
 B2	picar	siekać	Posiekaj cebulę drobno, proszę.	Także „kłuć, żądlić”.
@@ -26,14 +26,13 @@ B2	levadura	drożdże	Dodaje się drożdże, żeby ciasto wyrosło.	Od «levar»
 B2	brindar	wznosić toast	Chcę wznieść toast za zdrowie wszystkich.	«Brindis» to toast.
 B2	embriagarse	upijać się	Lepiej nie upijać się na rodzinnych przyjęciach.	Bardziej formalne niż «emborracharse».
 B2	atravesar	przechodzić przez	Żeby dotrzeć, trzeba przejść przez stary most.	Zmienia się e→ie: «atravieso».
-B2	carretera	szosa	Szosa była zamknięta z powodu śniegu.	«Carretera» to droga poza miastem.
 B2	averiarse	psuć się (o pojeździe)	Samochód zepsuł się pośrodku pustyni.	«Avería» to awaria.
 B2	remolcar	holować	Musieli odholować samochód do warsztatu.	«Remolque» to przyczepa.
 B2	neumático	opona	Na szosie przebiła się opona.	W Meksyku «llanta».
 B2	llanta	opona (koło)	Zmieniłem oponę, zanim zrobiło się ciemno.	W Hiszpanii «neumático».
 B2	envase	opakowanie	To opakowanie łatwo poddać recyklingowi.	Od «envasar».
 B2	caducar	tracić ważność	To mleko traci ważność jutro, trzeba je wypić dziś.	«Caducidad» to termin ważności.
-B2	saldo	saldo	Sprawdziłem saldo konta w telefonie.	W Ameryce Łacińskiej także środki na telefonie.
+B2	saldo	saldo	Sprawdziłem saldo konta w aplikacji.	Także środki na koncie telefonu («recargar saldo»). Wyprzedaże to «rebajas».
 B2	cheque	czek	Zapłaciłem czynsz czekiem.	Dziś rzadko używany.
 B2	cotizar	odprowadzać składki	Muszę odprowadzać składki dwadzieścia lat, by przejść na emeryturę.	«Cotización» to składka.
 B2	estafar	oszukiwać	Próbowano mnie oszukać fałszywą ofertą.	«Estafa» to oszustwo.
@@ -48,7 +47,6 @@ B2	mareo	zawroty głowy	Poczułem zawroty głowy, gdy wstałem.	Od «mar».
 B2	ayuntamiento	urząd miasta	Urząd miasta zorganizował święto dla dzielnicy.	W Ameryce Łacińskiej «alcaldía».
 B2	alcalde	burmistrz	Burmistrz obiecał naprawić ulice w centrum.	Rodzaj żeński «alcaldesa».
 B2	juez	sędzia	Sędzia ogłosił wyrok wczoraj po południu.	Rodzaj żeński «la jueza».
-B2	abogado	adwokat	Mój adwokat poradził mi nic nie podpisywać.	Rodzaj żeński «abogada».
 B2	juicio	proces (sądowy)	Proces rozpocznie się za dwa tygodnie.	Także „osąd”.
 B2	condena	wyrok (kara)	Kara wyniosła pięć lat więzienia.	Od «condenar».
 B2	testigo	świadek	Świadek zeznał, że nie widział nic dziwnego.	Taki sam w rodzaju męskim i żeńskim.
@@ -94,7 +92,7 @@ B2	financiar	finansować	Bank sfinansuje zakup domu.	Jak po włosku.
 B2	reponer	uzupełniać	Zapasy trzeba uzupełniać co tydzień.	Nieregularny jak «poner».
 B2	abastecer	zaopatrywać	Targ zaopatruje całą okolicę.	Nieregularny: «abastezco».
 B2	rebasar	przekraczać	Wydatki przekroczą budżet.	Częste w Meksyku.
-B2	amortizar	spłacać (kredyt)	Spłacenie pożyczki zajmie mi dziesięć lat.	«Amortización» to amortyzacja, spłata.
+B2	amortizar	spłacać	Spłacanie pożyczki zajmie mi dziesięć lat.	Mówi się o długu (spłacać pożyczkę stopniowo) lub o wydatku, który z czasem się zwraca.
 B2	inflar	pompować	Przed wyjazdem trzeba napompować opony.	Jak po włosku.
 B2	desinfectar	dezynfekować	Musimy zdezynfekować ranę spirytusem.	Jak po włosku.
 B2	recetar	przepisywać (lek)	Lekarz przepisze mi antybiotyk.	«Receta» to recepta lub przepis kulinarny.
@@ -115,7 +113,7 @@ B2	indispensable	nieodzowny	Zabranie paszportu jest niezbędne, by podróżować
 B2	meticuloso	skrupulatny	Mój szef jest skrupulatny w szczegółach.	Jak po włosku.
 B2	imprevisible	nieprzewidywalny	Klimat tego regionu jest nieprzewidywalny.	Jak po włosku.
 B2	exigente	wymagający	Moja nauczycielka jest bardzo wymagająca co do terminów.	Od «exigir».
-B2	mandón	apodyktyczny	Mój starszy brat jest bardzo apodyktyczny wobec wszystkich.	Rodzaj żeński «mandona».
+B2	mandón	apodyktyczny	Mój starszy brat jest bardzo apodyktyczny wobec wszystkich.	Potocznie: ktoś, kto chce wszystkimi rządzić. Rodzaj żeński: «mandona».
 B2	solidario	solidarny	To solidarna dzielnica, gdzie wszyscy sobie pomagają.	Od «solidaridad».
 B2	polémico	kontrowersyjny	Temat jest kontrowersyjny i dzieli ludzi.	Od «polémica».
 B2	sagrado	święty	Dla nich to jezioro jest świętym miejscem.	Używane dla miejsc i przedmiotów kultu.
@@ -139,7 +137,6 @@ B2	tecnología	technologia	Technologia zmienia życie ludzi.	Jak po włosku.
 B2	inteligencia	inteligencja	Sztuczna inteligencja rozwija się bardzo szybko.	«IA» to skrót.
 B2	dato	dana	Każdą daną trzeba zweryfikować przed publikacją.	Często w liczbie mnogiej: «los datos».
 B2	red	sieć	Sieć w biurze działa dziś wolno.	«Redes sociales» to media społecznościowe.
-B2	seguridad	bezpieczeństwo	Bezpieczeństwo danych jest kluczowe.	Od «seguro».
 B2	privacidad	prywatność	Ważne, żeby chronił swoją prywatność w sieci.	W Hiszpanii także «intimidad».
 B2	actualizar	aktualizować	Lepiej aktualizować program co miesiąc.	«Actualización» to aktualizacja.
 B2	bloquear	blokować	Chcę, żebyś zablokował ten numer telefonu.	«Bloqueo» to blokada.
@@ -160,7 +157,6 @@ B2	vegetariano	wegetariański	Moja siostra jest wegetarianką od lat.	Także rze
 B2	orgánico	ekologiczny	Wolę, żeby owoce były ekologiczne.	W Hiszpanii także «ecológico».
 B2	regional	regionalny	Każde regionalne danie opowiada inną historię.	Jak po włosku.
 B2	fermentar	fermentować	Ciasto trzeba fermentować całą noc.	«Fermento» to zakwas.
-B2	maridaje	dobór wina do potraw	Dobór wina do sera jest doskonały.	Od «marido».
 B2	paladar	podniebienie (smak)	To danie jest dla wymagającego podniebienia.	Na Kubie także mała rodzinna restauracja.
 B2	degustar	degustować	Goście będą degustować pięć rodzajów wina.	«Degustación» to degustacja.
 B2	bodega	piwnica z winem; sklepik	Piwnica, w której kupowaliśmy wino, zamknęła się w tym roku.	Na Kubie i gdzie indziej to sklep spożywczy.
@@ -211,12 +207,11 @@ B2	esculpir	rzeźbić	Artysta wyrzeźbi posąg w kamieniu.	«Escultura» to rze�
 B2	pintoresco	malowniczy	To malownicza wioska nad jeziorem.	Jak po włosku.
 B2	auténtico	autentyczny	Szukam restauracji z autentyczną kuchnią.	Jak po włosku.
 B2	ancestral	odwieczny	Ten odwieczny przepis pochodzi z mojej rodziny.	Jak po włosku.
-B2	itinerario	trasa podróży	Chcę, żebyś sprawdził trasę podróży.	Jak po włosku.
+B2	itinerario	plan podróży	Chcę, żebyś sprawdził plan podróży.	Jak we włoskim.
 B2	trayecto	przejazd (odcinek)	Przejazd autobusem trwa prawie sześć godzin.	Nie «trajektoria».
 B2	escala	przesiadka	Lot ma przesiadkę w Bogocie.	Także skala muzyczna.
 B2	hospedaje	zakwaterowanie	Zakwaterowanie obejmuje śniadanie i transport.	Częste w Ameryce Łacińskiej.
-B2	albergue	schronisko	Spaliśmy w schronisku niedaleko plaży.	Także «hostal».
-B2	mochilero	turysta z plecakiem	Każdy turysta z plecakiem nosi własny namiot.	Od «mochila».
+B2	mochilero	turysta z plecakiem	Turysta z plecakiem śpi w schronisku.	Od «mochila» (plecak). Rodzaj żeński: «mochilera».
 B2	trasladarse	przeprowadzić się	Jeśli mnie przeniosą, zamieszkam na południu.	«Traslado» to przeniesienie.
 B2	desplazarse	przemieszczać się	Aby poruszać się po mieście, jeździłbym metrem.	«Desplazamiento» to przemieszczanie.
 B2	explorar	zwiedzać (badać)	Chciałbym zbadać wioski w górach.	Jak po włosku.
@@ -224,7 +219,6 @@ B2	cumbre	szczyt	Dotarliśmy na szczyt przed świtem.	Rodzaj żeński: «la cumb
 B2	orilla	brzeg	Szliśmy brzegiem rzeki o zachodzie słońca.	Dla rzeki i morza.
 B2	oleaje	falowanie	Falowanie było tak silne, że nie pływaliśmy.	Wzburzone morze.
 B2	muelle	molo	Molo jest pełne małych łodzi.	Także sprężyna.
-B2	puerto	port	Port to serce miasta.	«Puerto Rico» = bogaty port.
 B2	corriente	prąd (wodny)	Przy skale był niebezpieczny prąd.	Także przymiotnik.
 B2	brújula	kompas	Bez kompasu zgubilibyśmy się w dżungli.	Słowo z akcentem na trzeciej sylabie od końca.
 B2	brisa	bryza	Od morza wiała łagodna bryza.	Jak po włosku.
@@ -235,7 +229,7 @@ B2	barrio	dzielnica	Moja dzielnica ma bardzo stary targ.	Ciepłe słowo w Ameryc
 B2	albañil	murarz	Murarz skończył mur dziś rano.	Rodzaj żeński «albañila».
 B2	fontanero	hydraulik	Wezwałem hydraulika, bo był przeciek.	W Ameryce Łacińskiej także «plomero».
 B2	fuga	przeciek	Pod zlewem jest przeciek wody.	Także ucieczka.
-B2	grifo	kran	Kran w kuchni kapie całą noc.	W Ameryce Łacińskiej także «llave».
+B2	grifo	kran	Kuchenny kran kapie całą noc.	W wielu krajach Ameryki Łacińskiej nazywa się go «llave».
 B2	bombilla	żarówka	Żarówka na korytarzu przepaliła się wczoraj wieczorem.	W Argentynie to rurka do mate.
 B2	enchufe	gniazdko	Potrzebuję gniazdka blisko łóżka.	Od «enchufar».
 B2	tubería	rurociąg (instalacja)	Instalacja pękła od mrozu.	Od «tubo».
@@ -285,3 +279,12 @@ B2	mercancía	towar	Towar dotarł uszkodzony przez deszcz.	Od «mercado».
 B2	almacén	magazyn	W magazynie jest wszystko, czego potrzebujemy.	W Argentynie także sklep spożywczy.
 B2	proveedor	dostawca	Dostawca dostarczy towar w poniedziałek.	Od «proveer».
 B2	mayorista	hurtownik	Co rano kupujemy owoce u hurtownika.	Przeciwieństwo: «minorista».
+B2	imprescindible	niezbędny	Niezbędne jest zachowanie paragonu.	Często z «ser».
+B2	competencia	kompetencja; konkurencja	Konkurencja między firmami sprzyja konsumentom.	Dwa znaczenia: umiejętność i rywalizacja.
+B2	asombroso	zadziwiający	Szybkość biegacza zdumiała wszystkich obecnych.	Od «asombro» (zdumienie); czasownik to «asombrar».
+B2	estancia	pobyt	Jego pobyt za granicą całkowicie zmienił jego spojrzenie na świat.	W rejonie La Platy i w Chile także duża hodowla bydła.
+B2	disponer	dysponować	Firma dysponuje wystarczającymi zasobami, by rozbudować zakład.	Nieregularny jak «poner».
+B2	desviar	odchylać; zmieniać trasę	Musieli objechać górską drogą.	«Desvío» to objazd; «desviarse» znaczy zboczyć z drogi.
+B2	sembrar	siać	Pszenicę trzeba zasiać, zanim nadejdą deszcze.	Zmienia e→ie: «siembro».
+B2	cuarentena	kwarantanna	Podczas kwarantanny nikt nie mógł wyjść z domu bez zezwolenia.	Od «cuarenta»: pierwotnie czterdzieści dni izolacji statków.
+B2	cabalgar	jechać konno	Zwykli jeździć konno o świcie po równinach południa.	Od «caballo».

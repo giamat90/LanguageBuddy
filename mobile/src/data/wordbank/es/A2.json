@@ -669,15 +669,15 @@
     "ipa": "peiˈnaɾse",
     "meaning_en": "to comb one's hair",
     "meaning_it": "pettinarsi",
-    "example": "Mi hermana se peina frente al espejo.",
-    "example_it": "Mia sorella si pettina davanti allo specchio.",
-    "cultural_note": "«Peine» è il pettine.",
+    "example": "Me peino antes de salir.",
+    "example_it": "Mi pettino prima di uscire.",
+    "cultural_note": "Verbo riflessivo: «me peino». Il pettine è «el peine», la spazzola «el cepillo».",
     "grammar_angle": "REFLEXIVE_VERBS",
     "topic_domain": "home",
     "cefr_band": "A2",
     "session_scenario": "Describing your home",
-    "example_en": "My sister combs her hair in front of the mirror.",
-    "cultural_note_en": "«Peine» is the comb."
+    "example_en": "I comb my hair before going out.",
+    "cultural_note_en": "Reflexive verb: «me peino». The comb is «el peine», the brush «el cepillo»."
   },
   {
     "word": "espejo",
@@ -790,13 +790,13 @@
     "meaning_it": "parete, muro",
     "example": "La pared de la sala es azul.",
     "example_it": "La parete del soggiorno è blu.",
-    "cultural_note": "«Muro» è il muro esterno.",
+    "cultural_note": "«Pared» è la parete di una stanza o di un edificio; «muro» è un muro esterno o di cinta: «el muro del jardín».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "home",
     "cefr_band": "A2",
     "session_scenario": "Talking about family",
     "example_en": "The living-room wall is blue.",
-    "cultural_note_en": "«Muro» is the outer wall."
+    "cultural_note_en": "«Pared» is the wall of a room or building; «muro» is an outer or boundary wall: «el muro del jardín»."
   },
   {
     "word": "suelo",
@@ -1785,23 +1785,6 @@
     "cultural_note_en": "«Sala de estar» is the living room."
   },
   {
-    "word": "cargo",
-    "article": "el",
-    "part_of_speech": "noun",
-    "ipa": "ˈkaɾɣo",
-    "meaning_en": "position; charge",
-    "meaning_it": "incarico, carica",
-    "example": "Mi cargo es director de ventas.",
-    "example_it": "Il mio incarico è direttore vendite.",
-    "cultural_note": "«Estar a cargo» significa essere responsabile.",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "work",
-    "cefr_band": "A2",
-    "session_scenario": "Meeting colleagues",
-    "example_en": "My position is sales director.",
-    "cultural_note_en": "«Estar a cargo» means to be in charge."
-  },
-  {
     "word": "entrevista",
     "article": "la",
     "part_of_speech": "noun",
@@ -1861,13 +1844,13 @@
     "meaning_it": "affare, attività",
     "example": "Mi tío tiene un negocio pequeño.",
     "example_it": "Mio zio ha un'attività piccola.",
-    "cultural_note": "Da «nec-otium»: l'opposto dell'ozio.",
+    "cultural_note": "«Negocio» è un'attività commerciale e anche un affare: «un buen negocio». Il negozio è «la tienda».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "A2",
     "session_scenario": "At the office",
     "example_en": "My uncle has a small business.",
-    "cultural_note_en": "From «nec-otium»: the negation of leisure."
+    "cultural_note_en": "«Negocio» is a business and also a deal: «un buen negocio». The shop is «la tienda»."
   },
   {
     "word": "cobrar",
@@ -2448,23 +2431,6 @@
     "cultural_note_en": "From Latin «anellus»."
   },
   {
-    "word": "probador",
-    "article": "el",
-    "part_of_speech": "noun",
-    "ipa": "pɾoβaˈðoɾ",
-    "meaning_en": "fitting room",
-    "meaning_it": "camerino",
-    "example": "El probador está al fondo.",
-    "example_it": "Il camerino è in fondo.",
-    "cultural_note": "Da «probar».",
-    "grammar_angle": "SER_ESTAR",
-    "topic_domain": "shopping",
-    "cefr_band": "A2",
-    "session_scenario": "Paying at the till",
-    "example_en": "The fitting room is at the back.",
-    "cultural_note_en": "From «probar»."
-  },
-  {
     "word": "talla",
     "article": "la",
     "part_of_speech": "noun",
@@ -2794,15 +2760,15 @@
     "ipa": "oˈɾexa",
     "meaning_en": "ear (outer)",
     "meaning_it": "orecchio (esterno)",
-    "example": "Me duele la oreja izquierda.",
-    "example_it": "Mi fa male l'orecchio sinistro.",
-    "cultural_note": "«Oído» è l'udito e l'orecchio interno.",
+    "example": "Me duele la oreja derecha.",
+    "example_it": "Mi fa male l'orecchio destro.",
+    "cultural_note": "«Oreja» è l'orecchio esterno; «oído» è l'udito e l'orecchio interno: «Me duele el oído».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "health",
     "cefr_band": "A2",
     "session_scenario": "Talking about how you feel",
-    "example_en": "My left ear hurts.",
-    "cultural_note_en": "«Oído» is hearing and the inner ear."
+    "example_en": "My right ear hurts.",
+    "cultural_note_en": "«Oreja» is the outer ear; «oído» is hearing and the inner ear: «Me duele el oído»."
   },
   {
     "word": "corazón",
@@ -3169,7 +3135,7 @@
     "meaning_en": "sane",
     "meaning_it": "sano di mente",
     "example": "Mi tío es un hombre muy cuerdo.",
-    "example_it": "Mio zio è un uomo molto saggio.",
+    "example_it": "Mio zio è un uomo molto sensato.",
     "cultural_note": "Contrario: «loco».",
     "grammar_angle": "ADJ_AGREEMENT",
     "topic_domain": "health",
@@ -3330,23 +3296,6 @@
     "session_scenario": "Meeting friends",
     "example_en": "Tomorrow we are going to celebrate my birthday.",
     "cultural_note_en": "«Cumpleaños» is always masculine singular."
-  },
-  {
-    "word": "cumpleaños",
-    "article": "el",
-    "part_of_speech": "noun",
-    "ipa": "kumpleˈaɲos",
-    "meaning_en": "birthday",
-    "meaning_it": "compleanno",
-    "example": "Mi cumpleaños es en diciembre.",
-    "example_it": "Il mio compleanno è a dicembre.",
-    "cultural_note": "Resta invariato al plurale: «dos cumpleaños».",
-    "grammar_angle": "NOUN_GENDER",
-    "topic_domain": "leisure",
-    "cefr_band": "A2",
-    "session_scenario": "Planning the weekend",
-    "example_en": "My birthday is in December.",
-    "cultural_note_en": "Unchanged in the plural: «dos cumpleaños»."
   },
   {
     "word": "foto",
@@ -3901,13 +3850,13 @@
     "meaning_it": "consiglio",
     "example": "Mi madre me da un buen consejo.",
     "example_it": "Mia madre mi dà un buon consiglio.",
-    "cultural_note": "Singolare: «un consejo», «unos consejos».",
+    "cultural_note": "Si dice «dar un consejo» e «seguir un consejo». Il verbo è «aconsejar».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "A2",
     "session_scenario": "Meeting new people",
     "example_en": "My mother gives me good advice.",
-    "cultural_note_en": "Singular: «un consejo»."
+    "cultural_note_en": "You say «dar un consejo» and «seguir un consejo». The verb is «aconsejar»."
   },
   {
     "word": "encontrar",
@@ -4004,7 +3953,7 @@
     "example": "Mi abuelo sabe contar historias.",
     "example_it": "Mio nonno sa raccontare storie.",
     "cultural_note": "Cambia o→ue: «cuento».",
-    "grammar_angle": "VERB_PRESENT_REGULAR",
+    "grammar_angle": "VERB_PRESENT_IRREGULAR",
     "topic_domain": "culture",
     "cefr_band": "A2",
     "session_scenario": "Meeting new people",
@@ -4018,15 +3967,15 @@
     "ipa": "naˈseɾ",
     "meaning_en": "to be born",
     "meaning_it": "nascere",
-    "example": "Mi hija va a nacer en mayo.",
-    "example_it": "Mia figlia nascerà a maggio.",
-    "cultural_note": "«Nací» è «sono nato».",
-    "grammar_angle": "VERB_PRESENT_REGULAR",
+    "example": "Mi hija nació en mayo.",
+    "example_it": "Mia figlia è nata a maggio.",
+    "cultural_note": "«Nací en Roma» significa «sono nato a Roma». È irregolare: «nazco».",
+    "grammar_angle": "PRETERITO_INDEFINIDO",
     "topic_domain": "culture",
     "cefr_band": "A2",
     "session_scenario": "Talking about your country",
-    "example_en": "My daughter is going to be born in May.",
-    "cultural_note_en": "«Nací» is «I was born»."
+    "example_en": "My daughter was born in May.",
+    "cultural_note_en": "«Nací en Roma» means «I was born in Rome». It is irregular: «nazco»."
   },
   {
     "word": "casarse",
@@ -4979,5 +4928,56 @@
     "session_scenario": "Talking about your country",
     "example_en": "I have a friend whose father is a doctor.",
     "cultural_note_en": "Agrees with the following noun."
+  },
+  {
+    "word": "elegir",
+    "article": null,
+    "part_of_speech": "verb",
+    "ipa": "eleˈxiɾ",
+    "meaning_en": "to choose",
+    "meaning_it": "scegliere",
+    "example": "Es difícil elegir un regalo.",
+    "example_it": "È difficile scegliere un regalo.",
+    "cultural_note": "«Escoger» è un sinonimo molto usato. Cambia e→i: «elijo».",
+    "grammar_angle": "VERB_PRESENT_IRREGULAR",
+    "topic_domain": "shopping",
+    "cefr_band": "A2",
+    "session_scenario": "Paying at the till",
+    "example_en": "It is hard to choose a gift.",
+    "cultural_note_en": "«Escoger» is a very common synonym. It changes e→i: «elijo»."
+  },
+  {
+    "word": "sano",
+    "article": null,
+    "part_of_speech": "adj",
+    "ipa": "ˈsano",
+    "meaning_en": "healthy",
+    "meaning_it": "sano",
+    "example": "Mi abuelo es un hombre sano.",
+    "example_it": "Mio nonno è un uomo sano.",
+    "cultural_note": "«Sano» riguarda la salute del corpo: «una dieta sana». Sano di mente si dice «cuerdo»; «saludable» è un sinonimo molto usato.",
+    "grammar_angle": "ADJ_AGREEMENT",
+    "topic_domain": "health",
+    "cefr_band": "A2",
+    "session_scenario": "At the pharmacy",
+    "example_en": "My grandfather is a healthy man.",
+    "cultural_note_en": "«Sano» is about bodily health: «una dieta sana». Sound of mind is «cuerdo»; «saludable» is a very common synonym."
+  },
+  {
+    "word": "recibir",
+    "article": null,
+    "part_of_speech": "verb",
+    "ipa": "resiˈβiɾ",
+    "meaning_en": "to receive",
+    "meaning_it": "ricevere",
+    "example": "Voy a recibir un paquete mañana.",
+    "example_it": "Riceverò un pacco domani.",
+    "cultural_note": "«Recibir» è ricevere: «recibir un paquete». Con una persona significa accogliere: «recibir a alguien».",
+    "grammar_angle": "VERB_PRESENT_REGULAR",
+    "topic_domain": "shopping",
+    "cefr_band": "A2",
+    "session_scenario": "In a clothes shop",
+    "example_en": "I am going to receive a parcel tomorrow.",
+    "cultural_note_en": "«Recibir» is to receive: «recibir un paquete». With a person it means to welcome: «recibir a alguien»."
   }
 ]

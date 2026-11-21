@@ -56,7 +56,7 @@ export const EXPECT: Record<string, AppExpectation> = {
     backupTag: 'SpanishBuddy',
     packageName: 'com.giamat90.spanishbuddy',
     speechLocale: 'es-US',
-    wordsPerLevel: { A1: 304, A2: 293, B1: 286, B2: 287, C1: 288, C2: 281 },
+    wordsPerLevel: { A1: 302, A2: 293, B1: 293, B2: 290, C1: 287, C2: 274 },
     uiLanguages: ALL_13.filter((l) => l !== 'es'),
     translatedLanguages: ['fr', 'pt', 'ru', 'uk', 'pl', 'tr', 'zh', 'ja', 'hi', 'ar'],
     articleForms: ['el', 'la'],

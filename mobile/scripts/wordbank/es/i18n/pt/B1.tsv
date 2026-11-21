@@ -1,7 +1,7 @@
 B1	internet	internet	Sem internet não posso trabalhar hoje.	Diz-se «el internet» ou só «internet».
 B1	pantalla	tela	A tela do meu telefone está quebrada.	«Pantalla» também é o abajur.
 B1	contraseña	senha	Esqueci a senha do meu e-mail.	«Seña» é o sinal.
-B1	archivo	arquivo	Envio o arquivo por e-mail amanhã.	«Archivo» também é o acervo.
+B1	archivo	arquivo	Enviarei o arquivo para você amanhã.	«Archivo» também é o arquivo (acervo de documentos).
 B1	aplicación	aplicativo	Baixo um aplicativo novo hoje.	Forma curta «app».
 B1	descargar	baixar (download)	Vou baixar o programa esta noite.	«Descarga» é o download.
 B1	conectarse	conectar-se	Conecto-me à internet com o celular.	«Conexión» é a conexão.
@@ -62,7 +62,6 @@ B1	frijol	feijão	O feijão-preto é popular em Cuba.	«Frijol» na América Lat
 B1	aguacate	abacate	Ponho abacate no pão toda manhã.	No Chile e na Argentina «palta».
 B1	chile	pimenta	Esta pimenta é forte demais para mim.	Não só o país: «chile» também é a pimenta.
 B1	tamal	tamal	Minha mãe prepara um tamal todo Natal.	Massa de milho cozida em folhas.
-B1	mole	mole (molho)	O mole poblano leva chocolate e pimenta.	Molho típico do México.
 B1	aderezo	molho (de salada)	Uso um molho leve na salada.	Na Espanha «aliño».
 B1	condimentar	temperar (com especiarias)	Vou temperar o frango com alho e limão.	«Condimento» é o tempero.
 B1	ajo	alho	Sempre uso alho nos meus molhos.	O «j» é um som gutural.
@@ -156,9 +155,9 @@ B1	póliza	apólice	Minha apólice cobre as despesas médicas.	«Seguro médico�
 B1	agotado	esgotado	Eu estava esgotado depois da longa viagem.	De «agotar».
 B1	preocupado	preocupado	Minha mãe está preocupada com minha prova.	Usa-se com «estar».
 B1	asustado	assustado	O menino estava assustado com a tempestade.	De «susto».
-B1	avergonzado	envergonhado	Estou envergonhado do meu erro de ontem.	De «vergüenza».
+B1	avergonzado	envergonhado	Estou envergonhado pelo meu erro de ontem.	Vem de «avergonzarse»: «me avergüenzo» (com trema).
 B1	tímido	tímido	Meu filho é muito tímido com estranhos.	Como em italiano.
-B1	sensible	sensível	Minha irmã é muito sensível a críticas.	Falso amigo de «sensato».
+B1	sensible	sensível	Minha irmã é muito sensível às críticas.	Igual ao italiano «sensibile». Não é «sensato» (ajuizado, sábio): essa é outra palavra espanhola.
 B1	sociedad	sociedade	A sociedade muda muito rápido hoje.	Plural «sociedades».
 B1	derecho	direito	Todos temos direito à educação.	Também o adjetivo «derecho» (reto).
 B1	libertad	liberdade	A liberdade de imprensa é fundamental.	Plural «libertades».
@@ -231,8 +230,8 @@ B1	impuesto	imposto	O imposto sobe no ano que vem.	«Impuestos» no plural.
 B1	ganancia	lucro	O lucro do mês foi muito pequeno.	De «ganar».
 B1	pérdida	perda	A empresa teve uma grande perda em maio.	De «perder».
 B1	inversión	investimento	Comprar casa é um bom investimento.	Plural «inversiones».
-B1	ahorro	poupança	Minha poupança é para a viagem de verão.	Muitas vezes no plural.
-B1	sucursal	filial	A filial do banco fica na praça.	Do latim «succursus»: o que apoia a sede.
+B1	ahorro	economia, poupança	Minha poupança é para a viagem.	Geralmente no plural: «ahorros» é dinheiro guardado. O verbo é «ahorrar».
+B1	sucursal	filial, agência	A agência do banco fica na praça.	Uma filial de um banco ou empresa; a matriz é a «sede central».
 B1	reembolso	reembolso	Pedi reembolso porque o produto estava quebrado.	«Reembolsar» é reembolsar.
 B1	envío	envio	O envio é grátis para compras grandes.	Também uma forma de «enviar».
 B1	pedido	pedido	Meu pedido chegará amanhã à tarde.	Também o particípio de «pedir».
@@ -243,13 +242,12 @@ B1	rebajar	baixar (preço)	Vão baixar os preços em janeiro.	«Rebajas» são a
 B1	reclamar	reclamar	Vou reclamar do mau serviço.	«Reclamación» é a reclamação.
 B1	facturar	faturar	Minha empresa fatura muito em dezembro.	Também despachar bagagem.
 B1	empaquetar	embalar	Vamos embalar os presentes antes de sair.	«Paquete» é o pacote.
-B1	envolver	embrulhar	Pode embrulhar o presente, por favor?	Muda o→ue: «envuelvo».
+B1	envolver	embrulhar	Você pode embrulhar o presente, por favor?	Muda o→ue: «envuelvo».
 B1	rentable	rentável	Este negócio é muito rentável.	De «renta».
 B1	asequible	acessível (preço)	O preço deste curso é acessível.	Falso amigo do italiano.
 B1	gratuito	gratuito	A entrada do museu é gratuita hoje.	Mais formal que «gratis».
 B1	defectuoso	defeituoso	O produto era defeituoso desde o início.	De «defecto».
-B1	imprescindible	indispensável	É indispensável guardar o recibo.	Muitas vezes com «ser».
-B1	anticipar	antecipar	Quero antecipar minha viagem em uma semana.	Significa adiantar.
+B1	anticipar	antecipar, adiantar	Não quero adiantar nada ainda.	Como o italiano «anticipare» (dizer ou pagar antecipadamente). Para adiantar uma data, «adelantar» é mais usual.
 B1	comprobar	conferir	Vou conferir o horário do voo.	Muda o→ue: «compruebo».
 B1	lograr	conseguir (alcançar)	Quero realizar meu sonho de viajar.	«Lograr + infinitivo» é conseguir.
 B1	intentar	tentar	Vou tentar falar com meu chefe.	«Intento» é a tentativa.
@@ -265,7 +263,7 @@ B1	adaptarse	adaptar-se	Meu filho se adaptou bem à escola.	Como em italiano.
 B1	echar	jogar; pôr	Vou pôr um pouco de sal na sopa.	«Echar de menos» é sentir saudade.
 B1	mezclarse	misturar-se	Minha irmã se mistura com gente muito diferente.	Reflexivo.
 B1	colocar	colocar	Vou colocar os livros na estante.	«Colocar» + lugar.
-B1	rodear	rodear	Um bosque vai rodear a casa nova.	«Rodeo» também é espetáculo equestre.
+B1	rodear	cercar, rodear	Um jardim cerca a casa.	«Rodeo» é um caminho indireto («dar un rodeo») e também o espetáculo equestre.
 B1	cubrir	cobrir	Esta lona pode cobrir a mesa toda.	Particípio irregular: «cubierto».
 B1	meter	meter	Vou meter a roupa na mala.	«Meterse» é meter-se.
 B1	sacudir	sacudir	Vou sacudir o tapete no pátio.	«Sacudida» é a sacudida.
@@ -284,3 +282,12 @@ B1	apenas	mal, quase não	Mal tenho tempo livre esta semana.	Também «assim que
 B1	sin embargo	no entanto	É caro; no entanto, vale a pena.	Conector formal.
 B1	por lo tanto	portanto	Chove muito; portanto, ficamos.	Conector formal de consequência.
 B1	mientras tanto	enquanto isso	Eu cozinho e, enquanto isso, você põe a mesa.	Locução.
+B1	cargo	cargo; encargo	Ela ocupa um cargo importante na empresa.	«Estar a cargo» significa estar encarregado.
+B1	probador	provador	O provador fica no fundo.	«Probarse» é experimentar uma peça de roupa: «¿Puedo probarme esto?».
+B1	carretera	estrada	A estrada estava fechada pela neve.	«Carretera» é uma estrada fora da cidade.
+B1	abogado	advogado	Preciso falar com um advogado.	Feminino «abogada».
+B1	seguridad	segurança	A segurança dos dados é essencial.	Vem de «seguro». «Seguridad social» é a previdência social.
+B1	albergue	albergue	Dormimos num albergue perto da praia.	Não é um hotel de luxo («hotel»): é um albergue ou refúgio. Os peregrinos do Caminho de Santiago dormem em «albergues».
+B1	puerto	porto	O porto é o coração da cidade.	Também é uma passagem de montanha («puerto de montaña»). «Puerto Rico» = «porto rico».
+B1	ruta	rota, trajeto	A rota atravessa povoados pitorescos e vales verdes.	Na América Latina, também é uma rodovia: «la ruta 40».
+B1	sartén	frigideira	Ponha um pouco de óleo na frigideira.	É feminino: «la sartén» (na América Latina também se ouve «el sartén»). A panela é «olla».

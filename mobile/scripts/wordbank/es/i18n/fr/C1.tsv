@@ -1,5 +1,4 @@
 C1	trayectoria	parcours	Son parcours professionnel démontre une énorme constance.	Aussi «trayectoria vital».
-C1	competencia	compétence ; concurrence	La concurrence entre les entreprises favorise les consommateurs.	Deux sens : savoir-faire et rivalité.
 C1	rendimiento	rendement	Le rendement de l'équipe s'est nettement amélioré après la réorganisation.	De «rendir».
 C1	remuneración	rémunération	La rémunération comprend un salaire fixe et des primes annuelles.	Formel pour «sueldo».
 C1	plantear	soulever (une question)	Je voudrais soulever une question qui préoccupe plusieurs collègues.	«Plantear un problema».
@@ -49,7 +48,7 @@ C1	destartalado	décrépit	Nous avons loué une maison décrépite mais très bo
 C1	aforo	capacité d'accueil	La capacité d'accueil du stade a été réduite de moitié par sécurité.	De «aforar».
 C1	dorsal	dossard	Il a retiré son dossard une heure avant le départ du marathon.	Aussi un adjectif.
 C1	contienda	joute	La joute sportive s'est terminée sans vainqueur clair après trois heures.	Registre soutenu.
-C1	liza	lice (arène)	Plusieurs équipes sont entrées en lice pour conquérir le titre continental.	«Entrar en liza».
+C1	liza	lice, arène	Plusieurs équipes sont entrées en lice pour conquérir le titre continental.	Utilisé presque uniquement dans «entrar en liza» (entrer dans la mêlée).
 C1	fichaje	recrutement (transfert)	Le transfert de l'attaquant a coûté une somme record au club.	Terme de football.
 C1	fichar	recruter (un joueur)	Le club pense recruter un jeune gardien très talentueux.	Aussi « pointer ».
 C1	remontar	remonter (au score)	Si nous avions joué avec plus de calme, nous aurions pu remonter le match.	Conditionnel irréel du passé.
@@ -57,7 +56,6 @@ C1	claudicar	céder	L'équipe n'a pas voulu céder malgré l'avance de l'adversa
 C1	vitorear	ovationner	La foule a commencé à ovationner le cycliste qui a franchi la ligne.	«Vítor» est une acclamation.
 C1	cotizado	prisé	C'est un joueur très prisé sur le marché européen.	De «cotizar».
 C1	infalible	infaillible	Personne ne possède de technique infaillible pour toujours gagner aux échecs.	Comme en italien.
-C1	asombroso	stupéfiant	La vitesse du coureur s'est avérée stupéfiante pour tous les présents.	De «asombro».
 C1	cuota	cotisation	La cotisation mensuelle de la salle de sport inclut l'accès à la piscine.	Comme en italien.
 C1	anticipo	acompte	Ils ont demandé un acompte de trente pour cent pour commencer les travaux.	De «anticipar».
 C1	recargo	majoration	Une majoration sera appliquée si le paiement arrive hors délai.	De «recargar».
@@ -111,7 +109,6 @@ C1	acuciante	pressant	Le manque de médecins est un problème pressant à la cam
 C1	insoportable	insupportable	La chaleur était devenue insupportable à cette heure-là.	Comme en italien.
 C1	cuestionar	remettre en question	Personne n'a osé remettre en question la décision de la directrice.	«Cuestión» est la question.
 C1	reconocer	reconnaître	Il est difficile de reconnaître ses propres erreurs devant les autres.	Irrégulier : «reconozco».
-C1	estancia	séjour	Son séjour à l'étranger a complètement changé sa vision du monde.	En Argentine, un ranch.
 C1	travesía	traversée	La traversée du désert a duré neuf jours épuisants.	De «atravesar».
 C1	periplo	périple	Son périple en Amérique latine lui a inspiré un livre entier.	Comme en italien.
 C1	escollo	écueil	Le plus gros écueil du voyage a été d'obtenir les permis.	Aussi « récif ».
@@ -125,7 +122,7 @@ C1	sinuoso	sinueux	La route sinueuse longe le lac entre les montagnes.	Comme en 
 C1	menester	besoin (tâche)	Il est nécessaire de revoir les comptes avant de conclure l'affaire.	«Ser menester» = être nécessaire.
 C1	cotización	cours (de change)	Le cours du dollar a encore monté ce matin.	Aussi « cotisation ».
 C1	rebaja	rabais	Nous attendons un rabais considérable sur les prix d'hiver.	Pluriel : les soldes.
-C1	detallista	détaillant	Le détaillant préfère acheter directement au producteur local.	Signifie «minorista».
+C1	detallista	soucieux du détail ; détaillant	Ma sœur est très attentionnée et n'oublie jamais un anniversaire.	Comme adjectif : soucieux du détail, attentionné ; comme nom : détaillant (contraire de «mayorista»).
 C1	arancel	droit de douane	Le gouvernement a réduit le droit de douane sur les produits importés.	Aussi « tarif douanier ».
 C1	dilapidar	dilapider	Il a hérité d'une fortune et a réussi à la dilapider en quelques années.	Comme en italien.
 C1	sufragar	prendre en charge (les frais)	L'entreprise s'engage à prendre en charge les frais du voyage.	Aussi « voter ».
@@ -135,7 +132,6 @@ C1	rentabilizar	rentabiliser	Ils veulent rentabiliser l'investissement en moins 
 C1	solvente	solvable	Le prêt ne sera accordé qu'aux clients à la situation solvable.	Comme en italien.
 C1	exorbitante	exorbitant	Ils font payer un prix exorbitant pour une chambre si petite.	Comme en italien.
 C1	moroso	en retard de paiement	La banque réclame la dette aux clients en retard de paiement.	Comme en italien.
-C1	medianería	mur mitoyen	Le mur mitoyen entre les deux maisons a besoin d'une réparation urgente.	Terme immobilier.
 C1	umbral	seuil	Il s'est arrêté au seuil de la maison sans oser entrer.	Comme «soglia».
 C1	cimiento	fondation	La fondation de la maison s'est affaissée avec les pluies.	Généralement au pluriel.
 C1	tejado	toit	Le toit a besoin d'une réparation avant l'arrivée des pluies.	De «teja».
@@ -200,7 +196,7 @@ C1	sosegar	apaiser	La musique a aidé à apaiser les esprits des patients.	Chang
 C1	ansiolítico	anxiolytique	On lui a prescrit un anxiolytique pour mieux dormir pendant la crise.	Comme en italien.
 C1	robusto	robuste	Sa santé robuste lui a permis de survivre à la longue maladie.	Comme en italien.
 C1	embarcación	embarcation	L'embarcation a résisté à la tempête grâce à sa coque renforcée.	De «embarcar».
-C1	vereda	sentier	Un sentier étroit mène à la cabane dans la forêt.	En Colombie aussi une zone rurale.
+C1	vereda	sentier ; trottoir (Cône Sud)	Un étroit sentier mène à la cabane dans la forêt.	Dans le Cône Sud et au Pérou, un trottoir ; en Colombie, une subdivision rurale.
 C1	cordillera	cordillère	La cordillère des Andes divise le continent du nord au sud.	Aussi «sierra».
 C1	altiplano	haut plateau	L'altiplano bolivien se trouve à plus de trois mille mètres.	Mot andin.
 C1	arrecife	récif	Le récif abrite des milliers d'espèces de poissons colorés.	De l'arabe.
@@ -212,7 +208,6 @@ C1	finiquito	solde de tout compte	Il a reçu son solde de tout compte avec une l
 C1	prórroga	prolongation	Nous demandons une prolongation du délai pour remettre les documents.	Mot proparoxyton.
 C1	cláusula	clause	La clause pénale protège les deux parties en cas de manquement.	Mot proparoxyton.
 C1	cotizante	cotisant	Chaque cotisant recevra une notification avec le nouveau calcul.	Identique au masculin et au féminin.
-C1	disponer	disposer de	L'entreprise dispose de ressources suffisantes pour agrandir l'usine.	Irrégulier comme «poner».
 C1	aducir	alléguer	L'accusé a voulu alléguer des raisons de santé pour justifier son absence.	Irrégulier comme «conducir».
 C1	esgrimir	brandir (un argument)	L'opposition a tenté de brandir des chiffres contradictoires dans le débat.	Aussi « faire de l'escrime ».
 C1	desistir	renoncer	Il a décidé de renoncer à la plainte après une longue négociation.	Suivi de «de».
@@ -242,17 +237,15 @@ C1	captar	attirer (capter)	Le magasin cherche à attirer un public plus jeune et
 C1	amortiguar	amortir	Les soldes ont réussi à amortir l'impact de la crise sur le commerce.	Aussi pour les chocs.
 C1	cotejar	confronter	Il est recommandé de confronter les prix avant un gros achat.	Verbe formel.
 C1	enajenar	céder (aliéner)	La famille a dû céder le domaine pour solder ses dettes.	Terme juridique.
-C1	atesorar	thésauriser	Il a passé des années à thésauriser des pièces anciennes de tous les continents.	De «tesoro».
-C1	fugaz	fugace	La mode fugace fait passer les vêtements de mode très vite.	Pluriel «fugaces».
+C1	atesorar	thésauriser ; chérir	Il a consacré des années à amasser des pièces anciennes du monde entier.	Vient de «tesoro» ; aussi chérir : «atesorar recuerdos».
+C1	fugaz	fugace	Il a connu une gloire fugace après avoir gagné le concours.	«Estrella fugaz» est une étoile filante ; pluriel «fugaces».
 C1	suntuoso	somptueux	On lui a offert un manteau somptueux en pure laine.	Comme en italien.
 C1	módico	modique	Ils proposent une entrée à un prix modique pour les étudiants.	Comme en italien.
 C1	despilfarro	gaspillage	Le gaspillage des ressources publiques a indigné les citoyens.	Synonyme de «derroche».
 C1	balneario	station thermale	La station thermale offre des eaux thermales et des soins de relaxation.	Au Chili et en Uruguay, une station balnéaire.
 C1	mirador	belvédère	Nous sommes montés au belvédère pour contempler la vallée avant le coucher du soleil.	De «mirar».
-C1	ruta	itinéraire (route)	L'itinéraire traverse des villages pittoresques et des vallées vertes.	Aussi « chemin ».
 C1	parada	arrêt	L'arrêt de bus se trouve à quelques mètres du marché.	Aussi « défilé ».
 C1	atascarse	s'enliser (se bloquer)	La circulation a tendance à se bloquer sur l'autoroute le vendredi après-midi.	«Atasco» est l'embouteillage.
-C1	desviar	dévier	Ils ont dû dévier par une route de montagne.	«Desvío» est la déviation.
 C1	escalar	gravir	Si je pouvais gravir ce sommet, je me sentirais l'homme le plus heureux.	Conditionnel irréel.
 C1	orientarse	s'orienter	Sans carte, il était difficile de s'orienter dans les rues du vieux quartier.	«Orientación» est l'orientation.
 C1	pernoctar	passer la nuit	Nous avons décidé de passer la nuit dans un refuge avant l'ascension finale.	Comme en italien.
@@ -261,11 +254,9 @@ C1	abrupto	abrupt	La descente abrupte nous a obligés à utiliser des cordes de 
 C1	fronterizo	frontalier	Ils vivaient dans un village frontalier entre deux pays voisins.	De «frontera».
 C1	descomunal	démesuré	Une vague démesurée a frappé le quai pendant la tempête.	Comme «smisurato».
 C1	escueto	laconique	Son message était laconique mais a clairement exposé sa position.	Registre soutenu.
-C1	condumio	casse-croûte	Nous avons emporté un casse-croûte simple de pain, fromage et fruits pour l'excursion.	Mot peu courant.
 C1	exquisitez	raffinement (mets exquis)	Le raffinement de ce dessert est resté gravé dans ma mémoire.	De «exquisito».
 C1	gula	gourmandise (péché)	La gourmandise est l'un des péchés capitaux selon la tradition.	Comme en italien.
 C1	cosechar	récolter	Les paysans espèrent récolter le maïs avant l'arrivée des gelées.	«Cosecha» est la récolte.
-C1	sembrar	semer	Il faut semer les haricots quand commence la saison des pluies.	Change e→ie.
 C1	moler	moudre	Ma grand-mère moulait le maïs à la main avant de préparer les tortillas.	Change o→ue.
 C1	amasijo	fatras	Le fatras d'ingrédients ne ressemblait pas à un plat comestible.	Aussi « mélange ».
 C1	empachar	donner une indigestion	Manger autant de sucreries peut donner une indigestion même aux plus gourmands.	«Empacho» est l'indigestion.
@@ -273,7 +264,6 @@ C1	apetitoso	appétissant	L'arôme appétissant de la soupe a rempli toute la ma
 C1	indigesto	indigeste	Ce fut un repas si indigeste que personne n'a bien dormi.	Comme en italien.
 C1	estrago	ravage	Le ravage de l'épidémie s'est fait sentir dans chaque famille du village.	Généralement au pluriel.
 C1	brote	flambée (poussée)	Une flambée de rougeole a obligé à fermer plusieurs écoles de la ville.	Aussi « pousse ».
-C1	cuarentena	quarantaine	La quarantaine a duré quarante jours, comme son nom l'indique.	De «cuarenta».
 C1	inmunidad	immunité	L'immunité collective dépend du pourcentage de personnes vaccinées.	Comme en italien.
 C1	paliativo	palliatif	Ce sirop n'est qu'un simple palliatif, il ne guérit pas la maladie.	Comme en italien.
 C1	intoxicar	intoxiquer	Un aliment avarié a pu intoxiquer plusieurs invités.	Comme en italien.
@@ -286,3 +276,12 @@ C1	mecer	bercer	La mère a commencé à bercer le berceau au rythme d'une chanso
 C1	tararear	fredonner	Il avait l'habitude de fredonner une mélodie en arrosant les plantes du patio.	Onomatopéique.
 C1	silbar	siffler	Le public a commencé à siffler en voyant que l'artiste arrivait en retard.	Aussi pour désapprouver.
 C1	trepar	grimper	Les enfants savent grimper aux arbres les plus hauts du parc.	Aussi pour les plantes grimpantes.
+C1	maridaje	accord mets et vins	L'accord du vin et du fromage est parfait.	Vient de «marido» : une union réussie entre mets et vin.
+C1	cónyuge	conjoint	Chaque conjoint doit signer l'acte pour pouvoir vendre la maison.	Identique au masculin et au féminin.
+C1	rancio	rance ; (vin) vieilli, muté	Le vin rancio vieillit en fûts pendant de nombreuses années.	«Vino rancio» est un vin muté vieilli ; «de rancio abolengo» = de très ancienne lignée.
+C1	sublime	sublime	L'interprétation de la soprano fut sublime et émouvante.	Comme en italien.
+C1	copioso	copieux	Après le dîner copieux, personne n'a voulu quitter la table.	Comme en italien.
+C1	cautivador	captivant	Le ton captivant de sa voix a rempli le théâtre de silence.	De «cautivar».
+C1	hogaza	grosse miche de pain	Ils ont acheté une miche de pain tout juste cuite à la boulangerie du village.	Un gros pain rond rustique ; généralement «una hogaza de pan».
+C1	rehabilitar	rénover ; réhabiliter	Ils veulent rénover le vieux bâtiment du centre historique.	Employé aussi pour des personnes : «rehabilitar a un paciente».
+C1	sobremesa	conversation après le repas	La conversation à table s'est prolongée jusque tard dans l'après-midi.	Un mot typiquement espagnol : le temps passé à bavarder à table après un repas.

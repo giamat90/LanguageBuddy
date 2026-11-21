@@ -32,7 +32,7 @@ A1	dulce	-	adj	sweet	Mi café siempre es dulce.	My coffee is always sweet.	«Dul
 A1	caliente	-	adj	hot	El café está muy caliente.	The coffee is very hot.	For people say «tener calor», not «estar caliente», which means something else.
 A1	frío	-	adj	cold	La cerveza está bien fría.	The beer is very cold.	For the weather say «hace frío»; for people «tener frío».
 A1	sabroso	-	adj	delicious	Este plato es muy sabroso.	This dish is very tasty.	It is used mostly in Latin America; in Spain «rico» is preferred.
-A1	sal	la	noun	salt	Falta un poco de sal.	It needs a little salt.	It is «la sal» (feminine); in some rural areas «el sal» is heard by mistake.
+A1	sal	la	noun	salt	Falta un poco de sal.	It needs a little salt.	«Sal» is feminine: «la sal». It is also the imperative of «salir»: «¡Sal de aquí!».
 A1	azúcar	el	noun	sugar	No quiero azúcar en el café.	I do not want sugar in my coffee.	«Azúcar» can be masculine or feminine, but today «el azúcar» is almost always used.
 A1	casa	la	noun	house, home	Mi casa está cerca del parque.	My house is near the park.	«En casa» means «at home»: «estoy en casa», «voy a casa».
 A1	cuarto	el	noun	room, bedroom	Mi cuarto es pequeño pero cómodo.	My room is small but comfortable.	In Latin America «cuarto» is the room; «habitación» is more common in Spain.
@@ -43,10 +43,10 @@ A1	ventana	la	noun	window	La ventana da al jardín.	The window looks onto the ga
 A1	cama	la	noun	bed	Mi cama es muy cómoda.	My bed is very comfortable.	«Cama» is the bed; «cama matrimonial» is the double bed.
 A1	silla	la	noun	chair	Necesito una silla más alta.	I need a taller chair.	«Silla» is the chair; «sillón» is the armchair.
 A1	sofá	el	noun	sofa	El sofá es nuevo y grande.	The sofa is new and big.	It takes the accent on the last syllable: «sofá», plural «sofás».
-A1	llave	la	noun	key	¿Dónde está la llave de casa?	Where is the house key?	«Llave» is also the tap in some countries: «abrir la llave».
+A1	llave	la	noun	key	¿Dónde está la llave de casa?	Where is the house key?	«Llave» is also the tap in Latin America: «abrir la llave»; in Spain it is «grifo».
 A1	jardín	el	noun	garden	Mi abuelo cuida el jardín.	My grandfather looks after the garden.	«Jardín de infantes» is nursery school in Argentina.
 A1	familia	la	noun	family	Mi familia vive en Lima.	My family lives in Lima.	The noun is singular: «mi familia vive», not «viven», even if many people.
-A1	madre	la	noun	mother	Mi madre cocina muy bien.	My mother cooks very well.	In Latin America people also say «mamá»; «madre» is more formal.
+A1	madre	la	noun	mother	Mi madre cocina muy bien.	My mother cooks very well.	«Mamá» is the affectionate form, used everywhere; «madre» is more formal.
 A1	padre	el	noun	father	Mi padre trabaja en un banco.	My father works in a bank.	In the plural «los padres» are the parents, not only fathers.
 A1	hermano	el	noun	brother	Mi hermano tiene doce años.	My brother is twelve years old.	«Hermanos» can mean brothers and sisters together.
 A1	hijo	el	noun	son	Su hijo estudia medicina.	Her son studies medicine.	In the plural «los hijos» are the children, boys and girls.
@@ -58,7 +58,7 @@ A1	dormir	-	verb	to sleep	Necesito dormir ocho horas diarias.	I need to sleep ei
 A1	lavar	-	verb	to wash	Debo lavar la ropa hoy.	I must wash the clothes today.	«Lavarse» is to wash oneself: «me lavo las manos».
 A1	grande	-	adj	big, large	Mi casa no es muy grande.	My house is not very big.	Before a singular noun it becomes «gran»: «un gran día».
 A1	pequeño	-	adj	small	Vivo en un pueblo pequeño.	I live in a small town.	«Chico» is very common in Latin America instead of «pequeño».
-A1	nuevo	-	adj	new	Tenemos un sofá nuevo.	We have a new sofa.	Position: «un carro nuevo» (brand new) but «un nuevo carro» (another one).
+A1	nuevo	-	adj	new	Tenemos un sofá nuevo.	We have a new sofa.	It usually goes after the noun: «un sofá nuevo». It agrees: «nueva», «nuevos», «nuevas».
 A1	viejo	-	adj	old	Esta casa es muy vieja.	This house is very old.	For people «viejo» can offend: «mayor» is kinder.
 A1	limpio	-	adj	clean	La cocina está muy limpia.	The kitchen is very clean.	«Estar limpio» is clean right now; «ser limpio» describes a tidy person.
 A1	cómodo	-	adj	comfortable	Este sillón es muy cómodo.	This armchair is very comfortable.	«Cómodo» works for things and people: «estoy cómodo».
@@ -80,7 +80,7 @@ A1	billete	el	noun	ticket	Compro un billete de ida.	I buy a one-way ticket.	In L
 A1	hotel	el	noun	hotel	El hotel tiene una piscina.	The hotel has a swimming pool.	The «h» is silent: it is pronounced «otel».
 A1	mapa	el	noun	map	Necesito un mapa de la ciudad.	I need a map of the city.	It ends in «-a» but is masculine, like «día» and «problema».
 A1	maleta	la	noun	suitcase	Mi maleta es azul y grande.	My suitcase is blue and big.	«Hacer la maleta» means to pack the suitcase.
-A1	playa	la	noun	beach	Vamos a la playa el domingo.	We go to the beach on Sunday.	«Playa» is the beach, not the sea: the sea is «el mar».
+A1	playa	la	noun	beach	Vamos a la playa el domingo.	We go to the beach on Sunday.	«Playa» is the beach, not the sea: the sea is «el mar» (masculine). The coast is «la costa».
 A1	viajar	-	verb	to travel	Me gusta viajar con mi familia.	I like to travel with my family.	«Viajar» and «viaje» are written with «j».
 A1	llegar	-	verb	to arrive	Siempre llego temprano a la estación.	I always arrive early at the station.	The «g» becomes «gu» before «e»: «llegué».
 A1	salir	-	verb	to leave, to go out	El tren sale a las ocho.	The train leaves at eight.	False friend: «salir» is to go out or leave, not to go up (that is «subir»).
@@ -97,11 +97,11 @@ A1	allí	-	adv	there	Mi hermano vive allí desde 2020.	My brother has lived ther
 A1	derecha	la	noun	right (side)	El banco está a la derecha.	The bank is on the right.	You say «a la derecha» and «a la izquierda».
 A1	izquierda	la	noun	left (side)	Gira a la izquierda aquí.	Turn left here.	«Gira», «dobla» or «voltea»: three verbs for turning, depending on the country.
 A1	estación	la	noun	station	La estación está muy cerca.	The station is very close.	It also means «season»: «las cuatro estaciones».
-A1	aeropuerto	el	noun	airport	El aeropuerto es muy moderno.	The airport is very modern.	The airport often has an acronym: «AIFA» in Mexico City.
+A1	aeropuerto	el	noun	airport	El aeropuerto es muy moderno.	The airport is very modern.	Do not mix up «puerto» (port) and «puerta» (door). At the airport there is «la puerta de embarque» (the gate).
 A1	rápido	-	adj	fast, quick	El tren es muy rápido.	The train is very fast.	As an adverb it stays the same: «habla rápido».
 A1	lento	-	adj	slow	El autobús es demasiado lento.	The bus is too slow.	Opposite of «rápido»; «despacio» is the adverb «slowly».
 A1	barato	-	adj	cheap	El hotel es muy barato.	The hotel is very cheap.	Opposite: «caro». «Salir barato» means to work out cheap.
-A1	trabajo	el	noun	work, job	Mi trabajo empieza a las ocho.	My work starts at eight.	«Trabajo» is both work in general and a job; «empleo» is the position.
+A1	trabajo	el	noun	work, job	Mi trabajo empieza a las ocho.	My work starts at eight.	«Trabajo» is work or a job: «buscar trabajo». The verb is «trabajar». «Empleo» is a formal word for employment.
 A1	oficina	la	noun	office	Mi oficina está en el centro.	My office is in the city centre.	«Oficina» is the office; «despacho» is a manager's room.
 A1	jefe	el	noun	boss	Mi jefe habla tres idiomas.	My boss speaks three languages.	For a woman you say «la jefa».
 A1	empresa	la	noun	company	Mi empresa vende ropa en línea.	My company sells clothes online.	«Empresa» is a business; «compañía» is more formal or international.
@@ -133,7 +133,7 @@ A1	estudiante	el	noun	student	Mi hermana es estudiante de medicina.	My sister is
 A1	doctor	el	noun	doctor	Mi tío es doctor en física.	My uncle has a doctorate in physics.	Feminine: «la doctora»; «médico» is the profession of physician.
 A1	cliente	el	noun	client, customer	El cliente quiere hablar contigo.	The client wants to talk to you.	The same in masculine and feminine: «el/la cliente».
 A1	tienda	la	noun	shop, store	La tienda abre a las nueve.	The shop opens at nine.	«Tienda» is the shop; «tienda de campaña» is the camping tent.
-A1	mercado	el	noun	market	Compro verduras en el mercado.	I buy vegetables at the market.	In Latin America local markets are lively places: «el mercado central».
+A1	mercado	el	noun	market	Compro verduras en el mercado.	I buy vegetables at the market.	«El mercado» is the market; the supermarket is «el supermercado». Also «mercado laboral» (job market).
 A1	precio	el	noun	price	El precio de la camisa es bajo.	The price of the shirt is low.	You say «un precio bajo/alto», not small/big.
 A1	ropa	la	noun	clothes	Quiero comprar ropa nueva.	I want to buy new clothes.	«Ropa» is a collective singular: «la ropa está limpia».
 A1	camisa	la	noun	shirt	Esta camisa es de algodón.	This shirt is made of cotton.	It is not the «camiseta» (T-shirt), which is more casual.
@@ -148,7 +148,6 @@ A1	vender	-	verb	to sell	Mi tío vende zapatos en el mercado.	My uncle sells sho
 A1	costar	-	verb	to cost	¿Cuánto puede costar esta camisa?	How much can this shirt cost?	The stem changes: «cuesta» (o→ue).
 A1	llevar	-	verb	to take; to wear	Hoy llevo una camisa blanca.	Today I am wearing a white shirt.	«Llevar» means to take along and to wear.
 A1	probar	-	verb	to try; to taste	Voy a probar estos zapatos.	I am going to try these shoes.	The stem changes: «pruebo» (o→ue).
-A1	elegir	-	verb	to choose	Es difícil elegir un regalo.	It is hard to choose a gift.	«Escoger» is a very common synonym.
 A1	caro	-	adj	expensive	Este abrigo es demasiado caro.	This coat is too expensive.	Feminine «cara»; «salir caro» means to turn out expensive.
 A1	bonito	-	adj	pretty, nice	Tu camisa es muy bonita.	Your shirt is very pretty.	«Bonito» is colloquial and widespread in Latin America; «bello» is more formal.
 A1	blanco	-	adj	white	Quiero una camisa blanca.	I want a white shirt.	Colours follow the noun: «una camisa blanca».
@@ -175,13 +174,12 @@ A1	farmacia	la	noun	pharmacy	La farmacia cierra a las diez.	The pharmacy closes 
 A1	dolor	el	noun	pain	Tengo un dolor en la espalda.	I have a pain in my back.	You say «tener dolor de cabeza» for a headache.
 A1	fiebre	la	noun	fever	Mi hijo tiene fiebre desde ayer.	My son has had a fever since yesterday.	You say «tener fiebre».
 A1	sueño	el	noun	sleep; dream	Tengo mucho sueño esta noche.	I am very sleepy tonight.	It means both sleep and dream: «tener sueño», «un sueño bonito».
-A1	sentir	-	verb	to feel	Hoy quiero sentir el sol.	Today I want to feel the sun.	«Lo siento» means «I am sorry».
+A1	sentir	-	verb	to feel	Quiero sentir el sol hoy.	I want to feel the sun today.	«Lo siento» means «I am sorry». For feelings use «sentirse»: «me siento bien».
 A1	doler	-	verb	to hurt	Me va a doler la espalda mañana.	My back is going to hurt tomorrow.	It takes the indirect object: «me duele», «te duelen los pies».
 A1	descansar	-	verb	to rest	Necesito descansar un poco hoy.	I need to rest a little today.	«Descanso» is the break or rest.
 A1	cuidar	-	verb	to look after	Debo cuidar mi salud mejor.	I must look after my health better.	«¡Cuídate!» is a farewell: «take care».
 A1	tomar	-	verb	to take; to drink	Voy a tomar una pastilla.	I am going to take a pill.	In Latin America «tomar» also means «to drink».
 A1	mejorar	-	verb	to improve	Quiero mejorar mi salud este año.	I want to improve my health this year.	«Mejor» is both «better» (adv.) and «better» (adj.).
-A1	sano	-	adj	healthy	Mi abuelo es un hombre sano.	My grandfather is a healthy man.	For sound of mind say «cuerdo»; «sano» is mostly about the body.
 A1	enfermo	-	adj	ill, sick	Mi hijo está enfermo hoy.	My son is ill today.	«Estar enfermo» is being ill now; «un enfermo» is a patient.
 A1	fuerte	-	adj	strong	Mi abuela es muy fuerte.	My grandmother is very strong.	It also applies to sounds: «un ruido fuerte».
 A1	débil	-	adj	weak	Me siento débil después de la fiebre.	I feel weak after the fever.	Opposite of «fuerte».
@@ -224,7 +222,7 @@ A1	ayer	-	adv	yesterday	Ayer vimos una película muy buena.	Yesterday we saw a v
 A1	tarde	la	noun	afternoon	Por la tarde voy al parque.	In the afternoon I go to the park.	«Tarde» is also the adverb «late»: «llegas tarde».
 A1	siempre	-	adv	always	Siempre escucho música por la mañana.	I always listen to music in the morning.	Opposite: «nunca».
 A1	nunca	-	adv	never	Nunca bebo café por la noche.	I never drink coffee at night.	With «nunca» after the verb you need «no»: «no bebo nunca café».
-A1	hola	-	adv	hello	Hola, me llamo Ana.	Hello, my name is Ana.	The «h» is silent. «Hola» works at any hour and in any setting.
+A1	hola	-	adv	hello	Hola, no hablo muy bien español.	Hello, I do not speak Spanish very well.	The «h» is silent. «Hola» works at any hour and in any setting.
 A1	adiós	-	adv	goodbye	Adiós, nos vemos mañana.	Goodbye, see you tomorrow.	Less final than the Italian «addio»: it is an ordinary farewell.
 A1	gracias	-	adv	thanks	Muchas gracias por tu ayuda.	Thank you very much for your help.	You answer «de nada» or «con gusto» (Latin America).
 A1	por favor	-	adv	please	Un café, por favor, y la cuenta.	A coffee, please, and the bill.	It is used almost every time you ask for something.
@@ -238,7 +236,7 @@ A1	vida	la	noun	life	La vida es muy bonita.	Life is very beautiful.	«¡Es la vi
 A1	tiempo	el	noun	time; weather	No tengo mucho tiempo hoy.	I do not have much time today.	It means both time and weather: «hace buen tiempo».
 A1	mundo	el	noun	world	Quiero conocer el mundo entero.	I want to see the whole world.	«Todo el mundo» means «everybody».
 A1	hombre	el	noun	man	Ese hombre es mi tío.	That man is my uncle.	The «h» is silent.
-A1	mujer	la	noun	woman	Mi madre es una mujer fuerte.	My mother is a strong woman.	«Mujer» also means «wife».
+A1	mujer	la	noun	woman	Mi madre es una mujer fuerte.	My mother is a strong woman.	It can also mean «wife»: «mi mujer». More formal: «esposa».
 A1	niño	el	noun	boy, child	El niño juega en la calle.	The boy plays in the street.	Feminine «niña». The «ñ» matters.
 A1	ser	-	verb	to be (identity)	Soy estudiante y quiero ser doctor.	I am a student and I want to be a doctor.	«Ser» for identity, origin, profession; «estar» for state and location.
 A1	estar	-	verb	to be (state, location)	Estoy en casa ahora.	I am at home now.	It is for location and state: «estoy en casa», «estoy cansado».
@@ -270,7 +268,7 @@ A1	decir	-	verb	to say, to tell	¿Puedes decir tu nombre otra vez?	Can you say y
 A1	dar	-	verb	to give	Voy a dar un regalo a mi madre.	I am going to give my mother a gift.	Irregular only in the first person: «doy».
 A1	poner	-	verb	to put	Voy a poner la mesa ahora.	I am going to set the table now.	«Poner la mesa» is to set the table; irregular: «pongo».
 A1	usar	-	verb	to use	Necesito usar el teléfono ahora.	I need to use the phone now.	«Utilizar» is more formal.
-A1	visitar	-	verb	to visit	Quiero visitar a mis abuelos pronto.	I want to visit my grandparents soon.	With people: «visitar a alguien»; with places, no «a».
+A1	visitar	-	verb	to visit	Quiero visitar a mis abuelos pronto.	I want to visit my grandparents soon.	You say «visitar a alguien» (to go and see someone) and «visitar un lugar» (to visit a place).
 A1	entrar	-	verb	to enter	Puedes entrar por la puerta principal.	You can enter through the main door.	In Latin America «entrar a» is very common; in Spain «entrar en».
 A1	volver	-	verb	to come back	Voy a volver a casa temprano.	I am going to come back home early.	The stem changes: «vuelvo» (o→ue); «volver a» + infinitive means «to do again».
 A1	subir	-	verb	to go up	Tienes que subir al segundo piso.	You have to go up to the second floor.	Opposite: «bajar». Do not confuse with «salir».
@@ -278,7 +276,6 @@ A1	bajar	-	verb	to go down	Voy a bajar en la próxima parada.	I am going to get 
 A1	tocar	-	verb	to touch; to play (instrument)	Mi hermano sabe tocar la guitarra.	My brother can play the guitar.	One verb for touching and playing.
 A1	practicar	-	verb	to practise	Me gusta practicar deporte los sábados.	I like to practise sport on Saturdays.	«Practicar deporte» means doing sport.
 A1	invitar	-	verb	to invite	Quiero invitar a mis amigos a cenar.	I want to invite my friends to dinner.	«Invitar» can also mean «to treat»: «yo invito».
-A1	recibir	-	verb	to receive	Voy a recibir un paquete mañana.	I am going to receive a parcel tomorrow.	«Recibir» is to receive.
 A1	decidir	-	verb	to decide	Tenemos que decidir el precio hoy.	We have to decide on the price today.	«Decidirse» is to make up one's mind.
 A1	olvidar	-	verb	to forget	No quiero olvidar mi llave otra vez.	I do not want to forget my key again.	«Olvidarse de» or «olvidar» without a preposition: «olvidé la llave».
 A1	compartir	-	verb	to share	Me gusta compartir la casa con amigos.	I like to share my house with friends.	«Compartir» is to share.
@@ -302,3 +299,4 @@ A1	de	-	prep	of, from	Soy de una ciudad pequeña.	I am from a small city.	«De»
 A1	a	-	prep	to, at	Voy a la oficina en autobús.	I go to the office by bus.	Before a direct-object person: «veo a mi madre».
 A1	o	-	conj	or	¿Quieres té o café ahora?	Do you want tea or coffee now?	Before «o-» it becomes «u»: «siete u ocho».
 A1	cuando	-	conj	when	Cuando llego, preparo la cena.	When I arrive, I prepare dinner.	With the accent «¿cuándo?» is the question.
+A1	cumpleaños	el	noun	birthday	Mi cumpleaños es en diciembre.	My birthday is in December.	Unchanged in the plural: «dos cumpleaños».

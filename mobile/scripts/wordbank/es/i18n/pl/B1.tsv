@@ -1,7 +1,7 @@
 B1	internet	internet	Bez internetu dziś nie mogę pracować.	Mówi się «el internet» i samo «internet».
 B1	pantalla	ekran	Ekran mojego telefonu jest pęknięty.	«Pantalla» to też abażur.
 B1	contraseña	hasło	Zapomniałem hasła do poczty.	«Seña» to znak.
-B1	archivo	plik	Wyślę plik mailem jutro.	«Archivo» to też archiwum.
+B1	archivo	plik	Jutro wyślę ci plik.	«Archivo» to także archiwum.
 B1	aplicación	aplikacja	Dziś pobieram nową aplikację.	Krótka forma «app».
 B1	descargar	pobierać	Pobiorę program dziś wieczorem.	«Descarga» to pobieranie.
 B1	conectarse	łączyć się	Łączę się z internetem przez telefon.	«Conexión» to połączenie.
@@ -62,7 +62,6 @@ B1	frijol	fasola	Czarna fasola jest popularna na Kubie.	«Frijol» w Ameryce Ła
 B1	aguacate	awokado	Codziennie rano kładę awokado na chleb.	W Chile i Argentynie «palta».
 B1	chile	papryczka chili	Ta papryczka jest dla mnie zbyt ostra.	Nie tylko kraj: «chile» to też papryczka.
 B1	tamal	tamal	Moja mama co roku na Boże Narodzenie robi tamal.	Ciasto kukurydziane gotowane w liściach.
-B1	mole	mole (sos)	Mole poblano zawiera czekoladę i chili.	Typowy meksykański sos.
 B1	aderezo	sos (do sałatki)	Do sałatki używam lekkiego sosu.	W Hiszpanii «aliño».
 B1	condimentar	przyprawiać (przyprawami)	Przyprawię kurczaka czosnkiem i cytryną.	«Condimento» to przyprawa.
 B1	ajo	czosnek	Zawsze dodaję czosnek do sosów.	«J» to dźwięk gardłowy.
@@ -156,9 +155,9 @@ B1	póliza	polisa	Moja polisa pokrywa koszty leczenia.	«Seguro médico» to ube
 B1	agotado	wyczerpany	Byłem wyczerpany po długiej podróży.	Od «agotar».
 B1	preocupado	zmartwiony	Mama jest zmartwiona moim egzaminem.	Używa się z «estar».
 B1	asustado	przestraszony	Dziecko było przestraszone burzą.	Od «susto».
-B1	avergonzado	zawstydzony	Wstydzę się mojego wczorajszego błędu.	Od «vergüenza».
+B1	avergonzado	zawstydzony	Wstydzę się wczorajszego błędu.	Od «avergonzarse»: «me avergüenzo» (z dierezą).
 B1	tímido	nieśmiały	Mój syn jest bardzo nieśmiały wobec obcych.	Jak po włosku.
-B1	sensible	wrażliwy	Moja siostra jest bardzo wrażliwa na krytykę.	Fałszywy przyjaciel «sensato».
+B1	sensible	wrażliwy	Moja siostra jest bardzo wrażliwa na krytykę.	Jak włoskie «sensibile». Nie «sensato» (rozsądny, mądry): to inne hiszpańskie słowo.
 B1	sociedad	społeczeństwo	Dziś społeczeństwo zmienia się bardzo szybko.	Liczba mnoga «sociedades».
 B1	derecho	prawo	Wszyscy mamy prawo do edukacji.	Także przymiotnik «derecho» (prosty).
 B1	libertad	wolność	Wolność prasy jest podstawowa.	Liczba mnoga «libertades».
@@ -231,8 +230,8 @@ B1	impuesto	podatek	Podatek wzrośnie w przyszłym roku.	«Impuestos» w liczbie
 B1	ganancia	zysk	Zysk z tego miesiąca był bardzo mały.	Od «ganar».
 B1	pérdida	strata	W maju firma poniosła dużą stratę.	Od «perder».
 B1	inversión	inwestycja	Kupno domu to dobra inwestycja.	Liczba mnoga «inversiones».
-B1	ahorro	oszczędności	Moje oszczędności są na letnią podróż.	Często w liczbie mnogiej.
-B1	sucursal	oddział	Oddział banku jest na placu.	Z łac. «succursus»: to, co wspiera centralę.
+B1	ahorro	oszczędność	Moje oszczędności są przeznaczone na podróż.	Zwykle w liczbie mnogiej: «ahorros» to odłożone pieniądze. Czasownik to «ahorrar».
+B1	sucursal	oddział	Oddział banku jest na placu.	Oddział banku lub firmy; centrala to «la sede central».
 B1	reembolso	zwrot pieniędzy	Poprosiłem o zwrot pieniędzy, bo produkt był zepsuty.	«Reembolsar» to zwracać pieniądze.
 B1	envío	wysyłka	Wysyłka jest darmowa przy dużych zakupach.	Także forma od «enviar».
 B1	pedido	zamówienie	Moje zamówienie przyjdzie jutro po południu.	To też imiesłów od «pedir».
@@ -243,13 +242,12 @@ B1	rebajar	obniżać (cenę)	W styczniu obniżą ceny.	«Rebajas» to wyprzedaż
 B1	reclamar	reklamować, skarżyć się	Złożę skargę na złą obsługę.	«Reclamación» to reklamacja.
 B1	facturar	fakturować	W grudniu moja firma wystawia dużo faktur.	Także nadawać bagaż.
 B1	empaquetar	pakować	Zapakujemy prezenty przed wyjściem.	«Paquete» to paczka.
-B1	envolver	zawijać	Czy może pan zapakować prezent, proszę?	Zmienia się o→ue: «envuelvo».
+B1	envolver	zawijać, pakować	Czy może pan zapakować prezent, proszę?	Zmienia o→ue: «envuelvo».
 B1	rentable	opłacalny	Ten interes jest bardzo opłacalny.	Od «renta».
 B1	asequible	przystępny (cenowo)	Cena tego kursu jest przystępna.	Fałszywy przyjaciel włoskiego.
 B1	gratuito	bezpłatny	Dziś wstęp do muzeum jest bezpłatny.	Bardziej formalne niż «gratis».
 B1	defectuoso	wadliwy	Produkt był wadliwy od początku.	Od «defecto».
-B1	imprescindible	niezbędny	Niezbędne jest zachowanie paragonu.	Często z «ser».
-B1	anticipar	przyspieszyć	Chcę przyspieszyć podróż o tydzień.	Znaczy przyspieszyć termin.
+B1	anticipar	uprzedzać, ujawniać wcześniej	Nie chcę jeszcze nic zdradzać.	Jak włoskie «anticipare» (powiedzieć lub zapłacić z wyprzedzeniem). Przyspieszyć termin to zwykle «adelantar».
 B1	comprobar	sprawdzać	Sprawdzę godzinę lotu.	Zmienia się o→ue: «compruebo».
 B1	lograr	osiągać	Chcę spełnić marzenie o podróżach.	«Lograr + bezokolicznik» to zdołać.
 B1	intentar	próbować	Spróbuję porozmawiać z szefem.	«Intento» to próba.
@@ -265,7 +263,7 @@ B1	adaptarse	przystosowywać się	Mój syn dobrze przystosował się do szkoły.
 B1	echar	wrzucać; dodawać	Dodam trochę soli do zupy.	«Echar de menos» to tęsknić.
 B1	mezclarse	mieszać się	Moja siostra obraca się wśród bardzo różnych ludzi.	Zwrotny.
 B1	colocar	umieszczać	Postawię książki na półce.	«Colocar» + miejsce.
-B1	rodear	otaczać	Las będzie otaczał nowy dom.	«Rodeo» to też rodeo.
+B1	rodear	otaczać	Dom otacza ogród.	«Rodeo» to okrężna droga («dar un rodeo») oraz pokaz jeździecki.
 B1	cubrir	przykrywać	Ta plandeka może przykryć cały stół.	Imiesłów nieregularny: «cubierto».
 B1	meter	wkładać	Włożę ubrania do walizki.	«Meterse» to wchodzić.
 B1	sacudir	otrząsać	Wytrzepię dywan na podwórku.	«Sacudida» to wstrząs.
@@ -284,3 +282,12 @@ B1	apenas	ledwie	W tym tygodniu ledwie mam wolny czas.	Także „gdy tylko”.
 B1	sin embargo	jednak	Jest drogo; jednak warto.	Formalny spójnik.
 B1	por lo tanto	zatem	Mocno pada, zatem zostajemy.	Formalny spójnik skutku.
 B1	mientras tanto	tymczasem	Ja gotuję, a ty tymczasem nakrywasz do stołu.	Wyrażenie.
+B1	cargo	stanowisko; obciążenie	Ona zajmuje ważne stanowisko w firmie.	«Estar a cargo» znaczy być odpowiedzialnym, kierować.
+B1	probador	przymierzalnia	Przymierzalnia jest na końcu.	«Probarse» to przymierzać ubranie: «¿Puedo probarme esto?».
+B1	carretera	szosa	Szosa była zamknięta z powodu śniegu.	«Carretera» to droga poza miastem.
+B1	abogado	adwokat	Muszę porozmawiać z adwokatem.	Rodzaj żeński: «abogada».
+B1	seguridad	bezpieczeństwo	Bezpieczeństwo danych jest niezbędne.	Od «seguro». «Seguridad social» to ubezpieczenie społeczne.
+B1	albergue	schronisko	Spaliśmy w schronisku niedaleko plaży.	To nie luksusowy hotel («hotel»): to schronisko lub przytułek. Pielgrzymi na Camino de Santiago nocują w «albergues».
+B1	puerto	port	Port jest sercem miasta.	Także przełęcz górska («puerto de montaña»). «Puerto Rico» = «bogaty port».
+B1	ruta	szlak, trasa	Trasa wiedzie przez malownicze wsie i zielone doliny.	W Ameryce Łacińskiej także droga krajowa: «la ruta 40».
+B1	sartén	patelnia	Wlej trochę oleju na patelnię.	Rodzaj żeński: «la sartén» (w Ameryce Łacińskiej słyszy się też «el sartén»). Garnek do gotowania to «olla».

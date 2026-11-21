@@ -32,7 +32,7 @@ A1	dulce	甘い	私のコーヒーはいつも甘いです。	«Dulce»は形容
 A1	caliente	熱い	コーヒーはとても熱いです。	人が暑いときは«tener calor»と言い、«estar caliente»は別の意味になります。
 A1	frío	冷たい	ビールはよく冷えています。	天気には«hace frío»、人には«tener frío»と言います。
 A1	sabroso	美味な	この料理はとても美味です。	主にラテンアメリカで使われ、スペインでは«rico»が好まれます。
-A1	sal	塩	塩が少し足りません。	«la sal»（女性）と言います。田舎では誤って«el sal»と聞こえることがあります。
+A1	sal	塩	塩が少し足りません。	«Sal»は女性名詞で、«la sal»です。また«salir»の命令形でもあります。«¡Sal de aquí!»(ここから出ていけ!)。
 A1	azúcar	砂糖	コーヒーに砂糖はいりません。	«Azúcar»は男性にも女性にもなりますが、今はほぼ«el azúcar»を使います。
 A1	casa	家	私の家は公園の近くです。	«En casa»は「家で」の意味です。«estoy en casa»、«voy a casa»。
 A1	cuarto	部屋	私の部屋は小さいですが快適です。	ラテンアメリカでは«cuarto»が部屋で、スペインでは«habitación»が一般的です。
@@ -43,10 +43,10 @@ A1	ventana	窓	窓は庭に面しています。	«Ventana»は«viento»（風�
 A1	cama	ベッド	私のベッドはとても快適です。	«Cama»はベッドで、«cama matrimonial»はダブルベッドです。
 A1	silla	椅子	もっと高い椅子が必要です。	«Silla»は椅子で、«sillón»は肘掛け椅子です。
 A1	sofá	ソファ	ソファは新しくて大きいです。	アクセントは最後の音節にあります。«sofá»、複数は«sofás»。
-A1	llave	鍵	家の鍵はどこですか。	«Llave»は国によっては蛇口も指します。«abrir la llave»。
+A1	llave	鍵	家の鍵はどこですか?	«Llave»はラテンアメリカでは水道の蛇口の意味にもなります。«abrir la llave»。スペインでは«grifo»です。
 A1	jardín	庭	祖父は庭の手入れをします。	«Jardín de infantes»はアルゼンチンでは幼稚園のことです。
 A1	familia	家族	私の家族はリマに住んでいます。	名詞は単数です。人数が多くても«viven»ではなく«mi familia vive»です。
-A1	madre	母	母は料理がとても上手です。	ラテンアメリカでは«mamá»とも言い、«madre»はよりあらたまった言い方です。
+A1	madre	母	私の母は料理がとても上手です。	«Mamá»は愛情のこもった呼び方で、どこでも使われます。«Madre»はもっと改まった言い方です。
 A1	padre	父	父は銀行で働いています。	複数の«los padres»は父親だけでなく両親を指します。
 A1	hermano	兄、弟	弟は十二歳です。	«Hermanos»は兄弟姉妹をまとめて指すこともあります。
 A1	hijo	息子	彼女の息子は医学を勉強しています。	複数の«los hijos»は男の子と女の子を合わせた子どもたちです。
@@ -58,7 +58,7 @@ A1	dormir	眠る	私は一日八時間眠る必要があります。	現在形�
 A1	lavar	洗う	今日は洗濯をしなければなりません。	«Lavarse»は自分の体を洗うことです。«me lavo las manos»。
 A1	grande	大きい	私の家はあまり大きくありません。	単数名詞の前では«gran»になります。«un gran día»。
 A1	pequeño	小さい	私は小さな町に住んでいます。	ラテンアメリカでは«pequeño»の代わりに«chico»がよく使われます。
-A1	nuevo	新しい	私たちは新しいソファを持っています。	位置が重要です。«un carro nuevo»（新品）と«un nuevo carro»（別の車）。
+A1	nuevo	新しい	私たちは新しいソファを持っています。	ふつう名詞の後ろに置きます。«un sofá nuevo»。性数変化します。«nueva»、«nuevos»、«nuevas»。
 A1	viejo	古い、年老いた	この家はとても古いです。	人に«viejo»と言うと失礼なことがあり、«mayor»のほうが優しい言い方です。
 A1	limpio	きれいな	台所はとてもきれいです。	«Estar limpio»は今きれいな状態、«ser limpio»はきれい好きな人を表します。
 A1	cómodo	快適な	この肘掛け椅子はとても快適です。	«Cómodo»は物にも人にも使います。«estoy cómodo»。
@@ -80,7 +80,7 @@ A1	billete	切符	片道切符を買います。	ラテンアメリカでは普�
 A1	hotel	ホテル	ホテルにはプールがあります。	«h»は発音せず、「オテル」と読みます。
 A1	mapa	地図	町の地図が必要です。	«-a»で終わりますが男性名詞で、«día»や«problema»と同じです。
 A1	maleta	スーツケース	私のスーツケースは青くて大きいです。	«Hacer la maleta»はスーツケースに荷物を詰めることです。
-A1	playa	ビーチ	日曜日にビーチへ行きます。	«Playa»は海岸のことで海ではありません。海は«el mar»です。
+A1	playa	浜辺、ビーチ	日曜日に私たちはビーチへ行きます。	«Playa»は浜辺であって海ではありません。海は«el mar»(男性名詞)です。海岸は«la costa»です。
 A1	viajar	旅行する	私は家族と旅行するのが好きです。	«Viajar»と«viaje»は«j»で書きます。
 A1	llegar	着く	私はいつも早く駅に着きます。	«e»の前で«g»は«gu»になります。«llegué»。
 A1	salir	出る、出発する	電車は八時に出ます。	偽りの友：«salir»は出る・出発することで、上がることではありません（それは«subir»）。
@@ -97,11 +97,11 @@ A1	allí	あそこ	兄は2020年からあそこに住んでいます。	もっ�
 A1	derecha	右（側）	銀行は右側にあります。	«a la derecha»と«a la izquierda»と言います。
 A1	izquierda	左（側）	ここで左に曲がってください。	«Gira»、«dobla»、«voltea»：曲がるための三つの動詞で、国によって使い分けます。
 A1	estación	駅	駅はすぐ近くです。	「季節」も意味します。«las cuatro estaciones»。
-A1	aeropuerto	空港	空港はとても近代的です。	空港には略称があることが多く、メキシコシティでは«AIFA»です。
+A1	aeropuerto	空港	その空港はとても近代的です。	«puerto»(港)と«puerta»(ドア)を混同しないでください。空港には«la puerta de embarque»(搭乗ゲート)があります。
 A1	rápido	速い	電車はとても速いです。	副詞としては形が変わりません。«habla rápido»。
 A1	lento	遅い	バスは遅すぎます。	«rápido»の反対で、«despacio»は副詞「ゆっくり」です。
 A1	barato	安い	そのホテルはとても安いです。	反対は«caro»。«Salir barato»は安くつくという意味です。
-A1	trabajo	仕事	私の仕事は八時に始まります。	«Trabajo»は仕事一般と職の両方を指し、«empleo»は職位です。
+A1	trabajo	仕事、労働	私の仕事は8時に始まります。	«Trabajo»は仕事や職のことです。«buscar trabajo»。動詞は«trabajar»です。«Empleo»は雇用を意味する改まった語です。
 A1	oficina	事務所	私の事務所は中心街にあります。	«Oficina»は場所としての事務所で、«despacho»は管理職の部屋です。
 A1	jefe	上司	私の上司は三か国語を話します。	女性には«la jefa»と言います。
 A1	empresa	会社	私の会社は衣料品をオンラインで売っています。	«Empresa»は事業、«compañía»はよりあらたまった、または国際的な会社です。
@@ -133,7 +133,7 @@ A1	estudiante	学生	姉は医学部の学生です。	男性形と女性形が�
 A1	doctor	博士、医者	おじは物理学の博士です。	女性形は«la doctora»で、«médico»は医師という職業です。
 A1	cliente	顧客	お客さんがあなたと話したがっています。	男性形と女性形が同じです。«el/la cliente»。
 A1	tienda	店	店は九時に開きます。	«Tienda»は店で、«tienda de campaña»はキャンプ用のテントです。
-A1	mercado	市場	私は市場で野菜を買います。	ラテンアメリカでは地元の市場がとてもにぎやかです。«el mercado central»。
+A1	mercado	市場	私は市場で野菜を買います。	«El mercado»は市場で、スーパーマーケットは«el supermercado»です。«mercado laboral»(労働市場)もあります。
 A1	precio	値段	シャツの値段は安いです。	「小さい／大きい」ではなく«un precio bajo/alto»と言います。
 A1	ropa	服	私は新しい服を買いたいです。	«Ropa»は単数の集合名詞です。«la ropa está limpia»。
 A1	camisa	シャツ	このシャツは綿です。	よりカジュアルな«camiseta»（Tシャツ）ではありません。
@@ -148,7 +148,6 @@ A1	vender	売る	おじは市場で靴を売っています。	«Vendedor»は�
 A1	costar	値段が～する	このシャツはいくらくらいですか。	語幹が変わります。«cuesta»（o→ue）。
 A1	llevar	持って行く；着る	今日は白いシャツを着ています。	«Llevar»は持って行くことと服を着ることの両方を指します。
 A1	probar	試着する；味見する	この靴を試してみます。	語幹が変わります。«pruebo»（o→ue）。
-A1	elegir	選ぶ	プレゼントを選ぶのは難しいです。	«Escoger»はとてもよく使う同義語です。
 A1	caro	高い	このコートは高すぎます。	女性形は«cara»で、«salir caro»は高くつくという意味です。
 A1	bonito	かわいい、すてきな	あなたのシャツはとてもきれいです。	«Bonito»は口語でラテンアメリカに広く、«bello»はよりあらたまっています。
 A1	blanco	白い	白いシャツがほしいです。	色は名詞の後に来ます。«una camisa blanca»。
@@ -175,13 +174,12 @@ A1	farmacia	薬局	薬局は十時に閉まります。	スペインでは薬局
 A1	dolor	痛み	背中に痛みがあります。	頭痛には«tener dolor de cabeza»と言います。
 A1	fiebre	熱	息子は昨日から熱があります。	«Tener fiebre»と言います。
 A1	sueño	眠気；夢	今夜はとても眠いです。	眠気と夢の両方を意味します。«tener sueño»、«un sueño bonito»。
-A1	sentir	感じる	今日は太陽を感じたいです。	«Lo siento»は「ごめんなさい」という意味です。
+A1	sentir	感じる	今日は太陽を感じたい。	«Lo siento»は「ごめんなさい」の意味です。気持ちを言うときは«sentirse»を使います。«me siento bien»。
 A1	doler	痛む	明日は背中が痛くなります。	間接目的語と使います。«me duele»、«te duelen los pies»。
 A1	descansar	休む	今日は少し休む必要があります。	«Descanso»は休憩や休息です。
 A1	cuidar	大切にする	私は健康をもっと大切にしなければなりません。	«¡Cuídate!»は別れの言葉で「お大事に」です。
 A1	tomar	取る；飲む	私は錠剤を飲みます。	ラテンアメリカでは«tomar»は「飲む」という意味もあります。
 A1	mejorar	良くする	今年は健康を改善したいです。	«Mejor»は「より良く」（副詞）と「より良い」（形容詞）の両方です。
-A1	sano	健康な	祖父は健康な人です。	精神の健全さには«cuerdo»と言い、«sano»は主に体についてです。
 A1	enfermo	病気の	息子は今日病気です。	«Estar enfermo»は今病気であること、«un enfermo»は患者です。
 A1	fuerte	強い	祖母はとても強いです。	音にも使います。«un ruido fuerte»。
 A1	débil	弱い	熱の後で弱っているように感じます。	«fuerte»の反対です。
@@ -224,7 +222,7 @@ A1	ayer	昨日	昨日はとてもいい映画を見ました。	過去形と一�
 A1	tarde	午後	午後は公園に行きます。	«Tarde»は副詞「遅く」でもあります。«llegas tarde»。
 A1	siempre	いつも	私はいつも朝に音楽を聴きます。	反対は«nunca»です。
 A1	nunca	決して～ない	私は夜には決してコーヒーを飲みません。	«Nunca»が動詞の後に来る場合は«no»が必要です。«no bebo nunca café»。
-A1	hola	こんにちは	こんにちは、私の名前はアナです。	«h»は発音しません。«Hola»はどの時間でも、どんな場面でも使えます。
+A1	hola	こんにちは	こんにちは、私はスペイン語があまり上手ではありません。	«h»は発音しません。«Hola»はどの時間帯でも、どんな場面でも使えます。
 A1	adiós	さようなら	さようなら、また明日。	イタリア語の«addio»ほど決定的ではなく、普通の別れの挨拶です。
 A1	gracias	ありがとう	助けてくれて本当にありがとう。	«de nada»または«con gusto»（ラテンアメリカ）と答えます。
 A1	por favor	お願いします	コーヒーをお願いします、それとお会計も。	何かを頼むときはほぼ毎回使います。
@@ -238,7 +236,7 @@ A1	vida	人生、生活	人生はとても美しいです。	«¡Es la vida!»�
 A1	tiempo	時間；天気	今日はあまり時間がありません。	時間と天気の両方を意味します。«hace buen tiempo»。
 A1	mundo	世界	私は世界中を知りたいです。	«Todo el mundo»は「みんな」という意味です。
 A1	hombre	男の人	あの男の人は私のおじです。	«h»は発音しません。
-A1	mujer	女の人	母は強い女性です。	«Mujer»は「妻」も意味します。
+A1	mujer	女性	私の母は強い女性です。	「妻」の意味にもなります。«mi mujer»。より改まった言い方は«esposa»です。
 A1	niño	男の子、子ども	男の子が通りで遊んでいます。	女性形は«niña»です。«ñ»が大切です。
 A1	ser	～である（本質）	私は学生で、医者になりたいです。	«Ser»は身元・出身・職業に、«estar»は状態と場所に使います。
 A1	estar	～にいる、～である（状態、場所）	私は今、家にいます。	場所と状態に使います。«estoy en casa»、«estoy cansado»。
@@ -258,7 +256,7 @@ A1	ellos	彼ら	彼らは事務所で働いています。	女性形は«ellas»
 A1	este	この	この本はとても面白いです。	«Este»は指示詞「この」です。
 A1	y	と、そして	母と父はここに住んでいます。	«i-»の前では«e»になります。«padre e hijo»。
 A1	pero	しかし	行きたいですが、行けません。	«Pero»（しかし）と«perro»（犬）は«rr»で区別します。
-A1	porque	なぜなら	今日は疲れているので出かけません。	«Porque»は答え、«por qué»（二語）は質問です。
+A1	porque	なぜなら、〜ので	今日は疲れているので、出かけません。	«Porque»は答えに使い、«por qué»(2語)は質問に使います。
 A1	con	～と、～で	私は犬と公園に行きます。	«Conmigo»と«contigo»は特別な形です。
 A1	sin	～なしで	私は砂糖なしでコーヒーを飲みます。	«con»の反対です。
 A1	en	～で、～に	私は大きな町に住んでいます。	とてもよく使う前置詞です。«en casa»、«en el mar»。
@@ -270,7 +268,7 @@ A1	decir	言う	もう一度名前を言ってくれますか。	不規則です
 A1	dar	あげる	母にプレゼントをあげます。	一人称だけ不規則です。«doy»。
 A1	poner	置く	今から食卓を整えます。	«Poner la mesa»は食卓を整えることで、不規則です。«pongo»。
 A1	usar	使う	今、電話を使う必要があります。	«Utilizar»はよりあらたまっています。
-A1	visitar	訪ねる	近いうちに祖父母を訪ねたいです。	人には«visitar a alguien»、場所には«a»を付けません。
+A1	visitar	訪ねる	私はもうすぐ祖父母を訪ねたいです。	«visitar a alguien»(人に会いに行く)と«visitar un lugar»(場所を訪れる)という言い方をします。
 A1	entrar	入る	正面入口から入れます。	ラテンアメリカでは«entrar a»がよく使われ、スペインでは«entrar en»です。
 A1	volver	戻る	私は早く家に帰ります。	語幹が変わります。«vuelvo»（o→ue）。«volver a»+不定詞は「再び～する」です。
 A1	subir	上がる	二階に上がらなければなりません。	反対は«bajar»です。«salir»と混同しないでください。
@@ -278,7 +276,6 @@ A1	bajar	下りる	次の停留所で降ります。	«Bajar del autobús»は�
 A1	tocar	触れる；演奏する	弟はギターが弾けます。	触れることと楽器を演奏することに一つの動詞を使います。
 A1	practicar	行う、練習する	私は土曜日にスポーツをするのが好きです。	«Practicar deporte»はスポーツをすることです。
 A1	invitar	招待する	友達を夕食に招待したいです。	«Invitar»はおごるという意味にもなります。«yo invito»。
-A1	recibir	受け取る	明日、荷物を受け取ります。	«Recibir»は受け取ることです。
 A1	decidir	決める	今日、値段を決めなければなりません。	«Decidirse»は決心することです。
 A1	olvidar	忘れる	また鍵を忘れたくありません。	«Olvidarse de»、または前置詞なしの«olvidar»。«olvidé la llave»。
 A1	compartir	共有する	友達と家をシェアするのが好きです。	«Compartir»は共有することです。
@@ -302,3 +299,4 @@ A1	de	～の、～から	私は小さな町の出身です。	«De»は出身と
 A1	a	～へ、～に	私はバスで事務所に行きます。	直接目的語が人の場合に前に付きます。«veo a mi madre»。
 A1	o	または	今、お茶とコーヒーのどちらがいいですか。	«o-»の前では«u»になります。«siete u ocho»。
 A1	cuando	～するとき	着いたら、夕食を作ります。	アクセント付きの«¿cuándo?»は疑問詞です。
+A1	cumpleaños	誕生日	私の誕生日は十二月です。	複数形も変わりません。«dos cumpleaños»。

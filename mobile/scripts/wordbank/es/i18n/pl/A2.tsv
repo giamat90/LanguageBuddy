@@ -37,14 +37,14 @@ A2	ducharse	brać prysznic	Zawsze biorę prysznic przed śniadaniem.	Zwrotny: «
 A2	vestirse	ubierać się	Dziś rano muszę się szybko ubrać.	Zwrotny z e→i: «me visto».
 A2	acostarse	kłaść się spać	Dziś położę się wcześnie spać.	Temat się zmienia o→ue: «me acuesto».
 A2	sentarse	siadać	Możesz usiąść na kanapie.	«Siéntate» to zaproszenie do siadania.
-A2	peinarse	czesać się	Moja siostra czesze się przed lustrem.	«Peine» to grzebień.
+A2	peinarse	czesać się	Czeszę się przed wyjściem.	Czasownik zwrotny: «me peino». Grzebień to «el peine», szczotka to «el cepillo».
 A2	espejo	lustro	Lustro w łazience jest duże.	Z łaciny «speculum», jak włoskie «specchio».
 A2	toalla	ręcznik	Potrzebuję czystego ręcznika.	«Toalla» to ręcznik kąpielowy; obrus to «mantel».
 A2	jabón	mydło	Myję ręce mydłem.	Liczba mnoga «jabones».
 A2	refrigerador	lodówka	Lodówka jest prawie pusta.	W Hiszpanii «nevera»; w Argentynie «heladera».
 A2	lavadora	pralka	Pralka bardzo hałasuje.	Od «lavar»: «lavavajillas» to zmywarka.
 A2	escalera	schody	Schody są bardzo wąskie.	Często w liczbie mnogiej: «las escaleras».
-A2	pared	ściana	Ściana w salonie jest niebieska.	«Muro» to mur zewnętrzny.
+A2	pared	ściana	Ściana w salonie jest niebieska.	«Pared» to ściana pokoju lub budynku; «muro» to mur zewnętrzny lub graniczny: «el muro del jardín».
 A2	suelo	podłoga	Kot śpi na podłodze.	«Suelo» to podłoga; «piso» w niektórych krajach.
 A2	alfombra	dywan	Czerwony dywan jest bardzo miękki.	Z arabskiego «al-hanbal».
 A2	lámpara	lampa	Lampa stoi na stole.	Słowo z akcentem na trzeciej sylabie od końca: akcent pisany na «á».
@@ -103,11 +103,10 @@ A2	reunirse	spotykać się	Spotykamy się w każdy poniedziałek.	Można użyć 
 A2	informe	raport	Dziś kończę raport końcowy.	To też przymiotnik „bezkształtny”.
 A2	equipo	zespół	Mój zespół pracuje bardzo dobrze.	«Equipo» to też sprzęt.
 A2	sala	sala	Sala konferencyjna jest pełna.	«Sala de estar» to salon.
-A2	cargo	stanowisko	Moje stanowisko to dyrektor sprzedaży.	«Estar a cargo» znaczy być odpowiedzialnym.
 A2	entrevista	rozmowa kwalifikacyjna	Jutro mam rozmowę o pracę.	«Entrevista de trabajo» to rozmowa o pracę.
 A2	solicitud	podanie, wniosek	Wysłałem podanie pocztą.	«Solicitar» to ubiegać się.
 A2	jubilación	emerytura	Mój tata cieszy się emeryturą.	«Jubilarse» to przejść na emeryturę.
-A2	negocio	interes, biznes	Mój wujek ma mały interes.	Od «nec-otium»: zaprzeczenie wypoczynku.
+A2	negocio	interes, biznes	Mój wujek ma mały interes.	«Negocio» to firma, a także transakcja: «un buen negocio». Sklep to «la tienda».
 A2	cobrar	dostawać (wypłatę); pobierać opłatę	Wypłatę dostaję na koniec miesiąca.	Znaczy też pobierać opłatę: «cobran diez dólares».
 A2	firmar	podpisywać	Proszę tutaj podpisać.	«Firma» to podpis.
 A2	enviar	wysyłać	Zaraz wyślę e-mail.	Akcent się przesuwa: «envío» (akcent na «í»), ale «enviamos».
@@ -142,7 +141,6 @@ A2	sombrero	kapelusz	Mój dziadek nosi słomkowy kapelusz.	Meksykańskie «sombr
 A2	calcetín	skarpetka	W szufladzie brakuje jednej skarpetki.	W Ameryce Łacińskiej także «media».
 A2	reloj	zegarek, zegar	Mój zegarek jest bardzo stary, ale dobry.	Jedno słowo na zegarek i zegar ścienny.
 A2	anillo	pierścionek	Kupiłem srebrny pierścionek.	Z łaciny «anellus».
-A2	probador	przymierzalnia	Przymierzalnia jest na końcu.	Od «probar».
 A2	talla	rozmiar (ubrań)	Jaki rozmiar buta nosisz?	«Talla» dla ubrań, «número» dla butów w wielu miejscach.
 A2	devolver	zwracać	Chcę jutro zwrócić tę koszulę.	Zmienia się o→ue: «devuelvo».
 A2	regalar	podarować	Podaruję mamie książkę.	Przy osobach: «regalar a alguien».
@@ -162,7 +160,7 @@ A2	brazo	ramię	Mój dziadek ma złamaną rękę.	Liczba mnoga «brazos»: «con
 A2	dedo	palec	Skaleczyłem się w palec nożem.	Obejmuje palce rąk i stóp.
 A2	boca	usta	Otwórz usta, proszę.	Kończy się na -a: rodzaj żeński.
 A2	diente	ząb	Od wczoraj boli mnie ząb.	Liczba mnoga «dientes».
-A2	oreja	ucho (zewnętrzne)	Boli mnie lewe ucho.	«Oído» to słuch i ucho wewnętrzne.
+A2	oreja	ucho (zewnętrzne)	Boli mnie prawe ucho.	«Oreja» to ucho zewnętrzne; «oído» to słuch i ucho wewnętrzne: «Me duele el oído».
 A2	corazón	serce	Moje serce bije bardzo szybko.	Liczba mnoga «corazones».
 A2	sangre	krew	Potrzebuję badania krwi.	Po hiszpańsku rodzaju żeńskiego.
 A2	resfriado	przeziębienie	Mam silne przeziębienie.	«Estar resfriado» to być przeziębionym.
@@ -184,7 +182,7 @@ A2	recuperarse	dochodzić do siebie	Mój tata bardzo dobrze dochodzi do siebie.	
 A2	grave	poważny	Sytuacja nie jest bardzo poważna.	Dotyczy też niskich dźwięków.
 A2	sordo	głuchy	Mój dziadek jest trochę głuchy.	Łagodniej: «duro de oído».
 A2	mareado	oszołomiony	Kręci mi się w głowie od upału.	Od «mar»: choroba morska.
-A2	cuerdo	zdrowy na umyśle	Mój wujek jest bardzo rozsądnym człowiekiem.	Przeciwieństwo: «loco».
+A2	cuerdo	poczytalny	Mój wujek to bardzo rozsądny człowiek.	Przeciwieństwo: «loco».
 A2	pasear	spacerować	Lubię spacerować po parku.	«Paseo» to spacer.
 A2	descubrir	odkrywać	W tym roku chcę odkrywać nowe miejsca.	Imiesłów nieregularny: «descubierto».
 A2	disfrutar	cieszyć się, rozkoszować	Bardzo cieszę się muzyką na żywo.	Używa się z «de»: «disfrutar de».
@@ -194,7 +192,6 @@ A2	sacar	wyjmować, robić (zdjęcia)	Będę robić zdjęcia na placu.	«Sacar f
 A2	montar	jeździć (konno); montować	Mój kuzyn umie jeździć konno.	«Montar en bici» to jeździć na rowerze.
 A2	quedar	umawiać się; zostawać	Umówimy się o siódmej na placu.	«Quedar con alguien» znaczy umówić się z kimś.
 A2	celebrar	świętować	Jutro będziemy świętować moje urodziny.	«Cumpleaños» jest zawsze rodzaju męskiego w liczbie pojedynczej.
-A2	cumpleaños	urodziny	Moje urodziny są w grudniu.	Nieodmienne w liczbie mnogiej: «dos cumpleaños».
 A2	foto	zdjęcie	To zdjęcie mojej rodziny.	Rodzaj żeński: «la foto» (od «fotografía»).
 A2	concierto	koncert	Koncert zaczyna się o dziewiątej.	«Concertar» to uzgadniać.
 A2	entrada	bilet; wejście	Kupiłem bilet na koncert.	Jedno słowo na wejście i bilet wstępu.
@@ -227,14 +224,14 @@ A2	verdad	prawda	Powiedz mi prawdę, proszę.	«¿Verdad?» znaczy też „prawd
 A2	respuesta	odpowiedź	Z zainteresowaniem czekam na twoją odpowiedź.	Od «responder».
 A2	pregunta	pytanie	Mam pytanie w sprawie zadania.	«Hacer una pregunta» to zadać pytanie.
 A2	conocido	znajomy	Pewien znajomy dał mi tę radę.	To też imiesłów od «conocer».
-A2	consejo	rada	Mama daje mi dobrą radę.	Liczba pojedyncza: «un consejo».
+A2	consejo	rada	Mama daje mi dobrą radę.	Mówi się «dar un consejo» i «seguir un consejo». Czasownik to «aconsejar».
 A2	encontrar	znajdować	Wkrótce znajdę rozwiązanie.	Zmienia się o→ue: «encuentro».
 A2	extrañar	tęsknić	Bardzo za wami tęsknię w Boże Narodzenie.	W Ameryce Łacińskiej «extrañar», w Hiszpanii «echar de menos».
 A2	recordar	przypominać sobie	Chcę sobie przypomnieć dzieciństwo.	Zmienia się o→ue: «recuerdo».
 A2	creer	wierzyć, sądzić	Sądzę, że masz rację.	«Creo que» + tryb oznajmujący.
 A2	pensar	myśleć	Zastanowię się nad twoją propozycją.	Zmienia się e→ie: «pienso».
 A2	contar	opowiadać; liczyć	Mój dziadek umie opowiadać historie.	Zmienia się o→ue: «cuento».
-A2	nacer	rodzić się	Moja córka urodzi się w maju.	«Nací» to „urodziłem się”.
+A2	nacer	rodzić się	Moja córka urodziła się w maju.	«Nací en Roma» znaczy «urodziłem się w Rzymie». Jest nieregularny: «nazco».
 A2	casarse	pobrać się	Moja siostra wychodzi za mąż w czerwcu.	«Casarse con alguien».
 A2	llamarse	nazywać się	Nazywam się Ana, a ty?	Zwrotny: «me llamo, te llamas».
 A2	acordarse	pamiętać	Nie chcę o tym pamiętać.	Używa się z «de».
@@ -291,3 +288,6 @@ A2	además	ponadto	Ponadto mam siostrę w Chile.	Pisze się razem.
 A2	mientras	podczas gdy	Gotuję, słuchając muzyki.	Z tym samym lub innym podmiotem.
 A2	sino	lecz	Nie chcę herbaty, lecz kawy.	«Sino» stoi po przeczeniu; «si no» to dwa słowa.
 A2	cuyo	którego	Mam przyjaciela, którego ojciec jest lekarzem.	Zgadza się z następnym rzeczownikiem.
+A2	elegir	wybierać	Trudno jest wybrać prezent.	«Escoger» to bardzo częsty synonim. Zmienia e→i: «elijo».
+A2	sano	zdrowy (o ciele)	Mój dziadek to zdrowy mężczyzna.	«Sano» dotyczy zdrowia ciała: «una dieta sana». Zdrowy na umyśle to «cuerdo»; «saludable» to bardzo częsty synonim.
+A2	recibir	otrzymywać	Jutro dostanę paczkę.	«Recibir» to otrzymać: «recibir un paquete». W odniesieniu do osoby znaczy przyjąć, powitać: «recibir a alguien».

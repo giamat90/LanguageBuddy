@@ -1,7 +1,7 @@
 B1	internet	el	noun	internet	Sin internet no puedo trabajar hoy.	Without internet I cannot work today.	Both «el internet» and plain «internet» are common.
 B1	pantalla	la	noun	screen	La pantalla de mi teléfono está rota.	My phone screen is broken.	«Pantalla» is also a lampshade.
 B1	contraseña	la	noun	password	Olvidé mi contraseña de correo.	I forgot my email password.	«Seña» is the sign.
-B1	archivo	el	noun	file	Envío el archivo por correo mañana.	I send the file by mail tomorrow.	«Archivo» is also the archive.
+B1	archivo	el	noun	file	Te enviaré el archivo mañana.	I will send you the file tomorrow.	«Archivo» is also the archive.
 B1	aplicación	la	noun	app	Descargo una aplicación nueva hoy.	I download a new app today.	Short form «app».
 B1	descargar	-	verb	to download	Descargaré el programa esta noche.	I will download the program tonight.	«Descarga» is the download.
 B1	conectarse	-	verb	to connect	Me conecto a internet con el móvil.	I connect to the internet with my phone.	«Conexión» is the connection.
@@ -62,7 +62,7 @@ B1	frijol	el	noun	bean	El frijol negro es popular en Cuba.	Black beans are popul
 B1	aguacate	el	noun	avocado	Pongo aguacate en el pan cada mañana.	I put avocado on bread every morning.	In Chile and Argentina «palta».
 B1	chile	el	noun	chilli pepper	Este chile es demasiado picante para mí.	This chilli is too spicy for me.	Not only the country: «chile» is also the pepper.
 B1	tamal	el	noun	tamale	Mi madre prepara un tamal cada Navidad.	My mother makes a tamal every Christmas.	Corn dough cooked in leaves.
-B1	mole	el	noun	mole (sauce)	El mole poblano lleva chocolate y chile.	Mole poblano contains chocolate and chilli.	A typical Mexican sauce.
+B1	sartén	la	noun	frying pan	Pon un poco de aceite en la sartén.	Put a little oil in the pan.	It is feminine: «la sartén» (in Latin America you also hear «el sartén»). A cooking pot is «olla».
 B1	aderezo	el	noun	dressing	Uso un aderezo ligero en la ensalada.	I use a light dressing on the salad.	In Spain «aliño».
 B1	condimentar	-	verb	to season	Condimentaré el pollo con ajo y limón.	I will season the chicken with garlic and lemon.	«Condimento» is the seasoning.
 B1	ajo	el	noun	garlic	Siempre uso ajo en mis salsas.	I always use garlic in my sauces.	The «j» is a guttural sound.
@@ -156,9 +156,9 @@ B1	póliza	la	noun	insurance policy	Mi póliza cubre los gastos médicos.	My pol
 B1	agotado	-	adj	exhausted	Estaba agotado después del viaje largo.	I was exhausted after the long trip.	From «agotar».
 B1	preocupado	-	adj	worried	Mi madre está preocupada por mi examen.	My mother is worried about my exam.	Used with «estar».
 B1	asustado	-	adj	scared	El niño estaba asustado por la tormenta.	The child was scared of the storm.	From «susto».
-B1	avergonzado	-	adj	ashamed	Estoy avergonzado por mi error de ayer.	I am ashamed of my mistake yesterday.	From «vergüenza».
+B1	avergonzado	-	adj	ashamed	Estoy avergonzado por mi error de ayer.	I am ashamed of my mistake from yesterday.	From «avergonzarse»: «me avergüenzo» (with a dieresis).
 B1	tímido	-	adj	shy	Mi hijo es muy tímido con extraños.	My son is very shy with strangers.	As in Italian.
-B1	sensible	-	adj	sensitive	Mi hermana es muy sensible a las críticas.	My sister is very sensitive to criticism.	False friend with «sensato».
+B1	sensible	-	adj	sensitive	Mi hermana es muy sensible a las críticas.	My sister is very sensitive to criticism.	Same as Italian «sensibile». Not «sensato» (sensible, wise): that is a different Spanish word.
 B1	sociedad	la	noun	society	La sociedad cambia muy rápido hoy.	Society changes very fast today.	Plural «sociedades».
 B1	derecho	el	noun	right; law	Todos tenemos derecho a la educación.	We all have a right to education.	Also the adjective «derecho» (straight).
 B1	libertad	la	noun	freedom	La libertad de prensa es fundamental.	Freedom of the press is fundamental.	Plural «libertades».
@@ -231,8 +231,8 @@ B1	impuesto	el	noun	tax	El impuesto sube el año próximo.	The tax goes up next 
 B1	ganancia	la	noun	profit	La ganancia del mes fue muy pequeña.	The month's profit was very small.	From «ganar».
 B1	pérdida	la	noun	loss	La empresa tuvo una pérdida grande en mayo.	The company had a big loss in May.	From «perder».
 B1	inversión	la	noun	investment	Comprar casa es una buena inversión.	Buying a house is a good investment.	Plural «inversiones».
-B1	ahorro	el	noun	saving	Mi ahorro es para el viaje de verano.	My savings are for the summer trip.	Often used in the plural.
-B1	sucursal	la	noun	branch	La sucursal del banco está en la plaza.	The bank branch is in the square.	From Latin «succursus»: what supports the main office.
+B1	ahorro	el	noun	saving	Mi ahorro es para el viaje.	My savings are for the trip.	Usually plural: «ahorros» is money put aside. The verb is «ahorrar».
+B1	sucursal	la	noun	branch	La sucursal del banco está en la plaza.	The bank branch is in the square.	A branch of a bank or company; the head office is the «sede central».
 B1	reembolso	el	noun	refund	Pedí un reembolso porque el producto estaba roto.	I asked for a refund because the product was broken.	«Reembolsar» is to refund.
 B1	envío	el	noun	shipping	El envío es gratis para compras grandes.	Shipping is free for large purchases.	Also a form of «enviar».
 B1	pedido	el	noun	order	Mi pedido llegará mañana por la tarde.	My order will arrive tomorrow afternoon.	Also the participle of «pedir».
@@ -248,8 +248,7 @@ B1	rentable	-	adj	profitable	Este negocio es muy rentable.	This business is very
 B1	asequible	-	adj	affordable	El precio de este curso es asequible.	The price of this course is affordable.	False friend with Italian.
 B1	gratuito	-	adj	free of charge	La entrada al museo es gratuita hoy.	Museum entry is free today.	More formal than «gratis».
 B1	defectuoso	-	adj	defective	El producto era defectuoso desde el principio.	The product was defective from the start.	From «defecto».
-B1	imprescindible	-	adj	essential	Es imprescindible guardar el recibo.	It is essential to keep the receipt.	Often used with «ser».
-B1	anticipar	-	verb	to anticipate	Quiero anticipar mi viaje una semana.	I want to bring my trip forward by a week.	It means to bring forward.
+B1	anticipar	-	verb	to anticipate, to reveal in advance	No quiero anticipar nada todavía.	I don't want to reveal anything yet.	Like Italian «anticipare» (to say or pay in advance). To bring a date forward, «adelantar» is more usual.
 B1	comprobar	-	verb	to check	Voy a comprobar la hora del vuelo.	I am going to check the flight time.	Changes o→ue: «compruebo».
 B1	lograr	-	verb	to achieve	Quiero lograr mi sueño de viajar.	I want to achieve my dream of travelling.	«Lograr + infinitive» is to manage to.
 B1	intentar	-	verb	to try	Voy a intentar hablar con mi jefe.	I am going to try to speak to my boss.	«Intento» is the attempt.
@@ -265,7 +264,7 @@ B1	adaptarse	-	verb	to adapt	Mi hijo se adaptó bien a la escuela.	My son adapte
 B1	echar	-	verb	to throw, to put in	Echaré un poco de sal a la sopa.	I will put a little salt in the soup.	«Echar de menos» is to miss.
 B1	mezclarse	-	verb	to mingle	Mi hermana se mezcla con gente muy distinta.	My sister mixes with very different people.	Reflexive.
 B1	colocar	-	verb	to place	Voy a colocar los libros en el estante.	I am going to place the books on the shelf.	«Colocar» + place.
-B1	rodear	-	verb	to surround	Un bosque va a rodear la casa nueva.	A forest is going to surround the new house.	«Rodeo» is also a horse show.
+B1	rodear	-	verb	to surround	Un jardín rodea la casa.	A garden surrounds the house.	«Rodeo» is a roundabout way («dar un rodeo») and also the horse show.
 B1	cubrir	-	verb	to cover	Esta lona puede cubrir toda la mesa.	This sheet can cover the whole table.	Irregular participle: «cubierto».
 B1	meter	-	verb	to put in	Voy a meter la ropa en la maleta.	I am going to put the clothes in the suitcase.	«Meterse» is to get into.
 B1	sacudir	-	verb	to shake	Voy a sacudir la alfombra en el patio.	I am going to shake the rug in the yard.	«Sacudida» is the shake.
@@ -284,3 +283,11 @@ B1	apenas	-	adv	hardly, barely	Apenas tengo tiempo libre esta semana.	I hardly h
 B1	sin embargo	-	conj	however	Es caro; sin embargo, vale la pena.	It is expensive; however, it is worth it.	A formal connector.
 B1	por lo tanto	-	conj	therefore	Llueve mucho; por lo tanto, nos quedamos.	It rains a lot; therefore we stay.	A formal connector of consequence.
 B1	mientras tanto	-	conj	meanwhile	Cocino y, mientras tanto, tú pones la mesa.	I cook and, meanwhile, you set the table.	Phrase.
+B1	cargo	el	noun	position; charge	Ella tiene un cargo importante en la empresa.	She holds an important position at the company.	«Estar a cargo» means to be in charge.
+B1	probador	el	noun	fitting room	El probador está al fondo.	The fitting room is at the back.	«Probarse» is to try on a garment: «¿Puedo probarme esto?».
+B1	carretera	la	noun	road	La carretera estaba cerrada por la nieve.	The road was closed because of the snow.	«Carretera» is an out-of-town road.
+B1	abogado	el	noun	lawyer	Necesito hablar con un abogado.	I need to talk to a lawyer.	Feminine «abogada».
+B1	seguridad	la	noun	security, safety	La seguridad de los datos es esencial.	Data security is essential.	From «seguro». «Seguridad social» is social security.
+B1	albergue	el	noun	hostel	Dormimos en un albergue cerca de la playa.	We slept in a hostel near the beach.	Not an upscale hotel («hotel»): it is a hostel or refuge. Pilgrims on the Camino de Santiago sleep in «albergues».
+B1	puerto	el	noun	port	El puerto es el corazón de la ciudad.	The port is the heart of the city.	Also a mountain pass («puerto de montaña»). «Puerto Rico» = «rich port».
+B1	ruta	la	noun	route	La ruta atraviesa pueblos pintorescos y valles verdes.	The route passes picturesque villages and green valleys.	In Latin America, also a highway: «la ruta 40».

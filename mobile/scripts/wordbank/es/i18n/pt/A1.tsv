@@ -32,7 +32,7 @@ A1	dulce	doce	Meu café é sempre doce.	«Dulce» é adjetivo e substantivo: «u
 A1	caliente	quente	O café está muito quente.	Para pessoas se diz «tener calor», não «estar caliente», que tem outro sentido.
 A1	frío	frio	A cerveja está bem gelada.	Para o tempo se diz «hace frío»; para pessoas, «tener frío».
 A1	sabroso	saboroso	Este prato é muito saboroso.	É usado sobretudo na América Latina; na Espanha se prefere «rico».
-A1	sal	sal	Falta um pouco de sal.	Diz-se «la sal» (feminino); em algumas zonas rurais se ouve «el sal» por engano.
+A1	sal	sal	Falta um pouco de sal.	«Sal» é feminino: «la sal». Também é o imperativo de «salir»: «¡Sal de aquí!».
 A1	azúcar	açúcar	Não quero açúcar no café.	«Azúcar» pode ser masculino ou feminino, mas hoje quase sempre se usa «el azúcar».
 A1	casa	casa	Minha casa fica perto do parque.	«En casa» significa «em casa»: «estoy en casa», «voy a casa».
 A1	cuarto	quarto, cômodo	Meu quarto é pequeno, mas confortável.	Na América Latina «cuarto» é o cômodo; «habitación» é mais comum na Espanha.
@@ -43,10 +43,10 @@ A1	ventana	janela	A janela dá para o jardim.	«Ventana» vem de «viento» (ven
 A1	cama	cama	Minha cama é muito confortável.	«Cama» é a cama; «cama matrimonial» é a cama de casal.
 A1	silla	cadeira	Preciso de uma cadeira mais alta.	«Silla» é a cadeira; «sillón» é a poltrona.
 A1	sofá	sofá	O sofá é novo e grande.	Leva acento na última sílaba: «sofá», plural «sofás».
-A1	llave	chave	Onde está a chave de casa?	«Llave» também é a torneira em alguns países: «abrir la llave».
+A1	llave	chave	Onde está a chave de casa?	«Llave» também é a torneira na América Latina: «abrir la llave»; na Espanha diz-se «grifo».
 A1	jardín	jardim	Meu avô cuida do jardim.	«Jardín de infantes» é a pré-escola na Argentina.
 A1	familia	família	Minha família mora em Lima.	O substantivo é singular: «mi familia vive», não «viven», mesmo sendo muitas pessoas.
-A1	madre	mãe	Minha mãe cozinha muito bem.	Na América Latina também se diz «mamá»; «madre» é mais formal.
+A1	madre	mãe	Minha mãe cozinha muito bem.	«Mamá» é a forma carinhosa, usada em todo lugar; «madre» é mais formal.
 A1	padre	pai	Meu pai trabalha num banco.	No plural, «los padres» são os pais, não só os homens.
 A1	hermano	irmão	Meu irmão tem doze anos.	«Hermanos» pode significar irmãos e irmãs juntos.
 A1	hijo	filho	O filho dela estuda medicina.	No plural, «los hijos» são os filhos, meninos e meninas.
@@ -58,7 +58,7 @@ A1	dormir	dormir	Preciso dormir oito horas por dia.	Irregular no presente: «due
 A1	lavar	lavar	Preciso lavar a roupa hoje.	«Lavarse» é lavar-se: «me lavo las manos».
 A1	grande	grande	Minha casa não é muito grande.	Antes de um substantivo singular vira «gran»: «un gran día».
 A1	pequeño	pequeno	Moro numa cidade pequena.	«Chico» é muito comum na América Latina no lugar de «pequeño».
-A1	nuevo	novo	Temos um sofá novo.	Posição: «un carro nuevo» (zero) mas «un nuevo carro» (outro).
+A1	nuevo	novo	Temos um sofá novo.	Normalmente vem depois do substantivo: «un sofá nuevo». Concorda: «nueva», «nuevos», «nuevas».
 A1	viejo	velho	Esta casa é muito velha.	Para pessoas, «viejo» pode ofender: «mayor» é mais gentil.
 A1	limpio	limpo	A cozinha está muito limpa.	«Estar limpio» é estar limpo agora; «ser limpio» descreve uma pessoa asseada.
 A1	cómodo	confortável	Esta poltrona é muito confortável.	«Cómodo» vale para coisas e pessoas: «estoy cómodo».
@@ -80,7 +80,7 @@ A1	billete	passagem, bilhete	Compro uma passagem só de ida.	Na América Latina 
 A1	hotel	hotel	O hotel tem uma piscina.	O «h» é mudo: pronuncia-se «otel».
 A1	mapa	mapa	Preciso de um mapa da cidade.	Termina em «-a» mas é masculino, como «día» e «problema».
 A1	maleta	mala	Minha mala é azul e grande.	«Hacer la maleta» significa fazer a mala.
-A1	playa	praia	Vamos à praia no domingo.	«Playa» é a praia, não o mar: o mar é «el mar».
+A1	playa	praia	Vamos à praia no domingo.	«Playa» é a praia, não o mar: o mar é «el mar» (masculino). A costa é «la costa».
 A1	viajar	viajar	Gosto de viajar com minha família.	«Viajar» e «viaje» se escrevem com «j».
 A1	llegar	chegar	Sempre chego cedo à estação.	O «g» vira «gu» antes de «e»: «llegué».
 A1	salir	sair	O trem sai às oito.	Falso amigo: «salir» é sair, não subir (isso é «subir»).
@@ -97,11 +97,11 @@ A1	allí	lá	Meu irmão mora lá desde 2020.	Também existe «allá», mais vago
 A1	derecha	direita (lado)	O banco fica à direita.	Diz-se «a la derecha» e «a la izquierda».
 A1	izquierda	esquerda (lado)	Vire à esquerda aqui.	«Gira», «dobla» ou «voltea»: três verbos para virar, conforme o país.
 A1	estación	estação	A estação fica bem perto.	Também significa «estação do ano»: «las cuatro estaciones».
-A1	aeropuerto	aeroporto	O aeroporto é muito moderno.	O aeroporto costuma ter uma sigla: «AIFA» na Cidade do México.
+A1	aeropuerto	aeroporto	O aeroporto é muito moderno.	Não confunda «puerto» (porto) com «puerta» (porta). No aeroporto há «la puerta de embarque» (o portão de embarque).
 A1	rápido	rápido	O trem é muito rápido.	Como advérbio permanece invariável: «habla rápido».
 A1	lento	lento	O ônibus é lento demais.	Oposto de «rápido»; «despacio» é o advérbio «devagar».
 A1	barato	barato	O hotel é muito barato.	Oposto: «caro». «Salir barato» significa sair barato.
-A1	trabajo	trabalho, emprego	Meu trabalho começa às oito.	«Trabajo» é o trabalho em geral e um emprego; «empleo» é o posto.
+A1	trabajo	trabalho, emprego	Meu trabalho começa às oito.	«Trabajo» é trabalho ou emprego: «buscar trabajo». O verbo é «trabajar». «Empleo» é uma palavra formal para emprego.
 A1	oficina	escritório (lugar)	Meu escritório fica no centro.	«Oficina» é o escritório como lugar; «despacho» é a sala de um gerente.
 A1	jefe	chefe	Meu chefe fala três idiomas.	Para uma mulher se diz «la jefa».
 A1	empresa	empresa	Minha empresa vende roupas on-line.	«Empresa» é um negócio; «compañía» é mais formal ou internacional.
@@ -133,7 +133,7 @@ A1	estudiante	estudante	Minha irmã é estudante de medicina.	Igual no masculino
 A1	doctor	doutor	Meu tio é doutor em física.	Feminino: «la doctora»; «médico» é a profissão de médico.
 A1	cliente	cliente	O cliente quer falar com você.	Igual no masculino e no feminino: «el/la cliente».
 A1	tienda	loja	A loja abre às nove.	«Tienda» é a loja; «tienda de campaña» é a barraca de camping.
-A1	mercado	mercado	Compro verduras no mercado.	Na América Latina os mercados locais são muito animados: «el mercado central».
+A1	mercado	mercado, feira	Compro verduras no mercado.	«El mercado» é o mercado; o supermercado é «el supermercado». Também «mercado laboral» (mercado de trabalho).
 A1	precio	preço	O preço da camisa é baixo.	Diz-se «un precio bajo/alto», não pequeno/grande.
 A1	ropa	roupa	Quero comprar roupa nova.	«Ropa» é um singular coletivo: «la ropa está limpia».
 A1	camisa	camisa	Esta camisa é de algodão.	Não é a «camiseta» (T-shirt), mais informal.
@@ -148,7 +148,6 @@ A1	vender	vender	Meu tio vende sapatos no mercado.	«Vendedor» é o vendedor, �
 A1	costar	custar	Quanto pode custar esta camisa?	O radical muda: «cuesta» (o→ue).
 A1	llevar	levar; vestir	Hoje visto uma camisa branca.	«Llevar» significa levar consigo e vestir uma roupa.
 A1	probar	experimentar; provar	Vou experimentar estes sapatos.	O radical muda: «pruebo» (o→ue).
-A1	elegir	escolher	É difícil escolher um presente.	«Escoger» é um sinônimo muito comum.
 A1	caro	caro	Este casaco é caro demais.	Feminino «cara»; «salir caro» significa sair caro.
 A1	bonito	bonito	Sua camisa é muito bonita.	«Bonito» é coloquial e difundido na América Latina; «bello» é mais formal.
 A1	blanco	branco	Quero uma camisa branca.	As cores vêm depois do substantivo: «una camisa blanca».
@@ -175,13 +174,12 @@ A1	farmacia	farmácia	A farmácia fecha às dez.	Na Espanha as farmácias têm u
 A1	dolor	dor	Tenho uma dor nas costas.	Diz-se «tener dolor de cabeza» para dor de cabeça.
 A1	fiebre	febre	Meu filho tem febre desde ontem.	Diz-se «tener fiebre».
 A1	sueño	sono; sonho	Estou com muito sono esta noite.	Significa sono e sonho: «tener sueño», «un sueño bonito».
-A1	sentir	sentir	Hoje quero sentir o sol.	«Lo siento» significa «sinto muito».
+A1	sentir	sentir	Quero sentir o sol hoje.	«Lo siento» significa «sinto muito». Para sentimentos use «sentirse»: «me siento bien».
 A1	doler	doer	Amanhã vão me doer as costas.	Usa-se com o objeto indireto: «me duele», «te duelen los pies».
 A1	descansar	descansar	Preciso descansar um pouco hoje.	«Descanso» é a pausa ou o descanso.
 A1	cuidar	cuidar	Devo cuidar melhor da minha saúde.	«¡Cuídate!» é uma despedida: «cuide-se».
 A1	tomar	tomar; beber	Vou tomar um comprimido.	Na América Latina «tomar» também significa «beber».
 A1	mejorar	melhorar	Quero melhorar minha saúde este ano.	«Mejor» é ao mesmo tempo «melhor» (adv.) e «melhor» (adj.).
-A1	sano	saudável	Meu avô é um homem saudável.	Para a saúde mental se diz «cuerdo»; «sano» fala sobretudo do corpo.
 A1	enfermo	doente	Meu filho está doente hoje.	«Estar enfermo» é estar doente agora; «un enfermo» é um paciente.
 A1	fuerte	forte	Minha avó é muito forte.	Aplica-se também a sons: «un ruido fuerte».
 A1	débil	fraco	Sinto-me fraco depois da febre.	Oposto de «fuerte».
@@ -224,7 +222,7 @@ A1	ayer	ontem	Ontem vimos um filme muito bom.	Usa-se com o passado: «ayer fui a
 A1	tarde	tarde (período)	À tarde vou ao parque.	«Tarde» também é o advérbio «tarde»: «llegas tarde».
 A1	siempre	sempre	Sempre escuto música de manhã.	Oposto: «nunca».
 A1	nunca	nunca	Nunca tomo café à noite.	Com «nunca» depois do verbo é preciso «no»: «no bebo nunca café».
-A1	hola	olá	Olá, meu nome é Ana.	O «h» é mudo. «Hola» serve a qualquer hora e em qualquer situação.
+A1	hola	olá	Olá, não falo muito bem espanhol.	O «h» é mudo. «Hola» serve a qualquer hora e em qualquer situação.
 A1	adiós	adeus, tchau	Tchau, nos vemos amanhã.	Menos definitivo que «adeus»: é uma despedida comum.
 A1	gracias	obrigado	Muito obrigado pela sua ajuda.	Responde-se «de nada» ou «con gusto» (América Latina).
 A1	por favor	por favor	Um café, por favor, e a conta.	Usa-se quase sempre que se pede algo.
@@ -238,7 +236,7 @@ A1	vida	vida	A vida é muito bonita.	«¡Es la vida!» é uma exclamação comum
 A1	tiempo	tempo	Não tenho muito tempo hoje.	Significa tempo e clima: «hace buen tiempo».
 A1	mundo	mundo	Quero conhecer o mundo inteiro.	«Todo el mundo» significa «todo mundo».
 A1	hombre	homem	Esse homem é meu tio.	O «h» é mudo.
-A1	mujer	mulher	Minha mãe é uma mulher forte.	«Mujer» também significa «esposa».
+A1	mujer	mulher	Minha mãe é uma mulher forte.	Também pode significar «esposa»: «mi mujer». Mais formal: «esposa».
 A1	niño	menino, criança	O menino brinca na rua.	Feminino «niña». O «ñ» importa.
 A1	ser	ser (identidade)	Sou estudante e quero ser médico.	«Ser» para identidade, origem, profissão; «estar» para estado e lugar.
 A1	estar	estar (estado, lugar)	Estou em casa agora.	Serve para lugar e estado: «estoy en casa», «estoy cansado».
@@ -258,7 +256,7 @@ A1	ellos	eles	Eles trabalham num escritório.	Feminino: «ellas». Na América L
 A1	este	este	Este livro é muito interessante.	«Este» é o demonstrativo «este».
 A1	y	e	Minha mãe e meu pai moram aqui.	Antes de «i-» vira «e»: «padre e hijo».
 A1	pero	mas	Quero ir, mas não posso.	«Pero» (mas) e «perro» (cachorro) diferem pelo «rr».
-A1	porque	porque	Não saio porque estou cansado hoje.	«Porque» é a resposta; «por qué» (duas palavras) é a pergunta.
+A1	porque	porque	Não saio porque hoje estou cansado.	«Porque» é a resposta; «por qué» (duas palavras) é a pergunta.
 A1	con	com	Vou ao parque com meu cachorro.	«Conmigo» e «contigo» são formas especiais.
 A1	sin	sem	Tomo café sem açúcar.	Oposto de «con».
 A1	en	em, no	Moro numa cidade grande.	Preposição muito frequente: «en casa», «en el mar».
@@ -270,7 +268,7 @@ A1	decir	dizer	Você pode dizer seu nome de novo?	Irregular: «digo, dices, dice
 A1	dar	dar	Vou dar um presente à minha mãe.	Irregular só na primeira pessoa: «doy».
 A1	poner	pôr, colocar	Vou pôr a mesa agora.	«Poner la mesa» é pôr a mesa; irregular: «pongo».
 A1	usar	usar	Preciso usar o telefone agora.	«Utilizar» é mais formal.
-A1	visitar	visitar	Quero visitar meus avós em breve.	Com pessoas: «visitar a alguien»; com lugares, sem «a».
+A1	visitar	visitar	Quero visitar meus avós em breve.	Diz-se «visitar a alguien» (ir ver alguém) e «visitar un lugar» (visitar um lugar).
 A1	entrar	entrar	Você pode entrar pela porta principal.	Na América Latina «entrar a» é muito comum; na Espanha «entrar en».
 A1	volver	voltar	Vou voltar cedo para casa.	O radical muda: «vuelvo» (o→ue); «volver a» + infinitivo significa fazer de novo.
 A1	subir	subir	Você tem que subir ao segundo andar.	Oposto: «bajar». Não confundir com «salir».
@@ -278,7 +276,6 @@ A1	bajar	descer	Vou descer na próxima parada.	«Bajar del autobús» significa 
 A1	tocar	tocar	Meu irmão sabe tocar violão.	Um só verbo para tocar (no sentido físico) e tocar um instrumento.
 A1	practicar	praticar	Gosto de praticar esporte aos sábados.	«Practicar deporte» significa fazer esporte.
 A1	invitar	convidar	Quero convidar meus amigos para jantar.	«Invitar» também pode significar pagar: «yo invito».
-A1	recibir	receber	Vou receber um pacote amanhã.	«Recibir» é receber.
 A1	decidir	decidir	Temos que decidir o preço hoje.	«Decidirse» é se decidir.
 A1	olvidar	esquecer	Não quero esquecer minha chave de novo.	«Olvidarse de» ou «olvidar» sem preposição: «olvidé la llave».
 A1	compartir	compartilhar	Gosto de dividir a casa com amigos.	«Compartir» é compartilhar.
@@ -302,3 +299,4 @@ A1	de	de	Sou de uma cidade pequena.	«De» indica origem e posse: «el libro de 
 A1	a	a, para	Vou ao escritório de ônibus.	Antes de pessoa como objeto direto: «veo a mi madre».
 A1	o	ou	Você quer chá ou café agora?	Antes de «o-» vira «u»: «siete u ocho».
 A1	cuando	quando	Quando chego, preparo o jantar.	Com acento «¿cuándo?» é a pergunta.
+A1	cumpleaños	aniversário	Meu aniversário é em dezembro.	Invariável no plural: «dos cumpleaños».

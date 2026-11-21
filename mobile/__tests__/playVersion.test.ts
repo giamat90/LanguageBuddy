@@ -50,25 +50,22 @@ describe('assertNewVersionCode', () => {
   });
 });
 
-describe('releaseTag per app (TASK-047)', () => {
-  it('de keeps v<version>, other apps are prefixed with their code', () => {
-    expect(releaseTag('1.0.20')).toBe('v1.0.20');
-    expect(releaseTag('1.0.20', 'de')).toBe('v1.0.20');
+describe('releaseTag', () => {
+  it('is <code>-v<version> for every app, German included', () => {
+    expect(releaseTag('1.0.21', 'de')).toBe('de-v1.0.21');
     expect(releaseTag('1.0.1', 'es')).toBe('es-v1.0.1');
+    expect(releaseTag('2.3.45', 'fr')).toBe('fr-v2.3.45');
+  });
+  it('needs the language code (no silent default to German)', () => {
+    expect(() => releaseTag('1.0.21')).toThrow();
   });
   it('rejects a bad language code', () => {
-    for (const bad of ['ES', 'e', '../x', '']) expect(() => releaseTag('1.0.1', bad)).toThrow();
-  });
-});
-
-describe('releaseTag', () => {
-  it('prefixes the version name with v', () => {
-    expect(releaseTag('1.0.16')).toBe('v1.0.16');
+    for (const bad of ['ES', 'e', '../x', '', 'v']) expect(() => releaseTag('1.0.1', bad)).toThrow();
   });
   it('rejects a malformed version', () => {
-    expect(() => releaseTag('1.0')).toThrow();
-    expect(() => releaseTag('v1.0.16')).toThrow();
-    expect(() => releaseTag('')).toThrow();
+    expect(() => releaseTag('1.0', 'de')).toThrow();
+    expect(() => releaseTag('v1.0.16', 'de')).toThrow();
+    expect(() => releaseTag('', 'de')).toThrow();
   });
   it('matches the version app.config.js produces for a given code', () => {
     const prev = process.env.ANDROID_VERSION_CODE;
@@ -76,7 +73,7 @@ describe('releaseTag', () => {
     jest.isolateModules(() => {
       // eslint-disable-next-line @typescript-eslint/no-var-requires
       const cfg = require('../app.config.js');
-      expect(releaseTag(cfg.expo.version)).toBe('v1.0.77');
+      expect(releaseTag(cfg.expo.version, 'de')).toBe('de-v1.0.77');
     });
     if (prev === undefined) delete process.env.ANDROID_VERSION_CODE; else process.env.ANDROID_VERSION_CODE = prev;
   });

@@ -1,0 +1,325 @@
+A2	tomate	domates	Salata için bir domates doğruyorum.	Fransızcada dişildir (la tomate); eril olan İtalyanca pomodoro'dan farklıdır.
+A2	carotte	havuç	Çiğ bir havuç yiyor.	İki t ile yazılır; İtalyanca carota'dan farklıdır.
+A2	oignon	soğan	Sos için bir soğan doğruyor.	i harfi okunmaz: sanki ognon yazılmış gibi telaffuz edilir.
+A2	confiture	reçel	Ekmeğime reçel sürüyorum.	Sürülen reçel ya da marmelat demektir; sıklıkla bölümlü artikelle kullanılır (de la confiture).
+A2	jambon	jambon	Ekmekle jambon yerim.	Başka bir ayrıntı yoksa genellikle pişmiş jambon demektir; çiğ jambon jambon cru'dur.
+A2	yaourt	yoğurt	Kahvaltıda bir yoğurt alıyorum.	Olağan yazımı yaourt'tur, İngilizce yoghurt'tan farklıdır.
+A2	glace	dondurma	Vanilyalı dondurma istiyorum.	Buz anlamına da gelir; iki anlamı bağlam ayırt eder.
+A2	biscuit	bisküvi	Çocuklar okuldan sonra bir bisküvi yiyor.	Sondaki t okunmaz.
+A2	tarte	turta	Annem elmalı bir turta yapıyor.	Üstü açık turta demektir; dişildir.
+A2	farine	un	Bu kek için un gerekiyor.	Dişildir ve sayılamaz, bu yüzden bölümlü artikel alır (de la farine).
+A2	huile	yağ	Tavaya yağ koyuyorum.	Dişildir (h okunmaz); eril olan İtalyanca olio'dan farklıdır.
+A2	poivre	karabiber	Ete karabiber koyuyorum.	Dolmalık biber olan poivron ile karıştırılmamalıdır.
+A2	fraise	çilek	Bu çilek çok tatlı.	Çilek fraise, ahududu framboise'dır.
+A2	banane	muz	Sabahları bir muz yiyor.	Dişildir; sondaki e okunmaz, n ise açıkça telaffuz edilir.
+A2	citron	limon	Çayım için bir limon istiyorum.	Limon demektir; İngilizcenin citron dediği iri meyve değildir (Fransızcası cédrat).
+A2	champignon	mantar	Sosta bir mantar var.	Çoğulu -s alır (les champignons); gn, İngilizce canyon'daki ny gibi okunur.
+A2	saucisse	sosis	Mangal için bir sosis alıyor.	Soğuk dilimlenerek yenen kuru sosise saucisson denir, saucisse değil.
+A2	boisson	içecek	Yemeğinizin yanında hangi içeceği istersiniz?	Dişildir ve her türlü içeceği kapsar; ilgili fiil boire'dır.
+A2	assiette	tabak	Masaya bir tabak koyuyor.	Yemek yenen tabak demektir; yemeğin ya da yemek çeşidinin kendisi plat'dır.
+A2	couteau	bıçak	Ekmeği bıçakla kesiyorum.	Çoğulu -x ile biter: couteaux.
+A2	fourchette	çatal	Makarna için çatalın var mı?	Dişildir; ch, ship'teki sh gibi /ʃ/ okunur.
+A2	cuillère	kaşık	Çorbayı kaşıkla içiyorum.	Dişildir; cuiller yazımı da vardır.
+A2	bouteille	şişe	Çantamda bir su şişesi var.	Dişildir; eille /ɛj/ okunur.
+A2	tasse	fincan	Bir fincan kahve istiyorum.	Sıcak içecek fincanı demektir; su bardağı gibi cam bardak verre'dir.
+A2	rideau	perde	Akşamları perdeyi kapatıyor.	Çoğulu -x ile biter: rideaux.
+A2	tiroir	çekmece	Anahtarlar çekmecede.	Erildir; -oir sonu couloir gibi başka eşya adlarında da görülür.
+A2	étagère	raf	Rafta kitaplar var.	Hem tek bir rafı hem de raf takımını kapsar.
+A2	réfrigérateur	buzdolabı	Süt buzdolabında.	Günlük konuşmada çoğunlukla frigo diye kısaltılır.
+A2	four	fırın	Kek fırında.	Pişirme fırını demektir; mikrodalga fırın four à micro-ondes'dur.
+A2	évier	evye	Evyede bulaşık var.	Mutfak evyesi demektir; banyodaki lavabo lavabo'dur.
+A2	baignoire	küvet	Küvette banyo yapıyor.	gn, canyon'daki ny gibi /ɲ/ okunur.
+A2	couloir	koridor	Ofisim koridorun sonunda.	Bir evin ya da binanın koridoru demektir.
+A2	cave	mahzen	Şarabı mahzende saklıyoruz.	Bir binanın altındaki mahzen demektir; doğal mağara grotte'dur.
+A2	garage	garaj	Arabayı garaja koyuyor.	Erildir; sondaki g /ʒ/ okunur.
+A2	pièce	oda	Dairemizde bir tane büyük oda var.	Bir evin odası demektir; bozuk para ya da parça anlamına da gelebilir.
+A2	loyer	kira	Kira her yıl artıyor.	Ödenen tutardır; kiralamak fiili louer'dir.
+A2	meuble	mobilya parçası	Bu mobilya çok ağır.	Çoğul les meubles genel olarak mobilya demektir.
+A2	coussin	minder, kırlent	Kanepede bir kırlent var.	Süs ya da oturma minderi demektir; uyumak için olan oreiller'dir.
+A2	couverture	battaniye	Üşüyorum, bir battaniye alıyorum.	Battaniyenin yanı sıra kitabın kapağı anlamına da gelir.
+A2	oreiller	yastık	Yumuşak bir yastıkla uyuyorum.	-eill- grubu /ej/ okunur.
+A2	drap	çarşaf	Bu çarşaf beyaz ve temiz.	Sondaki p okunmaz; çoğulu draps.
+A2	ascenseur	asansör	Asansör bugün bozuk.	Erildir; kullanmak için prendre l'ascenseur denir.
+A2	immeuble	apartman, bina	İstasyonun yakınında bir apartmanda oturuyorum.	Birçok daireli bina demektir, mobilya değil (o meuble'dür).
+A2	plafond	tavan	Tavanda bir lamba var.	Örneğin harcamada bir üst sınır anlamına da gelir.
+A2	poubelle	çöp kutusu	Her akşam çöpü çıkarıyorum.	Dişildir; çöpü çıkarmak için sortir la poubelle denir.
+A2	savon	sabun	Lavabonun yanında sabun var.	Erildir; sondaki n yalnızca ünlüyü genizsiler.
+A2	serviette	havlu	Banyodan bir havlu alıyor.	Hem havlu hem de sofra peçetesi demektir; evrak çantası anlamına da gelebilir.
+A2	aspirateur	elektrikli süpürge	Salonu elektrikli süpürgeyle temizliyor.	passer fiiliyle kullanılır: passer l'aspirateur.
+A2	réduction	indirim	Kazaklarda indirim var.	Mağazada indirim demektir; genel olarak azalma anlamına da gelir.
+A2	monnaie	bozuk para, para üstü	Bozuğunuz var mı?	Bozuk para ya da geri alınan para üstü demektir; para birimi anlamına da gelir.
+A2	portefeuille	cüzdan	Cüzdanım çantamda.	Bozuk para kesesine porte-monnaie denir.
+A2	rayon	reyon, bölüm	Meyve reyonu nerede?	Mağazada bir bölüm ya da reyon demektir; ışık ışını anlamına da gelir.
+A2	caissier	kasiyer	Kasiyer bana para üstünü veriyor.	Dişili la caissière'dir.
+A2	étiquette	etiket	Fiyat etikette.	Ürün etiketi demektir; görgü kuralları anlamına da gelir.
+A2	taille	beden	Bu ceketi orta bedende arıyorum.	Giysi bedeni demektir; boy ve bel anlamına da gelir.
+A2	pointure	ayakkabı numarası	Ayakkabı numaranız kaç?	Ayakkabı ve eldiven için kullanılır.
+A2	manteau	palto	Hava soğuk, paltonu giy.	Çoğulu manteaux.
+A2	veste	ceket	Bu siyah ceket çok güzel.	Ceket demektir; yelek gilet'dir.
+A2	jupe	etek	Mavi bir etek giyiyor.	u, tu kelimesindeki gibi /y/ okunur.
+A2	pull	kazak	Bu kırmızı kazak yirmi avro.	pull-over'ın kısaltmasıdır; İngilizcedeki gibi değil, /pyl/ okunur.
+A2	chaussette	çorap	Makinede bir çorap kaybettim.	Çoraplar çift olduğu için sıklıkla çoğul kullanılır (les chaussettes).
+A2	parfum	parfüm	Annesi için bir parfüm alıyor.	Hem parfüm hem de dondurmanın aroması anlamına gelir.
+A2	vitrine	vitrin	Bu mağazanın vitrinine bakıyorum.	faire du lèche-vitrines deyiminde geçer; vitrin gezmek demektir.
+A2	chariot	alışveriş arabası	Mağazada alışveriş arabasını itiyor.	Süpermarkette ya da havalimanında kullanılan arabayı ifade eder.
+A2	commande	sipariş	Siparişim yarın geliyor.	Mal ya da yemek siparişi demektir; bir makinenin kumandası anlamına da gelir.
+A2	boulangerie	ekmek fırını	Ekmek fırını saat yedide açılıyor.	Dükkândır; orada çalışan kişi le boulanger'dir.
+A2	facture	fatura	Bugün elektrik faturasını ödüyorum.	Elektrik, su gibi hizmet faturası anlamına da gelir; restoran hesabı addition'dır.
+A2	bijou	mücevher, takı	Bu mücevher annemden bir hediye.	Çoğulu -x ile biter: bijoux.
+A2	passeport	pasaport	Pasaportumu evde unuttum.	Sondaki t okunmaz. Erildir: le passeport.
+A2	douane	gümrük	Sorunsuz gümrükten geçiyoruz.	passer la douane "gümrükten geçmek" demektir. Dişildir.
+A2	bagage	bagaj	Bagajım çok ağır.	Sıklıkla çoğul kullanılır, les bagages, İtalyanca "bagagli" gibi.
+A2	départ	kalkış, hareket	Trenin kalkışı saat sekizde.	Erildir, İtalyanca "partenza" ise dişildir. Karşıtı l'arrivée'dir.
+A2	arrivée	varış, geliş	İstasyonda onun gelişini bekliyoruz.	Dişildir, İtalyanca "arrivo" ise erildir.
+A2	retard	gecikme, rötar	Tren iki saat rötarlı.	être en retard "geç kalmak" demektir. Erildir.
+A2	réservation	rezervasyon	Bu akşam için rezervasyon yaptım.	faire une réservation "rezervasyon yapmak" demektir. Dişildir.
+A2	frontière	sınır	Sınır on kilometre uzakta.	Dişildir. İki ülke arasındaki çizgiyi ifade eder.
+A2	visite	ziyaret	Ziyaret yaklaşık bir saat sürüyor.	Bir yere ya da bir kişiye yapılan ziyaret için kullanılır. Dişildir.
+A2	village	köy	Köyüm çok sakin.	Erildir: le village. ville'den daha küçüktür.
+A2	route	yol	Kar yüzünden yol kapalı.	Kentler arasındaki yol demektir. Dişildir.
+A2	pont	köprü	Köprü çok eski.	Faire le pont ayrıca tatil ile hafta sonu arasında fazladan bir gün izin yapmak demektir.
+A2	horaire	tarife, saat çizelgesi	Otobüs tarifesi yarın değişiyor.	Ulaşım ve çalışma saatleri için kullanılır. Erildir.
+A2	séjour	kalış, konaklama	Nice'teki kalışımız bir hafta sürüyor.	Le séjour bir evin oturma odası anlamına da gelebilir.
+A2	campagne	kırsal, kır	Kırsalda yaşıyorlar.	la ville'in karşıtıdır. "Kırsalda" için à la campagne denir.
+A2	salaire	maaş	Maaşım ay sonunda yatıyor.	Erildir. İşverenden alınan her türlü ücret için kullanılır.
+A2	usine	fabrika	Bir araba fabrikasında çalışıyor.	Dişildir. Mal üretilen yeri ifade eder.
+A2	entreprise	şirket	Bu şirket yeni bir müdür arıyor.	Esas olarak "şirket" anlamına gelir. Dişildir.
+A2	directeur	müdür	Müdür ofisinde.	Dişili la directrice'dir.
+A2	entretien	iş görüşmesi, mülakat	Yarın sabah bir mülakatım var.	İş görüşmesi ve bir şeyin bakımı anlamına gelir.
+A2	contrat	sözleşme	Sözleşmesini dün imzaladı.	Sondaki t okunmaz. Erildir.
+A2	stage	staj	Bir bankada staj yapıyor.	Staj ya da kısa bir kurs demektir. Stajyere le stagiaire denir.
+A2	chômage	işsizlik	İşsizlik bu yıl düştü.	Être au chômage işsiz olmak demektir.
+A2	ouvrier	işçi	İşçi çatıyı onarıyor.	Dişili ouvrière'dir. Kol işçisini ifade eder.
+A2	dossier	dosya	Müşterinin dosyasını arıyorum.	Evrak dosyası ya da bilgisayar klasörü demektir. Erildir.
+A2	retraite	emeklilik	Babam emekli.	Être à la retraite emekli olmak demektir. Dişildir.
+A2	formation	eğitim	Bu eğitim üç ay sürüyor.	Çoğunlukla mesleki eğitim kursu demektir. Dişildir.
+A2	histoire	tarih, hikâye	Fransa tarihini seviyorum.	Hem bir ders olarak tarih hem de hikâye demektir: une histoire drôle.
+A2	peintre	ressam	Bu ressam çok ünlü.	Resim yapan kişiyi ifade eder. Fiili peindre'dir.
+A2	tableau	tablo	Bu tablo müzede.	Çoğulu -x alır: «les tableaux», «bateau» ve «gâteau» gibi.
+A2	roman	roman	Bir polisiye roman okuyorum.	Roman yazan kişi le romancier'dir.
+A2	auteur	yazar	Yazar kitaplarını yarın imzalıyor.	auteur kelimesinde au harfleri o okunur.
+A2	poème	şiir	Bir şiiri ezbere öğreniyor.	Erildir. Şiir yazan kişi le poète'tir.
+A2	exposition	sergi	Bu sergi cumartesi açılıyor.	Esas olarak sanat ya da fotoğraf sergisi demektir. Dişildir.
+A2	château	şato	Bir şatoyu geziyoruz.	Çoğulu les châteaux. Tarihî bir konak anlamına da gelebilir.
+A2	cathédrale	katedral	Katedral şehir merkezinde.	Fransızcada th ile yazılır, İtalyanca "cattedrale"den farklıdır.
+A2	tradition	gelenek	Bu bir aile geleneği.	Dişildir ve İtalyanca "tradizione"ye benzer.
+A2	siècle	yüzyıl	Bu şato on ikinci yüzyıldan kalma.	Erildir: le siècle.
+A2	spectacle	gösteri	Gösteri saat 20.00'de başlıyor.	Tiyatro, dans ya da sirk gibi sahne gösterisi demektir. Erildir.
+A2	bibliothèque	kütüphane	Kütüphane saat altıda kapanıyor.	Kitap ödünç alınan yer demektir, kitapçı değil; kitapçı librairie'dir.
+A2	statue	heykel	Kilisenin önünde bir heykel var.	Dişildir, İtalyanca "statua" gibi.
+A2	randonnée	doğa yürüyüşü	Pazar günü bir doğa yürüyüşü yapıyoruz.	faire une randonnée "doğa yürüyüşü yapmak" demektir.
+A2	montagne	dağ	Kışın dağı severim.	Dişildir, İtalyanca "montagna" gibi.
+A2	mer	deniz	Mart ayında deniz soğuk.	Dişildir, İtalyanca "mare" ise erildir. mère, "anne" ile aynı okunur.
+A2	forêt	orman	Ormanda yürüyoruz.	Dişildir. e harfinin üstünde şapka (accent circonflexe) vardır.
+A2	lac	göl	Göl çok derin.	Sondaki c okunur. Erildir.
+A2	tente	çadır	Çadırda uyuyoruz.	Kamp çadırı demektir. Dişildir.
+A2	camping	kamp alanı	Bir kamp alanında kalıyoruz.	Fransızcada le camping yerin kendisi, yani kamp alanı demektir.
+A2	pique-nique	piknik	Parkta piknik yapıyoruz.	Kısa çizgiyle yazılır. Çoğulu les pique-niques.
+A2	ballon	top	Çocuk bir topla oynuyor.	İtalyanca "ballo" ile ilgisi yoktur.
+A2	soirée	akşam (etkinlik), davet	Akşam çok keyifliydi.	Bir etkinlik ya da parti olarak akşam demektir. Günün vakti olan akşam le soir'dır, erildir.
+A2	sortie	çıkış	Çıkış sağda.	Hem bir yerden çıkış hem de gezi anlamına gelir: une sortie au cinéma.
+A2	loisir	hobi	En sevdiğim hobi okumak.	Sıklıkla çoğul kullanılır: les loisirs.
+A2	bricolage	tamir ve el işleri	Babam tamir ve el işlerine bayılır.	Evde küçük onarım ya da yapım işleri demektir. Fiili bricoler'dir.
+A2	rhume	nezle, soğuk algınlığı	İki gündür nezleyim.	avoir un rhume "nezle olmak" demektir.
+A2	toux	öksürük	Öksürüğüm geçmiyor.	Sondaki x okunmaz. Dişildir.
+A2	douleur	ağrı	Sırtımda bir ağrı var.	Dişildir, İtalyanca "dolore" ise erildir.
+A2	ordonnance	reçete	Doktor bir reçete yazıyor.	Bu anlamda doktor reçetesi demektir. Dişildir.
+A2	médicament	ilaç	Akşamları bir ilaç alıyorum.	Çoğulu les médicaments. Erildir.
+A2	infirmière	hemşire	Hemşire pansumanı değiştiriyor.	Eril biçimi l'infirmier'dir.
+A2	maladie	hastalık	Bu hastalık çok nadir.	Dişildir. malade ile aynı kökten gelir.
+A2	blessure	yara, yaralanma	Dizindeki yarası ciddi.	Yara ya da yaralanma demektir, spor sakatlığı da dahil.
+A2	allergie	alerji	Sütten alerjisi var.	être allergique à "alerjisi olmak" demektir.
+A2	pansement	yara bandı, sargı	Parmağına bir yara bandı yapıştırıyor.	Yara bandı ya da sargı demektir. Erildir.
+A2	vaccin	aşı	Aşı bu hastalığa karşı koruyor.	İlgili fiil vacciner'dir.
+A2	régime	diyet, rejim	Şekersiz bir diyet yapıyor.	Siyasi rejim anlamına da gelir.
+A2	sommeil	uyku	Uykuya ihtiyacım var.	avoir sommeil "uykusu gelmek" demektir.
+A2	retourner	geri dönmek	Paris'e geri döndük.	'Geri dönmek' anlamında passé composé'de être alır; nesneyle ('retourner une crêpe') avoir alır.
+A2	remonter	tekrar yukarı çıkmak, tekrar binmek	Tekrar trene bindi.	Nesnesiz kullanıldığında passé composé'de être alır; doğrudan nesneyle avoir alır.
+A2	nettoyer	temizlemek	Dün mutfağı temizledi.	-oyer fiilleri sessiz bir e'den önce y'yi i'ye çevirir: je nettoie, ama nous nettoyons.
+A2	ranger	toplamak, düzenlemek	Bu sabah odanı topladın.	a ve o'dan önce yumuşak g sesini korumak için e eklenir: nous rangeons.
+A2	décorer	süslemek	Noel ağacını birlikte süsledik.	Doğrudan nesne alan düzenli bir -er fiilidir: décorer une pièce.
+A2	organiser	düzenlemek	Güzel bir parti düzenlediler.	Düzenli bir -er fiilidir; passé composé'de avoir alır.
+A2	accepter	kabul etmek	Davetimizi kabul etti.	Doğrudan nesne ya da de + mastar alır: accepter de venir.
+A2	refuser	reddetmek	Bu teklifi reddettiniz.	Doğrudan nesne ya da de + mastar alır: refuser de partir.
+A2	proposer	önermek	Yeni bir plan önerdi.	Kalıbı proposer à qqn de + mastar: je te propose de venir.
+A2	essayer	denemek	Bu restoranı denedik.	y kalabilir ya da i olabilir (j'essaie, j'essaye); mastardan önce essayer de alır.
+A2	ajouter	eklemek	Çok fazla tuz ekledin.	Doğrudan nesne ve à alır: ajouter du sel à la soupe.
+A2	casser	kırmak	Bardağımı kırdı.	Geçişlidir: casser qqch; se casser 'kendiliğinden kırılmak' demektir.
+A2	réussir	başarmak	Sınavını geçti.	Sınavla réussir un examen denir, edatsız; mastarla réussir à faire.
+A2	grandir	büyümek	Kırsalda büyüdüler.	Düzenli bir -ir fiilidir (grandissons); geçişsizdir ve passé composé'de avoir alır.
+A2	remplir	doldurmak	Formu doldurdunuz.	Düzenli bir -ir fiilidir (remplissons); remplir un formulaire 'form doldurmak' demektir.
+A2	rendre	geri vermek, iade etmek	Bu kazağı dün iade etti.	Düzenli bir -re fiilidir; sıfatla 'yapmak' anlamına gelir (rendre heureux).
+A2	applaudir	alkışlamak	Müzisyenleri alkışladık.	Nesnesiyle doğrudan kullanılan düzenli bir -ir fiilidir: applaudir un artiste.
+A2	réfléchir	düşünmek	Bütün gece düşündü.	Kalıbı réfléchir à qqch; düzenli bir -ir fiilidir (réfléchissons).
+A2	laisser	bırakmak	Onları kapımın önünde bırakıyorum.	Mastarla 'izin vermek' demektir: laisser entrer; nesneyle '(bir şeyi) bırakmak' demektir.
+A2	garder	saklamak, alıkoymak	Onu bu akşam için saklıyoruz.	'Saklamak' ve 'bakıcılık yapmak' anlamına gelir: garder des enfants.
+A2	partager	paylaşmak	Onu arkadaşlarıyla paylaşıyorlar.	a ve o'dan önce e eklenir: nous partageons.
+A2	présenter	tanıştırmak	Onu ailemle tanıştırıyorum.	Bir kişiyi tanıştırmak için présenter qqn à qqn denir.
+A2	quitter	ayrılmak (bir yerden ya da kişiden)	Öğlen onlardan ayrılıyor.	Her zaman doğrudan nesne alır: quitter la maison, edatsız.
+A2	remarquer	fark etmek	Onu hemen fark ediyoruz.	'Fark etmek' demektir ve düzenli bir -er fiilidir.
+A2	remercier	teşekkür etmek	Bu hediye için onlara teşekkür ediyorum.	Kalıbı remercier qqn de ya da pour qqch.
+A2	retrouver	buluşmak	Onunla bu kafenin önünde buluşuyoruz.	Kaybedilen bir şeyi 'yeniden bulmak' ve belirli bir yerde birini 'buluşmak' anlamına gelir.
+A2	traverser	karşıdan karşıya geçmek	Onu yürüyerek geçiyoruz.	Doğrudan geçişlidir: traverser la rue, edatsız.
+A2	vérifier	kontrol etmek	Onları her sabah kontrol ediyor.	Doğrudan nesne alır: vérifier un horaire; düzenli bir -er fiilidir.
+A2	réparer	onarmak	Babam onu bu akşam onarıyor.	Bir nesneyi 'onarmak' demektir ve düzenli bir -er fiilidir.
+A2	goûter	tadına bakmak	Servis etmeden önce tadına bakıyorum.	'Tatmak' demektir (goûter à qqch da denir); fiil olarak 'ikindi atıştırması yapmak' anlamına da gelir.
+A2	nourrir	beslemek	Onları her sabah besliyoruz.	İnsanlar ve hayvanlar için kullanılan düzenli bir -ir fiilidir (nourrissons).
+A2	punir	cezalandırmak	Onları asla cezalandırmaz.	Düzenli bir -ir fiilidir (punissons); kalıbı punir qqn de ya da pour qqch.
+A2	raconter	anlatmak	Büyükbabam güzel bir hikâye anlatıyor.	Hikâyeler ve olaylar için kullanılır: raconter une histoire à qqn.
+A2	tourner	dönmek	Otobüs burada sağa dönüyor.	Düzenli bir -er fiilidir; film 'çekmek' anlamına da gelir.
+A2	changer	değiştirmek	Lyon'da tren değiştiriyoruz.	a ve o'dan önce e eklenir; changer de + isim, artikelsiz kullanılır.
+A2	dessiner	çizmek	Kızım bir kedi çiziyor.	'Çizmek' demektir ve düzenli bir -er fiilidir.
+A2	décider	karar vermek	Dışarıda yemeye karar veriyorlar.	Kalıbı décider de + mastar: il décide de partir.
+A2	rêver	hayal kurmak, rüya görmek	Tatil hayali kuracağız.	Kalıbı rêver de qqch ya da rêver de + mastar.
+A2	confondre	karıştırmak	Bu iki kelimeyi karıştıracaksın.	Düzenli bir -re fiilidir (confondons); kalıbı confondre A avec B.
+A2	atterrir	(uçak) inmek	Uçak öğlen inecek.	Düzenli bir -ir fiilidir (atterrissons) ve passé composé'de avoir alır.
+A2	vieillir	yaşlanmak	Birlikte yaşlanacağız.	Düzenli bir -ir fiilidir (vieillissons); passé composé'de avoir alır.
+A2	grossir	kilo almak	Kış boyunca kilo aldı.	'Kilo almak' demektir; passé composé'de avoir alan düzenli bir -ir fiilidir.
+A2	maigrir	kilo vermek	İki ayda kilo verdi.	'Kilo vermek' demektir; passé composé'de avoir alan düzenli bir -ir fiilidir.
+A2	obéir	itaat etmek	Köpek hemen itaat etti.	à alır: obéir à qqn; düzenli bir -ir fiilidir.
+A2	ralentir	yavaşlamak	Sürücü okulun önünde yavaşladı.	Nesnesiz kullanılabilen düzenli bir -ir fiilidir: ralentir devant l'école.
+A2	défendre	savunmak	Projemizi savunduk.	'Savunmak' demektir, ama 'yasaklamak' anlamına da gelir (défendre à qqn de faire).
+A2	guérir	iyileşmek	Çok çabuk iyileşti.	Düzenli bir -ir fiilidir; geçişsiz olarak 'iyileşmek' (avoir), geçişli olarak 'birini iyileştirmek' demektir.
+A2	lever	kalkmak	Saat yedide kalkıyoruz.	Şimdiki zamanda sessiz heceden önce e, è olur: je me lève, ama nous nous levons.
+A2	coucher	yatmak	Çocuklar saat dokuzda yatıyor.	Se coucher 'yatmak' demektir; coucher qqn 'birini yatırmak' demektir.
+A2	réveiller	uyanmak	Saat altıda uyanıyorum.	Se réveiller 'uyanmak' demektir; réveiller qqn 'birini uyandırmak' demektir.
+A2	promener	gezintiye çıkmak	Parkta gezintiye çıkıyoruz.	Se promener 'gezintiye çıkmak' demektir; şimdiki zamanda è alır: je me promène.
+A2	habiller	giyinmek	Hep siyah giyiniyorsunuz.	S'habiller 'giyinmek' demektir; passé composé'de être alır: je me suis habillé.
+A2	dépêcher	acele etmek	Bu sabah acele ediyoruz.	Se dépêcher 'acele etmek' demektir ve çoğunlukla de + mastar ile kullanılır.
+A2	reposer	dinlenmek	İşten sonra dinleniyorsun.	Se reposer 'dinlenmek' demektir; passé composé'de être alır.
+A2	installer	yerleşmek	Salona yerleşiyoruz.	S'installer 'yerleşmek' demektir; installer qqch 'kurmak, yüklemek' demektir.
+A2	amuser	eğlenmek	Burada çok eğleniyoruz.	S'amuser 'eğlenmek' demektir; amuser qqn 'birini eğlendirmek' demektir.
+A2	arrêter	durmak	Kafenin önünde duruyoruz.	S'arrêter 'durmak (kendiliğinden)' demektir; arrêter qqch bir şeyi 'durdurmak' ya da 'bırakmak' demektir.
+A2	brosser	fırçalamak (diş)	Dişlerimizi fırçalıyoruz.	Vücut bölümleriyle artikel kullanılır: se brosser les dents.
+A2	excuser	özür dilemek	Çok sık özür diliyorsunuz.	S'excuser 'özür dilemek' demektir; kalıbı s'excuser de ya da pour qqch.
+A2	inquiéter	endişelenmek	Senin için endişeleniyoruz.	S'inquiéter 'endişelenmek' demektir; tekil şimdiki zamanda é, è olur: je m'inquiète.
+A2	maquiller	makyaj yapmak	Parti öncesi makyaj yapıyor.	Se maquiller 'makyaj yapmak' demektir; dönüşlü zamir özneye uyar.
+A2	croire	inanmak	Bu hikâyeye inanamıyorum.	Düzensizdir (je crois, nous croyons); kalıpları croire à qqch ve croire en qqn.
+A2	vivre	yaşamak	Lyon'da yaşamak istiyor.	Düzensizdir (je vis, nous vivons); ortacı vécu'dür.
+A2	suivre	izlemek, takip etmek	Bu yolu izlemelisiniz.	Düzensizdir (je suis, nous suivons); je suis, être fiilinin biçimiyle aynıdır.
+A2	tenir	elinde tutmak	Çantamı tutabilirsin.	Düzensizdir (je tiens, nous tenons); ortacı tenu'dür.
+A2	courir	koşmak	Sabahları koşmayı severim.	Düzensizdir (je cours, nous courons); ortacı couru'dur.
+A2	rire	gülmek	Birlikte gülmeyi seviyoruz.	Düzensizdir (je ris, nous rions); ortacı ri hiç değişmez.
+A2	plaire	hoşuna gitmek	Bu film çocukların hoşuna gidecek.	Düzensizdir, ortacı plu; kişi dolaylı nesnedir: plaire à qqn.
+A2	offrir	hediye etmek, sunmak	Çiçek hediye etmek istiyorum.	Şimdiki zamanda bir -er fiili gibi çekimlenir (j'offre); ortacı offert'tir.
+A2	conduire	(araç) sürmek	Kardeşim motosiklet kullanmayı bilir.	Düzensizdir (je conduis, nous conduisons); ortacı conduit'dir.
+A2	mourir	ölmek	Bu bitki susuz ölecek.	Düzensizdir; passé composé'de être alır: il est mort.
+A2	naître	doğmak	Bebeğin mayıs ayında doğması bekleniyor.	Düzensizdir; passé composé'de être alır: elle est née.
+A2	devenir	olmak, haline gelmek	Doktor olmak istiyor.	Düzensizdir; passé composé'de être alır: il est devenu.
+A2	revenir	geri gelmek	Yarın akşam geri gelebilirsin.	Düzensizdir; passé composé'de être alır: il est revenu.
+A2	obtenir	elde etmek, almak	Vizesini almayı umuyor.	Düzensizdir; passé composé'de avoir alır: il a obtenu.
+A2	découvrir	keşfetmek	Bu şehri keşfetmek istiyoruz.	Düzensizdir; ortacı découvert'tir.
+A2	souffrir	acı çekmek	Artık acı çekmek istemiyor.	Düzensizdir; ortacı souffert'tir.
+A2	sourire	gülümsemek	Müşterilere gülümsemeyi seviyor.	Düzensizdir; kalıbı sourire à qqn ve ortacı souri'dir.
+A2	éteindre	kapatmak (ışık, cihaz)	Işığı kapatmak gerekiyor.	Düzensizdir (j'éteins, nous éteignons); ortacı éteint'tir.
+A2	peindre	boyamak, resmetmek	Manzaraları resmetmeyi seviyor.	Düzensizdir (je peins, nous peignons); ortacı peint'tir.
+A2	traduire	çevirmek	Bu cümleyi çevirebilir misin?	Düzensizdir (je traduis, nous traduisons); ortacı traduit'dir.
+A2	construire	inşa etmek	Bir okul inşa edecekler.	Düzensizdir (je construis, nous construisons); ortacı construit'dir.
+A2	permettre	izin vermek, olanak sağlamak	Bu kart size seyahat etme olanağı sağlayacak.	Kalıbı permettre à qqn de faire; ortacı permis'dir.
+A2	promettre	söz vermek	Geri geleceğine söz vermelisin.	Kalıbı promettre à qqn de faire; ortacı promis'dir.
+A2	reconnaître	tanımak	Onun sesini tanıyabilirim.	Düzensizdir, t'den önce î alır (il reconnaît); ortacı reconnu'dur.
+A2	propre	temiz	Odam çok temiz.	İsimden sonra 'temiz' demektir; isimden önce 'kendi' demektir (ma propre chambre).
+A2	pauvre	fakir	Bu köy oldukça fakir.	Eril ve dişil için aynı biçimdir. İsimden önce 'zavallı, acınacak' anlamına gelebilir (mon pauvre ami).
+A2	riche	zengin	Amcam çok zengin.	Eril ve dişil için aynı biçimdir; çoğulu riches.
+A2	court	kısa	Bu film çok kısa.	Dişili courte. Nesneleri ve süreyi tanımlar; bir kişinin boyu için Fransızca petit kullanır.
+A2	haut	yüksek	Bu dağ çok yüksek.	h aspire edilir: bağlama ya da ünlü düşmesi olmaz (le haut). Dişili haute. İnsanlar için grand kullanılır.
+A2	bas	alçak, düşük	Buradaki fiyatlar düşük.	Dişili basse; eril çoğulu bas kalır. Bir kişinin boyu için bas değil petit kullanılır.
+A2	large	geniş	Bu sokak çok geniş.	Eril ve dişil için aynı biçimdir. Bol giysileri de tanımlayabilir.
+A2	étroit	dar	Bu koridor çok dar.	Dişili étroite. large'ın karşıtıdır.
+A2	doux	yumuşak, nazik	Kazağım çok yumuşak.	Dişili douce. Kumaşları, havayı ve nazik kişileri tanımlar; şekerli tat için sucré kullanılır.
+A2	dur	sert	Bu peynir çok sert.	Dişili dure. Zor bir işi ya da zor bir dönemi de tanımlayabilir.
+A2	sec	kuru	Bu ekmek çok kuru.	Dişili düzensizdir: sèche.
+A2	mouillé	ıslak	Ayakkabılarım tamamen ıslak.	mouiller fiilinin ortacıdır, sıfat olarak kullanılır; uyum gösterir: mouillé, mouillée, mouillés, mouillées.
+A2	gros	iri, şişman	Büyük bir kedisi var.	Dişili düzensizdir: grosse. Genellikle isimden önce gelir.
+A2	mince	ince	Bu kitap çok ince.	Eril ve dişil için aynı biçimdir. Bir kişi için 'ince yapılı, narin' demektir.
+A2	fou	çılgın, deli	Bu fikir gerçekten çılgınca.	Dişili düzensizdir: folle (çoğulu fous, folles).
+A2	drôle	komik	Bu film gerçekten komik.	Eril ve dişil için aynı biçimdir. İsimden önce 'garip' anlamına gelebilir (une drôle d'idée).
+A2	sérieux	ciddi	Patronum çok ciddi.	Dişili sérieuse. Güvenilir ve çalışkan birini de tanımlar.
+A2	timide	utangaç	Kızım biraz utangaç.	Eril ve dişil için aynı biçimdir.
+A2	paresseux	tembel	Kardeşim biraz tembel.	Dişili paresseuse.
+A2	courageux	cesur	Bu hemşire çok cesur.	Dişili courageuse. İlgili isim le courage'dır.
+A2	poli	kibar	Bu çocuk çok kibar.	Dişili polie. Dikkat: poli temiz anlamına gelmez (o propre'dir).
+A2	gris	gri	Gökyüzü bugün gri.	Dişili grise; eril çoğulu gris kalır.
+A2	rose	pembe	Pembe bir elbise giyiyor.	Renk sıfatı olarak normal uyum gösterir (des robes roses). Aynı zamanda gül çiçeğinin de adıdır.
+A2	violet	mor	Bu mor çantayı seviyorum.	Dişili violette; çoğulu violets, violettes.
+A2	sympathique	cana yakın, sevimli	Komşum çok cana yakın.	Eril ve dişil için aynı biçimdir. Sevimli anlamına gelir; acıma duygusu anlamında 'anlayışlı' değildir.
+A2	agréable	hoş, keyifli	Bu restoran çok hoş.	Eril ve dişil için aynı biçimdir.
+A2	dangereux	tehlikeli	Bu yol çok tehlikeli.	Dişili dangereuse. İlgili isim le danger'dır.
+A2	inquiet	endişeli	Annem çok endişeli.	Dişili düzensizdir: inquiète.
+A2	seul	yalnız	Lyon'da yalnız yaşıyor.	Fiilden sonra 'yalnız' demektir; isimden önce 'tek' demektir (le seul problème).
+A2	vrai	doğru, gerçek	Bu hikâye doğru.	Dişili vraie. faux'nun karşıtıdır.
+A2	faux	yanlış, sahte	Bu cevap yanlış.	Dişili düzensizdir: fausse. 'Sahte' anlamına da gelebilir (un faux billet).
+A2	calme	sakin	Deniz çok sakin.	Eril ve dişil için aynı biçimdir.
+A2	bruyant	gürültülü	Bu mahalle çok gürültülü.	Dişili bruyante. İlgili isim le bruit'dir.
+A2	tranquille	huzurlu	Bu köy çok huzurlu.	Eril ve dişil için aynı biçimdir; iki l ile yazılır.
+A2	célèbre	ünlü	Bu şarkıcı çok ünlü.	Eril ve dişil için aynı biçimdir.
+A2	étrange	tuhaf	Bu ses gerçekten tuhaf.	Eril ve dişil için aynı biçimdir. étranger ile karıştırma: o 'yabancı' demektir.
+A2	ancien	eski, önceki	Bu kilise çok eski.	Dişili ancienne. İsimden sonra 'kadim, eski' demektir; isimden önce 'önceki' demektir (mon ancien patron).
+A2	prochain	gelecek, bir sonraki	Bir sonraki tren yakında kalkıyor.	Dişili prochaine. İsimden önce de sonra da gelebilir: le prochain train, la semaine prochaine.
+A2	dernier	son, geçen	Son metro gitti.	Dişili dernière. İsimden önce bir dizideki 'sonuncu' demektir; zaman ismiyle 'geçen' demektir (l'année dernière).
+A2	délicieux	lezzetli	Bu kek gerçekten lezzetli.	Dişili délicieuse.
+A2	pourtant	yine de, oysa	Yorgun, yine de çalışıyor.	Az önce söylenenle bir karşıtlık kuran bir zarftır.
+A2	enfin	sonunda, nihayet	Sonunda tatilimiz var!	Bir beklemenin sonunu belirtir (enfin!) ve bir listeyi de kapatabilir.
+A2	ensuite	sonra, ardından	Sonra trene bineceğiz.	Zamanda sonra gelen şeyi söyler; tek kelime olarak yazılır.
+A2	d'abord	önce, ilk olarak	Önce bir duş alacağım.	Kesme işareti içerir. Eylemleri sıralamak için sıklıkla ensuite ve enfin ile birlikte kullanılır.
+A2	surtout	özellikle, her şeyden önce	Özellikle sırtı ağrıyor.	Tek kelime olarak yazılır; sondaki t okunmaz.
+A2	presque	neredeyse	Neredeyse vardık.	Zarf olarak ünlü düşmesi yapmaz: «presque arrivé»; ünlü düşmesi yalnızca «presqu'île»de görülür.
+A2	environ	yaklaşık	Müze yaklaşık on dakika uzakta.	Sayıdan önce gelir. Çoğul les environs 'çevre' anlamında bir isimdir.
+A2	plutôt	daha çok, oldukça	Bu film oldukça uzun.	o harfinin üstünde şapka (accent circonflexe) ile yazılır.
+A2	longtemps	uzun süre	Uzun süre uyumadım.	Tek kelime olarak yazılır; sondaki s okunmaz.
+A2	tard	geç	Bu akşam eve geç dönmüyorum.	tôt'nun karşıtıdır. Plus tard 'daha sonra' demektir.
+A2	tôt	erken	Pazar günleri erken kalkmam.	tard'ın karşıtıdır. Şapkalıdır (accent circonflexe) ve sondaki t okunmaz.
+A2	loin	uzak	İstasyon buradan çok uzak değil.	près'nin karşıtıdır. Bir tamlayanla loin de olur.
+A2	quelquefois	bazen, ara sıra	Babam bazen çok yorgun oluyor.	Tek kelime olarak yazılır ve parfois'nın eş anlamlısıdır.
+A2	assez	yeterince, epey	Bu bavul epey ağır.	İsimden önce de alır: assez de.
+A2	trop	fazla, çok	Bu kahve çok sıcak.	İsimden önce de alır: trop de. Sondaki p okunmaz.
+A2	partout	her yerde	Her yerde kitaplarım var.	Tek kelime olarak yazılır; sondaki t okunmaz.
+A2	dehors	dışarıda	Çocuklar dışarıda.	dedans'ın karşıtıdır. En dehors de 'hariç' ya da 'dışında' demektir.
+A2	ailleurs	başka yerde	Bu akşam başka yerde yemek yiyeceğiz.	D'ailleurs 'zaten' ya da 'bu arada' demektir.
+A2	pendant	boyunca, süresince	Yolculuk boyunca uyuyacağız.	Bir olay ya da süreyle kullanılır (pendant deux heures).
+A2	depuis	-den beri, -dir	İki yıldır buradayım.	Süren bir eylem için Fransızca şimdiki zaman kullanır (je suis ici depuis...).
+A2	vers	doğru, civarında	Saat sekiz civarında eve dönecek.	Zamanla 'civarında' demektir; yerle yönü gösterir.
+A2	entre	arasında	Kafe banka ile postanenin arasında.	entrer fiilinin il entre biçimiyle aynı okunur.
+A2	contre	karşı	Bu fikre karşıyım.	pour'un karşıtıdır. Karşıtlığı ve fiziksel teması anlatır (contre le mur).
+A2	selon	göre	Marie'ye göre mağaza kapalı.	Bir kişi ya da kaynakla kullanılır; selon moi 'bence' demektir.
+A2	malgré	-e rağmen	Yağmura rağmen mutlu.	Sondaki e harfinin üstünde akut aksan ile yazılır.
+A2	donc	bu yüzden, dolayısıyla	Hasta, bu yüzden burada kalıyor.	Cümle başında ya da ünlüden önce /dɔ̃k/ okunur; ünsüzden önce «c» çoğunlukla okunmaz.
+A2	car	çünkü	Burada kalıyorum çünkü üşüyorum.	Yazıda daha yaygındır. Un car aynı zamanda şehirlerarası otobüs demektir, ama farklı bir kelimedir.
+A2	comme	gibi, kadar	Babası kadar uzun.	Cümle başında geldiğinde 'çünkü' anlamına da gelebilir.
+A2	sinon	yoksa	Çabuk ye, yoksa acıkacaksın.	Tek kelime olarak yazılır.
+A2	lui	ona (dolaylı nesne)	Yarın ona telefon edeceğim.	Eril ve dişil için aynı olan dolaylı nesne zamiridir (téléphoner à quelqu'un).
+A2	leur	onlara	Onlara bir hediye vereceğim.	Zamir olarak değişmezdir ve s almaz; iyelik sıfatı leur, leurs ile karıştırılmamalıdır.
+A2	chacun	her biri, herkes	Herkesin kendi telefonu var.	Dişili chacune. Tekil fiil alır.
+A2	quelqu'un	birisi	Mutfakta biri var.	Kesme işareti içerir ve eril tekildir. Sıfattan önce de alır: quelqu'un de gentil.
+A2	rien	hiçbir şey	Çantamda hiçbir şey yok.	Fiille birlikte ne ... rien yapısında kullanılır. Tek başına cevap olabilir (Rien!).
+A2	tout	her şey	Parti için her şey hazır.	Zamir olarak 'her şey' demektir; sondaki t okunmaz.
+A2	plusieurs	birkaç	Arkadaşlarımdan birkaçı hasta.	Her zaman çoğuldur ve iki cins için aynı biçimdedir.
+A2	quartier	mahalle	Sakin bir mahallede oturuyorum.	Bir kentin bölgesi demektir; «çeyrek» için «quart» denir.
+A2	météo	hava durumu	Hava durumu yağmur bildiriyor.	Dişildir ve günlük dilde kullanılır; «le temps» havanın kendisidir.
+A2	panne	arıza	Arabamız bozuldu.	«en panne» deyiminde kullanılır: bir arabanın ya da makinenin arızası.
+A2	accident	kaza	Dün bir kaza oldu.	Erildir; trafik kazaları ve genel olarak kazalar için kullanılır.
+A2	emprunter	ödünç almak	Kütüphaneden bir kitap ödünç alıyorum.	«emprunter … à quelqu'un» denir; ödünç veren kişi «prête» der.
+A2	prêter	ödünç vermek	Bisikletlerimizi komşulara ödünç veriyoruz.	«emprunter»'nin karşıtıdır: veren kişi «prêter» kullanır.
+A2	dépenser	harcamak	İndirimlerde çok fazla harcıyoruz.	Esas olarak para için kullanılır; zaman için «passer du temps» denir.
+A2	annuler	iptal etmek	Bu akşamki rezervasyonumu iptal ediyorum.	Düzenlidir; iki n ile yazılır.
+A2	dessert	tatlı	Tatlı olarak dondurma alıyor.	Erildir; sondaki t okunmaz. désert, yani çöl ile karıştırılmamalıdır.
+A2	sandwich	sandviç	Peynirli bir sandviç yiyor.	Erildir; çoğulu sandwichs ya da sandwiches yazılır.
+A2	croissant	kruvasan	Fırından bir kruvasan alıyor.	Erildir; sondaki t okunmaz.
+A2	important	önemli	Bu çok önemli bir randevu.	Dişili importante, çoğulu importants.
+A2	vraiment	gerçekten	Bu kek gerçekten lezzetli.	Bir sıfatı ya da fiili güçlendirir: vraiment bon, j'aime vraiment ça.
+A2	seulement	sadece, yalnızca	Sadece iki boş yer var.	uniquement'ın eş anlamlısıdır; sınırladığı kelimenin yanına gelir.
+A2	avant	önce	Yemekten önce ellerimi yıkayacağım.	Mastardan önce avant de kullanılır: avant de manger. après'nin karşıtıdır.
+A2	après	sonra	Akşam yemeğinden sonra yürümek istiyorum.	Fiilden önce après avoir ya da après être + ortaç kullanılır: après avoir mangé.
+A2	alors	o halde, öyleyse	Yağmur yağıyor, o halde evde kalacağız.	Bağlaç olarak bir sonuç getirir; zarf da olabilir (o zaman, o sırada).
+A2	cerise	kiraz	Ağaçtan düşen kiraz olgun.	Dişildir; İtalyanca ciliegia kelimesinden oldukça farklı görünür.
+A2	poire	armut	İyice olgun bir armut istiyorum.	Dişildir; günlük dildeki une bonne poire deyiminde kolay kandırılan kişi demektir.
+A2	serveur	garson	Masamıza bakan garson üç dil konuşuyor.	Dişili «serveuse». Garsonu çağırmak için «Monsieur» ya da «S'il vous plaît» denir.
+A2	sauce	sos	Hazırladığım sos balıkla mükemmel gidiyor.	Soslar ve et suyu sosları için kullanılır. «Sauce tomate» domates sosudur.
+A2	vol	uçuş	Lizbon'a uçuşumuz iki saat sürdü.	Aynı zamanda "hırsızlık" demektir: bağlam anlamı belli eder.
+A2	collègue	iş arkadaşı, meslektaş	İş arkadaşım yokluğum süresince yerime baktı.	Her iki cins için aynı biçimdir (le/la collègue).
+A2	université	üniversite	Bu üniversite her yıl kırk bin öğrenci ağırlıyor.	Fransa'da université, "grandes écoles"tan ayrıdır.
+A2	jouet	oyuncak	Bu oyuncak geri dönüştürülmüş ahşaptan yapılmış.	Oynanan nesnedir; jeu (oyun) ile aynı şey değildir.
+A2	bientôt	yakında	Tren yakında kalkacak.	Şapkalı (accent circonflexe) yazılır; À bientôt 'yakında görüşürüz' demektir.
+A2	jusque	-e kadar	Bu yaz Alpler'e kadar gideceğiz.	Ünlüden önce jusqu' olur. Sıklıkla dans, sur, chez, ici ile kullanılır.
+A2	puis	sonra da, daha sonra	Önce akşam yemeği yiyeceğiz, sonra sinemaya gideceğiz.	Art arda gelen eylemleri bağlar. Konuşmada et puis ek bir not ekler.
+A2	que	ki (yan tümce bağlacı)	Bence bu köy en güzeli.	İsim tümcelerini ve karşılaştırmanın ikinci terimini getirir. Ünlüden önce qu' olur.

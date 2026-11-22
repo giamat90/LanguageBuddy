@@ -1,0 +1,312 @@
+A1	pain	ekmek	Sabahları ekmek yerim.	Çoğunlukla bölümlü artikelle (du, de la) kullanılır: du pain "biraz ekmek" demektir.
+A1	eau	su	Bir bardak su istiyorum.	Dişildir ve çoğulu eaux'dur.
+A1	lait	süt	O, sıcak süt içiyor.	Eril addır: le lait. Sondaki t okunmaz.
+A1	fromage	peynir	Fransız peynirini severim.	Eril addır, İtalyanca formaggio gibi.
+A1	viande	et	O, et yemiyor.	Viande et demektir; genel olarak yiyecek anlamına gelmez.
+A1	poisson	balık	Cuma günleri balık yeriz.	"poison" ile karıştırmayın; o zehir (toksik madde) demektir.
+A1	légume	sebze	Brokoli yeşil bir sebzedir.	Eril addır ve çok sık çoğul kullanılır: les légumes.
+A1	fruit	meyve	Her gün bir meyve yerim.	Çoğunlukla çoğul kullanılır: des fruits.
+A1	pomme	elma	Bu elma çok kırmızı.	Tek başına pomme elmadır; patates pomme de terre'dir.
+A1	œuf	yumurta	O, kahvaltıda bir yumurta yiyor.	Çoğulu œufs yazılır ve ø okunur: f okunmaz.
+A1	riz	pirinç	Bu akşam pilav yiyoruz.	Sondaki z okunmaz.
+A1	sucre	şeker	Şeker ister misiniz?	Eril addır: le sucre. Genellikle bölümlü artikelle kullanılır: du sucre.
+A1	sel	tuz	Tuzu uzatır mısınız?	Eril addır: le sel.
+A1	café	kahve	Sabahları bir kahve içerim.	Hem içeceği hem de içildiği yeri (kafe) anlatır.
+A1	thé	çay	O, şekersiz çay içiyor.	Akut aksanla yazılır ve te diye okunur.
+A1	jus	meyve suyu	Bir portakal suyu lütfen.	Sondaki s okunmaz ve çoğulu aynıdır.
+A1	vin	şarap	Babam kırmızı şarabı sever.	Eril addır: le vin. Sondaki n genizsi bir ünlüyü gösterir.
+A1	bière	bira	O, soğuk bir bira söylüyor.	Dişil addır: la bière.
+A1	gâteau	pasta	Annem bir pasta yapıyor.	Çoğulu gâteaux'dur. Düzeltme işaretiyle yazılır.
+A1	soupe	çorba	Çorba hâlâ sıcak.	Dişil addır: la soupe.
+A1	salade	salata	Yeşil bir salata istiyorum.	Hem marulu hem de salata yemeğini anlatır.
+A1	repas	yemek, öğün	Yemek hazır.	Sondaki s okunmaz ve çoğulu aynıdır.
+A1	beurre	tereyağı	O, ekmeğin üstüne tereyağı sürüyor.	Eril addır: le beurre. Bölümlü artikelle kullanılır: du beurre.
+A1	poulet	tavuk	Bu akşam tavuk yiyoruz.	Hem hayvanı hem de etini anlatır.
+A1	chocolat	çikolata	Çocuklar çikolatayı sever.	Sondaki t okunmaz.
+A1	maison	ev	Evimiz parkın yakınında.	Maison bina olarak evdir; apartman dairesi appartement'dır.
+A1	chambre	yatak odası	Yatak odam çok küçük.	Genellikle yatak odası anlamına gelir.
+A1	cuisine	mutfak	O, akşam yemeğini mutfakta hazırlıyor.	Hem odayı hem de yemek pişirme sanatını anlatır.
+A1	salon	oturma odası	Oturma odasında televizyon izliyoruz.	Eril addır: le salon.
+A1	porte	kapı	Lütfen kapıyı kapat.	Dişil addır: la porte.
+A1	fenêtre	pencere	Pencere açık.	Düzeltme işaretiyle yazılır.
+A1	table	masa	Kitap masanın üstünde.	Dişil addır: la table.
+A1	chaise	sandalye	Burada bir sandalye var.	Chaise sandalyedir; koltuk fauteuil'dür.
+A1	lit	yatak	Yatağım çok rahat.	Sondaki t okunmaz.
+A1	jardin	bahçe	Çocuklar bahçede oynuyor.	Eril addır: le jardin.
+A1	appartement	daire	Lyon'da bir daire arıyoruz.	İki p ile yazılır ve -ment ile biter.
+A1	mur	duvar	Duvarda bir tablo var.	Olgun anlamına gelen mûr ile karıştırmayın.
+A1	toit	çatı	Evin çatısı kırmızı.	Eril addır: le toit.
+A1	escalier	merdiven	Merdiven sağda.	Tüm merdiveni anlatmak için çoğunlukla tekil kullanılır.
+A1	clé	anahtar	Anahtarım nerede?	clef diye de yazılabilir.
+A1	lampe	lamba	Oturma odasının lambasını yakıyorum.	Dişil addır: la lampe.
+A1	canapé	kanepe	Kedi kanepede uyuyor.	Kanepe demektir; mutfak dilinde «canapé» küçük bir parti ikramlığı da olabilir.
+A1	armoire	gardırop	Giysilerim gardırobun içinde.	Dişil addır: l'armoire.
+A1	étage	kat	Dairem ikinci katta.	Zemin kat rez-de-chaussée'dir; premier étage onun üstündeki birinci kattır.
+A1	douche	duş	Sabahları duş alırım.	Dişil addır: la douche.
+A1	miroir	ayna	Girişte bir ayna var.	Eril addır: le miroir.
+A1	tapis	halı	Kedi halının üstünde uyuyor.	Sondaki s okunmaz ve çoğulu aynıdır.
+A1	balcon	balkon	Balkonda yemek yiyoruz.	Eril addır: le balcon.
+A1	voisin	komşu	Komşum çok iyi biri.	Dişili voisine'dir.
+A1	magasin	mağaza	Mağaza saat yedide kapanıyor.	İngilizce magazine (dergi) ile karıştırmayın: magasin bir mağazadır.
+A1	prix	fiyat	Fiyatı ne kadar?	Sondaki x okunmaz ve çoğulu aynıdır.
+A1	argent	para	Param yok.	Hem parayı hem de gümüşü anlatır.
+A1	marché	pazar	Cumartesi günleri pazara gidiyoruz.	Eril addır: le marché.
+A1	sac	çanta	O, siyah bir çanta taşıyor.	Eril addır: le sac.
+A1	boutique	butik	Bu butik ayakkabı satıyor.	Küçük bir dükkân anlamına gelir.
+A1	caisse	kasa	Kasada ödeme yaparsınız.	Dişil addır: la caisse.
+A1	client	müşteri	Müşteri kapıda bekliyor.	Dişili cliente'dir.
+A1	vendeur	tezgâhtar	Tezgâhtar çok nazik.	Dişili vendeuse'dür.
+A1	euro	avro	Bir avro ediyor.	Çoğulu euros'dur.
+A1	carte	kart, harita	Kartımla ödüyorum.	Harita ve iskambil kâğıdı anlamına da gelir.
+A1	ticket	fiş	Lütfen fişi saklayın.	Örneğin metro için basit bir bilet anlamına da gelir.
+A1	vêtement	giysi	Bu giysi çok büyük.	Çoğunlukla çoğul kullanılır: les vêtements, giysiler.
+A1	chaussure	ayakkabı	Bu ayakkabı çok küçük.	Çoğunlukla çoğul kullanılır: les chaussures.
+A1	robe	elbise	O, mavi bir elbise giyiyor.	Robe kadın elbisesidir.
+A1	pantalon	pantolon	Bu pantolon çok uzun.	Fransızcada tekildir: un pantalon.
+A1	chemise	gömlek	O, beyaz bir gömlek giyiyor.	Dişil addır: la chemise.
+A1	cadeau	hediye	Bu, annem için bir hediye.	Çoğulu cadeaux'dur.
+A1	panier	sepet	O, elmaları sepete koyuyor.	Eril addır: le panier.
+A1	supermarché	süpermarket	Alışverişi süpermarkette yapıyoruz.	Eril addır: le supermarché.
+A1	gare	tren istasyonu	Affedersiniz, istasyon nerede?	Yalnızca tren istasyonu demektir; otobüs terminali "gare routière"dir.
+A1	billet	bilet	Lyon'a bir bilet almak istiyorum.	Tren, uçak ve gösteri biletleri için kullanılır; "billet" banknot anlamına da gelir.
+A1	ville	şehir	Büyük bir şehirde yaşıyorum.	Her zaman dişildir; "en ville" "şehirde" veya "şehir merkezinde" demektir.
+A1	train	tren	Tren saat sekizde kalkıyor.	İçindeyken "dans le train", trenle yolculuk için "en train" denir.
+A1	avion	uçak	Uçağım öğlen geliyor.	Eril addır: "un avion"; uçakla yolculuk için "en avion" denir.
+A1	valise	valiz	Valizim çok ağır.	"Faire sa valise" valizi hazırlamak demektir.
+A1	voyage	gezi, yolculuk	İtalya'ya bir gezi yapıyoruz.	Eril addır; "Bon voyage !" yola çıkan birine söylenen olağan dilektir.
+A1	hôtel	otel	Otelimiz plajın yakınında.	Düzeltme işaretiyle yazılır ve h okunmaz.
+A1	voiture	araba	Arabam evin önünde.	Araba için gündelik sözcüktür; "la voiture" dişildir.
+A1	aéroport	havalimanı	Havalimanı şehir merkezine uzak.	Eril addır: "un aéroport".
+A1	pays	ülke	Hangi ülkedensin?	Çoğulu aynıdır: "les pays". Köy anlamına gelmez, o "village"dir.
+A1	rue	sokak	Sokağım çok sakin.	Şehirdeki sokak demektir; şehirler arası yol "la route"dur.
+A1	bus	otobüs	Otobüs on dakikada bir geçiyor.	"autobus"ün kısa biçimidir ve sondaki s okunur.
+A1	taxi	taksi	İstasyona taksiyle gidiyorum.	İngilizce sözcük gibi yazılır ama Fransızca telaffuz edilir.
+A1	métro	metro	Her gün metroya biniyorum.	"Métro", "métropolitain"in kısaltmasıdır; metroyla yolculuk için "en métro" denir.
+A1	travail	iş (çalışma)	İşim dokuzda başlıyor.	Çoğulu "travaux"dur ve çoğunlukla yol veya inşaat çalışması demektir.
+A1	bureau	ofis	Ofisim ikinci katta.	Çalışma masası anlamına da gelir; çoğulu "bureaux"dur.
+A1	patron	patron	Patronum çok kibar.	Dişili "patronne"dir; olağan, tarafsız bir sözcüktür.
+A1	réunion	toplantı	Toplantı saat onda başlıyor.	Dişildir; genellikle iş toplantısı demektir.
+A1	métier	meslek	Mesleğiniz nedir?	Bir zanaat veya uğraşı anlamına gelir; eril addır.
+A1	ordinateur	bilgisayar	Ofiste bir dizüstü bilgisayarım var.	Fransa'da olağan sözcük "ordinateur"dür, "computer" değil.
+A1	emploi	iş (pozisyon, istihdam)	Paris'te bir iş arıyorum.	"Emploi du temps" zaman çizelgesi (program) demektir; tek başına "emploi" bir iştir.
+A1	équipe	ekip, takım	Ekibimiz çok sempatik.	Dişildir; iş takımları ve spor takımları için kullanılır.
+A1	projet	proje	Yeni bir projemiz var.	Eril addır; sondaki t okunmaz.
+A1	musique	müzik	Klasik müziği çok severim.	Dişildir ve normalde belirli artikelle kullanılır: "la musique".
+A1	film	film	Bu film çok komik.	Eril addır ve çoğulu "films"dir.
+A1	musée	müze	Müze saat onda açılıyor.	Eril addır; vurgu son hecededir.
+A1	théâtre	tiyatro	Bu akşam tiyatroya gidiyoruz.	Düzeltme işareti vardır; "au théâtre" "tiyatroda" demektir.
+A1	chanson	şarkı	Bu Fransızca şarkıya bayılıyorum.	Dişildir ve şarkı demektir.
+A1	cinéma	sinema	Cumartesi sinemaya gidiyoruz.	Hem sanat dalını hem de binayı anlatır; eril addır.
+A1	langue	dil	Fransızca güzel bir dildir.	Ağızdaki dil anlamına da gelir; her zaman dişildir.
+A1	journal	gazete	Babam sabahları gazete okur.	Çoğulu düzensizdir: "journaux". Günlük anlamına da gelebilir.
+A1	fête	parti, bayram	Cumartesi bir partiye gidiyoruz.	Parti veya resmî tatil demektir; düzeltme işareti vardır.
+A1	famille	aile	Geniş bir ailem var.	Dişildir; "ill" y sesi gibi okunur.
+A1	enfant	çocuk	Bu çocuk çok iyi konuşuyor.	Erkek ve kız çocuklar için kullanılır: "un enfant", "une enfant"; burada sözlük artikeli eril.
+A1	concert	konser	Bu akşam konsere gidiyoruz.	Canlı konser demektir; sondaki t okunmaz ama r okunur.
+A1	sport	spor	Pazar günleri spor yaparım.	Spor yapmak için "faire du sport" denir.
+A1	jeu	oyun	Bu oyun çok eğlenceli.	Çoğulu "jeux"dur, x ile yazılır.
+A1	football	futbol	Oğlum futbola bayılıyor.	Konuşmada çoğunlukla "foot" diye kısaltılır; Amerikan futbolu değil, futbol demektir.
+A1	plage	plaj	Çocuklar plajda oynuyor.	Dişildir; İngilizce "plague" sözcüğüyle ilgisi yoktur.
+A1	piscine	yüzme havuzu	Otelde bir yüzme havuzu var.	Dişildir: «la piscine». «sc» sadece /s/ diye okunur.
+A1	ami	arkadaş	Paul benim en iyi arkadaşım.	Dişili "amie"dir ve aynı okunur.
+A1	vélo	bisiklet	İşe bisikletle giderim.	Bisiklet için gündelik sözcüktür; "à vélo" veya "en vélo" denebilir.
+A1	promenade	yürüyüş	Parkta yürüyüşe çıkıyoruz.	Yürüyüşe çıkmak için "faire une promenade" veya "se promener" denir.
+A1	photo	fotoğraf	Plajın fotoğrafını çekiyorum.	"photographie"nin kısaltması olduğu için dişildir.
+A1	parc	park	Pazar günleri parka gideriz.	Buradaki son c okunur; eril addır.
+A1	danse	dans	Kız kardeşim dansı sever.	Dişildir; sanat olarak dans veya tek bir dans demektir.
+A1	match	maç	Maç saat sekizde başlıyor.	Çoğulu "matchs" veya "matches"dir; İngilizceden alıntıdır.
+A1	tête	baş	Başım ağrıyor.	Baş ağrısı için "avoir mal à la tête" denir; düzeltme işareti vardır.
+A1	médecin	doktor	Yarın doktora gidiyorum.	Kadın için de çoğunlukla eril kalır: "une femme médecin".
+A1	main	el	Sol elim ağrıyor.	Her zaman dişildir: "la main".
+A1	dos	sırt	Sırtım ağrıyor.	Sondaki s okunmaz; vücudun sırtı demektir.
+A1	ventre	karın	Karnım çok ağrıyor.	Eril addır; "avoir mal au ventre" karın ağrısı çekmek demektir.
+A1	bras	kol	Sağ kolu ağrıyor.	Eril addır, sondaki s okunmaz ve çoğulu aynıdır.
+A1	jambe	bacak	Bacağım çok yorgun.	Dişildir ve g ile değil j ile yazılır.
+A1	dent	diş	Dişim çok ağrıyor.	Dişildir; sondaki t okunmaz.
+A1	cœur	kalp	Kalbim çok hızlı atıyor.	œ bitişik harfiyle yazılır; "avoir mal au cœur" midesi bulanmak demektir.
+A1	hôpital	hastane	Hastane istasyonun yanında.	Çoğulu düzensizdir: "hôpitaux"; düzeltme işareti vardır.
+A1	pharmacie	eczane	Eczane saat yedide kapanıyor.	Fransa'da eczane yeşil bir haçla belirtilir; sözcük dişildir.
+A1	santé	sağlık	Sağlık çok önemlidir.	Kadeh kaldırırken de kullanılır: "Santé !".
+A1	fièvre	ateş	Oğlumun ateşi var.	Bölümlü artikelle "avoir de la fièvre" denir.
+A1	parler	konuşmak	Biraz Fransızca konuşuyorum.	Parler kişiden önce "à" alır: parler à quelqu'un.
+A1	manger	yemek	Burada ekmek yiyoruz.	-ger eylemi: nous biçimi "mangeons" yazılır, g'den sonra fazladan bir e gelir.
+A1	aimer	sevmek	Sabahları kahveyi severim.	Aimer hem "sevmek" hem "hoşlanmak" demektir: j'aime le café "kahveyi severim" demektir.
+A1	habiter	yaşamak (ikamet etmek)	Küçük bir şehirde yaşıyoruz.	h okunmaz: j'habite. habiter à Paris ama habiter en France denir.
+A1	travailler	çalışmak	O, bir ofiste çalışıyor.	Travailler çalışmak demektir, seyahat etmek değil (seyahat etmek voyager).
+A1	regarder	izlemek, bakmak	Bu akşam bir film izliyoruz.	Regarder nesnesini doğrudan alır, edatsız: regarder la télé.
+A1	chercher	aramak (bulmaya çalışmak)	Affedersiniz, istasyonu arıyorum.	Chercher nesnesini doğrudan alır, edatsız: chercher les clés.
+A1	acheter	satın almak	Her sabah ekmek alıyoruz.	Gövde değişir: j'achète ama nous achetons.
+A1	danser	dans etmek	Cumartesi akşamları dans etmeyi severler.	Nesnesiz kullanılan düzenli bir -er eylemi: elle danse bien.
+A1	chanter	şarkı söylemek	O, duşta şarkı söylüyor.	Düzenli bir -er eylemidir; geçmiş ortaç chanté'dir.
+A1	écouter	dinlemek	Akşamları müzik dinlerim.	Écouter nesnesini doğrudan alır, edatsız: écouter la radio.
+A1	étudier	ders çalışmak, öğrenim görmek	O, üniversitede Fransızca okuyor.	Étudier bir konu üzerinde çalışmak, okumak için kullanılır; "öğrenmek" apprendre'dır.
+A1	jouer	oynamak, çalmak (çalgı)	Çocuklar bahçede oynuyor.	jouer au football (spor) ama jouer du piano (çalgı) denir.
+A1	marcher	yürümek	İşe yirmi dakika yürüyoruz.	Marcher "çalışmak, işlemek" anlamına da gelir: ça marche "işe yarıyor" demektir.
+A1	donner	vermek	Tuzu Paul'e veriyorum.	Donner kişiden önce "à" alır: donner quelque chose à quelqu'un.
+A1	porter	giymek, taşımak	O, kırmızı bir elbise giyiyor.	Porter hem "giymek" hem "taşımak" demektir.
+A1	penser	düşünmek	Arkadaşlarımı düşünüyorum.	penser à quelqu'un denir; penser que bir görüşü getirir: je pense que oui.
+A1	trouver	bulmak	Anahtarlarımı yatağın altında buluyorum.	Trouver "bulmak, saymak" anlamına da gelir: je trouve ça bon "bunu iyi buluyorum" demektir.
+A1	aider	yardım etmek	Anneme mutfakta yardım ediyorum.	Aider kişiyi doğrudan alır (Türkçede yönelme hâli): aider quelqu'un; mastarın önünde "à" kullanır.
+A1	arriver	varmak	Tren saat sekizde varıyor.	Passé composé'de être alır: je suis arrivé.
+A1	rester	kalmak	Bu hafta sonu evde kalıyoruz.	Rester "kalmak, durmak" demektir; passé composé'de être alır: je suis resté.
+A1	demander	sormak	Satıcıya fiyatı soruyorum.	Demander kişiden önce "à" alır: demander quelque chose à quelqu'un.
+A1	cuisiner	yemek pişirmek	Babam pazar günleri yemek yapmayı sever.	Cuisiner yemek hazırlamak demektir; la cuisine mutfak (oda) anlamına da gelir.
+A1	voyager	seyahat etmek	Bu yaz trenle seyahat ediyoruz.	-ger eylemi: nous biçimi "voyageons" yazılır.
+A1	nager	yüzmek	Salı günleri havuzda yüzerim.	-ger eylemi: nous biçimi "nageons" yazılır.
+A1	payer	ödemek	Kartla ödüyoruz.	Payer'in iki çekimi olabilir: je paie veya je paye.
+A1	utiliser	kullanmak	O, çalışmak için telefonunu kullanıyor.	Utiliser düzenlidir ve "kullanmak" anlamına gelir.
+A1	visiter	gezmek, ziyaret etmek	Yarın müzeyi geziyoruz.	Visiter yerler için kullanılır; kişiler için rendre visite à denir.
+A1	téléphoner	telefon etmek	Anneme telefon ediyorum.	Kişiden önce "à" alır: téléphoner à quelqu'un.
+A1	commencer	başlamak	Ders saat dokuzda başlıyor.	-cer eylemi: nous biçimi "commençons" yazılır, cedilla ile.
+A1	préparer	hazırlamak	Bu akşam yemeği hazırlıyorum.	Préparer un examen bir sınava hazırlanmak demektir.
+A1	laver	yıkamak	Cumartesi günleri arabayı yıkarım.	"Kendini yıkamak" için Fransızca dönüşlü se laver kullanır; burada eylem bir şeyi yıkıyor.
+A1	fermer	kapatmak, kapanmak	Mağaza yedide kapanıyor.	Fermer, ouvrir'in karşıtıdır.
+A1	oublier	unutmak	Şemsiyemi hep unutuyorum.	Mastarın önünde "de" alır: oublier de fermer la porte.
+A1	rencontrer	karşılaşmak	Komşularımla merdivenlerde karşılaşıyorum.	Rencontrer çoğunlukla biriyle ilk kez tanışmayı anlatır.
+A1	répéter	tekrarlamak	Soruyu tekrarlıyoruz.	Aksan değişir: je répète ama nous répétons.
+A1	détester	nefret etmek	O, kuyrukta beklemekten nefret ediyor.	Détester doğrudan mastar alabilir: je déteste attendre.
+A1	inviter	davet etmek	Komşularımı yemeğe davet ediyorum.	"à" alır: inviter quelqu'un à dîner.
+A1	tomber	düşmek	Kitap masadan düşüyor.	Passé composé'de être alır: je suis tombé.
+A1	entrer	girmek	Mutfağa giriyorum.	Bir yerden önce "dans" alır: entrer dans la salle.
+A1	rentrer	eve dönmek	Saat altıda eve dönüyorum.	Rentrer başladığınız yere, genellikle eve geri dönmek demektir.
+A1	monter	yukarı çıkmak	İkinci kata çıkıyoruz.	Bir taşıta binmek için de kullanılır: monter dans le bus.
+A1	passer	önünden geçmek	Her gün bankanın önünden geçiyorum.	Passer "zaman geçirmek" anlamına da gelir: passer une semaine à Paris.
+A1	appeler	çağırmak, telefonla aramak	Yarın doktoru telefonla arıyorum.	l ikilenir: j'appelle ama nous appelons.
+A1	couper	kesmek	O, ekmeği bıçakla kesiyor.	Couper nesnesini doğrudan alır: couper le pain.
+A1	réserver	ayırtmak, rezerve etmek	Bu akşam için bir masa ayırtıyorum.	Réserver bir masa, oda veya bilet ayırtmak demektir.
+A1	expliquer	açıklamak, anlatmak	Öğretmen dersi anlatıyor.	Kişiden önce "à" alır: expliquer quelque chose à quelqu'un.
+A1	déjeuner	öğle yemeği yemek	Öğle yemeğini saat on ikide Paul'le yiyoruz.	Déjeuner isim de olabilir: le déjeuner "öğle yemeği" demektir.
+A1	dîner	akşam yemeği yemek	Sık sık restoranda akşam yemeği yiyoruz.	Dîner isim de olabilir: le dîner "akşam yemeği" demektir.
+A1	gagner	para kazanmak, kazanmak	İyi para kazanıyor.	Gagner hem "para kazanmak" hem "kazanmak (yenmek)" demektir: gagner un match.
+A1	être	olmak	Geç kalacağız.	Être en düzensiz eylemdir: je suis, tu es, il est, nous sommes.
+A1	avoir	sahip olmak	Acıkacağız.	Avoir, passé composé'de çoğu eylemin yardımcı fiilidir: j'ai parlé.
+A1	aller	gitmek	Ofise gitmek istemiyorum.	Düzensizdir (je vais, nous allons); yakın geleceği de kurar: je vais manger.
+A1	faire	yapmak	Spor yapmak istemiyorum.	Düzensizdir (vous faites); hava durumu için de kullanılır: il fait beau.
+A1	vouloir	istemek	Daha şimdiden gitmek istemezsin, değil mi?	Je veux çok doğrudandır: nazik olmak için je voudrais deyin.
+A1	pouvoir	-ebilmek	Yarın gelemeyeceğim.	Düzensizdir (je peux, nous pouvons); yeterlik ve izin bildirir.
+A1	savoir	bilmek (bilgi)	Fiyatı bilmek istemiyorum.	Savoir bilgi ve beceri içindir; kişiler ve yerler için connaître kullanılır.
+A1	venir	gelmek	O, sinemaya gelmek istemiyor.	Venir de + mastar yakın geçmişi anlatır: je viens de manger.
+A1	voir	görmek	Buradan denizi göremiyorum.	Düzensizdir: je vois, nous voyons.
+A1	prendre	almak, binmek (taşıt)	Otobüse binmek istemiyorum.	Yemek ve içmek için de kullanılır: prendre un café, prendre le petit déjeuner.
+A1	boire	içmek	Kahve içmek istemiyorum.	Düzensizdir: je bois, nous buvons.
+A1	dire	söylemek, demek	Bunu söylememelisin.	Düzensizdir: vous dites; "à" alır: dire quelque chose à quelqu'un.
+A1	finir	bitirmek, bitmek	Öğleden önce bitirmiyoruz.	Düzenli bir -ir eylemidir (nous finissons); mastarın önünde "de" alır: finir de manger.
+A1	choisir	seçmek	Bu menüyü seçmiyorum.	Düzenli bir -ir eylemidir: nous choisissons.
+A1	partir	ayrılmak, yola çıkmak	Yarın yola çıkmak istemiyorum.	Düzensizdir (je pars, nous partons); partir "bir yerden gitmek" demektir ve doğrudan nesne almaz.
+A1	dormir	uyumak	Bu gece uyuyamıyorum.	Düzensizdir: je dors, nous dormons.
+A1	lire	okumak	Bu kitabı okumak istemiyorum.	Düzensizdir: je lis, vous lisez.
+A1	écrire	yazmak	Bu sözcüğün nasıl yazıldığını bilmiyorum.	Düzensizdir: j'écris, nous écrivons.
+A1	ouvrir	açmak	Bu pencereyi açmamalısın.	-ir ile biter ama -er eylemi gibi çekimlenir: j'ouvre, tu ouvres.
+A1	attendre	beklemek	Otobüsü beklemek istemiyorum.	Attendre, İngilizce "attend" gibi "katılmak" demek değildir; "beklemek" demektir ve nesnesini doğrudan alır.
+A1	vendre	satmak	O, kitaplarını satmıyor.	Düzenli bir -re eylemidir: je vends, nous vendons.
+A1	comprendre	anlamak	Soruyu anlayamıyorum.	prendre gibi çekimlenir: je comprends, nous comprenons.
+A1	mettre	koymak	Şeker koymak istemiyorum.	Düzensizdir: je mets, nous mettons; "giymek" için de kullanılır: mettre un pull.
+A1	apprendre	öğrenmek	O, Almancayı öğrenmek istemiyor.	prendre gibi çekimlenir; mastarın önünde "à" alır: apprendre à nager.
+A1	sortir	dışarı çıkmak	Bu akşam dışarı çıkmak istemiyorum.	partir gibi düzensizdir: je sors, nous sortons.
+A1	répondre	cevap vermek	Telefona bakmak istemiyorum.	"à" alır: répondre à une question; düzenli -re eylemi: je réponds.
+A1	perdre	kaybetmek	Biletimi kaybetmek istemiyorum.	Düzenli bir -re eylemidir: je perds, nous perdons.
+A1	entendre	duymak	Radyoyu duyamıyorum.	Entendre kulakla algılamak demektir; écouter bilerek dinlemektir.
+A1	descendre	aşağı inmek	Burada inmek istemiyorum.	Düzenli bir -re eylemidir; nesnesizken passé composé'de être alır: je suis descendu.
+A1	devoir	zorunda olmak, borçlu olmak	Yarın çalışmak zorunda kalmayacaksın.	Düzensizdir: je dois, nous devons; isimle birlikte "borçlu olmak" da demektir: devoir dix euros.
+A1	connaître	tanımak	Herkesi tanıması mümkün değil.	Kişiler ve yerler için kullanılır; bilgiler için savoir. Düzensizdir: il connaît.
+A1	recevoir	teslim almak, ağırlamak	O, koli teslim almayacak.	Cedilla ile düzensizdir: je reçois ama nous recevons.
+A1	grand	büyük, uzun boylu	Kardeşim çok uzun boylu.	Eşyalar için büyük, insanlar için uzun boylu demektir. Dişili grande'dir ve genellikle addan önce gelir.
+A1	petit	küçük	Küçük bir dairemiz var.	Dişili petite. Genellikle addan önce gelir; karşıtı grand'dır.
+A1	beau	güzel	Bu ev çok güzel.	Dişili belle; ünlüden önce eril bel olur. il fait beau'da hava durumunu anlatır.
+A1	nouveau	yeni	Yeni bir mahallede yaşıyorum.	Dişili nouvelle; ünlüden önce eril nouvel olur. Çoğulu nouveaux. Genellikle addan önce gelir.
+A1	vieux	eski, yaşlı	Arabam çok eski.	Dişili vieille; ünlüden önce eril vieil olur. Eril çoğulu tekille aynıdır: vieux.
+A1	bon	iyi, lezzetli	Bu pasta çok lezzetli.	Dişili bonne. Bon sıfattır; karşılık gelen zarf bien'dir.
+A1	mauvais	kötü	Bu film kötü.	Dişili mauvaise. Eşyalar ve kalite için kullanılır, genellikle addan önce gelir.
+A1	heureux	mutlu	O, ailesiyle mutlu.	Dişili heureuse; eril çoğul heureux kalır. Baştaki h okunmaz.
+A1	content	memnun	Seni gördüğüme memnunum.	Dişili contente. Arkasından de + eylem veya isim gelir: content de.
+A1	fatigué	yorgun	Çocuklar bu akşam yorgun.	Dişili fatiguée, çoğulu fatigués. Yorucu anlamına gelen fatigant ile karıştırmayın.
+A1	chaud	sıcak	Duşun suyu sıcak.	Dişili chaude. Bir kişi için être chaud değil, avoir chaud denir.
+A1	froid	soğuk	Çorba soğuk.	Dişili froide. Hava için il fait froid; kişi için avoir froid denir.
+A1	cher	pahalı	Bu ayakkabılar çok pahalı.	Dişili chère. Addan sonra veya être ile "pahalı", addan önce "sevgili" demektir.
+A1	facile	kolay	Test gerçekten kolay.	Eril ve dişil aynıdır; çoğulu faciles. Karşıtı difficile'dir.
+A1	difficile	zor	Bu alıştırma oldukça zor.	Eril ve dişil aynıdır; çoğulu difficiles.
+A1	rouge	kırmızı	O, kırmızı bir elbise giyiyor.	Eril ve dişil aynıdır; çoğulu rouges. Renk sıfatları addan sonra gelir.
+A1	bleu	mavi	Mavi çantanı beğeniyorum.	Dişili bleue, çoğulu bleus. Renk sıfatları addan sonra gelir.
+A1	jeune	genç	Kız kardeşim çok genç.	Eril ve dişil aynıdır; çoğulu jeunes. Addan önce de gelebilir (un jeune homme).
+A1	long	uzun (süre, mesafe)	Tren yolculuğu uzun.	Dişili longue (u ile), çoğulu longs. Zamanı da anlatır: un long voyage.
+A1	joli	şirin, hoş	Şirin bir evin var.	Dişili jolie, çoğulu jolis. Genellikle addan önce gelir.
+A1	gentil	nazik, iyi huylu	Annen çok nazik.	Dişili gentille, iki l ile (y sesi gibi okunur). İnsanları anlatır.
+A1	triste	üzgün	Köpeğim bugün üzgün.	Eril ve dişil aynıdır; çoğulu tristes.
+A1	malade	hasta	Oğlum pazartesiden beri hasta.	Eril ve dişil aynıdır. İsim de olabilir: un malade (hasta).
+A1	prêt	hazır	Sınava hazırsın.	Dişili prête. près (yakın) gibi okunur ama düzeltme işareti ve t ile yazılır.
+A1	libre	serbest, müsait	Bu yer müsait.	Eril ve dişil aynıdır. "Serbest, müsait" demektir; ücretsiz anlamına gelmez (o gratuit'dir).
+A1	vert	yeşil	Yeşil elmaları severim.	Dişili verte, çoğulu verts. Renk sıfatları addan sonra gelir.
+A1	blanc	beyaz	O, beyaz bir gömlek alıyor.	Dişili blanche, çoğulu blancs. Renk sıfatları addan sonra gelir.
+A1	noir	siyah	Siyah kahve içerim.	Dişili noire, çoğulu noirs. Renk sıfatları addan sonra gelir.
+A1	jaune	sarı	Limon sarıdır.	Eril ve dişil aynıdır; çoğulu jaunes.
+A1	lent	yavaş	Tren çok yavaş.	Dişili lente, çoğulu lents. Karşıtı rapide'dir.
+A1	rapide	hızlı	Bu araba hızlı.	Eril ve dişil aynıdır; çoğulu rapides.
+A1	plein	dolu	Buzdolabı dolu.	Dişili pleine. plein de + isim "dolusu, bir sürü" demektir.
+A1	vide	boş	Bardağım boş.	Eril ve dişil aynıdır; çoğulu vides. Karşıtı plein'dir.
+A1	ouvert	açık	Mağaza pazar günleri açık.	Dişili ouverte, çoğulu ouverts. Karşıtı fermé'dir.
+A1	fermé	kapalı	Müze bugün kapalı.	Dişili fermée, çoğulu fermés. Sıfat olarak kullanılan fermer'in geçmiş ortacıdır.
+A1	sale	kirli	Ellerim kirli.	Eril ve dişil aynıdır; çoğulu sales. Karşıtı propre'dir.
+A1	fort	güçlü, sert	Bu kahve çok sert.	Dişili forte, çoğulu forts. Tatlar, insanlar ve sesler için kullanılır.
+A1	intéressant	ilginç	Bu çok ilginç bir kitap.	Dişili intéressante, çoğulu intéressants. Akut aksanlı bir é içerir ve çift s ile yazılır.
+A1	léger	hafif	Bu çanta çok hafif.	Dişili légère (aksan değişir), çoğulu légers. Karşıtı lourd'dur.
+A1	lourd	ağır	Valizim çok ağır.	Dişili lourde, çoğulu lourds. Karşıtı léger'dir.
+A1	je	ben	Almanca konuşmuyorum.	Ünlüden önce j' olur (j'ai, j'aime). Cümle ortasında büyük yazılmaz.
+A1	tu	sen	Yorgun değil misin?	Arkadaşlar, aile ve çocuklarla kullanılır; yabancıyla normalde vous kullanılır.
+A1	il	o (erkek), o (şey)	O, kahveyi sevmiyor.	Eril isimlerin yerine de geçer (il = o): Le livre? Il est ici.
+A1	elle	o (kadın), o (şey)	O, mutfakta.	Dişil isimlerin yerine de geçer (elle = o).
+A1	nous	biz	Soğuğu sevmiyoruz.	Nous oldukça resmîdir; konuşmada çoğunlukla on kullanılır.
+A1	vous	siz	Rezervasyonunuz var mı?	Saygıyla hitap edilen tek kişi ve birden çok kişi için kullanılır. Fiil her zaman çoğuldur.
+A1	ils	onlar (eril)	Pazar günleri çalışmazlar.	Erkek veya karışık grup için kullanılır. il gibi okunur ama ünlüden önce liaison yapılır.
+A1	elles	onlar (dişil)	Et yemiyorlar.	Yalnızca kadın grubu veya dişil isimler için kullanılır.
+A1	on	biz, insanlar (genel)	Ekmeğimiz yok.	Konuşmada "biz" demektir ama fiil üçüncü tekil kişidedir. Kişisiz de olabilir, "insan" gibi.
+A1	moi	ben (vurgulu)	Bu kitap benim için değil.	Vurgulu zamirdir: edattan sonra veya vurgu için kullanılır.
+A1	qui	kim	Bu bey kim?	Özne ilgi zamiri de olabilir (that, who): la femme qui parle.
+A1	très	çok (sıfat, zarf önünde)	Pek yorgun değilim.	Sıfat ve zarfların önüne gelir, doğrudan eylemin önüne asla gelmez (o zaman beaucoup).
+A1	aussi	de, da, ayrıca	O da bizim kadar memnun.	"Da, de" demektir; aussi ... que karşılaştırmalarda "kadar" anlamına gelir.
+A1	ici	burada	Burada çalışmıyorum.	Konuşanın bulunduğu yeri gösterir; karşıtı là'dır.
+A1	bien	iyi	İyi uyumuyorum.	Zarftır, o yüzden uyum yapmaz. Karşılık gelen sıfat bon'dur.
+A1	mal	kötü, fena	Fena dans etmiyor.	bien'in karşıtıdır. İsim olarak avoir mal à "...ı ağrımak" demektir.
+A1	beaucoup	çok, bir sürü	Fazla et yemiyorum.	İsimden önce beaucoup de olur, artikelsiz: beaucoup de temps.
+A1	peu	az	Az zamanımız var.	peu de + isim "az" demektir; un peu de "biraz" demektir.
+A1	toujours	her zaman, hâlâ	Her zaman zamanında gelmiyor.	Hâlâ anlamına da gelebilir (il travaille toujours). Olumsuzda pas'dan sonra "her zaman değil" demektir.
+A1	souvent	sık sık	Balığı pek sık yemem.	Genellikle eylemden sonra gelir; bileşik zamanlarda yardımcı fiil ile ortaç arasına girer.
+A1	maintenant	şimdi	Şimdi vaktim yok.	Cümlenin başında veya sonunda olabilir.
+A1	aujourd'hui	bugün	Bugün çalışmıyorum.	Kesme işareti içerse de tek sözcüktür.
+A1	demain	yarın	Yarın yola çıkmıyoruz.	Vedalaşmada da kullanılır: À demain! (yarın görüşürüz).
+A1	hier	dün	Dün çalışmadı.	Geçmiş zamanlarla kullanılır: hier soir "dün gece" demektir.
+A1	déjà	çoktan, zaten	Bu sabah çoktan bir şeyler yedin mi?	Bileşik zamanlarda yardımcı fiil ile geçmiş ortaç arasına girer. İki ünlüde de aksan taşır.
+A1	ensemble	birlikte	Bu akşam beraber yemek yemiyoruz.	İsim olarak "bütün, takım" anlamına da gelir, ama zarf olarak hiç değişmez.
+A1	vite	çabuk, hızla	Hızlı yürümüyor.	Değişmez bir zarftır (vitement değil). Tek başına da kullanılır: Vite!
+A1	à	-e/-a, -de/-da	O evde değil.	Artiklelerle birleşir: à + le = au, à + les = aux. avoir'ın a biçiminden farklı olarak ağır aksan taşır.
+A1	dans	içinde	Anahtarlar çantamda değil.	Bir alanın içinde olmayı gösterir. Şehirlerle dans değil à kullanılır.
+A1	sur	üstünde	Kitap masanın üstünde değil.	sûr (emin) sözcüğünün aksine aksansız yazılır.
+A1	sous	altında	Kedi yatağın altında değil.	Karşıtı sur'dür. Sondaki s okunmaz.
+A1	avec	ile	Ebeveynlerimle seyahat etmiyorum.	Sondaki c okunur. Karşıtı sans'dır.
+A1	sans	-sız	Kahvemi şekersiz içmem.	sans'tan sonra isim genellikle artikelsiz gelir: sans sucre, sans problème.
+A1	pour	için	Bu hediye senin için değil.	Alıcıyı veya amacı gösterir. pour'dan sonra vurgulu zamirler kullanılır (moi, toi).
+A1	chez	-in evinde	O evinde değil.	Kişi veya işyeriyle kullanılır: chez moi, chez le médecin. Türkçede tek sözcüklük karşılığı yoktur.
+A1	devant	önünde	O, kapının önünde beklemiyor.	Karşıtı derrière'dir. Zarf da olabilir (il passe devant).
+A1	derrière	arkasında	Bahçe evin arkasında değil.	Karşıtı devant'dır. İkinci e üzerinde ağır aksan ve iki r vardır.
+A1	près	yakın, yakınında	İstasyon buraya yakın değil.	Genellikle près de + yer biçimindedir. prêt gibi okunur ama farklı yazılır.
+A1	et	ve	O yağmuru ve soğuğu sevmiyor.	Sondaki t okunmaz. Aksan yoktur ve est eylem biçimi değildir.
+A1	mais	ama	Anlamıyorum ama dinliyorum.	mais yazılır; mes (benim) veya mai (Mayıs) ile aynı sözcük değildir.
+A1	ou	veya	Evde misin yoksa ofiste mi?	Aksan yoktur; aksanlıyken (où) "nerede" demektir.
+A1	quand	ne zaman, -diğinde	Hastayken çalışmam.	Hem bağlaç hem soru sözcüğü olarak kullanılır: Quand pars-tu?
+A1	si	eğer	Hastaysan gelmiyorum.	il veya ils'den önce s' olur (s'il pleut). Olumsuz soruya cevapta "evet" anlamına da gelir.
+A1	mère	anne	Annem hastanede çalışıyor.	«Maman» sevgi sözcüğüdür, yetişkinler de kullanır.
+A1	père	baba	Babam Lyon'da oturuyor.	«Papa» sevgi sözcüğüdür; «père» daha tarafsızdır.
+A1	frère	erkek kardeş	Erkek kardeşim futbol oynuyor.	Erkek ve kız kardeşler için «frères et sœurs» denir.
+A1	sœur	kız kardeş	Kız kardeşim Paris'te okuyor.	«oe» değil, bitişik «œ» harfiyle yazılır.
+A1	homme	adam	Bu adam çok hızlı konuşuyor.	h okunmaz: «l'homme» «lom» gibi okunur.
+A1	femme	kadın, eş	Bu kadın doktor.	«fam» diye okunur; hem kadın hem eş anlamına gelir.
+A1	jour	gün	Bugün günlerden ne?	«journée» ile karıştırmayın: «jour» tarih olarak gün, «journée» süre olarak gündür.
+A1	heure	saat (zaman)	Saat kaç, lütfen?	«Quelle heure est-il ?» «saat kaç?» demektir; h okunmaz.
+A1	école	okul	Okul saat sekizde başlıyor.	Dişildir ve akut aksanla yazılır.
+A1	téléphone	telefon	Telefonum masanın üstünde.	Cep telefonuna Fransa'da «portable» denir.
+A1	chat	kedi	Kedi kanepede uyuyor.	Dişisi «chatte»dir; sondaki t okunmaz.
+A1	chien	köpek	Köpeğim dışarıda oynamayı seviyor.	Dişisi «chienne»dir.
+A1	nom	soyadı, ad	Soyadınız nedir?	Çoğunlukla soyadı demektir; ilk ad «prénom»dur.
+A1	restaurant	restoran	Bu restoran istasyonun yakınında.	Sondaki t okunmaz.
+A1	s'appeler	adı ... olmak	Adım Paul değil, Marc.	Kesme işaretiyle yazılır; «je m'appelle…» kendinizi tanıtma kalıbıdır. «Appelle»de iki l vardır.
+A1	comment	nasıl	Yeni evin nasıl?	Tek başına «Comment ?» birinden tekrar etmesini ister.
+A1	pourquoi	neden	O neden bu kadar yorgun?	Tek sözcük olarak yazılır; cevap «parce que» ile başlar.

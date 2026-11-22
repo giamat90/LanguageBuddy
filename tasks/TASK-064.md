@@ -1,6 +1,6 @@
 # TASK-064 — French word bank: pipeline rules, content, audit and the end of the draft
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-063 (French pack, draft language)

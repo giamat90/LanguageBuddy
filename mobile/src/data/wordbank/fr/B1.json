@@ -5302,5 +5302,22 @@
     "session_scenario": "complaining about cold coffee",
     "example_en": "I do not like lukewarm coffee.",
     "cultural_note_en": "It has the same form in the feminine. It means neither hot nor cold, often unpleasantly so."
+  },
+  {
+    "word": "carnaval",
+    "article": "le",
+    "part_of_speech": "noun",
+    "ipa": "kaʁnaval",
+    "meaning_en": "carnival",
+    "meaning_it": "carnevale",
+    "example": "Le carnaval de Nice attire des milliers de visiteurs.",
+    "example_it": "Il carnevale di Nizza attira migliaia di visitatori.",
+    "cultural_note": "Il plurale è «carnavals»; indica la festa che precede la Quaresima.",
+    "grammar_angle": "NOUN_GENDER",
+    "topic_domain": "leisure",
+    "cefr_band": "B1",
+    "session_scenario": "a festival trip",
+    "example_en": "The Nice carnival attracts thousands of visitors.",
+    "cultural_note_en": "The plural is «carnavals»; it denotes the festival that precedes Lent."
   }
 ]

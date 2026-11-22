@@ -255,13 +255,13 @@ describe('French find the mistake', () => {
   });
 });
 
-describe('the French draft language', () => {
+describe('the French language', () => {
   const root = join(__dirname, '..', 'scripts', 'wordbank', 'fr');
   const cfg = JSON.parse(readFileSync(join(root, 'language.json'), 'utf8'));
 
   it('declares its rule codes, articles and checks', () => {
     expect(cfg.code).toBe('fr');
-    expect(cfg.draft).toBe(true);
+    expect(cfg.draft).toBeUndefined(); // all six levels exist (TASK-064)
     expect(cfg.levels).toEqual(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
     expect(cfg.articles).toEqual(['le', 'la']);
     expect(cfg.i18nLanguages).toEqual(['es', 'pt', 'ru', 'uk', 'pl', 'tr', 'zh', 'ja', 'hi', 'ar']);
@@ -275,14 +275,10 @@ describe('the French draft language', () => {
     expect(cfg.ruleCodes).toContain(fr.articles!.rule);
   });
 
-  it('set-active-language refuses it; the validator checks the levels it already has', () => {
+  it('the validator checks all six levels', () => {
     const scripts = join(__dirname, '..', 'scripts');
-    const r = spawnSync(process.execPath, [join(scripts, 'set-active-language.mjs'), 'fr'], { encoding: 'utf8' });
-    expect(r.status).toBe(1);
-    expect(r.stderr).toMatch(/fr is a draft language/);
     const v = spawnSync(process.execPath, [join(scripts, 'validate-wordbank.mjs')], { encoding: 'utf8' });
     expect(v.status).toBe(0);
-    // a draft language with some levels is validated for those levels (no longer skipped)
     expect(v.stdout).not.toMatch(/skipped draft language fr/);
     expect(v.stdout).toMatch(/Word bank valid/);
   });

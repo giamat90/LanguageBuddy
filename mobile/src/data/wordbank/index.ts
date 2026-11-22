@@ -27,7 +27,7 @@ export interface WordBankEntry {
  * Bump this whenever the bundled JSON changes so the app re-seeds new words into
  * the local DB on next launch (see src/data/seed.ts).
  */
-export const WORDBANK_VERSION = '2026-11-22.2';
+export const WORDBANK_VERSION = '2026-11-22.3';
 
 export const WORD_BANK: Record<CefrLevel, WordBankEntry[]> = {
   A1: LEVEL_FILES.A1 as WordBankEntry[],

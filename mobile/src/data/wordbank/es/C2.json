@@ -144,13 +144,13 @@
     "meaning_it": "moderazione",
     "example": "Habló con mesura para no avivar más el conflicto.",
     "example_it": "Ha parlato con moderazione per non alimentare ulteriormente il conflitto.",
-    "cultural_note": "Da «mesurado».",
+    "cultural_note": "Moderazione, compostezza; da «mesurar». Aggettivo: «mesurado».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Greeting someone",
     "example_en": "He spoke with restraint so as not to fuel the conflict further.",
-    "cultural_note_en": "From «mesurado»."
+    "cultural_note_en": "Moderation, composure; from «mesurar». Adjective: «mesurado»."
   },
   {
     "word": "hondura",
@@ -1181,13 +1181,13 @@
     "meaning_it": "digiuno",
     "example": "Mantuvo un ayuno estricto durante los tres días de oración.",
     "example_it": "Ha mantenuto un digiuno rigoroso durante i tre giorni di preghiera.",
-    "cultural_note": "Da «ayunar».",
+    "cultural_note": "Il verbo «ayunar» deriva da «ayuno». «En ayunas» = a digiuno.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "food",
     "cefr_band": "C2",
     "session_scenario": "Ordering at a restaurant",
     "example_en": "He kept a strict fast during the three days of prayer.",
-    "cultural_note_en": "From «ayunar»."
+    "cultural_note_en": "The verb «ayunar» derives from «ayuno». «En ayunas» = on an empty stomach."
   },
   {
     "word": "ayunar",
@@ -2864,13 +2864,13 @@
     "meaning_it": "sgangherare",
     "example": "Con los años, la puerta empezó a desvencijarse por la humedad.",
     "example_it": "Con gli anni, la porta ha cominciato a sgangherarsi per l'umidità.",
-    "cultural_note": "Da «vencejo» (rondone).",
+    "cultural_note": "Da des- + «vencejo» (legaccio per i covoni); di solito pronominale «desvencijarse».",
     "grammar_angle": "VERB_PRESENT_REGULAR",
     "topic_domain": "home",
     "cefr_band": "C2",
     "session_scenario": "Daily routine at home",
     "example_en": "Over the years the door began to fall apart from the damp.",
-    "cultural_note_en": "From «vencejo» (swift)."
+    "cultural_note_en": "From des- + «vencejo» (a tie for binding sheaves); usually pronominal «desvencijarse»."
   },
   {
     "word": "cobertizo",
@@ -3170,13 +3170,13 @@
     "meaning_it": "parco",
     "example": "Hizo una comida parca, apenas pan y un poco de queso.",
     "example_it": "Ha fatto un pasto parco, appena pane e un po' di formaggio.",
-    "cultural_note": "Falso amico: non è «parco» (giardino).",
+    "cultural_note": "Come l'aggettivo italiano «parco» (sobrio, frugale); non è il sostantivo «parco» (giardino = «parque»).",
     "grammar_angle": "ADJ_AGREEMENT",
     "topic_domain": "food",
     "cefr_band": "C2",
     "session_scenario": "Shopping at the market",
     "example_en": "He had a frugal meal, barely bread and a little cheese.",
-    "cultural_note_en": "False friend: not «park»."
+    "cultural_note_en": "Same as Italian adjective «parco» (sparing, frugal); not the noun «park» (= «parque»)."
   },
   {
     "word": "suculencia",

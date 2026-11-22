@@ -3,14 +3,10 @@ C1	Fingerspitzengefühl	wyczucie, taktowny instynkt	Do tych negocjacji potrzeba 
 C1	Doppelgänger	sobowtór	Podczas podróży spotkał swojego sobowtóra.	W niemieckiej literaturze romantycznej Doppelgänger był nadprzyrodzonym alter ego. Rozsławił go E.T.A. Hoffmann, a Freud wrócił do niego w psychoanalizie.
 C1	es heißt	mówi się, jest napisane	W komunikacie jest napisane, że zakład został zamknięty.	„Es heißt, ...” wprowadza to, co się mówi lub co jest napisane w tekście. W mowie zależnej następne zdanie często ma Konjunktiv I („sei”).
 C1	Vergangenheitsbewältigung	rozliczenie się z przeszłością	Rozliczenie się z przeszłością jest centralną częścią niemieckiej tożsamości.	Złożenie wyjątkowo niemieckie: opisuje trwający zbiorowy proces rozliczania się z nazizmem, poprzez szkoły, pomniki i prawo.
-C1	vorgeworfen werden	być oskarżanym, być obarczanym zarzutem	Zarzuca mu się niedbalstwo.	W stronie biernej z 'vorwerfen' oskarżenie staje się bezosobowe: ruch odzwierciedlający ostrożność niemieckiego języka prawniczego i dziennikarskiego.
 C1	Schadenersatz	odszkodowanie	Firma musi wypłacić odszkodowanie.	Niemieckie prawo konsumenckie należy do najsilniejszych w Europie: roszczenia o 'Schadenersatz' są częste i kulturowo normalne.
 C1	Heimlichkeit	tajemniczość, skrytość	Tajemniczość spotkania sprawiała, że było ekscytujące.	Od „heimlich” (tajny, potajemny). Liczba mnoga „Heimlichkeiten” oznacza małe sekrety; „unheimlich” znaczy niesamowity, złowieszczy.
 C1	Querdenker	myśliciel nieszablonowy	Jako myśliciel nieszablonowy zawsze znajduje niezwykłe rozwiązania.	Pierwotnie pozytywne określenie twórczych myślicieli, w latach 2020-21 zostało na nowo zdefiniowane dla ruchów przeciwnych lockdownowi: uderzający przykład dryfu semantycznego pod presją polityczną.
-C1	Weltschmerz	ból istnienia, światosmutek	W jego oczach malował się głęboki ból istnienia.	Ukuty przez Jeana Paula w 1827 roku, opisuje ból płynący z rozdźwięku między rzeczywistością a ideałami: centralne pojęcie niemieckiego romantyzmu.
 C1	beileibe nicht	bynajmniej, w żadnym razie	To bynajmniej nie jedyne wyjaśnienie.	Dobitne wyrażenie wysokiego rejestru, w którym 'bei Leibe' ('na moje ciało') to dawna przysięga skamieniała w języku.
-C1	der zu erwartende Widerstand	spodziewany opór	Spodziewany opór mieszkańców został niedoceniony.	Rozbudowany imiesłów ('zu erwartende') skraca całe zdanie względne przed rzeczownikiem: znak rozpoznawczy niemieckiej prozy urzędowej.
-C1	unterderhand	pokątnie, po cichu	Mieszkanie przydzielono pokątnie.	Bardzo konkretny obraz: 'pod ręką', czyli poza oficjalnymi kanałami, często temu, kto zna właściwych ludzi.
 C1	Gratwanderung	balansowanie na krawędzi, delikatne lawirowanie	Reforma to balansowanie między oszczędzaniem a inwestowaniem.	Obraz alpejski: 'Grat' to wyeksponowana grań góry. Iść nią znaczy posuwać się z przepaścią po obu stronach.
 C1	es sei denn	chyba że	Jutro wyjeżdżamy, chyba że pogoda się pogorszy.	Skamielina Konjunktiv I ('sei'): zwrot skrystalizował się i żyje nawet tam, gdzie tryb przypuszczający poza tym zniknął.
 C1	Zumutung	bezczelne wymaganie, rzecz nie do przyjęcia	Te warunki pracy to skandal.	Od 'jemandem etwas zumuten' (wymagać od kogoś zbyt wiele): nazwanie czegoś 'eine Zumutung' to mocny, ale opanowany protest.
@@ -25,13 +21,10 @@ C1	unterschwellig	podprogowy, ukryty pod powierzchnią	W debacie dawała się wy
 C1	mutmaßlich	domniemany, rzekomy (prawnie)	Domniemany sprawca został zatrzymany.	'Mutmaßlich' pochodzi od 'Mutmaßung' (przypuszczenie): używane w języku prawniczym i dziennikarskim, by nie sugerować udowodnionej winy.
 C1	unumstritten	bezsporny	Jego kompetencje są bezsporne.	'Unumstritten' łączy przeczący przedrostek 'un-' i 'umstritten' (kontrowersyjny): dosłownie 'niekontrowersyjny'.
 C1	schlechthin	w pełnym tego słowa znaczeniu, par excellence	Uchodzi za eksperta w pełnym tego słowa znaczeniu w tej dziedzinie.	'Schlechthin' zawsze stoi po określanym rzeczowniku i wyraża absolutne, ostateczne stwierdzenie.
-C1	par excellence	par excellence, w najwyższym stopniu	To miasto sztuki par excellence.	Bezpośrednia pożyczka z francuskiego, używana w rejestrze uczonym dla podkreślenia absolutnej doskonałości.
-C1	gemeinhin	powszechnie, zwykle	Powszechnie zakłada się, że to prawda.	'Davon ausgehen' znaczy 'przyjmować za punkt wyjścia, zakładać'.
 C1	mithin	zatem, a więc	Warunki są spełnione, zatem umowa jest ważna.	'Mithin' to formalny/prawniczy łącznik, elegancka alternatywa dla 'also' lub 'deshalb'.
 C1	infolgedessen	w rezultacie, wskutek tego	Popyt wzrósł, w rezultacie ceny poszły w górę.	'Infolgedessen' łączy 'infolge' (wskutek) i 'dessen' (dopełniacz od 'das'): formalna logiczna konsekwencja.
 C1	gleichwohl	mimo to (formalnie)	Plan jest ryzykowny, mimo to obiecuje wysoki zysk.	'Gleichwohl' to elegancki, literacki wariant 'trotzdem' lub 'dennoch', typowy dla pisma formalnego.
 C1	nichtsdestotrotz	niemniej jednak	Padało, ale mimo to poszli na wędrówkę.	'Nichtsdestotrotz' to formacja potoczno-literacka wzmacniająca 'nichtsdestoweniger', często używana z ironicznym tonem.
-C1	fürwahr	zaiste, istotnie (archaiczne)	To był zaiste pamiętny dzień.	'Fürwahr' to przysłówek archaiczny, dziś używany niemal tylko ironicznie lub literacko dla podkreślenia wypowiedzi.
 C1	mitnichten	bynajmniej (formalnie)	To bynajmniej nie jedyne wyjaśnienie.	'Mitnichten' to dobitne zaprzeczenie wysokiego rejestru, formalna alternatywa dla 'keineswegs'.
 C1	keineswegs	w żadnym wypadku, wcale nie	To wcale nie jest pewne.	'Keineswegs' to standardowe dobitne zaprzeczenie formalnego rejestru pisanego, częstsze niż 'mitnichten'.
 C1	insofern	pod tym względem, o tyle	Pod tym względem ma rację.	'Insofern' może też wprowadzać zdanie podrzędne z 'als': 'insofern, als...' ('o tyle, o ile...').
@@ -61,64 +54,41 @@ C1	Denkfehler	błąd w myśleniu	To częsty błąd w myśleniu.	'Denkfehler' ł�
 C1	Voreiligkeit	pochopność, nierozwaga	Jego pochopność prowadziła do błędów.	'Voreiligkeit' pochodzi od 'voreilig' (pochopny), dosłownie 'spieszący się przed czasem'.
 C1	Besonnenheit	rozwaga, opanowanie	W kryzysie zachowała rozwagę.	'Besonnenheit' pochodzi od 'besonnen' (rozważny, opanowany), bezpośrednie przeciwieństwo 'Voreiligkeit'.
 C1	Umsicht	ostrożność, rozwaga (przezorność)	Działał z wielką ostrożnością.	'Umsicht' łączy 'um' (dookoła) i 'Sicht' (widok): dosłownie 'rozglądanie się dookoła' przed działaniem, czyli z uwagą.
-C1	Sachverhalt	stan faktyczny	Stan faktyczny należy dokładnie zbadać.	'Geprüft werden' to strona bierna, typowa dla języka prawniczego i administracyjnego przy formalnym badaniu.
-C1	Sachlage	sytuacja, stan rzeczy	W obliczu tej sytuacji należy zachować ostrożność.	'Angesichts' łączy się z dopełniaczem i jest typowe dla rejestru formalno-administracyjnego.
 C1	Gutachten	opinia biegłego, ekspertyza	Ekspertyza potwierdza obawy o bezpieczeństwo.	'Gutachten' łączy 'gut' i 'achten' (dobrze zważać): formalna ocena techniczna przeprowadzona przez eksperta.
 C1	Vollzug	wykonanie, egzekwowanie (wyroku)	Wykonanie kary rozpocznie się w przyszłym tygodniu.	Od „vollziehen”. Termin prawny: „Strafvollzug” oznacza system więziennictwa. W odniesieniu do wyroku częstsze jest „Vollstreckung”.
 C1	rechtskräftig	prawomocny	Wyrok jest już prawomocny.	'Rechtskräftig' łączy 'Recht' i 'Kraft' (siła): decyzja, która uzyskała pełną, ostateczną moc prawną.
 C1	Berufung einlegen	wnieść apelację	Adwokat wnosi apelację.	'Einlegen' jest rozdzielne i łączy się z biernikiem: 'Berufung einlegen' to standardowe utrwalone połączenie w prawie niemieckim.
-C1	Beweislast	ciężar dowodu	Ciężar dowodu spoczywa na powodzie.	'Liegen bei' łączy się z celownikiem: 'beim Kläger', utrwalona konstrukcja prawnicza wskazująca, kto ponosi odpowiedzialność.
-C1	Zeugenaussage	zeznanie świadka	Zeznanie świadka przeczyło oficjalnej wersji.	'Widersprechen' łączy się z celownikiem: 'der offiziellen Version', czasownik z zawsze nierozdzielnym przedrostkiem 'wider-'.
-C1	Indizienbeweis	dowód poszlakowy	Wyrok opiera się na dowodach poszlakowych.	'Basieren auf' łączy się z celownikiem: 'auf Indizienbeweisen', częsta utrwalona konstrukcja w dyskursie prawnym i dziennikarskim.
 C1	Strafmilderung	złagodzenie kary	Jego przyznanie się do winy doprowadziło do złagodzenia kary.	'Strafmilderung' łączy 'Strafe' (kara) i 'Milderung' (złagodzenie), techniczny termin prawa karnego.
 C1	Rechtsauffassung	pogląd prawny, wykładnia prawna	Poglądy prawne sędziów się różnią.	'Rechtsauffassung' łączy 'Recht' i 'Auffassung' (pogląd, ujęcie), typowe dla języka sądowego.
-C1	Vertragsklausel	klauzula umowna	Ta klauzula umowna jest niezwykle surowa.	'Ungewöhnlich' znaczy 'niezwykły', często używane jako wzmacniacz przymiotników w rejestrze formalnym.
 C1	Rechtsanspruch	roszczenie prawne, uprawnienie	Nie mają do tego żadnego roszczenia prawnego.	'Rechtsanspruch' łączy 'Recht' i 'Anspruch' (roszczenie, uprawnienie), formalny termin prawny.
 C1	Haftung	odpowiedzialność (cywilna)	Firma nie ponosi odpowiedzialności za szkody.	'Haftung übernehmen' to standardowe utrwalone połączenie, często widoczne w klauzulach wyłączających odpowiedzialność.
-C1	Fahrlässigkeit	niedbalstwo, zaniedbanie	Rażące niedbalstwo nie jest objęte polisą.	'Gedeckt werden' to strona bierna, częsta w języku ubezpieczeń przy opisie tego, co podlega ochronie.
-C1	Sorgfaltspflicht	obowiązek staranności	Lekarze podlegają szczególnemu obowiązkowi staranności.	'Unterliegen' łączy się z celownikiem: 'einer Sorgfaltspflicht', formalny czasownik nierozdzielny używany w prawie.
 C1	Präzedenzfall	precedens (prawny)	Ten wyrok mógłby stworzyć precedens.	'Präzedenzfall' łączy łacińską pożyczkę 'Präzedenz' i 'Fall' (przypadek): sprawa wyznaczająca wzór na przyszłość.
-C1	Gesetzeslücke	luka prawna	Firma wykorzystuje lukę prawną.	'Ausnutzen' jest rozdzielne i łączy się z biernikiem, często z krytycznym wydźwiękiem przy wykorzystywaniu luk w prawie.
 C1	Novellierung	nowelizacja	Omawia się nowelizację ustawy.	'Novellierung' pochodzi od łacińskiego 'novella lex' (nowe prawo): formalny proces aktualizacji istniejącej ustawy.
 C1	Inkrafttreten	wejście w życie	Wejście w życie planowane jest na styczeń.	'Inkrafttreten' to rzeczownik odczasownikowy od 'in Kraft treten' (wchodzić w życie), zawsze nijaki jak wszystkie zrzeczownikowione bezokoliczniki.
 C1	Übergangsregelung	przepis przejściowy	Dla starych umów obowiązuje przepis przejściowy.	'Übergangsregelung' łączy 'Übergang' (przejście) i 'Regelung' (uregulowanie), typowe dla reform legislacyjnych.
 C1	Widerspruchsrecht	prawo sprzeciwu	Konsumenci mają ustawowe prawo sprzeciwu.	'Widerspruchsrecht' łączy 'Widerspruch' (sprzeciw) i 'Recht' (prawo), kluczowy termin ochrony konsumentów.
-C1	Datenerhebung	gromadzenie danych	Gromadzenie danych odbywa się anonimowo.	'Erfolgen' to formalny czasownik nieprzechodni znaczący 'odbywać się', używany w kontekstach instytucjonalnych i technicznych.
 C1	Zweckbindung	ograniczenie celu (danych)	Ograniczenie celu jest podstawową zasadą ochrony danych.	'Zweckbindung' łączy 'Zweck' (cel) i 'Bindung' (związanie), kluczowa zasada europejskiego RODO.
-C1	Einwilligung	zgoda	Bez zgody dane nie mogą być przetwarzane.	'Dürfen ... nicht' wyraża zaprzeczone pozwolenie, a 'verarbeitet werden' to strona bierna.
 C1	Auskunftsrecht	prawo do informacji	Każdy ma prawo do informacji o swoich danych.	'Auskunftsrecht' łączy 'Auskunft' (informacja) i 'Recht' (prawo), filar europejskiego prawa ochrony prywatności.
-C1	Löschungsanspruch	prawo do usunięcia danych	Prawo do usunięcia danych obowiązuje tylko pod określonymi warunkami.	'Unter bestimmten Bedingungen' używa celownika: 'gelten unter', utrwalona konstrukcja w języku prawnym.
 C1	Compliance	compliance, zgodność z przepisami	Compliance jest w bankach szczególnie ważne.	Bezpośrednia pożyczka z angielskiego, dziś standard w niemieckim języku korporacyjnym i finansowym.
-C1	Whistleblower	sygnalista	Sygnalista ujawnił skandal.	'Aufdecken' jest rozdzielne i łączy się z biernikiem: 'deckte auf' w Präteritum, znaczy 'odkryć, wydobyć na jaw'.
 C1	Interessenabwägung	ważenie interesów	Konieczne jest staranne ważenie interesów.	'Interessenabwägung' łączy 'Interesse' (interes) i 'Abwägung' (ważenie), centralny termin prawny w ocenie praw.
 C1	Auslegung	wykładnia, interpretacja (prawna/tekstu)	Wykładnia ustawy jest sporna.	'Auslegung' pochodzi od 'auslegen' (wykładać, interpretować), formalny termin używany zarówno prawnie, jak i biblijnie.
 C1	Diskurs	dyskurs	Dyskurs publiczny uległ zaostrzeniu.	'Diskurs' jest bardziej techniczno-akademickie niż 'Gespräch' czy 'Debatte', często używane w filozofii i naukach społecznych.
 C1	Diskurshoheit	dominacja w dyskursie	Kto ma dominację w dyskursie, ten wyznacza debatę.	'Diskurshoheit' łączy 'Diskurs' i 'Hoheit' (zwierzchnictwo), odnosząc się do tego, kto kontroluje reguły debaty publicznej.
-C1	Narrativ	narracja (pojęcie)	Ta narracja jest coraz częściej kwestionowana.	'Hinterfragt werden' to strona bierna, częsta przy opisie kwestionowania dominującego dyskursu.
 C1	Deutungsmuster	wzorzec interpretacyjny	Obie strony stosują różne wzorce interpretacyjne.	'Deutungsmuster' łączy 'Deutung' (interpretacja) i 'Muster' (wzór), kluczowy termin w socjologii.
-C1	Paradigma	paradygmat	Przeważył nowy paradygmat naukowy.	'Sich durchsetzen' jest rozdzielne i zwrotne, znaczy 'zwyciężyć, przeważyć', używane o dominujących ideach lub trendach.
 C1	Paradigmenwechsel	zmiana paradygmatu	Wynalazek był prawdziwą zmianą paradygmatu.	'Paradigmenwechsel' łączy 'Paradigma' i 'Wechsel' (zmiana), pojęcie rozsławione przez filozofa Thomasa Kuhna.
-C1	Dogma	dogmat	Kwestionuje każdy dogmat.	'Infrage stellen' znaczy 'kwestionować', utrwalony zwrot, czasem pisany też 'in Frage stellen'.
-C1	Dogmatismus	dogmatyzm	Dogmatyzm uniemożliwia otwarty dyskurs.	'Verhindern' łączy się z biernikiem i znaczy 'uniemożliwiać', formalny czasownik nierozdzielny.
-C1	Reduktionismus	redukcjonizm	Redukcjonizm zbyt mocno upraszcza złożone zjawiska.	'Zu stark' wzmacnia 'vereinfachen' (upraszczać), wskazując krytyczną nadmierność.
-C1	Determinismus	determinizm	Determinizm podaje w wątpliwość wolną wolę.	'Infrage stellen' to utrwalony zwrot znaczący 'podawać w wątpliwość, kwestionować'.
 C1	freier Wille	wolna wola	Pytanie o wolną wolę pozostaje otwarte.	'Die Frage nach' łączy się z celownikiem: 'nach dem freien Willen', utrwalona konstrukcja wprowadzająca pytanie filozoficzne.
 C1	Existenzialismus	egzystencjalizm	Egzystencjalizm podkreśla indywidualną odpowiedzialność.	Dwudziestowieczny nurt filozoficzny (Sartre, Heidegger). Występuje też pisownia „Existentialismus”; przymiotnik to „existenzialistisch”.
 C1	Nihilismus	nihilizm	Nihilizm odrzuca wszelki obiektywny sens.	'Verneinen' łączy się z biernikiem i znaczy 'zaprzeczać', formalny termin filozoficzny.
 C1	Absolutheit	absolutność	Absolutność tego twierdzenia mnie nie przekonuje.	'Absolutheit' pochodzi od 'absolut' z abstrakcyjnym przyrostkiem '-heit', termin filozoficzny wysokiego rejestru.
 C1	Relativismus	relatywizm	Relatywizm kulturowy bywa często krytykowany.	'Kritisiert werden' to strona bierna, częsta w dyskursie akademickim przy opisie spornych stanowisk.
-C1	Dialektik	dialektyka	Dialektyka tezy i antytezy prowadzi do syntezy.	Heglowska metoda dialektyczna (teza-antyteza-synteza) jest centralna dla klasycznej filozofii niemieckiej.
 C1	Synthese	synteza	Synteza obu stanowisk udała się dobrze.	'Gelingen' łączy się z celownikiem osoby, której się coś udaje: konstrukcja odwrócona w porównaniu z polskim 'udać się'.
 C1	Kontingenz	przygodność (filozoficznie)	Przygodność zdarzeń historycznych bywa niedoceniana.	'Unterschätzt werden' to strona bierna, używana do opisu zjawisk niedostatecznie dostrzeganych.
 C1	Kausalität	przyczynowość	Korelacja nie oznacza automatycznie przyczynowości.	Klasyczne rozróżnienie w metodzie naukowej: 'Korrelation' niekoniecznie implikuje 'Kausalität'.
 C1	Empirie	empiria, dane empiryczne	To twierdzenie nie opiera się na empirii.	'Sich stützen auf' łączy się z biernikiem: 'auf Empirie', utrwalona konstrukcja wskazująca podstawę argumentu.
-C1	empirisch belegen	udowodnić empirycznie	Tezę można udowodnić empirycznie.	'Sich belegen lassen' wyraża bierną możliwość: 'daje się udowodnić', czyli 'można udowodnić'.
 C1	Falsifizierbarkeit	falsyfikowalność	Falsyfikowalność jest według Poppera kryterium naukowości.	Kryterium 'Falsifizierbarkeit' Karla Poppera jest centralne dla współczesnej filozofii nauki.
 C1	Erkenntnistheorie	epistemologia, teoria poznania	Epistemologia pyta, jak możemy wiedzieć to, co wiemy.	'Erkenntnistheorie' łączy 'Erkenntnis' (poznanie) i 'Theorie' (teoria), gałąź filozofii o naturze wiedzy.
 C1	Metaebene	metapoziom	Dyskusja często przechodzi na metapoziom.	'Metaebene' łączy grecki przedrostek 'Meta-' (poza) i 'Ebene' (poziom): poziom refleksji nad samą dyskusją.
 C1	Immanenz	immanencja	Immanencja Boga to centralny temat teologiczny.	'Immanenz' kontrastuje z 'Transzendenz' (transcendencja), kluczowa para pojęciowa w filozofii religii.
-C1	Transzendenz	transcendencja	Wiele religii podkreśla transcendencję tego, co boskie.	'Das Göttliche' to zrzeczownikowany przymiotnik nijaki: 'to, co boskie' jako rzeczownik abstrakcyjny.
-C1	Immanent kritisieren	krytykować immanentnie	System można też krytykować immanentnie.	'Immanent' jako przysłówek opisuje krytykę, która przyjmuje przesłanki systemu, by obalić go od wewnątrz.
 C1	Aporie	aporia (filozoficzny impas)	Tekst kończy się prawdziwą aporią.	'Aporie' pochodzi ze starożytnej greki i opisuje pozornie nierozwiązywalny dylemat filozoficzny.
 C1	Antinomie	antynomia	Kant opisuje cztery klasyczne antynomie.	Pojęcie 'Antinomie' jest centralne dla filozofii Kanta i oznacza dwa sprzeczne, a jednakowo dowodliwe twierdzenia.
 C1	Kategorischer Imperativ	imperatyw kategoryczny	Imperatyw kategoryczny to centralna zasada etyczna Kanta.	Podstawowe pojęcie filozofii moralnej Immanuela Kanta, jeden z najbardziej wpływowych niemieckich wkładów filozoficznych na świecie.
@@ -132,7 +102,6 @@ C1	Vorstand	zarząd	Zarząd podejmuje decyzje operacyjne.	'Treffen' w tym znacze
 C1	Hauptversammlung	walne zgromadzenie	Walne zgromadzenie odbędzie się w maju.	'Stattfinden' jest rozdzielne: 'findet statt' w czasie teraźniejszym, używane o formalnie zaplanowanych wydarzeniach.
 C1	Insolvenzverfahren	postępowanie upadłościowe	Przedsiębiorstwo składa wniosek o wszczęcie postępowania upadłościowego.	'Anmelden' jest rozdzielne i łączy się z biernikiem, używane w formalnych kontekstach administracyjnych i prawnych.
 C1	Sanierung	restrukturyzacja, uzdrowienie	Restrukturyzacja firmy udała się o włos.	'Gelingen' łączy się z celownikiem osoby, której się udaje: konstrukcja odwrócona w porównaniu z angielskim 'to manage to'.
-C1	Liquidität	płynność finansowa	Płynność finansowa firmy jest napięta.	'Angespannt' pochodzi od 'anspannen' (napinać), użyte jako przymiotnik opisujący niepewną sytuację finansową.
 C1	Bilanz	bilans	Bilans wykazuje stratę.	'Ausweisen' łączy się z biernikiem i znaczy 'wykazywać (w dokumencie)', częste w księgowości.
 C1	Abschreibung	amortyzacja, odpis	Amortyzacja zmniejsza zysk.	'Verringern' łączy się z biernikiem i znaczy 'zmniejszać', formalny czasownik nierozdzielny w księgowości.
 C1	Rücklage	rezerwa (finansowa)	Firma tworzy rezerwy na trudne czasy.	'Bilden' łączy się z biernikiem i znaczy 'tworzyć, gromadzić', czasownik częsty w języku księgowości.
@@ -155,20 +124,15 @@ C1	Informationsasymmetrie	asymetria informacji	Asymetria informacji często prow
 C1	Moral Hazard	pokusa nadużycia, hazard moralny	Państwowe pakiety ratunkowe wytwarzają hazard moralny.	Termin techniczny wzięty wprost z angielskiego, szeroko używany także w niemieckiej literaturze ekonomicznej.
 C1	Opportunitätskosten	koszty alternatywne	Trzeba pamiętać o kosztach alternatywnych każdej decyzji.	'Bedenken' łączy się z biernikiem i znaczy 'rozważać, brać pod uwagę', formalny czasownik nierozdzielny.
 C1	Grenznutzen	użyteczność krańcowa	Użyteczność krańcowa spada wraz ze wzrostem konsumpcji.	'Mit steigendem Konsum' używa celownika, wskazując jednoczesną zależność między dwiema zmiennymi.
-C1	Pathogenese	patogeneza	Patogeneza tej choroby jest ledwie zbadana.	'Kaum erforscht' znaczy 'ledwie zbadany, mało poznany', często używane w języku badań medycznych.
 C1	Ätiologie	etiologia	Etiologia w wielu przypadkach pozostaje niejasna.	'Ätiologie' pochodzi od greckiego 'aitia' (przyczyna): nauka o przyczynach choroby.
 C1	Differentialdiagnose	diagnostyka różnicowa	Diagnostyka różnicowa wyklucza inne przyczyny.	'Ausschließen' jest rozdzielne i łączy się z biernikiem, znaczy 'wykluczać', częsty termin techniczny w medycynie.
 C1	Prognose stellen	postawić rokowanie	Lekarz nie może jeszcze postawić rokowania.	'Eine Prognose stellen' to standardowe utrwalone połączenie, jak 'eine Diagnose stellen'.
 C1	Remission	remisja	Choroba jest w remisji.	'Sich befinden in' łączy się z celownikiem: 'in Remission', formalna konstrukcja opisująca stan medyczny.
 C1	Kontraindikation	przeciwwskazanie	To przeciwwskazanie należy uwzględnić.	'Beachtet werden' to strona bierna, częsta w formalnej terminologii medycznej i farmaceutycznej.
 C1	Wirkstoff	substancja czynna	Substancja czynna uwalnia się powoli.	'Freigesetzt werden' to strona bierna, odnosząca się do stopniowego uwalniania leku w organizmie.
-C1	klinische Studie	badanie kliniczne	Badanie kliniczne pokazuje obiecujące wyniki.	'Vielversprechend' łączy 'viel' i 'versprechen' (obiecywać): dosłownie 'to, co dużo obiecuje'.
-C1	Placeboeffekt	efekt placebo	Efekt placebo jest dobrze udokumentowany naukowo.	'Wissenschaftlich gut dokumentiert' to konstrukcja typowa dla języka badawczego, z przysłówkiem przed imiesłowem.
-C1	Resistenz	oporność (medyczna)	Oporność na antybiotyki to rosnący problem.	'Wachsend' jako imiesłów czasu teraźniejszego użyty jako przymiotnik znaczy 'rosnący', częste w języku medycznym i zdrowotnym.
 C1	Epidemiologie	epidemiologia	Epidemiologia bada rozprzestrzenianie się chorób.	'Untersuchen' nie jest rozdzielne i łączy się z biernikiem, czasownik częsty w kontekstach naukowych.
 C1	Inzidenz	zapadalność, współczynnik zachorowań	Zapadalność w tym regionie jest wysoka.	'Inzidenz' to termin statystyczno-epidemiologiczny mierzący częstość nowych przypadków w danym okresie.
 C1	Prävalenz	chorobowość, rozpowszechnienie	Chorobowość rośnie.	W przeciwieństwie do 'Inzidenz' (nowe przypadki) 'Prävalenz' mierzy łączną liczbę istniejących przypadków w danym momencie.
-C1	Mortalitätsrate	wskaźnik śmiertelności	Wskaźnik śmiertelności wyraźnie spadł.	'Deutlich gesunken' znaczy 'wyraźnie spadł', często używane w statystykach zdrowia publicznego.
 C1	Neurowissenschaft	neuronauka	Neuronauka wyjaśnia wiele wzorców zachowań.	'Neurowissenschaft' łączy grecki przedrostek 'Neuro-' i 'Wissenschaft' (nauka), stosunkowo młoda dziedzina badań.
 C1	Synapse	synapsa	Synapsy przekazują sygnały elektryczne.	'Übertragen' łączy się z biernikiem i znaczy 'przekazywać', czasownik techniczny częsty w neuronauce.
 C1	Plastizität	plastyczność (neuronalna)	Plastyczność mózgu maleje z wiekiem.	'Abnehmen' jest rozdzielne i znaczy 'maleć', częste w dyskursie o starzeniu się poznawczym.
@@ -176,99 +140,54 @@ C1	kognitiv	poznawczy, kognitywny	Zdolności poznawcze zmieniają się z wiekiem
 C1	Demenz	demencja, otępienie	Demencja dotyka coraz więcej ludzi na całym świecie.	Używane w liczbie pojedynczej: „an Demenz leiden” (cierpieć na demencję, „an” + celownik). Przymiotnik to „dement”; choroba Alzheimera to jedna z postaci „Demenz”.
 C1	Neurodegeneration	neurodegeneracja	Neurodegeneracja przebiega zazwyczaj podstępnie.	'Schleichend' pochodzi od 'schleichen' (skradać się), używane do opisu stopniowych procesów patologicznych.
 C1	Genom	genom	Ludzki genom został zsekwencjonowany w 2003 roku.	'Sequenziert werden' to strona bierna, odnosząca się do zakończenia międzynarodowego Projektu Poznania Ludzkiego Genomu.
-C1	Mutation	mutacja	Niektóre mutacje są nieszkodliwe.	'Manche' znaczy 'niektórzy, pewne', częsty zaimek/przymiotnik nieokreślony w ogólnym dyskursie naukowym.
 C1	Biotechnologie	biotechnologia	Biotechnologia otwiera nowe możliwości medyczne.	'Eröffnen' nie jest rozdzielne i łączy się z biernikiem, znaczy 'otwierać' w sensie przenośnym lub dosłownym.
 C1	Nanotechnologie	nanotechnologia	Nanotechnologia mogłaby zrewolucjonizować medycynę.	Od greckiego „nános” (karzeł, bardzo mały) + „Technologie”. Nanometr to miliardowa część metra.
-C1	Quantencomputer	komputer kwantowy	Komputer kwantowy rozwiązuje niektóre problemy znacznie szybciej.	'Viel schneller' wzmacnia stopień wyższy 'schneller' przez 'viel', wskazując znaczną różnicę.
 C1	maschinelles Lernen	uczenie maszynowe	Uczenie maszynowe stale się poprawia.	'Sich verbessern' jest zwrotne i znaczy 'poprawiać się', często używane o systemach technologicznych.
 C1	neuronales Netz	sieć neuronowa	Sieć neuronowa symuluje ludzki mózg.	'Simulieren' łączy się z biernikiem, standardowy termin techniczny w sztucznej inteligencji.
 C1	Datensatz	zbiór danych	Algorytm potrzebuje dużego zbioru danych.	'Datensatz' łączy 'Daten' (dane) i 'Satz' (zbiór), standardowy termin techniczny w informatyce.
 C1	Verzerrung	zniekształcenie, błąd systematyczny (w danych)	Zniekształcenie danych prowadzi do błędnych wyników.	'Führen zu' łączy się z celownikiem: 'zu falschen Ergebnissen', utrwalona konstrukcja wyrażająca negatywną konsekwencję.
 C1	Rhetorik	retoryka	Jego retoryka przekonała publiczność.	'Überzeugen' łączy się z biernikiem bez przyimka, czasownik częsty w dyskursie perswazyjnym.
-C1	Rhetorische Frage	pytanie retoryczne	To było oczywiście pytanie retoryczne.	Pytanie zadane nie po to, by uzyskać odpowiedź, lecz by podkreślić myśl: klasyczny środek retoryczny.
 C1	Anapher	anafora	Mówca użył mocnej anafory.	'Anapher' to powtórzenie słowa na początku kolejnych zdań, klasyczny środek retoryczny używany dla podkreślenia.
 C1	Pathos	patos	Tekst silnie odwołuje się do patosu.	'Appellieren an' łączy się z biernikiem: 'an das Pathos', utrwalona konstrukcja w klasycznej analizie retorycznej (etos, patos, logos).
 C1	Ethos	etos	Mówca najpierw buduje swój etos.	'Aufbauen' jest rozdzielne i łączy się z biernikiem: w klasycznej analizie retorycznej etos to wiarygodność mówcy.
-C1	Logos-Argument	argument logosu, argument racjonalny	Argument logosu opiera się na faktach.	'Sich stützen auf' łączy się z biernikiem: 'auf Fakten', trzeci filar klasycznej retoryki obok etosu i patosu.
 C1	Polemik	polemika	Polemika jest skierowana przeciwko rządowi.	Ostra, agresywna krytyka, często osobista. Przymiotnik to „polemisch”, czasownik „polemisieren”.
 C1	Invektive	inwektywa, obelga	Przemówienie zmieniło się w zwykłą inwektywę.	'Geraten zu' łączy się z celownikiem: 'zu einer Invektive', utrwalona konstrukcja opisująca niezamierzone wyrodzenie się czegoś.
-C1	Ambivalenz	ambiwalencja	Ambiwalencja jego postawy jest oczywista.	'Offensichtlich' znaczy 'oczywisty, ewidentny', formalny przymiotnik częsty w analizie krytycznej.
 C1	Zwiespalt	rozdarcie wewnętrzne, dylemat	Jest głęboko rozdarta wewnętrznie.	'Stecken in' łączy się z celownikiem: 'in einem Zwiespalt', utrwalona konstrukcja opisująca utknięcie w trudnej sytuacji.
-C1	Widerspruch in sich	sprzeczność wewnętrzna	To twierdzenie jest wewnętrznie sprzeczne.	'In sich' wzmacnia ideę, że sprzeczność jest wewnętrzna wobec samego twierdzenia, a nie zewnętrzna.
 C1	Sinnkrise	kryzys sensu, kryzys egzystencjalny	Wielu przeżywa w połowie życia kryzys sensu.	'Sinnkrise' łączy 'Sinn' (sens) i 'Krise' (kryzys): kryzys egzystencjalny związany z poszukiwaniem sensu.
 C1	Entfremdung	alienacja, wyobcowanie	Wyobcowanie z pracy to stary temat.	Centralne pojęcie filozofii Karola Marksa, odnoszące się do oddzielenia robotnika od produktu jego pracy.
 C1	Entzauberung	odczarowanie (socjologiczne)	Max Weber mówił o odczarowaniu świata.	Słynne pojęcie niemieckiego socjologa Maxa Webera, odnoszące się do rosnącej racjonalizacji nowoczesnego społeczeństwa.
 C1	Anomie	anomia	Anomia opisuje utratę norm społecznych.	Pojęcie socjologiczne wprowadzone przez Émile'a Durkheima, odnoszące się do rozpadu wspólnych norm społecznych.
 C1	soziale Kohäsion	spójność społeczna	Spójność społeczna jest osłabiana przez nierówność.	'Geschwächt werden durch' to strona bierna z 'durch' i biernikiem, wskazująca przyczynę osłabienia.
-C1	Marginalisierung	marginalizacja	Marginalizacja dotyka szczególnie grup wrażliwych.	'Vulnerabel' to pożyczka z łaciny, formalny synonim 'verletzlich' (wrażliwy, narażony), częsty w akademickim dyskursie społecznym.
 C1	Stigmatisierung	stygmatyzacja	Stygmatyzacja chorób psychicznych powoli maleje.	'Abnehmen' jest rozdzielne i znaczy 'maleć', używane w dyskursie o zmieniającym się postrzeganiu społecznym.
 C1	Selbststigmatisierung	autostygmatyzacja	Autostygmatyzacja utrudnia powrót do zdrowia.	'Erschweren' łączy się z biernikiem i znaczy 'utrudniać', formalny czasownik nierozdzielny.
 C1	Prekariat	prekariat	Prekariat rośnie w wielu krajach europejskich.	'Prekariat' to neologizm socjologiczny opisujący klasę pracowników w niepewnych warunkach, ukuty w latach 2000.
 C1	Klassengesellschaft	społeczeństwo klasowe	Niektórzy socjologowie wątpią, czy społeczeństwo klasowe zniknęło.	'Bezweifeln, dass' wprowadza zdanie podrzędne z 'dass', częsta konstrukcja w krytycznym dyskursie akademickim.
 C1	soziale Mobilität	mobilność społeczna	Mobilność społeczna jest w niektórych krajach ograniczona.	'Eingeschränkt' pochodzi od 'einschränken' (ograniczać), użyte jako przymiotnik opisujący stan ograniczenia.
 C1	Habitus	habitus (socjologiczny)	Pojęcie habitusu pochodzi od Pierre'a Bourdieu.	Kluczowe pojęcie socjologiczne Francuza Bourdieu, szeroko dyskutowane także we współczesnej socjologii niemieckiej.
-C1	kulturelles Kapital	kapitał kulturowy	Kapitał kulturowy wpływa na sukces edukacyjny.	'Beeinflussen' nie jest rozdzielne i łączy się z biernikiem, kluczowy termin socjologii edukacji.
-C1	sozialer Aufstieg	awans społeczny	Awans społeczny nie jest dla wszystkich równie łatwy.	'Gleich einfach' znaczy 'równie łatwy', konstrukcja porównawcza częsta w dyskursie o sprawiedliwości społecznej.
-C1	Prekarisierung	prekaryzacja	Prekaryzacja coraz częściej dotyka też absolwentów.	'Zunehmend' jako imiesłów czasu teraźniejszego użyty jako przysłówek znaczy 'coraz bardziej'.
 C1	Zeitalter	era, epoka	Żyjemy w erze cyfrowej.	'Zeitalter' łączy 'Zeit' (czas) i 'Alter' (wiek): formalny termin na epokę historyczną wyróżnioną charakterystyczną cechą.
-C1	Umbruch	przełom, gruntowna zmiana	Region przeżywa głęboki przełom.	'Tiefgreifend' łączy 'tief' (głęboko) i 'greifen' (sięgać): dosłownie 'sięgający głęboko', czyli radykalny.
-C1	historische Zäsur	cezura historyczna	I wojna światowa była cezurą historyczną.	'Zäsur' opisuje zdarzenie wyznaczające wyraźną granicę między 'przed' a 'po' w historii.
-C1	Epochenwandel	zmiana epoki	Oświecenie wyznaczyło zmianę epoki.	'Markieren' łączy się z biernikiem i znaczy 'wyznaczać', używane w formalnej analizie historycznej.
-C1	Zeitzeugenbericht	relacja świadka historii	Relacja świadka historii dostarcza cennych wglądów.	'Liefern' łączy się z biernikiem i znaczy 'dostarczać', formalny czasownik używany w historiografii.
 C1	Geschichtsschreibung	historiografia	Historiografia nigdy nie jest całkiem neutralna.	'Geschichtsschreibung' łączy 'Geschichte' (historia) i 'Schreibung' (pisanie): sposób opowiadania historii.
-C1	Revisionismus	rewizjonizm	Rewizjonizm historyczny jest oceniany krytycznie.	'Kritisch betrachtet werden' to strona bierna, częsta przy opisie kontrowersyjnego stanowiska w debacie akademickiej.
-C1	Kollektives Gedächtnis	pamięć zbiorowa	Pamięć zbiorowa kształtuje tożsamość narodową.	'Formen' łączy się z biernikiem i znaczy 'kształtować', formalny termin socjologiczno-historyczny.
 C1	Aufarbeitung	przepracowanie, rozliczenie	Przepracowanie przeszłości trwa pokolenia.	'Aufarbeitung' pochodzi od 'aufarbeiten' (przepracować), kluczowy termin niemieckiej kultury pamięci.
-C1	Schuldfrage	kwestia winy	Kwestia winy pozostaje sporna do dziś.	'Bis heute' znaczy 'do dziś', używane, by wskazać, że debata historyczna nadal trwa.
-C1	Kollektivschuld	wina zbiorowa	Pojęcie winy zbiorowej jest kontrowersyjnie dyskutowane.	'Kontrovers diskutiert werden' to strona bierna, częsta przy opisie żywo dyskutowanych tematów filozoficznych lub historycznych.
-C1	Widerstandsbewegung	ruch oporu	Ruch oporu ryzykował życiem.	'Riskieren' łączy się z biernikiem i znaczy 'ryzykować', czasownik częsty w dyskursie historycznym o odwadze cywilnej.
 C1	Zivilcourage	odwaga cywilna	Odwaga cywilna oznacza interweniowanie także wtedy, gdy jest to niewygodne.	'Zivilcourage' łączy łacińskie 'zivil' i francuskie 'courage', hybrydowe złożenie często używane w niemieckiej edukacji obywatelskiej.
 C1	Aufklärung	oświecenie, wyjaśnianie	Oświecenie ukształtowało nowoczesną Europę.	'Aufklärung' oznacza zarówno historyczny ruch filozoficzny, jak i w innych kontekstach po prostu 'wyjaśnienie'.
-C1	Vernunft	rozum (zdolność)	Kant pokładał wielkie zaufanie w rozumie.	'Vertrauen setzen in' łączy się z biernikiem: 'in die Vernunft', utrwalona konstrukcja w dyskursie filozoficznym.
-C1	Mündigkeit	pełnoletniość, samodzielność (u Kanta)	Kant zdefiniował oświecenie jako wyjście z niepełnoletności.	Kant opisywał oświecenie jako przejście od 'selbstverschuldeten Unmündigkeit' (zawinionej przez siebie niepełnoletności) do 'Mündigkeit', autonomii myślenia.
-C1	Fortschrittsglaube	wiara w postęp	Wiara w postęp z XIX wieku została zachwiana.	'Erschüttert werden' to strona bierna, częsta przy opisie zbiorowego kryzysu wiary w ideę historyczną.
-C1	Zivilisationskritik	krytyka cywilizacji	Krytyka cywilizacji to powracający temat.	'Wiederkehrend' pochodzi od 'wiederkehren' (wracać), użyte jako przymiotnik o temacie powracającym z czasem.
-C1	Entfremdung von der Natur	wyobcowanie z natury	Wielu ubolewa nad wyobcowaniem z natury.	'Beklagen' łączy się z biernikiem i znaczy 'ubolewać, opłakiwać', formalny czasownik używany w krytyce kulturowej.
 C1	Rückbesinnung	powrót do korzeni, refleksyjny powrót (do wartości)	Dokonuje się refleksyjny powrót do dawnych wartości.	'Rückbesinnung auf' łączy się z biernikiem: 'auf alte Werte', utrwalona konstrukcja opisująca świadomy powrót do zasady.
 C1	geopolitisch	geopolityczny	Region ma geopolitycznie ważne położenie.	'Geopolitisch' łączy 'Geo-' (ziemia) i 'politisch' (polityczny), kluczowy termin w stosunkach międzynarodowych.
 C1	Machtgefüge	układ sił, struktura władzy	Międzynarodowy układ sił się zmienia.	'Machtgefüge' łączy 'Macht' (władza) i 'Gefüge' (struktura, ład), kluczowy termin politologii.
-C1	Bündnis	sojusz	Sojusz istnieje od ponad siedemdziesięciu lat.	'Bestehen seit' łączy się z celownikiem po 'seit', standardowa konstrukcja wyrażająca, jak długo coś istnieje.
-C1	Souveränität	suwerenność	Suwerenność państwa jest szanowana.	'Respektiert werden' to strona bierna, częsta w międzynarodowym języku dyplomatycznym.
-C1	Neutralität	neutralność	Szwajcaria tradycyjnie zachowuje neutralność.	'Bewahren' łączy się z biernikiem i znaczy 'zachowywać, strzec', formalny czasownik nierozdzielny.
-C1	Sanktion verhängen	nałożyć sankcje	UE nakłada nowe sankcje.	'Verhängen' łączy się z biernikiem i znaczy 'nakładać (karę lub środek)', formalny czasownik nierozdzielny.
-C1	Diplomatie	dyplomacja	Dyplomacja wymaga cierpliwości i taktu.	'Erfordern' łączy się z biernikiem i znaczy 'wymagać', formalny czasownik nierozdzielny.
-C1	Waffenstillstand	zawieszenie broni	Uzgodniono zawieszenie broni.	'Vereinbart werden' to strona bierna, częsta w języku dyplomatycznym i dziennikarskim o konfliktach.
-C1	Friedensverhandlung	negocjacje pokojowe	Negocjacje pokojowe posuwają się tylko powoli.	'Vorankommen' jest rozdzielne i znaczy 'posuwać się naprzód', często używane o powolnych, trudnych procesach.
 C1	Erzählperspektive	perspektywa narracyjna	Powieść zmienia perspektywę narracyjną.	'Erzählperspektive' łączy 'erzählen' (opowiadać) i 'Perspektive' (perspektywa), kluczowy termin narratologii.
 C1	allwissender Erzähler	narrator wszechwiedzący	Narrator wszechwiedzący zna wszystkie myśli postaci.	'Allwissend' łączy 'all-' (wszech-) i 'wissend' (wiedzący), standardowy termin teorii literatury.
 C1	innerer Monolog	monolog wewnętrzny	Monolog wewnętrzny ukazuje jej prawdziwe uczucia.	Technika narracyjna udostępniająca myśli postaci bez pośrednictwa narratora.
-C1	Chronologie durchbrechen	przerwać chronologię	Autor świadomie przełamuje chronologię.	'Durchbrechen' łączy się z biernikiem i w sensie przenośnym jest zwykle nierozdzielne, a w dosłownym rozdzielne.
 C1	Vorausdeutung	zapowiedź, antycypacja (narracyjna)	Zapowiedź w pierwszym rozdziale jest subtelna.	'Vorausdeutung' łączy 'voraus' (z góry) i 'Deutung' (wskazanie, interpretacja), techniczny termin narratologiczny.
 C1	Rückblende	retrospekcja	Retrospekcja wyjaśnia jej motywację.	'Rückblende' łączy 'zurück' (wstecz) i 'Blende' (przesłona, efekt): termin pochodzący pierwotnie z filmu.
 C1	Leitmotiv	motyw przewodni	Morze jest motywem przewodnim tej powieści.	'Leitmotiv' łączy 'leiten' (prowadzić) i 'Motiv' (motyw), termin muzyczny (Wagner) stosowany także w literaturze.
-C1	Erzählstrang	wątek narracyjny	Dwa wątki narracyjne biegną równolegle.	'Verlaufen' znaczy 'przebiegać, rozwijać się', często używane do opisu rozwoju złożonej fabuły.
 C1	Rahmenhandlung	narracja ramowa	Narracja ramowa łączy wszystkie epizody.	'Rahmenhandlung' łączy 'Rahmen' (rama) i 'Handlung' (fabuła): struktura obejmująca kilka opowieści.
-C1	unzuverlässiger Erzähler	narrator niewiarygodny	Niewiarygodny narrator wzbudza w czytelniku nieufność.	'Misstrauisch machen' znaczy 'wzbudzać nieufność', częsta konstrukcja przyczynowa do opisu wpływu na czytelnika.
-C1	Textkohärenz	spójność tekstu	Spójność tekstu wynika z logicznych powiązań.	'Entstehen durch' łączy się z biernikiem po 'durch', wskazując środek, przez który coś powstaje.
-C1	Kohärenz herstellen	zapewnić spójność	Spójniki pomagają zapewnić spójność.	'Herstellen' jest rozdzielne i łączy się z biernikiem, znaczy 'tworzyć, wytwarzać', używane w analizie lingwistyki tekstu.
 C1	Textsorte	rodzaj tekstu, gatunek tekstu	Ten rodzaj tekstu ma ustalone konwencje.	'Textsorte' łączy 'Text' (tekst) i 'Sorte' (rodzaj), termin techniczny lingwistyki tekstu.
 C1	Konnotation	konotacja	To słowo ma negatywną konotację.	W przeciwieństwie do 'Denotation' (znaczenie dosłowne) 'Konnotation' opisuje emocjonalne skojarzenia słowa.
 C1	Denotation	denotacja	Denotacja słowa to jego znaczenie dosłowne.	'Denotation' i 'Konnotation' tworzą klasyczną parę pojęć w semantyce językoznawczej.
 C1	sprachliches Register	rejestr językowy	Zręcznie zmienia rejestr językowy.	'Register' oznacza poziom formalności języka, dostosowany do społecznego kontekstu komunikacji.
-C1	Umgangssprache	język potoczny	Język potoczny bardzo różni się od niemieckiego pisanego.	'Sich unterscheiden von' łączy się z celownikiem: 'vom Schriftdeutschen', utrwalona konstrukcja w porównaniach językowych.
-C1	Fachsprache	język specjalistyczny, żargon	Język specjalistyczny prawników jest często trudny do zrozumienia.	'Schwer verständlich' niejawnie zawiera 'zu' i znaczy 'trudny do zrozumienia'.
-C1	Amtsdeutsch	język urzędowy niemiecki	Niemiecki urzędowy uchodzi za szczególnie skomplikowany.	'Gelten als' łączy się z mianownikiem/biernikiem po 'als', utrwalona konstrukcja wyrażająca powszechną opinię.
-C1	Fremdwort	wyraz obcy (nieprzyswojony)	Niektóre wyrazy obce brzmią sztucznie.	'Gestelzt' znaczy 'sztuczny, napuszony', używane do krytyki nadmiernego używania obcych słów.
 C1	Lehnwort	zapożyczenie (przyswojone)	'Fenster' to stare zapożyczenie z łaciny.	W przeciwieństwie do 'Fremdwort' (odczuwanego jako obce) 'Lehnwort' jest w pełni przyswojone fonetycznie i ortograficznie.
 C1	Sprachwandel	zmiana językowa	Zmiana językowa jest procesem naturalnym.	'Sprachwandel' łączy 'Sprache' (język) i 'Wandel' (zmiana), zjawisko badane przez językoznawstwo historyczne.
-C1	Sprachpurismus	puryzm językowy	Puryzm językowy często odrzuca anglicyzmy.	'Ablehnen' jest rozdzielne i łączy się z biernikiem, używane do opisu odrzucania obcych elementów językowych.
-C1	Anglizismus	anglicyzm	Wiele anglicyzmów zadomowiło się w niemieckim.	'Sich etablieren' jest zwrotne i znaczy 'zadomowić się', używane do opisu integracji językowej.
-C1	Sprachwissenschaftler	językoznawca	Językoznawcy uważnie obserwują ten trend.	'Beobachten' łączy się z biernikiem bez przyimka, czasownik częsty w języku badań.
-C1	Standardsprache	język standardowy	Język standardowy służy jako wspólna norma.	'Dienen als' łączy się z mianownikiem po 'als' i znaczy 'służyć jako', częste użycie z 'dienen'.
 C1	akribisch	skrupulatny, drobiazgowy	Pracuje skrupulatnie nad każdym szczegółem.	'Akribisch' pochodzi z greckiego 'akribeia' (dokładność), termin wysokiego rejestru opisujący skrajną staranność.
 C1	obsolet	przestarzały, nieaktualny	Ta technologia uchodzi za przestarzałą.	'Obsolet' to pożyczka z łaciny, formalny synonim 'veraltet' (przestarzały), używany w kontekstach technicznych i akademickich.
 C1	prekär	niepewny, chwiejny	Sytuacja finansowa jest niepewna.	'Prekär' to pożyczka z francuskiego, używana do opisu niestabilnej, zagrożonej sytuacji.
-C1	gravierend	poważny, dotkliwy	To poważny błąd.	'Gravierend' pochodzi od czasownika 'gravieren' (grawerować), używane przenośnie o błędach wielkiej wagi.
 C1	prägnant	zwięzły, treściwy	Odpowiedź była krótka i treściwa.	'Prägnant' opisuje jasny, esencjonalny styl wypowiedzi, wysoko ceniony w formalnym niemieckim piśmie.
 C1	fundiert	solidnie uzasadniony, rzetelny	To rzetelna analiza.	'Fundiert' pochodzi od 'Fundament' (fundament), imiesłów od 'fundieren' użyty jako przymiotnik.
 C1	kohärent	spójny	Jego argument jest logicznie spójny.	'Kohärent' to pożyczka z łaciny, używana w kontekstach logiczno-argumentacyjnych do opisu wewnętrznej zgodności.
@@ -278,8 +197,6 @@ C1	fragwürdig	wątpliwy, podejrzany	Jego metody są wątpliwe.	'Fragwürdig' ł
 C1	unabdingbar	nieodzowny, bezwarunkowy	Ten warunek jest nieodzowny.	'Unabdingbar' łączy przeczące 'un-' i 'abdingen' (zrzec się prawa): dosłownie 'czego nie można się zrzec'.
 C1	unweigerlich	nieuchronnie, nieodmiennie	To nieuchronnie prowadzi do konfliktów.	'Unweigerlich' łączy przeczące 'un-' i 'sich weigern' (odmawiać): czemu nie można odmówić, czyli co jest nieuniknione.
 C1	zwangsläufig	siłą rzeczy, z konieczności	Nie każdy kryzys siłą rzeczy prowadzi do upadku.	'Zwangsläufig' łączy 'Zwang' (przymus) i 'Lauf' (bieg): wymuszony bieg zdarzeń bez alternatywy.
-C1	unterschwellig wahrnehmen	postrzegać podprogowo	Wiele bodźców postrzegamy podprogowo.	'Wahrnehmen' jest rozdzielne i łączy się z biernikiem, czasownik techniczny używany w psychologii percepcji.
-C1	kaum zu überschätzen	trudny do przecenienia	Znaczenie tego wynalazku trudno przecenić.	'Kaum zu + bezokolicznik' wyraża niemal absolutną niemożliwość lub trudność, elegancka konstrukcja rejestru formalnego.
 C1	schwerlich	z trudem, raczej nie	Trudno temu zaprzeczyć.	'Schwerlich' to literacki wariant 'kaum' lub 'schwer', typowy dla formalnego rejestru pisanego.
 C1	bestreiten	kwestionować, zaprzeczać	Nikt nie może zaprzeczyć temu faktowi.	'Bestreiten' nie jest rozdzielne i łączy się z biernikiem, formalny czasownik używany w sporach i debatach.
 C1	anfechten	zaskarżyć, podważać (prawnie)	Adwokat zaskarża wyrok.	'Anfechten' jest rozdzielne i łączy się z biernikiem, formalny termin prawny na kwestionowanie oficjalnej decyzji.
@@ -287,74 +204,36 @@ C1	entkräften	obalać, podważać (argument)	Nowe dane obalają jego tezę.	'En
 C1	untermalen	podkreślać, stanowić tło (muzyczne)	Muzyka podkreśla dramatyczną scenę.	'Untermalen' pochodzi od 'Malen' (malować): dosłownie 'malować od spodu', dając sugestywne tło.
 C1	konterkarieren	krzyżować, udaremniać	Ten środek krzyżuje właściwy cel.	'Konterkarieren' to pożyczka z francuskiego, używana w wysokim rejestrze o skutku przeciwnym do zamierzonego.
 C1	unterminieren	podkopywać	Korupcja podkopuje zaufanie obywateli.	'Unterminieren' to pożyczka z francuskiego/łaciny, formalny synonim 'untergraben' (podkopywać).
-C1	kaschieren die Realität	maskować rzeczywistość	Piękne słowa często maskują rzeczywistość.	'Kaschieren' łączy się z biernikiem i znaczy 'zręcznie ukrywać', często z krytycznym zabarwieniem.
-C1	beschönigen die Fakten	upiększać fakty	Raport upiększa rzeczywiste liczby.	'Beschönigen' łączy się z biernikiem, często krytykowane w dziennikarstwie śledczym jako manipulacja danymi.
 C1	verharmlosen	bagatelizować	Tego zagrożenia nie należy bagatelizować.	'Verharmlosen' pochodzi od 'harmlos' (nieszkodliwy): dosłownie 'czynić nieszkodliwym', często używane krytycznie.
 C1	dramatisieren	dramatyzować, wyolbrzymiać	Prasa często dramatyzuje sytuację.	'Dramatisieren' jest przeciwieństwem 'verharmlosen': wyolbrzymianie wagi lub powagi zdarzenia.
 C1	instrumentalisieren	instrumentalizować	Ten temat jest wykorzystywany politycznie.	'Instrumentalisiert werden' to strona bierna, używana krytycznie do opisu wykorzystywania argumentu do innych celów.
-C1	Zeitgeist erfassen	uchwycić ducha czasu	Artysta doskonale oddaje ducha czasu.	'Erfassen' łączy się z biernikiem i znaczy 'ujmować (pojęciowo)', formalny czasownik nierozdzielny.
 C1	Epochenbruch	przełom epok	Niektórzy widzą w 2001 roku przełom epok.	'Epochenbruch' łączy 'Epoche' (epoka) i 'Bruch' (zerwanie), termin na zdarzenie wyznaczające wyraźny koniec epoki.
-C1	Kollektivbewusstsein	świadomość zbiorowa	Media społecznościowe kształtują świadomość zbiorową.	'Prägen' łączy się z biernikiem i znaczy 'kształtować, głęboko nacechować', formalny czasownik.
 C1	Massenpsychologie	psychologia tłumu	Psychologia tłumu wyjaśnia zbiorową panikę.	'Massenpsychologie' łączy 'Masse' (masa) i 'Psychologie' (psychologia), dziedzina badana już przez Gustave'a Le Bona.
 C1	Herdentrieb	instynkt stadny	Instynkt stadny wpływa na decyzje inwestycyjne.	'Herdentrieb' łączy 'Herde' (stado) i 'Trieb' (instynkt), często używane w ekonomii behawioralnej i finansach.
-C1	Gruppendynamik	dynamika grupy	Dynamika grupy wpływa na każdą decyzję zespołu.	'Beeinflussen' nie jest rozdzielne i łączy się z biernikiem, termin techniczny psychologii społecznej.
-C1	Konformitätsdruck	presja konformizmu	Presja konformizmu często tłumi odmienne opinie.	'Unterdrücken' łączy się z biernikiem i znaczy 'tłumić', formalny czasownik nierozdzielny.
-C1	Meinungsklima	klimat opinii	Klimat opinii wyraźnie się zmienił.	'Merklich' znaczy 'wyraźnie, zauważalnie', formalny przysłówek używany do dostrzegalnych zmian.
 C1	Schweigespirale	spirala milczenia	Spirala milczenia wyjaśnia, dlaczego opinie mniejszości zamilkają.	Pojęcie socjologiczne niemieckiej badaczki Elisabeth Noelle-Neumann, bardzo wpływowe w badaniach komunikacji politycznej.
 C1	Echokammer	komora pogłosowa, bańka echa	Sieci społecznościowe często tworzą komory pogłosowe.	'Echokammer' to metafora zaczerpnięta z akustyki, stosowana do polaryzacji informacji w sieci.
 C1	Filterblase	bańka informacyjna	Bańka informacyjna zawęża horyzonty.	Złożenie „Filter” + „Blase” (bańka); kalka z angielskiego „filter bubble”, spopularyzowanego przez Eliego Parisera w 2011 roku.
-C1	Polarisierung	polaryzacja	Polaryzacja polityczna narasta.	'Zunehmen' jest rozdzielne i znaczy 'narastać', bardzo częste w dyskursie o fragmentaryzacji politycznej.
-C1	Radikalisierung	radykalizacja	Radykalizacji w sieci trudno przeciwdziałać.	'Schwer zu bekämpfen' łączy się z bezokolicznikiem z 'zu', używane do wyrażenia trwałego wyzwania.
 C1	Verrohung	brutalizacja, zdziczenie (dyskursu)	Brutalizacja języka w sieci niepokoi wielu.	'Verrohung' pochodzi od 'roh' (surowy, prymitywny): postępujący spadek kultury publicznego dyskursu.
-C1	Hetze	nagonka, mowa nienawiści	Podżeganie w internecie jest karalne.	'Strafbar' znaczy 'karalny', formalny przymiotnik wskazujący na przestępstwo.
-C1	Shitstorm	internetowa burza hejtu	Wpis wywołał prawdziwą burzę hejtu w sieci.	'Auslösen' jest rozdzielne i łączy się z biernikiem, znaczy 'wywoływać', bardzo często używane w kontekście mediów społecznościowych.
 C1	Cancel Culture	cancel culture, kultura wykluczania	Cancel culture jest kontrowersyjnie dyskutowana.	Bezpośrednia pożyczka z angielskiego, szeroko używana bez zmian we współczesnej niemieckiej debacie publicznej.
 C1	Meinungskorridor	dopuszczalny zakres opinii	Niektórzy krytykują zbyt wąski zakres dopuszczalnych opinii.	'Meinungskorridor' opisuje spektrum opinii uznawanych w debacie za społecznie dopuszczalne.
 C1	Denkverbot	tabu myślowe, zakaz myślenia	Nie powinno być tabu myślowych.	'Denkverbot' łączy 'Denken' (myślenie) i 'Verbot' (zakaz): idea uznana za niedopuszczalną do wypowiedzenia.
-C1	Framing	framing, ramowanie przekazu	Framing wpływa na to, jak rozumiemy wiadomości.	'Beeinflussen, wie' łączy się ze zdaniem podrzędnym z 'wie', częsta konstrukcja do opisu wpływu na percepcję.
 C1	Agenda-Setting	ustalanie agendy (media)	Ustalanie agendy decyduje, o czym rozmawiamy.	Teoria komunikacji głosząca, że media nie mówią nam, co myśleć, lecz determinują, o czym myślimy.
-C1	mediale Aufmerksamkeit	uwaga mediów	Sprawa wzbudziła ogromną uwagę mediów.	'Erregen' łączy się z biernikiem i znaczy 'wzbudzać', formalny czasownik nierozdzielny.
 C1	Reizüberflutung	przeciążenie bodźcami, przeciążenie informacyjne	Przeciążenie bodźcami z mediów to współczesny problem.	'Reizüberflutung' łączy 'Reiz' (bodziec) i 'Überflutung' (zalew): nadmiar bodźców zmysłowych/informacyjnych.
-C1	digitale Entgiftung	cyfrowy detoks	Wielu szuka cyfrowego detoksu na urlopie.	'Entgiftung' pochodzi od 'Gift' (trucizna): dosłownie 'usuwanie trucizny', stosowane przenośnie do urządzeń cyfrowych.
-C1	Klimagerechtigkeit	sprawiedliwość klimatyczna	Sprawiedliwość klimatyczna wymaga globalnej solidarności.	'Fordern' łączy się z biernikiem i znaczy 'wymagać, żądać', formalny czasownik nierozdzielny.
-C1	Generationengerechtigkeit	sprawiedliwość międzypokoleniowa	Sprawiedliwość międzypokoleniowa dotyczy także polityki emerytalnej.	'Betreffen' łączy się z biernikiem bez przyimka, używane do powiązania zasady z obszarem polityki.
-C1	Ressourcenknappheit	niedobór zasobów	Niedobór zasobów zaostrza konflikty międzynarodowe.	'Verschärfen' łączy się z biernikiem i znaczy 'zaostrzać', formalny czasownik nierozdzielny.
-C1	Umweltbewusstsein	świadomość ekologiczna	Świadomość ekologiczna rośnie zwłaszcza wśród młodych.	'Wachsen' jest mocnym czasownikiem nieregularnym: 'wuchs, gewachsen', często używanym o rosnących trendach społecznych.
-C1	Klimaskeptiker	sceptyk klimatyczny	Sceptycy klimatyczni wątpią w wpływ człowieka.	'Bezweifeln' łączy się z biernikiem i znaczy 'wątpić', formalny czasownik nierozdzielny.
-C1	Konsenswissenschaft	nauka konsensualna, konsensus naukowy	Zmiana klimatu uchodzi za sprawę konsensusu naukowego.	'Gelten als' łączy się z mianownikiem po 'als', utrwalona konstrukcja wyrażająca powszechnie podzielaną opinię.
-C1	Anpassungsstrategie	strategia adaptacji	Miasta opracowują strategie adaptacji do fal upałów.	'Gegen' zawsze łączy się z biernikiem, użyte tu do wskazania, przeciw czemu skierowana jest strategia.
-C1	Klimafolgenforschung	badania skutków zmian klimatu	Badania skutków zmian klimatu dostarczają ważnych prognoz.	'Liefern' łączy się z biernikiem i znaczy 'dostarczać', czasownik częsty w dyskursie naukowym.
-C1	Kipppunkt	punkt krytyczny, punkt przełomowy	Naukowcy ostrzegają przed globalnym punktem krytycznym.	'Warnen vor' łączy się z celownikiem: 'vor einem Kipppunkt', częsta utrwalona konstrukcja ostrzeżeń naukowych.
-C1	planetare Grenzen	granice planetarne	Kilka granic planetarnych zostało już przekroczonych.	'Überschritten' pochodzi od 'überschreiten' (przekraczać), czasownik nierozdzielny używany w kontekstach ekologicznych i prawnych.
 C1	Suffizienz	wystarczalność (ograniczanie konsumpcji)	Wystarczalność oznacza świadome konsumowanie mniej.	'Suffizienz' to techniczny termin zrównoważonego rozwoju, odrębny od 'Effizienz' (robić więcej za mniej) i 'Konsistenz' (zmiana materiałów).
-C1	Postwachstumsökonomie	ekonomia postwzrostowa	Ekonomia postwzrostowa podaje w wątpliwość wzrost PKB.	'Infrage stellen' znaczy 'podawać w wątpliwość', utrwalony zwrot pisany też 'in Frage stellen'.
 C1	Konsumkritik	krytyka konsumpcjonizmu	Krytyka konsumpcjonizmu ma długą tradycję intelektualną.	'Konsumkritik' łączy 'Konsum' (konsumpcja) i 'Kritik' (krytyka), nurt myśli sięgający co najmniej początku XX wieku.
 C1	Wachstumszwang	przymus wzrostu	Przymus wzrostu gospodarki jest coraz częściej krytykowany.	'Wachstumszwang' łączy 'Wachstum' (wzrost) i 'Zwang' (przymus), krytyczne pojęcie wobec głównego nurtu ekonomii.
 C1	Selbstermächtigung	samoupodmiotowienie, samodzielne przejęcie sprawczości	Książka wspiera samoupodmiotowienie czytelniczki.	'Selbstermächtigung' łączy 'selbst' (samo) i 'Ermächtigung' (upoważnienie, władza), kluczowy termin w dyskursie feministycznym.
 C1	Emanzipation	emancypacja	Emancypacja kobiet była długim procesem.	'Emanzipation' pochodzi od łacińskiego 'emancipare' (uwolnić spod opieki ojcowskiej), dziś używane w szerokim sensie społecznym.
 C1	Selbstbestimmung	samostanowienie	Samostanowienie jest prawem podstawowym.	'Selbstbestimmung' łączy 'selbst' i 'Bestimmung' (określanie), używane zarówno indywidualnie, jak i wobec narodów.
-C1	Fremdbestimmung	zewnętrzne sterowanie, heteronomia	Wielu buntuje się przeciwko zewnętrznemu sterowaniu.	'Sich auflehnen gegen' łączy się z biernikiem: 'gegen Fremdbestimmung', utrwalona konstrukcja wyrażająca bunt.
-C1	Autonomiebestrebung	dążenie do autonomii	Dążenia do autonomii kształtują wiele regionów Europy.	'Prägen' łączy się z biernikiem i znaczy 'kształtować, nacechowywać', często używane w analizie politycznej.
 C1	Selbstwirksamkeit	poczucie własnej skuteczności	Poczucie własnej skuteczności wzmacnia odporność psychiczną.	'Selbstwirksamkeit' to kluczowy termin psychologiczny, ukuty przez psychologa Alberta Bandurę, przekład angielskiego 'self-efficacy'.
 C1	Widerstandskraft	odporność, siła oporu	Jej wewnętrzna odporność wywarła na wszystkich wrażenie.	'Widerstandskraft' łączy 'Widerstand' (opór) i 'Kraft' (siła), niemal formalny synonim 'Resilienz'.
-C1	Selbstoptimierung	samooptymalizacja	Samooptymalizacja jest postrzegana coraz bardziej krytycznie.	'Kritisch gesehen werden' to strona bierna, używana do opisu coraz bardziej negatywnego odbioru społecznego.
-C1	Selbstausbeutung	samowyzysk	Samowyzysk jest wśród samozatrudnionych rozpowszechniony.	'Verbreitet sein unter' łączy się z celownikiem: 'unter Selbstständigen', konstrukcja opisująca zjawisko rozpowszechnione w grupie.
-C1	Erschöpfungszustand	stan wyczerpania	Znajdowała się w stanie całkowitego wyczerpania.	'Sich befinden in' łączy się z celownikiem, formalna konstrukcja opisująca dłużej trwający stan.
-C1	innere Leere	pustka wewnętrzna	Mimo sukcesu czuł wewnętrzną pustkę.	'Trotz' łączy się z dopełniaczem lub potocznie z celownikiem, używane do wyrażenia kontrastu między pozorem a odczuciem.
-C1	Sinnstiftung	nadawanie sensu	Praca służy wielu jako źródło sensu.	'Dienen zu' łączy się z celownikiem: 'zur Sinnstiftung', utrwalona konstrukcja wyrażająca cel czegoś.
 C1	Kontingenzbewältigung	radzenie sobie z przygodnością	Religia służyła historycznie radzeniu sobie z przygodnością.	Złożony termin socjologiczno-teologiczny, odnoszący się do sposobu, w jaki ludzie radzą sobie z nieprzewidywalnością życia.
-C1	Reflexionsvermögen	zdolność refleksji	Zdolność refleksji ją wyróżnia.	'Auszeichnen' jest rozdzielne i łączy się z biernikiem: 'zeichnet aus' znaczy 'wyróżniać'.
 C1	Urteilsvermögen	zdolność oceny, osąd	Dobra zdolność oceny jest w zawodzie niezbędna.	Łączy „Urteil” (osąd) i „Vermögen” (zdolność): umiejętność rozsądnej oceny. Bardziej literackim synonimem jest „Urteilskraft”.
-C1	Unvoreingenommenheit	bezstronność	Sędziowie muszą zachować bezstronność.	'Wahren' łączy się z biernikiem i znaczy 'zachowywać, strzec', formalny czasownik nierozdzielny.
 C1	Aufrichtigkeit	szczerość	Szczerość jest podstawą każdej prawdziwej relacji.	'Aufrichtigkeit' pochodzi od 'aufrichtig' (szczery), dosłownie 'wyprostowany', czyli bez oszustwa.
-C1	Verschwiegenheit	dyskrecja, poufność	Lekarze są zobowiązani do zachowania poufności.	'Verpflichtet sein zu' łączy się z celownikiem: 'zur Verschwiegenheit', formalna konstrukcja dla zobowiązań zawodowych.
 C1	Standhaftigkeit	niezłomność	Jej niezłomność przekonała jury.	'Standhaftigkeit' pochodzi od 'standhaft' (stały, niewzruszony), termin wysokiego rejestru opisujący determinację.
 C1	Unbeirrbarkeit	nieugięta determinacja	Jego nieugięta determinacja doprowadziła w końcu do sukcesu.	'Unbeirrbarkeit' łączy przeczące 'un-' i 'beirren' (zbić z drogi): dosłownie 'to, co nie da się zboczyć'.
 C1	Vorbehalt	zastrzeżenie	Zgadzam się z zastrzeżeniem.	'Unter Vorbehalt' to utrwalony zwrot znaczący 'z zastrzeżeniem, warunkowo', typowy dla języka formalnego.
-C1	rechtliche Auflage	warunek prawny, nałożony obowiązek	Zezwolenie jest wydawane tylko pod pewnymi warunkami.	'Auflage' w tym znaczeniu oznacza nałożony warunek prawny, odmienny od znaczenia 'nakład, wydanie' książki.
 C1	Zugeständnis	ustępstwo	Obie strony poczyniły ustępstwa.	'Zugeständnisse machen' to standardowe utrwalone połączenie, używane w negocjacjach politycznych i osobistych.
-C1	Kompromissbereitschaft	gotowość do kompromisu	Gotowość do kompromisu jest w polityce decydująca.	'Entscheidend' znaczy 'decydujący', używane o cechach uznawanych w danym kontekście za kluczowe.
-C1	Sachzwang	przymus rzeczowy, obiektywna konieczność	Politycy często powołują się na obiektywną konieczność.	'Sich berufen auf' łączy się z biernikiem: 'auf Sachzwänge', często używane krytycznie do uzasadniania niepopularnych decyzji.
 C1	Handlungsspielraum	pole manewru	Pole manewru rządu jest ograniczone.	'Handlungsspielraum' łączy 'Handlung' (działanie), 'Spiel' (luz) i 'Raum' (przestrzeń): przestrzeń swobody działania.
 C1	Gestaltungsspielraum	swoboda kształtowania, pole manewru	Nauczyciele mają pewną swobodę w kształtowaniu zajęć.	Łączy „gestalten” (kształtować, urządzać) i „Spielraum” (pole manewru). Częste w kontekstach prawnych, biznesowych i edukacyjnych.
 C1	Ermessensspielraum	margines uznania	Urzędnik ma margines uznania.	'Ermessensspielraum' to techniczny termin prawny na przestrzeń decyzyjną przyznaną organowi w pewnych granicach.
@@ -373,3 +252,124 @@ C1	ahnden	karać, sankcjonować	Ustawa karze takie naruszenia wysokimi grzywnami
 C1	ins Gewicht fallen	mieć znaczenie, ważyć	Ten błąd prawie nie ma znaczenia.	Często w przeczeniu: „nicht ins Gewicht fallen” (być pomijalnym). „Fallen” jest nieregularne i łączy się z „sein”: „ist ins Gewicht gefallen”.
 C1	zum Tragen kommen	zacząć działać, wejść w życie	Nowe przepisy zaczną działać dopiero w styczniu.	Formalny idiom oznaczający, że coś zaczyna być skuteczne. „Kommen” łączy się z „sein”: „ist zum Tragen gekommen”.
 C1	Rechnung tragen	uwzględniać, brać pod uwagę (formalnie)	Projekt uwzględnia obawy obywateli.	Konstrukcja formalna z celownikiem: „einer Sache Rechnung tragen”. „Tragen” jest nieregularne: „er trägt”.
+C1	Weltschmerz	ból istnienia, smutek świata	Głęboki smutek świata malował się w jego oczach.	Termin ukuty przez pisarza Jeana Paula; opisuje ból wynikający z przepaści między rzeczywistością a ideałami — kluczowe pojęcie niemieckiego romantyzmu.
+C1	gemeinhin	powszechnie, zazwyczaj	Zazwyczaj zakłada się, że to prawda.	Formalny przysłówek oznaczający 'powszechnie, z reguły': wprowadza to, co zakłada lub robi większość ludzi, często w zwrotach typu 'gemeinhin gilt...'.
+C1	Sachverhalt	stan faktyczny sprawy	Stan faktyczny sprawy musi zostać dokładnie zbadany.	Oznacza zbiór istotnych faktów danej sprawy, odrębny od ich oceny prawnej: podstawowe pojęcie w prawie i administracji.
+C1	Sachlage	sytuacja, stan rzeczy	W obecnej sytuacji wskazana jest ostrożność.	Oznacza konkretną sytuację w danym momencie, na której opiera się decyzja: 'die Sachlage prüfen' (ocenić sytuację).
+C1	Beweislast	ciężar dowodu	Ciężar dowodu spoczywa na powodzie.	Złożenie z 'Beweis' (dowód) i 'Last' (ciężar): kto musi udowodnić fakt przed sądem; 'Beweislastumkehr' to odwrócenie tego ciężaru.
+C1	Zeugenaussage	zeznanie świadka	Zeznanie świadka przeczyło wersji oficjalnej.	Złożenie z 'Zeuge' (świadek) i 'Aussage' (wypowiedź): zeznanie złożone przed sędzią lub policją.
+C1	Indizienbeweis	dowód poszlakowy	Wyrok opiera się na dowodach poszlakowych.	Złożenie z 'Indiz' (poszlaka) i 'Beweis' (dowód): dowód zbudowany z kilku pośrednich poszlak, bez bezpośredniego dowodu czynu.
+C1	Vertragsklausel	klauzula umowy	Ta klauzula umowy jest niezwykle surowa.	Złożenie z 'Vertrag' (umowa) i 'Klausel' (klauzula): pojedyncze postanowienie w umowie.
+C1	Fahrlässigkeit	niedbalstwo, zaniedbanie	Rażące niedbalstwo nie jest objęte polisą.	Od 'fahrlässig': działający bez należytej staranności. Prawo niemieckie rozróżnia niedbalstwo 'grobe' (rażące) i 'leichte' (lekkie), co ma znaczenie dla odpowiedzialności i ubezpieczeń.
+C1	Sorgfaltspflicht	obowiązek staranności	Lekarze podlegają szczególnemu obowiązkowi staranności.	Złożenie z 'Sorgfalt' (staranność) i 'Pflicht' (obowiązek): prawny obowiązek działania z taką starannością, jakiej wymaga sytuacja.
+C1	Gesetzeslücke	luka prawna	Firma wykorzystuje lukę prawną.	Złożenie z 'Gesetz' (prawo, ustawa) i 'Lücke' (luka): przypadek, którego prawo nie reguluje; sąd może go uzupełnić przez analogię.
+C1	Datenerhebung	zbieranie danych	Dane są zbierane anonimowo.	Złożenie z 'Daten' i 'Erhebung' (badanie): systematyczne gromadzenie danych, np. w badaniach, sondażach czy statystykach.
+C1	Einwilligung	zgoda (na coś)	Bez zgody nie wolno przetwarzać danych.	Od 'einwilligen' (zgodzić się): dobrowolna, uprzednia zgoda, podstawa prawna przetwarzania danych w świetle RODO.
+C1	Löschungsanspruch	prawo do usunięcia danych	Prawo do usunięcia danych przysługuje tylko pod pewnymi warunkami.	Złożenie z 'Löschung' (usunięcie) i 'Anspruch' (roszczenie): prawo do żądania usunięcia swoich danych osobowych.
+C1	Whistleblower	sygnalista	Sygnalista ujawnił skandal.	Anglicyzm: osoba zgłaszająca nieprawidłowości w organizacji. W niemieckim używa się też słowa 'Hinweisgeber', które występuje w ustawie o ochronie sygnalistów.
+C1	Narrativ	narracja (jako pojęcie)	Ta narracja jest coraz częściej kwestionowana.	Rzeczownik pochodzenia łacińskiego: schemat opowieści nadający sens wydarzeniom społeczeństwa lub grupy; dziś częsty w języku polityki.
+C1	Paradigma	paradygmat	Przyjął się nowy paradygmat naukowy.	Z greckiego 'paradeigma' (wzór): wspólne ramy teoretyczne dyscypliny; liczba mnoga to 'Paradigmen' lub 'Paradigmata'.
+C1	Dogma	dogmat	Kwestionuje każdy dogmat.	Z greckiego: prawda wiary lub zasada uznawana za niepodlegającą dyskusji; liczba mnoga to 'Dogmen' lub 'Dogmata'.
+C1	Dogmatismus	dogmatyzm	Dogmatyzm uniemożliwia otwartą dyskusję.	Od 'Dogma': postawa uznawania własnych poglądów za niepodważalne i odrzucania krytyki oraz kontrargumentów.
+C1	Reduktionismus	redukcjonizm	Redukcjonizm zbyt mocno upraszcza złożone zjawiska.	Od 'reduzieren': idea wyjaśniania złożonych zjawisk za pomocą kilku prostych elementów; często używane jako zarzut zbyt prostego wyjaśnienia.
+C1	Determinismus	determinizm	Determinizm podważa wolną wolę.	Od łacińskiego 'determinare': pogląd, że każde zdarzenie jest wywołane przez wcześniejsze warunki; w filozofii przeciwstawiany wolnej woli.
+C1	vorwerfen	zarzucać (coś komuś)	Nie można mu tego zarzucić.	Czasownik rozdzielnie złożony: 'jemandem etwas vorwerfen' (celownik dla osoby, biernik dla winy). Strona bierna: 'Ihm wird Fahrlässigkeit vorgeworfen'.
+C1	Stellungnahme	stanowisko, oświadczenie	Urząd poprosił o pisemne stanowisko.	Od 'Stellung nehmen' (zająć stanowisko): formalna opinia lub oświadczenie w jakiejś sprawie, typowe dla urzędów i postępowań.
+C1	unter der Hand	po cichu, nieoficjalnie	Mieszkanie przydzielono po cichu.	Bardzo konkretny obraz: 'pod ręką', czyli poza oficjalnym obiegiem, często komuś, kto zna właściwych ludzi.
+C1	Inbegriff	kwintesencja, uosobienie	Paryż uchodzi za kwintesencję romantyzmu.	Prawie zawsze z dopełniaczem: 'der Inbegriff der Eleganz' (uosobienie elegancji).
+C1	bekanntlich	jak powszechnie wiadomo	Jak wiadomo, Goethe był także przyrodnikiem.	Przysłówek przypominający coś, co słuchacz już wie; typowy dla języka pisanego i wykształconego.
+C1	Transzendenz	transcendencja	Wiele religii podkreśla transcendencję tego, co boskie.	'Transzendenz' oznacza to, co leży poza doświadczeniem i światem; przeciwieństwo 'Immanenz'.
+C1	Liquidität	płynność finansowa	Płynność finansowa firmy jest napięta.	'Liquidität' oznacza dostępność gotówki lub aktywów łatwo zamienialnych na gotówkę, by spłacać krótkoterminowe długi.
+C1	Resistenz	oporność (w medycynie)	Oporność na antybiotyki to rosnący problem.	'Resistenz' oznacza zdolność zarazka lub organizmu do przetrwania działania leku; używane jako 'Resistenz gegen' coś.
+C1	Mutation	mutacja	Niektóre mutacje są nieszkodliwe.	'Mutation' oznacza zmianę materiału genetycznego; może być szkodliwa, obojętna lub korzystna.
+C1	Ambivalenz	ambiwalencja	Ambiwalencja jego postawy jest oczywista.	'Ambivalenz' oznacza jednoczesną obecność przeciwstawnych uczuć lub ocen wobec tej samej rzeczy.
+C1	Marginalisierung	marginalizacja	Marginalizacja dotyka zwłaszcza grupy szczególnie narażone.	'Marginalisierung' oznacza spychanie kogoś na margines społeczeństwa; powiązany czasownik to 'marginalisieren'.
+C1	klinische Studie	badanie kliniczne	Badanie kliniczne przynosi obiecujące wyniki.	'Klinisch' (z gr. 'kline', łóżko) odnosi się do pacjentów; 'klinische Studie' sprawdza skuteczność i bezpieczeństwo terapii.
+C1	Quantencomputer	komputer kwantowy	Komputer kwantowy rozwiązuje niektóre problemy znacznie szybciej.	Łączy 'Quanten' (kwanty) i 'Computer': przetwarza informacje, wykorzystując efekty kwantowe, takie jak superpozycja.
+C1	Mortalitätsrate	wskaźnik śmiertelności	Wskaźnik śmiertelności wyraźnie spadł.	'Mortalitätsrate' oznacza liczbę zgonów w stosunku do populacji w danym okresie; częsty synonim to 'Sterberate'.
+C1	Pathogenese	patogeneza	Patogeneza tej choroby jest prawie niezbadana.	'Pathogenese' opisuje, jak rozwija się choroba; różni się od 'Ätiologie', która bada jej przyczyny.
+C1	Placeboeffekt	efekt placebo	Efekt placebo jest dobrze udokumentowany naukowo.	'Placeboeffekt' to poprawa wywołana oczekiwaniami pacjenta, a nie substancją czynną.
+C1	Dialektik	dialektyka	Dialektyka tezy i antytezy prowadzi do syntezy.	Triada teza–antyteza–synteza to popularny schemat dialektyki; u Hegla ruch dialektyczny jest bardziej złożony (negacja i zniesienie).
+C1	belegen	udowadniać źródłami lub dowodami	Tezę można poprzeć empirycznie.	Czasownik nierozdzielnie złożony (belegte, hat belegt) z biernikiem: 'eine These belegen' oznacza poprzeć ją dowodami, źródłami lub danymi.
+C1	Prämisse	przesłanka	Uważam tę przesłankę za fałszywą.	Z łaciny: założenie, od którego wychodzi argumentacja. Mówi się 'von einer Prämisse ausgehen' (wychodzić od przesłanki).
+C1	rhetorische Frage	pytanie retoryczne	To oczywiście było pytanie retoryczne.	Pytanie zadane nie po to, by uzyskać odpowiedź, lecz by podkreślić myśl; klasyczny środek retoryczny.
+C1	Widerspruch	sprzeczność; sprzeciw	Między słowami a czynami istnieje wyraźna sprzeczność.	Oznacza zarówno sprzeczność logiczną, jak i formalny sprzeciw ('Widerspruch einlegen'); 'ein Widerspruch in sich' to coś wewnętrznie sprzecznego.
+C1	Logos	logos (odwołanie do rozumu)	Dla Greków logos był rozumem porządkującym świat.	Z greckiego: słowo, rozum, zasada porządkująca. W retoryce, obok 'Ethos' i 'Pathos', oznacza przekonywanie racjonalnymi argumentami.
+C1	kulturelles Kapital	kapitał kulturowy	Kapitał kulturowy wpływa na sukces edukacyjny.	Pojęcie Bourdieu: wiedza, kwalifikacje i nawyki kulturowe, które dają przewagę społeczną.
+C1	sozialer Aufstieg	awans społeczny	Awans społeczny nie jest dla wszystkich równie łatwy.	Oznacza przejście na wyższą pozycję społeczną; przeciwieństwo to 'sozialer Abstieg'.
+C1	Prekarisierung	prekaryzacja	Prekaryzacja coraz częściej dotyka także osób z wyższym wykształceniem.	Od 'prekär': proces, w którym praca i życie stają się coraz mniej stabilne.
+C1	Umbruch	przewrót, radykalna zmiana	Region przechodzi głęboki przewrót.	Radykalna zmiana istniejącego porządku; częste w wyrażeniu 'gesellschaftlicher Umbruch'.
+C1	Epochenwandel	zmiana epoki	Oświecenie oznaczało zmianę epoki.	Łączy 'Epoche' (epoka) i 'Wandel' (zmiana): przejście od jednej epoki do drugiej.
+C1	Zeitzeugenbericht	relacja świadka epoki	Relacja świadka epoki daje cenny wgląd.	Od 'Zeitzeuge' (świadek tamtych czasów) i 'Bericht' (relacja): opowieść kogoś, kto przeżył opisywane wydarzenia.
+C1	Revisionismus	rewizjonizm	Rewizjonizm historyczny jest oceniany krytycznie.	W dyskursie historycznym często ma konotację negatywną: tendencyjne przepisywanie ustalonych faktów.
+C1	kollektives Gedächtnis	pamięć zbiorowa	Pamięć zbiorowa kształtuje tożsamość narodową.	Pojęcie Maurice'a Halbwachsa: wspomnienia wspólne dla grupy lub społeczeństwa.
+C1	Schuldfrage	kwestia winy	Kwestia winy do dziś pozostaje sporna.	Od 'Schuld' (wina) i 'Frage' (pytanie): po 1945 roku oznacza głównie debatę o niemieckiej odpowiedzialności za wojnę.
+C1	Kollektivschuld	wina zbiorowa	Pojęcie winy zbiorowej jest przedmiotem kontrowersyjnych dyskusji.	Idea, że cały naród jest winny zbrodni swojego państwa; pojęcie bardzo sporne.
+C1	Widerstandsbewegung	ruch oporu	Ruch oporu ryzykował życiem.	Od 'Widerstand' (opór) i 'Bewegung' (ruch): zorganizowana grupa przeciwstawiająca się reżimowi lub okupacji.
+C1	Vernunft	rozum (jako zdolność)	Kant bardzo ufał rozumowi.	Zdolność logicznego myślenia i osądzania; kluczowa dla Oświecenia, odmienna od 'Verstand' (intelekt, rozsądek).
+C1	Mündigkeit	dojrzałość, samodzielność (u Kanta)	Kant widział w Oświeceniu drogę do dojrzałości.	Przeciwieństwo 'Unmündigkeit' (niepełnoletność umysłowa): zdolność samodzielnego myślenia i decydowania; Kant mówi o wyjściu z 'Unmündigkeit'.
+C1	Fortschrittsglaube	wiara w postęp	Wiara w postęp z XIX wieku została zachwiana.	Od 'Fortschritt' (postęp) i 'Glaube' (wiara): przekonanie, że historia stale się poprawia.
+C1	Zivilisationskritik	krytyka cywilizacji	Krytyka cywilizacji to powracający temat.	Krytyka skutków nowoczesnej cywilizacji i techniki dla ludzi i przyrody.
+C1	Bündnis	sojusz	Sojusz istnieje od ponad siedemdziesięciu lat.	Od 'binden' (wiązać): umowa o współpracy i wzajemnym wsparciu między państwami, partiami lub grupami.
+C1	Souveränität	suwerenność	Suwerenność państwa jest szanowana.	Z francuskiego 'souveraineté': najwyższa władza państwa do decydowania na własnym terytorium.
+C1	Neutralität	neutralność	Szwajcaria tradycyjnie zachowuje neutralność.	Status państwa, które nie uczestniczy w konfliktach ani sojuszach wojskowych; szwajcarska neutralność jest słynna.
+C1	Diplomatie	dyplomacja	Dyplomacja wymaga cierpliwości i taktu.	Prowadzenie stosunków między państwami; w przenośni także umiejętność i takt w postępowaniu z ludźmi.
+C1	Waffenstillstand	zawieszenie broni	Uzgodniono zawieszenie broni.	Od 'Waffe' (broń) i 'Stillstand' (zastój): przerwa w walkach, to coś innego niż pokój ('Frieden').
+C1	Friedensverhandlung	negocjacje pokojowe	Negocjacje pokojowe posuwają się tylko powoli.	Zwykle w liczbie mnogiej, 'Friedensverhandlungen': rozmowy mające zakończyć wojnę.
+C1	Erzählstrang	wątek fabularny	Dwa wątki fabularne biegną równolegle.	Od 'erzählen' (opowiadać) i 'Strang' (pasmo, lina): jeden z równoległych wątków akcji.
+C1	unzuverlässiger Erzähler	narrator niewiarygodny	Niewiarygodny narrator budzi nieufność czytelnika.	Narrator, któremu czytelnik nie może ufać, bo kłamie, myli się lub jest stronniczy.
+C1	Textkohärenz	koherencja tekstu	Koherencja tekstu wynika z logicznych powiązań.	Logiczny związek znaczeniowy między częściami tekstu, odmienny od formalnej kohezji ('Kohäsion').
+C1	Umgangssprache	język potoczny	Język potoczny bardzo różni się od niemieckiego pisanego.	Codzienny język mówiony, mniej formalny niż 'Standardsprache'.
+C1	Fachsprache	język specjalistyczny, żargon	Język prawników jest często trudny do zrozumienia.	Specyficzny język danej dziedziny zawodowej lub naukowej, z własnym słownictwem fachowym.
+C1	Amtsdeutsch	urzędowa niemczyzna	Urzędowa niemczyzna uchodzi za wyjątkowo skomplikowaną.	Sztywny, ciężki styl urzędów i oficjalnych formularzy; często używane ironicznie.
+C1	Fremdwort	wyraz obcy (nieprzyswojony)	Niektóre wyrazy obce brzmią sztucznie.	Słowo pochodzenia obcego, wciąż odbierane jako obce, w przeciwieństwie do 'Lehnwort'.
+C1	Sprachpurismus	puryzm językowy	Puryzm językowy często odrzuca anglicyzmy.	Dążenie do zachowania języka wolnego od wpływów obcych; często z krytycznym zabarwieniem.
+C1	Anglizismus	anglicyzm	Wiele anglicyzmów zadomowiło się w niemieckim.	Angielskie słowo lub wyrażenie przejęte do innego języka, np. 'Meeting' w niemieckim.
+C1	Sprachwissenschaftler	językoznawca	Językoznawcy uważnie obserwują ten trend.	Badacz języka, synonim 'Linguist'; forma żeńska 'Sprachwissenschaftlerin'.
+C1	Standardsprache	język standardowy	Język standardowy służy jako wspólna norma.	Skodyfikowana odmiana wspólna dla całego obszaru językowego, odmienna od dialektów i rejestrów potocznych.
+C1	gravierend	poważny, znaczący	To poważny błąd.	Z łaciny 'gravis' (ciężki), nie od 'gravieren' (grawerować): mówi się tak o błędach, szkodach lub różnicach dużej wagi.
+C1	Kollektivbewusstsein	świadomość zbiorowa	Media społecznościowe kształtują świadomość zbiorową.	Termin Émile'a Durkheima ('conscience collective'): zbiór przekonań i wartości wspólnych dla społeczeństwa.
+C1	Gruppendynamik	dynamika grupy	Dynamika grupy wpływa na każdą decyzję zespołu.	Termin związany z Kurtem Lewinem: procesy i siły działające między członkami grupy.
+C1	Konformitätsdruck	presja konformizmu	Presja konformizmu często tłumi odmienne opinie.	Od 'Konformität' i 'Druck' (nacisk): presja społeczna, by dostosować się do opinii lub zachowań grupy.
+C1	Meinungsklima	klimat opinii	Klimat opinii wyraźnie się zmienił.	Od 'Meinung' (opinia) i 'Klima': dominujące nastawienie opinii publicznej w danym czasie.
+C1	Polarisierung	polaryzacja	Polaryzacja polityczna narasta.	Od 'Pol' (biegun): podział społeczeństwa na dwa przeciwstawne obozy, z niewielką przestrzenią dla pozycji pośrednich.
+C1	Radikalisierung	radykalizacja	Radykalizację w internecie trudno zwalczać.	Proces, w którym ktoś przyjmuje coraz bardziej skrajne, często polityczne lub religijne poglądy.
+C1	Hetze	nagonka, podżeganie do nienawiści	Podżeganie do nienawiści w internecie jest karalne.	Od czasownika 'hetzen' (szczuć): wroga agitacja przeciwko ludziom lub grupom; wyraźnie negatywne.
+C1	Epochenwende	przełom epoki	Upadek Muru był prawdziwym przełomem epoki.	Od 'Epoche' i 'Wende' (zwrot): moment, w którym kończy się cała era historyczna i zaczyna inna.
+C1	Entwurzelung	wykorzenienie	Wykorzenienie wielu migrantów jest bolesne.	Od 'Wurzel' (korzeń): w przenośni utrata więzi z ojczyzną, rodziną lub wspólnotą.
+C1	verhängen	nakładać (karę, sankcje)	UE chce nałożyć nowe sankcje.	Czasownik nierozdzielnie złożony z biernikiem: nałożyć oficjalną karę lub środek (sankcje, grzywny, zakaz); rejestr formalny.
+C1	durchbrechen	przełamywać, przerywać	Autor celowo chce przełamać chronologię.	Nierozdzielne (akcent na drugą sylabę) w znaczeniu przenośnym: łamanie reguł, schematów, milczenia; rozdzielne ('bricht durch') znaczy złamać się na pół.
+C1	Kohäsion	kohezja, spójność formalna	Kohezja tekstu wynika ze spójników.	Z łaciny 'cohaerere': formalne łączenie zdań (zaimki, spójniki), odmienne od spójności treści ('Kohärenz').
+C1	verschleiern	zasłaniać, maskować	Piękne słowa mają tylko zasłonić prawdę.	Od 'Schleier' (welon): ukrywać lub zacierać coś niewygodnego; czasownik nierozdzielny, często w krytycznym tonie.
+C1	vertuschen	tuszować, zatajać	Firma chciała zatuszować skandal.	Czasownik nierozdzielny o silnie negatywnym tonie: celowe ukrywanie błędów lub przestępstw, typowe dla relacji o skandalach.
+C1	Subtext	podtekst	Podtekst tej sceny jest wyraźnie polityczny.	Od 'sub-' i 'Text': to, co tekst lub dialog sugeruje, nie mówiąc wprost; termin krytyki literackiej i teatralnej.
+C1	Andeutung	aluzja, napomknienie	Zrobił tylko niejasną aluzję.	Od 'andeuten' (dawać do zrozumienia): pośrednia wskazówka, bez jasnego powiedzenia; 'Andeutungen machen' = robić aluzje.
+C1	überschätzen	przeceniać	Nie należy przeceniać tego zagrożenia.	Czasownik nierozdzielny (akcent na drugą sylabę): 'Ich überschätze mich' = przeceniam siebie; przeciwieństwo: 'unterschätzen'.
+C1	Shitstorm	internetowa burza hejtu	Wpis wywołał prawdziwą internetową burzę hejtu.	Szeroko używany anglicyzm: fala często ostrej i agresywnej krytyki w sieci.
+C1	Framing	framing (w mediach)	Framing wpływa na to, jak rozumiemy wiadomości.	Termin z komunikacji i psychologii: sposób przedstawienia czegoś steruje jego interpretacją; używany w niemieckim bez zmian, z rodzajnikiem 'das'.
+C1	Klimagerechtigkeit	sprawiedliwość klimatyczna	Sprawiedliwość klimatyczna wymaga globalnej solidarności.	Złożenie z 'Klima' i 'Gerechtigkeit': idea, że koszty zmiany klimatu powinny być sprawiedliwie rozłożone między kraje i pokolenia.
+C1	Generationengerechtigkeit	sprawiedliwość międzypokoleniowa	Sprawiedliwość międzypokoleniowa dotyczy także polityki emerytalnej.	Złożenie z 'Generationen' (liczba mnoga od 'Generation') i 'Gerechtigkeit': uczciwość między młodymi a starszymi, także w wyborach politycznych i gospodarczych.
+C1	Ressourcenknappheit	niedobór zasobów	Niedobór zasobów zaostrza konflikty międzynarodowe.	Złożenie z 'Ressourcen' i 'Knappheit' (niedobór, od 'knapp'): ograniczona dostępność surowców, wody lub energii.
+C1	Umweltbewusstsein	świadomość ekologiczna	Świadomość ekologiczna rośnie zwłaszcza wśród młodych ludzi.	Złożenie z 'Umwelt' (środowisko) i 'Bewusstsein' (świadomość): świadomość wpływu własnych działań na środowisko.
+C1	Klimaskeptiker	sceptyk klimatyczny	Sceptycy klimatyczni wątpią w wpływ człowieka.	Ktoś, kto wątpi w antropogeniczną zmianę klimatu; forma żeńska 'Klimaskeptikerin'. Często używane polemicznie.
+C1	Anpassungsstrategie	strategia adaptacji	Miasta opracowują strategie adaptacji do fal upałów.	Złożenie z 'Anpassung' (dostosowanie) i 'Strategie': plan ograniczania szkód wywołanych zmianą, taką jak zmiana klimatu.
+C1	Klimafolgenforschung	badania skutków zmian klimatu	Badania skutków zmian klimatu dostarczają ważnych prognoz.	Złożenie z 'Klimafolgen' (skutki klimatu) i 'Forschung' (badania): bada wpływ zmiany klimatu na przyrodę i społeczeństwo.
+C1	Kipppunkt	punkt krytyczny, próg przełomu	Naukowcy ostrzegają przed globalnym punktem krytycznym.	Od 'kippen' (przechylać się) i 'Punkt': próg, po przekroczeniu którego system zmienia się gwałtownie i często nieodwracalnie.
+C1	Postwachstumsökonomie	gospodarka postwzrostowa	Gospodarka postwzrostowa kwestionuje wzrost PKB.	Złożenie z 'Post-', 'Wachstum' (wzrost) i 'Ökonomie': model gospodarczy rezygnujący ze wzrostu jako celu, kojarzony z Nikiem Paechem.
+C1	Fremdbestimmung	zewnętrzne sterowanie, heteronomia	Wielu buntuje się przeciwko zewnętrznemu sterowaniu.	Złożenie z 'fremd' (cudzy) i 'Bestimmung' (określanie): decyzje o czyimś życiu podejmowane przez innych; przeciwieństwo 'Selbstbestimmung'.
+C1	Autonomiebestrebung	dążenie do autonomii	Dążenia do autonomii kształtują wiele regionów Europy.	Złożenie z 'Autonomie' i 'Bestrebung' (aspiracja); często w liczbie mnogiej, 'Autonomiebestrebungen', o ruchach regionalnych.
+C1	Selbstoptimierung	samooptymalizacja	Samooptymalizacja jest coraz częściej oceniana krytycznie.	Złożenie z 'selbst' (sam) i 'Optimierung': ciągłe doskonalenie siebie (zdrowie, praca, wygląd), dziś często oceniane krytycznie.
+C1	Selbstausbeutung	samowyzysk	Samowyzysk jest powszechny wśród osób samozatrudnionych.	Złożenie z 'selbst' i 'Ausbeutung' (wyzysk): praca ponad miarę z własnego wyboru, typowa dla osób samozatrudnionych.
+C1	Erschöpfungszustand	stan wyczerpania	Znajdowała się w stanie całkowitego wyczerpania.	Złożenie z 'Erschöpfung' (wyczerpanie) i 'Zustand' (stan): stan skrajnego zmęczenia fizycznego lub psychicznego; rejestr formalny lub medyczny.
+C1	Sinnstiftung	nadawanie sensu	Dla wielu praca służy nadawaniu sensu.	Od 'Sinn' (sens) i 'stiften' (zakładać, tworzyć): nadawanie sensu życiu lub jakiejś czynności.
+C1	Reflexionsvermögen	zdolność refleksji	Wyróżnia ją zdolność refleksji.	Złożenie z 'Reflexion' i 'Vermögen' (zdolność): umiejętność krytycznego zastanawiania się nad sobą i rzeczami; rejestr podniosły.
+C1	Unvoreingenommenheit	bezstronność, brak uprzedzeń	Sędziowie muszą zachować bezstronność.	Od 'un-', 'voreingenommen' (uprzedzony) i '-heit': brak uprzedzeń; przeciwieństwo 'Voreingenommenheit'.
+C1	Verschwiegenheit	dyskrecja, poufność	Lekarze są zobowiązani do zachowania poufności.	Od 'verschwiegen' (umiejący milczeć): obowiązek lub umiejętność niezdradzania poufnych informacji, np. tajemnica zawodowa.
+C1	Kompromissbereitschaft	gotowość do kompromisu	Gotowość do kompromisu jest w polityce decydująca.	Złożenie z 'Kompromiss' i 'Bereitschaft' (gotowość): chęć zrezygnowania z czegoś, by osiągnąć porozumienie.
+C1	Sachzwang	obiektywna konieczność, przymus okoliczności	Politycy często powołują się na przymus okoliczności.	Złożenie z 'Sache' (rzecz) i 'Zwang' (przymus): obiektywna konieczność, która zdaje się nie zostawiać alternatywy; w polityce często przywoływana i krytykowana.
+C1	Konsens	konsensus	W nauce panuje szeroki konsensus.	Z łaciny 'consensus': powszechna zgodność opinii; 'einen Konsens erzielen' = osiągnąć porozumienie. Nie oznacza zgody jako pozwolenia (to 'Zustimmung').
+C1	Medienecho	echo medialne	Incydent wywołał ogromne echo medialne.	Złożenie z 'Medien' i 'Echo': oddźwięk, jaki wydarzenie ma w gazetach, telewizji i mediach społecznościowych. Często z 'auslösen' lub 'finden': 'ein großes Medienecho finden'.
+C1	Digital Detox	cyfrowy detoks	Po stresie zrobiła sobie cyfrowy detoks na urlopie.	Anglicyzm oznaczający dobrowolną przerwę od smartfonów i mediów społecznościowych. Rodzaj waha się między 'der' i 'das'; dziś częstsze jest 'das'.
+C1	Artensterben	wymieranie gatunków	Wymieranie gatunków postępuje szybko w wielu regionach.	Złożenie z 'Art' (gatunek) i 'sterben' (umierać): znikanie gatunków zwierząt i roślin. Prawie zawsze w liczbie pojedynczej z 'das'.
+C1	Leere	pustka	Mimo sukcesu czuł wewnętrzną pustkę.	'Leere' oznacza pustkę, fizyczną lub emocjonalną; z 'innere' staje się pustką emocjonalną. Pochodzi od przymiotnika 'leer' (pusty).
+C1	Auflage	nałożony warunek, wymóg; nakład	Zezwolenie jest udzielane tylko pod pewnymi warunkami.	W tym znaczeniu 'Auflage' to nałożony warunek prawny, odmienny od znaczenia 'wydanie' książki.

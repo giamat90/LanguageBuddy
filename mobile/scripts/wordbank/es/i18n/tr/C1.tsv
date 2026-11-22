@@ -51,7 +51,6 @@ C1	contienda	çekişme	Spor çekişmesi üç saat sonra net bir galip olmadan bi
 C1	liza	arena, mücadele alanı	Birkaç takım kıta şampiyonluğunu kazanmak için mücadeleye girdi.	Neredeyse yalnızca «entrar en liza» (mücadeleye girmek) kalıbında kullanılır.
 C1	fichaje	transfer (kadroya katma)	Forvetin transferi kulübe rekor bir meblağa mal oldu.	Futbol terimi.
 C1	fichar	transfer etmek (oyuncu)	Kulüp çok yetenekli genç bir kaleciyi transfer etmeyi düşünüyor.	Aynı zamanda «kart basmak».
-C1	remontar	geri dönmek (skorda)	Daha sakin oynasaydık maçta geri dönebilirdik.	Geçmiş gerçek dışı koşul.
 C1	claudicar	pes etmek	Takım rakibin üstünlüğüne rağmen pes etmek istemedi.	Ağdalı fiil.
 C1	vitorear	alkışlamak (coşkuyla)	Kalabalık bitişi geçen bisikletçiyi coşkuyla alkışlamaya başladı.	«Vítor» bir tezahürattır.
 C1	cotizado	rağbet gören	Avrupa piyasasında çok rağbet gören bir oyuncu.	«Cotizar»dan.
@@ -66,7 +65,6 @@ C1	deslumbrar	gözünü kamaştırmak	Vitrin sokakta gezen turistlerin gözünü
 C1	aledaño	komşu (bitişik)	El sanatları pazarlarını görmek için komşu köyleri ziyaret ettik.	«Lindar»dan.
 C1	idiosincrasia	kendine özgü yapı	Her halkın kendine özgü yapısı adetlerine yansır.	İtalyancadaki gibi.
 C1	arraigo	köklenme	Toprağa köklenme birçok kırsal topluluğu tanımlar.	«Raíz»dan.
-C1	legado	miras (bırakılan)	Yerli halkların mirası mutfakta yaşıyor.	Dikkat: «delegato» değil.
 C1	raigambre	derin kökler	Bu, bütün bölgede derin köklere sahip bir gelenek.	Ağdalı sözcük.
 C1	vestigio	iz (kalıntı)	Ormanın altında eski şehrin bir kalıntısı duruyor.	İtalyancadaki gibi.
 C1	resquicio	kıvılcım (kalıntı)	Köyde hâlâ bir umut kıvılcımı kaldı.	Aynı zamanda aralık.
@@ -90,7 +88,6 @@ C1	despensa	kiler	Kilerimiz baklagiller ve ev yapımı konservelerle dolu.	«Dis
 C1	sobrante	artık (fazlalık)	Güvecin artığıyla nefis empanadalar yaptım.	Sıfat olarak da.
 C1	macerar	marine etmek	Eti bütün gece şarapta marine etmek gerek.	İtalyancadaki gibi.
 C1	rehogar	yağda hafifçe kavurmak	Önce soğanı kısık ateşte birkaç dakika yağda kavurarak başla.	Mutfak terimi.
-C1	escabechar	eskabeçe yapmak	Büyükannem balığı daha iyi saklansın diye eskabeçe yapardı.	«Escabeche» Peru'ya özgüdür.
 C1	sofreír	hafif kızartmak	Ezilmiş domatesi eklemeden önce sarımsağı hafifçe kızartmalısın.	«Freír» gibi düzensiz.
 C1	untuoso	yağlı	Sos benim zevkime göre fazla yağlı oldu.	İtalyancadaki gibi.
 C1	añejo	yıllanmış	Yıllanmış bir peyniri rezerv kırmızı şarapla servis ettiler.	Rom ve peynir için kullanılır.
@@ -112,7 +109,6 @@ C1	reconocer	itiraf etmek	Başkalarının önünde kendi hatalarını kabul etme
 C1	travesía	geçiş (yolculuk)	Çölden geçiş dokuz yorucu gün sürdü.	«Atravesar»dan.
 C1	periplo	uzun yolculuk	Latin Amerika'daki uzun yolculuğu ona koca bir kitap ilham etti.	İtalyancadaki gibi.
 C1	escollo	engel	Yolculuğun en büyük engeli izinleri almaktı.	Aynı zamanda «resif».
-C1	confín	uç (dünyanın ucu)	Onu bulmak için dünyanın en ucuna kadar gitti.	Genellikle çoğul.
 C1	lugareño	yerli (yöre sakini)	Yöre sakini bize şelalenin yolunu gösterdi.	Dişili «lugareña».
 C1	zarpar	demir almak	Hava elverirse gemi şafakta demir alacak.	İtalyancadaki gibi.
 C1	atracar	yanaşmak	Feribot Cartagena limanına gecikmeyle yanaştı.	Aynı zamanda «soymak».
@@ -136,7 +132,6 @@ C1	umbral	eşik	Girmeye cesaret edemeden evin eşiğinde durdu.	«Soglia» gibi.
 C1	cimiento	temel	Evin temeli yağmurlarla çöktü.	Genellikle çoğul.
 C1	tejado	çatı (kaplama)	Yağmurlar gelmeden çatının onarılması gerekiyor.	«Teja»dan.
 C1	enlucir	sıvamak	Salonu boyamadan önce duvarları sıvayacağız.	Teknik fiil.
-C1	revocar	dış cephe sıvamak	Cepheyi sıvaması için bir duvar ustası tuttular.	Şili ve Arjantin'de.
 C1	habitar	oturmak (ikamet etmek)	Kimse bu kadar harap bir evde oturmak istemez.	«H» okunmaz.
 C1	desalojar	tahliye etmek	Çökme riski nedeniyle binanın tahliyesi emredildi.	«Desalojo» tahliyedir.
 C1	hacinado	sıkış tıkış	Penceresiz ve ısıtmasız bir odada sıkış tıkış yaşıyorlardı.	«Hacinar»dan.
@@ -246,7 +241,6 @@ C1	balneario	kaplıca (tatil yeri)	Kaplıca, termal sular ve rahatlatıcı terap
 C1	mirador	seyir tepesi	Gün batımından önce vadiyi seyretmek için seyir tepesine çıktık.	«mirar»dan.
 C1	parada	durak	Otobüs durağı pazara birkaç metre uzaklıkta.	Ayrıca «geçit töreni».
 C1	atascarse	sıkışmak (trafikte)	Cuma öğleden sonraları otoyolda trafik genellikle sıkışır.	«Atasco» trafik sıkışıklığıdır.
-C1	escalar	tırmanmak (zirveye)	O zirveye tırmanabilseydim kendimi dünyanın en mutlu adamı sayardım.	Gerçekdışı koşul.
 C1	orientarse	yönünü bulmak	Haritasız eski mahalle sokaklarında yön bulmak zordu.	«Orientación» yönelimdir.
 C1	pernoctar	geceyi geçirmek	Son tırmanıştan önce bir sığınakta geceyi geçirmeye karar verdik.	İtalyancadaki gibi.
 C1	agreste	yabani (kırsal)	Vadinin yabani manzarası birçok yürüyüşçüyü çekiyor.	İtalyancadaki gibi.
@@ -297,3 +291,9 @@ C1	afrontar	yüzleşmek; ele almak	Sağlık sorunlarıyla sakin bir şekilde yü
 C1	desdeñar	küçümsemek; hor görmek	Kıdemli çalışanların deneyimini küçümsemek doğru değil.	Kültürlü dil. İsmi «desdén»dir; olumsuz «no desdeñar» çok sık kullanılır.
 C1	acarrear	beraberinde getirmek; yol açmak	Bu karar şirket için ciddi ekonomik sonuçlara yol açabilir.	Hemen her zaman olumsuz sonuçlarla: sorunlar, maliyetler, sonuçlar. Bugün nadiren fiziksel taşıma anlamına gelir.
 C1	no obstante	yine de	Tren geç geldi; yine de toplantı zamanında başladı.	Resmî bir karşıtlık bağlacı; konuşmadan çok yazı dilindedir. Genellikle noktalı virgül ya da virgüllerle ayrılır.
+C1	remontar	geri dönmek, farkı kapatmak	Daha sakin oynasaydık maçı çevirebilirdik.	Bir dezavantajı tersine çevirmek için kullanılır: «remontar un partido», «un marcador», «una eliminatoria».
+C1	legado	miras, bırakılan şey	Yerli halkların mirası mutfakta yaşamaya devam ediyor.	Vasiyetle bırakılan mal anlamına da gelir; «delegado» (temsilci) ile karıştırılmamalıdır.
+C1	escabechar	sirkeli marine etmek	Büyükannem balığı daha iyi saklamak için marine ederdi.	«escabeche» sözcüğünden: balığı ve eti saklamak için kullanılan sirke, yağ ve baharattan oluşan marine.
+C1	confín	uzak köşe, en uç	Onu bulmak için dünyanın en uzak ucuna kadar yolculuk etti.	Edebî üslup; çoğunlukla çoğul kullanılır: «los confines del mundo».
+C1	revocar	sıvamak (cephe)	Cepheyi sıvamak için bir inşaat ustası tuttular.	Daha çok (bir kararı) iptal etmek anlamında kullanılır; inşaatta cepheleri sıvamak anlamına gelir.
+C1	escalar	tırmanmak	O zirveye tırmanabilseydim, kendimi dünyanın en mutlu adamı hissederdim.	Mecazi de kullanılır: «escalar posiciones» (basamak basamak yükselmek); bir çatışma da «escalar» (tırmanmak, şiddetlenmek) edebilir.

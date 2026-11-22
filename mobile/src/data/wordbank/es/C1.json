@@ -909,13 +909,13 @@
     "meaning_it": "rimontare",
     "example": "Si hubiéramos jugado con más calma, habríamos podido remontar el partido.",
     "example_it": "Se avessimo giocato con più calma, avremmo potuto rimontare la partita.",
-    "cultural_note": "Condizionale irreale del passato.",
+    "cultural_note": "Si usa per ribaltare un risultato sfavorevole: «remontar un partido», «un marcador», «una eliminatoria».",
     "grammar_angle": "ORACIONES_CONDICIONALES",
     "topic_domain": "leisure",
     "cefr_band": "C1",
     "session_scenario": "Planning the weekend",
     "example_en": "Had we played more calmly, we could have come back in the match.",
-    "cultural_note_en": "Past unreal conditional."
+    "cultural_note_en": "Used for overturning a deficit: «remontar un partido», «un marcador», «una eliminatoria»."
   },
   {
     "word": "claudicar",
@@ -1164,13 +1164,13 @@
     "meaning_it": "eredità, lascito",
     "example": "El legado de los pueblos originarios sigue vivo en la cocina.",
     "example_it": "L'eredità dei popoli originari è ancora viva nella cucina.",
-    "cultural_note": "Anche «delegato» in italiano: attenzione.",
+    "cultural_note": "Anche lascito testamentario (it. «legato»); non è «delegato».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C1",
     "session_scenario": "Greeting someone",
     "example_en": "The legacy of indigenous peoples lives on in the cuisine.",
-    "cultural_note_en": "Beware: not «delegato»."
+    "cultural_note_en": "Also a bequest in a will; not «delegado» (delegate)."
   },
   {
     "word": "raigambre",
@@ -1572,13 +1572,13 @@
     "meaning_it": "marinare in agrodolce",
     "example": "Mi abuela solía escabechar pescado para conservarlo mejor.",
     "example_it": "Mia nonna era solita marinare il pesce in agrodolce per conservarlo meglio.",
-    "cultural_note": "Il «escabeche» è tipico del Perù.",
+    "cultural_note": "Da «escabeche», la marinata di aceto, olio e spezie usata per conservare pesce e carne.",
     "grammar_angle": "VERB_PRESENT_REGULAR",
     "topic_domain": "food",
     "cefr_band": "C1",
     "session_scenario": "Ordering at a restaurant",
     "example_en": "My grandmother used to pickle fish to preserve it better.",
-    "cultural_note_en": "«Escabeche» is typical in Peru."
+    "cultural_note_en": "From «escabeche», a marinade of vinegar, oil and spices used to preserve fish and meat."
   },
   {
     "word": "sofreír",
@@ -1946,13 +1946,13 @@
     "meaning_it": "confine",
     "example": "Viajó hasta el último confín del mundo para encontrarla.",
     "example_it": "Ha viaggiato fino all'ultimo confine del mondo per trovarla.",
-    "cultural_note": "Si usa al plurale.",
+    "cultural_note": "Registro letterario; spesso al plurale: «los confines del mundo».",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "travel",
     "cefr_band": "C1",
     "session_scenario": "Travelling around the city",
     "example_en": "He travelled to the farthest end of the world to find her.",
-    "cultural_note_en": "Usually plural."
+    "cultural_note_en": "Literary register; often plural: «los confines del mundo»."
   },
   {
     "word": "lugareño",
@@ -2371,13 +2371,13 @@
     "meaning_it": "intonacare",
     "example": "Contrataron a un albañil para revocar la fachada.",
     "example_it": "Hanno assunto un muratore per intonacare la facciata.",
-    "cultural_note": "In Cile e Argentina.",
+    "cultural_note": "Più comune nel senso di «revocare» (una decisione); in edilizia significa intonacare le facciate.",
     "grammar_angle": "VERB_PRESENT_REGULAR",
     "topic_domain": "home",
     "cefr_band": "C1",
     "session_scenario": "Daily routine at home",
     "example_en": "They hired a builder to render the façade.",
-    "cultural_note_en": "In Chile and Argentina."
+    "cultural_note_en": "More common in the sense of 'to revoke' (a decision); in building it means to render facades."
   },
   {
     "word": "habitar",
@@ -4241,13 +4241,13 @@
     "meaning_it": "scalare",
     "example": "Si pudiera escalar esa cumbre, me sentiría el hombre más feliz.",
     "example_it": "Se potessi scalare quella vetta, mi sentirei l'uomo più felice.",
-    "cultural_note": "Condizionale irreale.",
+    "cultural_note": "Anche in senso figurato: «escalar posiciones»; per un conflitto, «aggravarsi».",
     "grammar_angle": "ORACIONES_CONDICIONALES",
     "topic_domain": "travel",
     "cefr_band": "C1",
     "session_scenario": "Booking a trip",
     "example_en": "If I could climb that summit, I would feel like the happiest man.",
-    "cultural_note_en": "Unreal conditional."
+    "cultural_note_en": "Also figurative: «escalar posiciones» (to climb the ranks); a conflict can also «escalar» (escalate)."
   },
   {
     "word": "orientarse",

@@ -178,13 +178,13 @@
     "meaning_it": "contorto / fumoso",
     "example": "Der Aufsatz war so verquast, dass niemand die These verstand.",
     "example_it": "Il saggio era così fumoso che nessuno capiva la tesi.",
-    "cultural_note": "Aggettivo colto e sprezzante riservato al pensiero che si nasconde dietro una prosa involuta: arma frequente della critica letteraria tedesca.",
+    "cultural_note": "Aggettivo colloquiale e spregiativo per pensieri o testi confusi e contorti; tipico del giudizio severo su saggi pretenziosi.",
     "grammar_angle": "EXTENDED_ATTR",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Criticising unclear academic writing",
     "example_en": "The essay was so muddled that no one understood the thesis.",
-    "cultural_note_en": "A learned, scornful adjective reserved for thought hiding behind convoluted prose — a frequent weapon of German literary criticism."
+    "cultural_note_en": "A colloquial, disparaging adjective for muddled, convoluted thinking or writing; typical of harsh judgments of pretentious essays."
   },
   {
     "word": "Realpolitik",
@@ -204,21 +204,21 @@
     "cultural_note_en": "Coined in 1853 by Ludwig von Rochau and linked to Bismarck: it entered dozens of languages to denote politics driven by power relations, not principles."
   },
   {
-    "word": "es habe geheißen",
+    "word": "angeblich",
     "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ɛs ˈhaːbə ɡəˈhaɪsn̩",
-    "meaning_en": "it had reportedly been said",
-    "meaning_it": "sarebbe stato detto (congiuntivo I, discorso indiretto)",
-    "example": "In dem Bericht habe es geheißen, alle Beteiligten seien informiert gewesen.",
-    "example_it": "Nel rapporto sarebbe stato detto che tutte le parti erano state informate.",
-    "cultural_note": "Il Konjunktiv I al passato ('habe geheißen', 'seien gewesen') sostiene interi paragrafi di discorso indiretto nel giornalismo tedesco senza mai ripetere 'secondo il rapporto'.",
-    "grammar_angle": "KONJUNKTIV_I",
+    "part_of_speech": "adv",
+    "ipa": "ˈaŋɡeːplɪç",
+    "meaning_en": "allegedly / supposedly",
+    "meaning_it": "presumibilmente / a quanto si dice",
+    "example": "Er war angeblich zur Tatzeit gar nicht in der Stadt.",
+    "example_it": "A quanto si dice, al momento del fatto non era nemmeno in città.",
+    "cultural_note": "Indica un'affermazione riferita da altri e non verificata, spesso con un velo di dubbio. Non va confuso con 'anscheinend' (a quanto pare, per ciò che si vede).",
+    "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Summarising a report at a formal distance",
-    "example_en": "The report reportedly said all parties had been informed.",
-    "cultural_note_en": "The past Konjunktiv I ('habe geheißen', 'seien gewesen') carries whole paragraphs of reported speech in German journalism without ever repeating 'according to the report'."
+    "session_scenario": "Reporting an unverified claim",
+    "example_en": "Allegedly he was not even in town at the time of the crime.",
+    "cultural_note_en": "Marks a claim reported from others and not verified, often with a hint of doubt. Not to be confused with 'anscheinend' (apparently, judging by what one sees)."
   },
   {
     "word": "Gemengelage",
@@ -646,21 +646,21 @@
     "cultural_note_en": "Formal preposition with the genitive: 'ungeachtet der Kritik'. Like 'trotz' but more elevated; it can also follow the noun."
   },
   {
-    "word": "Fremdscham empfinden",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ˈfʁɛmtʃaːm ɛmpˈfɪndn̩",
-    "meaning_en": "to feel vicarious embarrassment",
-    "meaning_it": "provare imbarazzo per conto altrui",
-    "example": "Ich empfand richtige Fremdscham bei dieser Rede.",
-    "example_it": "Ho provato un vero imbarazzo per conto altrui durante quel discorso.",
-    "cultural_note": "'Empfinden' regge l'accusativo diretto e significa 'provare, sentire (un'emozione)', più formale di 'fühlen'.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "word": "Befremden",
+    "article": "das",
+    "part_of_speech": "noun",
+    "ipa": "bəˈfʁɛmdn̩",
+    "meaning_en": "bewilderment / unease at something strange",
+    "meaning_it": "sconcerto / disagio",
+    "example": "Mit Befremden las er die Anweisung seines Chefs.",
+    "example_it": "Ha letto con sconcerto l'istruzione del suo capo.",
+    "cultural_note": "Da 'fremd' (estraneo): l'impressione sgradevole e perplessa davanti a qualcosa di insolito. Si usa soprattutto in 'mit Befremden' o 'Befremden auslösen' ed è di registro formale.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Reacting to a cringeworthy public moment",
-    "example_en": "I felt genuine vicarious embarrassment during that speech.",
-    "cultural_note_en": "'Empfinden' takes a direct accusative object and means 'to feel (an emotion)', more formal than 'fühlen'."
+    "session_scenario": "Reacting to unexpected behaviour",
+    "example_en": "He read his boss's instruction with bewilderment.",
+    "cultural_note_en": "From 'fremd' (strange): the uneasy, puzzled feeling at something unusual. Used mostly in 'mit Befremden' or 'Befremden auslösen' and belongs to a formal register."
   },
   {
     "word": "Herzschmerz",
@@ -824,13 +824,13 @@
     "meaning_it": "capro espiatorio",
     "example": "Man machte ihn zum Sündenbock.",
     "example_it": "Lo hanno trasformato nel capro espiatorio.",
-    "cultural_note": "'Machen zu' regge il dativo dopo 'zu': 'zum Sündenbock', struttura fissa per una trasformazione di ruolo.",
+    "cultural_note": "Dal rito biblico del Levitico, in cui un caprone caricato simbolicamente dei peccati del popolo veniva mandato nel deserto: oggi indica chi paga per colpe altrui.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing unfair blame",
     "example_en": "They made him the scapegoat.",
-    "cultural_note_en": "'Machen zu' takes the dative after 'zu': 'zum Sündenbock' — a fixed structure for a role transformation."
+    "cultural_note_en": "From the biblical rite in Leviticus, in which a goat symbolically loaded with the people's sins was sent into the desert: today it means someone who takes the blame for others."
   },
   {
     "word": "Trojanisches Pferd",
@@ -841,13 +841,13 @@
     "meaning_it": "cavallo di Troia (figurato)",
     "example": "Das Gesetz gilt vielen als trojanisches Pferd.",
     "example_it": "La legge è considerata da molti un cavallo di Troia.",
-    "cultural_note": "'Gelten als' regge il nominativo dopo 'als', usato per descrivere una misura che nasconde intenzioni diverse.",
+    "cultural_note": "Dal cavallo di legno con cui i Greci entrarono a Troia; oggi indica anche il malware che si nasconde dentro un programma apparentemente innocuo.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing a hidden political agenda",
     "example_en": "The law is seen by many as a Trojan horse.",
-    "cultural_note_en": "'Gelten als' takes the nominative after 'als', used to describe a measure that conceals a different intent."
+    "cultural_note_en": "From the wooden horse with which the Greeks entered Troy; today it also means malware hidden inside an apparently harmless program."
   },
   {
     "word": "Damoklesschwert",
@@ -858,13 +858,13 @@
     "meaning_it": "spada di Damocle",
     "example": "Die Kündigung hing wie ein Damoklesschwert über ihm.",
     "example_it": "Il licenziamento pendeva su di lui come una spada di Damocle.",
-    "cultural_note": "'Hängen wie' descrive un pericolo costante e imminente, un'immagine classica identica in molte lingue europee.",
+    "cultural_note": "Da Damocle, che a banchetto vide una spada appesa a un crine di cavallo sopra la testa: simbolo di un pericolo incombente nel mezzo della fortuna.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Describing a looming threat",
     "example_en": "The dismissal hung over him like a sword of Damocles.",
-    "cultural_note_en": "'Hängen wie' describes a constant, looming danger — a classical image identical across many European languages."
+    "cultural_note_en": "From Damocles, who at a banquet saw a sword hanging by a horsehair above his head: a symbol of looming danger amid good fortune."
   },
   {
     "word": "Pyrrhussieg",
@@ -875,13 +875,13 @@
     "meaning_it": "vittoria di Pirro",
     "example": "Der Wahlsieg entpuppte sich als Pyrrhussieg.",
     "example_it": "La vittoria elettorale si rivelò una vittoria di Pirro.",
-    "cultural_note": "'Sich entpuppen als' regge il nominativo dopo 'als', usato per rivelare la vera natura di qualcosa dietro le apparenze.",
+    "cultural_note": "Da Pirro, re dell'Epiro, che vinse contro i Romani ad Ascoli (279 a.C.) con perdite devastanti: una vittoria che costa quasi quanto una sconfitta.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing a costly, hollow victory",
     "example_en": "The election win turned out to be a Pyrrhic victory.",
-    "cultural_note_en": "'Sich entpuppen als' takes the nominative after 'als', used to reveal something's true nature behind appearances."
+    "cultural_note_en": "After Pyrrhus, king of Epirus, who beat the Romans at Asculum (279 BC) at devastating cost: a victory that costs almost as much as a defeat."
   },
   {
     "word": "Odyssee",
@@ -1020,21 +1020,21 @@
     "cultural_note_en": "A reference to the Trojan horse offered by the Danaans (Greeks): a gift concealing negative consequences."
   },
   {
-    "word": "Rubikon überschreiten",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ˈʁuːbikɔn yːbɐˈʃʁaɪtn̩",
-    "meaning_en": "to cross the Rubicon",
-    "meaning_it": "varcare il Rubicone",
-    "example": "Mit dieser Entscheidung überschritt er den Rubikon.",
-    "example_it": "Con questa decisione ha varcato il Rubicone.",
-    "cultural_note": "Riferimento storico a Cesare, usato per un punto di non ritorno decisivo dopo cui non si può tornare indietro.",
-    "grammar_angle": "ACCUSATIVE_MASC",
-    "topic_domain": "culture",
+    "word": "Weichenstellung",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ˈvaɪ̯çn̩ˌʃtɛlʊŋ",
+    "meaning_en": "setting the course / decisive decision",
+    "meaning_it": "scelta di rotta decisiva",
+    "example": "Diese Weichenstellung bestimmt die Zukunft des Unternehmens.",
+    "example_it": "Questa scelta di rotta determina il futuro dell'azienda.",
+    "cultural_note": "Dal linguaggio ferroviario ('Weiche' = scambio): la decisione che orienta uno sviluppo futuro. Si usa spesso al plurale e con 'politisch' o 'wichtig'.",
+    "grammar_angle": "NOUN_GENDER",
+    "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing an irreversible decision",
-    "example_en": "With this decision he crossed the Rubicon.",
-    "cultural_note_en": "A historical reference to Caesar, used for a decisive point of no return."
+    "session_scenario": "Discussing strategic decisions",
+    "example_en": "This decisive decision determines the company's future.",
+    "cultural_note_en": "From railway language ('Weiche' = points/switch): the decision that sets the direction of future development. Often used with 'politisch' or 'wichtig'."
   },
   {
     "word": "Ariadnefaden",
@@ -1062,30 +1062,30 @@
     "meaning_it": "canto delle sirene",
     "example": "Man sollte dem Sirenengesang des schnellen Geldes widerstehen.",
     "example_it": "Bisognerebbe resistere al canto delle sirene del denaro facile.",
-    "cultural_note": "'Widerstehen' regge il dativo: 'dem Sirenengesang', usato per un'attrazione pericolosa e seducente.",
+    "cultural_note": "Dal canto delle sirene nell'Odissea, che attirava i marinai alla rovina: indica una promessa seducente ma pericolosa.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing the temptation of quick, risky gains",
     "example_en": "One should resist the siren song of easy money.",
-    "cultural_note_en": "'Widerstehen' takes the dative: 'dem Sirenengesang', used for a dangerous, seductive attraction."
+    "cultural_note_en": "From the sirens' song in the Odyssey, which lured sailors to their doom: a seductive but dangerous promise."
   },
   {
-    "word": "Ikarusflug",
-    "article": "der",
+    "word": "Hybris",
+    "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ˈiːkaʁʊsˌfluːk",
-    "meaning_en": "Icarus flight (overreaching ambition)",
-    "meaning_it": "volo di Icaro",
-    "example": "Seine Karriere endete wie ein Ikarusflug.",
-    "example_it": "La sua carriera è finita come un volo di Icaro.",
-    "cultural_note": "Riferimento mitologico a Icaro, usato per un'ambizione eccessiva che porta a una caduta rovinosa.",
-    "grammar_angle": "WORD_ORDER_V2",
+    "ipa": "ˈhyːbʁɪs",
+    "meaning_en": "hubris / overweening pride",
+    "meaning_it": "tracotanza / superbia",
+    "example": "Seine Hybris führte schließlich zum Zusammenbruch der Firma.",
+    "example_it": "La sua tracotanza portò infine al crollo dell'azienda.",
+    "cultural_note": "Dal greco 'hybris': la presunzione di chi si crede al di sopra dei limiti umani, e che la tragedia greca punisce con la rovina. Nel tedesco colto indica ogni orgoglio smisurato.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing hubris and downfall",
-    "example_en": "His career ended like an Icarus flight.",
-    "cultural_note_en": "A mythological reference to Icarus, used for excessive ambition leading to a ruinous fall."
+    "session_scenario": "Describing a leader's downfall",
+    "example_en": "His hubris eventually led to the collapse of the company.",
+    "cultural_note_en": "From Greek 'hybris': the arrogance of one who thinks himself above human limits, which Greek tragedy punishes with ruin. In educated German it names any overweening pride."
   },
   {
     "word": "Prokrustesbett",
@@ -1249,13 +1249,13 @@
     "meaning_it": "illusorio",
     "example": "Diese Hoffnung erwies sich als illusorisch.",
     "example_it": "Questa speranza si rivelò illusoria.",
-    "cultural_note": "'Sich erweisen als' regge il nominativo dopo 'als', struttura fissa per rivelare la vera natura di qualcosa.",
+    "cultural_note": "Da 'Illusion': detto di una speranza o di un piano che non può realizzarsi; più formale e netto di 'unrealistisch'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing a false hope",
     "example_en": "This hope turned out to be illusory.",
-    "cultural_note_en": "'Sich erweisen als' takes the nominative after 'als', a fixed structure for revealing something's true nature."
+    "cultural_note_en": "From 'Illusion': said of a hope or plan that cannot be realised; more formal and blunter than 'unrealistisch'."
   },
   {
     "word": "kontrafaktisch",
@@ -1283,13 +1283,13 @@
     "meaning_it": "assiomatico",
     "example": "Diese Prämisse wird axiomatisch vorausgesetzt.",
     "example_it": "Questa premessa viene presupposta assiomaticamente.",
-    "cultural_note": "'Vorausgesetzt werden' è passivo, usato in matematica e logica per un principio accettato senza dimostrazione.",
+    "cultural_note": "Da 'Axiom' (principio assunto senza dimostrazione): in matematica e logica indica ciò che è posto come base; per estensione ciò che è ovvio e non richiede prove.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing foundational assumptions in logic",
     "example_en": "This premise is presupposed axiomatically.",
-    "cultural_note_en": "'Vorausgesetzt werden' is passive, used in mathematics and logic for a principle accepted without proof."
+    "cultural_note_en": "From 'Axiom' (a principle accepted without proof): in mathematics and logic it means what is posited as a basis; by extension, what is self-evident and needs no proof."
   },
   {
     "word": "a priori",
@@ -1394,21 +1394,21 @@
     "cultural_note_en": "'Genuin' is a high-register Latin loanword, a formal synonym for 'echt' (authentic, real)."
   },
   {
-    "word": "vermeintlich unbestreitbar",
+    "word": "unumstößlich",
     "article": null,
     "part_of_speech": "adj",
-    "ipa": "fɛɐ̯ˈmaɪntlɪç ˈʊnbəˌʃtʁaɪtbaːɐ̯",
-    "meaning_en": "supposedly indisputable",
-    "meaning_it": "presuntamente incontestabile",
-    "example": "Diese vermeintlich unbestreitbare These wird nun infrage gestellt.",
-    "example_it": "Questa tesi presuntamente incontestabile viene ora messa in discussione.",
-    "cultural_note": "'Infrage gestellt werden' è passivo, usato per descrivere una convinzione consolidata che viene messa in dubbio.",
-    "grammar_angle": "PASSIVE_VOICE",
+    "ipa": "ʊnˈʔʊmˌʃtøːslɪç",
+    "meaning_en": "irrefutable / unshakeable",
+    "meaning_it": "incontrovertibile / irremovibile",
+    "example": "Für ihn war das ein unumstößlicher Grundsatz.",
+    "example_it": "Per lui era un principio incontrovertibile.",
+    "cultural_note": "Da 'umstoßen' (rovesciare): ciò che non si può più cambiare né confutare. Si usa spesso con 'Tatsache', 'Grundsatz' o 'Entschluss'.",
+    "grammar_angle": "EXTENDED_ATTR",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Challenging a supposedly settled claim",
-    "example_en": "This supposedly indisputable thesis is now being questioned.",
-    "cultural_note_en": "'Infrage gestellt werden' is passive, used to describe an established belief being called into question."
+    "session_scenario": "Defending a firm principle",
+    "example_en": "For him that was an unshakeable principle.",
+    "cultural_note_en": "From 'umstoßen' (to overturn): what can no longer be changed or refuted. Often used with 'Tatsache', 'Grundsatz' or 'Entschluss'."
   },
   {
     "word": "opak",
@@ -1564,21 +1564,21 @@
     "cultural_note_en": "Literally 'splitting hairs': excessive pedantic precision in a discussion, often irritating."
   },
   {
-    "word": "sprachlicher Krampf",
+    "word": "Schwulst",
     "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ˈʃpʁaːxlɪçɐ kʁampf",
-    "meaning_en": "forced, unnatural (language) construction",
-    "meaning_it": "costruzione linguistica forzata",
-    "example": "Diese Formulierung ist sprachlicher Krampf.",
-    "example_it": "Questa formulazione è una costruzione linguistica forzata.",
-    "cultural_note": "'Krampf' significa letteralmente 'crampo': usato figurativamente per qualcosa di innaturale e forzato, spesso stilisticamente.",
-    "grammar_angle": "WORD_ORDER_V2",
+    "ipa": "ʃvʊlst",
+    "meaning_en": "pomposity / bombast",
+    "meaning_it": "ampollosità / enfasi eccessiva",
+    "example": "Der Schwulst dieser Rede ermüdete das Publikum.",
+    "example_it": "L'ampollosità di questo discorso stancò il pubblico.",
+    "cultural_note": "Dal verbo 'schwellen' (gonfiarsi): uno stile gonfio, pomposo e carico di parole inutili. È una parola colta e negativa, usata nella critica di testi e discorsi.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Critiquing awkward, forced phrasing",
-    "example_en": "This phrasing is a linguistic contortion.",
-    "cultural_note_en": "'Krampf' literally means 'cramp': used figuratively for something unnatural and forced, often stylistically."
+    "session_scenario": "Criticising an overwrought writing style",
+    "example_en": "The bombast of this speech tired the audience.",
+    "cultural_note_en": "From 'schwellen' (to swell): a swollen, pompous style loaded with needless words. A literary, negative word used in criticism of texts and speeches."
   },
   {
     "word": "Nachsicht",
@@ -1912,13 +1912,13 @@
     "meaning_it": "malinconia",
     "example": "Eine sanfte Melancholie durchzog den Film.",
     "example_it": "Una dolce malinconia pervadeva il film.",
-    "cultural_note": "'Durchziehen' non è separabile e regge l'accusativo diretto, significa 'pervadere, attraversare interamente'.",
+    "cultural_note": "'Melancholie' viene dal greco 'melancholia' (bile nera): una tristezza pensosa e dolce, spesso con tono poetico.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "leisure",
     "cefr_band": "C2",
     "session_scenario": "Describing a film's melancholic tone",
     "example_en": "A gentle melancholy ran through the film.",
-    "cultural_note_en": "'Durchziehen' isn't separable and takes a direct accusative object, meaning 'to pervade, run entirely through'."
+    "cultural_note_en": "'Melancholie' comes from Greek 'melancholia' (black bile): a pensive, gentle sadness, often with a poetic tone."
   },
   {
     "word": "Schwermut",
@@ -1946,7 +1946,7 @@
     "meaning_it": "ragion d'essere",
     "example": "Das Unternehmen verlor seine Daseinsberechtigung.",
     "example_it": "L'azienda perse la propria ragion d'essere.",
-    "cultural_note": "'Daseinsberechtigung' unisce 'Dasein' (esistenza) und 'Berechtigung' (diritto, giustificazione): la giustificazione stessa dell'esistere.",
+    "cultural_note": "'Daseinsberechtigung' unisce 'Dasein' (esistenza) e 'Berechtigung' (diritto, giustificazione): la giustificazione stessa dell'esistere.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
@@ -1997,13 +1997,13 @@
     "meaning_it": "saggezza della vecchiaia",
     "example": "Altersweisheit lässt sich nicht erzwingen.",
     "example_it": "La saggezza della vecchiaia non si può forzare.",
-    "cultural_note": "'Sich erzwingen lassen' con negazione significa 'non poter essere costretta': una struttura riflessiva-passiva.",
+    "cultural_note": "'Altersweisheit' unisce 'Alter' (età avanzata) e 'Weisheit' (saggezza): la saggezza che si crede venga con gli anni.",
     "grammar_angle": "NEGATION_NICHT_KEIN",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing wisdom that comes with age",
     "example_en": "The wisdom of old age can't be forced.",
-    "cultural_note_en": "'Sich erzwingen lassen' with a negation means 'cannot be forced': a reflexive-passive structure."
+    "cultural_note_en": "'Altersweisheit' combines 'Alter' (old age) and 'Weisheit' (wisdom): the wisdom believed to come with the years."
   },
   {
     "word": "anprangern",
@@ -2031,13 +2031,13 @@
     "meaning_it": "paura del futuro",
     "example": "Zukunftsangst prägt viele junge Menschen.",
     "example_it": "La paura del futuro caratterizza molti giovani.",
-    "cultural_note": "'Prägen' regge l'accusativo diretto e significa 'plasmare, caratterizzare profondamente', usato per una condizione diffusa.",
+    "cultural_note": "'Zukunftsangst' unisce 'Zukunft' e 'Angst': un'ansia diffusa per ciò che verrà, frequente nel dibattito sui giovani.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing widespread anxiety about the future",
     "example_en": "Fear of the future shapes many young people.",
-    "cultural_note_en": "'Prägen' takes a direct accusative object and means 'to shape, deeply characterize', used for a widespread condition."
+    "cultural_note_en": "'Zukunftsangst' combines 'Zukunft' and 'Angst': a diffuse anxiety about what is to come, common in debates about young people."
   },
   {
     "word": "Untergangsstimmung",
@@ -2133,13 +2133,13 @@
     "meaning_it": "disaffezione politica",
     "example": "Politikverdrossenheit spiegelt sich in sinkender Wahlbeteiligung.",
     "example_it": "La disaffezione politica si riflette in una minore affluenza alle urne.",
-    "cultural_note": "'Sich spiegeln in' regge il dativo: 'in sinkender Wahlbeteiligung', struttura fissa per indicare dove si manifesta un fenomeno.",
+    "cultural_note": "'Politikverdrossenheit' unisce 'Politik' e 'Verdrossenheit' (disaffezione): parola molto usata nei media per il calo di fiducia e partecipazione.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing declining voter turnout",
     "example_en": "Political disaffection is reflected in falling voter turnout.",
-    "cultural_note_en": "'Sich spiegeln in' takes the dative: 'in sinkender Wahlbeteiligung', a fixed structure for indicating where a phenomenon shows up."
+    "cultural_note_en": "'Politikverdrossenheit' combines 'Politik' and 'Verdrossenheit' (disaffection): a word widely used in the media for falling trust and participation."
   },
   {
     "word": "Sprachlosigkeit",
@@ -2150,13 +2150,13 @@
     "meaning_it": "incapacità di esprimersi (afasia figurata)",
     "example": "Angesichts der Tragödie herrschte kollektive Sprachlosigkeit.",
     "example_it": "Di fronte alla tragedia regnava un'incapacità collettiva di esprimersi.",
-    "cultural_note": "'Angesichts' regge il genitivo ed è tipico del registro formale-narrativo per introdurre un evento sconvolgente.",
+    "cultural_note": "'Sprachlosigkeit' viene da 'sprachlos' (senza parole): in senso figurato, lo sgomento che toglie la parola.",
     "grammar_angle": "GENITIV_CASE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing collective inability to respond to tragedy",
     "example_en": "In the face of the tragedy, collective speechlessness prevailed.",
-    "cultural_note_en": "'Angesichts' takes the genitive and is typical of the formal-narrative register for introducing a shocking event."
+    "cultural_note_en": "'Sprachlosigkeit' comes from 'sprachlos' (speechless): figuratively, the dismay that leaves one without words."
   },
   {
     "word": "Fassungslosigkeit",
@@ -2167,13 +2167,13 @@
     "meaning_it": "sgomento (incredulità totale)",
     "example": "Fassungslosigkeit machte sich unter den Zuschauern breit.",
     "example_it": "Lo sgomento si diffondeva tra gli spettatori.",
-    "cultural_note": "'Sich breitmachen' è separabile e riflessivo, significa 'diffondersi, prendere piede', usato per emozioni collettive.",
+    "cultural_note": "'Fassungslosigkeit' viene da 'fassungslos' (senza 'Fassung', cioè autocontrollo): uno shock tale da non riuscire a reagire.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Describing collective shock",
     "example_en": "Utter bewilderment spread among the spectators.",
-    "cultural_note_en": "'Sich breitmachen' is separable and reflexive, meaning 'to spread, take hold', used for collective emotions."
+    "cultural_note_en": "'Fassungslosigkeit' comes from 'fassungslos' (without 'Fassung', i.e. composure): a shock so great one cannot react."
   },
   {
     "word": "Ohnmachtsgefühl",
@@ -2278,12 +2278,12 @@
     "cultural_note_en": "'Klüngel' describes an informal group trading favors at the expense of transparency, a very Rhineland term."
   },
   {
-    "word": "politischer Filz",
+    "word": "Filz",
     "article": "der",
     "part_of_speech": "noun",
-    "ipa": "poˈliːtɪʃɐ fɪlts",
-    "meaning_en": "entrenched cronyism (political felt)",
-    "meaning_it": "intreccio di interessi politici",
+    "ipa": "fɪlts",
+    "meaning_en": "cronyism (lit. felt)",
+    "meaning_it": "clientelismo (lett. feltro)",
     "example": "Der politische Filz behindert echte Reformen.",
     "example_it": "L'intreccio di interessi politici ostacola vere riforme.",
     "cultural_note": "'Filz' significa letteralmente 'feltro': l'immagine di legami intrecciati e opachi tra politica ed economia.",
@@ -2320,13 +2320,13 @@
     "meaning_it": "opera di prestigio",
     "example": "Das teure Museum wurde als Prestigeobjekt kritisiert.",
     "example_it": "Il costoso museo è stato criticato come opera di prestigio.",
-    "cultural_note": "'Als kritisiert werden' è passivo con 'als', usato per criticare un progetto motivato più dall'immagine che dall'utilità.",
+    "cultural_note": "'Prestigeobjekt' unisce 'Prestige' e 'Objekt': un'opera voluta soprattutto per l'immagine, spesso con tono critico.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Critiquing a costly vanity project",
     "example_en": "The expensive museum was criticized as a prestige project.",
-    "cultural_note_en": "'Als kritisiert werden' is passive with 'als', used to criticize a project motivated more by image than utility."
+    "cultural_note_en": "'Prestigeobjekt' combines 'Prestige' and 'Objekt': a project wanted mainly for its image, often said critically."
   },
   {
     "word": "Imagepflege",
@@ -2337,13 +2337,13 @@
     "meaning_it": "cura dell'immagine (pubbliche relazioni)",
     "example": "Die Spende dient offensichtlich der Imagepflege.",
     "example_it": "La donazione serve evidentemente alla cura dell'immagine.",
-    "cultural_note": "'Dienen' regge il dativo: 'der Imagepflege', struttura fissa per indicare lo scopo strumentale di un'azione.",
+    "cultural_note": "'Imagepflege' unisce 'Image' (prestito inglese) e 'Pflege' (cura): le azioni per mantenere una buona immagine pubblica.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing PR-motivated corporate giving",
     "example_en": "The donation obviously serves image cultivation.",
-    "cultural_note_en": "'Dienen' takes the dative: 'der Imagepflege', a fixed structure for indicating an action's instrumental purpose."
+    "cultural_note_en": "'Imagepflege' combines 'Image' (English loanword) and 'Pflege' (care): actions to maintain a good public image."
   },
   {
     "word": "Greenwashing",
@@ -2354,13 +2354,13 @@
     "meaning_it": "greenwashing",
     "example": "Umweltschützer werfen der Firma Greenwashing vor.",
     "example_it": "Gli ambientalisti accusano l'azienda di greenwashing.",
-    "cultural_note": "'Vorwerfen' regge il dativo della persona/entità accusata e l'accusativo dell'accusa: 'der Firma Greenwashing vorwerfen'.",
+    "cultural_note": "'Greenwashing' è un prestito inglese ('green' + 'washing'): presentarsi come ecologici senza esserlo davvero.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing false environmental marketing",
     "example_en": "Environmentalists accuse the company of greenwashing.",
-    "cultural_note_en": "'Vorwerfen' takes the dative of the accused person/entity and the accusative of the accusation: 'der Firma Greenwashing vorwerfen'."
+    "cultural_note_en": "'Greenwashing' is an English loanword ('green' + 'washing'): presenting oneself as eco-friendly without really being so."
   },
   {
     "word": "Etikettenschwindel",
@@ -2490,13 +2490,13 @@
     "meaning_it": "scherno / derisione",
     "example": "Seine Worte trieften vor Hohn.",
     "example_it": "Le sue parole grondavano scherno.",
-    "cultural_note": "'Triefen vor' regge il dativo: 'vor Hohn', un'espressione vivida per descrivere un discorso pieno di derisione.",
+    "cultural_note": "'Hohn' è un disprezzo espresso con scherno, più aspro di una semplice presa in giro.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Describing a mocking, scornful tone",
     "example_en": "His words dripped with scorn.",
-    "cultural_note_en": "'Triefen vor' takes the dative: 'vor Hohn', a vivid expression describing speech full of mockery."
+    "cultural_note_en": "'Hohn' is contempt expressed through mockery, harsher than simple teasing."
   },
   {
     "word": "Häme",
@@ -2575,13 +2575,13 @@
     "meaning_it": "doppia morale",
     "example": "Man wirft der Regierung Doppelmoral vor.",
     "example_it": "Si accusa il governo di doppia morale.",
-    "cultural_note": "'Vorwerfen' regge il dativo dell'entità accusata e l'accusativo dell'accusa, come 'Greenwashing vorwerfen'.",
+    "cultural_note": "'Doppelmoral' unisce 'doppel' (doppio) e 'Moral': giudicare con criteri diversi sé stessi e gli altri.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Criticising political hypocrisy",
     "example_en": "The government is accused of double standards.",
-    "cultural_note_en": "'Vorwerfen' takes the dative of the accused entity and the accusative of the accusation, as with 'Greenwashing vorwerfen'."
+    "cultural_note_en": "'Doppelmoral' combines 'doppel' (double) and 'Moral': judging oneself and others by different standards."
   },
   {
     "word": "Selbstwiderspruch",
@@ -2592,13 +2592,13 @@
     "meaning_it": "autocontraddizione",
     "example": "Die Position enthält einen inneren Selbstwiderspruch.",
     "example_it": "La posizione contiene un'autocontraddizione interna.",
-    "cultural_note": "'Enthalten' non è separabile e regge sempre l'accusativo diretto, usato per identificare un difetto logico interno.",
+    "cultural_note": "'Selbstwiderspruch' unisce 'selbst' e 'Widerspruch' (contraddizione): una posizione che contraddice sé stessa.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Identifying a logical self-contradiction",
     "example_en": "The position contains an inner self-contradiction.",
-    "cultural_note_en": "'Enthalten' is not separable and always takes a direct accusative object, used to identify an internal logical flaw."
+    "cultural_note_en": "'Selbstwiderspruch' combines 'selbst' (self) and 'Widerspruch' (contradiction): a position that contradicts itself."
   },
   {
     "word": "Grenzgänger",
@@ -2703,12 +2703,12 @@
     "cultural_note_en": "'Grenzerfahrung' combines 'Grenze' (border, limit) and 'Erfahrung' (experience): an experience that pushes to human limits."
   },
   {
-    "word": "innerer Ausnahmezustand",
+    "word": "Ausnahmezustand",
     "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ˈɪnəʁɐ ˈaʊsnaːməˌtsuːʃtant",
-    "meaning_en": "state of inner emergency",
-    "meaning_it": "stato d'eccezione interiore",
+    "ipa": "ˈaʊ̯snaːməˌtsuːʃtant",
+    "meaning_en": "state of emergency",
+    "meaning_it": "stato di emergenza",
     "example": "Sie befand sich in einem inneren Ausnahmezustand.",
     "example_it": "Si trovava in uno stato d'eccezione interiore.",
     "cultural_note": "'Ausnahmezustand' significa letteralmente 'stato di emergenza (giuridico)', usato qui metaforicamente per un turbamento interiore estremo.",
@@ -2728,13 +2728,13 @@
     "meaning_it": "trasgressione (superamento del limite)",
     "example": "Die Grenzüberschreitung wurde als Kunst gefeiert.",
     "example_it": "La trasgressione è stata celebrata come arte.",
-    "cultural_note": "'Gefeiert werden als' è passivo con 'als', usato per descrivere un atto controverso presentato positivamente.",
+    "cultural_note": "'Grenzüberschreitung' unisce 'Grenze' e 'Überschreitung' (superamento): il varcare un confine, anche morale o sociale.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing transgressive art",
     "example_en": "The transgression was celebrated as art.",
-    "cultural_note_en": "'Gefeiert werden als' is passive with 'als', used to describe a controversial act presented positively."
+    "cultural_note_en": "'Grenzüberschreitung' combines 'Grenze' and 'Überschreitung' (crossing): going over a boundary, also a moral or social one."
   },
   {
     "word": "Tabubruch",
@@ -2745,13 +2745,13 @@
     "meaning_it": "rottura del tabù",
     "example": "Der Tabubruch löste heftige Reaktionen aus.",
     "example_it": "La rottura del tabù ha scatenato reazioni violente.",
-    "cultural_note": "'Auslösen' è separabile e regge l'accusativo, significa 'scatenare, innescare', usato per reazioni sociali intense.",
+    "cultural_note": "'Tabubruch' unisce 'Tabu' e 'Bruch' (rottura): la violazione deliberata di una norma non scritta.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing provocative art or speech",
     "example_en": "The taboo-breaking triggered fierce reactions.",
-    "cultural_note_en": "'Auslösen' is separable and takes the accusative, meaning 'to trigger, set off', used for intense social reactions."
+    "cultural_note_en": "'Tabubruch' combines 'Tabu' and 'Bruch' (breaking): the deliberate violation of an unwritten norm."
   },
   {
     "word": "Provokation",
@@ -2762,13 +2762,13 @@
     "meaning_it": "provocazione",
     "example": "Das Kunstwerk war als Provokation gedacht.",
     "example_it": "L'opera d'arte era pensata come provocazione.",
-    "cultural_note": "'Gedacht sein als' significa 'essere concepito come', struttura fissa per descrivere l'intento dietro un'azione.",
+    "cultural_note": "'Provokation' viene dal latino 'provocare': un'azione o parole pensate per suscitare una reazione forte.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing intentionally provocative art",
     "example_en": "The artwork was intended as a provocation.",
-    "cultural_note_en": "'Gedacht sein als' means 'to be conceived as', a fixed structure for describing the intent behind an action."
+    "cultural_note_en": "'Provokation' comes from Latin 'provocare': an action or words meant to elicit a strong reaction."
   },
   {
     "word": "Subversion",
@@ -2779,13 +2779,13 @@
     "meaning_it": "sovversione",
     "example": "Subversion durch Kunst hat eine lange Tradition.",
     "example_it": "La sovversione attraverso l'arte ha una lunga tradizione.",
-    "cultural_note": "'Durch' regge sempre l'accusativo, usato per indicare il mezzo attraverso cui avviene un'azione o un'influenza.",
+    "cultural_note": "'Subversion' viene dal latino 'subvertere': il tentativo di minare dall'interno un ordine o un potere.",
     "grammar_angle": "ACCUSATIVE_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing art as a subversive tool",
     "example_en": "Subversion through art has a long tradition.",
-    "cultural_note_en": "'Durch' always takes the accusative, used to indicate the means through which an action or influence occurs."
+    "cultural_note_en": "'Subversion' comes from Latin 'subvertere': the attempt to undermine an order or power from within."
   },
   {
     "word": "Grenzgängertum",
@@ -2813,47 +2813,47 @@
     "meaning_it": "appropriazione (cooptazione)",
     "example": "Kritiker warnen vor der kommerziellen Vereinnahmung.",
     "example_it": "I critici mettono in guardia contro la cooptazione commerciale.",
-    "cultural_note": "'Warnen vor' regge il dativo: 'vor der Vereinnahmung', struttura fissa per un avvertimento su un rischio.",
+    "cultural_note": "'Vereinnahmung' viene da 'vereinnahmen' (incassare): in senso figurato, appropriarsi di qualcosa o assorbirlo per i propri fini.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing commercialisation of countercultural art",
     "example_en": "Critics warn against commercial co-optation.",
-    "cultural_note_en": "'Warnen vor' takes the dative: 'vor der Vereinnahmung', a fixed structure for a warning about a risk."
+    "cultural_note_en": "'Vereinnahmung' comes from 'vereinnahmen' (to take in, collect money): figuratively, to appropriate or absorb something for one's own ends."
   },
   {
-    "word": "Kulturelle Aneignung",
+    "word": "kulturelle Aneignung",
     "article": "die",
     "part_of_speech": "noun",
     "ipa": "kʊlˈtuːʁɛlə anˈaɪɡnʊŋ",
     "meaning_en": "cultural appropriation",
     "meaning_it": "appropriazione culturale",
-    "example": "Kulturelle Aneignung wird kontrovers diskutiert.",
-    "example_it": "L'appropriazione culturale viene discussa in modo controverso.",
-    "cultural_note": "'Kontrovers diskutiert werden' è passivo, struttura standard per descrivere un tema molto dibattuto pubblicamente.",
+    "example": "Die kulturelle Aneignung wird kontrovers diskutiert.",
+    "example_it": "L'appropriazione culturale è discussa in modo controverso.",
+    "cultural_note": "'Aneignung' viene da 'sich aneignen' (appropriarsi): nel termine indica l'uso, da parte di una cultura dominante, di elementi di una minoritaria.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing debates around cultural appropriation",
     "example_en": "Cultural appropriation is discussed controversially.",
-    "cultural_note_en": "'Kontrovers diskutiert werden' is passive, a standard structure for describing a hotly debated public topic."
+    "cultural_note_en": "'Aneignung' comes from 'sich aneignen' (to appropriate): in this term, the use by a dominant culture of elements of a minority one."
   },
   {
-    "word": "Selbstermächtigungsdiskurs",
-    "article": "der",
+    "word": "Fehlentwicklung",
+    "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ˈzɛlpstʔɛɐ̯mɛçtɪɡʊŋsdɪsˌkʊʁs",
-    "meaning_en": "discourse of self-empowerment",
-    "meaning_it": "discorso dell'autoaffermazione",
-    "example": "Der Selbstermächtigungsdiskurs prägt viele soziale Bewegungen.",
-    "example_it": "Il discorso dell'autoaffermazione caratterizza molti movimenti sociali.",
-    "cultural_note": "Composto lunghissimo tipico dell'analisi accademica del discorso pubblico, unendo 'Selbstermächtigung' e 'Diskurs'.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "ipa": "ˈfeːlʔɛntˌvɪklʊŋ",
+    "meaning_en": "undesirable trend / wrong turn",
+    "meaning_it": "sviluppo sbagliato / deriva",
+    "example": "Die Fehlentwicklung auf dem Wohnungsmarkt war lange sichtbar.",
+    "example_it": "La deriva del mercato immobiliare era visibile da tempo.",
+    "cultural_note": "Composto di 'fehl-' (sbagliato) e 'Entwicklung': un processo che prende una direzione negativa. Si usa spesso con 'gesellschaftlich' o con verbi come 'korrigieren' e 'gegensteuern'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Discussing empowerment rhetoric in social movements",
-    "example_en": "The discourse of self-empowerment shapes many social movements.",
-    "cultural_note_en": "A very long compound typical of academic public-discourse analysis, combining 'Selbstermächtigung' and 'Diskurs'."
+    "session_scenario": "Analysing a negative social trend",
+    "example_en": "The undesirable trend in the housing market had long been visible.",
+    "cultural_note_en": "Compound of 'fehl-' (wrong) and 'Entwicklung': a process that takes a negative direction. Often used with 'gesellschaftlich' or verbs like 'korrigieren' and 'gegensteuern'."
   },
   {
     "word": "Repräsentationslücke",
@@ -2864,13 +2864,13 @@
     "meaning_it": "lacuna di rappresentanza",
     "example": "Es besteht eine deutliche Repräsentationslücke.",
     "example_it": "C'è una chiara lacuna di rappresentanza.",
-    "cultural_note": "'Bestehen' regge oft ohne Präposition und ist unregelmäßig: 'besteht, bestand, bestanden', usato per un fatto esistente.",
+    "cultural_note": "'Repräsentationslücke' unisce 'Repräsentation' e 'Lücke' (lacuna): quando un gruppo non è adeguatamente rappresentato nelle istituzioni.",
     "grammar_angle": "VERB_CONJ_IRREGULAR",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing underrepresentation in institutions",
     "example_en": "There is a clear representation gap.",
-    "cultural_note_en": "'Bestehen' is often used without a preposition and is irregular: 'besteht, bestand, bestanden', used for an existing fact."
+    "cultural_note_en": "'Repräsentationslücke' combines 'Repräsentation' and 'Lücke' (gap): when a group is not adequately represented in institutions."
   },
   {
     "word": "Sichtbarmachung",
@@ -3000,13 +3000,13 @@
     "meaning_it": "materiale negoziale (posta in gioco)",
     "example": "Die Themen dienen nur als Verhandlungsmasse.",
     "example_it": "I temi servono solo come materiale negoziale.",
-    "cultural_note": "'Dienen als' regge il nominativo dopo 'als', usato per indicare che qualcosa funge da mezzo strumentale in una trattativa.",
+    "cultural_note": "'Verhandlungsmasse' unisce 'Verhandlung' e 'Masse': ciò di cui si dispone per scambiare concessioni in una trattativa.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing tactical negotiation issues",
     "example_en": "The issues only serve as bargaining chips.",
-    "cultural_note_en": "'Dienen als' takes the nominative after 'als', used to indicate that something functions as an instrumental means in a negotiation."
+    "cultural_note_en": "'Verhandlungsmasse' combines 'Verhandlung' and 'Masse': what one has available to trade as concessions in a negotiation."
   },
   {
     "word": "Pattsituation",
@@ -3017,13 +3017,13 @@
     "meaning_it": "situazione di stallo",
     "example": "Die Verhandlungen enden in einer Pattsituation.",
     "example_it": "I negoziati finiscono in una situazione di stallo.",
-    "cultural_note": "'Patt' viene dal francese 'pat' (scacco matto per stallo), usato figurativamente per qualsiasi impasse senza soluzione.",
+    "cultural_note": "'Patt' viene dagli scacchi (stallo, dal francese 'pat'): usato in senso figurato per ogni situazione di blocco in cui nessuno può avanzare.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing deadlocked talks",
     "example_en": "The negotiations end in a stalemate.",
-    "cultural_note_en": "'Patt' comes from the French 'pat' (checkmate by stalemate), used figuratively for any unresolved impasse."
+    "cultural_note_en": "'Patt' comes from chess (stalemate, via French 'pat'): used figuratively for any deadlock in which no one can move forward."
   },
   {
     "word": "Sackgasse",
@@ -3085,13 +3085,13 @@
     "meaning_it": "spirale negativa discendente",
     "example": "Die Firma steckte in einer Abwärtsspirale.",
     "example_it": "L'azienda era intrappolata in una spirale negativa.",
-    "cultural_note": "'Stecken in' regge il dativo: 'in einer Abwärtsspirale', struttura fissa per descrivere una situazione da cui è difficile uscire.",
+    "cultural_note": "'Abwärtsspirale' unisce 'abwärts' (verso il basso) e 'Spirale': un peggioramento in cui ogni problema ne aggrava un altro.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing an economic or personal decline",
     "example_en": "The company was stuck in a downward spiral.",
-    "cultural_note_en": "'Stecken in' takes the dative: 'in einer Abwärtsspirale', a fixed structure for describing a situation that's hard to escape."
+    "cultural_note_en": "'Abwärtsspirale' combines 'abwärts' (downward) and 'Spirale': a decline in which each problem worsens another."
   },
   {
     "word": "Domino-Effekt",
@@ -3119,13 +3119,13 @@
     "meaning_it": "effetto valanga",
     "example": "Der Fehler entwickelte sich zum Schneeballeffekt.",
     "example_it": "L'errore si è trasformato in un effetto valanga.",
-    "cultural_note": "'Sich entwickeln zu' regge il dativo dopo 'zu', struttura fissa per una trasformazione progressiva verso qualcosa di più grande.",
+    "cultural_note": "'Schneeballeffekt' unisce 'Schneeball' e 'Effekt': un processo che cresce da solo, come una palla di neve che rotola.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing an escalating problem",
     "example_en": "The mistake developed into a snowball effect.",
-    "cultural_note_en": "'Sich entwickeln zu' takes the dative after 'zu', a fixed structure for a progressive transformation into something bigger."
+    "cultural_note_en": "'Schneeballeffekt' combines 'Schneeball' and 'Effekt': a process that grows by itself, like a rolling snowball."
   },
   {
     "word": "Dammbruch",
@@ -3187,30 +3187,30 @@
     "meaning_it": "danno collaterale",
     "example": "Die Kürzungen verursachten erheblichen Kollateralschaden.",
     "example_it": "I tagli hanno causato notevoli danni collaterali.",
-    "cultural_note": "'Verursachen' regge l'accusativo diretto e significa 'causare', un verbo formale non separabile.",
+    "cultural_note": "'Kollateralschaden' viene dall'ambito militare: danno non intenzionale ma accettato, oggi esteso a ogni effetto negativo collaterale.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing unintended negative consequences of a policy",
     "example_en": "The cuts caused considerable collateral damage.",
-    "cultural_note_en": "'Verursachen' takes a direct accusative object and means 'to cause', a formal, non-separable verb."
+    "cultural_note_en": "'Kollateralschaden' comes from the military sphere: unintended but accepted damage, now extended to any negative side effect."
   },
   {
-    "word": "unerwünschte Nebenwirkung",
-    "article": "die",
+    "word": "Fehlanreiz",
+    "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ʊnɛɐ̯ˈvʏnʃtə ˈneːbn̩ˌvɪʁkʊŋ",
-    "meaning_en": "undesired side effect",
-    "meaning_it": "effetto collaterale indesiderato",
-    "example": "Die Reform hatte unerwünschte Nebenwirkungen.",
-    "example_it": "La riforma ha avuto effetti collaterali indesiderati.",
-    "cultural_note": "'Unerwünscht' unisce 'un-' negativo e 'erwünscht' (desiderato): un effetto secondario esplicitamente non voluto.",
-    "grammar_angle": "NEGATION_NICHT_KEIN",
+    "ipa": "ˈfeːlʔanˌʁaɪ̯ts",
+    "meaning_en": "perverse incentive",
+    "meaning_it": "incentivo distorto",
+    "example": "Die Regel schafft einen Fehlanreiz zur Verschwendung.",
+    "example_it": "La regola crea un incentivo distorto allo spreco.",
+    "cultural_note": "Composto di 'fehl-' (sbagliato) e 'Anreiz' (incentivo): una regola o un sistema che spinge a un comportamento indesiderato. Termine tipico dell'economia e della politica.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing unintended policy consequences",
-    "example_en": "The reform had undesired side effects.",
-    "cultural_note_en": "'Unerwünscht' combines the negating 'un-' and 'erwünscht' (desired): a side effect explicitly not wanted."
+    "session_scenario": "Criticising a badly designed policy",
+    "example_en": "The rule creates a perverse incentive for waste.",
+    "cultural_note_en": "Compound of 'fehl-' (wrong) and 'Anreiz' (incentive): a rule or system that pushes people toward unwanted behaviour. A typical term in economics and politics."
   },
   {
     "word": "Systemfehler",
@@ -3221,30 +3221,30 @@
     "meaning_it": "errore sistemico",
     "example": "Das ist kein Einzelfall, sondern ein Systemfehler.",
     "example_it": "Non è un caso isolato, ma un errore sistemico.",
-    "cultural_note": "'Kein ..., sondern' è una struttura contrastiva fissa per negare una spiegazione e proporne una alternativa più profonda.",
+    "cultural_note": "'Systemfehler' unisce 'System' e 'Fehler': un difetto nella struttura stessa, non nel singolo caso.",
     "grammar_angle": "NEGATION_NICHT_KEIN",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Arguing a problem is structural, not isolated",
     "example_en": "This is not an isolated case, but a systemic flaw.",
-    "cultural_note_en": "'Kein ..., sondern' is a fixed contrastive structure for denying one explanation and proposing a deeper alternative."
+    "cultural_note_en": "'Systemfehler' combines 'System' and 'Fehler': a flaw in the structure itself, not in the single case."
   },
   {
-    "word": "struktureller Mangel",
-    "article": "der",
+    "word": "Strukturschwäche",
+    "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ʃtʁʊkˈtuːʁɛlɐ ˈmaŋl̩",
-    "meaning_en": "structural deficiency",
-    "meaning_it": "carenza strutturale",
-    "example": "Ein struktureller Mangel liegt der Krise zugrunde.",
-    "example_it": "Una carenza strutturale sta alla base della crisi.",
-    "cultural_note": "'Zugrunde liegen' regge il dativo: 'der Krise', struttura fissa formale per indicare la causa profonda di un problema.",
+    "ipa": "ˈʃtʁʊktuːɐ̯ˌʃvɛçə",
+    "meaning_en": "structural weakness",
+    "meaning_it": "debolezza strutturale",
+    "example": "Eine Strukturschwäche liegt der Krise zugrunde.",
+    "example_it": "Una debolezza strutturale sta alla base della crisi.",
+    "cultural_note": "'Strukturschwäche' unisce 'Struktur' e 'Schwäche': una debolezza duratura dell'economia di una regione o di un settore, non un calo passeggero.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing root causes of a crisis",
-    "example_en": "A structural deficiency underlies the crisis.",
-    "cultural_note_en": "'Zugrunde liegen' takes the dative: 'der Krise', a formal fixed structure for indicating the deep cause of a problem."
+    "example_en": "A structural weakness underlies the crisis.",
+    "cultural_note_en": "'Strukturschwäche' combines 'Struktur' and 'Schwäche': a lasting weakness in the economy of a region or sector, not a passing downturn."
   },
   {
     "word": "blinder Fleck",
@@ -3270,32 +3270,32 @@
     "ipa": "ˈdɛŋkˌfalə",
     "meaning_en": "thought trap / cognitive trap",
     "meaning_it": "trappola mentale",
-    "example": "Diese Denkfalle tappen viele Menschen.",
+    "example": "In diese Denkfalle tappen viele Menschen.",
     "example_it": "In questa trappola mentale cadono molte persone.",
-    "cultural_note": "'In eine Falle tappen' è l'espressione fissa per 'cadere in una trappola', qui usata per un errore cognitivo comune.",
+    "cultural_note": "'Denkfalle' unisce 'denken' e 'Falle' (trappola): un errore di ragionamento in cui si cade facilmente.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing common cognitive biases",
     "example_en": "Many people fall into this thought trap.",
-    "cultural_note_en": "'In eine Falle tappen' is the fixed expression for 'to fall into a trap', here used for a common cognitive error."
+    "cultural_note_en": "'Denkfalle' combines 'denken' (to think) and 'Falle' (trap): a reasoning error one falls into easily."
   },
   {
-    "word": "babylonische Sprachverwirrung",
+    "word": "Sprachverwirrung",
     "article": "die",
     "part_of_speech": "noun",
-    "ipa": "baˈbyloːnɪʃə ˈʃpʁaːxfɛɐ̯ˌvɪʁʊŋ",
-    "meaning_en": "Babylonian confusion of tongues",
-    "meaning_it": "confusione babilonica delle lingue",
+    "ipa": "ˈʃpʁaːxfɛɐ̯ˌvɪʁʊŋ",
+    "meaning_en": "confusion of tongues",
+    "meaning_it": "confusione di lingue",
     "example": "In der Sitzung herrschte eine babylonische Sprachverwirrung.",
     "example_it": "Nella riunione regnava una confusione babilonica delle lingue.",
-    "cultural_note": "Riferimento biblico alla Torre di Babele, usato figurativamente per un'incomprensione totale tra i partecipanti.",
+    "cultural_note": "'Sprachverwirrung' richiama la Torre di Babele (Genesi), quando Dio confuse le lingue degli uomini; oggi indica una totale incomprensione, spesso in 'babylonische Sprachverwirrung'.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing total miscommunication in a meeting",
     "example_en": "In the meeting a Babylonian confusion of tongues prevailed.",
-    "cultural_note_en": "A biblical reference to the Tower of Babel, used figuratively for total miscommunication among participants."
+    "cultural_note_en": "'Sprachverwirrung' recalls the Tower of Babel (Genesis), when God confused human languages; today it means total miscommunication, often in 'babylonische Sprachverwirrung'."
   },
   {
     "word": "Kakophonie",
@@ -3306,13 +3306,13 @@
     "meaning_it": "cacofonia",
     "example": "Die Debatte verkam zur reinen Kakophonie der Meinungen.",
     "example_it": "Il dibattito è degenerato in una pura cacofonia di opinioni.",
-    "cultural_note": "'Verkommen zu' regge il dativo dopo 'zu', struttura fissa per descrivere un degrado verso qualcosa di negativo.",
+    "cultural_note": "'Kakophonie' viene dal greco ('kakos' cattivo + 'phone' suono): un insieme di suoni o voci dissonanti, anche in senso figurato.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Describing a chaotic clash of opinions",
     "example_en": "The debate degenerated into a pure cacophony of opinions.",
-    "cultural_note_en": "'Verkommen zu' takes the dative after 'zu', a fixed structure for describing degradation into something negative."
+    "cultural_note_en": "'Kakophonie' comes from Greek ('kakos' bad + 'phone' sound): a mass of dissonant sounds or voices, also figuratively."
   },
   {
     "word": "Stimmengewirr",
@@ -3493,13 +3493,13 @@
     "meaning_it": "incassamento (sintattico)",
     "example": "Die Verschachtelung der Sätze erschwert das Verständnis.",
     "example_it": "L'incassamento delle frasi rende difficile la comprensione.",
-    "cultural_note": "'Erschweren' regge l'accusativo diretto e significa 'rendere difficile', un verbo formale non separabile.",
+    "cultural_note": "'Verschachtelung' viene da 'verschachteln' (incastrare): elementi inseriti l'uno nell'altro, qui le proposizioni.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing syntactic complexity in writing",
     "example_en": "The nesting of the sentences makes understanding difficult.",
-    "cultural_note_en": "'Erschweren' takes a direct accusative object and means 'to make difficult', a formal, non-separable verb."
+    "cultural_note_en": "'Verschachtelung' comes from 'verschachteln' (to nest): elements inserted one inside another, here clauses."
   },
   {
     "word": "Nominalstil",
@@ -3527,13 +3527,13 @@
     "meaning_it": "costruzione passiva",
     "example": "Übermäßige Passivkonstruktionen wirken distanziert.",
     "example_it": "Le costruzioni passive eccessive risultano distaccate.",
-    "cultural_note": "'Wirken' significa 'apparire, dare l'impressione di', usato per descrivere l'effetto stilistico di una scelta grammaticale.",
+    "cultural_note": "'Passivkonstruktion' unisce 'Passiv' e 'Konstruktion': una costruzione col passivo, che sposta l'attenzione dall'agente all'azione.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Critiquing overuse of the passive voice",
     "example_en": "Excessive passive constructions come across as distant.",
-    "cultural_note_en": "'Wirken' means 'to appear, to give the impression of', used to describe the stylistic effect of a grammatical choice."
+    "cultural_note_en": "'Passivkonstruktion' combines 'Passiv' and 'Konstruktion': a construction using the passive, which shifts attention from the agent to the action."
   },
   {
     "word": "Behördendeutsch",
@@ -3604,38 +3604,38 @@
     "cultural_note_en": "'Zeitenwende' became famous in 2022 as a political term describing a radical shift in German security policy."
   },
   {
-    "word": "fortgesetzte Vergangenheitsbewältigung",
-    "article": "die",
+    "word": "Mitläufer",
+    "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ˈfɔʁtɡəˌzɛtstə fɛɐ̯ˈɡaŋənhaɪtsbəˌvɛltɪɡʊŋ",
-    "meaning_en": "ongoing reckoning with the past",
-    "meaning_it": "continua elaborazione del passato",
-    "example": "Die fortgesetzte Vergangenheitsbewältigung prägt die deutsche Politik.",
-    "example_it": "La continua elaborazione del passato caratterizza la politica tedesca.",
-    "cultural_note": "'Fortgesetzt' viene da 'fortsetzen' (continuare): sottolinea che il processo di elaborazione storica non è mai concluso.",
-    "grammar_angle": "WORD_ORDER_V2",
+    "ipa": "ˈmɪtˌlɔɪfɐ",
+    "meaning_en": "mere follower / fellow traveller",
+    "meaning_it": "semplice fiancheggiatore / chi si adegua",
+    "example": "Nach dem Krieg galten viele nur als Mitläufer.",
+    "example_it": "Dopo la guerra molti furono considerati semplici fiancheggiatori.",
+    "cultural_note": "Nella denazificazione era la categoria di chi aveva sostenuto il regime senza un ruolo di spicco; oggi indica chi segue la massa senza convinzione.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Discussing Germany's ongoing historical reckoning",
-    "example_en": "The ongoing reckoning with the past shapes German politics.",
-    "cultural_note_en": "'Fortgesetzt' comes from 'fortsetzen' (to continue): it stresses that the process of historical reckoning is never finished."
+    "session_scenario": "Discussing responsibility under the Nazi regime",
+    "example_en": "After the war many were regarded as mere followers.",
+    "cultural_note_en": "In denazification it was the category for people who had supported the regime without a prominent role; today it means someone who goes along with the crowd without conviction."
   },
   {
-    "word": "Nie-wieder-Gelöbnis",
-    "article": "das",
+    "word": "Gedenkkultur",
+    "article": "die",
     "part_of_speech": "noun",
-    "ipa": "niː ˈviːdɐ ɡəˈløːpnɪs",
-    "meaning_en": "never-again pledge",
-    "meaning_it": "promessa del 'mai più'",
-    "example": "Das Nie-wieder-Gelöbnis prägt jede Gedenkfeier.",
-    "example_it": "La promessa del 'mai più' caratterizza ogni cerimonia commemorativa.",
-    "cultural_note": "'Nie-wieder-Gelöbnis' unisce la frase 'nie wieder' (mai più) e 'Gelöbnis' (giuramento solenne), centrale nella cultura della memoria tedesca.",
-    "grammar_angle": "WORD_ORDER_V2",
+    "ipa": "ɡəˈdɛŋkkʊlˌtuːɐ̯",
+    "meaning_en": "culture of commemoration",
+    "meaning_it": "cultura della commemorazione",
+    "example": "Die Gedenkkultur wandelt sich mit jeder Generation.",
+    "example_it": "La cultura della commemorazione cambia a ogni generazione.",
+    "cultural_note": "Indica le forme pubbliche del ricordo (cerimonie, monumenti, giornate della memoria); è più ristretto di 'Erinnerungskultur'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Discussing Holocaust remembrance commitments",
-    "example_en": "The never-again pledge shapes every commemoration ceremony.",
-    "cultural_note_en": "'Nie-wieder-Gelöbnis' combines the phrase 'nie wieder' (never again) and 'Gelöbnis' (solemn vow), central to German memory culture."
+    "session_scenario": "Discussing how societies commemorate the past",
+    "example_en": "The culture of commemoration changes with every generation.",
+    "cultural_note_en": "It denotes the public forms of remembrance (ceremonies, monuments, memorial days); it is narrower than 'Erinnerungskultur'."
   },
   {
     "word": "Stunde Null",
@@ -3748,13 +3748,13 @@
     "meaning_it": "processo di elaborazione (storica)",
     "example": "Der Aufarbeitungsprozess ist noch nicht abgeschlossen.",
     "example_it": "Il processo di elaborazione non è ancora concluso.",
-    "cultural_note": "'Abgeschlossen' viene da 'abschließen' (concludere), usato spesso per dire che un processo storico è ancora in corso.",
+    "cultural_note": "'Aufarbeitungsprozess' unisce 'Aufarbeitung' (elaborazione critica) e 'Prozess': il lungo lavoro di confronto con un passato difficile.",
     "grammar_angle": "NEGATION_NICHT_KEIN",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing an ongoing historical reckoning process",
     "example_en": "The process of reckoning is not yet finished.",
-    "cultural_note_en": "'Abgeschlossen' comes from 'abschließen' (to conclude), often used to say a historical process is still ongoing."
+    "cultural_note_en": "'Aufarbeitungsprozess' combines 'Aufarbeitung' (critical working-through) and 'Prozess': the long work of confronting a difficult past."
   },
   {
     "word": "Symbolpolitik",
@@ -3765,7 +3765,7 @@
     "meaning_it": "politica simbolica",
     "example": "Kritiker sprechen von reiner Symbolpolitik.",
     "example_it": "I critici parlano di pura politica simbolica.",
-    "cultural_note": "'Symbolpolitik' unisce 'Symbol' und 'Politik': misure politiche vistose ma senza effetti pratici sostanziali.",
+    "cultural_note": "'Symbolpolitik' unisce 'Symbol' e 'Politik': misure politiche vistose ma senza effetti pratici sostanziali.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
@@ -3816,13 +3816,13 @@
     "meaning_it": "politica della memoria",
     "example": "Erinnerungspolitik prägt das nationale Selbstverständnis.",
     "example_it": "La politica della memoria plasma l'autocomprensione nazionale.",
-    "cultural_note": "'Prägen' regge l'accusativo diretto e significa 'plasmare, caratterizzare profondamente'.",
+    "cultural_note": "'Erinnerungspolitik' unisce 'Erinnerung' (memoria) e 'Politik': il modo in cui stato e società gestiscono e plasmano il ricordo storico.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing how nations manage historical memory",
     "example_en": "The politics of memory shapes national self-understanding.",
-    "cultural_note_en": "'Prägen' takes a direct accusative object and means 'to shape, deeply characterize'."
+    "cultural_note_en": "'Erinnerungspolitik' combines 'Erinnerung' (memory) and 'Politik': how the state and society manage and shape historical memory."
   },
   {
     "word": "Geschichtsbewusstsein",
@@ -3833,13 +3833,13 @@
     "meaning_it": "coscienza storica",
     "example": "Geschichtsbewusstsein wird schon in der Schule vermittelt.",
     "example_it": "La coscienza storica viene trasmessa già a scuola.",
-    "cultural_note": "'Vermitteln' regge il dativo (opzionale) e l'accusativo, un verbo formale usato in ambito educativo.",
+    "cultural_note": "'Geschichtsbewusstsein' unisce 'Geschichte' (storia) e 'Bewusstsein' (coscienza): la consapevolezza di come il passato influenzi il presente.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing historical education",
     "example_en": "Historical consciousness is already conveyed in school.",
-    "cultural_note_en": "'Vermitteln' takes an (optional) dative and an accusative, a formal verb used in educational contexts."
+    "cultural_note_en": "'Geschichtsbewusstsein' combines 'Geschichte' (history) and 'Bewusstsein' (awareness): the understanding of how the past shapes the present."
   },
   {
     "word": "Sprachgewalt",
@@ -3867,13 +3867,13 @@
     "meaning_it": "forza verbale (eloquenza travolgente)",
     "example": "Ihre Wortgewaltigkeit fesselte das Publikum.",
     "example_it": "La sua forza verbale ha catturato il pubblico.",
-    "cultural_note": "'Fesseln' regge l'accusativo diretto e significa 'incatenare, avvincere', un verbo usato per un discorso magnetico.",
+    "cultural_note": "'Wortgewaltigkeit' unisce 'Wort' e 'gewaltig' (potente, imponente): la capacità di impressionare con la forza del linguaggio; più rara di 'Sprachgewalt'.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing a captivating public speaker",
     "example_en": "Her verbal forcefulness captivated the audience.",
-    "cultural_note_en": "'Fesseln' takes a direct accusative object and means 'to chain, to captivate', a verb used for magnetic speech."
+    "cultural_note_en": "'Wortgewaltigkeit' combines 'Wort' and 'gewaltig' (mighty, imposing): the ability to impress through the power of language; rarer than 'Sprachgewalt'."
   },
   {
     "word": "Sprachmächtigkeit",
@@ -3969,13 +3969,13 @@
     "meaning_it": "eloquenza oratoria",
     "example": "Ihre Redegewandtheit überzeugte selbst Skeptiker.",
     "example_it": "La sua eloquenza oratoria ha convinto persino gli scettici.",
-    "cultural_note": "'Selbst' come avverbio significa 'persino, anche', usato per intensificare un'affermazione con un caso estremo.",
+    "cultural_note": "'Redegewandtheit' unisce 'Rede' (discorso) e 'gewandt' (abile): la capacità di parlare con disinvoltura e in modo convincente.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Praising persuasive public speaking",
     "example_en": "Her eloquence in speech convinced even skeptics.",
-    "cultural_note_en": "'Selbst' as an adverb means 'even', used to intensify a statement with an extreme case."
+    "cultural_note_en": "'Redegewandtheit' combines 'Rede' (speech) and 'gewandt' (skilled): the ability to speak fluently and persuasively."
   },
   {
     "word": "Beredsamkeit",
@@ -4012,21 +4012,21 @@
     "cultural_note_en": "'Eloquenz' is a direct loan from Latin, nearly identical to English, used in a high register."
   },
   {
-    "word": "feines Sprachgefühl",
-    "article": "das",
+    "word": "Wortwitz",
+    "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ˈfaɪnəs ˈʃpʁaːxɡəˌfyːl",
-    "meaning_en": "fine sense of language",
-    "meaning_it": "fine senso della lingua",
-    "example": "Ein feines Sprachgefühl zeichnet gute Übersetzer aus.",
-    "example_it": "Un fine senso della lingua contraddistingue i bravi traduttori.",
-    "cultural_note": "'Auszeichnen' è separabile e regge l'accusativo, significa 'contraddistinguere', usato per una qualità distintiva.",
-    "grammar_angle": "SEPARABLE_VERB",
+    "ipa": "ˈvɔʁtˌvɪts",
+    "meaning_en": "verbal wit / wordplay",
+    "meaning_it": "arguzia verbale / gioco di parole",
+    "example": "Der Wortwitz dieser Autorin ist unübertroffen.",
+    "example_it": "L'arguzia verbale di questa autrice è insuperata.",
+    "cultural_note": "'Witz' qui significa arguzia, non barzelletta: lo spirito che nasce dal gioco con le parole, tipico di cabaret, giornalismo e letteratura.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Praising a translator's linguistic intuition",
-    "example_en": "A fine sense of language distinguishes good translators.",
-    "cultural_note_en": "'Auszeichnen' is separable and takes the accusative, meaning 'to distinguish', used for a distinctive quality."
+    "session_scenario": "Praising a writer's style",
+    "example_en": "This author's verbal wit is unsurpassed.",
+    "cultural_note_en": "'Witz' here means wit, not a joke: the humour that comes from playing with words, typical of cabaret, journalism and literature."
   },
   {
     "word": "Ausdruckskraft",
@@ -4037,30 +4037,30 @@
     "meaning_it": "forza espressiva",
     "example": "Das Gedicht besticht durch seine Ausdruckskraft.",
     "example_it": "La poesia colpisce per la sua forza espressiva.",
-    "cultural_note": "'Bestechen durch' regge l'accusativo dopo 'durch', struttura fissa per elogiare una qualità straordinaria.",
+    "cultural_note": "'Ausdruckskraft' unisce 'Ausdruck' (espressione) e 'Kraft' (forza): l'intensità con cui un'opera o una persona esprime sentimenti e idee.",
     "grammar_angle": "ACCUSATIVE_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Praising a poem's expressive intensity",
     "example_en": "The poem impresses through its expressive power.",
-    "cultural_note_en": "'Bestechen durch' takes the accusative after 'durch', a fixed structure for praising an extraordinary quality."
+    "cultural_note_en": "'Ausdruckskraft' combines 'Ausdruck' (expression) and 'Kraft' (force): the intensity with which a work or person conveys feelings and ideas."
   },
   {
-    "word": "sprachliche Sinnlichkeit",
+    "word": "Sinnlichkeit",
     "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ˈʃpʁaːxlɪçə ˈzɪnlɪçkaɪt",
-    "meaning_en": "linguistic sensuousness",
-    "meaning_it": "sensualità linguistica",
-    "example": "Die sprachliche Sinnlichkeit dieses Textes ist selten.",
-    "example_it": "La sensualità linguistica di questo testo è rara.",
-    "cultural_note": "'Sinnlichkeit' viene da 'Sinn' (senso), riferito alla capacità di un testo di evocare esperienze sensoriali vivide.",
+    "ipa": "ˈzɪnlɪçkaɪ̯t",
+    "meaning_en": "sensuousness / sensuality",
+    "meaning_it": "sensualità / sensorialità",
+    "example": "Die Sinnlichkeit dieses Textes ist selten.",
+    "example_it": "La sensorialità di questo testo è rara.",
+    "cultural_note": "Da 'sinnlich' (dei sensi): la capacità di evocare sensazioni vivide; attenzione, può anche significare 'sensualità'.",
     "grammar_angle": "GENITIV_CASE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Praising vivid, sensory prose",
-    "example_en": "The linguistic sensuousness of this text is rare.",
-    "cultural_note_en": "'Sinnlichkeit' comes from 'Sinn' (sense), referring to a text's ability to evoke vivid sensory experiences."
+    "example_en": "The sensuousness of this text is rare.",
+    "cultural_note_en": "From 'sinnlich' (of the senses): the power to evoke vivid sensations; it can also mean 'sensuality'."
   },
   {
     "word": "Bildhaftigkeit",
@@ -4122,13 +4122,13 @@
     "meaning_it": "conflitto di coscienza",
     "example": "Sie steckte in einem echten Gewissenskonflikt.",
     "example_it": "Si trovava in un vero conflitto di coscienza.",
-    "cultural_note": "'Stecken in' regge il dativo: 'in einem Konflikt', struttura fissa per descrivere trovarsi in una situazione difficile.",
+    "cultural_note": "'Gewissenskonflikt' unisce 'Gewissen' e 'Konflikt': il dilemma interiore tra ciò che si vuole o deve fare e ciò che la coscienza ammette.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing a moral dilemma",
     "example_en": "She was caught in a real conflict of conscience.",
-    "cultural_note_en": "'Stecken in' takes the dative: 'in einem Konflikt', a fixed structure for describing being in a difficult situation."
+    "cultural_note_en": "'Gewissenskonflikt' combines 'Gewissen' and 'Konflikt': the inner dilemma between what one wants or must do and what conscience allows."
   },
   {
     "word": "Schuldgefühl",
@@ -4139,13 +4139,13 @@
     "meaning_it": "senso di colpa",
     "example": "Ein tiefes Schuldgefühl plagte ihn seit Jahren.",
     "example_it": "Un profondo senso di colpa lo tormentava da anni.",
-    "cultural_note": "'Plagen' regge l'accusativo diretto e significa 'tormentare, affliggere', un verbo formale non separabile.",
+    "cultural_note": "'Schuldgefühl' unisce 'Schuld' (colpa) e 'Gefühl' (sentimento); il plurale 'Schuldgefühle' è frequente in psicologia.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing lingering guilt",
     "example_en": "A deep feeling of guilt had plagued him for years.",
-    "cultural_note_en": "'Plagen' takes a direct accusative object and means 'to torment, afflict', a formal, non-separable verb."
+    "cultural_note_en": "'Schuldgefühl' combines 'Schuld' (guilt) and 'Gefühl' (feeling); the plural 'Schuldgefühle' is common in psychology."
   },
   {
     "word": "Läuterung",
@@ -4207,13 +4207,13 @@
     "meaning_it": "espiazione",
     "example": "Er suchte nach Sühne für seine Taten.",
     "example_it": "Cercava espiazione per le sue azioni.",
-    "cultural_note": "'Suchen nach' regge il dativo: 'nach Sühne', struttura fissa per esprimere la ricerca di qualcosa di astratto.",
+    "cultural_note": "Termine di registro elevato per l'espiazione di una colpa grave, in contesto morale, religioso o giuridico.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing atonement for wrongdoing",
     "example_en": "He sought atonement for his deeds.",
-    "cultural_note_en": "'Suchen nach' takes the dative: 'nach Sühne', a fixed structure for expressing the search for something abstract."
+    "cultural_note_en": "A high-register term for atonement for a serious wrong, in moral, religious or legal contexts."
   },
   {
     "word": "Vergeltung",
@@ -4222,15 +4222,15 @@
     "ipa": "fɛɐ̯ˈɡɛltʊŋ",
     "meaning_en": "retribution / retaliation",
     "meaning_it": "vendetta (ritorsione)",
-    "example": "Vergeltung löst selten echte Gerechtigkeit aus.",
+    "example": "Vergeltung schafft selten echte Gerechtigkeit.",
     "example_it": "La vendetta raramente produce vera giustizia.",
-    "cultural_note": "'Auslösen' è separabile e regge l'accusativo, significa 'produrre, innescare', usato spesso in senso critico.",
+    "cultural_note": "Indica il ripagare un torto con un altro torto, spesso con connotazione negativa, come in 'Vergeltungsschlag' (rappresaglia).",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing the ethics of revenge",
-    "example_en": "Retribution rarely produces true justice.",
-    "cultural_note_en": "'Auslösen' is separable and takes the accusative, meaning 'to produce, trigger', often used critically."
+    "example_en": "Retribution rarely creates true justice.",
+    "cultural_note_en": "Means paying back a wrong with another, often with a negative tone, as in 'Vergeltungsschlag' (retaliatory strike)."
   },
   {
     "word": "Vergebung",
@@ -4241,13 +4241,13 @@
     "meaning_it": "perdono",
     "example": "Vergebung fällt manchmal schwerer als Vergessen.",
     "example_it": "Il perdono a volte è più difficile del dimenticare.",
-    "cultural_note": "'Schwerer fallen als' regge il dativo e il comparativo, struttura fissa per esprimere che qualcosa è più difficile di un'altra cosa.",
+    "cultural_note": "Perdono, spesso in contesto religioso o morale; è più solenne di 'Verzeihung', che si usa per le scuse quotidiane.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing the difficulty of forgiving",
     "example_en": "Forgiveness is sometimes harder than forgetting.",
-    "cultural_note_en": "'Schwerer fallen als' takes the dative and a comparative, a fixed structure for expressing that something is harder than something else."
+    "cultural_note_en": "Forgiveness, often in a religious or moral context; more solemn than 'Verzeihung', which is used for everyday apologies."
   },
   {
     "word": "Reue",
@@ -4309,13 +4309,13 @@
     "meaning_it": "soddisfazione (rivalsa morale)",
     "example": "Der Sieg verschaffte ihr große Genugtuung.",
     "example_it": "La vittoria le ha procurato grande soddisfazione.",
-    "cultural_note": "'Verschaffen' regge il dativo della persona e l'accusativo della cosa procurata, un verbo formale non separabile.",
+    "cultural_note": "Indica la soddisfazione di vedere riparato un torto o riconosciuto un merito; più elevato di 'Zufriedenheit'.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing satisfaction from vindication",
     "example_en": "The victory brought her great satisfaction.",
-    "cultural_note_en": "'Verschaffen' takes the dative of the person and the accusative of the thing obtained, a formal, non-separable verb."
+    "cultural_note_en": "The satisfaction of seeing a wrong put right or merit recognised; more elevated than 'Zufriedenheit'."
   },
   {
     "word": "Triumphgefühl",
@@ -4326,13 +4326,13 @@
     "meaning_it": "senso di trionfo",
     "example": "Ein kurzes Triumphgefühl durchflutete ihn.",
     "example_it": "Un breve senso di trionfo lo pervase.",
-    "cultural_note": "'Durchfluten' non è separabile e regge l'accusativo diretto, letteralmente 'inondare completamente', usato figurativamente.",
+    "cultural_note": "'Triumphgefühl' unisce 'Triumph' e 'Gefühl': il senso di trionfo e vittoria, spesso breve e intenso.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Describing a fleeting sense of victory",
     "example_en": "A brief feeling of triumph flooded through him.",
-    "cultural_note_en": "'Durchfluten' is not separable and takes a direct accusative object, literally 'to flood completely', used figuratively."
+    "cultural_note_en": "'Triumphgefühl' combines 'Triumph' and 'Gefühl': the sense of triumph and victory, often brief and intense."
   },
   {
     "word": "Prophylaxe",
@@ -4386,21 +4386,21 @@
     "cultural_note_en": "'Resilienzfaktor' combines 'Resilienz' and 'Faktor', a key term in contemporary positive psychology."
   },
   {
-    "word": "Salutogenetisch denken",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "zalutoɡeˈneːtɪʃ ˈdɛŋkn̩",
-    "meaning_en": "to think salutogenically",
-    "meaning_it": "pensare in ottica salutogenetica",
-    "example": "Ärzte sollten stärker salutogenetisch denken.",
-    "example_it": "I medici dovrebbero pensare di più in ottica salutogenetica.",
-    "cultural_note": "'Stärker' rafforza il verbo, indicando un maggiore grado di applicazione di un approccio mentale.",
-    "grammar_angle": "VERB_CONJ_REGULAR",
+    "word": "Gesundheitsförderung",
+    "article": "die",
+    "part_of_speech": "noun",
+    "ipa": "ɡəˈzʊntha͡ɪtsˌfœʁdəʁʊŋ",
+    "meaning_en": "health promotion",
+    "meaning_it": "promozione della salute",
+    "example": "Betriebliche Gesundheitsförderung senkt langfristig die Krankenstände.",
+    "example_it": "La promozione della salute in azienda riduce nel lungo periodo le assenze per malattia.",
+    "cultural_note": "Termine della sanità pubblica: misure che rafforzano la salute (movimento, alimentazione) invece di curare le malattie; è vicino a 'Prävention'.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "health",
     "cefr_band": "C2",
-    "session_scenario": "Advocating a health-focused rather than illness-focused approach",
-    "example_en": "Doctors should think more salutogenically.",
-    "cultural_note_en": "'Stärker' intensifies the verb, indicating a greater degree of applying a mental approach."
+    "session_scenario": "Discussing public health and workplace wellbeing",
+    "example_en": "Workplace health promotion lowers sick leave in the long term.",
+    "cultural_note_en": "A public-health term: measures that strengthen health (exercise, diet) rather than treat illness; it is close to 'Prävention'."
   },
   {
     "word": "Kohärenzgefühl",
@@ -4428,13 +4428,13 @@
     "meaning_it": "vulnerabilità",
     "example": "Verletzlichkeit zu zeigen erfordert Mut.",
     "example_it": "Mostrare vulnerabilità richiede coraggio.",
-    "cultural_note": "'Zu zeigen' come infinito con 'zu' funziona da soggetto della frase, una costruzione comune in tedesco formale.",
+    "cultural_note": "'Verletzlichkeit' viene da 'verletzlich' (vulnerabile): la possibilità di essere feriti, anche emotivamente; oggi valorizzata in psicologia.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing emotional openness and courage",
     "example_en": "Showing vulnerability requires courage.",
-    "cultural_note_en": "'Zu zeigen' as a 'zu'-infinitive functions as the subject of the sentence, a common construction in formal German."
+    "cultural_note_en": "'Verletzlichkeit' comes from 'verletzlich' (vulnerable): the capacity to be hurt, also emotionally; now valued in psychology."
   },
   {
     "word": "Ambiguitätstoleranz",
@@ -4462,13 +4462,13 @@
     "meaning_it": "competenza interculturale",
     "example": "Interkulturelle Kompetenz wird im Beruf immer wichtiger.",
     "example_it": "La competenza interculturale diventa sempre più importante nella professione.",
-    "cultural_note": "'Immer wichtiger' rafforza il comparativo con 'immer', indicando un'importanza progressivamente crescente.",
+    "cultural_note": "Competenza chiave nel lavoro e nella formazione: la capacità di interagire bene con persone di culture diverse.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing cross-cultural workplace skills",
     "example_en": "Intercultural competence is becoming ever more important in the workplace.",
-    "cultural_note_en": "'Immer wichtiger' strengthens the comparative with 'immer', indicating a progressively growing importance."
+    "cultural_note_en": "A key skill at work and in education: the ability to interact well with people from different cultures."
   },
   {
     "word": "Feingefühl",
@@ -4530,13 +4530,13 @@
     "meaning_it": "lungimiranza",
     "example": "Diese Entscheidung zeugt von großem Weitblick.",
     "example_it": "Questa decisione denota grande lungimiranza.",
-    "cultural_note": "'Zeugen von' regge il dativo: 'von Weitblick', struttura fissa che significa 'testimoniare, denotare' una qualità.",
+    "cultural_note": "'Weitblick' unisce 'weit' (ampio) e 'Blick' (sguardo): la capacità di prevedere gli sviluppi futuri e di decidere di conseguenza.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Praising a far-sighted decision",
     "example_en": "This decision testifies to great foresight.",
-    "cultural_note_en": "'Zeugen von' takes the dative: 'von Weitblick', a fixed structure meaning 'to testify to, denote' a quality."
+    "cultural_note_en": "'Weitblick' combines 'weit' (wide) and 'Blick' (view): the ability to foresee future developments and decide accordingly."
   },
   {
     "word": "Weitsicht",
@@ -4590,21 +4590,21 @@
     "cultural_note_en": "'Weisheitslehre' combines 'Weisheit' (wisdom) and 'Lehre' (teaching), referring to ancient philosophical or spiritual traditions."
   },
   {
-    "word": "Fingerspitzengefühl verlieren",
-    "article": null,
-    "part_of_speech": "verb",
-    "ipa": "ˈfɪŋɐʃpɪtsn̩ɡəˌfyːl fɛɐ̯ˈliːʁən",
-    "meaning_en": "to lose one's touch/tact",
-    "meaning_it": "perdere il tatto (la sensibilità)",
-    "example": "In der Krise verlor er jegliches Fingerspitzengefühl.",
-    "example_it": "Nella crisi ha perso ogni sensibilità.",
-    "cultural_note": "'Jeglich' significa 'qualsiasi, ogni', un pronome indefinito di registro elevato più formale di 'jeder'.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "word": "Einfühlungsvermögen",
+    "article": "das",
+    "part_of_speech": "noun",
+    "ipa": "ˈaɪ̯nfyːlʊŋsfɛɐ̯ˌmøːɡn̩",
+    "meaning_en": "empathy / ability to empathise",
+    "meaning_it": "empatia / capacità di immedesimarsi",
+    "example": "Gute Führungskräfte brauchen echtes Einfühlungsvermögen.",
+    "example_it": "I buoni dirigenti hanno bisogno di vera empatia.",
+    "cultural_note": "Da 'sich einfühlen' e 'Vermögen' (capacità): saper capire gli stati d'animo altrui. È più comune di 'Empathie' nel linguaggio del lavoro.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing a loss of tact under pressure",
-    "example_en": "In the crisis he lost all sense of tact.",
-    "cultural_note_en": "'Jeglich' means 'any, every', an indefinite pronoun of higher register, more formal than 'jeder'."
+    "session_scenario": "Describing leadership qualities at work",
+    "example_en": "Good managers need real empathy.",
+    "cultural_note_en": "From 'sich einfühlen' and 'Vermögen' (ability): being able to grasp other people's feelings. It is more common than 'Empathie' in workplace language."
   },
   {
     "word": "Verantwortungsdiffusion",
@@ -4632,13 +4632,13 @@
     "meaning_it": "effetto spettatore",
     "example": "Der Zuschauereffekt wurde in vielen Studien bestätigt.",
     "example_it": "L'effetto spettatore è stato confermato in molti studi.",
-    "cultural_note": "'Bestätigt werden' è passivo, comune nel linguaggio della ricerca per descrivere risultati sperimentali confermati.",
+    "cultural_note": "Termine psicologico: più testimoni ci sono, meno è probabile che qualcuno aiuti; sinonimo di 'Bystander-Effekt'.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing social psychology experiments",
     "example_en": "The bystander effect has been confirmed in many studies.",
-    "cultural_note_en": "'Bestätigt werden' is passive, common in research language for describing confirmed experimental results."
+    "cultural_note_en": "A psychological term: the more witnesses there are, the less likely anyone is to help; a synonym of 'Bystander-Effekt'."
   },
   {
     "word": "Konformitätsexperiment",
@@ -4683,13 +4683,13 @@
     "meaning_it": "predisposizione all'obbedienza",
     "example": "Gehorsamsbereitschaft variiert stark je nach Kultur.",
     "example_it": "La predisposizione all'obbedienza varia molto a seconda della cultura.",
-    "cultural_note": "'Je nach' regge il dativo: 'je nach Kultur', struttura fissa che significa 'a seconda di'.",
+    "cultural_note": "'Gehorsamsbereitschaft' unisce 'Gehorsam' (obbedienza) e 'Bereitschaft' (disponibilità): la disposizione a obbedire a ordini o autorità.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing cultural variation in obedience to authority",
     "example_en": "Readiness to obey varies greatly depending on culture.",
-    "cultural_note_en": "'Je nach' takes the dative: 'je nach Kultur', a fixed structure meaning 'depending on'."
+    "cultural_note_en": "'Gehorsamsbereitschaft' combines 'Gehorsam' (obedience) and 'Bereitschaft' (readiness): the willingness to obey orders or authority."
   },
   {
     "word": "Selbstjustiz",
@@ -4734,13 +4734,13 @@
     "meaning_it": "denuncia (delazione)",
     "example": "Denunziation war im totalitären System weit verbreitet.",
     "example_it": "La delazione era molto diffusa nel sistema totalitario.",
-    "cultural_note": "'Weit verbreitet sein' significa 'essere molto diffuso', struttura passiva-aggettivale comune nel discorso storico.",
+    "cultural_note": "Indica l'accusa di qualcuno alle autorità, spesso per motivi personali o politici; ha connotazione negativa (delazione).",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing informant culture under authoritarian regimes",
     "example_en": "Denunciation was widespread in the totalitarian system.",
-    "cultural_note_en": "'Weit verbreitet sein' means 'to be widespread', a passive-adjectival structure common in historical discourse."
+    "cultural_note_en": "Means accusing someone to the authorities, often for personal or political motives; it has a negative tone."
   },
   {
     "word": "Bespitzelung",
@@ -4751,13 +4751,13 @@
     "meaning_it": "spionaggio (sorveglianza segreta)",
     "example": "Die Bespitzelung durch die Stasi traumatisierte viele.",
     "example_it": "Lo spionaggio da parte della Stasi ha traumatizzato molti.",
-    "cultural_note": "'Traumatisieren' regge l'accusativo diretto, un verbo formale usato in contesti storici e psicologici seri.",
+    "cultural_note": "'Bespitzelung' viene da 'Spitzel' (informatore, spia): sorveglianza segreta delle persone, tipica degli stati di polizia.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing East German secret police surveillance",
     "example_en": "Spying by the Stasi traumatized many.",
-    "cultural_note_en": "'Traumatisieren' takes a direct accusative object, a formal verb used in serious historical and psychological contexts."
+    "cultural_note_en": "'Bespitzelung' comes from 'Spitzel' (informer, spy): secret surveillance of people, typical of police states."
   },
   {
     "word": "Überwachungsstaat",
@@ -4768,13 +4768,13 @@
     "meaning_it": "stato di sorveglianza",
     "example": "Manche warnen vor einem digitalen Überwachungsstaat.",
     "example_it": "Alcuni mettono in guardia da uno stato di sorveglianza digitale.",
-    "cultural_note": "'Warnen vor' regge il dativo: 'vor einem Überwachungsstaat', struttura fissa per un avvertimento su un rischio politico.",
+    "cultural_note": "'Überwachungsstaat' unisce 'Überwachung' (sorveglianza) e 'Staat': uno stato che controlla sistematicamente i cittadini.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing concerns about mass surveillance",
     "example_en": "Some warn against a digital surveillance state.",
-    "cultural_note_en": "'Warnen vor' takes the dative: 'vor einem Überwachungsstaat', a fixed structure for a warning about a political risk."
+    "cultural_note_en": "'Überwachungsstaat' combines 'Überwachung' (surveillance) and 'Staat': a state that systematically monitors its citizens."
   },
   {
     "word": "Panoptikum",
@@ -4887,13 +4887,13 @@
     "meaning_it": "cittadinanza del mondo (cosmopolitismo)",
     "example": "Kant plädierte für ein Weltbürgertum.",
     "example_it": "Kant si è battuto per una cittadinanza del mondo.",
-    "cultural_note": "'Plädieren für' regge l'accusativo: 'für ein Weltbürgertum', concetto filosofico kantiano di pace perpetua e cittadinanza universale.",
+    "cultural_note": "'Weltbürgertum' unisce 'Weltbürger' e '-tum': l'idea cosmopolita di sentirsi cittadini del mondo oltre le nazioni, cara a Kant e all'Illuminismo.",
     "grammar_angle": "ACCUSATIVE_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing Kantian cosmopolitan philosophy",
     "example_en": "Kant advocated for a cosmopolitan citizenship of the world.",
-    "cultural_note_en": "'Plädieren für' takes the accusative: 'für ein Weltbürgertum', a Kantian philosophical concept of perpetual peace and universal citizenship."
+    "cultural_note_en": "'Weltbürgertum' combines 'Weltbürger' and '-tum': the cosmopolitan idea of being a citizen of the world beyond nations, dear to Kant and the Enlightenment."
   },
   {
     "word": "Menschheitsfamilie",
@@ -4904,13 +4904,13 @@
     "meaning_it": "famiglia umana (tutta l'umanità)",
     "example": "Wir gehören alle zur selben Menschheitsfamilie.",
     "example_it": "Apparteniamo tutti alla stessa famiglia umana.",
-    "cultural_note": "'Gehören zu' regge il dativo: 'zur selben Menschheitsfamilie', struttura fissa per esprimere appartenenza collettiva.",
+    "cultural_note": "'Menschheitsfamilie' unisce 'Menschheit' e 'Familie': immagine dell'intera umanità come un'unica famiglia, usata nel linguaggio solenne o umanitario.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing shared humanity across cultures",
     "example_en": "We all belong to the same human family.",
-    "cultural_note_en": "'Gehören zu' takes the dative: 'zur selben Menschheitsfamilie', a fixed structure for expressing collective belonging."
+    "cultural_note_en": "'Menschheitsfamilie' combines 'Menschheit' and 'Familie': an image of all humanity as one family, used in solemn or humanitarian language."
   },
   {
     "word": "Weltgemeinschaft",
@@ -4955,13 +4955,13 @@
     "meaning_it": "responsabilità globale",
     "example": "Große Nationen tragen eine besondere Weltverantwortung.",
     "example_it": "Le grandi nazioni portano una particolare responsabilità globale.",
-    "cultural_note": "'Tragen' significa in senso figurato 'sopportare, assumersi (una responsabilità)', un uso comune del verbo.",
+    "cultural_note": "'Weltverantwortung' unisce 'Welt' e 'Verantwortung': la responsabilità verso l'intera comunità mondiale, tema del dibattito politico; termine piuttosto raro.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing the global responsibilities of powerful nations",
     "example_en": "Great nations bear a special responsibility toward the world.",
-    "cultural_note_en": "'Tragen' means figuratively 'to bear, take on (a responsibility)', a common use of the verb."
+    "cultural_note_en": "'Weltverantwortung' combines 'Welt' and 'Verantwortung': responsibility toward the whole world community, a theme of political debate; a rather rare term."
   },
   {
     "word": "Menschenwürde",
@@ -4989,13 +4989,13 @@
     "meaning_it": "inviolabilità",
     "example": "Die Unantastbarkeit der Menschenwürde ist unumstößlich.",
     "example_it": "L'inviolabilità della dignità umana è incontestabile.",
-    "cultural_note": "'Unumstößlich' significa 'incrollabile, incontestabile', un aggettivo di registro molto elevato per principi assoluti.",
+    "cultural_note": "'Unantastbarkeit' viene da 'unantastbar' (che non si può toccare): la qualità di ciò che non va violato, come la dignità umana nell'art. 1 del Grundgesetz.",
     "grammar_angle": "GENITIV_CASE",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing fundamental inalienable rights",
     "example_en": "The inviolability of human dignity is irrefutable.",
-    "cultural_note_en": "'Unumstößlich' means 'unshakeable, incontestable', a very high-register adjective for absolute principles."
+    "cultural_note_en": "'Unantastbarkeit' comes from 'unantastbar' (untouchable): the quality of what must not be violated, like human dignity in Article 1 of the Grundgesetz."
   },
   {
     "word": "Gattungswesen",
@@ -5023,13 +5023,13 @@
     "meaning_it": "spinta all'autorealizzazione",
     "example": "Der Selbstverwirklichungsdrang treibt viele Künstler an.",
     "example_it": "La spinta all'autorealizzazione muove molti artisti.",
-    "cultural_note": "'Antreiben' è separabile e significa 'spingere, motivare', usato per una forza psicologica interna profonda.",
+    "cultural_note": "'Selbstverwirklichungsdrang' unisce 'Selbstverwirklichung' (autorealizzazione) e 'Drang' (impulso): una forte spinta interiore a sviluppare le proprie capacità.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing artistic motivation and self-fulfillment",
     "example_en": "The drive for self-actualisation motivates many artists.",
-    "cultural_note_en": "'Antreiben' is separable and means 'to drive, motivate', used for a deep inner psychological force."
+    "cultural_note_en": "'Selbstverwirklichungsdrang' combines 'Selbstverwirklichung' (self-actualisation) and 'Drang' (urge): a strong inner push to develop one's abilities."
   },
   {
     "word": "bekräftigen",
@@ -5100,21 +5100,21 @@
     "cultural_note_en": "Inseparable verb with the accusative: you 'beanstanden' a defect. The noun is 'Beanstandung' (complaint)."
   },
   {
-    "word": "Futterneid unter Kollegen",
-    "article": "der",
+    "word": "Missgunst",
+    "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ˈfʊtɐˌnaɪt ʊntɐ koˈleːɡn̩",
-    "meaning_en": "professional jealousy among colleagues",
-    "meaning_it": "invidia professionale tra colleghi",
-    "example": "Futterneid unter Kollegen vergiftet das Betriebsklima.",
-    "example_it": "L'invidia professionale tra colleghi avvelena il clima aziendale.",
-    "cultural_note": "'Vergiften' regge l'accusativo diretto, significa 'avvelenare', usato figurativamente per un clima sociale danneggiato.",
-    "grammar_angle": "DATIV_PREP",
+    "ipa": "ˈmɪsɡʊnst",
+    "meaning_en": "resentful envy / ill will",
+    "meaning_it": "invidia malevola",
+    "example": "Missgunst vergiftet oft das Klima im Team.",
+    "example_it": "L'invidia malevola avvelena spesso il clima nel team.",
+    "cultural_note": "Più di 'Neid': è l'ostilità verso chi ha più successo, senza augurargli il bene; è il contrario di 'Gunst' (favore).",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing how workplace jealousy poisons morale",
-    "example_en": "Professional jealousy among colleagues poisons workplace morale.",
-    "cultural_note_en": "'Vergiften' takes a direct accusative object, meaning 'to poison', used figuratively for a damaged social climate."
+    "session_scenario": "Discussing tensions among colleagues",
+    "example_en": "Resentful envy often poisons the atmosphere in a team.",
+    "cultural_note_en": "More than 'Neid': hostility toward someone more successful, wishing them no good; it is the opposite of 'Gunst' (favour)."
   },
   {
     "word": "Konkurrenzneid",
@@ -5125,13 +5125,13 @@
     "meaning_it": "invidia da concorrenza",
     "example": "Konkurrenzneid ist unter Geschwistern weit verbreitet.",
     "example_it": "L'invidia da concorrenza è molto diffusa tra fratelli.",
-    "cultural_note": "'Weit verbreitet sein' significa 'essere molto diffuso', struttura passiva-aggettivale comune per fenomeni sociali generali.",
+    "cultural_note": "'Konkurrenzneid' unisce 'Konkurrenz' e 'Neid': l'invidia verso chi è un rivale o ha più successo.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "home",
     "cefr_band": "C2",
     "session_scenario": "Discussing sibling rivalry",
     "example_en": "Competitive envy is widespread among siblings.",
-    "cultural_note_en": "'Weit verbreitet sein' means 'to be widespread', a passive-adjectival structure common for general social phenomena."
+    "cultural_note_en": "'Konkurrenzneid' combines 'Konkurrenz' and 'Neid': envy of a rival or of someone more successful."
   },
   {
     "word": "Geschwisterrivalität",
@@ -5227,13 +5227,13 @@
     "meaning_it": "dolore per la separazione",
     "example": "Trennungsschmerz verblasst irgendwann.",
     "example_it": "Il dolore per la separazione col tempo sbiadisce.",
-    "cultural_note": "'Verblassen' significa 'sbiadire, affievolirsi', un verbo poetico usato spesso per emozioni che si attenuano nel tempo.",
+    "cultural_note": "'Trennungsschmerz' unisce 'Trennung' (separazione) e 'Schmerz' (dolore): la sofferenza dopo la fine di una relazione o un distacco.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing healing after a breakup",
     "example_en": "Breakup pain fades eventually.",
-    "cultural_note_en": "'Verblassen' means 'to fade, weaken', a poetic verb often used for emotions that lessen over time."
+    "cultural_note_en": "'Trennungsschmerz' combines 'Trennung' (separation) and 'Schmerz' (pain): the suffering after a relationship ends or a parting."
   },
   {
     "word": "Sturheit",
@@ -5244,13 +5244,13 @@
     "meaning_it": "testardaggine",
     "example": "Seine Sturheit brachte das ganze Projekt in Gefahr.",
     "example_it": "La sua testardaggine ha messo in pericolo l'intero progetto.",
-    "cultural_note": "'In Gefahr bringen' è una collocazione fissa che significa 'mettere in pericolo', usata spesso in contesti formali.",
+    "cultural_note": "'Sturheit' viene da 'stur' (testardo): ostinazione che rifiuta ragioni o cambiamenti, con connotazione negativa.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing how stubbornness derailed a project",
     "example_en": "His stubbornness put the whole project at risk.",
-    "cultural_note_en": "'In Gefahr bringen' is a fixed collocation meaning 'to endanger', often used in formal contexts."
+    "cultural_note_en": "'Sturheit' comes from 'stur' (stubborn): obstinacy that refuses reasons or change, with a negative tone."
   },
   {
     "word": "Dickköpfigkeit",
@@ -5278,13 +5278,13 @@
     "meaning_it": "perseveranza (ostinazione positiva)",
     "example": "Seine Beharrlichkeit zahlte sich am Ende aus.",
     "example_it": "La sua perseveranza alla fine ha dato i suoi frutti.",
-    "cultural_note": "'Sich auszahlen' è riflessivo e separabile, significa 'ripagare, dare frutti', usato per sforzi che alla fine portano risultati.",
+    "cultural_note": "'Beharrlichkeit' viene da 'beharren' (insistere): perseveranza costante nel perseguire un obiettivo, con connotazione positiva.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing persistence that eventually paid off",
     "example_en": "His persistence paid off in the end.",
-    "cultural_note_en": "'Sich auszahlen' is reflexive and separable, meaning 'to pay off', used for efforts that eventually bear results."
+    "cultural_note_en": "'Beharrlichkeit' comes from 'beharren' (to persist): steady perseverance in pursuing a goal, with a positive tone."
   },
   {
     "word": "Instandhaltung",
@@ -5380,13 +5380,13 @@
     "meaning_it": "intransigenza (assenza di compromesso)",
     "example": "Kompromisslosigkeit kann sowohl Stärke als auch Schwäche sein.",
     "example_it": "L'intransigenza può essere sia forza che debolezza.",
-    "cultural_note": "'Sowohl ... als auch' è la struttura fissa per 'sia ... sia', esprimendo che due qualità coesistono in una cosa.",
+    "cultural_note": "'Kompromisslosigkeit' unisce 'Kompromiss' e '-los' (senza): l'atteggiamento di chi non accetta compromessi.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing the double-edged nature of rigidity",
     "example_en": "Being uncompromising can be both a strength and a weakness.",
-    "cultural_note_en": "'Sowohl ... als auch' is the fixed structure for 'both ... and', expressing that two qualities coexist in one thing."
+    "cultural_note_en": "'Kompromisslosigkeit' combines 'Kompromiss' and '-los' (without): the attitude of someone who accepts no compromise."
   },
   {
     "word": "Nachgiebigkeit",
@@ -5397,13 +5397,13 @@
     "meaning_it": "arrendevolezza",
     "example": "Zu viel Nachgiebigkeit wird oft ausgenutzt.",
     "example_it": "Troppa arrendevolezza viene spesso sfruttata.",
-    "cultural_note": "'Ausgenutzt werden' è passivo, usato per descrivere come una qualità positiva può essere sfruttata da altri.",
+    "cultural_note": "'Nachgiebigkeit' viene da 'nachgeben' (cedere): la disponibilità a cedere o venire incontro; positiva o negativa a seconda del contesto.",
     "grammar_angle": "PASSIVE_VOICE",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Discussing the downside of being too accommodating",
     "example_en": "Too much accommodation is often exploited.",
-    "cultural_note_en": "'Ausgenutzt werden' is passive, used to describe how a positive quality can be exploited by others."
+    "cultural_note_en": "'Nachgiebigkeit' comes from 'nachgeben' (to yield): the readiness to give way or accommodate; positive or negative depending on context."
   },
   {
     "word": "Rückgrat zeigen",
@@ -5431,13 +5431,13 @@
     "meaning_it": "forza di carattere",
     "example": "Charakterstärke zeigt sich in schwierigen Momenten.",
     "example_it": "La forza di carattere si mostra nei momenti difficili.",
-    "cultural_note": "'Sich zeigen in' regge il dativo: 'in schwierigen Momenten', struttura fissa per indicare dove una qualità si manifesta.",
+    "cultural_note": "'Charakterstärke' unisce 'Charakter' e 'Stärke': saldezza morale e coerenza di fronte alle difficoltà.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing character shown in adversity",
     "example_en": "Strength of character shows itself in difficult moments.",
-    "cultural_note_en": "'Sich zeigen in' takes the dative: 'in schwierigen Momenten', a fixed structure for indicating where a quality manifests."
+    "cultural_note_en": "'Charakterstärke' combines 'Charakter' and 'Stärke': moral firmness and consistency in the face of difficulty."
   },
   {
     "word": "Kleinstaaterei",
@@ -5482,30 +5482,30 @@
     "meaning_it": "provincialismo",
     "example": "Man warf der Debatte Provinzialismus vor.",
     "example_it": "Si accusò il dibattito di provincialismo.",
-    "cultural_note": "'Vorwerfen' regge il dativo dell'entità criticata e l'accusativo dell'accusa, come 'jemandem etwas vorwerfen'.",
+    "cultural_note": "'Provinzialismus' indica una mentalità o un modo di fare ristretto, tipico della provincia; spesso è un rimprovero rivolto a dibattiti o istituzioni.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Criticising narrow, insular thinking in a debate",
     "example_en": "The debate was accused of provincialism.",
-    "cultural_note_en": "'Vorwerfen' takes the dative of the criticized entity and the accusative of the accusation, as in 'jemandem etwas vorwerfen'."
+    "cultural_note_en": "'Provinzialismus' denotes a narrow, parochial outlook typical of the provinces; often a reproach aimed at debates or institutions."
   },
   {
-    "word": "fehlende Weltoffenheit",
+    "word": "Rivalität",
     "article": "die",
     "part_of_speech": "noun",
-    "ipa": "ˈfeːləndə ˈvɛltʔɔfn̩haɪt",
-    "meaning_en": "lacking cosmopolitanism",
-    "meaning_it": "mancanza di apertura mentale",
-    "example": "Fehlende Weltoffenheit bremst die Innovation.",
-    "example_it": "La mancanza di apertura mentale frena l'innovazione.",
-    "cultural_note": "'Bremsen' regge l'accusativo diretto e significa 'frenare, ostacolare', usato spesso in contesti economici e culturali.",
-    "grammar_angle": "ACCUSATIVE_MASC",
+    "ipa": "ʁivaliˈtɛːt",
+    "meaning_en": "rivalry",
+    "meaning_it": "rivalità",
+    "example": "Die Rivalität zwischen den Abteilungen lähmt das Unternehmen.",
+    "example_it": "La rivalità tra i reparti paralizza l'azienda.",
+    "cultural_note": "Dal francese 'rivalité': i sostantivi in '-ität' sono sempre femminili ('die Rivalität').",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "C2",
-    "session_scenario": "Discussing how insularity hinders innovation",
-    "example_en": "Lacking cosmopolitanism holds back innovation.",
-    "cultural_note_en": "'Bremsen' takes a direct accusative object and means 'to brake, hinder', often used in economic and cultural contexts."
+    "session_scenario": "Analysing conflict between departments",
+    "example_en": "The rivalry between departments paralyses the company.",
+    "cultural_note_en": "From French 'rivalité': nouns ending in '-ität' are always feminine ('die Rivalität')."
   },
   {
     "word": "Beharrungsvermögen",
@@ -5533,7 +5533,7 @@
     "meaning_it": "blocco delle riforme",
     "example": "Der Reformstau belastet die Wirtschaft.",
     "example_it": "Il blocco delle riforme pesa sull'economia.",
-    "cultural_note": "'Reformstau' unisce 'Reform' und 'Stau' (ingorgo): un accumulo di riforme necessarie ma mai attuate.",
+    "cultural_note": "'Reformstau' unisce 'Reform' e 'Stau' (ingorgo): un accumulo di riforme necessarie ma mai attuate.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
@@ -5550,13 +5550,13 @@
     "meaning_it": "burocratismo",
     "example": "Bürokratismus lähmt viele Verwaltungen.",
     "example_it": "Il burocratismo paralizza molte amministrazioni.",
-    "cultural_note": "'Lähmen' regge l'accusativo diretto e significa 'paralizzare', un verbo formale usato per descrivere blocchi istituzionali.",
+    "cultural_note": "'Bürokratismus' indica con tono critico un eccesso di burocrazia, con procedure rigide e fini a se stesse.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "work",
     "cefr_band": "C2",
     "session_scenario": "Criticising excessive bureaucratic procedure",
     "example_en": "Bureaucratism paralyzes many administrations.",
-    "cultural_note_en": "'Lähmen' takes a direct accusative object and means 'to paralyze', a formal verb used to describe institutional gridlock."
+    "cultural_note_en": "'Bürokratismus' critically denotes excessive bureaucracy, with rigid procedures that become ends in themselves."
   },
   {
     "word": "Regulierungswut",
@@ -5567,7 +5567,7 @@
     "meaning_it": "frenesia regolatoria",
     "example": "Manche kritisieren die europäische Regulierungswut.",
     "example_it": "Alcuni criticano la frenesia regolatoria europea.",
-    "cultural_note": "'Regulierungswut' unisce 'Regulierung' und 'Wut' (rabbia, in senso figurato 'mania eccessiva'): un eccesso critico di normative.",
+    "cultural_note": "'Regulierungswut' unisce 'Regulierung' e 'Wut' (rabbia, in senso figurato 'mania eccessiva'): un eccesso critico di normative.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
@@ -5635,13 +5635,13 @@
     "meaning_it": "buonismo (peggiorativo)",
     "example": "Der Begriff Gutmenschentum wird oft abwertend benutzt.",
     "example_it": "Il termine 'buonismo' viene spesso usato in senso spregiativo.",
-    "cultural_note": "Termine controverso, originariamente neutro poi diventato peggiorativo per descrivere un idealismo morale percepito come ingenuo.",
+    "cultural_note": "Termine polemico e spregiativo: indica con ironia un moralismo giudicato ingenuo o ipocrita.",
     "grammar_angle": "WORD_ORDER_V2",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing loaded political vocabulary",
     "example_en": "The term 'do-gooderism' is often used pejoratively.",
-    "cultural_note_en": "A controversial term, originally neutral but later become pejorative for describing moral idealism perceived as naive."
+    "cultural_note_en": "A polemical, pejorative term: ironically denotes moralism judged naive or hypocritical."
   },
   {
     "word": "Empörungsindustrie",
@@ -5652,13 +5652,13 @@
     "meaning_it": "industria dell'indignazione",
     "example": "Die Empörungsindustrie lebt von schnellen Urteilen.",
     "example_it": "L'industria dell'indignazione vive di giudizi rapidi.",
-    "cultural_note": "'Leben von' regge il dativo: 'von schnellen Urteilen', struttura fissa per indicare da cosa qualcosa trae sostentamento.",
+    "cultural_note": "'Empörungsindustrie' è un termine critico per l'insieme di media e attori che traggono profitto dall'indignazione collettiva.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Criticising media that profits from public outrage",
     "example_en": "The outrage industry lives off snap judgments.",
-    "cultural_note_en": "'Leben von' takes the dative: 'von schnellen Urteilen', a fixed structure for indicating what something draws its sustenance from."
+    "cultural_note_en": "'Empörungsindustrie' is a critical term for the media and actors who profit from collective outrage."
   },
   {
     "word": "Skandalisierung",
@@ -5686,13 +5686,13 @@
     "meaning_it": "ondata di indignazione",
     "example": "Eine Empörungswelle rollte durch die sozialen Medien.",
     "example_it": "Un'ondata di indignazione ha attraversato i social media.",
-    "cultural_note": "'Rollen durch' descrive un movimento diffuso e travolgente, spesso usato per fenomeni virali sui social media.",
+    "cultural_note": "'Empörungswelle' è un'ondata improvvisa e diffusa di indignazione pubblica, tipica dei social media.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing a viral social media controversy",
     "example_en": "A wave of outrage rolled through social media.",
-    "cultural_note_en": "'Rollen durch' describes a sweeping, pervasive movement, often used for viral social-media phenomena."
+    "cultural_note_en": "'Empörungswelle' is a sudden, widespread surge of public indignation, typical of social media."
   },
   {
     "word": "Skandalmüdigkeit",
@@ -5703,13 +5703,13 @@
     "meaning_it": "stanchezza da scandali",
     "example": "Viele Bürger leiden an Skandalmüdigkeit.",
     "example_it": "Molti cittadini soffrono di stanchezza da scandali.",
-    "cultural_note": "'Leiden an' regge il dativo: 'an Skandalmüdigkeit', struttura fissa per esprimere una sofferenza legata a un fenomeno sociale.",
+    "cultural_note": "'Skandalmüdigkeit' indica la stanchezza del pubblico verso gli scandali, che ormai non suscitano più reazioni.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing public desensitisation to political scandals",
     "example_en": "Many citizens suffer from scandal fatigue.",
-    "cultural_note_en": "'Leiden an' takes the dative: 'an Skandalmüdigkeit', a fixed structure for expressing suffering tied to a social phenomenon."
+    "cultural_note_en": "'Skandalmüdigkeit' denotes the public's weariness with scandals, which no longer provoke a reaction."
   },
   {
     "word": "Politikverdruss",
@@ -5737,13 +5737,13 @@
     "meaning_it": "stanchezza verso il sistema (istituzioni)",
     "example": "Systemmüdigkeit macht sich in vielen Demokratien breit.",
     "example_it": "La stanchezza verso il sistema si diffonde in molte democrazie.",
-    "cultural_note": "'Sich breitmachen' è separabile e riflessivo, significa 'diffondersi', usato per fenomeni sociali negativi in espansione.",
+    "cultural_note": "'Systemmüdigkeit' unisce 'System' e 'müde': il senso di stanchezza e sfiducia verso le istituzioni esistenti.",
     "grammar_angle": "DATIV_PREP",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing widespread institutional fatigue",
     "example_en": "System fatigue is spreading in many democracies.",
-    "cultural_note_en": "'Sich breitmachen' is separable and reflexive, meaning 'to spread', used for expanding negative social phenomena."
+    "cultural_note_en": "'Systemmüdigkeit' combines 'System' and 'müde': a sense of weariness and distrust toward existing institutions."
   },
   {
     "word": "Reformmüdigkeit",
@@ -5754,13 +5754,13 @@
     "meaning_it": "stanchezza da riforme",
     "example": "Reformmüdigkeit erschwert weitere Veränderungen.",
     "example_it": "La stanchezza da riforme rende difficili ulteriori cambiamenti.",
-    "cultural_note": "'Erschweren' regge l'accusativo diretto e significa 'rendere difficile', un verbo formale non separabile.",
+    "cultural_note": "'Reformmüdigkeit' unisce 'Reform' e 'müde': la stanchezza di una società verso continui cambiamenti.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing resistance to further political change",
     "example_en": "Reform fatigue makes further changes harder.",
-    "cultural_note_en": "'Erschweren' takes a direct accusative object and means 'to make difficult', a formal, non-separable verb."
+    "cultural_note_en": "'Reformmüdigkeit' combines 'Reform' and 'müde': a society's weariness with constant change."
   },
   {
     "word": "Krisenmüdigkeit",
@@ -5771,13 +5771,13 @@
     "meaning_it": "stanchezza da crisi",
     "example": "Krisenmüdigkeit betrifft besonders junge Menschen.",
     "example_it": "La stanchezza da crisi colpisce soprattutto i giovani.",
-    "cultural_note": "'Betreffen' regge l'accusativo diretto senza preposizione, un verbo formale comune per descrivere chi è colpito da un fenomeno.",
+    "cultural_note": "'Krisenmüdigkeit' unisce 'Krise' e 'müde': l'esaurimento emotivo di fronte a crisi che si susseguono.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "health",
     "cefr_band": "C2",
     "session_scenario": "Discussing collective exhaustion from repeated crises",
     "example_en": "Crisis fatigue especially affects young people.",
-    "cultural_note_en": "'Betreffen' takes a direct accusative object with no preposition, a common formal verb for describing who is affected by a phenomenon."
+    "cultural_note_en": "'Krisenmüdigkeit' combines 'Krise' and 'müde': emotional exhaustion in the face of successive crises."
   },
   {
     "word": "Untergangsprophet",
@@ -5805,13 +5805,13 @@
     "meaning_it": "allarmismo",
     "example": "Man wirft Wissenschaftlern manchmal Alarmismus vor.",
     "example_it": "A volte si accusa gli scienziati di allarmismo.",
-    "cultural_note": "'Vorwerfen' regge il dativo e l'accusativo, struttura fissa per un'accusa, qui contestata da chi difende gli allarmi come giustificati.",
+    "cultural_note": "'Alarmismus' indica con tono critico la tendenza a dare l'allarme in modo esagerato per rischi o pericoli.",
     "grammar_angle": "DATIV_INDIRECT_OBJ",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing accusations of exaggerated warnings",
     "example_en": "Scientists are sometimes accused of alarmism.",
-    "cultural_note_en": "'Vorwerfen' takes the dative and accusative, a fixed structure for an accusation, here contested by those defending the warnings as justified."
+    "cultural_note_en": "'Alarmismus' critically denotes the tendency to raise exaggerated alarm about risks or dangers."
   },
   {
     "word": "Panikmache",
@@ -5848,21 +5848,21 @@
     "cultural_note_en": "'Sternstunde' combines 'Stern' (star) and 'Stunde' (hour): an exceptional, rare historical moment of great positive importance."
   },
   {
-    "word": "entscheidender Wendepunkt",
+    "word": "Kurswechsel",
     "article": "der",
     "part_of_speech": "noun",
-    "ipa": "ɛntˈʃaɪdəndɐ ˈvɛndəˌpʊŋkt",
-    "meaning_en": "decisive turning point",
-    "meaning_it": "punto di svolta decisivo",
-    "example": "Dieser Moment war ein entscheidender Wendepunkt.",
-    "example_it": "Questo momento è stato un punto di svolta decisivo.",
-    "cultural_note": "'Entscheidend' come participio presente usato come aggettivo significa 'decisivo', rafforzando 'Wendepunkt'.",
-    "grammar_angle": "WORD_ORDER_V2",
+    "ipa": "ˈkʊʁsˌvɛksl̩",
+    "meaning_en": "change of course",
+    "meaning_it": "cambio di rotta",
+    "example": "Der Konzern vollzog einen radikalen Kurswechsel.",
+    "example_it": "Il gruppo ha compiuto un radicale cambio di rotta.",
+    "cultural_note": "Viene dal linguaggio marinaro ('Kurs' = rotta) e si usa in politica e in economia per una svolta di strategia.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Discussing a pivotal moment in someone's life",
-    "example_en": "This moment was a decisive turning point.",
-    "cultural_note_en": "'Entscheidend' as a present participle used as an adjective means 'decisive', reinforcing 'Wendepunkt'."
+    "session_scenario": "Describing a major strategic shift",
+    "example_en": "The group made a radical change of course.",
+    "cultural_note_en": "From nautical language ('Kurs' = heading), used in politics and business for a shift in strategy."
   },
   {
     "word": "Schicksalsstunde",
@@ -5907,13 +5907,13 @@
     "meaning_it": "atmosfera da fine del mondo",
     "example": "Eine leise Weltuntergangsstimmung durchzog die Kunst der Zeit.",
     "example_it": "Una sommessa atmosfera da fine del mondo pervadeva l'arte dell'epoca.",
-    "cultural_note": "'Durchziehen' non è separabile e regge l'accusativo diretto, significa 'pervadere, attraversare interamente'.",
+    "cultural_note": "'Weltuntergangsstimmung' unisce 'Weltuntergang' (fine del mondo) e 'Stimmung' (atmosfera): un clima diffuso di catastrofe imminente.",
     "grammar_angle": "ACCUSATIVE_MASC",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing apocalyptic themes in art",
     "example_en": "A quiet apocalyptic mood ran through the art of the time.",
-    "cultural_note_en": "'Durchziehen' is not separable and takes a direct accusative object, meaning 'to pervade, run entirely through'."
+    "cultural_note_en": "'Weltuntergangsstimmung' combines 'Weltuntergang' (end of the world) and 'Stimmung' (mood): a pervasive sense of impending catastrophe."
   },
   {
     "word": "Aufbruchszeit",
@@ -5950,21 +5950,21 @@
     "cultural_note_en": "'Umwälzung' comes from 'umwälzen' (to overturn, upend): a change so profound it overturns the existing order."
   },
   {
-    "word": "historische Zeitenwende",
-    "article": "die",
+    "word": "Unrechtsstaat",
+    "article": "der",
     "part_of_speech": "noun",
-    "ipa": "hɪsˈtoːʁɪʃə ˈtsaɪtn̩ˌvɛndə",
-    "meaning_en": "historic turning point of an era",
-    "meaning_it": "svolta epocale storica",
-    "example": "Historiker sprechen von einer historischen Zeitenwende.",
-    "example_it": "Gli storici parlano di una svolta epocale storica.",
-    "cultural_note": "'Sprechen von' regge il dativo: 'von einer Zeitenwende', struttura fissa per introdurre un giudizio storico interpretativo.",
-    "grammar_angle": "DATIV_PREP",
+    "ipa": "ˈʊnʁɛçt͡sˌʃtaːt",
+    "meaning_en": "state based on injustice",
+    "meaning_it": "Stato di non diritto",
+    "example": "Die DDR wird oft als Unrechtsstaat bezeichnet.",
+    "example_it": "La DDR viene spesso definita uno Stato di non diritto.",
+    "cultural_note": "Opposto di 'Rechtsstaat': Stato in cui il potere viola sistematicamente il diritto; termine centrale nel dibattito sulla DDR e sul regime nazista.",
+    "grammar_angle": "NOUN_GENDER",
     "topic_domain": "culture",
     "cefr_band": "C2",
-    "session_scenario": "Discussing how historians frame major transitions",
-    "example_en": "Historians speak of a historic turning point of an era.",
-    "cultural_note_en": "'Sprechen von' takes the dative: 'von einer Zeitenwende', a fixed structure for introducing an interpretive historical judgment."
+    "session_scenario": "Debating how to judge a dictatorship",
+    "example_en": "The GDR is often described as an Unrechtsstaat.",
+    "cultural_note_en": "The opposite of 'Rechtsstaat': a state whose rulers systematically violate the law; a central term in the debate on the GDR and the Nazi regime."
   },
   {
     "word": "Aufbruchsgeist",
@@ -6094,12 +6094,12 @@
     "meaning_it": "funzione di controllo (guardiano dell'accesso)",
     "example": "Redaktionen übten früher eine wichtige Torwächterfunktion aus.",
     "example_it": "Le redazioni un tempo esercitavano un'importante funzione di controllo.",
-    "cultural_note": "'Ausüben' regge l'accusativo diretto, è separabile e significa 'esercitare (una funzione)', comune nel discorso sui media.",
+    "cultural_note": "'Torwächterfunktion' (Gatekeeping) è il ruolo di selezionare quali informazioni arrivano al pubblico, tipico di redazioni e media.",
     "grammar_angle": "SEPARABLE_VERB",
     "topic_domain": "culture",
     "cefr_band": "C2",
     "session_scenario": "Discussing the traditional media gatekeeper role",
     "example_en": "Editorial offices once exercised an important gatekeeper function.",
-    "cultural_note_en": "'Ausüben' takes a direct accusative object, is separable, and means 'to exercise (a function)', common in media discourse."
+    "cultural_note_en": "'Torwächterfunktion' (gatekeeping) is the role of selecting which information reaches the public, typical of newsrooms and media."
   }
 ]

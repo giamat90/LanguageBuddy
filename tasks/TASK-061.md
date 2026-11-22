@@ -1,6 +1,6 @@
 # TASK-061 — Native-agent sweep of the whole word banks for the error classes found in TASK-058
 
-**Status:** `ready` (optional: run after TASK-059 and TASK-060; the Product Owner decides whether the cost is worth it)
+**Status:** `done` (cheaper variant: C1/C2 notes and entries only)
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-059, TASK-060

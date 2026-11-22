@@ -3,14 +3,10 @@ C1	Fingerspitzengefühl	繊細な感覚、機転	この交渉には本当の機�
 C1	Doppelgänger	そっくりな人、ドッペルゲンガー	彼は旅先で自分とそっくりな人に出会いました。	ドイツ・ロマン主義文学では、ドッペルゲンガーは超自然的なもう一人の自分だった。E.T.A.ホフマンが有名にし、フロイトが精神分析で再び取り上げた。
 C1	es heißt	～と言われている、～と書いてある	発表には、工場は閉鎖されたと書かれています。	「Es heißt, ...」は、文章などで言われている、書かれている内容を導く。間接話法では、続く文が接続法I式（「sei」）になることが多い。
 C1	Vergangenheitsbewältigung	過去の克服	過去の克服はドイツのアイデンティティの中心的な部分です。	ドイツ特有の複合語で、学校、記念碑、法律を通じて、ナチズムと向き合い続ける社会全体の過程を表す。
-C1	vorgeworfen werden	非難される	彼は過失を非難されています。	'vorwerfen' の受動態では、非難が非人称化される。これはドイツの法律や報道の言語の慎重さを反映した表現である。
 C1	Schadenersatz	損害賠償	その企業は損害賠償を支払わなければなりません。	ドイツの消費者法はヨーロッパでも最も強力なものの一つで、損害賠償の請求はごく普通のこととされている。
 C1	Heimlichkeit	秘密、こそこそしていること	会合が秘密だったことが、わくわくさせました。	「heimlich」（秘密の、ひそかな）から来た語。複数形「Heimlichkeiten」は小さな秘密を意味し、「unheimlich」は不気味なという意味になる。
 C1	Querdenker	型にとらわれない思考の人、異端児	型にとらわれない思考の人として、彼はいつも風変わりな解決策を見つけます。	もともとは創造的な思考の持ち主を指す肯定的な語だったが、2020〜21年に反ロックダウン運動を指す語として再定義された。政治的圧力による意味変化の顕著な例である。
-C1	Weltschmerz	世界苦、厭世的な悲しみ	彼の目には深い世界苦が宿っていました。	1827年にジャン・パウルが作った語で、現実と理想の隔たりがもたらす苦痛を表す。ドイツ・ロマン主義の中心的な概念である。
 C1	beileibe nicht	決して〜ではない（強調）	それは決して唯一の説明ではありません。	強調を表す教養層の表現で、'bei Leibe'（「我が身にかけて」）という古い誓いの言葉が言語の中で化石化したものである。
-C1	der zu erwartende Widerstand	予想される抵抗	住民から予想される抵抗は過小評価されていました。	拡張分詞（'zu erwartende'）は、名詞の前で関係節全体を圧縮する。ドイツ語の行政文体の特徴である。
-C1	unterderhand	こっそりと、内密に	その住居はこっそりと割り当てられました。	非常に具体的なイメージで、「手の下で」、つまり公式な経路の外で、しばしば適切な人脈を持つ人に行われることを指す。
 C1	Gratwanderung	綱渡りのような微妙なバランス	その改革は、節約と投資の間の綱渡りのような微妙なバランスです。	アルプスのイメージで、'Grat' は山の露出した尾根を指す。それを歩くことは、両側が断崖の中を進むことを意味する。
 C1	es sei denn	〜でない限り	私たちは明日出発します。ただし、天気が悪くなる場合は別です。	接続法I（'sei'）の化石で、この句は固定化しており、接続法が他では消えた場面でも生き残っている。
 C1	Zumutung	無理な要求、理不尽な負担	この労働条件は理不尽です。	'jemandem etwas zumuten'（誰かに過度なことを求める）に由来する。「eine Zumutung」と言うのは、強いが落ち着いた抗議である。
@@ -25,13 +21,10 @@ C1	unterschwellig	潜在的な、表面下の	その議論には潜在的な攻�
 C1	mutmaßlich	容疑のある、推定上の	容疑者が逮捕されました。	'mutmaßlich' は 'Mutmaßung'（推測）に由来し、有罪が証明されたと示唆しないために、法律や報道の言語で使われる。
 C1	unumstritten	異論のない	彼の能力には異論がありません。	'unumstritten' は否定の接頭辞 'un-' と 'umstritten'（議論の的の）を組み合わせたもので、文字どおりには「議論になっていない」を意味する。
 C1	schlechthin	典型的な、まさに〜そのもの	彼はこの分野の専門家そのものとみなされています。	'Schlechthin' は修飾する名詞の後ろに常に置かれ、絶対的で決定的な言明を表す。
-C1	par excellence	その最たるものとして、典型的に	それはまさに芸術の都です。	フランス語からの直接の借用語で、教養層の文体で、絶対的な卓越を強調するために使われる。
-C1	gemeinhin	一般に、通例	一般に、これは正しいと考えられています。	'Davon ausgehen' は 'davon' を介した概念的な属格を取り、「前提とする、既定のこととして受け取る」を意味する。
 C1	mithin	したがって、それゆえ	条件は満たされており、したがって契約は有効です。	'Mithin' は改まった、あるいは法律の接続詞で、'also' や 'deshalb' の優雅な代わりである。
 C1	infolgedessen	その結果として	需要が上昇し、その結果として価格が上がりました。	'Infolgedessen' は 'infolge'（〜の結果として）と 'dessen'（'das' の2格）を組み合わせたもので、改まった論理的な帰結を表す。
 C1	gleichwohl	それにもかかわらず（文語）	その計画は危険だが、それでも高い利益を約束している。	'Gleichwohl' は 'trotzdem' や 'dennoch' の優雅で文学的な変種で、改まった文章に典型的である。
 C1	nichtsdestotrotz	それでもなお	雨が降っていましたが、それでも彼らはハイキングに出かけました。	'Nichtsdestotrotz' は 'nichtsdestoweniger' を強めた、口語的かつ文語的な造語で、しばしば皮肉な調子で使われる。
-C1	fürwahr	まことに、実に（古風・文語）	それはまことに記憶に残る一日でした。	'Fürwahr' は古風な副詞で、今日では、言明を強調するために、ほとんど皮肉か文学的な場面でしか使われない。
 C1	mitnichten	断じて〜ない（格式）	それは断じて唯一の説明ではありません。	'Mitnichten' は強調的で格式の高い否定で、'keineswegs' の改まった代わりである。
 C1	keineswegs	少しも〜ない、決して〜ない	それは決して確実ではありません。	'Keineswegs' は改まった書き言葉における標準的な強調の否定で、'mitnichten' よりも一般的である。
 C1	insofern	その点では、その限りでは	その点では、彼の言うとおりです。	'Insofern' は 'als' を伴う従属節を導くこともできる。'insofern, als...'（「〜である限りにおいて」）。
@@ -61,64 +54,41 @@ C1	Denkfehler	思考の誤り	それはよくある思考の誤りです。	'Den
 C1	Voreiligkeit	性急さ、早まった行動	彼の性急さがミスにつながりました。	'Voreiligkeit' は 'voreilig'（性急な）に由来し、文字どおりには「時が来る前に急ぐ」ことを意味する。
 C1	Besonnenheit	冷静さ、分別	危機のとき、彼女は冷静さを保ちました。	'Besonnenheit' は 'besonnen'（冷静な、思慮深い）に由来し、'Voreiligkeit' の正反対である。
 C1	Umsicht	周到さ、慎重さ	彼は非常に周到に行動しました。	'Umsicht' は 'um'（周りを）と 'Sicht'（視野）を組み合わせたもので、文字どおりには行動する前に「周りを見ること」、つまり注意深くあることを意味する。
-C1	Sachverhalt	事実関係	事実関係は慎重に検証されなければなりません。	'Geprüft werden' は受動態で、正式な審査を述べる、法律や行政の言語に典型的な構文である。
-C1	Sachlage	状況、事態	状況を考えると、注意が必要です。	'Angesichts' は2格を取り、改まった行政的な文体に典型的である。
 C1	Gutachten	鑑定書、専門家の意見書	鑑定書は安全上の懸念を裏づけています。	'Gutachten' は 'gut' と 'achten'（注意を払う）を組み合わせたもので、専門家が行う改まった技術的な評価を指す。
 C1	Vollzug	執行、実施（刑の）	刑の執行は来週始まります。	「vollziehen」から来た語。法律用語で、「Strafvollzug」は刑事施設制度を意味する。判決の場合は「Vollstreckung」のほうが一般的。
 C1	rechtskräftig	確定した、法的拘束力のある	判決はすでに確定しています。	'Rechtskräftig' は 'Recht' と 'Kraft'（力）を組み合わせたもので、完全で最終的な法的効力を得た決定を指す。
 C1	Berufung einlegen	控訴する	弁護士は控訴します。	'Einlegen' は4格を取る分離動詞で、'Berufung einlegen' はドイツ法における標準的な固定コロケーションである。
-C1	Beweislast	立証責任	立証責任は原告にあります。	'Liegen bei' は3格を取る。'beim Kläger' のように、誰が責任を負うかを示す、法律上の決まった構文である。
-C1	Zeugenaussage	証言	証人の証言は公式の説明と食い違っていました。	'Widersprechen' は3格を取る。'der offiziellen Version' のように、常に非分離の接頭辞「wider-」を持つ動詞である。
-C1	Indizienbeweis	状況証拠	判決は状況証拠に基づいています。	'Basieren auf' は3格を取る。'auf Indizienbeweisen' のように、法律や報道の議論でよく使われる決まった構文である。
 C1	Strafmilderung	減刑	彼の自白は減刑につながりました。	'Strafmilderung' は 'Strafe'（刑罰）と 'Milderung'（軽減）を組み合わせたもので、刑法の専門用語である。
 C1	Rechtsauffassung	法的見解	裁判官たちの法的見解は分かれています。	'Rechtsauffassung' は 'Recht' と 'Auffassung'（見解、解釈）を組み合わせたもので、法廷の言語に典型的である。
-C1	Vertragsklausel	契約条項	この契約条項は異例なほど厳しいです。	'Ungewöhnlich' は「異例の」を意味し、改まった文体では形容詞の強調語としてよく使われる。
 C1	Rechtsanspruch	法的請求権	あなたたちにはそれに対する法的請求権はありません。	'Rechtsanspruch' は 'Recht' と 'Anspruch'（請求、権利）を組み合わせた、改まった法律用語である。
 C1	Haftung	責任、賠償責任	その会社は損害に対する責任を負いません。	'Haftung übernehmen' は標準的な固定コロケーションで、免責条項によく見られる。
-C1	Fahrlässigkeit	過失	重過失は保険ではカバーされません。	'Gedeckt werden' は受動態で、保険の言語で、補償の対象となるものを述べるのによく使われる。
-C1	Sorgfaltspflicht	注意義務	医師には特別な注意義務があります。	'Unterliegen' は3格を取る。'einer Sorgfaltspflicht' のように、法律で使われる改まった非分離動詞である。
 C1	Präzedenzfall	先例（法律）	この判決は先例となる可能性があります。	'Präzedenzfall' はラテン語系の借用語 'Präzedenz'（先例）と 'Fall'（事例）を組み合わせたもので、将来の模範となる事例を指す。
-C1	Gesetzeslücke	法の抜け穴	その会社は法の抜け穴を利用しています。	'Ausnutzen' は4格を取る分離動詞で、法の隙間を利用することについて述べるとき、批判的な含みを持つことが多い。
 C1	Novellierung	法改正	法改正が議論されています。	'Novellierung' はラテン語の 'novella lex'（新しい法）に由来し、既存の法を更新する正式な手続きを指す。
 C1	Inkrafttreten	施行	施行は1月に予定されています。	'Inkrafttreten' は 'in Kraft treten'（効力を生じる）の名詞化された不定詞で、名詞化された不定詞のすべてと同じく常に中性である。
 C1	Übergangsregelung	経過措置	旧契約に対する経過措置があります。	'Übergangsregelung' は 'Übergang'（移行）と 'Regelung'（規定）を組み合わせたもので、立法改革に典型的である。
 C1	Widerspruchsrecht	異議申立権	消費者には法的な異議申立権があります。	'Widerspruchsrecht' は 'Widerspruch'（異議）と 'Recht'（権利）を組み合わせたもので、消費者保護の重要な用語である。
-C1	Datenerhebung	データ収集	データ収集は匿名化された形で行われます。	'Erfolgen' は「行われる」を意味する改まった自動詞で、組織的・技術的な文脈で使われる。
 C1	Zweckbindung	目的拘束（データ）	目的拘束はデータ保護の基本原則です。	'Zweckbindung' は 'Zweck'（目的）と 'Bindung'（拘束）を組み合わせたもので、欧州のGDPRの重要な原則である。
-C1	Einwilligung	同意	同意なしにデータを処理してはなりません。	'Dürfen ... nicht' は許可の否定を表し、'verarbeitet werden' は受動態である。
 C1	Auskunftsrecht	情報開示請求権	誰もが自分のデータについて情報開示を求める権利を持っています。	'Auskunftsrecht' は 'Auskunft'（情報）と 'Recht'（権利）を組み合わせたもので、欧州のプライバシー法の柱である。
-C1	Löschungsanspruch	削除請求権	削除請求権は一定の条件の下でのみ適用されます。	'Unter bestimmten Bedingungen' は3格を用いる。'gelten unter' は法律の言語における決まった構文である。
 C1	Compliance	コンプライアンス、法令遵守	コンプライアンスは銀行では特に重要です。	英語からの直接の借用語で、今ではドイツ語の企業・金融の言語で標準的な語になっている。
-C1	Whistleblower	内部告発者	内部告発者がその不祥事を暴きました。	'Aufdecken' は4格を取る分離動詞で、過去形では 'deckte auf' となり、「暴く、明るみに出す」を意味する。
 C1	Interessenabwägung	利益衡量	慎重な利益衡量が必要です。	'Interessenabwägung' は 'Interesse'（利益）と 'Abwägung'（比較衡量）を組み合わせたもので、権利を評価する際の中心的な法律用語である。
 C1	Auslegung	解釈（法律・文書）	その法律の解釈は議論の的です。	'Auslegung' は 'auslegen'（解釈する、説明する）に由来し、法律的にも聖書解釈的にも使われる改まった用語である。
 C1	Diskurs	言説、ディスクール	公共の言説は先鋭化しました。	'Diskurs' は 'Gespräch' や 'Debatte' より専門的・学術的で、哲学や社会科学でよく使われる。
 C1	Diskurshoheit	言説の主導権	言説の主導権を握る者が、議論を決定します。	'Diskurshoheit' は 'Diskurs' と 'Hoheit'（主権）を組み合わせたもので、公的な議論の条件を誰が握るかを指す。
-C1	Narrativ	ナラティブ、物語的な枠組み	このナラティブはますます問い直されています。	'Hinterfragt werden' は受動態で、支配的な言説が問い直されることを述べるのによく使われる。
 C1	Deutungsmuster	解釈の型	双方が異なる解釈の型を用いています。	'Deutungsmuster' は 'Deutung'（解釈）と 'Muster'（型）を組み合わせたもので、社会学の重要な用語である。
-C1	Paradigma	パラダイム	新しい科学的パラダイムが定着しました。	'Sich durchsetzen' は分離動詞かつ再帰動詞で「定着する、勝ち残る」を意味し、支配的な考えや傾向について使われる。
 C1	Paradigmenwechsel	パラダイムシフト	その発明は本当のパラダイムシフトでした。	'Paradigmenwechsel' は 'Paradigma' と 'Wechsel'（変化）を組み合わせたもので、哲学者トーマス・クーンによって有名になった概念である。
-C1	Dogma	教義、ドグマ	彼はあらゆる教義を疑います。	'Infrage stellen' は「疑問視する」を意味する決まった句で、'in Frage stellen' と分けて書かれることもある。
-C1	Dogmatismus	教条主義	教条主義は開かれた議論を妨げます。	'Verhindern' は4格の目的語を直接取り「妨げる」を意味する、改まった非分離動詞である。
-C1	Reduktionismus	還元主義	還元主義は複雑な現象を単純化しすぎます。	'Zu stark' は 'vereinfachen'（単純化する）を強め、批判的な過剰さを示す。
-C1	Determinismus	決定論	決定論は自由意志に疑問を投げかけます。	'Infrage stellen' は「疑いを投げかける、疑問視する」を意味する決まった句である。
 C1	freier Wille	自由意志	自由意志の問題は未解決のままです。	'Die Frage nach' は3格を取る。'nach dem freien Willen' のように、哲学的な問いを導入する決まった構文である。
 C1	Existenzialismus	実存主義	実存主義は個人の責任を強調します。	20世紀の哲学運動（サルトル、ハイデガーなど）。「Existentialismus」という綴りもあり、形容詞は「existenzialistisch」。
 C1	Nihilismus	ニヒリズム	ニヒリズムは客観的な意味をすべて否定します。	'Verneinen' は4格の目的語を直接取り「否定する」を意味する、改まった哲学用語である。
 C1	Absolutheit	絶対性	この主張の絶対性は私を納得させません。	'Absolutheit' は 'absolut' に抽象名詞の接尾辞「-heit」を付けたもので、格調の高い哲学用語である。
 C1	Relativismus	相対主義	文化相対主義はしばしば批判されます。	'Kritisiert werden' は受動態で、学術的な議論で、異論のある立場を述べるのによく使われる。
-C1	Dialektik	弁証法	正と反の弁証法は、合へと至ります。	ヘーゲルの弁証法的方法（正・反・合）は、ドイツ古典哲学の中心である。
 C1	Synthese	総合、統合	2つの立場の総合はうまくいきました。	'Gelingen' は成功する人を3格で取る。英語と比べて主客が逆になる構文である。
 C1	Kontingenz	偶然性（哲学）	歴史的な出来事の偶然性はしばしば過小評価されます。	'Unterschätzt werden' は受動態で、十分に認識されていない現象を述べるのに使われる。
 C1	Kausalität	因果関係	相関関係は自動的に因果関係を意味するわけではありません。	科学的方法における古典的な区別で、'Korrelation' は必ずしも 'Kausalität' を意味しない。
 C1	Empirie	経験的事実、実証的な裏づけ	この主張は実証的な裏づけに基づいていません。	'Sich stützen auf' は4格を取る。'auf Empirie' のように、議論の根拠を示す決まった構文である。
-C1	empirisch belegen	実証的に裏づける	その命題は実証的に裏づけることができます。	'Sich belegen lassen' は受動的な可能性を表し、「証明されることができる」という意味になる。
 C1	Falsifizierbarkeit	反証可能性	ポパーによれば、反証可能性は科学性の基準です。	カール・ポパーの「反証可能性」の基準は、現代の科学哲学の中心である。
 C1	Erkenntnistheorie	認識論	認識論は、私たちが知っていることをどうやって知りうるかを問います。	'Erkenntnistheorie' は 'Erkenntnis'（認識）と 'Theorie'（理論）を組み合わせたもので、知識の本質を扱う哲学の分野である。
 C1	Metaebene	メタレベル	議論はしばしばメタレベルへと移ります。	'Metaebene' はギリシャ語の接頭辞 'Meta-'（〜を超えた）と 'Ebene'（レベル）を組み合わせたもので、議論そのものについて省察する次元を指す。
 C1	Immanenz	内在性	神の内在性は神学の中心的なテーマです。	'Immanenz' は 'Transzendenz'（超越）と対をなし、宗教哲学における重要な概念の組である。
-C1	Transzendenz	超越性	多くの宗教は神的なものの超越性を強調します。	'Das Göttliche' は名詞化された中性の形容詞で、「神的なもの」を抽象名詞として表す。
-C1	Immanent kritisieren	内在的に批判する	体系を内在的に批判することもできます。	副詞の 'immanent' は、体系の前提を受け入れたうえで、内部からそれを論破する批判を表す。
 C1	Aporie	アポリア（行き詰まり）	そのテキストは本物のアポリアで終わります。	'Aporie' は古代ギリシャ語に由来し、一見解決不可能に見える哲学的な行き詰まりを指す。
 C1	Antinomie	二律背反	カントは4つの古典的な二律背反を述べています。	「二律背反」の概念はカント哲学の中心で、互いに矛盾するが同じように証明できる2つの命題を指す。
 C1	Kategorischer Imperativ	定言命法	定言命法はカントの中心的な倫理原則です。	イマヌエル・カントの道徳哲学の根本概念で、世界で最も影響力のあるドイツの哲学的貢献の一つである。
@@ -132,7 +102,6 @@ C1	Vorstand	取締役会	取締役会は業務上の決定を下します。	こ
 C1	Hauptversammlung	株主総会	株主総会は5月に開かれます。	'Stattfinden' は分離動詞で、現在形では 'findet statt' となり、正式に予定された行事について使われる。
 C1	Insolvenzverfahren	倒産手続き	その会社は倒産手続きを申請します。	'Anmelden' は4格を取る分離動詞で、改まった行政・法律の文脈で使われる。
 C1	Sanierung	再建、立て直し	会社の再建はかろうじて成功しました。	'Gelingen' は成功する主体を3格で取る。英語の 'to manage to' と比べて典型的に主客が逆になる構文である。
-C1	Liquidität	流動性、手元資金	その会社の手元資金は逼迫しています。	'Angespannt' は 'anspannen'（緊張させる）に由来し、不安定な財務状況を述べる形容詞として使われる。
 C1	Bilanz	貸借対照表	貸借対照表は損失を示しています。	'Ausweisen' は4格の目的語を直接取り「（書類で）示す、表示する」を意味し、会計でよく使われる。
 C1	Abschreibung	減価償却	減価償却は利益を減らします。	'Verringern' は4格の目的語を直接取り「減らす」を意味する、会計における改まった非分離動詞である。
 C1	Rücklage	積立金、準備金	その会社は不況に備えて積立金を積んでいます。	'Bilden' は4格の目的語を直接取り「形成する、積み立てる」を意味し、会計の言語でよく使われる動詞である。
@@ -155,20 +124,15 @@ C1	Informationsasymmetrie	情報の非対称性	情報の非対称性はしば�
 C1	Moral Hazard	モラルハザード	国の救済策はモラルハザードを生みます。	英語から直接取り入れた専門用語で、ドイツ語の経済文献でも広く使われている。
 C1	Opportunitätskosten	機会費用	あらゆる決定の機会費用を考慮しなければなりません。	'Bedenken' は4格の目的語を直接取り「考慮する」を意味する、改まった非分離動詞である。
 C1	Grenznutzen	限界効用	限界効用は消費の増加とともに低下します。	'Mit steigendem Konsum' は3格を用いており、2つの変数の間の同時的な関係を示している。
-C1	Pathogenese	病因論、病気の発生機序	この病気の発生機序はほとんど研究されていません。	'Kaum erforscht' は「ほとんど研究されていない」を意味し、医学研究の言語でよく使われる。
 C1	Ätiologie	病因学	多くの場合、病因は不明のままです。	'Ätiologie' はギリシャ語の 'aitia'（原因）に由来し、病気の原因を研究する学問である。
 C1	Differentialdiagnose	鑑別診断	鑑別診断は他の原因を除外します。	'Ausschließen' は4格を取る分離動詞で「除外する」を意味し、医学で使われる一般的な専門用語である。
 C1	Prognose stellen	予後を判断する	医師はまだ予後を判断できません。	'Eine Prognose stellen' は標準的な固定コロケーションで、'eine Diagnose stellen' と同じ型である。
 C1	Remission	寛解	その病気は寛解の状態にあります。	'Sich befinden in' は3格を取る。'in Remission' のように、医学的な状態を述べる改まった構文である。
 C1	Kontraindikation	禁忌	この禁忌には注意しなければなりません。	'Beachtet werden' は受動態で、改まった医学・薬学の用語でよく使われる。
 C1	Wirkstoff	有効成分	有効成分はゆっくりと放出されます。	'Freigesetzt werden' は受動態で、薬が体内に徐々に放出されることを指す。
-C1	klinische Studie	臨床試験	臨床試験は有望な結果を示しています。	'Vielversprechend' は 'viel'（多く）と 'versprechen'（約束する）を組み合わせたもので、文字どおりには「多くを約束するもの」を意味する。
-C1	Placeboeffekt	プラセボ効果	プラセボ効果は科学的によく記録されています。	'Wissenschaftlich gut dokumentiert' は、分詞の前に副詞を置く、研究の言語に典型的な構造である。
-C1	Resistenz	耐性（医学）	抗生物質への耐性は増大する問題です。	現在分詞を形容詞として使った 'wachsend' は「増大する」を意味し、医療・保健の言語でよく使われる。
 C1	Epidemiologie	疫学	疫学は病気の広がりを研究します。	'Untersuchen' は分離動詞ではなく、4格の目的語を直接取り、科学の文脈でよく使われる動詞である。
 C1	Inzidenz	発生率、罹患率	この地域では発生率が高いです。	'Inzidenz' は統計学・疫学の用語で、一定期間における新規症例の頻度を測る。
 C1	Prävalenz	有病率	その病気の有病率は上昇しています。	'Inzidenz'（新規症例）と異なり、'Prävalenz' はある時点で存在する症例の総数を測る。
-C1	Mortalitätsrate	死亡率	死亡率は著しく低下しました。	'Deutlich gesunken' は「著しく低下した」を意味し、公衆衛生の統計でよく使われる。
 C1	Neurowissenschaft	神経科学	神経科学は多くの行動パターンを説明します。	'Neurowissenschaft' はギリシャ語の接頭辞 'Neuro-' と 'Wissenschaft'（科学）を組み合わせたもので、比較的新しい研究分野である。
 C1	Synapse	シナプス	シナプスは電気信号を伝達します。	'Übertragen' は4格の目的語を直接取り「伝達する」を意味し、神経科学でよく使われる専門的な動詞である。
 C1	Plastizität	可塑性（神経）	脳の可塑性は年齢とともに低下します。	'Abnehmen' は分離動詞で「減る」を意味し、認知機能の加齢についての議論でよく使われる。
@@ -176,99 +140,54 @@ C1	kognitiv	認知の	認知能力は年齢とともに変化します。	'Kogni
 C1	Demenz	認知症	認知症は世界中でますます多くの人に影響を及ぼしています。	単数形で使う：「an Demenz leiden」（認知症を患う、「an」+ 3格）。形容詞は「dement」。アルツハイマー病は「Demenz」の一種である。
 C1	Neurodegeneration	神経変性	神経変性は通常、徐々に進行します。	'Schleichend' は 'schleichen'（忍び寄る）に由来し、緩やかに進行する病理的な過程を述べるのに使われる。
 C1	Genom	ゲノム	ヒトゲノムは2003年に解読されました。	'Sequenziert werden' は受動態で、国際的なヒトゲノム計画の完了を指す。
-C1	Mutation	突然変異	突然変異の中には無害なものもあります。	'Manche' は「いくつかの、ある種の」を意味し、一般的な科学的議論でよく使われる不定代名詞・不定形容詞である。
 C1	Biotechnologie	バイオテクノロジー	バイオテクノロジーは新たな医療の可能性を開きます。	'Eröffnen' は分離動詞ではなく、4格の目的語を直接取り、比喩的にも文字どおりにも「開く」を意味する。
 C1	Nanotechnologie	ナノテクノロジー	ナノテクノロジーは医療に革命をもたらすかもしれません。	ギリシャ語の「nános」（小人、非常に小さい）+「Technologie」から。1ナノメートルは10億分の1メートル。
-C1	Quantencomputer	量子コンピューター	量子コンピューターは、一部の問題をはるかに速く解きます。	'Viel schneller' は比較級 'schneller' を 'viel' で強め、大きな差があることを示す。
 C1	maschinelles Lernen	機械学習	機械学習は着実に向上しています。	'Sich verbessern' は再帰動詞で「（自ら）向上する」を意味し、技術的なシステムについてよく使われる。
 C1	neuronales Netz	ニューラルネットワーク	ニューラルネットワークは人間の脳をシミュレートします。	'Simulieren' は4格の目的語を直接取り、人工知能における標準的な専門用語である。
 C1	Datensatz	データセット	そのアルゴリズムには大きなデータセットが必要です。	'Datensatz' は 'Daten'（データ）と 'Satz'（集合）を組み合わせたもので、コンピューター科学の標準的な専門用語である。
 C1	Verzerrung	バイアス、歪み（データ）	データのバイアスは誤った結果につながります。	'Führen zu' は3格を取る。'zu falschen Ergebnissen' のように、否定的な結果を表す決まった構文である。
 C1	Rhetorik	修辞学、レトリック	彼のレトリックは聴衆を納得させました。	'Überzeugen' は前置詞なしで4格の目的語を直接取る動詞で、説得的な議論でよく使われる。
-C1	Rhetorische Frage	修辞疑問	それはもちろん修辞疑問でした。	答えを得るためではなく、論点を強調するために投げかけられる問いで、古典的な修辞技法である。
 C1	Anapher	首句反復（修辞技法）	その演説者は力強い首句反復を用いました。	'Anapher' は連続する文の冒頭で語を繰り返すことで、強調のために使われる古典的な修辞技法である。
 C1	Pathos	パトス、情念への訴え	そのテキストはパトスに強く訴えています。	'Appellieren an' は4格を取る。'an das Pathos' のように、古典的な修辞分析（エートス、パトス、ロゴス）における決まった構文である。
 C1	Ethos	エートス、話し手の信頼性	その演説者はまず自らのエートスを築きます。	'Aufbauen' は4格を取る分離動詞である。古典的な修辞分析では、エートスは話し手の信頼性を指す。
-C1	Logos-Argument	ロゴスによる論証	ロゴスによる論証は事実に基づいています。	'Sich stützen auf' は4格を取る。'auf Fakten' のように、エートスとパトスと並ぶ古典修辞学の第三の柱である。
 C1	Polemik	論争的批判、攻撃的な論調	その論難は政府に向けられています。	鋭く攻撃的な、しばしば個人的な批判。形容詞は「polemisch」、動詞は「polemisieren」。
 C1	Invektive	罵倒、激しい非難	その演説はただの罵倒になり下がりました。	'Geraten zu' は3格を取る。'zu einer Invektive' のように、意図せぬ堕落を述べる決まった構文である。
-C1	Ambivalenz	両価性、相反する感情	彼の態度の両価性は明らかです。	'Offensichtlich' は「明白な」を意味し、批評的な分析でよく使われる改まった形容詞である。
 C1	Zwiespalt	葛藤、板挟み	彼女は深い葛藤の中にいます。	'Stecken in' は3格を取る。'in einem Zwiespalt' のように、困難な状況にはまり込んでいることを述べる決まった構文である。
-C1	Widerspruch in sich	それ自体の矛盾、自己矛盾	この主張はそれ自体が矛盾しています。	'In sich' は、矛盾が外部ではなく主張そのものの内部にあることを強調する。
 C1	Sinnkrise	生きる意味の危機	多くの人が人生の半ばに生きる意味の危機を経験します。	'Sinnkrise' は 'Sinn'（意味）と 'Krise'（危機）を組み合わせたもので、意味の探求に関わる実存的な危機を指す。
 C1	Entfremdung	疎外	労働からの疎外は古いテーマです。	カール・マルクスの哲学の中心概念で、労働者と自らの労働の生産物との分離を指す。
 C1	Entzauberung	脱魔術化（社会学）	マックス・ヴェーバーは世界の脱魔術化について語りました。	ドイツの社会学者マックス・ヴェーバーの有名な概念で、近代社会の合理化が進むことを指す。
 C1	Anomie	アノミー	アノミーは社会規範の喪失を表します。	エミール・デュルケームが導入した社会学の概念で、共有された社会規範の崩壊を指す。
 C1	soziale Kohäsion	社会的結束	社会的結束は不平等によって弱められます。	'Geschwächt werden durch' は 'durch' + 4格を伴う受動態で、弱体化の原因を示す。
-C1	Marginalisierung	周縁化	周縁化は特に脆弱な集団に影響します。	'Vulnerabel' はラテン語に由来する借用語で、'verletzlich'（傷つきやすい）の改まった同義語であり、学術的な社会の議論でよく使われる。
 C1	Stigmatisierung	スティグマ化、烙印を押すこと	精神疾患に対するスティグマ化は、ゆっくりと減っています。	'Abnehmen' は分離動詞で「減る」を意味し、社会の受け止め方の変化についての議論で使われる。
 C1	Selbststigmatisierung	自己スティグマ	自己スティグマは回復を難しくします。	'Erschweren' は4格の目的語を直接取り「困難にする」を意味する、改まった非分離動詞である。
 C1	Prekariat	プレカリアート	プレカリアートは多くのヨーロッパ諸国で増えています。	'Prekariat' は2000年代に作られた社会学の新造語で、不安定な雇用で働く人々の階層を指す。
 C1	Klassengesellschaft	階級社会	階級社会は消えたのかと疑う社会学者もいます。	'Bezweifeln, dass' は 'dass' 節を伴い、批評的な学術的議論でよく使われる構文である。
 C1	soziale Mobilität	社会的流動性	社会的流動性は、国によっては制限されています。	'Eingeschränkt' は 'einschränken'（制限する）に由来し、制限された状態を述べる形容詞として使われる。
 C1	Habitus	ハビトゥス（社会学）	ハビトゥスという概念はピエール・ブルデューに由来します。	フランス人ブルデューによる社会学の重要概念で、現代ドイツの社会学でも盛んに論じられている。
-C1	kulturelles Kapital	文化資本	文化資本は教育上の成功に影響します。	'Beeinflussen' は分離動詞ではなく、4格の目的語を直接取る。教育社会学の重要な用語である。
-C1	sozialer Aufstieg	社会的上昇	社会的上昇は誰にとっても同じようにたやすいわけではありません。	'Gleich einfach' は「同じくらいたやすい」を意味し、社会的な公正についての議論でよく使われる比較構文である。
-C1	Prekarisierung	不安定化（雇用の）	雇用の不安定化は、ますます高学歴者にも及んでいます。	現在分詞を副詞として使った 'zunehmend' は「ますます」を意味する。
 C1	Zeitalter	時代、〜の世紀	私たちはデジタル時代に生きています。	'Zeitalter' は 'Zeit'（時）と 'Alter'（年代）を組み合わせたもので、際立った特徴で定義される歴史上の時代を指す改まった用語である。
-C1	Umbruch	激変、大変革	その地域は深い激変を経験しています。	'Tiefgreifend' は 'tief'（深い）と 'greifen'（つかむ）を組み合わせたもので、文字どおりには「深くつかむもの」、つまり根本的なことを意味する。
-C1	historische Zäsur	歴史的な画期	第一次世界大戦は歴史的な画期でした。	'Zäsur' は、歴史における「前」と「後」の間にはっきりした切れ目を刻む出来事を指す。
-C1	Epochenwandel	時代の転換	啓蒙主義は時代の転換を画しました。	'Markieren' は4格の目的語を直接取り「印をつける、画する」を意味し、改まった歴史分析で使われる。
-C1	Zeitzeugenbericht	証言記録、体験談	その証言記録は貴重な洞察を与えてくれます。	'Liefern' は4格の目的語を直接取り「提供する」を意味し、歴史学で使われる改まった動詞である。
 C1	Geschichtsschreibung	歴史叙述	歴史叙述が完全に中立であることはありません。	'Geschichtsschreibung' は 'Geschichte'（歴史）と 'Schreibung'（記述）を組み合わせたもので、歴史が語られる方法を指す。
-C1	Revisionismus	修正主義	歴史修正主義は批判的に見られています。	'Kritisch betrachtet werden' は受動態で、学術的な議論で論争のある立場を述べるのによく使われる。
-C1	Kollektives Gedächtnis	集合的記憶	集合的記憶は国民のアイデンティティを形づくります。	'Formen' は4格の目的語を直接取り「形づくる」を意味する、改まった社会学・歴史学の用語である。
 C1	Aufarbeitung	過去の検証、整理・清算	過去の検証には何世代もかかります。	'Aufarbeitung' は 'aufarbeiten'（きちんと向き合い処理する）に由来し、ドイツの記憶の文化の重要な用語である。
-C1	Schuldfrage	罪の問題、責任の所在	責任の所在は今日に至るまで議論の的です。	'Bis heute' は「今日に至るまで」を意味し、歴史的な議論がまだ決着していないことを示すのに使われる。
-C1	Kollektivschuld	集団的責任	集団的責任という概念は、賛否が分かれる形で議論されています。	'Kontrovers diskutiert werden' は受動態で、大いに議論される哲学的・歴史的な話題を述べるのによく使われる。
-C1	Widerstandsbewegung	抵抗運動	抵抗運動は命を懸けました。	'Riskieren' は4格の目的語を直接取り「危険にさらす」を意味し、市民的勇気についての歴史的な議論でよく使われる動詞である。
 C1	Zivilcourage	市民的勇気	市民的勇気とは、不都合でも介入することを意味します。	'Zivilcourage' はラテン語の 'zivil' とフランス語の 'courage' を組み合わせた混成語で、ドイツの公民教育でよく使われる。
 C1	Aufklärung	啓蒙、解明	啓蒙主義は近代ヨーロッパを形づくりました。	'Aufklärung' は歴史上の哲学運動と、他の文脈では単なる「解明、説明」の両方を意味する。
-C1	Vernunft	理性	カントは理性に大きな信頼を置きました。	'Vertrauen setzen in' は4格を取る。'in die Vernunft' のように、哲学的な議論における決まった構文である。
-C1	Mündigkeit	成熟、自律（カント）	カントは啓蒙を、未成年状態からの脱出と定義しました。	カントは啓蒙を「自ら招いた未成年状態」から、思考の自律である 'Mündigkeit' への移行と述べた。
-C1	Fortschrittsglaube	進歩への信仰	19世紀の進歩への信仰は揺らぎました。	'Erschüttert werden' は受動態で、歴史的な理念への信頼の集団的な危機を述べるのによく使われる。
-C1	Zivilisationskritik	文明批判	文明批判は繰り返し現れるテーマです。	'Wiederkehrend' は 'wiederkehren'（戻ってくる）に由来し、時を経て繰り返し現れるテーマを述べる形容詞として使われる。
-C1	Entfremdung von der Natur	自然からの疎外	多くの人が自然からの疎外を嘆いています。	'Beklagen' は4格の目的語を直接取り「嘆く、遺憾に思う」を意味し、文化批評に使われる改まった動詞である。
 C1	Rückbesinnung	原点への回帰、再認識	古い価値観への回帰が起こっています。	'Rückbesinnung auf' は4格を取る。'auf alte Werte' のように、原則への意識的な回帰を述べる決まった構文である。
 C1	geopolitisch	地政学的な	その地域は地政学的に重要な位置にあります。	'Geopolitisch' は 'Geo-'（地球）と 'politisch'（政治の）を組み合わせたもので、国際関係の重要な用語である。
 C1	Machtgefüge	権力構造	国際的な権力構造は変化しています。	'Machtgefüge' は 'Macht'（権力）と 'Gefüge'（構造、秩序）を組み合わせたもので、政治学の重要な用語である。
-C1	Bündnis	同盟	その同盟は70年以上続いています。	'Bestehen seit' は 'seit' の後に3格を取り、何かがどれだけ長く存在してきたかを表す標準的な構文である。
-C1	Souveränität	主権	国家の主権は尊重されています。	'Respektiert werden' は受動態で、国際的な外交の言語でよく使われる。
-C1	Neutralität	中立	スイスは伝統的に中立を守っています。	'Bewahren' は4格の目的語を直接取り「保つ、守る」を意味する、改まった非分離動詞である。
-C1	Sanktion verhängen	制裁を科す	EUは新たな制裁を科します。	'Verhängen' は4格の目的語を直接取り「（罰や措置を）科す」を意味する、改まった非分離動詞である。
-C1	Diplomatie	外交	外交には忍耐と機転が必要です。	'Erfordern' は4格の目的語を直接取り「必要とする」を意味する、改まった非分離動詞である。
-C1	Waffenstillstand	停戦	停戦が合意されました。	'Vereinbart werden' は受動態で、紛争についての外交や報道の言語でよく使われる。
-C1	Friedensverhandlung	和平交渉	和平交渉はゆっくりとしか進んでいません。	'Vorankommen' は分離動詞で「進展する、前進する」を意味し、遅く困難な過程についてよく使われる。
 C1	Erzählperspektive	語りの視点	その小説は語りの視点を切り替えます。	'Erzählperspektive' は 'erzählen'（語る）と 'Perspektive'（視点）を組み合わせたもので、物語論の重要な用語である。
 C1	allwissender Erzähler	全知の語り手	全知の語り手は、登場人物たちの考えをすべて知っています。	'Allwissend' は 'all-'（すべて）と 'wissend'（知っている）を組み合わせたもので、文学理論の標準的な用語である。
 C1	innerer Monolog	内的独白	内的独白は彼女の本当の気持ちを示しています。	語り手の媒介なしに、登場人物の思考を読者に見せる物語技法である。
-C1	Chronologie durchbrechen	時系列を崩す	作者は意図的に時系列を崩しています。	'Durchbrechen' は4格の目的語を取り、比喩的には非分離、文字どおりの意味では分離動詞として使われるのが普通である。
 C1	Vorausdeutung	先触れ、伏線	第1章の伏線はさりげないものです。	'Vorausdeutung' は 'voraus'（前もって）と 'Deutung'（解釈、暗示）を組み合わせたもので、物語論の専門用語である。
 C1	Rückblende	回想、フラッシュバック	回想が彼女の動機を説明します。	'Rückblende' は 'zurück'（後ろへ）と 'Blende'（絞り、効果）を組み合わせたもので、もともとは映画の用語である。
 C1	Leitmotiv	ライトモチーフ、繰り返し現れる主題	海はこの小説のライトモチーフです。	'Leitmotiv' は 'leiten'（導く）と 'Motiv'（モチーフ）を組み合わせた音楽用語（ワーグナー）で、文学にも応用される。
-C1	Erzählstrang	物語の筋、ストーリーライン	2つの物語の筋が並行して進みます。	'Verlaufen' は「進行する、展開する」を意味し、複雑な筋の展開を述べるのによく使われる。
 C1	Rahmenhandlung	枠物語	枠物語がすべてのエピソードをつないでいます。	'Rahmenhandlung' は 'Rahmen'（枠）と 'Handlung'（筋）を組み合わせたもので、複数の物語を包み込む構造を指す。
-C1	unzuverlässiger Erzähler	信頼できない語り手	信頼できない語り手は読者に疑念を抱かせます。	'Misstrauisch machen' は「疑念を抱かせる」を意味し、読者への効果を述べるのによく使われる使役構文である。
-C1	Textkohärenz	テキストの一貫性	テキストの一貫性は論理的なつながりから生まれます。	'Entstehen durch' は 'durch' の後に4格を取り、何かが生み出される手段を示す。
-C1	Kohärenz herstellen	一貫性を持たせる	接続詞は一貫性を持たせるのに役立ちます。	'Herstellen' は4格を取る分離動詞で「作り出す」を意味し、テキスト言語学の分析で使われる。
 C1	Textsorte	テキストの種類、文章ジャンル	この文章ジャンルには決まった慣習があります。	'Textsorte' は 'Text'（テキスト）と 'Sorte'（種類）を組み合わせたもので、テキスト言語学の専門用語である。
 C1	Konnotation	含意、言外の意味	その語には否定的な含意があります。	'Denotation'（文字どおりの意味）と対比して、'Konnotation' は語が持つ感情的な連想を指す。
 C1	Denotation	外延、字義的な意味	語の外延とは、その字義的な意味です。	'Denotation' と 'Konnotation' は、言語意味論における古典的な概念の対である。
 C1	sprachliches Register	言語の位相、文体レベル	彼は巧みに言語の位相を切り替えます。	'Register' は言語の改まりの度合いを指し、コミュニケーションの社会的な文脈に合わせて使い分けられる。
-C1	Umgangssprache	口語、日常語	口語は書き言葉のドイツ語とは大きく異なります。	'Sich unterscheiden von' は3格を取る。'vom Schriftdeutschen' のように、言語の比較における決まった構文である。
-C1	Fachsprache	専門用語、専門語	法律家の専門用語はしばしば理解しにくいです。	'Schwer verständlich' は暗黙の 'zu' を含み、「理解しにくい」を意味する。
-C1	Amtsdeutsch	お役所言葉のドイツ語	お役所言葉のドイツ語は特に複雑だと言われています。	'Gelten als' は 'als' の後に1格／4格を取り、広く知られた評判を述べる決まった構文である。
-C1	Fremdwort	外来語（未同化）	一部の外来語は気取って聞こえます。	'Gestelzt' は「ぎこちなく気取った」を意味し、外来語の過剰な使用を批判するのに使われる。
 C1	Lehnwort	借用語（同化済み）	'Fenster' はラテン語から入った古い借用語です。	外来のものと感じられる 'Fremdwort' と違い、'Lehnwort' は音声的にも綴りの上でも完全に同化している。
 C1	Sprachwandel	言語変化	言語変化は自然な過程です。	'Sprachwandel' は 'Sprache'（言語）と 'Wandel'（変化）を組み合わせたもので、歴史言語学が研究する現象である。
-C1	Sprachpurismus	言語純化主義	言語純化主義はしばしば英語からの借用語を拒みます。	'Ablehnen' は4格を取る分離動詞で、外来の言語要素の拒絶を述べるのに使われる。
-C1	Anglizismus	英語からの借用表現	多くの英語からの借用表現がドイツ語に定着しました。	'Sich etablieren' は再帰動詞で「定着する」を意味し、言語的な取り込みを述べるのに使われる。
-C1	Sprachwissenschaftler	言語学者	言語学者たちはこの傾向を注意深く観察しています。	'Beobachten' は前置詞なしで4格の目的語を直接取る動詞で、研究の言語でよく使われる。
-C1	Standardsprache	標準語	標準語は共通の規範として機能します。	'Dienen als' は 'als' の後に1格を取り「〜として機能する」を意味する、'dienen' のよくある用法である。
 C1	akribisch	細部まで緻密な	彼女はあらゆる細部まで緻密に仕事をします。	'Akribisch' はギリシャ語の 'akribeia'（正確さ）に由来し、極端な注意深さを述べる格調高い語である。
 C1	obsolet	時代遅れの、廃れた	この技術は時代遅れとみなされています。	'Obsolet' はラテン語に由来する借用語で、'veraltet'（古くなった）の改まった同義語であり、技術的・学術的な文脈で使われる。
 C1	prekär	不安定な、危うい	経済状況は不安定です。	'Prekär' はフランス語からの借用語で、不安定で危険にさらされた状況を述べるのに使われる。
-C1	gravierend	重大な、深刻な	それは重大な誤りです。	'Gravierend' は動詞 'gravieren'（彫り込む）に由来し、重みの大きな誤りに比喩的に使われる。
 C1	prägnant	簡潔で的確な	答えは短く的確でした。	'Prägnant' は明確で要点を押さえた表現の仕方を述べ、改まったドイツ語の文章で高く評価される。
 C1	fundiert	根拠のしっかりした	それは根拠のしっかりした分析です。	'Fundiert' は 'Fundament'（土台）に由来し、'fundieren' の過去分詞が形容詞として使われている。
 C1	kohärent	一貫した、筋の通った	彼の議論は論理的に一貫しています。	'Kohärent' はラテン語に由来する借用語で、論理的・論証的な文脈で内部の整合性を述べるのに使われる。
@@ -278,8 +197,6 @@ C1	fragwürdig	疑わしい、問題のある	彼の方法は疑わしいです�
 C1	unabdingbar	欠かせない、不可欠な	この条件は欠かせません。	'Unabdingbar' は否定の 'un-' と 'abdingen'（権利を放棄する）を組み合わせたもので、文字どおりには「放棄できないもの」を意味する。
 C1	unweigerlich	必ず、避けようもなく	それは必ず対立を招きます。	'Unweigerlich' は否定の 'un-' と 'sich weigern'（拒む）を組み合わせたもので、拒めないもの、つまり避けられないことを意味する。
 C1	zwangsläufig	必然的に、やむを得ず	すべての危機が必然的に破滅につながるわけではありません。	'Zwangsläufig' は 'Zwang'（強制）と 'Lauf'（経過）を組み合わせたもので、他に選択肢のない強制された成り行きを指す。
-C1	unterschwellig wahrnehmen	無意識のうちに知覚する	私たちは多くの刺激を無意識のうちに知覚しています。	'Wahrnehmen' は4格の目的語を直接取る分離動詞で、知覚心理学で使われる専門的な動詞である。
-C1	kaum zu überschätzen	いくら評価してもし過ぎることはない	この発明の重要性は、いくら評価してもし過ぎることはありません。	'Kaum zu + 不定詞' は、ほとんど絶対的な不可能性や困難を表す、改まった文体の優雅な構文である。
 C1	schwerlich	とても〜ない、容易には〜ない	それを否定するのは容易ではありません。	'Schwerlich' は 'kaum' や 'schwer' の文学的な変種で、改まった書き言葉に典型的である。
 C1	bestreiten	否定する、異議を唱える	この事実に異議を唱える人はいません。	'Bestreiten' は分離動詞ではなく、4格の目的語を直接取る。議論や討論で使われる改まった動詞である。
 C1	anfechten	異議を申し立てる、争う（法的に）	弁護士は判決を争います。	'Anfechten' は4格を取る分離動詞で、公的な決定に異議を申し立てることを指す改まった法律用語である。
@@ -287,74 +204,36 @@ C1	entkräften	論破する、無効にする	新しいデータは彼の命題�
 C1	untermalen	引き立てる、伴奏する（音楽）	音楽がドラマチックな場面を引き立てます。	'Untermalen' は 'Malen'（描く）に由来し、文字どおりには「下に描く」、つまり印象的な伴奏を添えることを意味する。
 C1	konterkarieren	裏目に出させる、水を差す	この措置は本来の目的に水を差します。	'Konterkarieren' はフランス語からの借用語で、格調高い言い方で、意図とは反対の効果を表す。
 C1	unterminieren	土台を崩す、弱体化させる	汚職は市民の信頼を損ないます。	'Unterminieren' はフランス語・ラテン語に由来する借用語で、'untergraben'（土台を崩す）の改まった同義語である。
-C1	kaschieren die Realität	現実を覆い隠す	美しい言葉はしばしば現実を覆い隠します。	'Kaschieren' は4格の目的語を直接取り「巧みに隠す」を意味し、しばしば批判的な含みを持つ。
-C1	beschönigen die Fakten	事実を美化して伝える	その報告書は実際の数字を美化して伝えています。	'Beschönigen' は4格の目的語を直接取り、調査報道ではデータ操作としてしばしば批判される。
 C1	verharmlosen	軽く見せる、過小評価する	この危険を軽く見るべきではありません。	'Verharmlosen' は 'harmlos'（無害な）に由来し、文字どおりには「無害にする」ことを意味し、しばしば批判的に使われる。
 C1	dramatisieren	大げさに扱う、劇的に見せる	報道はしばしば状況を大げさに扱います。	'Dramatisieren' は 'verharmlosen' の反対で、出来事の重要性や深刻さを誇張することを指す。
 C1	instrumentalisieren	道具化する、政治的に利用する	そのテーマは政治的に利用されています。	'Instrumentalisiert werden' は受動態で、議論が別の目的のために利用されることを批判的に述べるのに使われる。
-C1	Zeitgeist erfassen	時代精神をつかむ	その芸術家は時代精神を見事につかんでいます。	'Erfassen' は4格の目的語を直接取り「（概念的に）把握する」を意味する、改まった非分離動詞である。
 C1	Epochenbruch	時代の断絶	2001年を時代の断絶とみなす人もいます。	'Epochenbruch' は 'Epoche'（時代）と 'Bruch'（断絶）を組み合わせたもので、一つの時代のはっきりした終わりを画す出来事を指す。
-C1	Kollektivbewusstsein	集合意識	ソーシャルメディアは集合意識を形づくります。	'Prägen' は4格の目的語を直接取り「形づくる、深く特徴づける」を意味する、改まった動詞である。
 C1	Massenpsychologie	大衆心理学	大衆心理学は集団パニックを説明します。	'Massenpsychologie' は 'Masse'（大衆）と 'Psychologie'（心理学）を組み合わせたもので、すでにギュスターヴ・ル・ボンが研究していた分野である。
 C1	Herdentrieb	群れの本能、群集心理	群集心理は投資の判断に影響します。	'Herdentrieb' は 'Herde'（群れ）と 'Trieb'（本能）を組み合わせたもので、行動経済学や金融でよく使われる。
-C1	Gruppendynamik	集団力学、グループダイナミクス	集団力学はあらゆるチームの決定に影響します。	'Beeinflussen' は分離動詞ではなく、4格の目的語を直接取る。社会心理学の専門用語である。
-C1	Konformitätsdruck	同調圧力	同調圧力はしばしば異なる意見を抑え込みます。	'Unterdrücken' は4格の目的語を直接取り「抑え込む」を意味する、改まった非分離動詞である。
-C1	Meinungsklima	世論の空気	世論の空気は著しく変わりました。	'Merklich' は「目に見えて」を意味し、感知できる変化に使われる改まった副詞である。
 C1	Schweigespirale	沈黙の螺旋	沈黙の螺旋は、少数意見がなぜ黙り込むのかを説明します。	ドイツのエリザベート・ノエル＝ノイマンによる社会学の概念で、政治コミュニケーション研究に大きな影響を与えた。
 C1	Echokammer	エコーチェンバー	ソーシャルネットワークはしばしばエコーチェンバーを作り出します。	'Echokammer' は音響学から取られた比喩で、オンライン上の情報の分極化に当てはめられる。
 C1	Filterblase	フィルターバブル	フィルターバブルは視野を狭めます。	「Filter」と「Blase」（泡）の複合語で、英語「filter bubble」の翻訳借用語。2011年にイーライ・パリサーによって広まった。
-C1	Polarisierung	分極化	政治的な分極化が進んでいます。	'Zunehmen' は分離動詞で「増える」を意味し、政治の分断についての議論で非常によく使われる。
-C1	Radikalisierung	過激化	オンラインでの過激化は対処が難しいです。	'Schwer zu bekämpfen' は 'zu' 付きの不定詞を取り、根強い課題を表すのに使われる。
 C1	Verrohung	荒廃、粗暴化（言論の）	ネット上の言葉の荒廃は多くの人を心配させています。	'Verrohung' は 'roh'（粗野な、生の）に由来し、公共の議論における礼節の段階的な低下を指す。
-C1	Hetze	扇動、ヘイトスピーチ	インターネット上の扇動は処罰の対象です。	'Strafbar' は「法律で罰せられる」を意味し、犯罪にあたることを示す改まった形容詞である。
-C1	Shitstorm	ネット炎上	その投稿は文字どおりのネット炎上を引き起こしました。	'Auslösen' は4格を取る分離動詞で「引き起こす」を意味し、ソーシャルメディアの文脈で非常によく使われる。
 C1	Cancel Culture	キャンセルカルチャー	キャンセルカルチャーは賛否が分かれる形で議論されています。	英語からの直接の借用語で、現代ドイツの公の議論でそのまま広く使われている。
 C1	Meinungskorridor	許容される意見の幅	許容される意見の幅が狭すぎると批判する人もいます。	'Meinungskorridor' は、議論の中で社会的に受け入れられるとみなされる意見の範囲を指す。
 C1	Denkverbot	思考のタブー	思考のタブーがあってはなりません。	'Denkverbot' は 'Denken'（思考）と 'Verbot'（禁止）を組み合わせたもので、口にすることが許されないとされる考えを指す。
-C1	Framing	フレーミング（メディア）	フレーミングは、私たちがニュースをどう理解するかに影響します。	'Beeinflussen, wie' は 'wie' 節を取り、知覚への影響を述べるのによく使われる構文である。
 C1	Agenda-Setting	議題設定	議題設定は、私たちが何について話すかを決めます。	メディアは何を考えるべきかは教えないが、何について考えるかを決める、というコミュニケーション理論である。
-C1	mediale Aufmerksamkeit	メディアの注目	その事件は大きなメディアの注目を集めました。	'Erregen' は4格の目的語を直接取り「引き起こす」を意味する、改まった非分離動詞である。
 C1	Reizüberflutung	刺激の過多、情報過多	メディアによる刺激の過多は現代的な問題です。	'Reizüberflutung' は 'Reiz'（刺激）と 'Überflutung'（氾濫）を組み合わせたもので、感覚・情報の入力の過剰を指す。
-C1	digitale Entgiftung	デジタルデトックス	多くの人が休暇中にデジタルデトックスを求めます。	'Entgiftung' は 'Gift'（毒）に由来し、文字どおりには「毒を取り除くこと」で、デジタル機器に比喩的に当てはめられる。
-C1	Klimagerechtigkeit	気候正義	気候正義は世界的な連帯を求めます。	'Fordern' は4格の目的語を直接取り「要求する」を意味する、改まった非分離動詞である。
-C1	Generationengerechtigkeit	世代間の公正	世代間の公正は年金政策にも関わります。	'Betreffen' は前置詞なしで4格の目的語を直接取り、原則を政策分野に結びつけるのに使われる。
-C1	Ressourcenknappheit	資源の不足	資源の不足は国際紛争を深刻化させます。	'Verschärfen' は4格の目的語を直接取り「深刻化させる」を意味する、改まった非分離動詞である。
-C1	Umweltbewusstsein	環境意識	環境意識は特に若者の間で高まっています。	'Wachsen' は強変化動詞で 'wuchs, gewachsen' となり、社会的な傾向の高まりについてよく使われる。
-C1	Klimaskeptiker	気候変動懐疑派	気候変動懐疑派は人間の影響を疑っています。	'Bezweifeln' は4格の目的語を直接取り「疑う」を意味する、改まった非分離動詞である。
-C1	Konsenswissenschaft	合意の得られた科学	気候変動は、科学的に合意が得られたものとみなされています。	'Gelten als' は 'als' の後に1格を取り、広く共有された評価を表す決まった構文である。
-C1	Anpassungsstrategie	適応戦略	都市は熱波に対する適応戦略を立てています。	'Gegen' は常に4格を取り、ここでは戦略が何に向けられているかを示している。
-C1	Klimafolgenforschung	気候影響研究	気候影響研究は重要な予測を提供します。	'Liefern' は4格の目的語を直接取り「提供する」を意味し、科学的な議論でよく使われる動詞である。
-C1	Kipppunkt	転換点、ティッピングポイント	科学者たちは地球規模の転換点について警告しています。	'Warnen vor' は3格を取る。'vor einem Kipppunkt' のように、科学的な警告によく使われる決まった構文である。
-C1	planetare Grenzen	プラネタリー・バウンダリー（地球の限界）	いくつかの地球の限界はすでに超えられています。	'Überschritten' は 'überschreiten'（越える）に由来し、生態学や法律の文脈で使われる非分離動詞である。
 C1	Suffizienz	十分性、足るを知ること	十分性とは、意識して消費を減らすことを意味します。	'Suffizienz' は持続可能性の専門用語で、'Effizienz'（より少なくより多く）や 'Konsistenz'（素材の転換）とは区別される。
-C1	Postwachstumsökonomie	脱成長経済	脱成長経済はGDPの成長に疑問を投げかけます。	'Infrage stellen' は「疑問視する」を意味する決まった句で、'in Frage stellen' とも書かれる。
 C1	Konsumkritik	消費批判	消費批判には長い知的伝統があります。	'Konsumkritik' は 'Konsum'（消費）と 'Kritik'（批判）を組み合わせたもので、少なくとも20世紀初頭にさかのぼる思想の流れである。
 C1	Wachstumszwang	成長の強制	経済の成長の強制はますます批判されています。	'Wachstumszwang' は 'Wachstum'（成長）と 'Zwang'（強制）を組み合わせたもので、主流派経済学に対する批判的な概念である。
 C1	Selbstermächtigung	自己エンパワーメント	その本は読者である女性の自己エンパワーメントを促します。	'Selbstermächtigung' は 'selbst'（自分）と 'Ermächtigung'（権限付与）を組み合わせたもので、フェミニズムの言説の重要な用語である。
 C1	Emanzipation	解放	女性の解放は長い過程でした。	'Emanzipation' はラテン語の 'emancipare'（父権から解放する）に由来し、今日では広い社会的な意味で使われる。
 C1	Selbstbestimmung	自己決定	自己決定は基本的人権です。	'Selbstbestimmung' は 'selbst' と 'Bestimmung'（決定）を組み合わせたもので、個人にも民族や国家にも使われる。
-C1	Fremdbestimmung	他者による決定、他律	多くの人が他者による決定に反発します。	'Sich auflehnen gegen' は4格を取る。'gegen Fremdbestimmung' のように、反抗を表す決まった構文である。
-C1	Autonomiebestrebung	自治を求める動き	自治を求める動きは、ヨーロッパの多くの地域を特徴づけています。	'Prägen' は4格の目的語を直接取り「形づくる、特徴づける」を意味し、政治分析でよく使われる。
 C1	Selbstwirksamkeit	自己効力感	自己効力感は心の回復力を強めます。	'Selbstwirksamkeit' は心理学の重要な用語で、心理学者アルバート・バンデューラが提唱し、英語の 'self-efficacy' から訳された。
 C1	Widerstandskraft	抵抗力、立ち直る力	彼女の内なる立ち直る力は皆に感銘を与えました。	'Widerstandskraft' は 'Widerstand'（抵抗）と 'Kraft'（力）を組み合わせたもので、'Resilienz' のほぼ改まった同義語である。
-C1	Selbstoptimierung	自己最適化	自己最適化はますます批判的に見られています。	'Kritisch gesehen werden' は受動態で、ますます否定的になる社会的な受け止め方を述べるのに使われる。
-C1	Selbstausbeutung	自己搾取	自己搾取は自営業者の間で広く見られます。	'Verbreitet sein unter' は3格を取る。'unter Selbstständigen' のように、集団内に広がる現象を述べる構文である。
-C1	Erschöpfungszustand	疲労困憊の状態	彼女は完全な疲労困憊の状態にありました。	'Sich befinden in' は3格を取り、長く続く状態を述べる改まった構文である。
-C1	innere Leere	心の空虚さ	成功にもかかわらず、彼は心の空虚さを感じていました。	'Trotz' は2格を取るか、口語では3格を取り、外見と感情の対比を表すのに使われる。
-C1	Sinnstiftung	意味づけ	多くの人にとって、仕事は意味づけの役割を果たしています。	'Dienen zu' は3格を取る。'zur Sinnstiftung' のように、あるものの目的を表す決まった構文である。
 C1	Kontingenzbewältigung	偶然性への対処	宗教は歴史的に偶然性への対処に役立ってきました。	複雑な社会学・神学の用語で、人間が人生の予測不可能性にどう向き合うかを指す。
-C1	Reflexionsvermögen	省察する能力	省察する能力が彼女を際立たせています。	'Auszeichnen' は4格を取る分離動詞で、'zeichnet aus' は「際立たせる、特徴づける」を意味する。
 C1	Urteilsvermögen	判断力	仕事では、優れた判断力が欠かせません。	「Urteil」（判断）と「Vermögen」（能力）を組み合わせた語で、物事を適切に評価できる力。より文学的な同義語は「Urteilskraft」。
-C1	Unvoreingenommenheit	公平無私、偏りのなさ	裁判官は公平無私を保たなければなりません。	'Wahren' は4格の目的語を直接取り「保つ、守る」を意味する、改まった非分離動詞である。
 C1	Aufrichtigkeit	誠実さ	誠実さはあらゆる真の関係の土台です。	'Aufrichtigkeit' は 'aufrichtig'（誠実な）に由来し、文字どおりには「まっすぐ立った」、つまり欺瞞のないことを意味する。
-C1	Verschwiegenheit	守秘、口の堅さ	医師には守秘義務があります。	'Verpflichtet sein zu' は3格を取る。'zur Verschwiegenheit' のように、職業上の義務を述べる改まった構文である。
 C1	Standhaftigkeit	不屈、揺るがぬ姿勢	彼女の揺るがぬ姿勢が審査員を納得させました。	'Standhaftigkeit' は 'standhaft'（しっかりした、揺るがない）に由来し、決意を述べる格調高い語である。
 C1	Unbeirrbarkeit	ぶれない決意	彼のぶれない決意が、最終的に成功につながりました。	'Unbeirrbarkeit' は否定の 'un-' と 'beirren'（進路を狂わせる）を組み合わせたもので、文字どおりには「惑わされないもの」を意味する。
 C1	Vorbehalt	留保、但し書き	私は留保付きで賛成します。	'Unter Vorbehalt' は「留保付きで、条件付きで」を意味する決まった表現で、改まった言語に典型的である。
-C1	rechtliche Auflage	法的な条件、義務づけ	許可は一定の条件の下でのみ下ります。	この意味の 'Auflage' は課された法的条件を指し、書籍の「版」という意味とは異なる。
 C1	Zugeständnis	譲歩	双方が譲歩しました。	'Zugeständnisse machen' は標準的な固定コロケーションで、政治的にも個人的にも交渉で使われる。
-C1	Kompromissbereitschaft	妥協する姿勢	政治では妥協する姿勢が決定的です。	'Entscheidend' は「決定的な」を意味し、ある文脈で不可欠とされる資質について使われる。
-C1	Sachzwang	やむを得ない事情、現実的な制約	政治家はしばしばやむを得ない事情を持ち出します。	'Sich berufen auf' は4格を取る。'auf Sachzwänge' のように、不人気な決定を正当化するために、しばしば批判的に使われる。
 C1	Handlungsspielraum	行動の余地	政府の行動の余地は限られています。	'Handlungsspielraum' は 'Handlung'（行動）、'Spiel'（遊び）、'Raum'（空間）を組み合わせたもので、行動する自由の余地を指す。
 C1	Gestaltungsspielraum	裁量の余地、創意工夫の余地	教師にはある程度の裁量の余地があります。	「gestalten」（形づくる、設計する）と「Spielraum」（動ける余地）を組み合わせた語。法律、ビジネス、教育の場面でよく使われる。
 C1	Ermessensspielraum	裁量の余地	その公務員には裁量の余地があります。	'Ermessensspielraum' は、一定の範囲内で行政機関に認められた判断の余地を指す、専門的な法律用語である。
@@ -373,3 +252,124 @@ C1	ahnden	処罰する、罰する	その法律はこのような違反に高額
 C1	ins Gewicht fallen	重みを持つ、重要である	この誤りはほとんど問題になりません。	否定の形で使われることが多い：「nicht ins Gewicht fallen」（取るに足りない）。「Fallen」は不規則動詞で「sein」をとる：「ist ins Gewicht gefallen」。
 C1	zum Tragen kommen	効力を発揮する、生かされる	新しい規則は1月になってはじめて効力を発揮します。	何かが有効になることを表す改まった慣用句。「Kommen」は「sein」をとる：「ist zum Tragen gekommen」。
 C1	Rechnung tragen	考慮する、配慮する	その草案は市民の懸念に配慮しています。	3格を伴う改まった構文：「einer Sache Rechnung tragen」。「Tragen」は不規則動詞：「er trägt」。
+C1	Weltschmerz	世界苦、厭世的な悲しみ	彼の目には深い世界苦が宿っていた。	作家ジャン・パウルが作った語で、現実と理想のあいだの隔たりがもたらす痛みを表す。ドイツ・ロマン主義の中心的な概念である。
+C1	gemeinhin	一般に、通常は	これは正しいと一般に考えられています。	「一般に、通常は」を意味する改まった副詞で、多くの人が前提とすることや行うことを導入する。「gemeinhin gilt...」のような表現でよく使われる。
+C1	Sachverhalt	事実関係	事実関係を正確に検証しなければならない。	事案に関わる事実の全体を指し、その法的評価とは区別される。法律や行政における中核的な用語である。
+C1	Sachlage	状況、事態	状況を考えると、慎重さが求められる。	判断の根拠となる、現時点での具体的な状況を指す。「die Sachlage prüfen」(状況を見極める)。
+C1	Beweislast	立証責任	立証責任は原告にある。	「Beweis」(証拠)と「Last」(負担)の複合語で、法廷で誰がある事実を立証しなければならないかを表す。「Beweislastumkehr」はその負担の転換のこと。
+C1	Zeugenaussage	証人の証言	証人の証言は公式の見解と食い違っていた。	「Zeuge」(証人)と「Aussage」(供述)の複合語で、裁判官や警察の前で行われる証言のこと。
+C1	Indizienbeweis	状況証拠	判決は状況証拠に基づいている。	「Indiz」(手がかり)と「Beweis」(証拠)の複合語で、行為の直接的な証拠がなく、複数の間接的な手がかりから組み立てた証明を指す。
+C1	Vertragsklausel	契約条項	この契約条項は異例なほど厳しい。	「Vertrag」(契約)と「Klausel」(条項)の複合語で、契約の中の個々の規定を指す。
+C1	Fahrlässigkeit	過失	重大な過失は保険証券では補償されない。	「fahrlässig」(必要な注意を怠って行動する)から派生した語。ドイツ法では「grobe」(重大な)過失と「leichte」(軽微な)過失を区別し、責任や保険で重要になる。
+C1	Sorgfaltspflicht	注意義務	医師には特別な注意義務がある。	「Sorgfalt」(注意)と「Pflicht」(義務)の複合語で、状況に応じた入念さをもって行動する法的義務を指す。
+C1	Gesetzeslücke	法の抜け穴	その会社は法の抜け穴を利用している。	「Gesetz」(法律)と「Lücke」(隙間)の複合語で、法律が規定していない事例のこと。裁判所は類推によって埋めることがある。
+C1	Datenerhebung	データ収集	データ収集は匿名化して行われる。	「Daten」と「Erhebung」(調査)の複合語で、研究・世論調査・統計などで体系的にデータを集めること。
+C1	Einwilligung	同意	同意がなければ、データを処理してはならない。	「einwilligen」(同意する)から派生した語。自由意思による事前の同意で、GDPRに基づくデータ処理の法的根拠の一つ。
+C1	Löschungsanspruch	消去請求権	消去請求権は一定の条件下でのみ認められる。	「Löschung」(消去)と「Anspruch」(請求権)の複合語で、自分の個人データの削除を求める権利のこと。
+C1	Whistleblower	内部告発者	内部告発者がスキャンダルを暴いた。	英語からの借用語で、組織内の不正を通報する人のこと。ドイツ語では、保護法で使われる用語「Hinweisgeber」も用いられる。
+C1	Narrativ	ナラティブ(物語的な語り)	このナラティブは次第に疑問視されるようになっている。	ラテン語に由来する名詞で、社会や集団の出来事に意味を与える物語の型を指す。現在は政治的な言説で多用される。
+C1	Paradigma	パラダイム	新しい科学的パラダイムが定着した。	ギリシア語の「paradeigma」(手本)に由来し、ある学問分野で共有される理論的な枠組みを指す。複数形は「Paradigmen」または「Paradigmata」。
+C1	Dogma	教義、ドグマ	彼はあらゆるドグマに疑問を投げかける。	ギリシア語に由来し、信仰上の真理や、疑う余地がないとされる原則を指す。複数形は「Dogmen」または「Dogmata」。
+C1	Dogmatismus	独断主義、教条主義	独断主義は開かれた議論を妨げる。	「Dogma」から派生した語で、自分の見解を疑う余地のないものとみなし、批判や反証を退ける態度を指す。
+C1	Reduktionismus	還元主義	還元主義は複雑な現象を単純化しすぎる。	「reduzieren」(還元する)から派生した語で、複雑な現象を少数の単純な要素で説明しようとする考え方。単純すぎる説明への批判としてよく使われる。
+C1	Determinismus	決定論	決定論は自由意志に疑問を投げかける。	ラテン語の「determinare」に由来し、あらゆる出来事は先行する条件によって引き起こされるという見方。哲学では自由意志と対置される。
+C1	vorwerfen	(人の)非を責める、非難する	それは彼を責められない。	分離動詞。「jemandem etwas vorwerfen」(人は与格、責める事柄は対格)。受動態は「Ihm wird Fahrlässigkeit vorgeworfen」。
+C1	Stellungnahme	意見表明、見解	当局は書面での見解を求めた。	「Stellung nehmen」(態度を表明する)から派生した語で、ある問題についての正式な意見や声明を指す。役所や手続きでよく使われる。
+C1	unter der Hand	内密に、こっそりと	その住まいは内々に貸し出された。	非常に具体的なイメージで、「手の下で」、つまり公式な経路を通さず、しかるべき人脈のある人に回されることが多い。
+C1	Inbegriff	権化、典型	パリはロマンスの典型とされている。	ほとんどの場合、属格とともに使われる。「der Inbegriff der Eleganz」(優雅さの権化)。
+C1	bekanntlich	周知のとおり	周知のとおり、ゲーテは自然研究者でもあった。	聞き手がすでに知っていることを思い起こさせる副詞。書き言葉や教養ある文体に典型的。
+C1	Transzendenz	超越	多くの宗教は神的なものの超越性を強調する。	「Transzendenz」は経験や世界を超えたものを指し、「Immanenz」(内在)と対をなす。
+C1	Liquidität	流動性、手元資金	その会社の資金繰りは逼迫している。	「Liquidität」は、短期の債務を支払うための現金、またはすぐ現金に換えられる資産があることを指す。
+C1	Resistenz	耐性(医学)	抗生物質への耐性は深刻化する問題だ。	「Resistenz」は、細菌や生物が薬に耐える能力を指す。「Resistenz gegen」+対象の形で使われる。
+C1	Mutation	突然変異	無害な突然変異もある。	「Mutation」は遺伝物質の変化を指す。有害なこともあれば、中立的なことも有益なこともある。
+C1	Ambivalenz	アンビバレンス、両価性	彼の態度の両価性は明らかだ。	「Ambivalenz」は、同じ物事に対して相反する感情や判断が同時に存在することを指す。
+C1	Marginalisierung	周縁化	周縁化はとりわけ弱い立場の集団に及ぶ。	「Marginalisierung」は、人を社会の周縁に追いやることを指す。関連する動詞は「marginalisieren」。
+C1	klinische Studie	臨床試験	臨床試験は有望な結果を示している。	「Klinisch」(ギリシア語の「kline」=寝台)は患者に関わることを表す。「klinische Studie」は治療の有効性と安全性を検証する。
+C1	Quantencomputer	量子コンピューター	量子コンピューターは、ある種の問題をはるかに速く解く。	「Quanten」(量子)と「Computer」の複合語で、重ね合わせなどの量子効果を利用して情報を処理する。
+C1	Mortalitätsrate	死亡率	死亡率は大幅に低下した。	「Mortalitätsrate」は、ある期間の人口に対する死亡者の割合を指す。「Sterberate」が一般的な同義語。
+C1	Pathogenese	病因論、発症機序	この病気の発症機序はほとんど研究されていない。	「Pathogenese」は病気がどのように発症するかを表す。原因を研究する「Ätiologie」とは区別される。
+C1	Placeboeffekt	プラセボ効果	プラセボ効果は科学的によく裏づけられている。	「Placeboeffekt」は、有効成分ではなく患者の期待によって生じる改善を指す。
+C1	Dialektik	弁証法	テーゼとアンチテーゼの弁証法がジンテーゼへと導く。	テーゼ・アンチテーゼ・ジンテーゼの三段階は弁証法の通俗的な図式で、ヘーゲルでは弁証法的運動はもっと複雑(否定と止揚)である。
+C1	belegen	裏づける、実証する	この説は実証的に裏づけられる。	非分離動詞(belegte, hat belegt)で対格を取る。「eine These belegen」は、証拠・資料・データで主張を支えることを意味する。
+C1	Prämisse	前提	私はこの前提は誤りだと思う。	ラテン語に由来し、議論の出発点となる仮定を指す。「von einer Prämisse ausgehen」(前提から出発する)と言う。
+C1	rhetorische Frage	修辞疑問	それはもちろん修辞疑問だった。	答えを得るためではなく、要点を強調するために投げかける問いで、古典的な修辞技法。
+C1	Widerspruch	矛盾、異議	発言と行動のあいだには明らかな矛盾がある。	論理的な矛盾と、正式な異議(「Widerspruch einlegen」)の両方の意味がある。「ein Widerspruch in sich」は、それ自体が矛盾しているもののこと。
+C1	Logos	ロゴス(理性に訴える説得)	ギリシア人にとってロゴスは秩序をもたらす理性だった。	ギリシア語で、言葉・理性・秩序づける原理を意味する。修辞学では「Ethos」「Pathos」と並び、合理的な論拠による説得を指す。
+C1	kulturelles Kapital	文化資本	文化資本は学業での成功に影響する。	ブルデューの概念で、社会的な優位をもたらす知識・資格・文化的な習慣のこと。
+C1	sozialer Aufstieg	社会的上昇	社会的上昇は誰にとっても同じように容易なわけではない。	より高い社会的地位へ上ることを指す。反対語は「sozialer Abstieg」。
+C1	Prekarisierung	不安定化(プレカリゼーション)	不安定化は、ますます大学卒の人々にも及んでいる。	「prekär」から派生した語で、労働や生活がしだいに不安定になっていく過程を指す。
+C1	Umbruch	激変、大転換	その地域は根本的な大転換を経験している。	既存の秩序の根本的な変化を指す。「gesellschaftlicher Umbruch」(社会の激変)でよく使われる。
+C1	Epochenwandel	時代の転換	啓蒙主義は時代の転換を画した。	「Epoche」(時代)と「Wandel」(変化)の複合語で、ある時代から別の時代への移行を指す。
+C1	Zeitzeugenbericht	当事者の証言記録	当事者の証言記録は貴重な洞察を与えてくれる。	「Zeitzeuge」(その時代の証人)と「Bericht」(報告)から成り、出来事を生きた人の語りを指す。
+C1	Revisionismus	修正主義	歴史修正主義は批判的に見られている。	歴史をめぐる議論では否定的な含みを持つことが多く、確立した事実を意図的に書き換えることを指す。
+C1	kollektives Gedächtnis	集合的記憶	集合的記憶は国民のアイデンティティを形づくる。	モーリス・アルヴァックスの概念で、集団や社会が共有する記憶のこと。
+C1	Schuldfrage	罪責問題	罪責問題は今日に至るまで議論が分かれている。	「Schuld」(罪)と「Frage」(問い)から成る語。1945年以降は主に、戦争に対するドイツの責任をめぐる議論を指す。
+C1	Kollektivschuld	集団責任、集団的罪責	集団責任という概念は、論争を呼んでいる。	ある民族全体が自国の国家の犯罪に罪があるとする考え方で、きわめて議論の多い概念である。
+C1	Widerstandsbewegung	抵抗運動	抵抗運動は命の危険を冒した。	「Widerstand」(抵抗)と「Bewegung」(運動)から成り、政権や占領に反対する組織された集団を指す。
+C1	Vernunft	理性(能力)	カントは理性に大きな信頼を寄せた。	論理的に考え判断する能力。啓蒙主義の中心概念で、「Verstand」(悟性)とは区別される。
+C1	Mündigkeit	成熟、自律(カント的な意味で)	カントは啓蒙に、成熟への道を見た。	「Unmündigkeit」(未成年状態)の反対で、自分で考え決定する能力を指す。カントは「Unmündigkeit」からの脱却について語る。
+C1	Fortschrittsglaube	進歩への信仰	19世紀の進歩への信仰は揺らいだ。	「Fortschritt」(進歩)と「Glaube」(信仰)から成り、歴史は着実に良くなるという確信を指す。
+C1	Zivilisationskritik	文明批判	文明批判は繰り返し現れるテーマだ。	現代文明と技術が人間や自然に及ぼす影響への批判。
+C1	Bündnis	同盟	その同盟は70年以上続いている。	「binden」(結ぶ)から派生した語で、国・政党・団体のあいだの協力と相互支援の合意を指す。
+C1	Souveränität	主権	国家の主権は尊重される。	フランス語の「souveraineté」に由来し、国家が自国の領域で決定する最高の権力を指す。
+C1	Neutralität	中立	スイスは伝統的に中立を守っている。	紛争や軍事同盟に加わらない国家の地位を指す。スイスの中立は有名である。
+C1	Diplomatie	外交	外交には忍耐と機微への配慮が必要だ。	国家間の関係を取り仕切ること。比喩的には、人との付き合いにおける手腕や気配りも指す。
+C1	Waffenstillstand	停戦	停戦が合意された。	「Waffe」(武器)と「Stillstand」(停止)から成り、戦闘の一時的な中断を指す。「Frieden」(平和)とは異なる。
+C1	Friedensverhandlung	和平交渉	和平交渉はなかなか進展しない。	たいてい複数形の「Friedensverhandlungen」で使われ、戦争を終わらせるための話し合いを指す。
+C1	Erzählstrang	筋の流れ、ストーリーライン	二つの筋が並行して進んでいく。	「erzählen」(語る)と「Strang」(縄、筋)から成り、物語の並行する筋の一つを指す。
+C1	unzuverlässiger Erzähler	信頼できない語り手	信頼できない語り手は、読者に疑いを抱かせる。	嘘をついたり、誤ったり、偏っていたりするため、読者が信用できない語り手のこと。
+C1	Textkohärenz	テクストの一貫性	テクストの一貫性は論理的なつながりから生まれる。	テクストの各部分を結ぶ意味上の論理的なつながりで、形式的なまとまりである「Kohäsion」とは区別される。
+C1	Umgangssprache	口語	口語は書き言葉のドイツ語とは大きく異なる。	日常の話し言葉で、「Standardsprache」(標準語)ほど改まっていない。
+C1	Fachsprache	専門用語、専門語	法律家の専門用語はしばしば理解しにくい。	職業や学問分野に固有の言葉で、独自の専門語彙を持つ。
+C1	Amtsdeutsch	お役所ドイツ語	お役所ドイツ語は特に複雑だと言われている。	官庁や公式書類に見られる、堅くて重苦しい文体。皮肉を込めて使われることが多い。
+C1	Fremdwort	外来語(同化していないもの)	外来語のなかには気取って聞こえるものもある。	外国起源で、いまだ外国のものと感じられる語。「Lehnwort」(借用語)とは異なる。
+C1	Sprachpurismus	言語純化主義	言語純化主義は、しばしば英語からの借用を拒む。	言語を外国の影響から守ろうとする傾向で、批判的な含みを持つことが多い。
+C1	Anglizismus	英語由来の語法	多くの英語由来の語がドイツ語に定着した。	他の言語に取り入れられた英語の語や表現。例えばドイツ語の「Meeting」。
+C1	Sprachwissenschaftler	言語学者	言語学者はこの傾向を注意深く観察している。	言語を研究する学者で、「Linguist」の同義語。女性形は「Sprachwissenschaftlerin」。
+C1	Standardsprache	標準語	標準語は共通の規範として機能する。	言語圏全体に共通する成文化された言語変種で、方言や口語的な文体とは区別される。
+C1	gravierend	重大な、深刻な	それは重大な誤りだ。	ラテン語の「gravis」(重い)に由来し、「gravieren」(彫る)とは無関係。重大な誤り・損害・違いについて使われる。
+C1	Kollektivbewusstsein	集合意識	ソーシャルメディアは集合意識を形づくる。	エミール・デュルケームの用語(「conscience collective」)で、社会が共有する信念と価値観の総体を指す。
+C1	Gruppendynamik	グループダイナミクス	グループダイナミクスはあらゆるチームの決定に影響する。	クルト・レヴィンと結びつく用語で、集団の成員のあいだに働く過程や力を指す。
+C1	Konformitätsdruck	同調圧力	同調圧力はしばしば異論を抑え込む。	「Konformität」(同調)と「Druck」(圧力)から成り、集団の意見や行動に合わせるよう迫る社会的圧力を指す。
+C1	Meinungsklima	世論の空気、意見の風潮	世論の空気は明らかに変わった。	「Meinung」(意見)と「Klima」(気候)から成り、ある時点で世論を支配している傾向を指す。
+C1	Polarisierung	二極化	政治の二極化が進んでいる。	「Pol」(極)から派生した語で、社会が対立する二つの陣営に分かれ、中間的な立場の余地が小さくなることを指す。
+C1	Radikalisierung	過激化	オンラインでの過激化は食い止めるのが難しい。	ある人が、政治的・宗教的にしだいに極端な立場を取るようになる過程を指す。
+C1	Hetze	扇動、ヘイトスピーチ	ネット上の扇動は処罰の対象となる。	動詞「hetzen」(あおる)から派生した語で、人や集団に対する敵意に満ちた扇動を指す。強い否定的な含みがある。
+C1	Epochenwende	時代の転換点	ベルリンの壁の崩壊は、まさに時代の転換点だった。	「Epoche」(時代)と「Wende」(転換)から成り、ひとつの歴史的な時代が終わり、別の時代が始まる瞬間を指す。
+C1	Entwurzelung	根こぎ、故郷喪失	多くの移民にとって、根を失うことは痛みを伴う。	「Wurzel」(根)から派生した語で、比喩的には故郷・家族・共同体とのつながりを失うことを指す。
+C1	verhängen	(罰や制裁を)科す、課す	EUは新たな制裁を科すつもりだ。	非分離動詞で対格を取る。公的な罰や措置(制裁・罰金・禁止)を科すこと。改まった文体。
+C1	durchbrechen	打ち破る、突破する	作者は意図的に時系列を打ち破ろうとしている。	規則・型・沈黙などを破るという比喩的な意味では非分離動詞(第二音節にアクセント)。分離動詞(「bricht durch」)は「真っ二つに折れる」の意味。
+C1	Kohäsion	結束性	テクストの結束性は接続表現によって生まれる。	ラテン語の「cohaerere」に由来し、代名詞や接続語などによる文同士の形式上のつながりを指す。内容面の一貫性「Kohärenz」とは区別される。
+C1	verschleiern	覆い隠す、ごまかす	美辞麗句は真実を覆い隠すためのものにすぎない。	「Schleier」(ベール)から派生し、不都合なことを隠したりぼかしたりすること。非分離動詞で、批判的な調子を帯びることが多い。
+C1	vertuschen	もみ消す	会社はスキャンダルをもみ消そうとした。	強い否定的な響きを持つ非分離動詞で、過失や犯罪を意図的に隠すこと。スキャンダル報道に典型的な語。
+C1	Subtext	サブテキスト、言外の意味	この場面のサブテキストは明らかに政治的だ。	「sub-」と「Text」から成り、文章や対話がはっきり言わずに示唆していること。文学や演劇批評の用語。
+C1	Andeutung	ほのめかし、示唆	彼は漠然とほのめかしただけだった。	「andeuten」(ほのめかす)から派生した語で、はっきり言わない間接的な示唆。「Andeutungen machen」=ほのめかす。
+C1	überschätzen	過大評価する	この危険を過大評価すべきではない。	非分離動詞(第二音節にアクセント)。「Ich überschätze mich」=自分を買いかぶっている。反対語は「unterschätzen」。
+C1	Shitstorm	ネット炎上	その投稿はまさに炎上を引き起こした。	広く使われる英語からの借用語で、しばしば辛辣で攻撃的なオンライン上の批判の波を指す。
+C1	Framing	フレーミング(メディア)	フレーミングは、私たちがニュースをどう理解するかに影響を与える。	コミュニケーション学や心理学の用語で、提示の仕方が解釈を方向づけることを指す。ドイツ語でもそのまま使われ、冠詞は「das」。
+C1	Klimagerechtigkeit	気候正義	気候正義は世界的な連帯を求める。	「Klima」と「Gerechtigkeit」(正義)の複合語で、気候変動の負担を国同士や世代間で公平に分かち合うべきだという考え方。
+C1	Generationengerechtigkeit	世代間の公正	世代間の公正は年金政策にも関わる。	「Generationen」(「Generation」の複数形)と「Gerechtigkeit」の複合語で、若者と高齢者のあいだの公平さを指し、政治や経済の選択にも関わる。
+C1	Ressourcenknappheit	資源の不足	資源の不足は国際紛争を深刻化させる。	「Ressourcen」と「Knappheit」(「knapp」から派生した不足)の複合語で、原材料・水・エネルギーが限られていること。
+C1	Umweltbewusstsein	環境意識	環境意識は特に若い世代で高まっている。	「Umwelt」(環境)と「Bewusstsein」(意識)の複合語で、自分の行動が環境に与える影響についての自覚。
+C1	Klimaskeptiker	気候懐疑論者	気候懐疑論者は人間の影響を疑っている。	人為的な気候変動を疑う人。女性形は「Klimaskeptikerin」。論争的に使われることが多い。
+C1	Anpassungsstrategie	適応戦略	都市は熱波に対する適応戦略を打ち出している。	「Anpassung」(適応)と「Strategie」の複合語で、気候変動のような変化による被害を抑えるための計画。
+C1	Klimafolgenforschung	気候影響研究	気候影響研究は重要な予測を提供している。	「Klimafolgen」(気候変動の影響)と「Forschung」(研究)の複合語で、気候変動が自然や社会に及ぼす影響を研究する。
+C1	Kipppunkt	転換点、ティッピングポイント	科学者たちは地球規模の転換点について警告している。	「kippen」(傾いて倒れる)と「Punkt」(点)から成り、それを超えるとシステムが急激に、しばしば不可逆的に変化する閾値を指す。
+C1	Postwachstumsökonomie	脱成長経済	脱成長経済はGDPの成長に疑問を投げかける。	「Post-」「Wachstum」「Ökonomie」の複合語で、成長を目標としない経済モデル。ニコ・ペーヒと結びつく。
+C1	Fremdbestimmung	他者による支配、他律	多くの人が他者による支配に反発している。	「fremd」(他人の)と「Bestimmung」(決定)の複合語で、自分の人生に関することを他人が決めること。反対語は「Selbstbestimmung」。
+C1	Autonomiebestrebung	自治を求める動き	自治を求める動きがヨーロッパの多くの地域を特徴づけている。	「Autonomie」と「Bestrebung」(志向)の複合語。地域的な運動を指して複数形「Autonomiebestrebungen」で使われることが多い。
+C1	Selbstoptimierung	自己最適化	自己最適化は、しだいに批判的に見られるようになっている。	「selbst」(自己)と「Optimierung」(最適化)の複合語で、健康・仕事・外見などを絶えず向上させようとすること。今日では批判的に見られることが多い。
+C1	Selbstausbeutung	自己搾取	自己搾取は自営業者のあいだで広く見られる。	「selbst」と「Ausbeutung」(搾取)の複合語で、自らの意思で限度を超えて働くこと。自営業者に典型的。
+C1	Erschöpfungszustand	疲弊状態	彼女は完全な疲弊状態にあった。	「Erschöpfung」(疲労)と「Zustand」(状態)の複合語で、極度の心身の疲れの状態を指す。改まった文体または医学的な文体。
+C1	Sinnstiftung	意味づけ	多くの人にとって、仕事は意味づけの役割を果たしている。	「Sinn」(意味)と「stiften」(創り出す)から成り、人生や活動に意味を与えること。
+C1	Reflexionsvermögen	省察力	彼女は省察力に優れている。	「Reflexion」と「Vermögen」(能力)の複合語で、自分や物事を批判的に省みる能力。格調高い文体。
+C1	Unvoreingenommenheit	公平無私、先入観のなさ	裁判官は公平無私であり続けなければならない。	「un-」「voreingenommen」(先入観を持った)「-heit」から成り、偏見がないこと。反対語は「Voreingenommenheit」。
+C1	Verschwiegenheit	守秘、口の堅さ	医師には守秘義務がある。	「verschwiegen」(黙っていられる)から派生した語で、機密を明かさない義務や能力。例えば職業上の守秘義務。
+C1	Kompromissbereitschaft	妥協する用意	政治では妥協する用意が決定的に重要だ。	「Kompromiss」と「Bereitschaft」(用意)の複合語で、合意に達するために何かを譲る意思。
+C1	Sachzwang	やむを得ない事情、現実的制約	政治家はしばしばやむを得ない事情を持ち出す。	「Sache」(事柄)と「Zwang」(強制)の複合語で、他に選択肢がないように見える客観的な必然。政治の場でよく持ち出され、批判もされる。
+C1	Konsens	コンセンサス、合意	科学界には広範な合意がある。	ラテン語の「consensus」に由来し、意見の全般的な一致。「einen Konsens erzielen」=合意に達する。許可の意味の「consent」ではない(それは「Zustimmung」)。
+C1	Medienecho	メディアの反響	その出来事は大きなメディアの反響を呼んだ。	「Medien」と「Echo」(こだま)の複合語で、出来事が新聞・テレビ・SNSで引き起こす反響。「auslösen」や「finden」とよく使われる。「ein großes Medienecho finden」。
+C1	Digital Detox	デジタルデトックス	ストレスの後、彼女は休暇中にデジタルデトックスをした。	スマートフォンやSNSから自発的に離れることを指す英語からの借用語。性は「der」と「das」で揺れるが、現在は「das」の方が一般的。
+C1	Artensterben	種の絶滅	多くの地域で種の絶滅が急速に進んでいる。	「Art」(種)と「sterben」(死ぬ)の複合語で、動植物の種が消えていくこと。ほとんど常に単数で「das」とともに使われる。
+C1	Leere	空虚、虚ろさ	成功したにもかかわらず、彼は心の虚ろさを感じていた。	「Leere」は物理的または感情的な空っぽさを表し、「innere」と組むと心の空虚になる。形容詞「leer」(空の)から派生した。
+C1	Auflage	(課された)条件、義務づけ、発行部数	許可は一定の条件が付く場合にのみ下りる。	この意味の「Auflage」は法的に課された条件を指し、本の「版」「部数」という意味とは異なる。

@@ -51,7 +51,6 @@ C1	contienda	zmagania	Sportowe zmagania zakończyły się bez wyraźnego zwycię
 C1	liza	arena, pole walki	Kilka drużyn stanęło w szranki o kontynentalny tytuł.	Używane niemal wyłącznie w wyrażeniu «entrar en liza» (stanąć w szranki).
 C1	fichaje	transfer (pozyskanie)	Transfer napastnika kosztował klub rekordową kwotę.	Termin piłkarski.
 C1	fichar	pozyskać (zawodnika)	Klub myśli o pozyskaniu młodego, bardzo utalentowanego bramkarza.	Także „odbijać kartę”.
-C1	remontar	odrobić straty	Gdybyśmy grali spokojniej, moglibyśmy odrobić straty w meczu.	Tryb warunkowy nierzeczywisty przeszły.
 C1	claudicar	ustępować	Drużyna nie chciała ustąpić mimo przewagi rywala.	Czasownik książkowy.
 C1	vitorear	wiwatować	Tłum zaczął wiwatować na cześć kolarza, który przekroczył metę.	«Vítor» to okrzyk uznania.
 C1	cotizado	poszukiwany	To bardzo poszukiwany zawodnik na rynku europejskim.	Od «cotizar».
@@ -66,7 +65,6 @@ C1	deslumbrar	olśniewać	Witryna olśniła turystów spacerujących po ulicy.	O
 C1	aledaño	sąsiedni (przylegający)	Odwiedziliśmy sąsiednie wioski, by poznać ich targi rękodzieła.	Od «lindar».
 C1	idiosincrasia	specyfika (charakter)	Specyfika każdego ludu odzwierciedla się w jego obyczajach.	Jak po włosku.
 C1	arraigo	zakorzenienie	Zakorzenienie w ziemi określa wiele społeczności wiejskich.	Od «raíz».
-C1	legado	spuścizna	Spuścizna ludów rdzennych żyje w kuchni.	Uwaga: nie «delegato».
 C1	raigambre	głębokie korzenie	To tradycja o głębokich korzeniach w całym regionie.	Słowo książkowe.
 C1	vestigio	ślad (pozostałość)	Pod dżunglą pozostał ślad dawnego miasta.	Jak po włosku.
 C1	resquicio	przebłysk	We wsi został jeszcze przebłysk nadziei.	Także szczelina.
@@ -90,7 +88,6 @@ C1	despensa	spiżarnia	Mamy spiżarnię pełną roślin strączkowych i domowych
 C1	sobrante	resztka (nadwyżka)	Z resztek potrawki zrobiłem pyszne empanady.	Także przymiotnik.
 C1	macerar	marynować (moczyć)	Mięso trzeba marynować w winie przez całą noc.	Jak po włosku.
 C1	rehogar	dusić (na tłuszczu)	Zacznij od podduszenia cebuli na małym ogniu przez kilka minut.	Termin kulinarny.
-C1	escabechar	marynować w escabeche	Babcia marynowała ryby w escabeche, żeby lepiej się przechowywały.	«Escabeche» jest typowe dla Peru.
 C1	sofreír	lekko podsmażać	Czosnek trzeba lekko podsmażyć przed dodaniem rozdrobnionych pomidorów.	Nieregularny jak «freír».
 C1	untuoso	tłusty (oleisty)	Sos wyszedł dla mnie zbyt tłusty.	Jak po włosku.
 C1	añejo	dojrzewający (leżakowany)	Podano leżakowany ser z czerwonym winem reserva.	Używane dla rumu i sera.
@@ -112,7 +109,6 @@ C1	reconocer	przyznawać	Trudno przyznać się do własnych błędów przed inny
 C1	travesía	przeprawa	Przeprawa przez pustynię trwała dziewięć wyczerpujących dni.	Od «atravesar».
 C1	periplo	wędrówka (podróż morska)	Jego wędrówka po Ameryce Łacińskiej zainspirowała całą książkę.	Jak po włosku.
 C1	escollo	przeszkoda	Największą przeszkodą podróży było zdobycie zezwoleń.	Także „rafa”.
-C1	confín	kraniec (krańce)	Podróżował aż na kraniec świata, by ją odnaleźć.	Zwykle w liczbie mnogiej.
 C1	lugareño	miejscowy	Miejscowy wskazał nam drogę do wodospadu.	Rodzaj żeński «lugareña».
 C1	zarpar	wypływać	Statek wypłynie o świcie, jeśli pogoda pozwoli.	Jak po włosku.
 C1	atracar	cumować	Prom zacumował z opóźnieniem w porcie w Kartagenie.	Także „napadać”.
@@ -136,7 +132,6 @@ C1	umbral	próg	Zatrzymał się na progu domu, nie śmiejąc wejść.	Jak «sogl
 C1	cimiento	fundament	Fundament domu osiadł przez deszcze.	Zwykle w liczbie mnogiej.
 C1	tejado	dach (pokrycie)	Dach wymaga naprawy, zanim nadejdą deszcze.	Od «teja».
 C1	enlucir	tynkować	Otynkujemy ściany przed malowaniem salonu.	Czasownik techniczny.
-C1	revocar	otynkować (fasadę)	Zatrudnili murarza, by otynkował fasadę.	W Chile i Argentynie.
 C1	habitar	zamieszkiwać	Nikt nie chce zamieszkiwać domu w tak złym stanie.	«H» jest nieme.
 C1	desalojar	eksmitować (ewakuować)	Nakazano ewakuację budynku z powodu groźby zawalenia.	«Desalojo» to eksmisja.
 C1	hacinado	stłoczony	Mieszkali stłoczeni w pokoju bez okien i ogrzewania.	Od «hacinar».
@@ -246,7 +241,6 @@ C1	balneario	uzdrowisko	Uzdrowisko oferuje wody termalne i zabiegi relaksacyjne.
 C1	mirador	punkt widokowy	Weszliśmy na punkt widokowy, by podziwiać dolinę przed zachodem słońca.	Od «mirar».
 C1	parada	przystanek	Przystanek autobusowy jest kilka metrów od targu.	Także „parada”.
 C1	atascarse	utknąć (w korku)	W piątkowe popołudnia na autostradzie zwykle tworzą się korki.	«Atasco» to korek.
-C1	escalar	wspinać się (na szczyt)	Gdybym mógł wspiąć się na ten szczyt, czułbym się najszczęśliwszy.	Warunkowy nierzeczywisty.
 C1	orientarse	orientować się	Bez mapy trudno było orientować się w uliczkach starego miasta.	«Orientación» to orientacja.
 C1	pernoctar	nocować	Postanowiliśmy przenocować w schronisku przed ostatnim wejściem.	Jak po włosku.
 C1	agreste	dziki (wiejski)	Dziki krajobraz doliny przyciąga wielu turystów.	Jak po włosku.
@@ -297,3 +291,9 @@ C1	afrontar	stawić czoła, zmierzyć się	Musimy spokojnie zmierzyć się z pro
 C1	desdeñar	lekceważyć, pogardzać	Nie warto lekceważyć doświadczenia starszych pracowników.	Rejestr wyszukany. Rzeczownik to «desdén»; przeczenie «no desdeñar» jest bardzo częste.
 C1	acarrear	pociągać za sobą, powodować	Ta decyzja może pociągnąć poważne skutki gospodarcze dla firmy.	Prawie zawsze z negatywnymi skutkami: problemami, kosztami, konsekwencjami. Dziś rzadko znaczy dosłownie „nosić”.
 C1	no obstante	niemniej jednak, mimo to	Pociąg się spóźnił; mimo to zebranie zaczęło się punktualnie.	Formalny łącznik przeciwstawny, bardziej pisemny niż mówiony. Zwykle oddzielony średnikiem lub przecinkami.
+C1	remontar	odrobić stratę, wrócić do gry	Gdybyśmy grali spokojniej, moglibyśmy odrobić stratę w meczu.	Używane przy odrabianiu straty: «remontar un partido», «un marcador», «una eliminatoria».
+C1	legado	spuścizna, dziedzictwo	Dziedzictwo ludów rdzennych wciąż żyje w kuchni.	Także zapis w testamencie; nie mylić z «delegado» (delegat).
+C1	escabechar	marynować w occie (escabeche)	Moja babcia marynowała ryby, żeby lepiej się przechowały.	Od «escabeche», marynaty z octu, oleju i przypraw używanej do konserwowania ryb i mięsa.
+C1	confín	kraniec, odległe miejsce	Dotarł na ostatni kraniec świata, żeby ją odnaleźć.	Rejestr literacki; często w liczbie mnogiej: «los confines del mundo».
+C1	revocar	tynkować (elewację)	Najęli murarza, żeby otynkował fasadę.	Częściej w znaczeniu 'unieważnić' (decyzję); w budownictwie oznacza tynkowanie fasad.
+C1	escalar	wspinać się, wdrapywać	Gdybym mógł wspiąć się na ten szczyt, czułbym się najszczęśliwszym człowiekiem.	Także w przenośni: «escalar posiciones» (piąć się w hierarchii); konflikt też może «escalar» (eskalować).

@@ -384,3 +384,119 @@ describe('export-review-sample (TASK-046)', () => {
     expect(sample('4').text).not.toBe(a.text);
   });
 });
+
+describe('French content rules (TASK-064)', () => {
+  const NBSP = ' ';
+  const FR = {
+    ...LANG_JSON,
+    draft: false,
+    articles: ['le', 'la'],
+    ruleCodes: ['NOUN_GENDER', 'ADJ_AGREEMENT', 'VERB_PRESENT_ER', 'AUXILIARY_AVOIR_ETRE', 'DIRECT_OBJECT_PRONOUN', 'RELATIVE_QUI_QUE'],
+    partsOfSpeech: ['noun', 'verb', 'adj', 'adv'],
+    uniqueAcrossLevels: 'folded',
+    exampleRules: {
+      minTokens: 4, maxTokens: 10, stemMinLength: 3, forbidden: [],
+      verbEndings: ['er', 'ir', 're'], invertedQuestionMarks: false, straightApostrophe: true, nbspBefore: ['?', '!', ':', ';'],
+      adjectiveForms: [['eux', 'euse'], ['if', 'ive'], ['al', 'aux'], ['er', 'ère'], ['eau', 'elle']],
+    },
+    ruleChecks: {
+      AUXILIARY_AVOIR_ETRE: { mustContainAny: ['ai', 'suis', 'a', 'est', 'ont', 'sont'], exactlyOneOf: ['ai', 'suis', 'a', 'est', 'ont', 'sont'], noElision: true },
+      DIRECT_OBJECT_PRONOUN: { mustContainAny: ['le', 'la', 'les'], exactlyOneOf: ['le', 'la', 'les'], noElision: true },
+      RELATIVE_QUI_QUE: { mustContainAny: ['qui', 'que'], exactlyOneOf: ['qui', 'que'], forbiddenPhrases: ['parce que', 'pour que', 'bien que', 'est ce que'] },
+    },
+  };
+  const check = (levels: [string[], string[]]) => {
+    const f = fixture(levels[0], levels[1], FR);
+    expect(run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+    const r = run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]);
+    return { status: r.status, text: r.stderr + r.stdout };
+  };
+  const base = row({ word: 'chat', article: 'le', ex: 'Le chat dort sur le canapé.', rule: 'NOUN_GENDER' });
+  const one = (o: Record<string, string>) => check([[base], [row({ word: 'ami', article: 'le', ex: 'Mon ami habite ici maintenant.', rule: 'NOUN_GENDER', ...o })]]);
+  const verb = (word: string, ex: string) => one({ word, article: '-', pos: 'verb', rule: 'VERB_PRESENT_ER', ex });
+  const adj = (word: string, ex: string) => one({ word, article: '-', pos: 'adj', rule: 'ADJ_AGREEMENT', ex });
+
+  it('accepts a clean two-level bank', () => expect(one({}).status).toBe(0));
+
+  describe('verbs', () => {
+    it.each([
+      ['manger', 'Nous mangeons du pain ici.'],
+      ['manger', 'Je veux manger du pain.'],
+      ['finir', 'Nous finissons le travail ici.'],
+      ['vendre', 'Ils vendent du pain ici.'],
+      ['souvenir', 'Il faut se souvenir du nom.'],
+    ])('accepts %s in "%s"', (word, ex) => expect(verb(word, ex).status).toBe(0));
+    it('accepts a pronominal headword through its phrase or its stem', () => {
+      expect(verb('se souvenir', 'Il faut se souvenir du nom.').status).toBe(0);
+      expect(verb('se souvenir', 'Nous nous souvenons de son nom.').status).toBe(0);
+    });
+    it('rejects an irregular conjugated form that shows neither the word nor its stem', () => {
+      const r = verb('aller', 'Je vais au marché demain.');
+      expect(r.status).not.toBe(0);
+      expect(r.text).toMatch(/example must contain the word or its stem/);
+      expect(verb('aller', 'Je veux aller au marché.').status).toBe(0);
+    });
+  });
+
+  describe('adjectives', () => {
+    it.each([
+      ['grand', 'Elle a une grande maison ici.'],
+      ['heureux', "Elle est très heureuse aujourd'hui."],
+      ['actif', 'Mes amis sont très actives ici.'],
+      ['légal', 'Ces contrats sont légaux ici.'],
+      ['beau', 'Elle porte une belle robe ici.'],
+    ])('accepts %s in "%s"', (word, ex) => expect(adj(word, ex).status).toBe(0));
+    it('rejects an unrelated adjective form', () => {
+      expect(adj('grand', 'Elle a une petite maison ici.').text).toMatch(/example must contain the word or its stem/);
+    });
+  });
+
+  describe('typography', () => {
+    it('rejects the typographic apostrophe', () => {
+      expect(one({ ex: 'Mon ami habite à l’école maintenant.' }).text).toMatch(/apostrophe must be straight/);
+      expect(one({ ex: "Mon ami habite près de l'école." }).status).toBe(0);
+    });
+    it('wants a no-break space before ? ! : ;', () => {
+      expect(one({ ex: `Mon ami vient avec nous${NBSP}?` }).status).toBe(0);
+      expect(one({ ex: `Mon ami vient avec nous ?` }).text).toMatch(/ordinary space before \?/);
+      expect(one({ ex: 'Mon ami vient avec nous?' }).text).toMatch(/missing no-break space before \?/);
+      expect(one({ ex: `Mon ami est là${NBSP}!` }).status).toBe(0);
+      expect(one({ ex: 'Mon ami est là !' }).text).toMatch(/ordinary space before !/);
+    });
+    it('keeps a mark joined by a no-break space inside its token when counting tokens', () => {
+      // 4 ordinary-space tokens: the last one is "ici" + NBSP + "?"
+      expect(one({ ex: `Mon ami vient ici${NBSP}?` }).status).toBe(0);
+      expect(one({ ex: `Mon ami${NBSP}?` }).text).toMatch(/example has 2 tokens/);
+    });
+    it('rejects a double space', () => {
+      expect(one({ ex: 'Mon ami  habite ici maintenant.' }).text).toMatch(/double space/);
+    });
+  });
+
+  describe('choice sentences', () => {
+    const aux = (ex: string) => one({ word: 'manger', article: '-', pos: 'verb', rule: 'AUXILIARY_AVOIR_ETRE', ex });
+    it('accepts a free member', () => expect(aux('Il a mangé du pain ici.').status).toBe(0));
+    it('rejects an elided member and two members', () => {
+      expect(aux("Hier, j'ai mangé du pain.").text).toMatch(/AUXILIARY_AVOIR_ETRE has none of its forms|inside an elision/);
+      expect(aux('Il a mangé et elle est partie.').text).toMatch(/exactly one of/);
+    });
+    const rel = (ex: string) => one({ word: 'livre', article: 'le', rule: 'RELATIVE_QUI_QUE', ex });
+    it('accepts qui/que once and rejects fixed phrases', () => {
+      expect(rel('Le livre que tu lis est ancien.').status).toBe(0);
+      expect(rel('Je pars parce que tu viens ici.').text).toMatch(/fixed phrase \(parce que\)/);
+      expect(rel('Le livre que tu lis qui est ancien.').text).toMatch(/exactly one of/);
+    });
+  });
+
+  describe('uniqueness by folded form', () => {
+    it('rejects a word that differs only by accents across levels and within a level', () => {
+      const r = check([[row({ word: 'ecole', article: 'la', ex: "L'ecole est près de chez nous.", rule: 'NOUN_GENDER' })], [row({ word: 'école', article: 'la', ex: "L'école est près de chez nous.", rule: 'NOUN_GENDER' })]]);
+      expect(r.text).toMatch(/also appears in A1/);
+    });
+    it('does not fold when the language asks for plain uniqueness', () => {
+      const f = fixture([row({ word: 'ecole', article: 'la', ex: "L'ecole est près de chez nous.", rule: 'NOUN_GENDER' })], [row({ word: 'école', article: 'la', ex: "L'école est près de chez nous.", rule: 'NOUN_GENDER' })], { ...FR, uniqueAcrossLevels: true });
+      expect(run('build-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+      expect(run('validate-wordbank.mjs', ['--root', f.root, '--out', f.out]).status).toBe(0);
+    });
+  });
+});

@@ -82,20 +82,119 @@
         "êtes",
         "ont",
         "sont"
-      ]
+      ],
+      "exactlyOneOf": [
+        "ai",
+        "suis",
+        "as",
+        "es",
+        "a",
+        "est",
+        "avons",
+        "sommes",
+        "avez",
+        "êtes",
+        "ont",
+        "sont"
+      ],
+      "noElision": true
     },
     "DIRECT_OBJECT_PRONOUN": {
       "mustContainAny": [
         "le",
         "la",
         "les"
-      ]
+      ],
+      "exactlyOneOf": [
+        "le",
+        "la",
+        "les"
+      ],
+      "noElision": true
     },
     "RELATIVE_QUI_QUE": {
       "mustContainAny": [
         "qui",
         "que"
+      ],
+      "exactlyOneOf": [
+        "qui",
+        "que"
+      ],
+      "forbiddenPhrases": [
+        "parce que",
+        "pour que",
+        "bien que",
+        "est ce que",
+        "est ce qui",
+        "afin que",
+        "alors que",
+        "tandis que",
+        "puisque",
+        "jusqu a ce que"
       ]
     }
+  },
+  "uniqueAcrossLevels": "folded",
+  "exampleRules": {
+    "minTokens": 4,
+    "maxTokens": 10,
+    "stemMinLength": 3,
+    "forbidden": [],
+    "verbEndings": [
+      "er",
+      "ir",
+      "re"
+    ],
+    "invertedQuestionMarks": false,
+    "straightApostrophe": true,
+    "nbspBefore": [
+      "?",
+      "!",
+      ":",
+      ";"
+    ],
+    "adjectiveForms": [
+      [
+        "eux",
+        "euse"
+      ],
+      [
+        "if",
+        "ive"
+      ],
+      [
+        "al",
+        "aux"
+      ],
+      [
+        "er",
+        "ère"
+      ],
+      [
+        "eau",
+        "elle"
+      ],
+      [
+        "eur",
+        "euse"
+      ],
+      [
+        "on",
+        "onne"
+      ],
+      [
+        "en",
+        "enne"
+      ],
+      [
+        "et",
+        "ète"
+      ],
+      [
+        "el",
+        "elle"
+      ]
+    ]
   }
 }

@@ -37,33 +37,71 @@ let total = 0;
 let i18nCount = 0;
 let languages = 0;
 
+/** Lower-case, accent-free form used for the "same word" checks of languages that ask for it. */
+const fold = (s) => s.toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae').normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC');
+const BS = String.fromCharCode(92);
+const escapeRe = (s) => s.split('').map((c) => ('.*+?^${}()|[]'.includes(c) || c === BS ? BS + c : c)).join('');
+
+/** Forms an adjective may take in a sentence: itself, feminine/plural by the usual endings, and the listed irregular ones. */
+function adjectiveCandidates(word, pairs) {
+  const out = new Set([word, word + 'e', word + 's', word + 'es', word + 'x']);
+  for (const [masc, fem] of pairs) {
+    if (!word.endsWith(masc)) continue;
+    const base = word.slice(0, word.length - masc.length);
+    out.add(base + fem);
+    out.add(base + fem + 's');
+  }
+  return out;
+}
+
 /** Content rules of a language's example sentences (language.json `exampleRules`); returns problem texts. */
 function exampleProblems(entry, rules) {
   const out = [];
   const ex = entry.example.trim();
   const words = ex.toLowerCase().split(/[^\p{L}]+/u).filter(Boolean);
-  const tokens = ex.split(/\s+/);
+  const tokens = ex.split(/[ \t\r\n]+/);
   const word = entry.word.toLowerCase();
   const joined = ' ' + words.join(' ') + ' ';
   let found = joined.includes(' ' + word.split(/[^\p{L}]+/u).join(' ') + ' ');
   if (!found && entry.part_of_speech === 'verb') {
-    const stem = word.replace(/(ar|er|ir)(se)?$/, '');
+    let stem;
+    if (rules.verbEndings) {
+      // Pronominal headwords carry their particle (se souvenir); the stem is that of the verb itself.
+      const bare = word.replace(/^(se |s')\s*/, '');
+      stem = bare.replace(new RegExp('(' + rules.verbEndings.join('|') + ')$'), '');
+    } else {
+      stem = word.replace(/(ar|er|ir)(se)?$/, '');
+    }
     found = stem.length >= (rules.stemMinLength ?? 3) && words.some((w) => w.startsWith(stem));
   }
-  if (!found && entry.part_of_speech === 'adj' && word.endsWith('o')) {
-    const stem = word.slice(0, -1);
-    found = words.some((w) => w === stem + 'a' || w === stem + 'os' || w === stem + 'as');
+  if (!found && entry.part_of_speech === 'adj') {
+    if (rules.adjectiveForms) {
+      const forms = adjectiveCandidates(word, rules.adjectiveForms);
+      found = words.some((w) => forms.has(w));
+    } else if (word.endsWith('o')) {
+      const stem = word.slice(0, -1);
+      found = words.some((w) => w === stem + 'a' || w === stem + 'os' || w === stem + 'as');
+    }
   }
   if (!found) out.push('example must contain the word or its stem');
   if (tokens.length < rules.minTokens || tokens.length > rules.maxTokens) {
     out.push(`example has ${tokens.length} tokens (${rules.minTokens}–${rules.maxTokens})`);
   }
-  const first = ex.replace(/^[¿¡"«(]+/, '').charAt(0);
+  const first = ex.replace(/^[¿¡"«(\s  ]+/, '').charAt(0);
   if (!first || first === first.toLowerCase() || !/[.?!]$/.test(ex)) out.push('example must start upper-case and end with . ? or !');
   for (const re of rules.forbidden ?? []) {
     if (new RegExp(re, 'iu').test(ex)) out.push(`example uses forbidden form /${re}/`);
   }
-  if (ex.includes('¿') !== ex.includes('?')) out.push('"¿" and "?" must come together');
+  if (rules.invertedQuestionMarks !== false && ex.includes('¿') !== ex.includes('?')) out.push('"¿" and "?" must come together');
+  if (rules.straightApostrophe && ex.includes('’')) out.push("apostrophe must be straight '");
+  if (rules.nbspBefore) {
+    if (/ {2,}/.test(ex)) out.push('example has a double space');
+    for (const mark of rules.nbspBefore) {
+      const m = escapeRe(mark);
+      if (new RegExp(' ' + m).test(ex)) out.push(`ordinary space before ${mark}`);
+      else if (new RegExp(String.raw`[\p{L}\p{N})»"']` + m, 'u').test(ex)) out.push(`missing no-break space before ${mark}`);
+    }
+  }
   return out;
 }
 
@@ -124,10 +162,11 @@ for (const lang of folders) {
       if (levelRule?.allowedCodes && !levelRule.allowedCodes.includes(entry.grammar_angle)) {
         errors.push(`${at}: grammar_angle ${entry.grammar_angle} is not allowed at ${level}`);
       }
+      const sameKey = (w) => (cfg.uniqueAcrossLevels === 'folded' ? fold(w) : w.toLowerCase());
       if (cfg.uniqueAcrossLevels && typeof entry.word === 'string') {
-        const other = firstLevel.get(entry.word.toLowerCase());
+        const other = firstLevel.get(sameKey(entry.word));
         if (other && other !== level) errors.push(`${at}: word "${entry.word}" also appears in ${other}`);
-        else firstLevel.set(entry.word.toLowerCase(), level);
+        else firstLevel.set(sameKey(entry.word), level);
       }
       if (RULES && typeof entry.example === 'string') {
         exampleProblems(entry, { ...RULES, maxTokens: levelRule?.maxTokens ?? RULES.maxTokens }).forEach((p) => errors.push(`${at}: ${p}`));
@@ -142,6 +181,12 @@ for (const lang of folders) {
           errors.push(`${at}: example for ${entry.grammar_angle} must contain exactly one of ${check.exactlyOneOf.join('/')}`);
         }
         const joined = ' ' + words.join(' ') + ' ';
+        if (check.noElision) {
+          const forms = check.mustContainAny.map(escapeRe).join('|');
+          if (new RegExp(String.raw`\p{L}['’](` + forms + String.raw`)(?!\p{L})`, 'iu').test(entry.example)) {
+            errors.push(`${at}: example for ${entry.grammar_angle} uses its form inside an elision`);
+          }
+        }
         const phrase = (check.forbiddenPhrases ?? []).find((p) => joined.includes(' ' + p + ' '));
         if (phrase) errors.push(`${at}: example for ${entry.grammar_angle} uses a fixed phrase (${phrase})`);
       }
@@ -156,7 +201,7 @@ for (const lang of folders) {
       if (entry.part_of_speech !== 'noun' && entry.article) {
         errors.push(`${at}: only nouns may have an article`);
       }
-      const key = entry.word?.toLowerCase();
+      const key = typeof entry.word === 'string' ? sameKey(entry.word) : undefined;
       if (seen.has(key)) errors.push(`${at}: duplicate word within ${level}`);
       seen.add(key);
     });

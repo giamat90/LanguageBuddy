@@ -17,7 +17,11 @@ export interface ChoiceCloze extends CaseCloze {
   set: readonly string[];
 }
 
-/** The first token that is a member of one of the rule's sets becomes the blank. */
+/**
+ * The first token that is a member of one of the rule's sets becomes the blank. A letter run
+ * glued to an apostrophe (French j'ai, l'ai, qu'il) is part of an elision, not a free form: it
+ * is never a blank, and the apostrophe would give the answer away.
+ */
 export function buildChoiceCloze(
   sentence: string | null | undefined,
   ruleCode: string,
@@ -29,7 +33,7 @@ export function buildChoiceCloze(
   for (let i = 1; i < parts.length; i += 2) {
     const lower = parts[i].toLowerCase();
     const set = sets.find((s) => s.includes(lower));
-    if (set) {
+    if (set && !/['’]$/.test(parts[i - 1])) {
       return { before: parts.slice(0, i).join(''), after: parts.slice(i + 1).join(''), answer: lower, set };
     }
   }

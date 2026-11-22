@@ -95,7 +95,8 @@ Each app teaches one language; all share the code, the exercise engine and the d
 |-----|------------------|---------|--------|
 | **GermanBuddy** | German | `com.giamat90.germanbuddy` | on Google Play |
 | **SpanishBuddy** | Spanish | `com.giamat90.spanishbuddy` | built and phone-tested; word content machine-drafted, Play listing not created |
-| FrenchBuddy, ItalianBuddy | French, Italian | — | planned; follow §3 "Adding a language" |
+| FrenchBuddy | French | `com.giamat90.frenchbuddy` (planned) | pack done (TASK-063, draft language, no words yet); bank 064, translations 065, variant and store 066 |
+| ItalianBuddy | Italian | — | planned; follow §3 "Adding a language" |
 
 What every app does:
 - Every day the learner gets one word at their CEFR level (article where the language has one, IPA, meaning, example, cultural note).
@@ -266,6 +267,18 @@ C2: CONCORDANCIA_TEMPORAL, REGISTRO_FORMAL
 The drill covers `NOUN_GENDER` (el/la) and the *choice* rules `SER_ESTAR`, `POR_PARA`, `DIRECT_OBJECT_PRONOUN` (`pack.choices`: sets of mutually exclusive forms; only sentences an author
 tagged with the rule are used). The other codes are metadata for now. Caps keep the choice sentences clean: `SER_ESTAR` ≤ 20 at A1–B1 then ≤ 10; `POR_PARA` none at A1, ≤ 20 at A2–B1,
 then ≤ 10; `DIRECT_OBJECT_PRONOUN` only at A2–B1 (≤ 15). A1 irregular verbs use the infinitive in the example (the stem check cannot see irregular forms).
+
+**French** (draft language until TASK-064):
+```
+A1: NOUN_GENDER, ADJ_AGREEMENT, VERB_PRESENT_ER, ETRE_AVOIR, NEGATION_NE_PAS
+A2: VERB_PRESENT_IRREGULAR, REFLEXIVE_VERBS, PASSE_COMPOSE, AUXILIARY_AVOIR_ETRE, DIRECT_OBJECT_PRONOUN, PARTITIVE_ARTICLE, FUTUR_PROCHE
+B1: IMPARFAIT, FUTUR_SIMPLE, CONDITIONNEL, IMPERATIF, INDIRECT_OBJECT_PRONOUN, PRONOUNS_Y_EN, RELATIVE_QUI_QUE
+B2: SUBJONCTIF_PRESENT, PLUS_QUE_PARFAIT, PASSIF, RELATIVE_COMPOSE, DISCOURS_RAPPORTE
+C1: SUBJONCTIF_PASSE, SI_CLAUSES, GERONDIF_PARTICIPE
+C2: PASSE_SIMPLE, REGISTRE_SOUTENU, CONCORDANCE_TEMPS
+```
+The drill covers `NOUN_GENDER` (le/la) and the choice rules `AUXILIARY_AVOIR_ETRE`, `DIRECT_OBJECT_PRONOUN`, `RELATIVE_QUI_QUE`. An elided form (j'ai, l'ai, qu'il) is never a blank: the apostrophe would give
+the answer away, so a tagged sentence needs the member as a free token (je suis, il a, nous avons). The bank writes a no-break space (U+00A0) before ? ! : ; and a straight apostrophe; sentence tiles split on ordinary whitespace only.
 
 ---
 

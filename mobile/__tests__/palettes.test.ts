@@ -15,7 +15,7 @@ const contrast = (a: string, b: string) => {
 
 describe('palettes', () => {
   it('has one palette per language, all with the same keys', () => {
-    expect(Object.keys(palettes).sort()).toEqual(['de', 'es']);
+    expect(Object.keys(palettes).sort()).toEqual(['de', 'es', 'fr']);
     expect(Object.keys(palettes.es).sort()).toEqual(Object.keys(palettes.de).sort());
   });
   it('keeps the German app exactly as released', () => {
@@ -26,7 +26,13 @@ describe('palettes', () => {
     expect(palettes.es.primary.toLowerCase()).toBe(es.adaptiveIcon.background.toLowerCase());
     expect(palettes.es.primary).not.toBe(palettes.de.primary);
   });
-  it.each(['de', 'es'] as const)('%s: text and buttons stay readable', (code) => {
+  it('gives French its own blue, different from the other two apps', () => {
+    expect(palettes.fr.primary).toBe('#0055A4');
+    expect(palettes.fr.primary).not.toBe(palettes.de.primary);
+    expect(palettes.fr.primary).not.toBe(palettes.es.primary);
+    expect(Object.keys(palettes.fr).sort()).toEqual(Object.keys(palettes.de).sort());
+  });
+  it.each(['de', 'es', 'fr'] as const)('%s: text and buttons stay readable', (code) => {
     const p = palettes[code];
     expect(contrast('#FFFFFF', p.primary)).toBeGreaterThanOrEqual(4.5);
     expect(contrast(p.ink, p.paper)).toBeGreaterThanOrEqual(7);

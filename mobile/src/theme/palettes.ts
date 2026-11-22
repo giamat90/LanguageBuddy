@@ -31,4 +31,12 @@ export const palettes: Record<TargetLanguageCode, Palette> = {
     gold: '#8F6108', goldLight: '#FBF0D9',
     border: 'rgba(53,18,15,0.12)',
   },
+  // Blue of the French flag (#0055A4), the colour planned for the icon (TASK-066), with cool neutrals.
+  fr: {
+    paper: '#F5F8FC', mist: '#E1E8F2', cream: '#EAF0F8',
+    ink: '#0B1F3A', muted: '#586A82',
+    primary: '#0055A4', primaryLight: '#E1ECF8',
+    gold: '#8F6108', goldLight: '#FBF0D9',
+    border: 'rgba(11,31,58,0.12)',
+  },
 };

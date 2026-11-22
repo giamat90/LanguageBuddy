@@ -1,5 +1,5 @@
 /** The language being studied. Widened by later tasks ('fr', …). */
-export type TargetLanguageCode = 'de' | 'es';
+export type TargetLanguageCode = 'de' | 'es' | 'fr';
 
 import type { NativeLanguage } from '../i18n/language';
 

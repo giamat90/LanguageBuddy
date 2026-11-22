@@ -6,10 +6,14 @@ import type { SentenceReorderModel } from './types';
 export const REORDER_MIN_TOKENS = 4;
 export const REORDER_MAX_TOKENS = 10;
 
-/** Words as written; punctuation stays attached so there are no lone "." tiles. */
+/**
+ * Words as written; punctuation stays attached so there are no lone "." tiles. Only ordinary
+ * whitespace separates tiles: French writes a no-break space (U+00A0) before ? ! : ; and the
+ * mark must stay on its word's tile.
+ */
 export function tokenizeSentence(sentence: string): string[] {
-  const trimmed = sentence.trim();
-  return trimmed ? trimmed.split(/\s+/) : [];
+  const trimmed = sentence.replace(/^[ \t\r\n]+|[ \t\r\n]+$/g, '');
+  return trimmed ? trimmed.split(/[ \t\r\n]+/) : [];
 }
 
 function sameOrder(a: string[], b: string[]): boolean {

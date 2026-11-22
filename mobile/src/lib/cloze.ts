@@ -55,7 +55,8 @@ function editDistance(a: string, b: string): number {
  */
 export function gradeTypedAnswer(answer: string, word: string, pack: LanguagePack = getActivePack()): TypedResult {
   // NFC so a decomposed "ü" (u + combining diaeresis) from a paste compares equal.
-  const typed = answer.normalize('NFC').trim();
+  // A typographic apostrophe (some keyboards type it) is the same letter as the straight one.
+  const typed = answer.normalize('NFC').trim().replace(/’/g, "'");
   const target = word.normalize('NFC');
   if (!typed) return 'wrong';
   if (typed.toLowerCase() === target.toLowerCase()) return 'exact';

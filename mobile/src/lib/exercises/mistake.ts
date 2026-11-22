@@ -2,6 +2,7 @@ import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, type 
 import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
 import { FORMAT_QUALITY } from './quality';
+import { tokenizeSentence } from './reorder';
 import type { FindMistakeModel } from './types';
 
 /**
@@ -59,7 +60,7 @@ function pick<T>(list: T[], rng: Rng): T {
  */
 export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack = getActivePack()): FindMistakeModel | null {
   if (!card.example) return null;
-  const tokens = card.example.trim().split(/\s+/);
+  const tokens = tokenizeSentence(card.example);
   if (tokens.length < MISTAKE_MIN_TOKENS || tokens.length > MISTAKE_MAX_TOKENS) return null;
 
   const core = (i: number) => splitToken(tokens[i], pack).core.toLowerCase();

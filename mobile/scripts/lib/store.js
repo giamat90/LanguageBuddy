@@ -12,6 +12,7 @@ const REPO = path.join(MOBILE, '..');
 const TOKENS = [
   'APP', 'TARGET', 'CODE', 'SLUG', 'SLUG_UPPER', 'DEV', 'UPDATED', 'YEAR', 'FORM_ID',
   'UI_LANGS', 'WORDS', 'SUPPORT_URL', 'PRIVACY_URL',
+  'C_PRIMARY', 'C_PRIMARY_DARK', 'C_SECONDARY', 'C_GOLD', 'C_CREAM', 'C_PRIMARY_LIGHT', 'C_TEXT', 'C_TEXT_MUTED', 'C_INK_RGB',
 ];
 const LIMITS = { title: 30, short: 80, full: 4000 };
 // English only: other languages are covered by the native review of the translations.
@@ -60,6 +61,17 @@ function uiLangCount(cfg) {
   return new Set([...(cfg.i18nLanguages ?? []), 'it', 'en']).size;
 }
 
+// Colours of the public pages per app: the app palette (src/theme/palettes.ts) with the muted text
+// a touch darker for AA contrast on tinted boxes. A test keeps primary and ink equal to the palette.
+const SUPPORT_COLORS = {
+  de: { C_PRIMARY: '#1E4A67', C_PRIMARY_DARK: '#0C2A3E', C_SECONDARY: '#0C447C', C_GOLD: '#8F6108', C_CREAM: '#EAF0F4',
+        C_PRIMARY_LIGHT: '#E3EDF3', C_TEXT: '#0C2A3E', C_TEXT_MUTED: '#5C697C', C_INK_RGB: '12, 42, 62' },
+  es: { C_PRIMARY: '#AA151B', C_PRIMARY_DARK: '#35120F', C_SECONDARY: '#7F0F14', C_GOLD: '#8F6108', C_CREAM: '#F5EDE8',
+        C_PRIMARY_LIGHT: '#F7E4E3', C_TEXT: '#35120F', C_TEXT_MUTED: '#6B514B', C_INK_RGB: '53, 18, 15' },
+  fr: { C_PRIMARY: '#0055A4', C_PRIMARY_DARK: '#0B1F3A', C_SECONDARY: '#003B73', C_GOLD: '#8F6108', C_CREAM: '#EAF0F8',
+        C_PRIMARY_LIGHT: '#E1ECF8', C_TEXT: '#0B1F3A', C_TEXT_MUTED: '#4A5C75', C_INK_RGB: '11, 31, 58' },
+};
+
 function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n, formId }) {
   return {
     APP: variant.name,
@@ -75,6 +87,7 @@ function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n, 
     WORDS: wordCount,
     SUPPORT_URL: support.supportUrl,
     PRIVACY_URL: `${support.supportUrl}privacy-policy.html`,
+    ...(SUPPORT_COLORS[variant.code] ?? SUPPORT_COLORS.de),
   };
 }
 
@@ -105,5 +118,5 @@ function validateListing(listing, { lang, values }) {
 }
 
 module.exports = {
-  TOKENS, LIMITS, render, loadSupport, languageConfig, uiLangCount, tokenValues, validateListing,
+  TOKENS, LIMITS, SUPPORT_COLORS, render, loadSupport, languageConfig, uiLangCount, tokenValues, validateListing,
 };

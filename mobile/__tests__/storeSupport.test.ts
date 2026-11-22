@@ -101,6 +101,31 @@ describe('build-store.mjs', () => {
     }
   });
 
+  it('gives each app its own colours and icon, from the app palette', () => {
+    const g = build('de', ['--form-id', 'x']);
+    const s = build('es', ['--form-id', 'x']);
+    for (const f of PAGES) {
+      expect(page(s.out, f)).toContain('--primary: #AA151B');
+      expect(page(s.out, f)).not.toContain('#1E4A67');
+      expect(page(g.out, f)).toContain('--primary: #1E4A67');
+      expect(page(g.out, f)).not.toContain('#AA151B');
+    }
+    // the Spanish site shows the Spanish icon, not GermanBuddy's
+    expect(readFileSync(join(s.out, 'support', 'icon.png')).equals(readFileSync(join(__dirname, '..', 'assets', 'icon-es.png')))).toBe(true);
+    expect(readFileSync(join(g.out, 'support', 'icon.png')).equals(readFileSync(join(__dirname, '..', 'assets', 'icon.png')))).toBe(true);
+  });
+
+  it('keeps the page colours equal to the app palette (primary and ink)', () => {
+    const pal = readFileSync(join(__dirname, '..', 'src', 'theme', 'palettes.ts'), 'utf8');
+    for (const code of ['de', 'es', 'fr']) {
+      const block = pal.match(new RegExp(`\n  ${code}: \{([^}]*)\}`))![1];
+      const primary = block.match(/primary: '(#[0-9A-Fa-f]{6})'/)![1];
+      const ink = block.match(/ink: '(#[0-9A-Fa-f]{6})'/)![1];
+      expect(store.SUPPORT_COLORS[code].C_PRIMARY.toLowerCase()).toBe(primary.toLowerCase());
+      expect(store.SUPPORT_COLORS[code].C_TEXT.toLowerCase()).toBe(ink.toLowerCase());
+    }
+  });
+
   it('keeps the substance of the policy', () => {
     const html = page(build('es', ['--form-id', 'x']).out, 'privacy-policy.html');
     for (const phrase of ['no account', 'Firebase Cloud Messaging', 'text-to-speech', 'Spanish word', 'Delete', 'fonts.googleapis.com']) {

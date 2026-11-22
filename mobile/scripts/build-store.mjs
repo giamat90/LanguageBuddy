@@ -87,7 +87,7 @@ for (const [rel, text] of files) {
   mkdirSync(dirname(join(out, rel)), { recursive: true });
   writeFileSync(join(out, rel), text);
 }
-copyFileSync(join(mobile, 'assets', 'icon.png'), join(out, 'support', 'icon.png'));
+copyFileSync(join(mobile, variant.icon ?? './assets/icon.png'), join(out, 'support', 'icon.png'));
 warnings.forEach((m) => console.error(`warning: ${m}`));
 console.log(`✓ ${code}: support pages -> ${join(out, 'support')}`);
 if (existsSync(listingDir)) {

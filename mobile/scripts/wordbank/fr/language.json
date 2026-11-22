@@ -194,7 +194,169 @@
       [
         "el",
         "elle"
+      ],
+      [
+        "c",
+        "che"
+      ],
+      [
+        "il",
+        "ille"
+      ],
+      [
+        "ieux",
+        "ieille"
+      ],
+      [
+        "eux",
+        "euse"
       ]
     ]
+  },
+  "levelRules": {
+    "A1": {
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS"
+      ]
+    },
+    "A2": {
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "PASSE_COMPOSE",
+        "AUXILIARY_AVOIR_ETRE",
+        "DIRECT_OBJECT_PRONOUN",
+        "PARTITIVE_ARTICLE",
+        "FUTUR_PROCHE"
+      ]
+    },
+    "B1": {
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "PASSE_COMPOSE",
+        "AUXILIARY_AVOIR_ETRE",
+        "DIRECT_OBJECT_PRONOUN",
+        "PARTITIVE_ARTICLE",
+        "FUTUR_PROCHE",
+        "IMPARFAIT",
+        "FUTUR_SIMPLE",
+        "CONDITIONNEL",
+        "IMPERATIF",
+        "INDIRECT_OBJECT_PRONOUN",
+        "PRONOUNS_Y_EN",
+        "RELATIVE_QUI_QUE"
+      ]
+    },
+    "B2": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "PASSE_COMPOSE",
+        "AUXILIARY_AVOIR_ETRE",
+        "DIRECT_OBJECT_PRONOUN",
+        "PARTITIVE_ARTICLE",
+        "FUTUR_PROCHE",
+        "IMPARFAIT",
+        "FUTUR_SIMPLE",
+        "CONDITIONNEL",
+        "IMPERATIF",
+        "INDIRECT_OBJECT_PRONOUN",
+        "PRONOUNS_Y_EN",
+        "RELATIVE_QUI_QUE",
+        "SUBJONCTIF_PRESENT",
+        "PLUS_QUE_PARFAIT",
+        "PASSIF",
+        "RELATIVE_COMPOSE",
+        "DISCOURS_RAPPORTE"
+      ]
+    },
+    "C1": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "PASSE_COMPOSE",
+        "AUXILIARY_AVOIR_ETRE",
+        "DIRECT_OBJECT_PRONOUN",
+        "PARTITIVE_ARTICLE",
+        "FUTUR_PROCHE",
+        "IMPARFAIT",
+        "FUTUR_SIMPLE",
+        "CONDITIONNEL",
+        "IMPERATIF",
+        "INDIRECT_OBJECT_PRONOUN",
+        "PRONOUNS_Y_EN",
+        "RELATIVE_QUI_QUE",
+        "SUBJONCTIF_PRESENT",
+        "PLUS_QUE_PARFAIT",
+        "PASSIF",
+        "RELATIVE_COMPOSE",
+        "DISCOURS_RAPPORTE",
+        "SUBJONCTIF_PASSE",
+        "SI_CLAUSES",
+        "GERONDIF_PARTICIPE"
+      ]
+    },
+    "C2": {
+      "maxTokens": 14,
+      "allowedCodes": [
+        "NOUN_GENDER",
+        "ADJ_AGREEMENT",
+        "VERB_PRESENT_ER",
+        "ETRE_AVOIR",
+        "NEGATION_NE_PAS",
+        "VERB_PRESENT_IRREGULAR",
+        "REFLEXIVE_VERBS",
+        "PASSE_COMPOSE",
+        "AUXILIARY_AVOIR_ETRE",
+        "DIRECT_OBJECT_PRONOUN",
+        "PARTITIVE_ARTICLE",
+        "FUTUR_PROCHE",
+        "IMPARFAIT",
+        "FUTUR_SIMPLE",
+        "CONDITIONNEL",
+        "IMPERATIF",
+        "INDIRECT_OBJECT_PRONOUN",
+        "PRONOUNS_Y_EN",
+        "RELATIVE_QUI_QUE",
+        "SUBJONCTIF_PRESENT",
+        "PLUS_QUE_PARFAIT",
+        "PASSIF",
+        "RELATIVE_COMPOSE",
+        "DISCOURS_RAPPORTE",
+        "SUBJONCTIF_PASSE",
+        "SI_CLAUSES",
+        "GERONDIF_PARTICIPE",
+        "PASSE_SIMPLE",
+        "REGISTRE_SOUTENU",
+        "CONCORDANCE_TEMPS"
+      ]
+    }
   }
 }

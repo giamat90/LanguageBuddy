@@ -275,13 +275,15 @@ describe('the French draft language', () => {
     expect(cfg.ruleCodes).toContain(fr.articles!.rule);
   });
 
-  it('set-active-language refuses it and the bank scripts skip it', () => {
+  it('set-active-language refuses it; the validator checks the levels it already has', () => {
     const scripts = join(__dirname, '..', 'scripts');
     const r = spawnSync(process.execPath, [join(scripts, 'set-active-language.mjs'), 'fr'], { encoding: 'utf8' });
     expect(r.status).toBe(1);
     expect(r.stderr).toMatch(/fr is a draft language/);
     const v = spawnSync(process.execPath, [join(scripts, 'validate-wordbank.mjs')], { encoding: 'utf8' });
     expect(v.status).toBe(0);
-    expect(v.stdout).toMatch(/skipped draft language fr/);
+    // a draft language with some levels is validated for those levels (no longer skipped)
+    expect(v.stdout).not.toMatch(/skipped draft language fr/);
+    expect(v.stdout).toMatch(/Word bank valid/);
   });
 });

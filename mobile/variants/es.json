@@ -9,5 +9,5 @@
   "adaptiveIcon": { "foreground": "./assets/adaptive-icon-es.png", "background": "#AA151B" },
   "versionMajor": 1,
   "versionMinor": 0,
-  "localFallbackVersionCode": 1
+  "localFallbackVersionCode": 2
 }

@@ -2,7 +2,7 @@
 
 **Updated by:** whoever pushes to `main` (Giacomo or Claude), **in the same push**
 **Last updated:** 2026-11-22
-**Current version:** 1.0.20 (versionCode 20) built locally on 2026-11-20 and waiting for a manual upload to Play (contains TASK-035 to TASK-040; see Known Issues). Last version on Play: 1.0.18 (versionCode 18) released to the **Google Play production track** on 2026-11-18 by the CI release workflow; it contains TASK-030 (fix: app stuck in error after a notification tap, self-healing database handle). 1.0.17 (TASK-029, statistics drill-down) preceded it. Play held versionCodes 1, 2, 4, 9, 11–17 before this upload (read with `npm run check:play-version`). `LOCAL_FALLBACK_VERSION_CODE` in `mobile/app.config.js` is 19 for the next local build.
+**Current version:** 1.0.21 (versionCode 21): local AAB `Bundles/app-release-v1.0.21-21.aab` built 2026-11-22 and CI release `app=de` dispatched the same day (see Release log); earlier 1.0.20 (versionCode 20) was built locally on 2026-11-20 and uploaded manually to Play (contains TASK-035 to TASK-040; see Known Issues). Last version on Play: 1.0.18 (versionCode 18) released to the **Google Play production track** on 2026-11-18 by the CI release workflow; it contains TASK-030 (fix: app stuck in error after a notification tap, self-healing database handle). 1.0.17 (TASK-029, statistics drill-down) preceded it. Play held versionCodes 1, 2, 4, 9, 11–17 before this upload (read with `npm run check:play-version`). `LOCAL_FALLBACK_VERSION_CODE` in `mobile/app.config.js` is 19 for the next local build.
 
 > This file is the ground truth for what currently exists in the codebase.
 > Tech Lead reads this before writing any task spec.

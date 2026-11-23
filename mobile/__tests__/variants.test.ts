@@ -4,6 +4,7 @@ import { tmpdir } from 'os';
 import { join } from 'path';
 import { de } from '../src/languages/de';
 import { es } from '../src/languages/es';
+import { fr } from '../src/languages/fr';
 /* eslint-disable @typescript-eslint/no-var-requires */
 const v = require('../scripts/lib/variants.js');
 
@@ -58,7 +59,7 @@ describe('the German app is unchanged', () => {
     expect(plugin(x.plugins, './plugins/withAndroidBackupRules')).toEqual(['./plugins/withAndroidBackupRules', { slug: 'germanbuddy' }]);
   });
   it('ANDROID_VERSION_CODE overrides the fallback for every app', () => {
-    for (const code of ['de', 'es']) {
+    for (const code of ['de', 'es', 'fr']) {
       const c = v.buildExpoConfig(v.loadVariant(code), { ANDROID_VERSION_CODE: '57' });
       expect(c.android.versionCode).toBe(57);
       expect(c.version).toBe('1.0.57');
@@ -91,10 +92,39 @@ describe('the Spanish app', () => {
   });
 });
 
+describe('the French app', () => {
+  const x = v.buildExpoConfig(v.loadVariant('fr'), {});
+  const g = v.buildExpoConfig(v.loadVariant('de'), {});
+  it('has its own identity', () => {
+    expect(x.name).toBe('FrenchBuddy');
+    expect(x.slug).toBe('frenchbuddy');
+    expect(x.scheme).toBe('frenchbuddy');
+    expect(x.android.package).toBe('com.giamat90.frenchbuddy');
+    expect(x.ios.bundleIdentifier).toBe('com.frenchbuddy');
+    expect(x.version).toBe('1.0.1');
+    expect(x.android.versionCode).toBe(1);
+    expect(x.android.adaptiveIcon.backgroundColor).toBe('#0055A4');
+    expect(JSON.stringify(x)).not.toMatch(/German|Spanish|germanbuddy|spanishbuddy/);
+  });
+  it('has no owner and no EAS block, but keeps the router extra', () => {
+    expect(x.owner).toBeUndefined();
+    expect(x.extra.eas).toBeUndefined();
+    expect(x.extra.router).toEqual({ origin: false });
+  });
+  it('shares the SDK levels and plugins of German, with its own backup slug', () => {
+    expect(names(x.plugins)).toEqual(names(g.plugins));
+    expect(plugin(x.plugins, './plugins/withAndroidBackupRules')).toEqual(['./plugins/withAndroidBackupRules', { slug: 'frenchbuddy' }]);
+  });
+  it('rejects a variant file whose icon is missing', () => {
+    const { base, data } = tempVariants({ code: 'fr', icon: './assets/missing-fr.png' }, 'fr');
+    expect(v.validateVariant(data, { root: base }).join(' ')).toMatch(/icon/);
+  });
+});
+
 describe('variant files', () => {
   const codes: string[] = v.listVariants();
-  const packs: Record<string, typeof de> = { de, es };
-  it('lists de and es', () => expect(codes).toEqual(['de', 'es']));
+  const packs: Record<string, typeof de> = { de, es, fr };
+  it('lists de, es and fr', () => expect(codes).toEqual(['de', 'es', 'fr']));
   it('all validate', () => {
     for (const c of codes) expect(v.validateVariant(v.loadVariant(c), { root })).toEqual([]);
   });
@@ -195,7 +225,7 @@ describe('unused permissions are blocked (TASK-050)', () => {
     'android.permission.WRITE_EXTERNAL_STORAGE',
     'android.permission.SYSTEM_ALERT_WINDOW',
   ];
-  it.each(['de', 'es'])('%s blocks exactly the three and still declares the originals', (code) => {
+  it.each(['de', 'es', 'fr'])('%s blocks exactly the three and still declares the originals', (code) => {
     const a = v.buildExpoConfig(v.loadVariant(code), {}).android;
     expect([...a.blockedPermissions].sort()).toEqual([...BLOCKED].sort());
     expect(a.permissions).toEqual([

@@ -63,7 +63,7 @@ describe('AI prompt', () => {
       json: async () => ({ content: [{ type: 'text', text: '{"examples":[{"target":"a b","native":"c"}],"note":"n","exercise":null}' }] }),
     }) as jest.Mock;
     const word = current().sampleWord.A1;
-    await generateWordInsight({ word, article: null, meaningNative: 'm', cefrLevel: 'A1', nativeLanguage: 'fr' });
+    await generateWordInsight({ word, article: null, meaningNative: 'm', cefrLevel: 'A1', nativeLanguage: 'it' });
     const body = JSON.stringify(JSON.parse((global.fetch as jest.Mock).mock.calls[0][1].body));
     expect(body).toContain(current().aiLanguageName);
     for (const other of Object.values(EXPECT).filter((x) => x.aiLanguageName !== current().aiLanguageName)) {

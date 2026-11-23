@@ -106,7 +106,7 @@ What every app does:
 
 **Target user:** intellectually curious adult learners who want to genuinely understand the language, primarily Italian speakers. The interface (UI language) is available in
 13 languages — Italian, English, French, Spanish, Portuguese, Russian, Ukrainian, Polish, Turkish, Chinese, Japanese, Hindi, Arabic. A native speaker of the studied
-language is not offered that UI language (SpanishBuddy has 12). The studied language is fixed per app and never changes at runtime.
+language is not offered that UI language (SpanishBuddy and FrenchBuddy have 12). The studied language is fixed per app and never changes at runtime.
 
 **Platform:** Android (minSdkVersion 24). The code is React Native, so iOS is possible later but is not a goal today.
 
@@ -138,7 +138,7 @@ LanguageBuddy/
 │   │                                #   build-store, export-review-sample, export-i18n-source, check-play-version; wordbank/<lang>/ (TSV sources); lib/
 │   ├── plugins/                     # withReleaseSigning.js, withAndroidBackupRules.js (Expo config plugins)
 │   ├── test-support/                # testPack.ts (a Spanish-like second pack for tests), appExpectations.ts (per-app expectations table)
-│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), fonts, splash
+│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), icon-fr.png / adaptive-icon-fr.png (French, placeholder), fonts, splash
 │   ├── __tests__/ (incl. activeApp/), __mocks__/   # jest-expo; expo-sqlite and react-native-mmkv are mocked in memory
 │   └── app.config.js                # thin: buildExpoConfig(variant) from scripts/lib/variants.js
 ├── store/                           # <code>/ (support.json, listing/<ui>.json, play-checklist, qa-checklist, screenshots, graphics-brief) and support-template/ (the four public pages)
@@ -453,7 +453,7 @@ billing, analytics, switching the studied language inside one app.
 ### Testing
 - Tests live in `mobile/__tests__/`. Run from `mobile/`: `npx tsc --noEmit` and `npm test` (validates the word banks, then Jest, with the German seams).
 - **`npm run test:app -- <code>`** runs the language-neutral `__tests__/activeApp/` suite (identity, content, flows over the in-memory DB, backup incl. cross-app rejection, speech/notifications/AI prompt,
-  screens, special characters) against another app. CI runs it for Spanish. Run it whenever the pack, the word bank, the theme or a variant changes.
+  screens, special characters) against another app. CI runs it for Spanish and French. Run it whenever the pack, the word bank, the theme or a variant changes.
 - **`node scripts/verify-prebuild.mjs <code>`** runs a real `expo prebuild` and checks package, version, app name, backup-rules names, permissions, portrait, scheme and that no other app's name is left
   (it refuses to run if `mobile/android/` exists and removes what it created).
 - **Write the tests listed in the spec first and see them fail.** A review finding gets a failing test before the fix; for a guard, remove it once and confirm the test goes red.

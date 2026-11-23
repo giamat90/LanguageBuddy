@@ -56,7 +56,7 @@ describe('loadSupport', () => {
     expect(() => store.loadSupport('xx', { root })).toThrow(/lastUpdated|supportUrl/);
   });
   it('reads the real files', () => {
-    for (const c of ['de', 'es']) expect(store.loadSupport(c).supportUrl).toMatch(/^https:\/\/.+\/$/);
+    for (const c of ['de', 'es', 'fr']) expect(store.loadSupport(c).supportUrl).toMatch(/^https:\/\/.+\/$/);
   });
 });
 

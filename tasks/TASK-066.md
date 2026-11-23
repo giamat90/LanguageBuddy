@@ -1,6 +1,6 @@
 # TASK-066 — FrenchBuddy: app variant, store files, QA expectations, CI
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-063, TASK-064, TASK-065 (French pack, bank and translations exist). Uses the machinery of TASK-047 (variants), 048 (store), 049 (QA suite), 050 (permissions).

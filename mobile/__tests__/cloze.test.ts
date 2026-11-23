@@ -17,6 +17,16 @@ describe('buildCloze', () => {
   });
 });
 
+describe('buildCloze with a repeated word', () => {
+  it('gives no blank when the word occurs twice, so the answer is never left in the sentence', () => {
+    expect(buildCloze("Il n'y a ni pain ni lait.", 'ni')).toBeNull();
+    expect(buildCloze('Ni pain, ni lait.', 'ni')).toBeNull();
+  });
+  it('still blanks a word that occurs once', () => {
+    expect(buildCloze("Il n'y a ni pain.", 'ni')).toEqual({ before: "Il n'y a ", after: ' pain.' });
+  });
+});
+
 describe('isAnswerCorrect', () => {
   it('ignores case, whitespace and umlauts', () => {
     expect(isAnswerCorrect('  bäcker ', 'Bäcker')).toBe(true);

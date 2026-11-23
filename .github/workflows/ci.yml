@@ -32,3 +32,6 @@ jobs:
 
       - name: Spanish app suite
         run: npm run test:app -- es
+
+      - name: French app suite
+        run: npm run test:app -- fr

@@ -10,11 +10,12 @@ const at = (needle: string) => {
 };
 
 describe('release-android.yml', () => {
-  it('has an app choice with de and es', () => {
+  it('has an app choice with de, es and fr', () => {
     const block = yml.slice(at('\n      app:'), at('\n      track:'));
     expect(block).toMatch(/type: choice/);
     expect(block).toMatch(/- de/);
     expect(block).toMatch(/- es/);
+    expect(block).toMatch(/- fr/);
     expect(block).toMatch(/default: de/);
   });
   it('hard-codes no package name', () => {

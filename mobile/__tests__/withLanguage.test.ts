@@ -16,7 +16,7 @@ function fixture(opts: { missingLevel?: boolean } = {}) {
   dirs.push(base);
   const root = join(base, 'wordbank');
   const src = join(base, 'src');
-  for (const code of ['de', 'es']) {
+  for (const code of ['de', 'es', 'fr']) {
     mkdirSync(join(root, code), { recursive: true });
     writeFileSync(join(root, code, 'language.json'), JSON.stringify({ code, levels: LEVELS }));
     mkdirSync(join(src, 'languages'), { recursive: true });

@@ -13,7 +13,10 @@ export function letterCount(word: string, pack: LanguagePack = getActivePack()):
   return (word.match(re) ?? []).join('').length;
 }
 
-/** Blanks the first whole-word occurrence of `word` in `sentence`, or null if absent. */
+/**
+ * Blanks the whole-word occurrence of `word` in `sentence`, or null if it is absent or occurs more
+ * than once (a second copy would leave the answer in the sentence and make the blank ambiguous).
+ */
 export function buildCloze(
   sentence: string | null | undefined,
   word: string,
@@ -23,12 +26,13 @@ export function buildCloze(
   const target = word.toLowerCase();
   const parts = sentence.split(pack.letters);
   // Odd indexes are the captured letter runs.
+  const hits: number[] = [];
   for (let i = 1; i < parts.length; i += 2) {
-    if (parts[i].toLowerCase() === target) {
-      return { before: parts.slice(0, i).join(''), after: parts.slice(i + 1).join('') };
-    }
+    if (parts[i].toLowerCase() === target) hits.push(i);
   }
-  return null;
+  if (hits.length !== 1) return null;
+  const i = hits[0];
+  return { before: parts.slice(0, i).join(''), after: parts.slice(i + 1).join('') };
 }
 
 function editDistance(a: string, b: string): number {

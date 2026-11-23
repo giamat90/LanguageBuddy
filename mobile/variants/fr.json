@@ -1,0 +1,13 @@
+{
+  "code": "fr",
+  "name": "FrenchBuddy",
+  "slug": "frenchbuddy",
+  "scheme": "frenchbuddy",
+  "androidPackage": "com.giamat90.frenchbuddy",
+  "iosBundleId": "com.frenchbuddy",
+  "icon": "./assets/icon-fr.png",
+  "adaptiveIcon": { "foreground": "./assets/adaptive-icon-fr.png", "background": "#0055A4" },
+  "versionMajor": 1,
+  "versionMinor": 0,
+  "localFallbackVersionCode": 1
+}

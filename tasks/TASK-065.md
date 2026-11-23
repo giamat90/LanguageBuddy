@@ -1,6 +1,6 @@
 # TASK-065 — French word content in the 10 other app languages
 
-**Status:** `ready`
+**Status:** `done`
 **Assigned to:** Developer (Sonnet)
 **Written by:** Tech Lead
 **Depends on:** TASK-064 (French bank validated, native-agent loop done)

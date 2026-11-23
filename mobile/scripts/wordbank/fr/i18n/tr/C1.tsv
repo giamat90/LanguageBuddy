@@ -1,0 +1,295 @@
+C1	terroir	terroir (bir yöreye özgü toprak ve iklim)	İşte bu bağcının bu kadar gurur duyduğu terroir.	Fransız yemek ve şarap kültürüne özgü bir sözcüktür; tek sözcükle karşılığı yoktur, İngilizcede de çoğunlukla Fransızca haliyle kullanılır.
+C1	gourmandise	yemek düşkünlüğü, tatlı sevgisi	Yemek düşkünlüğü onu mahvedecek: hiçbir tatlıya direnemiyor.	İyi yemeğe düşkünlüğü anlatır; "gloutonnerie" (oburluk) kadar olumsuz değildir, daha yumuşaktır.
+C1	élevage	hayvancılık, hayvan yetiştiriciliği	Fransa'nın batısında büyükbaş hayvancılık hâlâ çok önemli.	Yanıltıcı benzerlik: "elevation" ile ilgisi yoktur; hayvan yetiştirmeyi anlatır.
+C1	vignoble	bağ bölgesi, bağlık	Çalıştığımız bağ alanı yirmi hektara yayılıyor.	Bir bölgedeki bağların tamamını anlatır; "vigne" ise bitki ya da tek bir bağ parselidir.
+C1	pénurie	kıtlık, yokluk	İş gücü kıtlığı tarım üreticilerini endişelendiriyor.	"de" ile kullanılır (pénurie de carburant) ve "manque"tan (eksiklik) daha güçlüdür.
+C1	famine	açlık felaketi, kitlesel açlık	Birkaç yıllık savaşın ardından bölgeyi büyük bir açlık felaketi vurdu.	"faim"den (açlık) çok daha güçlüdür ve yaygın açlığı anlatır.
+C1	gastronomie	gastronomi	Fransız gastronomisi insanlığın kültürel mirası listesinde yer alıyor.	İyi yemek yeme sanatı demektir; "cuisine" ise daha sade biçimde yemek yapmayı ya da mutfağı anlatır.
+C1	malnutrition	yetersiz beslenme	Yetersiz beslenme dünyada hâlâ milyonlarca çocuğu etkiliyor.	İngilizcedeki gibi tek sözcük yazılır; tıp ve insani yardım dilinde kullanılır.
+C1	pesticide	tarım ilacı, pestisit	Bu pestisidin kullanımı artık Avrupa'da yasak.	Eril bir addır; daha tarafsız resmî terim "produit phytosanitaire"dir.
+C1	céréale	tahıl	Buğday bölgede en çok yetiştirilen tahıldır.	Çoğulda "les céréales" kahvaltılık gevrek anlamına da gelir.
+C1	convive	sofra konuğu, davetli	Her davetli, sanatçının resimlediği bir menü aldı.	Her iki cinsiyet için de aynı biçimdedir (un convive, une convive) ve biraz resmîdir.
+C1	mets	sofrada sunulan yemek	Bu zarif yemek yalnızca özel günlerde sunuluyor.	Tekil ve çoğulu aynıdır; "plat"dan daha seçkin durur.
+C1	denrée	gıda ürünü (ticari)	Bu çabuk bozulan gıda maddesi hızla tüketilmelidir.	Çoğunlukla "denrées alimentaires" ifadesinde geçer ve ticari ya da resmî dile aittir.
+C1	friandise	tatlı atıştırmalık, şekerleme	Uslu her çocuğa küçük bir şekerleme veriyor.	Küçük bir tatlı ya da lezzetli bir şey demektir; İngilizce "friend" (arkadaş) ile ilgisi yoktur.
+C1	arôme	aroma	Bu vanilya aroması bana çocukluğumun tatlılarını hatırlatıyor.	ô harfinde şapka (accent circonflexe) taşır ve yiyecek-içecekle ilgilidir; "parfum"den (parfüm) farklıdır.
+C1	obésité	obezite	Çocukluk çağı obezitesi önemli bir halk sağlığı sorunu hâline geldi.	Tarafsız bir tıp terimidir.
+C1	traiteur	catering yapan kişi ya da firma	Büfeyi mahalledeki bir catering firmasından sipariş ettik.	Paket götürülen hazır yemek satan dükkânı da anlatır.
+C1	cépage	üzüm çeşidi	Merlot, Bordeaux çevresinde çok yaygın bir üzüm çeşididir.	Şarabı değil, üzümün çeşidini adlandırır.
+C1	urbanisme	şehircilik	Bu şehrin şehircilik planı savaştan sonra yeniden düşünüldü.	Hem disiplini hem de arazi kullanımına ilişkin kurallar bütününü kapsar.
+C1	banlieue	banliyö	Büyüdüğü banliyö çok değişti.	Fransa'da çoğu zaman, tarafsız İngilizce "suburb" sözcüğünün taşımadığı toplumsal çağrışımlar taşır.
+C1	habitat	konut türü, barınma biçimi	Toplu konut büyük şehirlerde yaygınlaşıyor.	Bu anlamda insanların nasıl barındığını anlatır; ekolojik "habitat" anlamı da vardır.
+C1	bailleur	kiraya veren (ev sahibi)	Kiraya veren, konutu iyi durumda teslim etmelidir.	Hukuki terimdir; günlük dilde "propriétaire" denir. Dişili "bailleresse"tir.
+C1	précarité	güvencesizlik	İş güvencesizliği özellikle gençleri etkiliyor.	Kararsız sosyal ya da ekonomik durumları anlatır, örneğin "précarité énergétique" (enerji yoksulluğu).
+C1	foyer	hane, ev halkı; ocak, şömine	Her haneye daha yüksek bir su faturası geldi.	Şömine ve öğrenci yurdu anlamlarına da gelir; istatistikte bir birim olarak hane demektir.
+C1	lotissement	parselli konut sitesi	Oturduğumuz konut sitesinde otuz kadar ev var.	Müstakil evlerden oluşan, parsellere ayrılmış planlı bir bölgedir; şehir çeperlerinde tipiktir.
+C1	sinistre	hasar olayı (sigorta)	Sigortacı, mahzendeki yangından sonra hasarı değerlendirdi.	İsim olarak sigortanın kapsadığı bir olayı adlandırır; sıfat olan "sinistre" ise uğursuz demektir.
+C1	héritage	miras	Mirasını küçük bir daire almak için kullandı.	Geçmişten devralınan kültürel bir miras anlamına da gelir.
+C1	succession	terekenin paylaşımı, miras işlemleri	Babalarının miras işlemleri birkaç ayda sonuçlandı.	Hukukta ölen kişinin mallarını düzenleyen süreçtir; ayrıca bir dizi, ardışıklık anlamına da gelir.
+C1	fratrie	kardeşler (topluca)	Kardeşlerimiz arasında en küçük olan benim.	İngilizcede günlük dilde bunun tek bir sözcüğü yoktur; bir ailenin tüm çocuklarını bir grup olarak adlandırır.
+C1	tutelle	vesayet	Küçük, amcasının vesayeti altına verildi.	Bir kuruluşun bir otorite tarafından denetlenmesi anlamına da gelir.
+C1	vieillesse	yaşlılık	Yaşlılık, meraklı ve etkin kalmaya engel değildir.	Tarafsız ya da biraz edebîdir; "troisième âge" daha yumuşak bir ifadedir.
+C1	solitude	yalnızlık	Şehirlerde yalnızlık birçok yaşlı insanın üzerinde ağırlık yapıyor.	Tarafsız (yalnız olmak) ya da olumsuz olabilir; "isolement" açıkça olumsuzdur.
+C1	cohabitation	bir arada yaşama	Kuşaklar arası birlikte yaşam giderek yaygınlaşıyor.	Fransız siyasetinde cumhurbaşkanı ile hükümetin karşıt kamplardan geldiği dönemi de anlatır.
+C1	rénovation	yenileme (bina)	Binanın yenilenmesi bir yıldan fazla sürdü.	Binaların onarım ve iyileştirmelerini kapsar; çoğu zaman "rénover" fiiliyle birlikte kullanılır.
+C1	charpente	çatı iskeleti	Bu ahırın çatı iskeleti birkaç yüzyıllıktır.	Taşıyıcı yapı, genellikle ahşap demektir; mecazen bir metnin iskeletidir.
+C1	vestibule	giriş holü	Salona girmeden önce montlarınızı giriş holünde bırakın.	"entrée"den (günlük sözcük) daha resmîdir.
+C1	aménagement	düzenleme, donatma	Salonun düzenlenmesi iki hafta sürdü.	Arazi planlaması için de kullanılır ("aménagement du territoire").
+C1	expulsion	tahliye (evden çıkarma); sınır dışı etme	Ailenin tahliyesi kışa ertelendi.	Bir yabancının sınır dışı edilmesini ya da bir öğrencinin okuldan uzaklaştırılmasını da anlatır.
+C1	agglomération	kent bölgesi	Bu kent bölgesinde bir milyondan fazla insan yaşıyor.	Bir şehri ve komşu kasabalarını kapsayan istatistiksel ve idari bir terimdir.
+C1	inflation	enflasyon	Enflasyon birçok hanenin satın alma gücünü düşürdü.	Neredeyse her zaman tekilde kullanılır; karşıtı "déflation"dır.
+C1	hypothèque	ipotek	Banka evleri üzerine ipotek koydu.	Mülk üzerindeki teminat hakkıdır; kredinin kendisine "prêt immobilier" denir.
+C1	clause	sözleşme hükmü, şart	Geçerliliğine itiraz ettiği hüküm beşinci maddede yer alıyor.	Sözleşme hukukuna aittir, örneğin "clause abusive" (haksız şart).
+C1	litige	uyuşmazlık	İki şirket arasındaki uyuşmazlık mahkemeye taşındı.	Resmî ve çoğu zaman hukuki bir sözcüktür; basit bir tartışma için "dispute" denir.
+C1	préjudice	zarar (hukuki)	Müşteri önemli bir maddi zarar gördü.	Yanıltıcı benzerlik: önyargı anlamına gelmez, o "préjugé"dir.
+C1	indemnité	tazminat, ödenek	Altı aylık kıdem tazminatı aldı.	Yasa ya da sözleşme gereği telafi veya ödenek olarak yapılan ödemedir.
+C1	cotisation	aidat, prim	Kulübün yıllık aidatı bu yıl arttı.	Sosyal güvenlik primlerini de kapsar ve vergi ("impôt") değildir.
+C1	rétractation	cayma	Cayma süresi on dört gündür.	Tüketici hukukunda ifade "droit de rétractation"dır (cayma hakkı); bir sözü geri alma anlamına da gelir.
+C1	caution	kefalet, kefil	Ev sahibi kira sözleşmesini imzalamadan önce bir kefil istedi.	Hem güvenceyi hem de kefil olan kişiyi anlatır; depozito "dépôt de garantie"dir.
+C1	créancier	alacaklı	Alacaklı, verdiği paranın geri ödenmesini istedi.	Karşıtı "débiteur"dür; dişili "créancière"dir.
+C1	bail	kira sözleşmesi	Kira sözleşmesi her yıl güncellenebilen bir kira öngörüyor.	Çoğulu düzensizdir: "les baux".
+C1	acompte	ön ödeme, avans	Kanepeyi ayırtmak için ön ödeme yaptı.	Fiyatın peşin ödenen bir kısmıdır; hukuken "arrhes"ten (kapora) farklıdır.
+C1	escroquerie	dolandırıcılık	Bu emlak ilanı çok iyi örgütlenmiş bir dolandırıcılıktı.	Bir suçun hukuki adıdır; "arnaque" daha günlük sözcüktür.
+C1	contrefaçon	sahtecilik, taklit ürün	Lüks ürünlerin sahteciliği markalara pahalıya mal oluyor.	Hem suçu hem de sahte ürünü anlatır; ç harfinde cédille vardır.
+C1	pénalité	ceza bedeli, cezai şart	On beş gün sonra gecikme cezası uygulanır.	Sözleşmenin ihlali nedeniyle ödenen bir tutardır; futbolda Fransızca "penalty" denir.
+C1	devis	fiyat teklifi	Üç farklı firmadan fiyat teklifi istedik.	Çoğulu tekille aynıdır ve İngilizce "device" ile ilgisi yoktur.
+C1	faillite	iflas	Bu tedarikçinin iflası tüm sektörü şaşırttı.	Şirketler için kullanılır; mecazen tam bir başarısızlık demektir.
+C1	monopole	tekel	Bu şirket yerel pazarın tekelini elinde tutuyor.	Çoğu zaman "monopole d'État" (devlet tekeli) gibi ifadelerde geçer.
+C1	obsolescence	eskime (demode olma)	Planlı eskime birçok tüketiciyi kızdırıyor.	Çoğunlukla "obsolescence programmée" ifadesinde geçer.
+C1	recours	başvuru yolu, hak arama	Tüketicinin mahkemede başvurabileceği bir hak arama yolu var.	"avoir recours à" (başvurmak) içinde yaygındır; sondaki s okunmaz.
+C1	escapade	kısa kaçamak gezi	Normandiya'ya iki günlük bir kaçamak yaptık.	Çoğu zaman anlık, rutinden kaçmak için yapılan kısa bir keyif gezisidir.
+C1	bivouac	açık hava kampı, bivak	Rüzgârın esmediği yere bivak kurduk.	Genellikle dağlarda, kalıcı tesisi olmayan hafif bir açık hava kampıdır.
+C1	villégiature	tatil konaklaması, tatil	Bu kıyı, yazın çok tutulan bir tatil beldesidir.	Bir tatil konaklaması ya da kalınan yer için resmî bir sözcüktür; olağan ifade « lieu de villégiature ».
+C1	pèlerinage	hac (kutsal yer yolculuğu)	Her yıl Santiago de Compostela'ya hac yolculuğu yapıyor.	Kutsal bir yere yapılan yolculuktur; mecazen biri için önemli bir yere duygusal bir ziyaret.
+C1	traversée	(deniz) geçişi	Feribotla geçiş rüzgâr yüzünden dalgalıydı.	Bir kıyıdan ötekine, çoğunlukla denizle yapılan yolculuğu anlatır; mecazen de kullanılır (« traversée du désert »).
+C1	hospitalité	misafirperverlik	Ev sahiplerimizin misafirperverliğinden çok etkilendik.	Bir konuğun cömertçe karşılanmasını anlatır; otelcilik sektörü için olağan sözcük l'hôtellerie'dir.
+C1	hôtellerie	otelcilik	Lüks otelcilik uluslararası bir müşteri kitlesini çekiyor.	Bir iş kolu olarak otelleri anlatır; yaygın ifade « hôtellerie-restauration ».
+C1	aérogare	havalimanı terminal binası	Terminal binasına ücretsiz bir servis gidiyor.	Bir havalimanının yolcularına ayrılmış binadır; İngilizce terminal (eril) sözcüğü de çok yaygındır.
+C1	mandat	görev süresi; vekâlet	Cumhurbaşkanının görev süresi beş yıldır.	Seçilmiş bir görevin süresini anlatır; hukukta ayrıca bir başkası adına hareket etme yetkisi (vekâlet) demektir.
+C1	arbitrage	hakemlik, tahkim	İki taraf bağımsız bir uzmanın tahkimini kabul etti.	Seçilmiş üçüncü bir kişi aracılığıyla uyuşmazlığı çözmektir; sözcük bir spor hakeminin kararlarını da kapsar.
+C1	rémunération	ücret, çalışma karşılığı ödeme	Ücreti sabit bir maaş ve yıllık bir primden oluşuyor.	"salaire"den (maaş) daha resmî bir terimdir; yapılan iş karşılığı ödenen her tutarı kapsar.
+C1	rentabilité	kârlılık	Projenin kârlılığının hâlâ kanıtlanması gerekiyor.	Bir faaliyetin kâr üretme yeteneğidir; karşılık gelen sıfat "rentable"dır.
+C1	prestation	sunulan hizmet; (çoğul) yardım	Hizmet, kurulumu ve personelin eğitimini içeriyor.	« prestation de service » içinde kullanılır; çoğulda prestations sociales devletin ödediği yardımlardır.
+C1	procédure	prosedür, işlem usulü	İşe alım prosedürü genellikle üç ay sürüyor.	İzlenecek bir dizi adımdır; hukukta bir davanın nasıl yürütüldüğünü de anlatır.
+C1	plainte	(resmî) şikâyet	Eski işvereni hakkında şikâyette bulundu.	Polise şikâyet « dépose » veya « porte » plainte ile yapılır; sözcük sızlanma anlamına da gelebilir.
+C1	fusion	birleşme; erime (fizik)	İki bankanın birleşmesi dün açıklandı.	İki şirketin tek olmasını anlatır; fizikte katıdan sıvıya geçiştir (erime).
+C1	patronat	işveren kesimi	İşverenler ve sendikalar yeni bir sözleşme için görüşüyor.	Topluca tüm işverenleri anlatır, çoğu zaman sendikaların karşısında yer alır; « les organisations patronales » da denir.
+C1	métaphore	metafor, mecaz	Şair metni boyunca metaforu sürdürüyor.	« Filer la métaphore » onu daha da geliştirmek demektir; comme ile kurulan karşılaştırmayla karıştırılmamalıdır.
+C1	essai	deneme (yazı türü); girişim	Son denemesi demokrasinin krizini inceliyor.	Düşünsel düzyazıdan oluşan bir edebî türdür; sözcük ayrıca bir girişim, ragbide de sayı (try) demektir.
+C1	récit	anlatı, hikâye	Yolculuğunun anlatısı tek solukta okunuyor.	Gerçek ya da kurgusal olayları anlatan bir metin ya da konuşmadır; sondaki t okunmaz.
+C1	intrigue	olay örgüsü	Filmin olay örgüsünü takip etmek zor.	Bir hikâyedeki olaylar zincirini anlatır; sözcük gizli bir entrika anlamına da gelir.
+C1	dénouement	çözüm, final (hikâyede)	İşte finali hâlâ öngörülemeyen bir olay örgüsü.	Bir oyun ya da romanın olay örgüsünün çözüldüğü andır; mecazen bir durumun sonucu demektir.
+C1	éloge	övgü	Eleştirmen bu sahnelemeyi övdü.	Çoğunlukla « faire l'éloge de » içinde kullanılır; éloge funèbre ölüyü anan bir konuşmadır.
+C1	satire	hiciv	Bu roman bürokrasiye yönelik sert bir hicivdir.	Bir toplumun kusurlarını alay yoluyla eleştiren eser ya da türdür.
+C1	censure	sansür; güvensizlik önergesi	Sansür bu belgeselin yayınlanmasını yasakladı.	Bir otoritenin yayınlar ya da gösteriler üzerindeki denetimidir; siyasette hükümeti düşüren oylama (güvensizlik önergesi) de demektir.
+C1	idéologie	ideoloji	Bu ideoloji geçen yüzyılı derinden etkiledi.	Bir grubu yönlendiren düşünceler bütünüdür; sözcük çoğu zaman olumsuz bir ton taşır.
+C1	scrutin	oylama (seçim)	Oylama önümüzdeki pazar Fransa genelinde yapılacak.	Oy verme eylemini ya da seçim sistemini anlatır; « un scrutin à deux tours » denir.
+C1	réforme	reform	Bu emeklilik reformu sert protestolara yol açtı.	Bir kurumda ya da yasada köklü değişikliktir; büyük harfli Réforme on altıncı yüzyıldaki dinî hareketi anlatır.
+C1	doctrine	doktrin	Etkileri hâlâ çok tartışılan bir doktrindir.	Bir okul, din ya da partinin savunduğu ilkeler bütünüdür; ton çoğu zaman ciddi ya da eleştireldir.
+C1	dilemme	ikilem	Zor bir ahlaki ikilemle karşı karşıya.	Eril bir addır; eşit derecede hoş olmayan iki seçenek arasında seçim demektir.
+C1	paradoxe	paradoks	Yaşam tarzında bir paradoks var.	Çelişkili görünen bir söz ya da durumdur; « par paradoxe » bir karşıtlık getirmek için kullanılır.
+C1	préjugé	önyargı	Bu inatçı önyargı, tüm araştırmalara rağmen sürüyor.	İncelenmeden benimsenmiş hazır bir görüştür; zarar anlamına gelen préjudice ile karıştırılmamalıdır.
+C1	chronique	köşe yazısı	Büyük bir günlük gazetede haftalık bir köşe yazısı yazıyor.	Bir gazetecinin belirli bir konudaki düzenli yazısıdır; sözcük tarihî bir anlatı anlamına da gelir.
+C1	éditorial	başyazı	Gazetenin başyazısı hükümetin politikasını eleştiriyor.	Bir gazetenin çizgisini yansıtan görüş yazısıdır; çoğulu éditoriaux.
+C1	polémique	polemik, kamusal tartışma	Bu açıklama sert bir polemiğe yol açtı.	Canlı, çoğu zaman sert bir kamusal tartışmadır; « faire polémique » ya da « alimenter la polémique » denir.
+C1	cursus	eğitim programı, öğrenim yolu	Çok zorlu bir üniversite öğrenimi gördü.	Bir diplomaya götüren öğrenim programının tamamıdır; sondaki s okunur.
+C1	flânerie	keyifli gezinti	Seine kıyılarında gezinmek bir zevktir.	Belirli bir amaç olmadan, zevk için yürümektir; flâner fiiliyle ilgilidir.
+C1	kermesse	okul ya da hayır şenliği	Bütün velilerin pasta getirdiği şenlik bu.	Çoğunlukla bir okul ya da dernek yararına düzenlenen açık hava halk şenliğidir.
+C1	aquarelle	suluboya	Somme Körfezi'nin bir suluboyasını yaptı.	Su bazlı resim tekniğini ya da ortaya çıkan resmi anlatır; Fransızcada dişil bir addır.
+C1	pétanque	pétanque (boules oyunu)	Arkadaşlar çınar ağaçlarının altında pétanque oynuyor.	Fransa'nın güneyinde çok sevilen bir boules oyunudur; « jouer à la pétanque » denir.
+C1	anxiété	kaygı, anksiyete	Kaygısı her sınavdan önce artıyor.	Yoğun endişe için hem günlük konuşmada hem klinik dilde kullanılır; « crise d'angoisse » ani bir krizi anlatır.
+C1	dépression	depresyon, bunalım; alçak basınç	Depresyonu için bir psikiyatra gidiyor.	Bir ruhsal hastalıktır; sözcük meteorolojide (« dépression atmosphérique ») ve ekonomide de kullanılır.
+C1	addiction	bağımlılık	Ekran bağımlılığı ebeveynleri çok endişelendiriyor.	Oldukça tıbbi bir terimdir; yakın eş anlamlısı dépendance.
+C1	greffe	organ nakli	Uzun zamandır böbrek nakli bekliyor.	Dişil olarak organ nakli ameliyatı demektir; le greffe (eril) mahkeme yazı işleri bürosudur.
+C1	rechute	nüks	Birkaç haftalık dinlenmeden sonra nüks geçirdi.	Düzelmenin ardından geri gelen bir hastalık için kullanılır; « faire une rechute » denir.
+C1	convalescence	nekahet, iyileşme dönemi	Ameliyattan sonra iyileşmesi birkaç hafta sürecek.	Bir hastalık ya da ameliyatın ardından gelen iyileşme dönemidir; convalescer fiili nadirdir.
+C1	insomnie	uykusuzluk	Bu kronik uykusuzluk onu aylardır yıpratıyor.	Uyumakta güçlüktür; « souffrir d'insomnie » veya « avoir des insomnies » denir.
+C1	handicap	engellilik	Bu engellilik hiçbir zaman başarmasına engel olmadı.	Yaygın bir sözcüktür; « personne en situation de handicap » resmî dilde sıkça kullanılır.
+C1	prévention	önleme, korunma	Önleme, hastalıklarla mücadelenin hâlâ en iyi yoludur.	Bir riski önleyen tedbirler bütünüdür; halk sağlığında « campagne de prévention » denir.
+C1	épuisement	tükenmişlik, bitkinlik	Birkaç haftadır tam bir bitkinlik yaşıyor.	Aşırı yorgunluktur; « épuisement professionnel » burn-out'a karşılık gelir.
+C1	deuil	yas	Babasının ölümünden beri yas tutuyor.	Sevilen birinin kaybını ve ardından gelen keder dönemini anlatır; « faire son deuil » denir.
+C1	rémission	remisyon	Hasta iki yıldır remisyonda.	Özellikle kanserde bir hastalığın kalıcı olarak hafiflemesi için kullanılan tıp terimidir; her zaman iyileşme anlamına gelmez.
+C1	alimenter	beslemek, körüklemek	Kesin rakamlarla tartışmayı körükledi.	Geçişlidir; mecazen körüklemek demektir, örneğin alimenter un débat.
+C1	contourner	etrafından dolaşmak, aşmak	Yol çalışmaları yüzünden şehir merkezinin etrafından dolaştık.	Geçişlidir: contourner un obstacle; mecazen de kullanılır: contourner une règle (kuralı dolanmak).
+C1	dissimuler	gizlemek	Rutubet lekesini bir dolabın arkasına gizledi.	Geçişlidir; çoğu zaman bir şeyi kasten göz önünden uzak tutma niyetini taşır.
+C1	esquiver	savuşturmak	Bütçe hakkındaki tüm sorularımı savuşturdun.	Geçişlidir: esquiver un coup, une question; ustaca kaçınmak demektir.
+C1	persuader	ikna etmek (razı etmek)	Garsonu bize bir masa ayırması için ikna ettiler.	persuader quelqu'un de faire quelque chose kalıbıyla kurulur.
+C1	épuiser	tüketmek; yorgun düşürmek	Dağa tırmanırken gücünü tüketti.	Geçişlidir; güç ve kaynaklar için kullanılır; épuisé ortacı yorgun düşmüş anlamına da gelir.
+C1	réclamer	talep etmek, istemek	Seyahat acentesinden para iadesi talep ettik.	Doğrudan geçişlidir: réclamer quelque chose à quelqu'un; bir hakkı ima eder, demander'den daha güçlüdür.
+C1	aggraver	ağırlaştırmak, kötüleştirmek	Tedavi ağrılarını ağırlaştırmış olsa da yürümeye devam ediyor.	Geçişlidir; dönüşlü s'aggraver kötüleşmek demektir.
+C1	compenser	telafi etmek, dengelemek	İkramiye kaybı telafi etmiş olsa da başka bir iş arıyor.	Geçişlidir: compenser une perte par quelque chose.
+C1	déclencher	tetiklemek, başlatmak	Fırtına bir alarmı tetiklemiş olsa da uçuşlar sürüyor.	Geçişlidir: déclencher une alerte, une crise, un conflit.
+C1	élaborer	tasarlamak, geliştirmek	Şef bu tarifi tek başına geliştirmiş olsa da ekibine teşekkür ediyor.	Geçişlidir; bir plan, kuram ya da tarif hazırlamak için oldukça resmî bir fiildir.
+C1	éliminer	elemek, ortadan kaldırmak	Şekeri tamamen ortadan kaldırmış olsa da kendini yorgun hissediyor.	Geçişlidir; tıp ve diyetetikte bir maddeyi vücuttan atmak anlamına da gelir.
+C1	entraver	engellemek, köstek olmak	Grevler trafiği aksatmış olsa da zamanında vardık.	Geçişlidir; bir hareketin ya da eylemin önüne engel koymak demektir.
+C1	évaluer	değerlendirmek, değer biçmek	Uzman bu mobilyaya bin avro değer biçmiş olsa da alıcı tereddüt etti.	Geçişlidir: évaluer un risque; évaluer quelque chose à + rakam denebilir.
+C1	interpeller	seslenmek, çağırmak	Rehber turistlere seslenmiş olsa da kimse yanıt vermedi.	Geçişlidir; birine yüksek sesle seslenmek ya da ısrarla hitap etmek demektir.
+C1	provoquer	yol açmak, kışkırtmak	Film bir skandala yol açmış olsa da salon doldu.	Geçişlidir; bir sonucun nedenini belirtir: provoquer un débat, une réaction.
+C1	harmoniser	uyumlu hâle getirmek	Mimar renkleri uyumlu hâle getirmiş olsa da salon karanlık görünüyor.	Geçişlidir; dönüşlü s'harmoniser uyum sağlamak demektir.
+C1	amplifier	yükseltmek, büyütmek (ses)	Bu cihaz sesi daha iyi yükseltseydi konser mükemmel olurdu.	Geçişlidir; sesler için, mecazen de sorunlar ya da olgular için kullanılır.
+C1	anticiper	önceden öngörmek, önceden harekete geçmek	Gecikmeleri önceden hesaba katsaydık daha erken bir tren ayırtırdık.	Geçişli ya da geçişsizdir; bir şeyi öngörüp önceden harekete geçmek demektir.
+C1	attribuer	(ödül) vermek, atfetmek	Jüri iki ödül verseydi adaylar çok sevinirdi.	attribuer quelque chose à quelqu'un kalıbıyla kurulur.
+C1	bouleverser	alt üst etmek	Yönetim çalışma saatlerimizi alt üst etseydi ekipler protesto ederdi.	Geçişlidir; pratik ya da duygusal bir sarsıntıyı anlatır.
+C1	cerner	sınırlarını çizmek, kavramak	Doktor belirtileri daha iyi kavrasaydı teşhis daha hızlı olurdu.	Geçişlidir: cerner un problème, anlamak için sınırlarını çizmek demektir.
+C1	clarifier	netleştirmek, açıklığa kavuşturmak	Talebini netleştirsen, satıcı sana daha iyi tavsiye verirdi.	Geçişlidir: clarifier une situation, une position.
+C1	combler	doldurmak; (açığı) kapatmak	Çatlakları doldursaydık ev daha iyi yalıtılmış olurdu.	Geçişlidir: combler un vide, un retard; combler quelqu'un de cadeaux birini hediyelere boğmak demektir.
+C1	contester	itiraz etmek	Müşteri faturaya itiraz etseydi her satırı kontrol ederdik.	Geçişlidir: contester une décision, une facture; nesnesiz de kullanılabilir.
+C1	dévoiler	açıklamak, ortaya çıkarmak	Şef tarifini açıklasaydı herkes kopyalardı.	Geçişlidir: dévoiler un secret, une statue, un projet.
+C1	distinguer	ayırt etmek	Bu iki tabloyu daha iyi ayırt edebilseydik ziyaret çok ilginç olurdu.	distinguer A de B ya da distinguer A et B kalıbıyla kurulur.
+C1	encourager	cesaretlendirmek, teşvik etmek	Çocukları cesaretlendirmiş olsaydınız maçı bitirirlerdi.	encourager quelqu'un à faire quelque chose kalıbıyla kurulur; o ve a'dan önce g harfi ge olur (nous encourageons).
+C1	exploiter	işletmek, değerlendirmek; sömürmek	Otel terasını değerlendirseydi daha çok müşteri çekerdi.	Geçişlidir; bir insanı sömürmek gibi olumsuz bir anlamı da vardır.
+C1	acclamer	coşkuyla alkışlamak	Seyirci müzisyenleri coşkuyla alkışlayarak geceyi uzattı.	Geçişlidir; alkışı ve onay çığlıklarını anlatır.
+C1	argumenter	argüman sunmak, tez öne sürmek	Sakin sakin argüman sunarak patronunu ikna etti.	Çoğunlukla geçişsizdir: argumenter en faveur de quelque chose.
+C1	arbitrer	hakemlik yapmak	Maçta hakemlik yaptıktan sonra bitkin eve döndü.	Geçişlidir; maçlar için ve ayrıca anlaşmazlıklar için kullanılır.
+C1	étayer	kanıtlarla desteklemek	Projesini rakamlarla destekleyerek krediyi alacak.	Geçişlidir; kelimenin tam anlamıyla payandalamak, mecazen kanıtla desteklemek demektir.
+C1	façonner	biçimlendirmek, şekillendirmek	Çömlekçi kili şekillendirerek bir vazo yaratıyor.	Geçişlidir; bir malzemeye ya da bir karaktere biçim vermek demektir.
+C1	freiner	fren yapmak, frenlemek	Şoför son saniyede fren yaparak kazayı kıl payı önledi.	Geçişsiz (freiner brusquement) ya da geçişli (freiner l'inflation) kullanılır.
+C1	hériter	miras almak	Çiftliği miras alarak hayatlarını değiştirdiler.	Genellikle de ile kurulur: hériter de quelque chose, hériter de quelqu'un.
+C1	illustrer	resimlemek, örneklemek	Kitabı resimledikten sonra tatile çıktı.	Geçişlidir; kitaplardaki resimler ve bir fikri açıklayan örnekler için kullanılır.
+C1	impliquer	dahil etmek; gerektirmek	Mahalle sakinlerini sürece dahil ederek belediye mahalleyi güzelleştirdi.	Geçişlidir; hem dahil etmek hem gerektirmek anlamına gelir.
+C1	incarner	canlandırmak, simgelemek	Bu rolü canlandırarak oyuncu salonu duygulandırdı.	Geçişlidir; bir tiyatro rolü ya da bir fikir için kullanılır.
+C1	infliger	(ceza) uygulamak, çektirmek	Para cezası keserek kontrolör yolcuları şaşırttı.	Geçişlidir: infliger une peine, une amende; a ve o'dan önce g harfi ge olur.
+C1	instaurer	kurmak, yürürlüğe koymak	Molalar getirerek şirket stresi azalttı.	Geçişlidir; kurallar, rejimler ve alışkanlıklar için kullanılır.
+C1	invoquer	gerekçe göstermek; yardımına başvurmak	Tanık, salondan ayrılmadan önce yorgunluğu gerekçe göstermişti.	Geçişlidir: invoquer un motif, un argument, ayrıca invoquer l'aide de quelqu'un (birinden yardım dilemek).
+C1	modérer	ölçülü tutmak, azaltmak	Tatilden önce harcamalarımızı kısmıştık.	Geçişlidir; şimdiki zamanda aksan değişir: je modère, nous modérons.
+C1	nuancer	yumuşatmak, nüans katmak	Romanın yayımlanmasından önce eleştirilerini yumuşatmıştı.	Geçişlidir: nuancer ses propos; a ve o'dan önce c harfi ç olur (nous nuançons).
+C1	pallier	(eksikliği) gidermek, idare etmek	Aşçı kremanın eksikliğini yoğurtla idare etmişti.	Doğrudan geçişlidir: pallier un manque, un problème.
+C1	raffiner	rafine etmek; inceltmek	Bu şeker limana yakın bir fabrikada rafine ediliyor.	Geçişlidir; kelimenin tam anlamıyla bir maddeyi arıtmak, mecazen daha ince hâle getirmek demektir.
+C1	rassembler	toplamak, bir araya getirmek	Göstericiler polis tarafından toplandı.	Geçişlidir; dönüşlü se rassembler toplanmak demektir.
+C1	priver	yoksun bırakmak	Yolcular iki gün boyunca bagajlarından yoksun bırakıldı.	priver quelqu'un de quelque chose kalıbıyla kurulur.
+C1	prôner	savunmak, öne sürmek	Bu yöntem birçok doktor tarafından savunuluyor.	Geçişlidir; o harfinde şapka vardır.
+C1	piloter	yönetmek, yürütmek; (araç) kullanmak	Proje genç bir mühendis tarafından yönetiliyor.	Geçişlidir; bir aracı kullanmak ya da bir projeyi yürütmek anlamına gelir.
+C1	accentuer	vurgulamak, belirginleştirmek	Resmin kontrastını belirginleştirmeniz gerekiyor.	Geçişlidir; dönüşlü s'accentuer artmak demektir.
+C1	apaiser	yatıştırmak, dindirmek	Hastanın ağrısını dindirmemiz gerekiyor.	Geçişlidir; ağrılar, korkular ve çatışmalar için kullanılır.
+C1	éclaircir	seyreltmek, inceltmek; aydınlatmak	Aşçının sosu inceltmesi gerekiyor.	finir gibi düzenli bir -ir fiilidir (éclaircissons); bir gizemi aydınlatmak anlamına da gelir.
+C1	affaiblir	zayıflatmak	Doktor virüsün savunmaları zayıflattığını açıkladı.	finir gibi çekimlenen düzenli bir -ir fiilidir (affaiblissons).
+C1	jaillir	fışkırmak	Rehber pınarın baharda fışkırdığını belirtti.	Düzenli bir -ir fiilidir (jaillissons); sıvının ya da ışığın ani fışkırmasını anlatır.
+C1	fléchir	geri adım atmak; eğmek	Baskılar karşısında geri adım atmayacağını söyledi.	Düzenli bir -ir fiilidir; geçişli (eğmek) ya da geçişsiz (pes etmek) kullanılır.
+C1	ravir	büyülemek, çok sevindirmek	Bu hediye büyükannemi çok sevindirirdi.	finir gibi çekimlenen düzenli bir -ir fiilidir (ravissons); geçmiş zaman ortacı (participe passé) ravi'dir.
+C1	se blottir	sokulmak, büzülmek	Çocuklar fırtınada battaniyenin altına sokuluyor.	Neredeyse her zaman dönüşlüdür: se blottir; passé composé être ile kurulur.
+C1	se méfier	güvenmemek, temkinli olmak	Gerçek olamayacak kadar iyi tekliflere karşı temkinliyiz.	Yalnızca dönüşlü biçimde kullanılır: se méfier de quelqu'un ya da de quelque chose.
+C1	étirer	germek (s'étirer: gerinmek)	Koşudan sonra çimlerde uzun uzun geriniyoruz.	Geçişlidir; dönüşlü s'étirer gerinmek demektir.
+C1	confier	emanet etmek (se confier: içini dökmek)	Meslektaşlarına nadiren içini döker.	Se confier à quelqu'un birine açılmak demektir; confier quelque chose à quelqu'un emanet etmektir.
+C1	se résigner	boyun eğmek, razı olmak	Bir sonraki treni beklemeye razı oluyorlar.	Dönüşlü biçimde kullanılır: se résigner à + mastar ya da isim.
+C1	contraindre	zorlamak, mecbur etmek	Hiç kimse bir vatandaşı vicdanına karşı oy vermeye zorlayamaz.	craindre gibi çekimlenir (contraignons); contraindre quelqu'un à faire quelque chose kalıbıyla kurulur.
+C1	astreindre	bağlamak, tabi tutmak	Bu yönetmelik çalışanları sıkı bir mesai düzenine bağlayacak.	craindre gibi çekimlenir; astreindre quelqu'un à quelque chose kalıbıyla kurulur.
+C1	déduire	düşmek, mahsup etmek; sonuç çıkarmak	Bu rakam faturanın toplam tutarından düşülebilir.	conduire gibi çekimlenir; geçmiş zaman ortacı (participe passé) déduit'dir; bir tutarı çıkarmak anlamına da gelir.
+C1	induire	(hataya) düşürmek, yol açmak	Bu etiket müşterileri yanıltabilir.	conduire gibi çekimlenir; tipik ifade induire quelqu'un en erreur.
+C1	séduire	cezbetmek, ayartmak	Bu küçük han tüm yolcuları cezbedecek.	conduire gibi çekimlenir; geçmiş zaman ortacı (participe passé) séduit'dir; yalnız kişiler için değil, çekici gelen şeyler için de kullanılır.
+C1	nuire	zarar vermek	Tütün sağlığa ciddi biçimde zarar verebilir.	à ile kullanılır: nuire à quelqu'un; geçmiş zaman ortacı (participe passé) nui'dir ve hiç uyum göstermez.
+C1	accroître	artırmak	Talebi karşılamak için üretimi artırmak gerekiyor.	Düzensizdir; geçmiş zaman ortacı (participe passé) accru'dür; augmenter'den daha resmîdir.
+C1	dissoudre	çözmek, eritmek (sıvıda)	Şekeri sıcak suda çözmek yeterli.	Düzensizdir; geçmiş zaman ortacı (participe passé) dissous'dur (dişili dissoute).
+C1	extraire	çıkarmak, özünü almak	Balı kovandan dikkatlice çıkarmak gerekir.	traire gibi çekimlenir; geçmiş zaman ortacı (participe passé) extrait'dir.
+C1	soustraire	kaldırmak, çekip almak	Kimse bu belgeleri tıbbi dosyadan kaldırmamalı.	traire gibi çekimlenir; soustraire quelque chose à quelqu'un ya da à quelque chose; çıkarma işlemi yapmak anlamına da gelir.
+C1	enfreindre	ihlal etmek	Kiracılar bina kurallarını ihlal etmemelidir.	craindre gibi çekimlenir; kurallar, yasalar ve yasaklarla kullanılır.
+C1	restreindre	kısıtlamak	Belediye şehir merkezinde trafiği kısıtlamak istiyor.	craindre gibi çekimlenir; geçmiş zaman ortacı (participe passé) restreint'dir.
+C1	prescrire	reçete etmek, öngörmek	Doktor daha hafif bir tedavi yazacak.	écrire gibi çekimlenir; geçmiş zaman ortacı (participe passé) prescrit'dir; ilaçlar ve kurallar için kullanılır.
+C1	interrompre	kesintiye uğratmak, kesmek	Bir fırtına açık hava konserini kesintiye uğratacak.	rompre gibi çekimlenir; geçmiş zaman ortacı (participe passé) interrompu'dür.
+C1	corrompre	rüşvet vermek, yozlaştırmak	Bazıları şampiyonanın hakemlerine rüşvet vermeye çalışıyor.	rompre gibi çekimlenir; geçmiş zaman ortacı (participe passé) corrompu'dür; hem rüşvet vermek hem yozlaştırmak demektir.
+C1	acquérir	edinmek	Parkın yakınında bir daire edinmek istiyoruz.	Düzensizdir: j'acquiers, nous acquérons; geçmiş zaman ortacı (participe passé) acquis'dir; acheter'den daha resmîdir.
+C1	contredire	yalanlamak, karşı çıkmak	Tanınmış bir uzmana karşı çıkmak zordur.	dire gibi çekimlenir, ancak vous biçimi contredisez'dir.
+C1	élire	seçmek (oyla)	Sakinler pazar günü yeni bir belediye başkanı seçecek.	lire gibi çekimlenir; geçmiş zaman ortacı (participe passé) élu'dür.
+C1	fallacieux	yanıltıcı, aldatıcı	Bu yanıltıcı reklam, hiç de el yapımı olmayan bir peyniri övüyor.	Dişili: fallacieuse. Yanıltan argümanlar, vaatler ya da reklamlar için kullanılır.
+C1	probant	ikna edici, kanıtlayıcı	Bu tedavinin sonuçları yeterince ikna edici değil.	Dişili: probante. Gerçekten bir şeyi kanıtlayan deliller, sonuçlar ya da deneyler için kullanılır.
+C1	tangible	somut, elle tutulur	Daha fazla yatırım yapmadan önce somut sonuçlar bekliyoruz.	Dişilde aynı biçimdedir (une preuve tangible). Dokunulabilir demektir; mecazen sonuçlarda olduğu gibi açıkça görülür.
+C1	ambigu	belirsiz, çok anlamlı	Bu romanın belirsiz sonu okurları hâlâ bölüyor.	Dişili: ambiguë (e üzerinde tréma ile). Birden çok okumaya açık sözcükler, durumlar ya da metinler için kullanılır.
+C1	fugace	geçici, kısacık	Tepenin zirvesinde kısacık bir mutluluk bizi sardı.	Dişilde aynı biçimdedir. Çok kısa süren duygular, bakışlar ya da anılar için oldukça edebî bir sözcüktür.
+C1	inéluctable	kaçınılmaz (önlenemez)	Yaşlanma kaçınılmaz bir olgudur ama yavaşlatılabilir.	Dişilde aynı biçimdedir. Kaçınılamayacak bir şey için resmî bir sözcüktür.
+C1	dérisoire	gülünç derecede az, değersiz	Bu satıcı eski bir mobilya için gülünç derecede düşük bir fiyat öneriyor.	Dişilde aynı biçimdedir. Gülünç görünecek kadar küçük tutarlar, fiyatlar ya da olanaklar için kullanılır.
+C1	insidieux	sinsi	Hazır yemeklerde gizli şeker sinsi bir etki yaratıyor.	Dişili: insidieuse; eril çoğulu insidieux kalır. Yavaş yavaş ve fark edilmeden işleyen bir tehlikeyi anlatır.
+C1	pernicieux	yıkıcı, ağır zarar veren	Kitlesel turizmin bu köy üzerinde yıkıcı etkileri var.	Dişili: pernicieuse; eril çoğulu pernicieux kalır. Çoğu zaman yavaş ve sinsice zarar veren şey için resmî bir sözcüktür.
+C1	lacunaire	eksik, boşluklu	Dosyanız hâlâ eksik: iki belge yok.	Dişilde aynı biçimdedir. Eksik kısımları olan bir belge, bilgi ya da anlatı için kullanılır.
+C1	exhaustif	kapsamlı, eksiksiz	Bu kütüphane Proust'un eserlerinin eksiksiz bir kataloğunu sunuyor.	Dişili: exhaustive. Hiçbir şeyi dışarıda bırakmayan bir liste ya da inceleme için kullanılır.
+C1	pléthorique	aşırı kalabalık, gereğinden fazla	Bu birimdeki aşırı kalabalık kadro her kararı yavaşlatıyor.	Dişilde aynı biçimdedir. Personel, teklifler ya da belgeler gibi fazla sayıda olan şey için kullanılır.
+C1	laborieux	zahmetli, meşakkatli	Bu dolabın montajı zahmetli bir işti.	Dişili: laborieuse. Uzun ve yorucu işler ya da zorlukla elde edilen sonuç için kullanılır.
+C1	éloquent	belagatli; çok şey anlatan	Konserden sonra seyircinin sessizliği çok şey anlatıyordu.	Dişili: éloquente. İyi konuşan kişi için; mecazen kendiliğinden anlaşılan bir jest ya da olgu için kullanılır.
+C1	anodin	zararsız, önemsiz	Bu öksürük zararsız görünüyor ama bir aydır sürüyor.	Dişili: anodine. Az önemli ya da ciddi olan şey için kullanılır, çoğu zaman bir kuşku payıyla.
+C1	inépuisable	tükenmez	Bu büyük mağaza tükenmez bir ayakkabı seçeneği sunuyor.	Dişilde aynı biçimdedir. Hiç bitmeyen kaynaklar, sabır ya da konular için kullanılır.
+C1	fortuit	tesadüfi, rastlantısal	Lyon trenindeki tesadüfi karşılaşmamız her şeyi değiştirdi.	Dişili: fortuite. Niyet olmadan, şansa bağlı bir olay için oldukça resmî bir sözcüktür.
+C1	caduc	geçersiz, hükmü kalmamış	Sözleşmenin bu maddesi geçen yıl hükümsüz kaldı.	Dişili: caduque. Hukuk ve idare dilinde artık geçerli olmayan şeyi anlatır.
+C1	cohérent	tutarlı	Bu tutarlı menü mevsim ürünlerini bir araya getiriyor.	Dişili: cohérente. Parçaları mantıksal olarak birbirine uyan bütün için kullanılır.
+C1	équivoque	kuşkulu, muğlak	Bu karakterin kuşkulu gülümsemesi seyircileri meraklandırıyor.	Dişilde aynı biçimdedir. Çoğu zaman ambigu'dan daha çok bir kuşku tonu taşır; isim olarak da vardır.
+C1	véridique	doğru, gerçeği söyleyen	Rehber bu efsanenin doğru olduğuna yemin ediyor.	Dişilde aynı biçimdedir. Doğruyu söyleyen bir anlatı ya da kişi için kullanılır.
+C1	insoluble	çözümsüz, çözülemez	Bu dairede rutubet sorunu çözümsüz görünüyor.	Dişilde aynı biçimdedir. Çözümü olmayan sorun için; kimyada ayrıca çözünmeyen demektir.
+C1	notoire	adı çıkmış, herkesçe bilinen	Bu tüccar bütün mahallede adı çıkmış bir yalancıdır.	Dişilde aynı biçimdedir. Herkesçe bilinen, çoğu zaman olumsuz şey için kullanılır (un menteur notoire).
+C1	pérenne	kalıcı, sürekli	Bu şirket hızlı değil, kalıcı bir büyüme hedefliyor.	Dişilde aynı biçimdedir. Zaman içinde süren şey için, iş dünyasında yaygın resmî bir sözcüktür.
+C1	impartial	tarafsız	Tarafsız bir eleştirmen filmi önyargısız yargılamalıdır.	Dişili: impartiale; eril çoğulu: impartiaux. Kimseyi kayırmadan yargılayan kişi için kullanılır.
+C1	saillant	dikkat çekici, göze çarpan	Yolculuğumuzun en dikkat çekici anı çölü geçmekti.	Dişili: saillante. Öne çıkan şeyi anlatır; çoğu zaman point ya da fait ile kullanılır.
+C1	lucratif	kazançlı, kârlı	İkinci el giysi satışı kazançlı bir ticarete dönüşüyor.	Dişili: lucrative. Para kazandıran faaliyetler için; association à but non lucratif kâr amacı gütmeyen dernek demektir.
+C1	vétuste	köhne, eski püskü	Bu köhne binanın ısıtması sık sık bozuluyor.	Dişilde aynı biçimdedir. Eski ve kötü durumdaki binalar ya da ekipmanlar için kullanılır.
+C1	tortueux	dolambaçlı, kıvrımlı	Köye kadar dolambaçlı bir yol izledik.	Dişili: tortueuse; eril çoğulu tortueux kalır. Yollar için, mecazen de karmaşık akıl yürütme için kullanılır.
+C1	rudimentaire	temel düzeyde, ilkel	Kamp kulübemiz yalnızca temel düzeyde bir konfor sunuyordu.	Dişilde aynı biçimdedir. Aslî olana indirgenmiş, bazen yetersiz olan şey için kullanılır.
+C1	sobre	sade	Tören için sade bir elbise seçti.	Dişilde aynı biçimdedir. Aşırılıktan uzak bir stili anlatır; az içen kişi için de kullanılır.
+C1	disparate	uyumsuz, birbirine benzemeyen	Bu büfedeki yemekler birbirine uyumsuz ama nefis.	Dişilde aynı biçimdedir. Birbirinden çok farklı olan ve tutarlı bir bütün oluşturmayan öğeler için kullanılır.
+C1	vénérable	saygıdeğer	Bu saygıdeğer kütüphane Orta Çağ'dan kalma el yazmalarını saklıyor.	Dişilde aynı biçimdedir. İsimden önce gelebilir ve yaşa ya da otoriteye saygıyı gösterir.
+C1	périlleux	tehlikelerle dolu	Kışın ortasında geçidi aşmak tehlikelerle doluydu.	Dişili: périlleuse. Tehlike ya da risk dolu şey için resmî bir sözcüktür.
+C1	insolite	alışılmadık, sıra dışı	Bir ağaca tünemiş, sıra dışı bir yerde uyuduk.	Dişilde aynı biçimdedir. Olağanın dışında olanı, olumsuz bir yargı taşımadan anlatır.
+C1	fastidieux	sıkıcı, yorucu	Bu formları doldurmak sıkıcı bir iştir.	Sıkıcı ve tekrarlayıcı demektir; İtalyanca fastidioso'daki gibi rahatsız edici anlamına gelmez.
+C1	irréprochable	kusursuz	Bu restoranın servisi kusursuz.	Dişilde aynı biçimdedir. Eleştirilecek hiçbir şeyi olmayan davranış ya da iş için kullanılır.
+C1	hasardeux	riskli, şansa bağlı	Bu ilacı reçetesiz kullanmak riskli olurdu.	Aspire edilen «h» ile başlar: bağlama ya da ünlü düşmesi yapılmaz.
+C1	opportun	uygun, yerinde	Zam istemek için doğru zaman bu değil.	Dişili: opportune. Tam zamanında gelen ya da duruma uyan şey için kullanılır.
+C1	implicite	örtük, zımni	Bu filmin örtük mesajı modern toplumu eleştiriyor.	Dişilde aynı biçimdedir. Açıkça söylenmeyen ama anlaşılan şey için kullanılır; karşıtı explicite.
+C1	explicite	açık, net	Garanti koşulları açık olmalıdır.	Dişilde aynı biçimdedir. Açık ve kesin biçimde belirtilen şey için kullanılır; karşıtı implicite.
+C1	futile	boş, önemsiz	Akşamı boş tartışmalarla geçirdi.	Dişilde aynı biçimdedir. Az önemi ya da değeri olan şey için kullanılır.
+C1	tenace	inatçı, kalıcı	Bu inatçı ağrı uyumasını engelliyor.	Dişilde aynı biçimdedir. Kurtulması zor ağrılar, kokular ya da önyargılar için; bir kişi için pes etmeyen demektir.
+C1	somptueux	görkemli, şahane	Görkemli bir bayram yemeği hazırladılar.	Dişili: somptueuse; eril çoğulu somptueux kalır. İsimden önce ya da sonra gelebilir.
+C1	nullement	hiçbir şekilde, hiç de	Sınav sonucu için hiç de endişeli değilim.	Fiilin önündeki ne ile kullanılan güçlü bir olumsuzlamadır. Resmî bir sözcüktür, pas du tout'dan daha vurguludur.
+C1	d'emblée	hemen, baştan	Satıcı hemen bir indirim önerdi.	Kesme işareti içerir (d'emblée). İlk andan itibaren, tereddüt etmeden bir şey yapmak demektir.
+C1	intégralement	tamamen, bütünüyle	Daire temizse depozito tamamen iade edilecek.	intégral sıfatından gelir. payer, rembourser, lire gibi fiillerle, hiçbir şeyi dışarıda bırakmamak için kullanılır.
+C1	ultérieurement	daha sonra, ileride	Seyahat saatlerini size daha sonra bildireceğiz.	İdari ve resmî bir sözcüktür: belirsiz bir sonraki zamana işaret eder.
+C1	antérieurement	öncesinde, daha eski bir tarihte	Sanatçı daha önce birçok Paris galerisinde sergi açmıştı.	Resmîdir; ultérieurement'ın karşıtıdır. Çoğu zaman antérieurement à + isim biçiminde görülür.
+C1	nécessairement	zorunlu olarak, mutlaka	Lezzetli bir yemek zorunlu olarak karmaşık değildir.	Olumsuz biçimde pas nécessairement çok yaygındır, her zaman değil demektir.
+C1	exclusivement	yalnızca, münhasıran	Eskiden bu fırıncı yalnızca yerel unla çalışırdı.	seulement'dan daha güçlü ve resmîdir: her başka olasılığı dışlar.
+C1	résolument	kararlılıkla	Ekip bu projeye kararlılıkla katıldı.	Tereddütsüz bir kararlılığı gösterir; s'engager, refuser, se tourner vers gibi fiillerle gider.
+C1	concrètement	somut olarak, pratikte	Bu seyahati pratikte nasıl organize edeceksiniz?	Pratik ayrıntıları sormak ya da vermek için çoğu zaman cümlenin başında kullanılır.
+C1	sciemment	bilerek, farkında olarak	Arabanın kusurlarını bilerek gizledi.	-emment ile yazılır ama [amɑ̃] okunur. Hukuk diline özgü resmî bir sözcüktür.
+C1	délibérément	kasten, isteyerek	Doktorunun tavsiyelerini kasten görmezden geldi.	Eylemin istemli ve bilinçli olduğunu vurgular; sciemment'ın daha yaygın bir eş anlamlısıdır.
+C1	unanimement	oybirliğiyle	Jüri bu belgeseli oybirliğiyle övdü.	unanime'den gelir. saluer, approuver, reconnaître, condamner gibi fiillerle kullanılır.
+C1	ardemment	hararetle, ateşli biçimde	Çocukluk evini yeniden bulmayı hararetle istiyordu.	ardent'tan gelir ve [aʁdamɑ̃] okunur. Resmî bir sözcüktür; souhaiter, désirer, espérer ile kullanılır.
+C1	moyennant	karşılığında, şartıyla	Ek bir ücret karşılığında odayı öğlene kadar tutabilirdiniz.	Bir şeyi mümkün kılan bir ödemeyi ya da koşulu başlatan resmî bir sözcüktür.
+C1	auprès	(bir kişi ya da kurum) nezdinde, -den	Turizm ofisinden bilgi alacağız.	Bir kişi ya da kurumdan önce her zaman de ile gelir (auprès de), se renseigner auprès de gibi.
+C1	soi	kendi, kendisi	Sağlıklı kalmak için insan kendine iyi bakmalı.	Belirsiz ya da genel bir özneye (on, chacun, il faut) gönderme yapan vurgulu dönüşlü zamirdir. je ya da tu ile moi veya toi kullanılır.
+C1	autrui	başkaları, diğer insanlar	Başkalarına saygı göstermek önemlidir.	Yalnızca tekilde ve neredeyse her zaman nesne olarak kullanılır; resmî dildir.
+C1	tel	böyle, öyle	Birçok genç için durum böyledir.	Bir sıfattır: «tel que», «tel quel»; dişili «telle», çoğulları «tels» ve «telles».
+C1	nul	hiç kimse (resmî)	Hiç kimsenin yasayı bilmediği varsayılamaz.	Zamir olarak resmîdir ve ne ile kullanılır; sıfat olarak nul geçersiz, hükümsüz demektir.
+C1	aboutir	varmak, sonuçlanmak	Bu müzakereler bir anlaşmayla sonuçlandı.	«à» alır: «aboutir à» + isim ya da mastar.
+C1	susciter	uyandırmak, doğurmak	Bu proje büyük ilgi uyandırıyor.	Soyut isimlerle kullanılır: «susciter l'intérêt, la curiosité, la polémique».
+C1	entamer	başlamak, girişmek	Müzakerelere yarın başlıyoruz.	Uzun ya da hassas süreçler için kullanılır; bir şeyi ilk kez kesmek de demektir.
+C1	déceler	tespit etmek, sezmek	Bu raporda bir hata tespit ediyoruz.	Şimdiki zamanda bazı biçimlerde accent grave alır: «je décèle».
+C1	préconiser	önermek, tavsiye etmek	Uzmanlar hızlı bir reform öneriyor.	«conseiller»den daha resmîdir; önlemler ve yöntemler için kullanılır.
+C1	remédier	çare bulmak, düzeltmek	Bu soruna hızla çare buluyoruz.	Her zaman «à» alır: «remédier à quelque chose».
+C1	déplorer	esef etmek, yakınmak	Belediye başkanı bu imkân yetersizliğinden yakınıyor.	«regretter»den daha güçlü ve resmîdir.
+C1	bilan	bilanço, genel değerlendirme	Yılın değerlendirmesi çok olumlu.	Hem mali bilançoyu hem genel değerlendirmeyi anlatır: «faire le bilan».
+C1	essor	hızlı gelişme, atılım	Turizmin hızla gelişmesi bölgeyi değiştiriyor.	Neredeyse yalnızca tekilde kullanılır: «prendre son essor».
+C1	clivage	ayrışma, bölünme	Bu ayrışma toplumu uzun zamandır bölüyor.	Toplumsal ya da siyasi bölünmeler için kullanılır.
+C1	levier	kaldıraç, etki aracı	Eğitim değişim için bir kaldıraçtır.	Mecazen de kullanılır: «un levier d'action».
+C1	écart	fark, açıklık	Fiyatlar arasındaki fark her ay artıyor.	«à l'écart» (kenarda) ifadesinde de kullanılır.
+C1	néfaste	zararlı, kötü etkili	Bu alışkanlık sağlık için zararlı.	Eril ve dişil için aynı biçimdedir; «mauvais»den daha resmîdir.
+C1	inédit	eşi görülmemiş, yayımlanmamış	Bu durum Avrupa'da eşi görülmemiş.	Hem «daha önce görülmemiş» hem «yayımlanmamış» anlamına gelir.
+C1	dorénavant	bundan sonra	Bundan sonra uzaktan çalışacağız.	«désormais»den daha resmîdir ve genellikle yeni bir kuralı bildirir.
+C1	périple	uzun, maceralı yolculuk	Asya'daki uzun yolculukları altı ay sürdü.	Birçok durağı olan, çoğu zaman maceralı uzun bir yolculuğu anlatır. voyage'dan daha edebîdir.
+C1	gîte	kırsal tatil evi	Nehrin yanında bir tatil evi ayırttık.	Fransa'da kiralık kırsal bir konaklama yeridir, genellikle mutfaklıdır. Otel değildir.
+C1	cueillette	meyve, mantar toplama	Çilek toplama mayıs ayında başlıyor.	Elle meyve, orman meyvesi ya da mantar toplamayı anlatır; çoğu zaman bir boş zaman etkinliğidir.
+C1	brocante	bit pazarı, ikinci el eşya ticareti (ya da dükkânı)	Bu eski lambayı bir bit pazarında buldu.	Hem ikinci el eşya ticaretini hem de bunların satıldığı pazarı ya da dükkânı anlatır.
+C1	vernissage	sergi açılışı	Cumartesi akşamı sergi açılışına gideceğiz.	Bir sanat sergisinin açılış gecesidir, genellikle davetlidir.
+C1	courbature	kas ağrısı	Her kas ağrısı bana dünkü uzun yürüyüşü hatırlatıyordu.	Çoğu zaman çoğulda kullanılır: avoir des courbatures, efordan sonra kasların ağrıması demektir.
+C1	tisane	bitki çayı	Akşamları ıhlamur bitki çayı içer.	Otlardan ya da çiçeklerden yapılan bir demlemedir; genellikle çaysız ve kafeinsizdir.
+C1	fanfare	bando, fanfar	Köy bandosu geçit törenini açtı.	Bakır üflemeli ve vurmalı çalgılardan oluşan bir topluluk demektir; trompetlerle çalınan parçayı da anlatır.
+C1	déambuler	amaçsızca dolaşmak	Turistler eski şehrin dar sokaklarında dolaşıyor.	Düzenli bir -er fiilidir; amaçsızca ve acele etmeden yürümek demektir.
+C1	flâner	keyifle gezinmek	Pazarlarını Seine kıyısında keyifle gezinerek geçiriyor.	Bir şehrin havasından hoşlanarak acele etmeden yürümek demektir.
+C1	grignoter	atıştırmak	Bütün akşam televizyon karşısında bisküvi atıştırıyor.	Öğünler arasında azar azar ve sık sık yemek demektir. Geçişli ya da geçişsiz olabilir.
+C1	sillonner	boydan boya gezmek	Her yaz karavanla Bretagne'ı boydan boya geziyorlar.	Doğrudan geçişli bir fiildir; bir bölgeyi her yönde dolaşmak demektir.
+C1	postuler	başvurmak	Proje yöneticisi pozisyonuna başvuruyor.	Genellikle à ya da pour ile kullanılır: postuler à un poste.
+C1	jeûner	oruç tutmak	Komşum her yıl ramazanda oruç tutar.	Geçişsizdir: tıbbi ya da dinî nedenlerle bir süre yemeden durmak demektir.
+C1	aérer	havalandırmak	Yatak odasını her sabah havalandırıyoruz.	Okunmayan -e'li (sessiz e) eklerden önce é, è olur: j'aère.
+C1	pittoresque	pitoresk, manzaralı	Deniz kıyısındaki pitoresk bir köyde kaldık.	Dişilde aynı biçimdedir: une rue pittoresque.
+C1	bondé	tıklım tıklım	Grev yüzünden metro tıklım tıklımdı.	Cinsiyet ve sayıya uyar: bondée, bondés, bondées. İnsanla dolu yerler ya da araçlar için kullanılır.
+C1	croustillant	çıtır çıtır	Bu çıtır ekmek az önce fırından çıktı.	Dişili croustillante'dır. Ekmek, deri ya da kızarmış tavuk için kullanılır.
+C1	ludique	eğlenceli, oyunsu	Bu uygulama öğrenmenin eğlenceli bir yolunu sunuyor.	Dişilde aynı biçimdedir. Oyunla ilgilidir ya da oyun gibi eğlencelidir.
+C1	onéreux	masraflı, pahalı	Bu eski evin bakımı hâlâ çok masraflı.	Resmîdir; idari ve gazete metinlerinde görülür. Dişili onéreuse'dür.
+C1	jadis	eskiden, vaktiyle	Eskiden bu mahalle bir balıkçı köyüydü.	Uzak geçmişe işaret eden edebî bir zarftır.
+C1	guère	pek, neredeyse hiç	Kışın plajda pek kimse yok.	ne ile kullanılır: ne ... guère pek, çok değil demektir. Düzey oldukça resmîdir.
+C1	aucunement	katiyen, asla	Bu gecikme yolculuk sırasında beni katiyen rahatsız etmedi.	ne ile kullanılır ve olumsuzlamayı güçlendirir. Resmî bir sözcüktür.
+C1	précédemment	daha önce, bir önceki dönemde	Müdür daha önce komşu bir fabrikanın sorumlusuydu.	Önce, bir önceki zamanda anlamında resmî bir zarftır. Yazılı metinlere özgüdür.
+C1	vu	göz önüne alındığında, -den dolayı	Fiyat göz önüne alındığında bu bilet gerçekten çok pahalı.	Edat olarak değişmezdir ve isimden önce gelir: vu la situation.
+C1	sitôt	-ir -mez, -ınca hemen	Otele varır varmaz bavulları açtık.	Edebî ya da resmî dildir. Bir geçmiş zaman ortacıyla (participe passé) ya da sitôt que biçimiyle gelir.

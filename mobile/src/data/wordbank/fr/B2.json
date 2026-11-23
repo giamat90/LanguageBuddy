@@ -1334,13 +1334,13 @@
     "meaning_it": "gerarchia",
     "example": "Notre hiérarchie a validé le projet sans aucune modification.",
     "example_it": "I nostri superiori hanno approvato il progetto senza alcuna modifica.",
-    "cultural_note": "La h è muta, quindi davanti a vocale si elide: l'hiérarchie.",
+    "cultural_note": "La h è aspirata: non c'è elisione, si dice la hiérarchie.",
     "grammar_angle": "NOUN_GENDER",
     "topic_domain": "work",
     "cefr_band": "B2",
     "session_scenario": "getting approval from superiors",
     "example_en": "Our management has approved the project without any change.",
-    "cultural_note_en": "The h is silent, so the article elides: l'hiérarchie."
+    "cultural_note_en": "The h is aspirated: there is no elision, so it is la hiérarchie."
   },
   {
     "word": "investissement",

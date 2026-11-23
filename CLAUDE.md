@@ -169,6 +169,8 @@ Not in this repo: the German public site (`germanbuddy-support`, separate repo, 
 - **Theme:** `src/theme/palettes.ts` has one palette per language (paper, ink, primary, …) and `theme/colors.ts` picks it from the active pack. **An app's primary colour is
   the colour of its icon**: GermanBuddy navy `#1E4A67`; SpanishBuddy the Spanish flag red `#AA151B` (also its adaptive-icon background). Article-gender colours and the error
   red are shared. A new language gets its own icon and palette, in the same style (word card on its brand colour, no national flag in the icon).
+  **Rule (Product Owner, 2026-11-22): every language's public support pages (`store/support-template`) use the same colours as that app.** They come from `SUPPORT_COLORS` in `scripts/lib/store.js`,
+  which a test keeps equal to `palettes.ts` (primary, light primary, cream, gold, ink); a new palette needs its `SUPPORT_COLORS` entry and the build copies the variant's own icon.
 
 ### Rules that keep the languages apart
 - **Never write German (or any one language) into shared code or shared strings.** The app name is `%{app}` (filled by `t()` from the pack); text about the studied language

@@ -115,14 +115,23 @@ describe('build-store.mjs', () => {
     expect(readFileSync(join(g.out, 'support', 'icon.png')).equals(readFileSync(join(__dirname, '..', 'assets', 'icon.png')))).toBe(true);
   });
 
-  it('keeps the page colours equal to the app palette (primary and ink)', () => {
+  it('keeps the page colours of every language equal to the app palette', () => {
     const pal = readFileSync(join(__dirname, '..', 'src', 'theme', 'palettes.ts'), 'utf8');
-    for (const code of ['de', 'es', 'fr']) {
+    const codes = [...pal.matchAll(/\n  ([a-z]{2}): \{/g)].map((m) => m[1]);
+    expect(codes.length).toBeGreaterThanOrEqual(3);
+    for (const code of codes) {
+      expect(Object.keys(store.SUPPORT_COLORS)).toContain(code); // a new app needs its page colours
       const block = pal.match(new RegExp(`\n  ${code}: \{([^}]*)\}`))![1];
-      const primary = block.match(/primary: '(#[0-9A-Fa-f]{6})'/)![1];
-      const ink = block.match(/ink: '(#[0-9A-Fa-f]{6})'/)![1];
-      expect(store.SUPPORT_COLORS[code].C_PRIMARY.toLowerCase()).toBe(primary.toLowerCase());
-      expect(store.SUPPORT_COLORS[code].C_TEXT.toLowerCase()).toBe(ink.toLowerCase());
+      const hex = (k: string) => block.match(new RegExp(`${k}: '(#[0-9A-Fa-f]{6})'`))![1].toLowerCase();
+      const c = store.SUPPORT_COLORS[code];
+      expect(c.C_PRIMARY.toLowerCase()).toBe(hex('primary'));
+      expect(c.C_PRIMARY_LIGHT.toLowerCase()).toBe(hex('primaryLight'));
+      expect(c.C_CREAM.toLowerCase()).toBe(hex('cream'));
+      expect(c.C_GOLD.toLowerCase()).toBe(hex('gold'));
+      expect(c.C_TEXT.toLowerCase()).toBe(hex('ink'));
+      expect(c.C_PRIMARY_DARK.toLowerCase()).toBe(hex('ink'));
+      const rgb = hex('ink').slice(1).match(/../g)!.map((h) => parseInt(h, 16)).join(', ');
+      expect(c.C_INK_RGB).toBe(rgb);
     }
   });
 

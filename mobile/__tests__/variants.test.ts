@@ -39,8 +39,8 @@ describe('the German app is unchanged', () => {
     expect(x.owner).toBe('giamat');
     expect(x.extra.eas.projectId).toBe('8eb48752-1c1a-4169-a031-9e916c8b33da');
     expect(x.extra.router).toEqual({ origin: false });
-    expect(x.version).toBe('1.0.20');
-    expect(x.android.versionCode).toBe(20);
+    expect(x.version).toBe('1.0.21');
+    expect(x.android.versionCode).toBe(21);
     expect(x.android.adaptiveIcon.backgroundColor).toBe('#0f2d44');
     expect(x.icon).toBe('./assets/icon.png');
     expect(x.android.adaptiveIcon.foregroundImage).toBe('./assets/adaptive-icon.png');
@@ -75,8 +75,8 @@ describe('the Spanish app', () => {
     expect(x.scheme).toBe('spanishbuddy');
     expect(x.android.package).toBe('com.giamat90.spanishbuddy');
     expect(x.ios.bundleIdentifier).toBe('com.spanishbuddy');
-    expect(x.version).toBe('1.0.1');
-    expect(x.android.versionCode).toBe(1);
+    expect(x.version).toBe('1.0.2');
+    expect(x.android.versionCode).toBe(2);
     expect(x.android.adaptiveIcon.backgroundColor).toBe('#AA151B');
   });
   it('has no owner and no EAS block, but keeps the router extra', () => {

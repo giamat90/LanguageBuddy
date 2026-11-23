@@ -1,0 +1,295 @@
+C1	terroir	terroir (ziemia i klimat kształtujące lokalny produkt)	Oto terroir, z którego ten winiarz jest tak dumny.	Typowe słowo francuskiej kultury kulinarnej i winiarskiej, bez jednego odpowiednika; często zostaje w oryginale.
+C1	gourmandise	łakomstwo, zamiłowanie do smakołyków	Jego łakomstwo go zgubi: nigdy nie oprze się deserowi.	Oznacza zamiłowanie do dobrego jedzenia i jest łagodniejsze, mniej negatywne niż "gloutonnerie" (obżarstwo).
+C1	élevage	hodowla zwierząt, chów	Hodowla bydła nadal jest bardzo ważna na zachodzie Francji.	Fałszywy przyjaciel: nie ma nic wspólnego z "elevation" (wzniesienie); dotyczy chowu zwierząt.
+C1	vignoble	winnice, region winiarski	Winnice, w których pracujemy, rozciągają się na dwudziestu hektarach.	Oznacza cały obszar winorośli w regionie, a "vigne" to roślina lub pojedyncza działka.
+C1	pénurie	niedobór, brak	Niedobór siły roboczej niepokoi producentów rolnych.	Używa się go z "de" (pénurie de carburant) i jest mocniejsze niż "manque" (brak).
+C1	famine	głód, klęska głodu	Po kilku latach wojny region nawiedził głód.	Jest znacznie mocniejsze niż "faim" (głód jako odczucie) i opisuje powszechne wygłodzenie.
+C1	gastronomie	gastronomia	Francuska gastronomia jest wpisana na listę dziedzictwa kulturowego ludzkości.	Oznacza sztukę dobrego jedzenia, a "cuisine" to prościej: gotowanie lub kuchnia.
+C1	malnutrition	niedożywienie	Niedożywienie wciąż dotyka miliony dzieci na świecie.	Pisze się je łącznie i należy do języka medycznego i humanitarnego.
+C1	pesticide	pestycyd	Stosowanie tego pestycydu jest już w Europie zabronione.	Jest rodzaju męskiego; bardziej neutralny termin urzędowy to "produit phytosanitaire".
+C1	céréale	zboże	Pszenica jest najczęściej uprawianym zbożem w regionie.	W liczbie mnogiej "les céréales" oznacza też płatki śniadaniowe.
+C1	convive	współbiesiadnik, gość przy stole	Każdy gość przy stole dostał menu ozdobione ilustracją artysty.	Ma tę samą formę dla obu rodzajów (un convive, une convive) i brzmi dość uroczyście.
+C1	mets	potrawa	Ta wykwintna potrawa jest podawana tylko przy wielkich okazjach.	Liczba pojedyncza i mnoga są identyczne, a słowo brzmi wytworniej niż "plat".
+C1	denrée	artykuł spożywczy (towar)	Ten łatwo psujący się artykuł spożywczy trzeba szybko zjeść.	Występuje głównie w "denrées alimentaires" i należy do języka handlowego lub urzędowego.
+C1	friandise	smakołyk, łakoć	Daje smakołyk każdemu grzecznemu dziecku.	Oznacza małą słodycz lub przysmak i nie ma nic wspólnego z "friend".
+C1	arôme	aromat	Ten aromat wanilii przypomina mi desery z dzieciństwa.	Pisze się z daszkiem (accent circonflexe) nad o i dotyczy jedzenia i napojów, w odróżnieniu od "parfum" (perfumy).
+C1	obésité	otyłość	Otyłość dziecięca stała się poważnym problemem zdrowia publicznego.	To neutralny termin medyczny.
+C1	traiteur	cateringowiec; sklep z gotowymi daniami	Zamówiliśmy bufet u cateringowca z naszej dzielnicy.	Oznacza też sklep sprzedający gotowe dania na wynos.
+C1	cépage	szczep winorośli	Merlot to szczep bardzo rozpowszechniony w regionie Bordeaux.	Nazywa odmianę winogron, a nie samo wino.
+C1	urbanisme	urbanistyka	Urbanistykę tego miasta przemyślano na nowo po wojnie.	Obejmuje zarówno dziedzinę, jak i zbiór przepisów o zagospodarowaniu terenu.
+C1	banlieue	przedmieścia	Przedmieścia, na których dorastała, bardzo się zmieniły.	We Francji często ma konotacje społeczne, których neutralne słowo "przedmieścia" nie niesie.
+C1	habitat	mieszkalnictwo, forma zamieszkania; siedlisko	Mieszkalnictwo zbiorowe rozwija się w dużych miastach.	W tym znaczeniu oznacza sposób, w jaki ludzie mieszkają; ma też znaczenie ekologiczne, czyli siedlisko.
+C1	bailleur	wynajmujący	Wynajmujący musi oddać lokal w dobrym stanie.	To termin prawny; w mowie codziennej mówi się "propriétaire". Rodzaj żeński to "bailleresse".
+C1	précarité	niepewność bytu, prekaryjność	Niepewność zatrudnienia dotyka głównie młodych.	Opisuje niestabilną sytuację społeczną lub ekonomiczną, jak w "précarité énergétique" (ubóstwo energetyczne).
+C1	foyer	gospodarstwo domowe	Każde gospodarstwo domowe dostało wyższy rachunek za wodę.	Znaczy też palenisko, kominek i dom studencki; w statystyce oznacza gospodarstwo domowe jako jednostkę.
+C1	lotissement	osiedle domów jednorodzinnych	Osiedle, na którym mieszkamy, liczy około trzydziestu domów.	To zaplanowany teren podzielony na działki z domami wolno stojącymi, typowy dla peryferii.
+C1	sinistre	szkoda objęta ubezpieczeniem	Ubezpieczyciel oszacował szkodę po pożarze w piwnicy.	Jako rzeczownik oznacza zdarzenie objęte ubezpieczeniem; przymiotnik "sinistre" znaczy złowieszczy.
+C1	héritage	spadek, dziedzictwo	Za spadek kupiła sobie małe mieszkanie.	Oznacza też dziedzictwo kulturowe przekazane z przeszłości.
+C1	succession	postępowanie spadkowe; ciąg, następstwo	Sprawę spadku po ich ojcu załatwiono w kilka miesięcy.	W prawie to procedura porządkująca majątek zmarłego; oznacza też ciąg zdarzeń.
+C1	fratrie	rodzeństwo (jako grupa)	W naszym rodzeństwie jestem najmłodsza.	Nazywa wszystkie dzieci jednej rodziny jako grupę.
+C1	tutelle	opieka prawna, kuratela	Małoletni został umieszczony pod opieką prawną swojego wuja.	Oznacza też nadzór sprawowany przez organ władzy nad jakąś instytucją.
+C1	vieillesse	starość	Starość nie przeszkadza w zachowaniu ciekawości i aktywności.	Słowo neutralne lub lekko literackie; "troisième âge" to łagodniejsze określenie.
+C1	solitude	samotność	Samotność ciąży wielu starszym osobom w mieście.	Może być neutralna (bycie samemu) lub negatywna; "isolement" (izolacja) jest wyraźnie negatywne.
+C1	cohabitation	wspólne mieszkanie; kohabitacja (polityka)	Wspólne mieszkanie kilku pokoleń staje się coraz częstsze.	W polityce francuskiej oznacza też okres, gdy prezydent i rząd pochodzą z przeciwnych obozów.
+C1	rénovation	remont, renowacja	Remont budynku trwał ponad rok.	Obejmuje naprawy i modernizację budynków, często ze słowem "rénover".
+C1	charpente	więźba dachowa; szkielet konstrukcji	Więźba dachowa tej stodoły ma kilka wieków.	Oznacza konstrukcję nośną, zwykle drewnianą; w przenośni szkielet tekstu.
+C1	vestibule	przedpokój, hol	Zostawcie płaszcze w przedpokoju, zanim wejdziecie do salonu.	Bardziej uroczyste niż "entrée", które jest słowem codziennym.
+C1	aménagement	aranżacja, zagospodarowanie przestrzeni	Aranżacja salonu zajęła dwa tygodnie.	Używa się go też w planowaniu przestrzennym ("aménagement du territoire").
+C1	expulsion	eksmisja; wydalenie	Eksmisję rodziny przełożono na zimę.	Oznacza też wydalenie cudzoziemca lub ucznia.
+C1	agglomération	aglomeracja	W tej aglomeracji mieszka ponad milion mieszkańców.	Termin statystyczny i administracyjny obejmujący miasto i sąsiednie miejscowości.
+C1	inflation	inflacja	Inflacja obniżyła siłę nabywczą wielu gospodarstw domowych.	Prawie zawsze występuje w liczbie pojedynczej; przeciwieństwem jest "déflation".
+C1	hypothèque	hipoteka	Bank ustanowił hipotekę na ich domu.	To prawo zabezpieczające na nieruchomości; sam kredyt nazywa się "prêt immobilier".
+C1	clause	klauzula umowna	Klauzula, której ważność kwestionuje, znajduje się w artykule piątym.	Należy do prawa umów, jak w "clause abusive" (klauzula niedozwolona).
+C1	litige	spór prawny	Spór między obiema spółkami trafił do sądu.	Słowo formalne i często prawnicze; na zwykłą kłótnię mówi się "dispute".
+C1	préjudice	szkoda (w sensie prawnym)	Klient poniósł znaczną szkodę finansową.	Fałszywy przyjaciel: nie oznacza uprzedzenia, które po francusku to "préjugé".
+C1	indemnité	odszkodowanie; odprawa, dodatek	Otrzymał sześciomiesięczną odprawę.	To kwota wypłacana jako rekompensata lub dodatek na mocy prawa lub umowy.
+C1	cotisation	składka	Roczna składka członkowska w klubie wzrosła w tym roku.	Obejmuje też składki na ubezpieczenia społeczne i nie jest podatkiem ("impôt").
+C1	rétractation	odstąpienie od umowy; odwołanie wypowiedzi	Termin na odstąpienie od umowy wynosi czternaście dni.	W prawie konsumenckim mówi się "droit de rétractation"; oznacza też wycofanie się z wypowiedzi.
+C1	caution	poręczenie; poręczyciel	Właściciel zażądał poręczyciela przed podpisaniem umowy najmu.	Nazywa zarówno gwarancję, jak i osobę, która poręcza; kaucja to "dépôt de garantie".
+C1	créancier	wierzyciel	Wierzyciel zażądał zwrotu pożyczonej kwoty.	Przeciwieństwem jest "débiteur"; rodzaj żeński to "créancière".
+C1	bail	umowa najmu	Umowa najmu przewiduje czynsz podlegający corocznej waloryzacji.	Liczba mnoga jest nieregularna: "les baux".
+C1	acompte	zaliczka	Wpłacił zaliczkę, żeby zarezerwować sofę.	To część ceny płacona z góry; prawnie różni się od "arrhes" (zadatek).
+C1	escroquerie	oszustwo	To ogłoszenie nieruchomości było dobrze zorganizowanym oszustwem.	To termin prawny na przestępstwo; "arnaque" jest bardziej potoczne.
+C1	contrefaçon	podróbka; fałszerstwo	Podrabianie luksusowych produktów drogo kosztuje marki.	Oznacza zarówno przestępstwo, jak i podrobiony przedmiot; pisze się z cedillą.
+C1	pénalité	kara pieniężna	Po piętnastu dniach naliczana jest kara za opóźnienie w płatności.	To kwota należna za naruszenie umowy; w piłce nożnej po francusku mówi się "penalty".
+C1	devis	kosztorys, wycena	Poprosiliśmy o wycenę trzy różne firmy.	Liczba mnoga jest taka sama jak pojedyncza; nie ma nic wspólnego z "device".
+C1	faillite	upadłość, bankructwo	Upadłość tego dostawcy zaskoczyła cały sektor.	Dotyczy firm; w przenośni oznacza całkowitą porażkę.
+C1	monopole	monopol	To przedsiębiorstwo ma monopol na lokalnym rynku.	Często występuje w wyrażeniach takich jak "monopole d'État" (monopol państwowy).
+C1	obsolescence	przestarzałość, postarzanie (produktów)	Planowane postarzanie produktów irytuje wielu konsumentów.	Występuje głównie w wyrażeniu "obsolescence programmée".
+C1	recours	środek odwoławczy, odwołanie	Konsument może odwołać się do sądu.	Częste w "avoir recours à" (uciekać się do); końcowe s jest nieme.
+C1	escapade	wypad, krótka ucieczka od codzienności	Zrobiliśmy sobie dwudniowy wypad do Normandii.	To krótka wycieczka dla przyjemności, często spontaniczna, by uciec od rutyny.
+C1	bivouac	biwak	Rozbiliśmy biwak tam, gdzie nie wiał wiatr.	To lekki obóz pod gołym niebem, często w górach, bez stałych urządzeń.
+C1	villégiature	wypoczynek wakacyjny w miejscowości letniskowej	To wybrzeże jest latem bardzo cenioną miejscowością wypoczynkową.	Słowo formalne na pobyt wakacyjny lub miejsce, w którym się go spędza; typowe wyrażenie to « lieu de villégiature ».
+C1	pèlerinage	pielgrzymka	Co roku odbywa pielgrzymkę do Composteli.	Podróż do miejsca świętego; w przenośni wzruszająca wizyta w miejscu ważnym dla kogoś.
+C1	traversée	przeprawa, rejs	Podczas przeprawy promem mocno kołysało z powodu wiatru.	Oznacza podróż z jednego brzegu na drugi, głównie morzem; używa się też w przenośni (« traversée du désert »).
+C1	hospitalité	gościnność	Wzruszyła nas gościnność naszych gospodarzy.	Oznacza hojne przyjęcie gościa; w branży hotelarskiej używa się słowa l'hôtellerie.
+C1	hôtellerie	hotelarstwo	Luksusowe hotelarstwo przyciąga międzynarodową klientelę.	Oznacza hotele jako sektor gospodarki; częste wyrażenie to « hôtellerie-restauration ».
+C1	aérogare	terminal lotniczy	Do terminalu kursuje bezpłatny autobus wahadłowy.	To budynek przeznaczony dla pasażerów lotniska; angielskie słowo terminal (rodzaj męski) też jest bardzo częste.
+C1	mandat	kadencja; mandat	Kadencja prezydenta trwa pięć lat.	Oznacza czas trwania urzędu z wyboru; w prawie to także upoważnienie do działania w czyimś imieniu.
+C1	arbitrage	arbitraż	Obie strony zgodziły się na arbitraż niezależnego eksperta.	To rozstrzygnięcie sporu przez wybraną osobę trzecią; słowo obejmuje też decyzje sędziego sportowego.
+C1	rémunération	wynagrodzenie	Jego wynagrodzenie obejmuje stałą pensję i roczną premię.	Termin bardziej formalny niż salaire; obejmuje każdą kwotę wypłacaną za wykonaną pracę.
+C1	rentabilité	rentowność, opłacalność	Rentowność projektu wciąż trzeba wykazać.	To zdolność działalności do przynoszenia zysku; odpowiedni przymiotnik to rentable.
+C1	prestation	usługa; świadczenie	Usługa obejmuje instalację i szkolenie personelu.	Używa się go w « prestation de service »; w liczbie mnogiej prestations sociales to świadczenia wypłacane przez państwo.
+C1	procédure	procedura	Procedura rekrutacyjna trwa zazwyczaj trzy miesiące.	To ciąg kroków do wykonania; w prawie oznacza też przebieg postępowania sądowego.
+C1	plainte	skarga, zawiadomienie o przestępstwie	Złożył skargę na swojego byłego pracodawcę.	Plainte się « dépose » lub « porte » na policji; słowo może też oznaczać narzekanie, jęk.
+C1	fusion	fuzja; topnienie	Fuzję obu banków ogłoszono wczoraj.	Dotyczy połączenia dwóch firm w jedną; w fizyce oznacza przejście ze stanu stałego w ciekły.
+C1	patronat	pracodawcy (jako ogół)	Pracodawcy i związki zawodowe negocjują nowy układ zbiorowy.	To ogół pracodawców, często przeciwstawiany związkom; mówi się też « les organisations patronales ».
+C1	métaphore	metafora	Poeta rozwija metaforę przez cały tekst.	« Filer la métaphore » oznacza rozwijać ją dalej; nie mylić z porównaniem, które używa comme.
+C1	essai	esej; próba	Jego ostatni esej analizuje kryzys demokracji.	Gatunek literacki prozy refleksyjnej; słowo znaczy też próbę, a w rugby przyłożenie.
+C1	récit	opowieść, relacja	Relację z jego podróży czyta się jednym tchem.	To tekst lub wypowiedź opowiadająca prawdziwe lub zmyślone wydarzenia; końcowe t jest nieme.
+C1	intrigue	fabuła; intryga	Fabułę filmu trudno śledzić.	Oznacza ciąg wydarzeń w opowieści; słowo znaczy też tajną intrygę.
+C1	dénouement	rozwiązanie akcji, finał	Oto fabuła, której rozwiązanie pozostaje nieprzewidywalne.	To moment, w którym rozwiązuje się akcja sztuki lub powieści; szerzej: rezultat sytuacji.
+C1	éloge	pochwała	Krytyk obsypał tę inscenizację pochwałami.	Używa się głównie w « faire l'éloge de »; éloge funèbre to mowa ku czci zmarłego.
+C1	satire	satyra	Ta powieść to ostra satyra na biurokrację.	To utwór lub gatunek krytykujący wady społeczeństwa przez drwinę.
+C1	censure	cenzura	Cenzura zakazała rozpowszechniania tego filmu dokumentalnego.	To kontrola sprawowana przez władzę nad publikacjami lub widowiskami; w polityce także głosowanie obalające rząd.
+C1	idéologie	ideologia	Ta ideologia głęboko naznaczyła ubiegły wiek.	To zbiór idei kierujących grupą; słowo często ma negatywny odcień.
+C1	scrutin	głosowanie; ordynacja wyborcza	Głosowanie odbędzie się w najbliższą niedzielę w całej Francji.	Oznacza akt głosowania lub system wyborczy; mówi się « un scrutin à deux tours ».
+C1	réforme	reforma	Ta reforma emerytalna wywołała gwałtowne protesty.	To głęboka zmiana instytucji lub prawa; pisane wielką literą Réforme to szesnastowieczny ruch religijny.
+C1	doctrine	doktryna	To doktryna, której skutki wciąż budzą wiele sporów.	To zbiór zasad głoszonych przez szkołę, religię lub partię; ton bywa poważny lub krytyczny.
+C1	dilemme	dylemat	Stoi przed trudnym dylematem moralnym.	Rzeczownik rodzaju męskiego; oznacza wybór między dwiema równie niemiłymi możliwościami.
+C1	paradoxe	paradoks	W jego sposobie życia jest jakiś paradoks.	To wypowiedź lub sytuacja wydająca się sprzeczna; « par paradoxe » wprowadza kontrast.
+C1	préjugé	uprzedzenie, stereotyp	To uparte uprzedzenie utrzymuje się mimo wszystkich badań.	To gotowa opinia przyjęta bez zastanowienia; nie mylić z préjudice, które oznacza szkodę.
+C1	chronique	felieton, rubryka w prasie; kronika	Prowadzi cotygodniowy felieton w dużym dzienniku.	To regularny artykuł dziennikarza na dany temat; słowo znaczy też kronikę historyczną.
+C1	éditorial	artykuł wstępny, komentarz redakcyjny	Artykuł wstępny gazety krytykuje politykę rządu.	To tekst wyrażający linię gazety; liczba mnoga to éditoriaux.
+C1	polémique	polemika, publiczny spór	To oświadczenie wywołało gwałtowną polemikę.	To żywa, często ostra debata publiczna; mówi się « faire polémique » lub « alimenter la polémique ».
+C1	cursus	tok studiów	Przeszła bardzo wymagający tok studiów uniwersyteckich.	To cały program nauki prowadzący do dyplomu; końcowe s się wymawia.
+C1	flânerie	przechadzka, spacerowanie bez pośpiechu	Przechadzka nabrzeżami Sekwany to prawdziwa przyjemność.	To chodzenie bez wyznaczonego celu, dla przyjemności; wiąże się z czasownikiem flâner.
+C1	kermesse	festyn szkolny lub charytatywny	To festyn, na który wszyscy rodzice przynoszą ciasto.	To plenerowa zabawa ludowa, często organizowana na rzecz szkoły lub stowarzyszenia.
+C1	aquarelle	akwarela	Namalowała akwarelę przedstawiającą zatokę Sommy.	Oznacza technikę malarską na bazie wody lub namalowany obraz; po francusku rzeczownik rodzaju żeńskiego.
+C1	pétanque	petanka (gra w bule)	Przyjaciele grają w petankę pod platanami.	To gra w bule bardzo popularna na południu Francji; mówi się « jouer à la pétanque ».
+C1	anxiété	lęk, niepokój	Jej lęk narasta przed każdym egzaminem.	Słowo używane zarówno w mowie codziennej, jak i klinicznie na silne zamartwianie się; « crise d'angoisse » to ostry atak lęku.
+C1	dépression	depresja; niż	Chodzi do psychiatry z powodu depresji.	To choroba psychiczna; słowo używa się też w meteorologii (« dépression atmosphérique ») i w ekonomii.
+C1	addiction	uzależnienie	To uzależnienie od ekranów bardzo niepokoi rodziców.	Termin raczej medyczny; bliski synonim to dépendance.
+C1	greffe	przeszczep	Od dawna czeka na przeszczep nerki.	W rodzaju żeńskim oznacza operację przeszczepu narządu; le greffe (rodzaj męski) to sekretariat sądu.
+C1	rechute	nawrót choroby	Miał nawrót po kilku tygodniach odpoczynku.	Dotyczy choroby, która wraca po poprawie; mówi się « faire une rechute ».
+C1	convalescence	rekonwalescencja	Jego rekonwalescencja po operacji potrwa kilka tygodni.	To okres powrotu do zdrowia po chorobie lub operacji; czasownik convalescer jest rzadki.
+C1	insomnie	bezsenność	Ta przewlekła bezsenność wyczerpuje ją od miesięcy.	To trudności ze snem; mówi się « souffrir d'insomnie » lub « avoir des insomnies ».
+C1	handicap	niepełnosprawność	Ta niepełnosprawność nigdy nie przeszkodziła mu odnieść sukcesu.	Słowo powszechne; w języku urzędowym szeroko używa się wyrażenia « personne en situation de handicap ».
+C1	prévention	profilaktyka, zapobieganie	Profilaktyka pozostaje najlepszym sposobem walki z chorobami.	To zestaw środków unikania ryzyka; w zdrowiu publicznym mówi się o « campagne de prévention ».
+C1	épuisement	wyczerpanie	Od kilku tygodni cierpi na całkowite wyczerpanie.	To skrajne zmęczenie; wyrażenie « épuisement professionnel » odpowiada wypaleniu zawodowemu.
+C1	deuil	żałoba	Jest w żałobie po śmierci ojca.	Oznacza utratę bliskiej osoby i następujący po niej okres smutku; mówi się « faire son deuil ».
+C1	rémission	remisja	Pacjent jest w remisji od dwóch lat.	To termin medyczny na trwałe złagodzenie choroby, zwłaszcza raka; nie zawsze oznacza wyleczenie.
+C1	alimenter	karmić, zasilać; podsycać	Podsyciła debatę dokładnymi liczbami.	Czasownik przechodni; w przenośni znaczy podsycać, jak w alimenter un débat.
+C1	contourner	omijać, obchodzić	Ominęliśmy centrum miasta z powodu robót drogowych.	Przechodni: contourner un obstacle; także w przenośni, contourner une règle (obejść przepis).
+C1	dissimuler	ukrywać	Ukrył plamę wilgoci za szafą.	Czasownik przechodni; często sugeruje zamiar ukrycia czegoś przed wzrokiem.
+C1	esquiver	unikać, uchylać się	Uchyliłeś się od odpowiedzi na wszystkie moje pytania o budżet.	Przechodni: esquiver un coup, une question; znaczy zręcznie unikać.
+C1	persuader	przekonywać, namawiać	Namówili kelnera, żeby zatrzymał nam stolik.	Konstrukcja: persuader quelqu'un de faire quelque chose.
+C1	épuiser	wyczerpywać	Wyczerpał siły, wspinając się na górę.	Czasownik przechodni; dotyczy sił i zasobów; imiesłów épuisé znaczy też skrajnie zmęczony.
+C1	réclamer	domagać się, żądać	Zażądaliśmy od biura podróży zwrotu pieniędzy.	Przechodni bezpośredni: réclamer quelque chose à quelqu'un; zakłada prawo do czegoś, mocniejsze niż demander.
+C1	aggraver	pogarszać, zaostrzać	Choć leczenie pogorszyło jej dolegliwości, nadal chodzi.	Czasownik przechodni; forma zwrotna s'aggraver znaczy pogarszać się.
+C1	compenser	rekompensować, wyrównywać	Choć premia zrekompensowała stratę, szuka innej pracy.	Przechodni: compenser une perte par quelque chose.
+C1	déclencher	uruchamiać, wzniecać	Choć burza wywołała alarm, loty są utrzymane.	Przechodni: déclencher une alerte, une crise, un conflit.
+C1	élaborer	opracowywać	Choć szef opracował ten przepis sam, dziękuje swojemu zespołowi.	Dość formalny czasownik przechodni na wypracowanie planu, teorii lub przepisu.
+C1	éliminer	eliminować, usuwać	Choć wyeliminowała cukier, czuje się zmęczona.	Przechodni; w medycynie i dietetyce znaczy też pozbywać się substancji z organizmu.
+C1	entraver	utrudniać, krępować	Choć strajki utrudniły ruch, dotarliśmy na czas.	Przechodni; oznacza stawianie przeszkody w ruchu lub działaniu.
+C1	évaluer	oceniać, szacować	Choć rzeczoznawca wycenił ten mebel na tysiąc euro, kupujący się wahał.	Przechodni: évaluer un risque; można powiedzieć évaluer quelque chose à + kwota.
+C1	interpeller	zawołać do kogoś, zwrócić się do kogoś	Choć przewodnik zwrócił się do turystów, nikt nie odpowiedział.	Przechodni; znaczy głośno zawołać do kogoś lub natarczywie się do niego zwracać.
+C1	provoquer	powodować; prowokować	Choć film wywołał skandal, miał pełną salę.	Przechodni; wskazuje przyczynę skutku: provoquer un débat, une réaction.
+C1	harmoniser	harmonizować, dopasowywać	Choć architekt dopasował kolory, salon wydaje się ciemny.	Przechodni; forma zwrotna s'harmoniser znaczy pasować do siebie.
+C1	amplifier	wzmacniać	Gdyby to urządzenie lepiej wzmacniało dźwięk, koncert byłby doskonały.	Przechodni; dotyczy dźwięków i w przenośni problemów lub zjawisk.
+C1	anticiper	przewidywać, uprzedzać	Gdybyśmy przewidywali opóźnienia, zarezerwowalibyśmy wcześniejszy pociąg.	Przechodni lub nieprzechodni; znaczy przewidywać coś i działać z wyprzedzeniem.
+C1	attribuer	przyznawać	Gdyby jury przyznało dwie nagrody, kandydaci byliby zachwyceni.	Konstrukcja: attribuer quelque chose à quelqu'un.
+C1	bouleverser	wywracać do góry nogami; wstrząsać	Gdyby kierownictwo wywróciło do góry nogami nasze godziny pracy, zespoły by protestowały.	Czasownik przechodni; opisuje wstrząs, który może być praktyczny lub emocjonalny.
+C1	cerner	dokładnie określić, rozpoznać	Gdyby lekarz lepiej rozpoznał objawy, diagnoza byłaby szybsza.	Przechodni: cerner un problème znaczy wytyczyć jego granice, żeby go zrozumieć.
+C1	clarifier	wyjaśniać, doprecyzowywać	Gdybyś doprecyzował(a) swoją prośbę, sprzedawca lepiej by ci doradził.	Przechodni: clarifier une situation, une position.
+C1	combler	wypełniać, zasypywać	Gdybyśmy wypełnili pęknięcia, dom byłby lepiej ocieplony.	Przechodni: combler un vide, un retard (nadrobić zaległość); combler quelqu'un de cadeaux znaczy obsypać kogoś prezentami.
+C1	contester	kwestionować, podważać	Gdyby klient zakwestionował fakturę, sprawdzilibyśmy każdą pozycję.	Przechodni: contester une décision, une facture; można go użyć także bez dopełnienia.
+C1	dévoiler	odsłaniać, ujawniać	Gdyby szef kuchni ujawnił swój przepis, wszyscy by go skopiowali.	Przechodni: dévoiler un secret, une statue, un projet.
+C1	distinguer	rozróżniać	Gdybyśmy lepiej rozróżniali te dwa obrazy, zwiedzanie byłoby fascynujące.	Konstrukcja: distinguer A de B lub distinguer A et B.
+C1	encourager	zachęcać	Gdybyście zachęcili dzieci, dokończyłyby mecz.	Konstrukcja: encourager quelqu'un à faire quelque chose; przed o i a litera g zmienia się w ge (nous encourageons).
+C1	exploiter	wykorzystywać; eksploatować	Gdyby hotel wykorzystał swój taras, przyciągnąłby więcej gości.	Czasownik przechodni; ma też negatywne znaczenie wyzyskiwania człowieka.
+C1	acclamer	wiwatować na cześć; owacyjnie przyjmować	Wiwatując na cześć muzyków, publiczność przedłużyła wieczór.	Czasownik przechodni; opisuje oklaski i okrzyki aprobaty.
+C1	argumenter	argumentować	Argumentując spokojnie, przekonała szefa.	Często nieprzechodni: argumenter en faveur de quelque chose.
+C1	arbitrer	sędziować; rozstrzygać	Po zasędziowaniu meczu wrócił do domu wyczerpany.	Czasownik przechodni; dotyczy meczów, a także konfliktów.
+C1	étayer	popierać dowodami; podpierać	Popierając swój projekt liczbami, uzyska kredyt.	Czasownik przechodni; dosłownie podpierać, w przenośni wspierać dowodami.
+C1	façonner	kształtować, formować	Formując glinę, garncarz tworzy wazon.	Czasownik przechodni; znaczy nadawać kształt materiałowi lub charakterowi.
+C1	freiner	hamować	Hamując w ostatniej sekundzie, kierowca o włos uniknął wypadku.	Nieprzechodni (freiner brusquement) lub przechodni (freiner l'inflation).
+C1	hériter	dziedziczyć	Dziedzicząc gospodarstwo, zmienili swoje życie.	Zwykle łączy się z de: hériter de quelque chose, hériter de quelqu'un.
+C1	illustrer	ilustrować	Po zilustrowaniu książki wyjechała na wakacje.	Czasownik przechodni; dotyczy obrazów w książce i przykładów wyjaśniających myśl.
+C1	impliquer	angażować; pociągać za sobą	Angażując mieszkańców, urząd miasta upiększył dzielnicę.	Czasownik przechodni; znaczy zarówno angażować, jak i pociągać za sobą.
+C1	incarner	ucieleśniać; wcielać się w rolę	Wcielając się w tę rolę, aktorka wzruszyła widownię.	Czasownik przechodni; dotyczy roli teatralnej lub idei.
+C1	infliger	wymierzać, nakładać (karę)	Nakładając mandat, kontroler zaskoczył podróżnych.	Przechodni: infliger une peine, une amende; przed a i o litera g zmienia się w ge.
+C1	instaurer	wprowadzać, ustanawiać	Wprowadzając przerwy, firma zmniejszyła stres.	Czasownik przechodni; dotyczy zasad, ustrojów i nawyków.
+C1	invoquer	powoływać się na	Świadek wcześniej powołał się na zmęczenie, zanim opuścił salę.	Przechodni: invoquer un motif, un argument, ale też invoquer l'aide de quelqu'un (wzywać czyjejś pomocy).
+C1	modérer	miarkować, powściągać	Przed wakacjami już miarkowaliśmy swoje wydatki.	Czasownik przechodni; akcent zmienia się w czasie teraźniejszym: je modère, nous modérons.
+C1	nuancer	nuansować, wyważać wypowiedź	Przed publikacją powieści złagodziła wcześniej swoje uwagi krytyczne.	Przechodni: nuancer ses propos; przed a i o litera c zmienia się w ç (nous nuançons).
+C1	pallier	załatać (brak), doraźnie złagodzić	Kucharz załatał brak śmietany jogurtem.	Przechodni bezpośredni: pallier un manque, un problème.
+C1	raffiner	rafinować; wysubtelniać	Ten cukier jest rafinowany w fabryce przy porcie.	Czasownik przechodni; dosłownie rafinować substancję, w przenośni czynić subtelniejszym.
+C1	rassembler	gromadzić, zbierać	Demonstrantów zebrała w jednym miejscu policja.	Czasownik przechodni; forma zwrotna se rassembler znaczy gromadzić się.
+C1	priver	pozbawiać	Pasażerów pozbawiono bagażu na dwa dni.	Konstrukcja: priver quelqu'un de quelque chose.
+C1	prôner	głosić, propagować	Tę metodę propaguje wielu lekarzy.	Czasownik przechodni; ma daszek nad o.
+C1	piloter	kierować; pilotować	Projektem kieruje młoda inżynierka.	Czasownik przechodni; znaczy prowadzić pojazd lub kierować projektem.
+C1	accentuer	podkreślać, uwydatniać	Trzeba, żebyście uwydatnili kontrast obrazu.	Czasownik przechodni; forma zwrotna s'accentuer znaczy nasilać się.
+C1	apaiser	uśmierzać, koić	Musimy uśmierzyć ból pacjenta.	Czasownik przechodni; dotyczy bólów, lęków i konfliktów.
+C1	éclaircir	rozrzedzać; rozjaśniać	Kucharz musi rozrzedzić sos.	Regularny czasownik na -ir jak finir (éclaircissons); znaczy też wyjaśnić zagadkę.
+C1	affaiblir	osłabiać	Lekarz wyjaśnił, że wirus osłabiał odporność.	Regularny czasownik na -ir, odmienia się jak finir (affaiblissons).
+C1	jaillir	tryskać	Przewodnik wyjaśnił, że źródło tryskało wiosną.	Regularny czasownik na -ir (jaillissons); opisuje nagły strumień cieczy lub światła.
+C1	fléchir	uginać się; ustępować	Odpowiedziała, że nie ustąpi pod naciskiem.	Regularny czasownik na -ir; przechodni (zginać) lub nieprzechodni (ustępować).
+C1	ravir	zachwycać	Ten prezent zachwyciłby moją babcię.	Regularny czasownik na -ir (ravissons); imiesłów ravi.
+C1	se blottir	tulić się, kulić się	Dzieci tulą się pod kocem podczas burzy.	Prawie zawsze zwrotny: se blottir; passé composé tworzy z être.
+C1	se méfier	nie ufać, mieć się na baczności	Nie ufamy ofertom zbyt pięknym, by były prawdziwe.	Używany tylko w formie zwrotnej: se méfier de quelqu'un lub de quelque chose.
+C1	étirer	rozciągać	Po biegu długo się rozciągamy na trawie.	Czasownik przechodni; forma zwrotna s'étirer znaczy rozciągać się.
+C1	confier	powierzać (se confier: zwierzać się)	Rzadko zwierza się swoim współpracownikom.	Se confier à quelqu'un znaczy otwierać się przed kimś; confier quelque chose à quelqu'un znaczy powierzać.
+C1	se résigner	pogodzić się (z czymś)	Godzą się z koniecznością czekania na następny pociąg.	Używany w formie zwrotnej: se résigner à + bezokolicznik lub rzeczownik.
+C1	contraindre	zmuszać	Nikt nie może zmusić obywatela do głosowania wbrew sumieniu.	Odmienia się jak craindre (contraignons); konstrukcja: contraindre quelqu'un à faire quelque chose.
+C1	astreindre	zobowiązywać, narzucać obowiązek	Ten regulamin zobowiąże pracowników do ścisłego rozkładu godzin.	Odmienia się jak craindre; konstrukcja: astreindre quelqu'un à quelque chose.
+C1	déduire	odliczać; wnioskować	Tę kwotę można odliczyć od całkowitej sumy faktury.	Odmienia się jak conduire; imiesłów déduit; znaczy też odejmować kwotę.
+C1	induire	skłaniać; wprowadzać (w błąd)	Ta etykieta może wprowadzić klientów w błąd.	Odmienia się jak conduire; typowe wyrażenie to induire quelqu'un en erreur.
+C1	séduire	uwodzić, urzekać	Ta mała gospoda urzeknie wszystkich podróżnych.	Odmienia się jak conduire; imiesłów séduit; dotyczy też tego, co przyciąga, nie tylko osób.
+C1	nuire	szkodzić	Tytoń może poważnie szkodzić zdrowiu.	Łączy się z à: nuire à quelqu'un; imiesłów nui nigdy się nie zgadza.
+C1	accroître	zwiększać	Trzeba zwiększyć produkcję, aby sprostać popytowi.	Nieregularny; imiesłów accru; bardziej formalny niż augmenter.
+C1	dissoudre	rozpuszczać	Wystarczy rozpuścić cukier w gorącej wodzie.	Nieregularny; imiesłów dissous (rodzaj żeński dissoute).
+C1	extraire	wydobywać, wyciągać	Miód z ula trzeba wydobywać ostrożnie.	Odmienia się jak traire; imiesłów extrait.
+C1	soustraire	usuwać, wyjmować; odejmować	Nikt nie powinien usuwać tych dokumentów z dokumentacji medycznej.	Odmienia się jak traire; soustraire quelque chose à quelqu'un lub à quelque chose; znaczy też odejmować.
+C1	enfreindre	naruszać, łamać	Najemcy nie mogą naruszać regulaminu budynku.	Odmienia się jak craindre; dotyczy przepisów, praw i zakazów.
+C1	restreindre	ograniczać	Urząd miasta chce ograniczyć ruch w centrum.	Odmienia się jak craindre; imiesłów restreint.
+C1	prescrire	przepisywać (lek); nakazywać	Lekarz przepisze łagodniejszą kurację.	Odmienia się jak écrire; imiesłów prescrit; dotyczy leków i przepisów.
+C1	interrompre	przerywać	Burza przerwie koncert pod gołym niebem.	Odmienia się jak rompre; imiesłów interrompu.
+C1	corrompre	przekupywać; deprawować	Niektórzy próbują przekupić sędziów mistrzostw.	Odmienia się jak rompre; imiesłów corrompu; znaczy zarówno przekupić, jak i zdeprawować.
+C1	acquérir	nabywać	Chcemy nabyć mieszkanie w pobliżu parku.	Nieregularny: j'acquiers, nous acquérons; imiesłów acquis; bardziej formalny niż acheter.
+C1	contredire	zaprzeczać komuś, sprzeciwiać się	Trudno zaprzeczyć uznanemu ekspertowi.	Odmienia się jak dire, ale forma vous to contredisez.
+C1	élire	wybierać (w wyborach)	Mieszkańcy wybiorą w niedzielę nowego burmistrza.	Odmienia się jak lire; imiesłów élu.
+C1	fallacieux	zwodniczy, fałszywy	Ta zwodnicza reklama zachwala ser, który nie ma nic z rzemieślniczego.	Rodzaj żeński: fallacieuse. Opisuje argumenty, obietnice lub reklamy wprowadzające w błąd.
+C1	probant	przekonujący, rozstrzygający	Wyniki tego leczenia nie są dostatecznie przekonujące.	Rodzaj żeński: probante. Używa się go o dowodach, wynikach lub eksperymentach, które naprawdę coś dowodzą.
+C1	tangible	namacalny, konkretny	Czekamy na namacalne wyniki, zanim zainwestujemy więcej.	Ta sama forma w rodzaju żeńskim (une preuve tangible). Znaczy dotykalny, a w przenośni wyraźnie widoczny, jak wyniki.
+C1	ambigu	niejednoznaczny	Niejednoznaczne zakończenie tej powieści wciąż dzieli czytelników.	Rodzaj żeński: ambiguë (z tremą nad e). Opisuje słowa, sytuacje lub teksty otwarte na kilka odczytań.
+C1	fugace	ulotny	Ulotne szczęście ogarnęło nas na szczycie wzgórza.	Ta sama forma w rodzaju żeńskim. To dość literackie słowo o uczuciach, spojrzeniach lub wspomnieniach trwających bardzo krótko.
+C1	inéluctable	nieuchronny	Starzenie się jest zjawiskiem nieuchronnym, ale można je spowolnić.	Ta sama forma w rodzaju żeńskim. Słowo formalne na coś, czego nie da się uniknąć.
+C1	dérisoire	znikomy, śmiesznie niski	Ten sprzedawca proponuje śmiesznie niską cenę za zabytkowy mebel.	Ta sama forma w rodzaju żeńskim. Opisuje kwoty, ceny lub środki tak małe, że wydają się śmieszne.
+C1	insidieux	podstępny, zdradliwy	Cukier ukryty w daniach gotowych działa podstępnie.	Rodzaj żeński: insidieuse; liczba mnoga męska pozostaje insidieux. Opisuje niebezpieczeństwo działające stopniowo i niepostrzeżenie.
+C1	pernicieux	zgubny, wyniszczający	Turystyka masowa ma zgubne skutki dla tej wsi.	Rodzaj żeński: pernicieuse; liczba mnoga męska pozostaje pernicieux. Słowo formalne na coś szkodliwego, często powoli i po cichu.
+C1	lacunaire	niekompletny, z lukami	Twoja dokumentacja jest wciąż niekompletna: brakuje dwóch dokumentów potwierdzających.	Ta sama forma w rodzaju żeńskim. Opisuje dokument, wiedzę lub relację, w której czegoś brakuje.
+C1	exhaustif	wyczerpujący, pełny	Ta biblioteka oferuje wyczerpujący katalog dzieł Prousta.	Rodzaj żeński: exhaustive. Opisuje listę lub badanie, które niczego nie pomija.
+C1	pléthorique	przerośnięty, zbyt liczny	Przerośnięte zatrudnienie w tym dziale spowalnia każdą decyzję.	Ta sama forma w rodzaju żeńskim. Opisuje coś zbyt licznego, jak personel, oferty czy dokumenty.
+C1	laborieux	mozolny, trudny	Montaż tej szafy był mozolną pracą.	Rodzaj żeński: laborieuse. Opisuje pracę długą i męczącą lub wynik osiągnięty z wysiłkiem.
+C1	éloquent	wymowny, elokwentny	Milczenie publiczności po koncercie było wymowne.	Rodzaj żeński: éloquente. Opisuje osobę, która dobrze mówi, a w przenośni gest lub fakt, który mówi sam za siebie.
+C1	anodin	niegroźny, bez znaczenia	Ten kaszel wydaje się niegroźny, ale trwa od miesiąca.	Rodzaj żeński: anodine. Opisuje coś mało ważnego lub niezbyt poważnego, często z nutą wątpliwości.
+C1	inépuisable	niewyczerpany	Ten dom towarowy oferuje niewyczerpany wybór butów.	Ta sama forma w rodzaju żeńskim. Opisuje zasoby, cierpliwość lub tematy, które się nie kończą.
+C1	fortuit	przypadkowy	Nasze przypadkowe spotkanie w pociągu do Lyonu wszystko zmieniło.	Rodzaj żeński: fortuite. Dość formalne słowo o zdarzeniu wynikającym z przypadku, bez zamiaru.
+C1	caduc	wygasły, nieaktualny	Ta klauzula umowy wygasła w zeszłym roku.	Rodzaj żeński: caduque. W języku prawnym i administracyjnym opisuje to, co nie jest już ważne.
+C1	cohérent	spójny	To spójne menu łączy produkty sezonowe.	Rodzaj żeński: cohérente. Opisuje całość, której części logicznie do siebie pasują.
+C1	équivoque	dwuznaczny, wątpliwy	Dwuznaczny uśmiech tej postaci intryguje widzów.	Ta sama forma w rodzaju żeńskim. Często niesie nutę podejrzliwości, bardziej niż ambigu; istnieje też jako rzeczownik.
+C1	véridique	prawdziwy, zgodny z prawdą	Przewodnik przysięga, że ta legenda jest prawdziwa.	Ta sama forma w rodzaju żeńskim. Opisuje relację lub osobę, która mówi prawdę.
+C1	insoluble	nierozwiązywalny; nierozpuszczalny	Problem wilgoci wydaje się w tym mieszkaniu nie do rozwiązania.	Ta sama forma w rodzaju żeńskim. Opisuje problem bez rozwiązania; w chemii znaczy też nierozpuszczalny.
+C1	notoire	notoryczny, powszechnie znany	Ten handlarz jest w całej dzielnicy notorycznym kłamcą.	Ta sama forma w rodzaju żeńskim. Opisuje coś znanego wszystkim, często negatywnie (un menteur notoire).
+C1	pérenne	trwały	To przedsiębiorstwo dąży do trwałego, a nie szybkiego wzrostu.	Ta sama forma w rodzaju żeńskim. Słowo formalne, częste w biznesie, o czymś, co trwa w czasie.
+C1	impartial	bezstronny	Bezstronny krytyk musi ocenić film bez uprzedzeń.	Rodzaj żeński: impartiale; liczba mnoga męska: impartiaux. Opisuje kogoś, kto sądzi, nikogo nie faworyzując.
+C1	saillant	rzucający się w oczy, najważniejszy; wystający	Najbardziej pamiętnym momentem naszej podróży była przeprawa przez pustynię.	Rodzaj żeński: saillante. Opisuje to, co się wyróżnia; często z point lub fait.
+C1	lucratif	dochodowy, intratny	Odsprzedaż używanej odzieży staje się intratnym biznesem.	Rodzaj żeński: lucrative. Opisuje działalności przynoszące pieniądze; w association à but non lucratif znaczy organizację non-profit.
+C1	vétuste	podupadły, zniszczony	Ogrzewanie w tym podupadłym budynku często się psuje.	Ta sama forma w rodzaju żeńskim. Opisuje budynki lub sprzęt stare i w złym stanie.
+C1	tortueux	kręty; zawiły	Jechaliśmy krętą drogą do wsi.	Rodzaj żeński: tortueuse; liczba mnoga męska pozostaje tortueux. Opisuje drogi, a w przenośni zawiłe rozumowanie.
+C1	rudimentaire	podstawowy, prymitywny	Nasza kempingowa chatka zapewniała tylko podstawowe wygody.	Ta sama forma w rodzaju żeńskim. Opisuje to, co sprowadzone do rzeczy najważniejszych, czasem niewystarczająco.
+C1	sobre	powściągliwy, stonowany; trzeźwy	Wybrała na uroczystość stonowaną suknię.	Ta sama forma w rodzaju żeńskim. Opisuje styl bez przesady; opisuje też kogoś, kto mało pije.
+C1	disparate	niedobrany, różnorodny	Dania na tym bufecie są niedobrane, ale pyszne.	Ta sama forma w rodzaju żeńskim. Opisuje elementy bardzo od siebie różne, niemające spójnej całości.
+C1	vénérable	czcigodny	Ta czcigodna biblioteka przechowuje rękopisy ze średniowiecza.	Ta sama forma w rodzaju żeńskim. Może stać przed rzeczownikiem i wyraża szacunek dla wieku lub autorytetu.
+C1	périlleux	groźny, pełen niebezpieczeństw	Przejście przez przełęcz w środku zimy było groźne.	Rodzaj żeński: périlleuse. Słowo formalne o czymś pełnym niebezpieczeństw lub ryzyka.
+C1	insolite	niezwykły, nietypowy	Spaliśmy w nietypowym miejscu noclegowym, umieszczonym na drzewie.	Ta sama forma w rodzaju żeńskim. Opisuje to, co wykracza poza zwykłość, bez negatywnej oceny.
+C1	fastidieux	nużący, nudny	Wypełnianie tych formularzy to nużące zajęcie.	Rodzaj żeński: fastidieuse. Znaczy nudny i powtarzalny, a nie irytujący.
+C1	irréprochable	nienaganny	Obsługa w tej restauracji jest nienaganna.	Ta sama forma w rodzaju żeńskim. Opisuje zachowanie lub pracę, której nie można nic zarzucić.
+C1	hasardeux	ryzykowny	Przyjmowanie tego leku bez recepty byłoby ryzykowne.	Zaczyna się od aspirowanego «h»: bez liaison i elizji.
+C1	opportun	stosowny, odpowiedni (o czasie)	To nie jest odpowiedni moment, żeby prosić o podwyżkę.	Rodzaj żeński: opportune. Opisuje to, co przychodzi w odpowiednim czasie lub pasuje do sytuacji.
+C1	implicite	domyślny, dorozumiany	Dorozumiane przesłanie tego filmu krytykuje współczesne społeczeństwo.	Ta sama forma w rodzaju żeńskim. Opisuje to, czego nie mówi się wprost, ale się rozumie; przeciwieństwo explicite.
+C1	explicite	wyraźny, jednoznacznie wyrażony	Warunki gwarancji muszą być sformułowane wyraźnie.	Ta sama forma w rodzaju żeńskim. Opisuje to, co jest powiedziane jasno i precyzyjnie; przeciwieństwo implicite.
+C1	futile	błahy, jałowy	Spędził wieczór na błahych rozmowach.	Ta sama forma w rodzaju żeńskim. Opisuje to, co ma niewielkie znaczenie lub wartość.
+C1	tenace	uporczywy; uparty	Ten uporczywy ból nie pozwala mu spać.	Ta sama forma w rodzaju żeńskim. Opisuje ból, zapachy lub uprzedzenia, od których trudno się uwolnić; o osobie: kogoś, kto się nie poddaje.
+C1	somptueux	wystawny, okazały	Przygotowali wystawny świąteczny posiłek.	Rodzaj żeński: somptueuse; liczba mnoga męska pozostaje somptueux. Może stać przed rzeczownikiem lub po nim.
+C1	nullement	bynajmniej, ani trochę	Bynajmniej nie martwię się o wynik egzaminu.	Silne przeczenie używane z ne przed czasownikiem. Słowo formalne, bardziej dobitne niż pas du tout.
+C1	d'emblée	od razu, od początku	Sprzedawczyni od razu zaproponowała zniżkę.	Słowo zawiera apostrof (d'emblée). Znaczy zrobić coś od pierwszej chwili, bez wahania.
+C1	intégralement	w całości	Kaucja zostanie zwrócona w całości, jeśli mieszkanie będzie czyste.	Pochodzi od przymiotnika intégral. Używa się go z czasownikami jak payer, rembourser, lire, by powiedzieć, że nic nie pominięto.
+C1	ultérieurement	później, w późniejszym terminie	Godziny podróży przekażemy w późniejszym terminie.	Styl administracyjny i formalny: odnosi się do bliżej nieokreślonego późniejszego momentu.
+C1	antérieurement	uprzednio, we wcześniejszym czasie	Artysta wcześniej wystawiał w kilku paryskich galeriach.	Formalne; przeciwieństwo ultérieurement. Często występuje jako antérieurement à + rzeczownik.
+C1	nécessairement	koniecznie, z konieczności	Smaczne danie niekoniecznie jest skomplikowane.	Bardzo częste w formie przeczącej pas nécessairement, czyli niekoniecznie.
+C1	exclusivement	wyłącznie	Dawniej ten piekarz pracował wyłącznie z lokalną mąką.	Mocniejsze i bardziej formalne niż seulement: wyklucza każdą inną możliwość.
+C1	résolument	zdecydowanie, stanowczo	Zespół zdecydowanie zaangażował się w ten projekt.	Pokazuje determinację bez wahania; łączy się z czasownikami jak s'engager, refuser, se tourner vers.
+C1	concrètement	konkretnie, w praktyce	Jak konkretnie zorganizujecie tę podróż?	Często na początku zdania, by poprosić o praktyczne szczegóły lub je podać.
+C1	sciemment	świadomie, ze świadomością tego	Świadomie zataił wady samochodu.	Pisze się z -emment, a wymawia [amɑ̃]. Słowo formalne, typowe dla języka prawnego.
+C1	délibérément	rozmyślnie, celowo	Rozmyślnie zignorował rady swojego lekarza.	Podkreśla, że czyn jest chciany i świadomy; to częstszy synonim sciemment.
+C1	unanimement	jednomyślnie	Jury jednomyślnie pochwaliło ten dokument.	Pochodzi od unanime. Używa się go z czasownikami jak saluer, approuver, reconnaître, condamner.
+C1	ardemment	żarliwie, gorąco	Gorąco pragnęła znów zobaczyć dom z dzieciństwa.	Pochodzi od ardent i wymawia się [aʁdamɑ̃]. Słowo formalne, używane z souhaiter, désirer, espérer.
+C1	moyennant	za cenę; pod warunkiem	Mogliby Państwo zatrzymać pokój do południa za dopłatą.	Słowo formalne wprowadzające opłatę lub warunek, który coś umożliwia.
+C1	auprès	u, w (osobie lub urzędzie)	Zapytamy w biurze informacji turystycznej.	Zawsze występuje z de (auprès de) przed osobą lub instytucją, jak w se renseigner auprès de.
+C1	soi	siebie (o osobie nieokreślonej)	Należy dbać o siebie, żeby zachować dobre zdrowie.	Akcentowany zaimek zwrotny odnoszący się do nieokreślonego lub ogólnego podmiotu (on, chacun, il faut). Z je lub tu używa się moi lub toi.
+C1	autrui	inni ludzie, bliźni	Ważne jest, by szanować innych.	Używany tylko w liczbie pojedynczej i prawie zawsze jako dopełnienie; styl formalny.
+C1	tel	taki	Taki jest przypadek wielu młodych ludzi.	To przymiotnik: «tel que», «tel quel»; rodzaj żeński «telle», liczba mnoga «tels» i «telles».
+C1	nul	nikt (styl formalny)	Nikt nie może zasłaniać się nieznajomością prawa.	Jako zaimek jest formalne i łączy się z ne; jako przymiotnik nul znaczy nieważny, zerowy.
+C1	aboutir	prowadzić do, kończyć się (czymś)	Te negocjacje zakończyły się porozumieniem.	Łączy się z «à»: «aboutir à» + rzeczownik lub bezokolicznik.
+C1	susciter	wzbudzać, budzić	Ten projekt budzi duże zainteresowanie.	Używa się go z rzeczownikami abstrakcyjnymi: «susciter l'intérêt, la curiosité, la polémique».
+C1	entamer	rozpoczynać, podejmować	Rozpoczynamy negocjacje jutro.	Używa się go o procesach długich lub delikatnych; znaczy też zrobić pierwsze nacięcie w czymś, napocząć.
+C1	déceler	wykrywać, dostrzegać	Wykrywamy błąd w tym raporcie.	W czasie teraźniejszym niektóre formy mają akcent grave: «je décèle».
+C1	préconiser	zalecać, postulować	Eksperci postulują szybką reformę.	Jest bardziej formalne niż «conseiller»; dotyczy środków i metod.
+C1	remédier	zaradzić	Szybko zaradzamy temu problemowi.	Zawsze łączy się z «à»: «remédier à quelque chose».
+C1	déplorer	ubolewać nad, głęboko żałować	Burmistrz ubolewa nad brakiem środków.	Jest mocniejsze i bardziej formalne niż «regretter».
+C1	bilan	bilans; podsumowanie	Podsumowanie roku jest bardzo pozytywne.	Znaczy zarówno bilans finansowy, jak i ogólne podsumowanie: «faire le bilan».
+C1	essor	rozkwit, gwałtowny rozwój	Rozkwit turystyki zmienia region.	Używa się go niemal wyłącznie w liczbie pojedynczej: «prendre son essor».
+C1	clivage	podział, rozłam	Ten podział od dawna dzieli społeczeństwo.	Używa się go o podziałach społecznych lub politycznych.
+C1	levier	dźwignia; środek nacisku	Edukacja jest dźwignią zmian.	Używa się go też w przenośni: «un levier d'action».
+C1	écart	różnica, dystans	Różnica między cenami rośnie co miesiąc.	Występuje też w «à l'écart» (na uboczu).
+C1	néfaste	szkodliwy, niekorzystny	Ten nawyk jest szkodliwy dla zdrowia.	Ma tę samą formę w rodzaju męskim i żeńskim; jest bardziej formalne niż «mauvais».
+C1	inédit	bezprecedensowy; niepublikowany	Ta sytuacja jest w Europie bezprecedensowa.	Znaczy zarówno «nigdy wcześniej niewidziany», jak i «niepublikowany».
+C1	dorénavant	odtąd, od tej pory	Odtąd będziemy pracować zdalnie.	Jest bardziej formalne niż «désormais» i zwykle wprowadza nową zasadę.
+C1	périple	długa podróż, wyprawa	Ich wyprawa przez Azję trwała pół roku.	Oznacza długą podróż z wieloma etapami, często pełną przygód. Jest bardziej literackie niż voyage.
+C1	gîte	wiejski domek do wynajęcia	Zarezerwowaliśmy domek wakacyjny nad rzeką.	We Francji to wynajmowane wiejskie zakwaterowanie, zwykle z kuchnią. To nie jest hotel.
+C1	cueillette	zbieranie (owoców, grzybów)	Zbiór truskawek zaczyna się już w maju.	Dotyczy ręcznego zbierania owoców, jagód lub grzybów, często jako rozrywka.
+C1	brocante	pchli targ; handel starociami	Znalazła tę starą lampę na pchlim targu.	Oznacza zarówno handel rzeczami z drugiej ręki, jak i targ lub sklep, gdzie się je sprzedaje.
+C1	vernissage	wernisaż	W sobotę wieczorem pójdziemy na wernisaż wystawy.	To wieczór otwarcia wystawy sztuki, zwykle na zaproszenie.
+C1	courbature	zakwasy, ból mięśni	Zakwasy przypominały mi o wczorajszym długim marszu.	Często w liczbie mnogiej: avoir des courbatures znaczy mieć zakwasy po wysiłku.
+C1	tisane	napar ziołowy	Wieczorem pije napar z lipy.	Oznacza napar z ziół lub kwiatów, zwykle bez herbaty i bez kofeiny.
+C1	fanfare	orkiestra dęta; fanfara	Wiejska orkiestra dęta otworzyła pochód.	Oznacza zespół instrumentów dętych blaszanych i perkusyjnych, a także utwór grany przez trąbki.
+C1	déambuler	przechadzać się bez celu	Turyści przechadzają się po uliczkach starego miasta.	Regularny czasownik na -er; znaczy chodzić bez celu i bez pośpiechu.
+C1	flâner	spacerować beztrosko	Spędza niedziele, spacerując beztrosko nad Sekwaną.	Znaczy chodzić bez pośpiechu, ciesząc się atmosferą miasta.
+C1	grignoter	przegryzać, podjadać	Cały wieczór podjada ciastka przed telewizorem.	Znaczy jeść trochę i często między posiłkami. Może być nieprzechodni lub z dopełnieniem.
+C1	sillonner	przemierzać we wszystkich kierunkach	Co lato przemierzają Bretanię kamperem.	Czasownik przechodni bezpośredni; znaczy jeździć po regionie we wszystkich kierunkach.
+C1	postuler	ubiegać się o stanowisko	Ubiega się o stanowisko kierowniczki projektu.	Zwykle z à lub pour: postuler à un poste.
+C1	jeûner	pościć	Mój sąsiad co roku pości w czasie ramadanu.	Nieprzechodni: obywać się przez jakiś czas bez jedzenia z powodów medycznych lub religijnych.
+C1	aérer	wietrzyć	Wietrzymy sypialnię każdego ranka.	Używa się o wietrzeniu pomieszczenia. Akcent zmienia się przed niemymi końcówkami: j'aère.
+C1	pittoresque	malowniczy	Spaliśmy w malowniczej wiosce nad morzem.	Ma tę samą formę w rodzaju żeńskim: une rue pittoresque.
+C1	bondé	zatłoczony, wypełniony po brzegi	Metro było zatłoczone z powodu strajku.	Zgadza się w rodzaju i liczbie: bondée, bondés, bondées. Opisuje miejsca lub pojazdy pełne ludzi.
+C1	croustillant	chrupiący	Ten chrupiący chleb dopiero co wyszedł z pieca.	Rodzaj żeński to croustillante. Opisuje chleb, skórkę lub smażonego kurczaka.
+C1	ludique	zabawowy, w formie zabawy	Ta aplikacja proponuje zabawowy sposób nauki.	Ma tę samą formę w rodzaju żeńskim. Dotyczy zabawy lub jest przyjemny jak gra.
+C1	onéreux	kosztowny	Utrzymanie tego starego domu pozostaje bardzo kosztowne.	Słowo formalne, występuje w tekstach urzędowych i prasowych. Rodzaj żeński to onéreuse.
+C1	jadis	dawniej, przed laty	Dawniej ta dzielnica była wsią rybacką.	Literacki przysłówek wskazujący na odległą przeszłość.
+C1	guère	ledwie, prawie wcale	Zimą na plaży prawie nikogo nie ma.	Używa się go z ne: ne ... guère znaczy ledwie, niewiele. Rejestr raczej formalny.
+C1	aucunement	w żadnym razie, wcale nie	To opóźnienie wcale mi nie przeszkadzało podczas podróży.	Używa się go z ne i wzmacnia przeczenie. Rejestr formalny.
+C1	précédemment	poprzednio	Dyrektor był poprzednio odpowiedzialny za pobliską fabrykę.	Formalny przysłówek znaczący wcześniej, w poprzednim czasie; typowy dla tekstów pisanych.
+C1	vu	wobec, zważywszy na	Zważywszy na cenę, ten bilet jest naprawdę za drogi.	Jako przyimek jest niezmienny i stoi przed rzeczownikiem: vu la situation.
+C1	sitôt	zaraz po, jak tylko	Zaraz po przyjeździe do hotelu rozpakowaliśmy walizki.	Rejestr literacki lub formalny. Łączy się z imiesłowem przeszłym lub z formą sitôt que.

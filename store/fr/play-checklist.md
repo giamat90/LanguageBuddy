@@ -4,14 +4,14 @@ Everything here is for the Product Owner to enter in Play Console. **Nothing is 
 Where the repo cannot prove an answer, the row says *Product Owner to confirm in the console* — no value is guessed.
 The reference for every "same as German" row is the GermanBuddy app in the same developer account.
 
-Build the texts and pages first: `cd mobile && npm run build:store -- fr` (needs `contactFormId` in
-`store/fr/support.json`; use `--allow-placeholder` only for a draft). Output: `store/fr/dist/`.
+Build the texts and pages first: `cd mobile && npm run build:store -- fr` (needs `supportEmail` in
+`store/fr/support.json`). Output: `store/fr/dist/`.
 
 ## Before you create the app
 | Step | What | Source |
 |------|------|--------|
 | 1 | Create the repo `giamat90/frenchbuddy-support`, copy `store/fr/dist/support/*` into it, enable GitHub Pages | `supportUrl` in `store/fr/support.json` must then be true |
-| 2 | Create a Formspree form and put its id in `store/fr/support.json` → `contactFormId`, rebuild | the contact page posts there; also check the **live German** contact page: the repo copy still had a placeholder id |
+| 2 | Check the support email in `store/fr/support.json` → `supportEmail` (shown publicly on the contact page and in Play) and rebuild | the contact page is a `mailto:` link, no form service |
 | 3 | Create a **new** Play app (French is a different package) | package `com.giamat90.frenchbuddy` (`mobile/variants/fr.json`) |
 | 4 | Grant the CI service account access to the new app (Play Console → Users and permissions) | needed by `release-android.yml -f app=fr` and `npm run check:play-version` |
 

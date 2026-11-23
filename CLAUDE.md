@@ -404,7 +404,7 @@ There are **no runtime environment variables**: the apps have no backend. Build-
   Afterwards confirm the seams are German again (`git diff --quiet src/languages/active.ts`). Do not run tests while such a build is running: the seams are switched.
 - **Release tags:** `<code>-v<versionName>` for every app, German included (`de-v1.0.21`, `es-v1.0.1`). The `release-android.yml` workflow takes an `app` input and refuses an existing tag.
 - **Before any release, check Play:** `npm run check:play-version -- <code> --key <service-account>.json` lists every versionCode Play holds; never trust `CONTEXT.md` for it.
-- **Store material:** `npm run build:store -- <code>` renders the public pages and listing texts into the gitignored `store/<code>/dist/` and refuses to build without the app's `contactFormId`.
+- **Store material:** `npm run build:store -- <code>` renders the public pages and listing texts into the gitignored `store/<code>/dist/` and refuses to build without the app's `supportEmail` (the contact page is a `mailto:` link, no form service).
   The German public pages stay hand-maintained in `germanbuddy-support`.
 - **Android permissions:** an app declares `POST_NOTIFICATIONS`, `RECEIVE_BOOT_COMPLETED`, `VIBRATE` and, for the optional AI call, `INTERNET`. Storage and overlay permissions are **blocked**
   (`blockedPermissions` in `variants.js`); `verify-prebuild` fails on any new one. Adding a permission needs a task and an update of every app's Play forms.

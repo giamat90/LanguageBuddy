@@ -100,7 +100,7 @@ Result column: **OK / Bug / n.a.** Anything marked Bug in sections 1–4, 7 or 8
 | # | Steps | Expected | Result | Notes |
 |---|-------|----------|--------|-------|
 | 11.1 | Rendered support pages in a mobile browser | Fonts, links fine | | |
-| 11.2 | Contact form with the real Formspree id | Message arrives | | |
+| 11.2 | Contact page: tap the email button | The mail app opens with the support address and subject `<App> support` | | |
 | 11.3 | `delete-account` steps vs the phone's real menus | They match | | |
 | 11.4 | Listing text in each language | Proof-read by a reader (note languages with none): ______ | | |
 

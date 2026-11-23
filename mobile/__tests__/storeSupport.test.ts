@@ -72,7 +72,7 @@ describe('language facts without importing TypeScript', () => {
 
 describe('build-store.mjs', () => {
   it('renders the Spanish site: names, headings, links, icon', () => {
-    const r = build('es', ['--form-id', 'abc123']);
+    const r = build('es');
     expect(r.status).toBe(0);
     expect(readdirSync(join(r.out, 'support')).sort()).toEqual([...PAGES, 'icon.png'].sort());
     for (const f of PAGES) {
@@ -82,13 +82,14 @@ describe('build-store.mjs', () => {
       expect(html).not.toMatch(/german/i);
       for (const m of html.matchAll(/href="([a-z-]+\.html)"/g)) expect(PAGES).toContain(m[1]);
     }
-    expect(page(r.out, 'contact.html')).toContain('https://formspree.io/f/abc123');
-    expect(page(r.out, 'contact.html')).not.toMatch(/REPLACE_WITH/);
+    const contact = page(r.out, 'contact.html');
+    expect(contact).toContain(`mailto:${store.loadSupport('es').supportEmail}`);
+    expect(contact).not.toMatch(/formspree|REPLACE_WITH|<form|fetch\(/i);
   });
 
   it('renders German with the same structure', () => {
-    const g = build('de', ['--form-id', 'abc123']);
-    const s = build('es', ['--form-id', 'abc123']);
+    const g = build('de');
+    const s = build('es');
     expect(g.status).toBe(0);
     expect(g.stdout).toMatch(/no listing/i);
     expect(existsSync(join(g.out, 'listing'))).toBe(false);
@@ -102,8 +103,8 @@ describe('build-store.mjs', () => {
   });
 
   it('gives each app its own colours and icon, from the app palette', () => {
-    const g = build('de', ['--form-id', 'x']);
-    const s = build('es', ['--form-id', 'x']);
+    const g = build('de');
+    const s = build('es');
     for (const f of PAGES) {
       expect(page(s.out, f)).toContain('--primary: #AA151B');
       expect(page(s.out, f)).not.toContain('#1E4A67');
@@ -136,25 +137,24 @@ describe('build-store.mjs', () => {
   });
 
   it('keeps the substance of the policy', () => {
-    const html = page(build('es', ['--form-id', 'x']).out, 'privacy-policy.html');
+    const html = page(build('es').out, 'privacy-policy.html');
     for (const phrase of ['no account', 'Firebase Cloud Messaging', 'text-to-speech', 'Spanish word', 'Delete', 'fonts.googleapis.com']) {
       expect(html).toContain(phrase);
     }
-    expect(html).toContain('Last updated: November 21, 2026');
+    expect(html).toContain(`Last updated: ${store.loadSupport('es').lastUpdated}`);
+    expect(html).not.toMatch(/formspree/i); // the contact page is a mailto link, no form processor receives data
   });
 
-  it('fails without a contact form id and names the field', () => {
-    const r = build('es');
-    expect(r.status).toBe(1);
-    expect(r.stderr).toMatch(/contactFormId/);
-    expect(existsSync(join(r.out, 'support'))).toBe(false);
-  });
-
-  it('--allow-placeholder renders the placeholder and warns', () => {
-    const r = build('es', ['--allow-placeholder']);
-    expect(r.status).toBe(0);
-    expect(page(r.out, 'contact.html')).toContain('REPLACE_WITH_SPANISHBUDDY_FORMSPREE_ID');
-    expect(r.stderr).toMatch(/placeholder/i);
+  it('every app has a support email, and a missing or malformed one fails loading', () => {
+    for (const c of ['de', 'es', 'fr']) expect(store.loadSupport(c).supportEmail).toMatch(/^[^@\s]+@[^@\s]+\.[^@\s]+$/);
+    const root = mkdtempSync(join(tmpdir(), 'store-root-'));
+    dirs.push(root);
+    mkdirSync(join(root, 'store', 'xx'), { recursive: true });
+    const base = { developer: 'D', year: '2026', lastUpdated: 'x', supportUrl: 'https://a.b/c/' };
+    for (const bad of [undefined, '', 'not-an-email']) {
+      writeFileSync(join(root, 'store', 'xx', 'support.json'), JSON.stringify({ ...base, supportEmail: bad }));
+      expect(() => store.loadSupport('xx', { root })).toThrow(/supportEmail/);
+    }
   });
 
   it('an unknown app is a usage error', () => {

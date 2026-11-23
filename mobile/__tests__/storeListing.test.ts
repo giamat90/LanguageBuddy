@@ -109,7 +109,7 @@ describe('build-store.mjs listing output', () => {
   it('writes title/short/full per language and a STATUS file', () => {
     const out = mkdtempSync(join(tmpdir(), 'store-listing-'));
     try {
-      const r = spawnSync(process.execPath, [join(__dirname, '..', 'scripts', 'build-store.mjs'), 'es', '--out', out, '--allow-placeholder'], { encoding: 'utf8' });
+      const r = spawnSync(process.execPath, [join(__dirname, '..', 'scripts', 'build-store.mjs'), 'es', '--out', out], { encoding: 'utf8' });
       expect(r.status).toBe(0);
       expect(readdirSync(join(out, 'listing')).sort()).toEqual([...UI].sort());
       for (const ui of UI) expect(readdirSync(join(out, 'listing', ui)).sort()).toEqual(['full.txt', 'short.txt', 'title.txt']);

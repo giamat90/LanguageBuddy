@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Usage: node scripts/build-store.mjs <code> [--out <dir>] [--allow-placeholder] [--form-id <id>]
+ * Usage: node scripts/build-store.mjs <code> [--out <dir>]
  * Renders the public support pages (and the Play listing texts, when the app has them) of one app
  * from store/support-template and store/<code>/ into <out> (default store/<code>/dist, gitignored).
  * Exit: 0 ok, 1 validation / contact-form problem, 2 usage.
@@ -20,34 +20,22 @@ const { loadVariant, listVariants } = require('./lib/variants.js');
 const argv = process.argv.slice(2);
 const opt = (name) => { const i = argv.indexOf(name); return i >= 0 ? argv[i + 1] : undefined; };
 const code = argv[0] && !argv[0].startsWith('--') ? argv[0] : undefined;
-const usage = (msg) => { console.error(`${msg}\nUsage: node scripts/build-store.mjs <code> [--out <dir>] [--allow-placeholder] [--form-id <id>]`); process.exit(2); };
+const usage = (msg) => { console.error(`${msg}\nUsage: node scripts/build-store.mjs <code> [--out <dir>]`); process.exit(2); };
 if (!code) usage('missing app code');
 if (!listVariants().includes(code)) usage(`unknown app "${code}". Known: ${listVariants().join(', ')}`);
 
 const variant = loadVariant(code);
 const cfg = store.languageConfig(code);
 const support = store.loadSupport(code);
-const allowPlaceholder = argv.includes('--allow-placeholder');
-const formId = opt('--form-id') ?? support.contactFormId ?? undefined;
 const problems = [];
 const warnings = [];
-
-let effectiveFormId = formId;
-if (!effectiveFormId) {
-  if (allowPlaceholder) {
-    effectiveFormId = `REPLACE_WITH_${variant.slug.toUpperCase()}_FORMSPREE_ID`;
-    warnings.push(`contact form: using the placeholder ${effectiveFormId} (set "contactFormId" in store/${code}/support.json before publishing)`);
-  } else {
-    problems.push(`store/${code}/support.json: "contactFormId" is null. Create a Formspree form and put its id there (or pass --allow-placeholder for a draft build).`);
-  }
-}
 
 let wordCount = 0;
 for (const lv of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
   wordCount += JSON.parse(readFileSync(join(mobile, 'src', 'data', 'wordbank', code, `${lv}.json`), 'utf8')).length;
 }
 const values = store.tokenValues({
-  variant, targetName: cfg.name, support, wordCount, uiLangCount: store.uiLangCount(cfg), formId: effectiveFormId,
+  variant, targetName: cfg.name, support, wordCount, uiLangCount: store.uiLangCount(cfg),
 });
 
 // Render everything in memory first: nothing is written when anything is wrong.

@@ -10,14 +10,14 @@ const MOBILE = path.join(__dirname, '..', '..');
 const REPO = path.join(MOBILE, '..');
 
 const TOKENS = [
-  'APP', 'TARGET', 'CODE', 'SLUG', 'SLUG_UPPER', 'DEV', 'UPDATED', 'YEAR', 'FORM_ID',
+  'APP', 'TARGET', 'CODE', 'SLUG', 'SLUG_UPPER', 'DEV', 'UPDATED', 'YEAR', 'SUPPORT_EMAIL',
   'UI_LANGS', 'WORDS', 'SUPPORT_URL', 'PRIVACY_URL',
   'C_PRIMARY', 'C_PRIMARY_DARK', 'C_SECONDARY', 'C_GOLD', 'C_CREAM', 'C_PRIMARY_LIGHT', 'C_TEXT', 'C_TEXT_MUTED', 'C_INK_RGB',
 ];
 const LIMITS = { title: 30, short: 80, full: 4000 };
 // English only: other languages are covered by the native review of the translations.
 const BANNED_EN = /\b(best|official|guarantee[sd]?|fluent in|the only)\b|#1|number one/i;
-const SUPPORT_FIELDS = ['developer', 'year', 'lastUpdated', 'supportUrl'];
+const SUPPORT_FIELDS = ['developer', 'year', 'lastUpdated', 'supportUrl', 'supportEmail'];
 
 /** Replaces every {{TOKEN}}; unknown tokens and tokens without a value throw. */
 function render(text, values, name = 'text') {
@@ -37,9 +37,7 @@ function loadSupport(code, { root = REPO } = {}) {
     if (typeof s[f] !== 'string' || !s[f].trim()) throw new Error(`store/${code}/support.json: "${f}" is missing or empty`);
   }
   if (!s.supportUrl.endsWith('/')) throw new Error(`store/${code}/support.json: supportUrl must end with "/"`);
-  if (s.contactFormId !== null && s.contactFormId !== undefined && typeof s.contactFormId !== 'string') {
-    throw new Error(`store/${code}/support.json: contactFormId must be a string or null`);
-  }
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s.supportEmail)) throw new Error(`store/${code}/support.json: "supportEmail" is not an email address`);
   return s;
 }
 
@@ -72,7 +70,7 @@ const SUPPORT_COLORS = {
         C_PRIMARY_LIGHT: '#E1ECF8', C_TEXT: '#0B1F3A', C_TEXT_MUTED: '#4A5C75', C_INK_RGB: '11, 31, 58' },
 };
 
-function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n, formId }) {
+function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n }) {
   return {
     APP: variant.name,
     TARGET: targetName,
@@ -82,7 +80,7 @@ function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n, 
     DEV: support.developer,
     UPDATED: support.lastUpdated,
     YEAR: support.year,
-    FORM_ID: formId ?? support.contactFormId ?? undefined,
+    SUPPORT_EMAIL: support.supportEmail,
     UI_LANGS: n,
     WORDS: wordCount,
     SUPPORT_URL: support.supportUrl,

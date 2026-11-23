@@ -1,8 +1,8 @@
 # FrenchBuddy — icon and feature graphic brief
 
-**Status:** the app icon is a **placeholder** (`mobile/assets/icon-fr.png`, `adaptive-icon-fr.png`, 2026-11-23, TASK-066): the same word-card idea as
+**Status:** the app icon is French-specific (`mobile/assets/icon-fr.png`, `adaptive-icon-fr.png`, 2026-11-23): the same word-card idea as
 GermanBuddy ("LE / Mot") on French blue (`#0055A4`, adaptive background and app colour), with tricolour accent dashes. It was generated, not hand-drawn:
-the Product Owner or a designer replaces it (TASK-067). The 1024×500 feature graphic is still to do.
+the Product Owner may replace it with real art. The 1024×500 feature graphic is still to do.
 
 | Asset | Size | Notes |
 |-------|------|-------|

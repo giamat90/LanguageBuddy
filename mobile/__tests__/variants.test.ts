@@ -76,8 +76,8 @@ describe('the Spanish app', () => {
     expect(x.scheme).toBe('spanishbuddy');
     expect(x.android.package).toBe('com.giamat90.spanishbuddy');
     expect(x.ios.bundleIdentifier).toBe('com.spanishbuddy');
-    expect(x.version).toBe('1.0.2');
-    expect(x.android.versionCode).toBe(2);
+    expect(x.version).toBe('1.0.3');
+    expect(x.android.versionCode).toBe(3);
     expect(x.android.adaptiveIcon.backgroundColor).toBe('#AA151B');
   });
   it('has no owner and no EAS block, but keeps the router extra', () => {

@@ -66,7 +66,8 @@ if not "%BAKED_VERSION_CODE%"=="%VERSION_CODE%" (
 echo Building bundle v%VERSION_NAME% (%VERSION_CODE%)...
 
 cd /d "%ANDROID_DIR%"
-call gradlew.bat bundleRelease
+:: By path: with NoDefaultCurrentDirectoryInExePath set, cmd does not search the current folder (TASK-068).
+call .\gradlew.bat bundleRelease
 if errorlevel 1 (
     echo Build failed!
     exit /b 1

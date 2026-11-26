@@ -54,7 +54,7 @@ describe('the German app is unchanged', () => {
     expect(names(x.plugins)).toEqual([
       'expo-router', 'expo-notifications', 'expo-build-properties',
       './plugins/withReleaseSigning', './plugins/withAndroidBackupRules', './plugins/withRtlSupport',
-      './plugins/withOptionalPortrait',
+      './plugins/withOptionalPortrait', './plugins/withLanguageGuard',
     ]);
     expect(plugin(x.plugins, './plugins/withAndroidBackupRules')).toEqual(['./plugins/withAndroidBackupRules', { slug: 'germanbuddy' }]);
   });
@@ -101,8 +101,8 @@ describe('the French app', () => {
     expect(x.scheme).toBe('frenchbuddy');
     expect(x.android.package).toBe('com.giamat90.frenchbuddy');
     expect(x.ios.bundleIdentifier).toBe('com.frenchbuddy');
-    expect(x.version).toBe('1.0.1');
-    expect(x.android.versionCode).toBe(1);
+    expect(x.version).toBe('1.0.3');
+    expect(x.android.versionCode).toBe(3);
     expect(x.android.adaptiveIcon.backgroundColor).toBe('#0055A4');
     expect(JSON.stringify(x)).not.toMatch(/German|Spanish|germanbuddy|spanishbuddy/);
   });
@@ -114,6 +114,9 @@ describe('the French app', () => {
   it('shares the SDK levels and plugins of German, with its own backup slug', () => {
     expect(names(x.plugins)).toEqual(names(g.plugins));
     expect(plugin(x.plugins, './plugins/withAndroidBackupRules')).toEqual(['./plugins/withAndroidBackupRules', { slug: 'frenchbuddy' }]);
+  });
+  it('guards its own language in Gradle (TASK-068)', () => {
+    expect(plugin(x.plugins, './plugins/withLanguageGuard')).toEqual(['./plugins/withLanguageGuard', { code: 'fr' }]);
   });
   it('rejects a variant file whose icon is missing', () => {
     const { base, data } = tempVariants({ code: 'fr', icon: './assets/missing-fr.png' }, 'fr');

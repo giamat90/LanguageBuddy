@@ -63,6 +63,9 @@ function checkPrebuild(androidDir, variant, others = [], expected = {}) {
   const appName = strings && (strings.match(/<string name="app_name">([^<]*)<\/string>/) || [])[1];
   if (appName !== variant.name) problems.push(`app_name is "${appName}", expected "${variant.name}"`);
 
+  // TASK-068: Gradle must refuse to bundle another language into this project.
+  if (!gradle.includes(`export { ${variant.code} as activePack }`)) problems.push(`language guard for "${variant.code}" is missing`);
+
   // Backup rules: names follow the slug, both files exist, and the secrets stay out.
   const m = manifest.match(/<application\b[^>]*>/);
   const app = m ? m[0] : '';

@@ -128,6 +128,7 @@ function buildExpoConfig(variant, env) {
       ['./plugins/withAndroidBackupRules', { slug: variant.slug }],
       './plugins/withRtlSupport',
       './plugins/withOptionalPortrait',
+      ['./plugins/withLanguageGuard', { code: variant.code }],
     ],
     extra: { router: { origin: false } },
   };

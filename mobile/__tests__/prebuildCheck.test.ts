@@ -5,7 +5,7 @@ import { join } from 'path';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { checkPrebuild } = require('../scripts/lib/prebuildCheck.js');
 
-const variant = { name: 'SpanishBuddy', slug: 'spanishbuddy', scheme: 'spanishbuddy', androidPackage: 'com.giamat90.spanishbuddy' };
+const variant = { code: 'es', name: 'SpanishBuddy', slug: 'spanishbuddy', scheme: 'spanishbuddy', androidPackage: 'com.giamat90.spanishbuddy' };
 const other = { name: 'GermanBuddy', slug: 'germanbuddy', scheme: 'germanbuddy', androidPackage: 'com.giamat90.germanbuddy' };
 const expected = { versionCode: 1, versionName: '1.0.1' };
 
@@ -30,14 +30,15 @@ const MANIFEST = `<manifest xmlns:tools="http://schemas.android.com/tools">
     </activity>
   </application>
 </manifest>`;
-const GRADLE = `android {
+const { addLanguageGuard } = require('../plugins/withLanguageGuard');
+const GRADLE: string = addLanguageGuard(`android {
     namespace 'com.giamat90.spanishbuddy'
     defaultConfig {
         applicationId 'com.giamat90.spanishbuddy'
         versionCode 1
         versionName "1.0.1"
     }
-}`;
+}`, 'es');
 
 const dirs: string[] = [];
 function project(mutate: (f: Record<string, string | null>) => void = () => {}): string {
@@ -63,6 +64,8 @@ const check = (dir: string) => checkPrebuild(dir, variant, [other], expected) as
 afterAll(() => dirs.forEach((d) => rmSync(d, { recursive: true, force: true })));
 
 const mutations: Array<[string, (f: Record<string, string | null>) => void, RegExp]> = [
+  ['no language guard', (f) => { f['app/build.gradle'] = GRADLE.replace(/\/\/ withLanguageGuard[\s\S]*/, ''); }, /language guard/],
+  ['a guard for another language', (f) => { f['app/build.gradle'] = GRADLE.replace('export { es as activePack }', 'export { de as activePack }'); }, /language guard/],
   ['wrong applicationId', (f) => { f['app/build.gradle'] = GRADLE.replace("applicationId 'com.giamat90.spanishbuddy'", "applicationId 'com.giamat90.germanbuddy'"); }, /applicationId/],
   ['wrong namespace', (f) => { f['app/build.gradle'] = GRADLE.replace("namespace 'com.giamat90.spanishbuddy'", "namespace 'x.y'"); }, /namespace/],
   ['wrong versionCode', (f) => { f['app/build.gradle'] = GRADLE.replace('versionCode 1', 'versionCode 20'); }, /versionCode/],

@@ -7,6 +7,7 @@ import { localizedText } from '../../i18n/wordContent';
 import { useUserStore } from '../../store/useUserStore';
 import SentenceSpeaker from './SentenceSpeaker';
 import { reorderSentence } from '../../lib/sentenceSpeech';
+import { joinTokens } from '../../lib/sentence';
 import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
 import { FORMAT_QUALITY } from '../../lib/exercises/quality';
@@ -29,7 +30,7 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
 
   const pool = tokens.map((_, i) => i).filter((i) => !placed.includes(i));
   const done = result !== null;
-  const sentence = solution.join(' ');
+  const sentence = joinTokens(solution);
 
   const check = () => setResult(gradeReorder(placed.map((i) => tokens[i]), solution));
   const giveUp = () => {

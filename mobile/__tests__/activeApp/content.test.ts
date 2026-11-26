@@ -22,10 +22,14 @@ describe('the active word bank', () => {
     }
   });
 
-  it('nouns carry an article of the language, other words none', () => {
+  it('has words exactly in the levels the pack declares', () => {
+    expect(CEFR_ORDER.filter((l) => WORD_BANK[l].length > 0)).toEqual([...getActivePack().levels]);
+  });
+
+  it('nouns carry an article of the language (when it has articles), other words none', () => {
     const forms = current().articleForms;
     for (const { level, entry: e } of allEntries()) {
-      if (e.part_of_speech === 'noun') {
+      if (e.part_of_speech === 'noun' && forms.length > 0) {
         if (!e.article || !forms.includes(e.article)) throw new Error(`${level}:${e.word} has article "${e.article}"`);
       } else if (e.article) {
         throw new Error(`${level}:${e.word} (${e.part_of_speech}) has an article`);
@@ -34,7 +38,7 @@ describe('the active word bank', () => {
   });
 
   it('the sample word of each level exists at that level', () => {
-    for (const l of CEFR_ORDER) expect(WORD_BANK[l].map((e) => e.word)).toContain(current().sampleWord[l]);
+    for (const l of getActivePack().levels) expect(WORD_BANK[l].map((e) => e.word)).toContain(current().sampleWord[l]);
   });
 });
 
@@ -61,9 +65,11 @@ describe('translated word content', () => {
     }
   });
 
-  it('a translated language reaches the screens through localizedText', () => {
+  // An app whose UI languages are all base columns (Italian, English) has no translated table.
+  const [firstTranslated] = current().translatedLanguages;
+  (firstTranslated ? it : it.skip)('a translated language reaches the screens through localizedText', () => {
     const { level, entry } = allEntries()[10];
-    const lang = current().translatedLanguages[0] as never;
+    const lang = firstTranslated as never;
     const triple = getWordContent(lang, entry.word, level)!;
     expect(localizedText(lang, 'meaning', { word: entry.word, level }, entry.meaning_it, entry.meaning_en)).toBe(triple[0]);
   });
@@ -89,7 +95,7 @@ describe('app languages', () => {
 
 describe('the daily word', () => {
   it('walks a level for 30 days without repeating and stays inside the bank', () => {
-    for (const level of CEFR_ORDER) {
+    for (const level of getActivePack().levels) {
       const used = new Set<string>();
       const inBank = new Set(WORD_BANK[level].map((e) => e.word));
       for (let day = 0; day < 30; day++) {

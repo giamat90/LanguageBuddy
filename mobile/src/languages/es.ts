@@ -16,6 +16,8 @@ export const es: LanguagePack = {
   code: 'es',
   name: 'Spanish',
   app: { name: 'SpanishBuddy', backupTag: 'SpanishBuddy', dbFile: 'spanishbuddy.db' },
+  levels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+  sentences: 'spaced',
   letters: /([A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+)/,
   // Vowel accents and ü fold away (the likeliest slip, the meaning survives); ñ is a different letter and stays.
   fold: (s) =>

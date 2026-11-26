@@ -4,7 +4,7 @@ import { submitOnboarding, fetchProfile } from '../../src/services/profileServic
 import { fetchTodayWord, saveWord, startLearning } from '../../src/services/wordService';
 import { fetchDueReviews, gradePractice, gradeReview, fetchVaultCards, type ReviewCard } from '../../src/services/reviewService';
 import { nextReviewDate, updateRetentionScore } from '../../src/data/srs';
-import { WORD_BANK, CEFR_ORDER, allEntries, type CefrLevel } from '../../src/data/wordbank';
+import { WORD_BANK, allEntries, type CefrLevel } from '../../src/data/wordbank';
 import { getActivePack } from '../../src/languages';
 import { buildCloze, gradeTypedAnswer } from '../../src/lib/cloze';
 import { buildArticleQuestion, buildChoiceQuestion, caseRules, choiceRules } from '../../src/lib/grammar';
@@ -25,7 +25,7 @@ beforeEach(() => {
   _resetDbForTests();
 });
 
-describe.each(CEFR_ORDER)('daily flow at %s', (level: CefrLevel) => {
+describe.each([...getActivePack().levels])('daily flow at %s', (level: CefrLevel) => {
   beforeEach(async () => { await submitOnboarding({ cefr_level: level, topic_preferences: PREFS }); });
 
   it('shows a word of the level, saves it with retention 0.5 due in a day, and starts the streak', async () => {
@@ -104,7 +104,7 @@ function cards(count: number): ReviewCard[] {
   const all = allEntries().filter((_, i) => i % 7 === 0).slice(0, count);
   return all.map(({ level, entry: e }, i) => ({
     id: `c${i}`, word: e.word, article: e.article, translationIt: e.meaning_it, translationEn: e.meaning_en,
-    example: e.example, exampleIt: e.example_it, exampleEn: e.example_en, partOfSpeech: e.part_of_speech,
+    example: e.example, segments: e.segments, exampleIt: e.example_it, exampleEn: e.example_en, partOfSpeech: e.part_of_speech,
     cefrBand: level, topicDomain: e.topic_domain, grammarAngle: e.grammar_angle,
     // a mix of new, learning and strong words
     timesSeen: [1, 2, 5][i % 3], retentionScore: [0.5, 0.7, 0.9][i % 3],
@@ -169,13 +169,13 @@ describe('typing and grammar', () => {
   it('a fill-in-the-blank can be built for most words and always hides the word', () => {
     let built = 0;
     for (const { entry } of allEntries()) {
-      const c = buildCloze(entry.example, entry.word);
+      const c = buildCloze(entry.example, entry.word, getActivePack(), entry.segments);
       if (c) { built++; expect((c.before + c.after).toLowerCase()).not.toContain(` ${entry.word.toLowerCase()} `); }
     }
     expect(built).toBeGreaterThan(allEntries().length * 0.5);
   });
 
-  it('the article drill builds for nouns with the answer among the options', () => {
+  (current().articleForms.length > 0 ? it : it.skip)('the article drill builds for nouns with the answer among the options', () => {
     const nouns = allEntries().filter(({ entry }) => entry.part_of_speech === 'noun').slice(0, 40);
     expect(nouns.length).toBe(40);
     for (const { level, entry } of nouns) {

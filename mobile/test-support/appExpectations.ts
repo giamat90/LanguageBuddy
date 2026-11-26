@@ -11,7 +11,7 @@ export interface AppExpectation {
   backupTag: string;
   packageName: string;
   speechLocale: string;
-  /** Bank entries per level, A1..C2. */
+  /** Bank entries per level, A1..C2 (0 for a level the app does not have). */
   wordsPerLevel: Record<'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2', number>;
   /** App (UI) languages this app offers. */
   uiLanguages: readonly string[];
@@ -21,8 +21,8 @@ export interface AppExpectation {
   /** Choice-drill rule codes ([] = none). */
   choiceRules: readonly string[];
   hasCases: boolean;
-  /** A word of each level that exists in the bank. */
-  sampleWord: Record<'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2', string>;
+  /** A word of each level the app has, that exists in the bank. */
+  sampleWord: Partial<Record<'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2', string>> & { A1: string };
   aiLanguageName: string;
   /** Words that the pack's collation sorts differently from code-point order. */
   collationSample: readonly [string, string, string];

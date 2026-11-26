@@ -159,6 +159,10 @@ Not in this repo: the German public site (`germanbuddy-support`, separate repo, 
   folding, typo rules, collation locale, speech locale, AI language name, and the grammar parts a language has — `articles`, `gender`, `cases`, `choices` (each may be `null`; the
   features built on a missing part switch off instead of failing) — plus the placement quiz, the UI languages it offers and its overlay strings.
   Code reads it through **`getActivePack()`**, at use time, never at import time.
+- **Levels and sentences (TASK-071):** `levels` is a non-empty prefix of A1…C2. A pack with one level has an empty `quiz` (and one with a quiz has several levels): onboarding goes straight to the topics and
+  the level filters and "by level" statistics are hidden. A level read from storage or a route goes through `coerceLevel` (`lib/levels.ts`). `sentences` is `'spaced'` or `'segmented'` (no spaces between words):
+  for a segmented language each bank entry carries `segments` that spell its example exactly, and the phone never segments text. Find words and tiles only through `lib/sentence.ts`
+  (`sentenceParts`, `sentenceTokens`, `joinTokens`), never with `split(' ')`, `split(pack.letters)` or `join(' ')` on a sentence.
 - **Seams:** one language is active per build. `npm run set:language -- <code>` (default `de`) regenerates three files:
   `src/languages/active.ts`, `src/data/wordbank/active.ts`, `src/i18n/wordContentLoaders.ts`. **The repository always holds the German seams** (a diff in them is a bug).
   `node scripts/with-language.mjs <code> -- <command>` activates a language for one command and always restores the seams afterwards.
@@ -356,6 +360,7 @@ Pure TypeScript: no I/O, no React, injectable `rng` — which is what makes it t
 - **Formats** (`registry.ts`): typed cloze (weight 2), sentence reorder (weight 1) and find the mistake (weight 1) for learning/strong words; multiple choice for new words; matching pairs
   (a *group* step of 4–5 new words); flip-card as the fallback. A format that cannot be built for a word returns `null` and the next candidate is tried. Find the mistake builds its slot
   from what the pack has (gender article, case determiner, or a choice set); a pack without those has no such slot.
+- **Segmented languages:** typed cloze, reorder, find the mistake and the choice drill read the card's `segments` (§3); a card without usable segments builds none of them and becomes a flip-card.
 - **Session** (`session.ts`): a pure state machine. A missed word returns 3 cards later, at most 2 retries; matching rounds are planned first; progress counts first attempts.
 - **Practice** (`practice.ts`): per-format config that ignores tiers, card selection (weaker words favoured), availability for the menu.
 - **Adding a format:** add a definition to the registry (`tiers`, `weight`, `build`), a model type, a view in `components/exercises/`, a case in `ExerciseSession`'s switch, strings in all UI languages,

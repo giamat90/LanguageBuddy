@@ -10,6 +10,9 @@ import {
   languageEnglishName,
   languageLabel,
 } from '../src/i18n/language';
+import { setActivePackForTests } from '../src/languages';
+import { testPack } from '../test-support/testPack';
+import { testPackCjk } from '../test-support/testPackCjk';
 
 describe('language registry', () => {
   it('lists the 13 app languages in display order', () => {
@@ -86,5 +89,27 @@ describe('detectDeviceLanguage', () => {
   it('falls back to English when there is no identifier', () => {
     expect(detectDeviceLanguage(null)).toBe('en');
     expect(detectDeviceLanguage(undefined)).toBe('en');
+  });
+
+  // TASK-071: a phone language the app does not offer starts in English, not in Italian.
+  describe('in an app that offers only some languages', () => {
+    afterEach(() => setActivePackForTests(null));
+
+    it.each([
+      ['fr_FR', 'en'], ['zh_CN', 'en'], ['de_DE', 'en'], ['it_IT', 'it'], ['en_GB', 'en'], ['', 'en'],
+    ])('Italian and English only: %s -> %s', (id, expected) => {
+      setActivePackForTests(testPackCjk);
+      expect(detectDeviceLanguage(id)).toBe(expected);
+    });
+
+    it('an app without the language of the phone: Spanish phone, no Spanish -> English', () => {
+      setActivePackForTests(testPack);
+      expect(detectDeviceLanguage('es_ES')).toBe('en');
+    });
+
+    it('an app without English still gets an offered language', () => {
+      setActivePackForTests({ ...testPackCjk, uiLanguages: ['fr', 'pt'] });
+      expect(detectDeviceLanguage('de_DE')).toBe('fr');
+    });
   });
 });

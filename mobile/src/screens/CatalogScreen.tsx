@@ -15,7 +15,9 @@ import { levelSection, topicSection, statusSection, filterSummary } from '../com
 import { useStartLearning } from '../hooks/useStartLearning';
 import { fetchSavedStates } from '../services/statsService';
 import { buildCatalog, scopeCounts, type CatalogEntry, type CatalogStatus, type SavedState } from '../lib/catalog';
-import { CEFR_ORDER, type CefrLevel } from '../data/wordbank';
+import type { CefrLevel } from '../data/wordbank';
+import { getActivePack } from '../languages';
+import { coerceLevel } from '../lib/levels';
 import { TOPICS } from '../lib/topics';
 
 const EMPTY: ReadonlyMap<string, SavedState> = new Map();
@@ -24,15 +26,14 @@ const EMPTY: ReadonlyMap<string, SavedState> = new Map();
 export default function CatalogScreen() {
   const router = useRouter();
   const ownLevel = useUserStore((s) => s.cefrLevel);
-  const [level, setLevel] = useState<CefrLevel>(
-    (CEFR_ORDER as readonly string[]).includes(ownLevel ?? '') ? (ownLevel as CefrLevel) : 'A1',
-  );
+  const ownLevelKey = coerceLevel(ownLevel);
+  const [level, setLevel] = useState<CefrLevel>(ownLevelKey);
+  const oneLevel = getActivePack().levels.length === 1;
   const [topic, setTopic] = useState<string | null>(null);
   const [status, setStatus] = useState<CatalogStatus | null>(null);
   const [saved, setSaved] = useState<ReadonlyMap<string, SavedState> | null>(null);
   const [failed, setFailed] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
-  const ownLevelKey: CefrLevel = (CEFR_ORDER as readonly string[]).includes(ownLevel ?? '') ? (ownLevel as CefrLevel) : 'A1';
 
   const load = useCallback(async () => {
     setFailed(false);
@@ -56,7 +57,7 @@ export default function CatalogScreen() {
   const levelCounts = useMemo(() => scopeCounts('level', { level: null, topic }, saved ?? EMPTY), [topic, saved]);
   const topicCounts = useMemo(() => scopeCounts('topic', { level, topic: null }, saved ?? EMPTY), [level, saved]);
   const sections = [
-    levelSection(levelCounts, level, (k) => { if (k) setLevel(k as CefrLevel); }, false),
+    ...(oneLevel ? [] : [levelSection(levelCounts, level, (k) => { if (k) setLevel(k as CefrLevel); }, false)]),
     topicSection(topicCounts, topic, setTopic),
     statusSection(view, status, setStatus),
   ];

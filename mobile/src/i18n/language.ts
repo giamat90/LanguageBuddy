@@ -64,12 +64,12 @@ export function isRtl(lang: NativeLanguage): boolean {
 }
 
 /**
- * Maps a device locale identifier ("fr_FR", "zh-Hans-CN", "pt") to a supported app
- * language; English when it is missing or unsupported.
+ * Maps a device locale identifier ("fr_FR", "zh-Hans-CN", "pt") to an app language this app
+ * offers; English when it is missing, unsupported or not offered.
  */
 export function detectDeviceLanguage(identifier?: string | null): NativeLanguage {
   const primary = (identifier ?? '').split(/[_-]/)[0].trim().toLowerCase();
-  return coerceNativeLanguage(isNativeLanguage(primary) ? primary : 'en');
+  return isNativeLanguage(primary) && offeredLanguages().includes(primary) ? primary : coerceNativeLanguage('en');
 }
 
 /**

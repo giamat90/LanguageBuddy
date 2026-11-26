@@ -23,16 +23,20 @@ export function setActiveLanguage(code, { root, src, nativeCodes }) {
   const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
   if (cfg.draft) return { problems: [`${code} is a draft language (no word bank yet)`] };
   const levels = cfg.levels ?? LEVELS;
-  if (levels.join() !== LEVELS.join()) problems.push(`"${code}" cannot be active: it must define all six levels`);
-  for (const l of LEVELS) {
+  if (levels.length === 0 || levels.join() !== LEVELS.slice(0, levels.length).join()) {
+    return { problems: [`"${code}" cannot be active: its levels must start at A1 and go up in order, without gaps (got ${levels.join(', ') || 'none'})`] };
+  }
+  for (const l of levels) {
     if (!existsSync(join(src, 'data', 'wordbank', code, `${l}.json`))) problems.push(`src/data/wordbank/${code}/${l}.json missing (run build:wordbank)`);
   }
   if (problems.length) return { problems };
 
-  const imports = LEVELS.map((l) => `import ${l.toLowerCase()} from './${code}/${l}.json';`);
+  // A level the language does not have is an empty list, so the bank keeps its six keys.
+  const imports = levels.map((l) => `import ${l.toLowerCase()} from './${code}/${l}.json';`);
+  const entriesOfBank = LEVELS.map((l) => `${l}: ${levels.includes(l) ? l.toLowerCase() : '[]'}`).join(', ');
   writeFileSync(
     join(src, 'data', 'wordbank', 'active.ts'),
-    [HEADER, ...imports, '', `export const LEVEL_FILES = { ${LEVELS.map((l) => `${l}: ${l.toLowerCase()}`).join(', ')} };`, ''].join('\n'),
+    [HEADER, ...imports, '', `export const LEVEL_FILES = { ${entriesOfBank} };`, ''].join('\n'),
   );
 
   const i18nDir = join(src, 'data', 'wordbank', code, 'i18n');

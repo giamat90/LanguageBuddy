@@ -17,6 +17,7 @@ import { parseWordFilter, type StatTier, type WordFilter } from '../lib/stats';
 import { buildCatalog, scopeCounts, type CatalogEntry, type CatalogStatus, type CatalogView, type SavedState } from '../lib/catalog';
 import { TOPICS } from '../lib/topics';
 import type { CefrLevel } from '../data/wordbank';
+import { getActivePack } from '../languages';
 
 const TIER_LABEL: Record<StatTier, 'stats_mastered' | 'stats_learning' | 'stats_new'> = {
   mastered: 'stats_mastered', learning: 'stats_learning', new: 'stats_new',
@@ -105,11 +106,13 @@ export default function StatsWordsScreen() {
     [router],
   );
   const isBank = loaded?.kind === 'bank';
+  // A topic list narrows by level, unless the language has only one.
+  const oneLevel = getActivePack().levels.length === 1;
   const sections = isBank && view && secondaryCounts && filter
     ? [
-      filter.kind === 'topic'
-        ? levelSection(secondaryCounts, secondary, setSecondary, true)
-        : topicSection(secondaryCounts, secondary, setSecondary),
+      ...(filter.kind !== 'topic'
+        ? [topicSection(secondaryCounts, secondary, setSecondary)]
+        : oneLevel ? [] : [levelSection(secondaryCounts, secondary, setSecondary, true)]),
       statusSection(view, status, setStatus),
     ]
     : null;

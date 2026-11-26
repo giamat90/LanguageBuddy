@@ -22,7 +22,7 @@ jest.mock('expo-router', () => ({
 
 const toCard = ({ level, entry: e }: ReturnType<typeof allEntries>[number], i: number): ReviewCard => ({
   id: `c${i}`, word: e.word, article: e.article, translationIt: e.meaning_it, translationEn: e.meaning_en,
-  example: e.example, exampleIt: e.example_it, exampleEn: e.example_en, partOfSpeech: e.part_of_speech,
+  example: e.example, segments: e.segments, exampleIt: e.example_it, exampleEn: e.example_en, partOfSpeech: e.part_of_speech,
   cefrBand: level, topicDomain: e.topic_domain, grammarAngle: e.grammar_angle, timesSeen: 6, retentionScore: 0.95,
 });
 
@@ -43,7 +43,7 @@ it('the practice menu shows the formats of the pack and offers case-free drills 
 });
 
 describe('special characters', () => {
-  it('the article badge names article and word, with the special letters intact', () => {
+  (current().articleForms.length > 0 ? it : it.skip)('the article badge names article and word, with the special letters intact', () => {
     const { entry } = allEntries().find(({ entry: e }) => e.article && [...e.word].some((c) => current().specialCharacters.includes(c)))
       ?? allEntries().find(({ entry: e }) => e.article)!;
     const ui = render(<ArticleBadge article={entry.article} word={entry.word} />);
@@ -58,8 +58,9 @@ describe('special characters', () => {
   });
 
   it('the typed fill-in shows the right hint for a word with special letters and keeps them in the answer line', async () => {
-    const { level, entry } = allEntries().find(({ entry: e }) => [...e.word].some((c) => current().specialCharacters.includes(c)) && buildCloze(e.example, e.word))!;
-    const c = buildCloze(entry.example, entry.word)!;
+    const cloze = (e: ReturnType<typeof allEntries>[number]['entry']) => buildCloze(e.example, e.word, undefined, e.segments);
+    const { level, entry } = allEntries().find(({ entry: e }) => [...e.word].some((c) => current().specialCharacters.includes(c)) && cloze(e))!;
+    const c = cloze(entry)!;
     const card = toCard({ level, entry }, 0);
     setAppLocale('en');
     const ui = render(<TypedClozeView model={{ kind: 'typed_cloze', card, before: c.before, after: c.after }} isRetry={false} onResult={() => {}} />);

@@ -1,4 +1,5 @@
 /** Text handed to the speech engine for whole sentences. Pure: no I/O. */
+import { joinTokens } from './sentence';
 
 const tidy = (s: string) => s.replace(/\s+/g, ' ').trim();
 
@@ -8,12 +9,12 @@ export function clozeSentence(before: string, word: string, after: string): stri
 }
 
 export function reorderSentence(solution: string[]): string {
-  return tidy(solution.join(' '));
+  return tidy(joinTokens(solution));
 }
 
 /** The find-the-mistake sentence with the wrong token replaced: the wrong form is never read aloud. */
 export function correctedSentence(tokens: string[], wrongIndex: number, correctToken: string): string {
-  return tidy(tokens.map((tok, i) => (i === wrongIndex ? correctToken : tok)).join(' '));
+  return tidy(joinTokens(tokens.map((tok, i) => (i === wrongIndex ? correctToken : tok))));
 }
 
 /** An AI exercise sentence with its (first) blank filled by the answer. */

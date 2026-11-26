@@ -1,20 +1,13 @@
 import { buildCloze } from '../cloze';
 import { shuffle, type Rng } from '../grammar';
+import { sentenceTokens, tokenizeSentence } from '../sentence';
 import type { ReviewCard } from '../../services/reviewService';
 import type { SentenceReorderModel } from './types';
 
 export const REORDER_MIN_TOKENS = 4;
 export const REORDER_MAX_TOKENS = 10;
 
-/**
- * Words as written; punctuation stays attached so there are no lone "." tiles. Only ordinary
- * whitespace separates tiles: French writes a no-break space (U+00A0) before ? ! : ; and the
- * mark must stay on its word's tile.
- */
-export function tokenizeSentence(sentence: string): string[] {
-  const trimmed = sentence.replace(/^[ \t\r\n]+|[ \t\r\n]+$/g, '');
-  return trimmed ? trimmed.split(/[ \t\r\n]+/) : [];
-}
+export { tokenizeSentence };
 
 function sameOrder(a: string[], b: string[]): boolean {
   return a.length === b.length && a.every((t, i) => t === b[i]);
@@ -32,8 +25,8 @@ export function shuffleTokens(tokens: string[], rng: Rng): string[] {
  * exercise is about that word and fits a phone screen.
  */
 export function buildReorder(card: ReviewCard, rng: Rng): SentenceReorderModel | null {
-  if (!card.example || !buildCloze(card.example, card.word)) return null;
-  const solution = tokenizeSentence(card.example);
+  if (!card.example || !buildCloze(card.example, card.word, undefined, card.segments)) return null;
+  const solution = sentenceTokens(card.example, card.segments);
   if (solution.length < REORDER_MIN_TOKENS || solution.length > REORDER_MAX_TOKENS) return null;
 
   const tokens = shuffleTokens(solution, rng);

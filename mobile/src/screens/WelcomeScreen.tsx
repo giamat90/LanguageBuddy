@@ -31,6 +31,16 @@ export default function WelcomeScreen() {
     if (applyLayoutDirection(lang).changed) Alert.alert(t('settings_language_restart_notice'));
   }
 
+  // A language without a placement quiz has one level: straight to the topics.
+  const start = () => {
+    const { quiz, levels } = getActivePack();
+    router.push(
+      quiz.length > 0
+        ? { pathname: '/quiz', params: { nativeLanguage } }
+        : { pathname: '/topics', params: { cefrLevel: levels[0], nativeLanguage } },
+    );
+  };
+
   const failed = (err: unknown) => {
     console.error('[Welcome] restore failed:', err);
     Alert.alert(t('welcome_restore_failed'));
@@ -101,7 +111,7 @@ export default function WelcomeScreen() {
       <View style={styles.footer}>
         <PrimaryButton
           label={t('welcome_cta')}
-          onPress={() => router.push({ pathname: '/quiz', params: { nativeLanguage } })}
+          onPress={start}
           disabled={busy}
         />
         <SecondaryButton

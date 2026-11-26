@@ -1,4 +1,5 @@
 import { getActivePack, type LanguagePack } from '../languages';
+import { sentenceParts } from './sentence';
 
 export type Rng = () => number;
 
@@ -26,10 +27,11 @@ export function buildChoiceCloze(
   sentence: string | null | undefined,
   ruleCode: string,
   pack: LanguagePack = getActivePack(),
+  segments?: readonly string[] | null,
 ): ChoiceCloze | null {
   const sets = pack.choices?.ruleSets[ruleCode];
   if (!sets || !sentence) return null;
-  const parts = sentence.split(pack.letters);
+  const parts = sentenceParts(sentence, segments, pack);
   for (let i = 1; i < parts.length; i += 2) {
     const lower = parts[i].toLowerCase();
     const set = sets.find((s) => s.includes(lower));
@@ -184,11 +186,11 @@ export function buildCaseQuestion(
 }
 
 export function buildChoiceQuestion(
-  entry: { word: string; example: string; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
+  entry: { word: string; example: string; segments?: string[]; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
   rng: Rng = Math.random,
   pack: LanguagePack = getActivePack(),
 ): GrammarQuestion | null {
-  const cloze = buildChoiceCloze(entry.example, entry.grammar_angle, pack);
+  const cloze = buildChoiceCloze(entry.example, entry.grammar_angle, pack, entry.segments);
   if (!cloze) return null;
   const initial = cloze.before.trim() === '';
   const fmt = (s: string) => (initial ? capitalize(s) : s);

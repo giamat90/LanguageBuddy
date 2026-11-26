@@ -1,5 +1,6 @@
 import type { TypedResult } from './exercises/quality';
 import { getActivePack, type LanguagePack } from '../languages';
+import { sentenceParts } from './sentence';
 
 export interface Cloze {
   /** Sentence parts around the blank. */
@@ -21,11 +22,12 @@ export function buildCloze(
   sentence: string | null | undefined,
   word: string,
   pack: LanguagePack = getActivePack(),
+  segments?: readonly string[] | null,
 ): Cloze | null {
   if (!sentence) return null;
   const target = word.toLowerCase();
-  const parts = sentence.split(pack.letters);
-  // Odd indexes are the captured letter runs.
+  const parts = sentenceParts(sentence, segments, pack);
+  // Odd indexes are the words.
   const hits: number[] = [];
   for (let i = 1; i < parts.length; i += 2) {
     if (parts[i].toLowerCase() === target) hits.push(i);

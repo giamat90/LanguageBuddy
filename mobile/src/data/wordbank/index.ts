@@ -13,6 +13,8 @@ export interface WordBankEntry {
   meaning_en: string;
   meaning_it: string;
   example: string;
+  /** Segmented languages only: the example cut into words and punctuation; joined, they spell `example`. */
+  segments?: string[];
   example_it: string;
   cultural_note: string;
   grammar_angle: string;

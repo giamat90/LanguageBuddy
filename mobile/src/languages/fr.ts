@@ -16,6 +16,8 @@ export const fr: LanguagePack = {
   code: 'fr',
   name: 'French',
   app: { name: 'FrenchBuddy', backupTag: 'FrenchBuddy', dbFile: 'frenchbuddy.db' },
+  levels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+  sentences: 'spaced',
   // The apostrophe is not a letter: l'ami splits into l | ami, so the noun alone is the word.
   letters: /([A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]+)/,
   // Accents, cedilla, diaeresis and the ligatures fold away (the likeliest slip on a phone keyboard;

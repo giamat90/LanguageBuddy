@@ -4,9 +4,10 @@ import itBase from '../src/i18n/it';
 import enBase from '../src/i18n/en';
 import { SUPPORTED_NATIVE_LANGUAGES, type NativeLanguage } from '../src/i18n/language';
 import i18n, { t, setAppLocale, applyTargetStrings } from '../src/i18n';
-import { REQUIRED_TARGET_KEYS } from '../src/languages/targetStrings';
-import { setActivePackForTests } from '../src/languages';
+import { BASE_TARGET_KEYS, QUIZ_TARGET_KEYS, REQUIRED_TARGET_KEYS, requiredTargetKeys } from '../src/languages/targetStrings';
+import { setActivePackForTests, type LanguagePack } from '../src/languages';
 import { testPack } from '../test-support/testPack';
+import { testPackCjk } from '../test-support/testPackCjk';
 
 const langRoot = join(__dirname, '..', 'src', 'languages');
 const targets = readdirSync(langRoot, { withFileTypes: true })
@@ -26,11 +27,13 @@ describe('target-language string overlays', () => {
     const it_ = load(target, 'it');
     const keys = Object.keys(it_).sort();
 
+    const pack = require(`../src/languages/${target}`)[target] as LanguagePack;
+
     it('supplies every required key', () => {
-      for (const k of REQUIRED_TARGET_KEYS) expect(keys).toContain(k);
+      for (const k of requiredTargetKeys(pack)) expect(keys).toContain(k);
     });
 
-    const offered = (require(`../src/languages/${target}`)[target].uiLanguages as NativeLanguage[]);
+    const offered = pack.uiLanguages as NativeLanguage[];
     it('has exactly the files of its offered app languages', () => {
       expect(offered.slice().sort()).toEqual(readdirSync(join(langRoot, target, 'strings')).map((f) => f.replace('.ts', '')).sort());
     });
@@ -42,6 +45,19 @@ describe('target-language string overlays', () => {
       expect(bad).toEqual([]);
       if (ui !== 'en') expect(keys.filter((k) => dict[k] === it_[k] && !SAME(k))).toEqual([]);
     });
+  });
+});
+
+describe('required keys follow the pack (TASK-071)', () => {
+  it('a language with a quiz needs the quiz texts', () => {
+    expect([...requiredTargetKeys(testPack)]).toEqual([...REQUIRED_TARGET_KEYS]);
+    expect([...REQUIRED_TARGET_KEYS]).toEqual([...BASE_TARGET_KEYS, ...QUIZ_TARGET_KEYS]);
+    expect(BASE_TARGET_KEYS).toHaveLength(4);
+    expect(QUIZ_TARGET_KEYS).toHaveLength(15);
+  });
+
+  it('a language without a quiz does not', () => {
+    expect([...requiredTargetKeys(testPackCjk)]).toEqual([...BASE_TARGET_KEYS]);
   });
 });
 

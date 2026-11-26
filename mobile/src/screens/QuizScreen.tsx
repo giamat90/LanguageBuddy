@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
@@ -6,6 +6,7 @@ import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { t } from '../i18n';
 import { getActivePack } from '../languages';
+import { coerceLevel } from '../lib/levels';
 import type { StringKey } from '../i18n';
 import SectionLabel from '../components/ui/SectionLabel';
 
@@ -39,6 +40,12 @@ export default function QuizScreen() {
   const [step, setStep]   = useState(0);
   const [score, setScore] = useState(0);
   const QUESTIONS = useMemo(questions, []);
+  const none = QUESTIONS.length === 0;
+
+  // A language without a quiz has nothing to ask: replace, so "back" does not return here.
+  useEffect(() => {
+    if (none) router.replace({ pathname: '/topics', params: { cefrLevel: coerceLevel(undefined), nativeLanguage } });
+  }, [none]);
 
   const handleAnswer = (selectedIndex: 0 | 1) => {
     const correct = QUESTIONS[step].correctIndex === selectedIndex;
@@ -47,11 +54,12 @@ export default function QuizScreen() {
       setStep(step + 1);
       setScore(newScore);
     } else {
-      const level = inferCefrLevel(newScore);
+      const level = coerceLevel(inferCefrLevel(newScore));
       router.push({ pathname: '/topics', params: { cefrLevel: level, nativeLanguage } });
     }
   };
 
+  if (none) return null;
   const q = QUESTIONS[step];
 
   return (

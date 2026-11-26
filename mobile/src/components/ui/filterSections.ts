@@ -1,5 +1,5 @@
 import { t } from '../../i18n';
-import { CEFR_ORDER } from '../../data/wordbank';
+import { getActivePack } from '../../languages';
 import { TOPICS } from '../../lib/topics';
 import { CATALOG_STATUSES, type CatalogStatus, type CatalogView } from '../../lib/catalog';
 import { statusLabel } from './CatalogRow';
@@ -9,7 +9,8 @@ import type { FilterSection } from './FilterSheet';
 export function levelSection(
   counts: Record<string, number>, selected: string | null, onSelect: (k: string | null) => void, allowAll: boolean,
 ): FilterSection {
-  const total = CEFR_ORDER.reduce((n, l) => n + counts[l], 0);
+  const { levels } = getActivePack();
+  const total = levels.reduce((n, l) => n + counts[l], 0);
   return {
     id: 'level',
     title: t('filter_section_level'),
@@ -17,7 +18,7 @@ export function levelSection(
     onSelect,
     options: [
       ...(allowAll ? [{ key: null, label: t('stats_words_all_levels'), count: total, testID: 'filter-opt-level-all' }] : []),
-      ...CEFR_ORDER.map((l) => ({ key: l as string, label: l as string, count: counts[l], testID: `filter-opt-level-${l}` })),
+      ...levels.map((l) => ({ key: l as string, label: l as string, count: counts[l], testID: `filter-opt-level-${l}` })),
     ],
   };
 }

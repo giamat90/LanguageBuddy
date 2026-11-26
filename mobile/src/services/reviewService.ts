@@ -12,6 +12,8 @@ export interface ReviewCard {
   translationIt: string | null;
   translationEn: string | null;
   example: string | null;
+  /** The bank's word boundaries of the example (segmented languages only). */
+  segments?: string[] | null;
   exampleIt: string | null;
   exampleEn: string | null;
   /** From the word bank; null/absent when the word is not in it. Used to pick multiple-choice distractors. */
@@ -36,6 +38,7 @@ interface ReviewRow {
 
 interface BankInfo {
   example: string;
+  segments: string[] | null;
   it: string;
   en: string;
   pos: string;
@@ -52,6 +55,7 @@ function bankFor(word: string): BankInfo | undefined {
     for (const { level, entry } of allEntries()) {
       bankIndex.set(entry.word.toLowerCase(), {
         example: entry.example,
+        segments: entry.segments ?? null,
         it: entry.example_it,
         en: entry.example_en,
         pos: entry.part_of_speech,
@@ -73,6 +77,7 @@ function toCard(r: ReviewRow): ReviewCard {
     translationIt: r.translation_it,
     translationEn: r.translation_en,
     example: bank?.example ?? null,
+    segments: bank?.segments ?? null,
     exampleIt: bank?.it ?? null,
     exampleEn: bank?.en ?? null,
     partOfSpeech: bank?.pos ?? null,

@@ -12,6 +12,7 @@ import { fetchStats, type StatsSnapshot } from '../services/statsService';
 import type { GroupStat, WordFilter } from '../lib/stats';
 import { TOPICS } from '../lib/topics';
 import type { CefrLevel } from '../data/wordbank';
+import { getActivePack } from '../languages';
 import { STATUS_COLORS } from '../theme/statusColors';
 
 
@@ -99,6 +100,7 @@ function Legend() {
 
 export default function StatsScreen() {
   const router = useRouter();
+  const { levels } = getActivePack();
   const [stats, setStats] = useState<StatsSnapshot | null>(null);
   const [failed, setFailed] = useState(false);
 
@@ -189,16 +191,20 @@ export default function StatsScreen() {
                 ) : null;
               })}
 
-              <Text style={[typography.uiSmall, styles.sectionLabel, { marginTop: 24 }]}>{t('stats_by_level')}</Text>
-              {stats.byLevel.map((g) => (
-                <GroupRow
-                  key={g.key}
-                  id={`stats-level-${g.key}`}
-                  label={g.key}
-                  group={g}
-                  onPress={() => openWords({ kind: 'level', key: g.key as CefrLevel })}
-                />
-              ))}
+              {levels.length > 1 ? (
+                <>
+                  <Text style={[typography.uiSmall, styles.sectionLabel, { marginTop: 24 }]}>{t('stats_by_level')}</Text>
+                  {stats.byLevel.filter((g) => (levels as readonly string[]).includes(g.key)).map((g) => (
+                    <GroupRow
+                      key={g.key}
+                      id={`stats-level-${g.key}`}
+                      label={g.key}
+                      group={g}
+                      onPress={() => openWords({ kind: 'level', key: g.key as CefrLevel })}
+                    />
+                  ))}
+                </>
+              ) : null}
               <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 12 }]}>{t('stats_legend_note')}</Text>
               <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 4 }]}>{t('stats_tap_hint')}</Text>
               <TouchableOpacity

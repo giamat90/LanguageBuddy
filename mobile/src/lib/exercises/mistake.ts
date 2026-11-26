@@ -2,7 +2,7 @@ import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, type 
 import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
 import { FORMAT_QUALITY } from './quality';
-import { tokenizeSentence } from './reorder';
+import { sentenceTokens } from '../sentence';
 import type { FindMistakeModel } from './types';
 
 /**
@@ -60,7 +60,7 @@ function pick<T>(list: T[], rng: Rng): T {
  */
 export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack = getActivePack()): FindMistakeModel | null {
   if (!card.example) return null;
-  const tokens = tokenizeSentence(card.example);
+  const tokens = sentenceTokens(card.example, card.segments, pack);
   if (tokens.length < MISTAKE_MIN_TOKENS || tokens.length > MISTAKE_MAX_TOKENS) return null;
 
   const core = (i: number) => splitToken(tokens[i], pack).core.toLowerCase();
@@ -96,7 +96,7 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
   }
 
   // Choice slot: the first member of a form set of the sentence's tagged rule.
-  const choice = card.grammarAngle ? buildChoiceCloze(card.example, card.grammarAngle, pack) : null;
+  const choice = card.grammarAngle ? buildChoiceCloze(card.example, card.grammarAngle, pack, card.segments) : null;
   let choiceAt = -1;
   if (choice) {
     const sets = pack.choices!.ruleSets[card.grammarAngle as string];

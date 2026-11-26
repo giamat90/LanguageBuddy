@@ -10,6 +10,7 @@ import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { t } from '../i18n';
 import { coerceNativeLanguage } from '../i18n/language';
+import { coerceLevel } from '../lib/levels';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import { TOPICS, buildTopicPreferences } from '../lib/topics';
 
@@ -39,8 +40,9 @@ export default function TopicsScreen() {
     try {
       const prefs = buildTopicPreferences(TOPICS.map((tp) => tp.key), selected);
       const lang = coerceNativeLanguage(nativeLanguage);
-      await submitOnboarding({ cefr_level: cefrLevel ?? 'A1', topic_preferences: prefs, native_language: lang });
-      setCefrLevel(cefrLevel ?? 'A1');
+      const level = coerceLevel(cefrLevel); // a route param: only a level this language has
+      await submitOnboarding({ cefr_level: level, topic_preferences: prefs, native_language: lang });
+      setCefrLevel(level);
       setNativeLanguage(lang);
       setHasProfile(true);
       // The vault is the home screen: drop welcome and quiz from the history, or it shows a back

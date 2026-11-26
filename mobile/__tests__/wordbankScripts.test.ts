@@ -138,6 +138,57 @@ describe('set-active-language', () => {
   });
 });
 
+describe('activating a language with fewer levels (TASK-071)', () => {
+  /** A fixture language "xx" with the given levels in language.json and JSON files for `built`. */
+  const fixtureLang = (levels: string[], built: string[]) => {
+    const root = mkdtempSync(join(tmpdir(), 'wb-lvl-'));
+    const src = mkdtempSync(join(tmpdir(), 'wb-lvl-src-'));
+    dirs.push(root, src);
+    mkdirSync(join(root, 'xx'));
+    writeFileSync(join(root, 'xx', 'language.json'), JSON.stringify({ ...LANG_JSON, levels }));
+    mkdirSync(join(src, 'languages'));
+    writeFileSync(join(src, 'languages', 'xx.ts'), '');
+    mkdirSync(join(src, 'data', 'wordbank', 'xx'), { recursive: true });
+    for (const l of built) writeFileSync(join(src, 'data', 'wordbank', 'xx', `${l}.json`), '[]');
+    mkdirSync(join(src, 'i18n'));
+    const activate = () => run('set-active-language.mjs', ['xx', '--root', root, '--src', src]);
+    const bank = () => readFileSync(join(src, 'data', 'wordbank', 'active.ts'), 'utf8');
+    const wrote = () => existsSync(join(src, 'languages', 'active.ts')) || existsSync(join(src, 'data', 'wordbank', 'active.ts'));
+    return { activate, bank, wrote };
+  };
+
+  it('an A1-only language activates; the other levels are empty', () => {
+    const f = fixtureLang(['A1'], ['A1']);
+    expect(f.activate().status).toBe(0);
+    expect(f.bank()).toContain("import a1 from './xx/A1.json';");
+    expect(f.bank()).not.toContain('A2.json');
+    expect(f.bank()).toContain('export const LEVEL_FILES = { A1: a1, A2: [], B1: [], B2: [], C1: [], C2: [] };');
+  });
+
+  it('two levels import two files', () => {
+    const f = fixtureLang(['A1', 'A2'], ['A1', 'A2']);
+    expect(f.activate().status).toBe(0);
+    expect(f.bank()).toContain('export const LEVEL_FILES = { A1: a1, A2: a2, B1: [], B2: [], C1: [], C2: [] };');
+  });
+
+  it.each([[[] as string[]], [['A2']], [['A1', 'B1']], [['A2', 'A1']]])('refuses the levels %p and writes nothing', (levels) => {
+    const f = fixtureLang(levels, ['A1', 'A2', 'B1']);
+    const r = f.activate();
+    expect(r.status).toBe(1);
+    expect(r.stderr).toMatch(/A1/);
+    expect(r.stderr).toMatch(/in order/);
+    expect(f.wrote()).toBe(false);
+  });
+
+  it('refuses a listed level without its JSON file', () => {
+    const f = fixtureLang(['A1', 'A2'], ['A1']);
+    const r = f.activate();
+    expect(r.status).toBe(1);
+    expect(r.stderr).toMatch(/A2\.json missing/);
+    expect(f.wrote()).toBe(false);
+  });
+});
+
 describe('the repository layout', () => {
   const here = join(__dirname, '..');
   it('keeps German sources and generated data under a language folder', () => {

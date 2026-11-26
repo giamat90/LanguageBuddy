@@ -78,7 +78,7 @@ export function practiceConfig(format: PracticeFormat): PracticeConfig {
 export function canPractice(card: ReviewCard, format: PracticeFormat, rng: Rng = Math.random): boolean {
   switch (format) {
     case 'typed_cloze':
-      return buildCloze(card.example, card.word) !== null;
+      return buildCloze(card.example, card.word, undefined, card.segments) !== null;
     case 'sentence_reorder':
       return buildReorder(card, rng) !== null;
     case 'find_mistake':

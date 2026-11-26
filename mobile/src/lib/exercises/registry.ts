@@ -17,7 +17,7 @@ export const TYPED_CLOZE: ExerciseDefinition = {
   tiers: ['learning', 'strong'],
   weight: 2,
   build(card) {
-    const cloze = buildCloze(card.example, card.word);
+    const cloze = buildCloze(card.example, card.word, undefined, card.segments);
     return cloze ? { kind: 'typed_cloze', card, before: cloze.before, after: cloze.after } : null;
   },
 };

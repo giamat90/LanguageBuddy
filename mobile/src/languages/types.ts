@@ -2,6 +2,7 @@
 export type TargetLanguageCode = 'de' | 'es' | 'fr';
 
 import type { NativeLanguage } from '../i18n/language';
+import type { CefrLevel } from '../data/wordbank';
 
 export type Gender = 'm' | 'f' | 'n';
 
@@ -60,6 +61,10 @@ export interface LanguagePack {
   name: string;
   /** App identity: the name shown in dialogs, the tag written into (and required of) backups, the SQLite file. */
   app: { name: string; backupTag: string; dbFile: string };
+  /** The levels this app has words for: a non-empty prefix of A1…C2. Read a stored level through `coerceLevel`. */
+  levels: readonly CefrLevel[];
+  /** 'spaced': words are found with `letters`. 'segmented': the bank says where they are, and no space joins them. */
+  sentences: 'spaced' | 'segmented';
   /** What a word is made of: a regex with exactly ONE capture group (so `split` keeps the words). */
   letters: RegExp;
   /** Lower-cases, trims and folds the letters a learner may slip on (ß→ss, ä→a …). */
@@ -79,7 +84,7 @@ export interface LanguagePack {
   cases: CaseSupport | null;
   /** null → no choice drill and no choice slot in "find the mistake". */
   choices: ChoiceSupport | null;
-  /** The placement quiz: the sentences live in `strings`, the right answers here. */
+  /** The placement quiz: the sentences live in `strings`, the right answers here. Empty = no quiz (one level). */
   quiz: readonly QuizItem[];
   /** The app languages (UI) this app offers; a native speaker of the target language is left out. */
   uiLanguages: readonly NativeLanguage[];

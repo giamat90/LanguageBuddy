@@ -3,6 +3,7 @@ import { uid } from '../data/ids';
 import { isoDate } from '../data/srs';
 import type { CefrLevel } from '../data/wordbank';
 import { coerceNativeLanguage, type NativeLanguage } from '../i18n/language';
+import { coerceLevel } from '../lib/levels';
 import { TOPIC_KEYS } from '../lib/topics';
 
 export interface LocalProfile {
@@ -40,7 +41,8 @@ function mapRow(row: ProfileRow): LocalProfile {
   }
   return {
     id: row.id,
-    cefrLevel: (row.cefr_level as CefrLevel) ?? 'A1',
+    // Only what is read is coerced: the stored value stays, so a later bank with that level restores it.
+    cefrLevel: coerceLevel(row.cefr_level),
     topicPreferences: prefs,
     streakDays: row.streak_days ?? 0,
     lastActiveAt: row.last_active_at,

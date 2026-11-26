@@ -1,12 +1,15 @@
 import { buildCloze } from '../cloze';
+import { getActivePack, type LanguagePack } from '../../languages';
 import { pickWeighted, type Rng } from '../grammar';
 import type { ReviewCard } from '../../services/reviewService';
 import { distractorSupply } from './distractors';
 import { MATCH_MIN, buildMatchingRound } from './matching';
 import { buildFindMistake } from './mistake';
 import { buildReorder } from './reorder';
+import { buildToneChoice } from './tone';
 import {
-  DEFAULT_REGISTRY, FIND_MISTAKE, FLASHCARD, MATCHING, MULTIPLE_CHOICE, SENTENCE_REORDER, TYPED_CLOZE,
+  DEFAULT_REGISTRY, FIND_MISTAKE, FLASHCARD, MATCHING, MULTIPLE_CHOICE, SENTENCE_REORDER, TONE_CHOICE,
+  TYPED_CLOZE,
 } from './registry';
 import type { ExerciseDefinition, GroupExerciseDefinition, Tier } from './types';
 
@@ -22,12 +25,20 @@ export type PracticeFormat =
   | 'multiple_choice'
   | 'sentence_reorder'
   | 'find_mistake'
-  | 'typed_cloze';
+  | 'typed_cloze'
+  | 'tone_choice';
 
-/** In menu order. */
+/** The formats every language starts from, in menu order. */
 export const PRACTICE_FORMATS: PracticeFormat[] = [
   'mixed', 'matching', 'multiple_choice', 'sentence_reorder', 'find_mistake', 'typed_cloze',
 ];
+
+/** What the menu offers for a language: only formats it can build. */
+export function practiceFormats(pack: LanguagePack = getActivePack()): PracticeFormat[] {
+  const hasSlot = Boolean(pack.gender || pack.cases || pack.choices);
+  const formats = PRACTICE_FORMATS.filter((f) => f !== 'find_mistake' || hasSlot);
+  return pack.reading ? [...formats, 'tone_choice'] : formats;
+}
 
 export const PRACTICE_SIZE = 10;
 /** Weak words are favoured, but strong ones still come up. */
@@ -42,7 +53,7 @@ function anyTier<T extends { tiers: Tier[] }>(def: T): T {
 /** Unknown or missing values (and bad URLs) mean "mixed". */
 export function parsePracticeFormat(raw: unknown): PracticeFormat {
   const value = Array.isArray(raw) ? raw[0] : raw;
-  return PRACTICE_FORMATS.includes(value as PracticeFormat) ? (value as PracticeFormat) : 'mixed';
+  return practiceFormats().includes(value as PracticeFormat) ? (value as PracticeFormat) : 'mixed';
 }
 
 export interface PracticeConfig {
@@ -62,6 +73,8 @@ export function practiceConfig(format: PracticeFormat): PracticeConfig {
       return { registry: [anyTier(MULTIPLE_CHOICE), FLASHCARD], groups: [], groupsOnly: false };
     case 'find_mistake':
       return { registry: [anyTier(FIND_MISTAKE), FLASHCARD], groups: [], groupsOnly: false };
+    case 'tone_choice':
+      return { registry: [anyTier(TONE_CHOICE), FLASHCARD], groups: [], groupsOnly: false };
     case 'matching':
       return { registry: [FLASHCARD], groups: [anyTier(MATCHING)], groupsOnly: true };
     case 'mixed':
@@ -83,6 +96,8 @@ export function canPractice(card: ReviewCard, format: PracticeFormat, rng: Rng =
       return buildReorder(card, rng) !== null;
     case 'find_mistake':
       return buildFindMistake(card, rng) !== null;
+    case 'tone_choice':
+      return buildToneChoice(card, rng) !== null;
     case 'multiple_choice':
       // Cheap on purpose (this runs for every saved word): enough same-type words to draw from.
       // The rare card whose distractors then clash falls back to a flip-card in the session.
@@ -122,7 +137,7 @@ export function selectPracticeCards(
 /** Which formats the vault can support right now (drives the menu). */
 export function practiceAvailability(cards: ReviewCard[]): Record<PracticeFormat, boolean> {
   const result = {} as Record<PracticeFormat, boolean>;
-  for (const format of PRACTICE_FORMATS) {
+  for (const format of practiceFormats()) {
     if (format === 'matching') {
       const usable = cards.filter((c) => canPractice(c, 'matching'));
       result[format] = usable.length >= MATCH_MIN && buildMatchingRound(usable, () => 0) !== null;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import { colors } from '../../theme/colors';
-import { typography } from '../../theme/typography';
+import { exampleStyle } from '../../theme/typography';
 
 interface Props {
   text: string;
@@ -11,7 +11,7 @@ interface Props {
 export default function CulturalNote({ text, style }: Props) {
   return (
     <View style={[styles.container, style]}>
-      <Text style={[typography.exampleDe, { color: colors.ink }]}>{text}</Text>
+      <Text style={[exampleStyle(), { color: colors.ink }]}>{text}</Text>
     </View>
   );
 }

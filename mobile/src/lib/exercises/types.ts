@@ -10,7 +10,8 @@ export type ExerciseKind =
   | 'flashcard'
   | 'multiple_choice'
   | 'sentence_reorder'
-  | 'find_mistake';
+  | 'find_mistake'
+  | 'tone_choice';
 
 export interface TypedClozeModel {
   kind: 'typed_cloze';
@@ -31,6 +32,8 @@ export interface MultipleChoiceOption {
   article: string | null;
   meaningIt: string;
   meaningEn: string;
+  /** Pronunciation, in languages with a reading layer. */
+  pronunciation?: string;
   /** Where the word sits in the bank; picks the right row for words that exist in two levels. */
   cefrBand?: string | null;
 }
@@ -71,12 +74,21 @@ export interface FindMistakeModel {
   correctOption: number;
 }
 
+/** The word in its own script: pick its pronunciation among wrong tones. */
+export interface ToneChoiceModel {
+  kind: 'tone_choice';
+  card: ReviewCard;
+  options: string[];
+  correctIndex: number;
+}
+
 export type ExerciseModel =
   | TypedClozeModel
   | FlashcardModel
   | MultipleChoiceModel
   | SentenceReorderModel
-  | FindMistakeModel;
+  | FindMistakeModel
+  | ToneChoiceModel;
 
 export interface ExerciseDefinition {
   kind: ExerciseKind;

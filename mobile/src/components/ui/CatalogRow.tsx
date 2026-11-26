@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { colors } from '../../theme/colors';
-import { typography } from '../../theme/typography';
+import { typography, exampleStyle } from '../../theme/typography';
+import { useListPinyin } from '../../hooks/useListPinyin';
 import { STATUS_COLORS, TODO_RING } from '../../theme/statusColors';
 import { t } from '../../i18n';
 import { localizedText } from '../../i18n/wordContent';
@@ -53,6 +54,7 @@ function CatalogRowBase({ entry, showLevel, onOpen, onStart }: {
   const lang = useUserStore((s) => s.nativeLanguage);
   const meaning = localizedText(lang, 'meaning', { word: entry.word, level: entry.level }, entry.translationIt, entry.translationEn);
   const status = rowStatusLabel(entry.status);
+  const pinyin = useListPinyin(entry.word);
   const color = entry.status === 'todo' ? colors.muted : STATUS_COLORS[entry.status];
   const a11y = t('catalog_row_a11y', {
     word: entry.article ? `${entry.article} ${entry.word}` : entry.word,
@@ -64,7 +66,12 @@ function CatalogRowBase({ entry, showLevel, onOpen, onStart }: {
       <View style={styles.main}>
         <View style={styles.wordRow}>
           {entry.article ? <ArticleBadge article={entry.article} style={{ marginRight: 8 }} /> : null}
-          <Text style={[typography.exampleDe, { color: colors.ink, flexShrink: 1 }]} numberOfLines={1}>{entry.word}</Text>
+          <Text style={[exampleStyle(), { color: colors.ink, flexShrink: 1 }]} numberOfLines={1}>{entry.word}</Text>
+          {pinyin ? (
+            <Text style={[typography.uiSmall, { color: colors.muted, marginLeft: 8, flexShrink: 1 }]} numberOfLines={1}>
+              {pinyin}
+            </Text>
+          ) : null}
           {showLevel && entry.level ? <CefrBadge level={entry.level} style={{ marginLeft: 8 }} /> : null}
         </View>
         {meaning ? (

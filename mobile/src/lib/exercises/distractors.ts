@@ -14,6 +14,7 @@ export interface DistractorSource {
   topicDomain: string;
   meaningIt: string;
   meaningEn: string;
+  pronunciation?: string;
 }
 
 let pool: DistractorSource[] | null = null;
@@ -29,6 +30,8 @@ export function getDistractorPool(): DistractorSource[] {
       topicDomain: entry.topic_domain,
       meaningIt: entry.meaning_it,
       meaningEn: entry.meaning_en,
+      // Only a bank with syllables is one whose pronunciation the exercises show.
+      ...(entry.syllables ? { pronunciation: entry.ipa } : {}),
     }));
   }
   return pool;
@@ -180,6 +183,7 @@ function toOption(
   meaningIt: string,
   meaningEn: string,
   cefrBand: string | null | undefined,
+  pronunciation?: string | null,
 ): MultipleChoiceOption {
   return {
     id: `${article ? `${article} ` : ''}${word}`.toLowerCase(),
@@ -188,6 +192,7 @@ function toOption(
     meaningIt,
     meaningEn,
     cefrBand,
+    ...(pronunciation ? { pronunciation } : {}),
   };
 }
 
@@ -201,9 +206,12 @@ export function buildMultipleChoice(
   const distractors = pickDistractors(card, candidates, rng, 3, lang);
   if (!distractors || !card.translationIt || !card.translationEn) return null;
 
-  const correct = toOption(card.word, card.article, card.translationIt, card.translationEn, card.cefrBand);
+  const correct = toOption(
+    card.word, card.article, card.translationIt, card.translationEn, card.cefrBand, card.pronunciation,
+  );
   const options = shuffle(
-    [correct, ...distractors.map((d) => toOption(d.word, d.article, d.meaningIt, d.meaningEn, d.cefrBand))],
+    [correct, ...distractors.map((d) =>
+      toOption(d.word, d.article, d.meaningIt, d.meaningEn, d.cefrBand, d.pronunciation))],
     rng,
   );
   const direction = card.timesSeen <= 1 ? 'to_native' : rng() < 0.5 ? 'to_native' : 'to_german';

@@ -10,7 +10,13 @@ import { clozeSentence } from '../../lib/sentenceSpeech';
 import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
 import { gradeTypedAnswer, letterCount } from '../../lib/cloze';
-import { typedQuality, type TypedResult } from '../../lib/exercises/quality';
+import { pinyinQuality, typedQuality, type TypedResult } from '../../lib/exercises/quality';
+import { getActivePack } from '../../languages';
+import { rubyCells, blankCell } from '../../lib/reading/ruby';
+import type { PinyinResult } from '../../lib/reading/pinyin';
+import PinyinSentence from '../ui/PinyinSentence';
+import RevealPinyinButton from '../ui/RevealPinyinButton';
+import { useExercisePinyin } from './useExercisePinyin';
 import type { TypedClozeModel } from '../../lib/exercises/types';
 
 interface Props {
@@ -23,13 +29,43 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
   const lang = useUserStore((s) => s.nativeLanguage);
   const { card, before, after } = model;
   const [answer, setAnswer] = useState('');
-  const [result, setResult] = useState<TypedResult | null>(null);
+  const [result, setResult] = useState<TypedResult | PinyinResult | null>(null);
   const [hintUsed, setHintUsed] = useState(false);
+
+  // A language with a reading layer also takes the answer written in Latin letters.
+  const { reading } = getActivePack();
+  const syllables = reading ? card.syllables : null;
+  const pinyin = useExercisePinyin(result !== null);
+  const cells = reading ? rubyCells(card.segments, card.examplePinyin) : null;
+  const blank = cells ? blankCell(cells, card.word, before) : -1;
+  const ruby = blank >= 0 ? cells : null;
+  const rubyShown = ruby !== null && pinyin.shows(card);
 
   const check = () => {
     if (!answer.trim()) return;
-    setResult(gradeTypedAnswer(answer, card.word));
+    setResult(
+      reading && syllables && reading.isInput(answer)
+        ? reading.grade(answer, syllables, ruby?.[blank].pinyin)
+        : gradeTypedAnswer(answer, card.word),
+    );
   };
+
+  const quality = (outcome: TypedResult | PinyinResult) => {
+    // Right letters without the tones is a near miss; a wrong tone is a wrong word.
+    const graded = outcome === 'missing_tones' ? 'close' : outcome === 'wrong_tone' ? 'wrong' : outcome;
+    return pinyinQuality(typedQuality(graded, hintUsed), pinyin.peeked(card));
+  };
+
+  const feedback = (outcome: TypedResult | PinyinResult) => {
+    switch (outcome) {
+      case 'exact': return t('review_correct');
+      case 'close': return t('review_almost', { word: card.word });
+      case 'missing_tones': return t('reading_missing_tones');
+      case 'wrong_tone': return t('reading_wrong_tone');
+      case 'wrong': return t('review_answer_was', { word: card.word });
+    }
+  };
+  const placeholder = syllables ? t('reading_cloze_placeholder') : t('review_cloze_placeholder');
 
   // Nouns are capitalised in German; show the initial the way it is written.
   const hintLetter = card.article ? card.word.charAt(0).toUpperCase() : card.word.charAt(0);
@@ -43,11 +79,21 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
         <Text style={[typography.uiSmall, { color: colors.muted, marginBottom: 16 }]}>
           {t('review_cloze_prompt')}
         </Text>
-        <Text style={[typography.body, { color: colors.ink, textAlign: 'center' }]}>
-          {before}
-          <Text style={{ color: colors.forest }}>{result === null ? '_____' : card.word}</Text>
-          {after}
-        </Text>
+        {ruby && rubyShown ? (
+          <PinyinSentence
+            cells={ruby}
+            blank={{ index: blank, filled: result !== null }}
+            label={`${before}${result === null ? '_____' : card.word}${after}`}
+            centered
+          />
+        ) : (
+          <Text style={[typography.body, { color: colors.ink, textAlign: 'center' }]}>
+            {before}
+            <Text style={{ color: colors.forest }}>{result === null ? '_____' : card.word}</Text>
+            {after}
+          </Text>
+        )}
+        {ruby && pinyin.offers([card]) ? <RevealPinyinButton onPress={pinyin.reveal} /> : null}
         <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 12, textAlign: 'center' }]}>
           {localizedText(lang, 'example', { word: card.word, level: card.cefrBand }, card.exampleIt, card.exampleEn) ?? ''}
         </Text>
@@ -59,7 +105,9 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
           <>
             {hintUsed ? (
               <Text style={[typography.uiSmall, { color: colors.forest, marginTop: 16 }]}>
-                {t('review_hint_text', { letter: hintLetter, count: letterCount(card.word) })}
+                {reading && syllables
+                  ? t('reading_hint_text', reading.hint(syllables))
+                  : t('review_hint_text', { letter: hintLetter, count: letterCount(card.word) })}
               </Text>
             ) : (
               <TouchableOpacity
@@ -75,27 +123,33 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
               style={styles.input}
               value={answer}
               onChangeText={setAnswer}
-              placeholder={t('review_cloze_placeholder')}
+              placeholder={placeholder}
               placeholderTextColor={colors.muted}
               autoCapitalize="none"
               autoCorrect={false}
               onSubmitEditing={check}
-              accessibilityLabel={t('review_cloze_placeholder')}
+              accessibilityLabel={placeholder}
             />
           </>
         ) : (
-          <Text
-            style={[
-              typography.body,
-              { color: result === 'wrong' ? colors.ink : colors.forest, marginTop: 20, textAlign: 'center' },
-            ]}
-          >
-            {result === 'exact'
-              ? t('review_correct')
-              : result === 'close'
-                ? t('review_almost', { word: card.word })
-                : t('review_answer_was', { word: card.word })}
-          </Text>
+          <>
+            <Text
+              style={[
+                typography.body,
+                {
+                  color: result === 'wrong' || result === 'wrong_tone' ? colors.ink : colors.forest,
+                  marginTop: 20,
+                  textAlign: 'center',
+                },
+              ]}
+            >
+              {feedback(result)}
+            </Text>
+            {/* Without the sentence cells the pronunciation still has to appear once answered. */}
+            {syllables && !ruby ? (
+              <Text style={[typography.body, { color: colors.muted, marginTop: 4 }]}>{card.pronunciation}</Text>
+            ) : null}
+          </>
         )}
         {result !== null ? <SentenceSpeaker sentence={clozeSentence(before, card.word, after)} /> : null}
       </View>
@@ -113,7 +167,7 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
         ) : (
           <PrimaryButton
             label={t('review_continue')}
-            onPress={() => onResult(typedQuality(result, hintUsed))}
+            onPress={() => onResult(quality(result))}
           />
         )}
       </View>

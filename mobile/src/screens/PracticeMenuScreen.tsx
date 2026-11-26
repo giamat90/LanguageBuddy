@@ -7,7 +7,7 @@ import { typography } from '../theme/typography';
 import { t } from '../i18n';
 import Divider from '../components/ui/Divider';
 import { fetchVaultCards } from '../services/reviewService';
-import { PRACTICE_FORMATS, practiceAvailability, type PracticeFormat } from '../lib/exercises';
+import { practiceFormats, practiceAvailability, type PracticeFormat } from '../lib/exercises';
 
 type Availability = Record<PracticeFormat, boolean>;
 
@@ -56,7 +56,7 @@ export default function PracticeMenuScreen() {
                 {t('practice_need_words')}
               </Text>
             ) : null}
-            {PRACTICE_FORMATS.map((format) => {
+            {practiceFormats().map((format) => {
               const enabled = availability[format];
               const reason = enabled || empty
                 ? null

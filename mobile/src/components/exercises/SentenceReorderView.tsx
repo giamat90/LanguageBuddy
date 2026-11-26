@@ -10,7 +10,12 @@ import { reorderSentence } from '../../lib/sentenceSpeech';
 import { joinTokens } from '../../lib/sentence';
 import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
-import { FORMAT_QUALITY } from '../../lib/exercises/quality';
+import { FORMAT_QUALITY, pinyinQuality } from '../../lib/exercises/quality';
+import { getActivePack } from '../../languages';
+import { rubyCells } from '../../lib/reading/ruby';
+import { tilePinyin } from '../../lib/reading/tiles';
+import RevealPinyinButton from '../ui/RevealPinyinButton';
+import { useExercisePinyin } from './useExercisePinyin';
 import { gradeReorder, type ReorderResult } from '../../lib/exercises/reorder';
 import type { SentenceReorderModel } from '../../lib/exercises/types';
 
@@ -31,6 +36,18 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
   const pool = tokens.map((_, i) => i).filter((i) => !placed.includes(i));
   const done = result !== null;
   const sentence = joinTokens(solution);
+  const pinyin = useExercisePinyin(done);
+  const cells = getActivePack().reading ? rubyCells(card.segments, card.examplePinyin) : null;
+  const above = tilePinyin(tokens, solution, cells);
+  const face = (i: number) => (
+    <>
+      {pinyin.shows(card) && above[i] ? (
+        <Text style={[typography.articleMeta, { color: colors.muted, textAlign: 'center' }]}>{above[i]}</Text>
+      ) : null}
+      <Text style={[typography.body, { color: colors.ink, textAlign: 'center' }]}>{tokens[i]}</Text>
+    </>
+  );
+  const give = (quality: number) => onResult(pinyinQuality(quality, pinyin.peeked(card)));
 
   const check = () => setResult(gradeReorder(placed.map((i) => tokens[i]), solution));
   const giveUp = () => {
@@ -63,7 +80,7 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
               accessibilityLabel={tokens[i]}
               activeOpacity={0.75}
             >
-              <Text style={[typography.body, { color: colors.ink }]}>{tokens[i]}</Text>
+              {face(i)}
             </TouchableOpacity>
           ))}
         </View>
@@ -80,10 +97,11 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
               accessibilityLabel={tokens[i]}
               activeOpacity={0.75}
             >
-              <Text style={[typography.body, { color: colors.ink }]}>{tokens[i]}</Text>
+              {face(i)}
             </TouchableOpacity>
           ))}
         </View>
+        {cells && pinyin.offers([card]) ? <RevealPinyinButton onPress={pinyin.reveal} /> : null}
 
         {!done && placed.length > 0 ? (
           <TouchableOpacity
@@ -123,20 +141,20 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
         ) : result === 'exact' ? (
           <PrimaryButton
             label={t('review_continue')}
-            onPress={() => onResult(FORMAT_QUALITY.sentence_reorder.exact)}
+            onPress={() => give(FORMAT_QUALITY.sentence_reorder.exact)}
           />
         ) : (
           <View style={styles.row}>
             {!gaveUp ? (
               <SecondaryButton
                 label={t('review_reorder_mine_ok')}
-                onPress={() => onResult(FORMAT_QUALITY.sentence_reorder.selfApproved)}
+                onPress={() => give(FORMAT_QUALITY.sentence_reorder.selfApproved)}
                 style={styles.rowButton}
               />
             ) : null}
             <PrimaryButton
               label={t('review_continue')}
-              onPress={() => onResult(FORMAT_QUALITY.sentence_reorder.wrong)}
+              onPress={() => give(FORMAT_QUALITY.sentence_reorder.wrong)}
               style={styles.rowButton}
             />
           </View>

@@ -26,7 +26,14 @@
     "example_pinyin": "Wǒ shì yí ge xuésheng",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "wǒ",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "你",
@@ -55,7 +62,14 @@
     "example_pinyin": "Nǐ xǐhuan hē chá ma",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "nǐ",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "他",
@@ -84,7 +98,14 @@
     "example_pinyin": "Tā shì wǒ de lǎoshī",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "tā",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "是",
@@ -112,7 +133,14 @@
     "example_pinyin": "Tā shì Zhōngguó rén",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "shì",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "有",
@@ -141,7 +169,14 @@
     "example_pinyin": "Tā yǒu yì tái diànnǎo",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "yǒu",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "在",
@@ -169,7 +204,14 @@
     "example_pinyin": "Māma xiànzài zài jiā",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "zài",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "人",
@@ -202,7 +244,14 @@
       "位",
       "口"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "rén",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "好",
@@ -230,7 +279,16 @@
     "example_pinyin": "Wǒ jīntiān hěn hǎo",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "hǎo",
+        "alsoTyped": [],
+        "otherTones": [
+          4
+        ]
+      }
+    ]
   },
   {
     "word": "很",
@@ -259,7 +317,14 @@
     "example_pinyin": "Wǒ de jiā hěn xiǎo",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "hěn",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "不",
@@ -288,7 +353,16 @@
     "example_pinyin": "Bàba bù xǐhuan kàn shū",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "bù",
+        "alsoTyped": [
+          2
+        ],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "吗",
@@ -316,7 +390,16 @@
     "example_pinyin": "Nǐ shì xuésheng ma",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "ma",
+        "alsoTyped": [],
+        "otherTones": [
+          2
+        ]
+      }
+    ]
   },
   {
     "word": "什么",
@@ -345,7 +428,19 @@
     "example_pinyin": "Nǐ jīntiān xiǎng chī shénme",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "shén",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "me",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "两",
@@ -375,7 +470,14 @@
     "example_pinyin": "Tā mǎi le liǎng běn shū",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "liǎng",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "去",
@@ -405,7 +507,14 @@
     "example_pinyin": "Wǒ jīntiān qù yīyuàn kàn yīshēng",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "qù",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "吃",
@@ -433,7 +542,14 @@
     "example_pinyin": "Wǒ xǐhuan chī mǐfàn",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "chī",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "喝",
@@ -462,7 +578,16 @@
     "example_pinyin": "Bàba xǐhuan hē rè shuǐ",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "hē",
+        "alsoTyped": [],
+        "otherTones": [
+          4
+        ]
+      }
+    ]
   },
   {
     "word": "看",
@@ -492,7 +617,16 @@
     "example_pinyin": "Wǒ jīntiān zài jiā kàn shū",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "kàn",
+        "alsoTyped": [],
+        "otherTones": [
+          1
+        ]
+      }
+    ]
   },
   {
     "word": "喜欢",
@@ -521,7 +655,21 @@
     "example_pinyin": "Wǒ hěn xǐhuan Zhōngguó diànyǐng",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "xǐ",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "huan",
+        "alsoTyped": [],
+        "otherTones": [
+          1
+        ]
+      }
+    ]
   },
   {
     "word": "想",
@@ -551,7 +699,14 @@
     "example_pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "xiǎng",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "买",
@@ -580,7 +735,14 @@
     "example_pinyin": "Māma qù shāngdiàn mǎi píngguǒ",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "mǎi",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "学习",
@@ -609,7 +771,19 @@
     "example_pinyin": "Wǒ zài xuéxiào xuéxí Hànyǔ",
     "measure": null,
     "measure_also": [],
-    "stage": 4
+    "stage": 4,
+    "syllables": [
+      {
+        "text": "xué",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "xí",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "工作",
@@ -638,7 +812,19 @@
     "example_pinyin": "Wǒ māma zài yīyuàn gōngzuò",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "gōng",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "zuò",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "睡觉",
@@ -667,7 +853,19 @@
     "example_pinyin": "Tā jīntiān hěn xiǎng shuìjiào",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "shuì",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "jiào",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "朋友",
@@ -699,7 +897,21 @@
     "measure_also": [
       "位"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "péng",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "you",
+        "alsoTyped": [],
+        "otherTones": [
+          3
+        ]
+      }
+    ]
   },
   {
     "word": "老师",
@@ -732,7 +944,19 @@
       "个",
       "名"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "lǎo",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "shī",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "学生",
@@ -765,7 +989,21 @@
       "位",
       "名"
     ],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "xué",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "sheng",
+        "alsoTyped": [],
+        "otherTones": [
+          1
+        ]
+      }
+    ]
   },
   {
     "word": "妈妈",
@@ -795,7 +1033,21 @@
     "measure_also": [
       "个"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "mā",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "ma",
+        "alsoTyped": [],
+        "otherTones": [
+          1
+        ]
+      }
+    ]
   },
   {
     "word": "爸爸",
@@ -826,7 +1078,21 @@
     "measure_also": [
       "个"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "bà",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "ba",
+        "alsoTyped": [],
+        "otherTones": [
+          4
+        ]
+      }
+    ]
   },
   {
     "word": "家",
@@ -856,7 +1122,14 @@
     "example_pinyin": "Wǒ jiā yǒu sān kǒu rén",
     "measure": "个",
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "jiā",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "书",
@@ -887,7 +1160,14 @@
     "measure_also": [
       "部"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "shū",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "水",
@@ -921,7 +1201,14 @@
       "碗",
       "口"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "shuǐ",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "茶",
@@ -953,7 +1240,14 @@
       "瓶",
       "碗"
     ],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "chá",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "米饭",
@@ -986,7 +1280,19 @@
       "口",
       "份"
     ],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "mǐ",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "fàn",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "苹果",
@@ -1016,7 +1322,19 @@
     "example_pinyin": "Wǒ mǎi le sān ge píngguǒ",
     "measure": "个",
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "píng",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "guǒ",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "学校",
@@ -1047,7 +1365,19 @@
     "measure_also": [
       "个"
     ],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "xué",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "xiào",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "商店",
@@ -1078,7 +1408,19 @@
     "measure_also": [
       "个"
     ],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "shāng",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "diàn",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "医院",
@@ -1109,7 +1451,19 @@
       "个",
       "所"
     ],
-    "stage": 3
+    "stage": 3,
+    "syllables": [
+      {
+        "text": "yī",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "yuàn",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "医生",
@@ -1142,7 +1496,19 @@
       "个",
       "名"
     ],
-    "stage": 3
+    "stage": 3,
+    "syllables": [
+      {
+        "text": "yī",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "shēng",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "电脑",
@@ -1174,7 +1540,19 @@
     "measure_also": [
       "个"
     ],
-    "stage": 4
+    "stage": 4,
+    "syllables": [
+      {
+        "text": "diàn",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "nǎo",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "电话",
@@ -1207,7 +1585,19 @@
       "部",
       "台"
     ],
-    "stage": 4
+    "stage": 4,
+    "syllables": [
+      {
+        "text": "diàn",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "huà",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "电影",
@@ -1239,7 +1629,19 @@
       "场",
       "个"
     ],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "diàn",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "yǐng",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "中国",
@@ -1267,7 +1669,21 @@
     "example_pinyin": "Wǒ xiǎng qù Zhōngguó",
     "measure": "none",
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "zhōng",
+        "alsoTyped": [],
+        "otherTones": [
+          4
+        ]
+      },
+      {
+        "text": "guó",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "钱",
@@ -1296,7 +1712,14 @@
     "example_pinyin": "Zhè jiàn yīfu duōshao qián",
     "measure": "none",
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "qián",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "衣服",
@@ -1328,7 +1751,21 @@
     "measure_also": [
       "套"
     ],
-    "stage": 3
+    "stage": 3,
+    "syllables": [
+      {
+        "text": "yī",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "fu",
+        "alsoTyped": [],
+        "otherTones": [
+          2
+        ]
+      }
+    ]
   },
   {
     "word": "今天",
@@ -1356,7 +1793,19 @@
     "example_pinyin": "Jīntiān tiānqì hěn rè",
     "measure": "none",
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "jīn",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "tiān",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "大",
@@ -1386,7 +1835,14 @@
     "example_pinyin": "Wǒ péngyou de jiā hěn dà",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "dà",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "小",
@@ -1415,7 +1871,14 @@
     "example_pinyin": "Nà ge píngguǒ hěn xiǎo",
     "measure": null,
     "measure_also": [],
-    "stage": 1
+    "stage": 1,
+    "syllables": [
+      {
+        "text": "xiǎo",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "多",
@@ -1444,7 +1907,14 @@
     "example_pinyin": "Běijīng de rén hěn duō",
     "measure": null,
     "measure_also": [],
-    "stage": 2
+    "stage": 2,
+    "syllables": [
+      {
+        "text": "duō",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   },
   {
     "word": "高兴",
@@ -1472,7 +1942,21 @@
     "example_pinyin": "Rènshi nǐ hěn gāoxìng",
     "measure": null,
     "measure_also": [],
-    "stage": 4
+    "stage": 4,
+    "syllables": [
+      {
+        "text": "gāo",
+        "alsoTyped": [],
+        "otherTones": []
+      },
+      {
+        "text": "xìng",
+        "alsoTyped": [],
+        "otherTones": [
+          1
+        ]
+      }
+    ]
   },
   {
     "word": "热",
@@ -1502,6 +1986,13 @@
     "example_pinyin": "Wǒ bù xǐhuan hē rè chá",
     "measure": null,
     "measure_also": [],
-    "stage": 3
+    "stage": 3,
+    "syllables": [
+      {
+        "text": "rè",
+        "alsoTyped": [],
+        "otherTones": []
+      }
+    ]
   }
 ]

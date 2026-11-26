@@ -18,6 +18,8 @@ export const testPack: LanguagePack = {
       .replace(/ñ/g, 'n'),
   typoMinLength: 5,
   punctuation: { lead: /^[¿¡"«(']+/, trail: /[.,!?;:"»)'…]+$/ },
+  reading: null,
+  italics: true,
   pronunciation: 'ipa',
   collation: 'es',
   speech: { locale: 'es-ES', rate: 0.9 },

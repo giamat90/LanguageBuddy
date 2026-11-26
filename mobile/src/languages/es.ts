@@ -34,6 +34,8 @@ export const es: LanguagePack = {
     lead: /^[¿¡"«(‹'“‘—]+/,
     trail: /[.,!?;:”"»)›'’…—]+$/,
   },
+  reading: null,
+  italics: true,
   pronunciation: 'ipa',
   // Latin American neutral; a phone with only es-ES still speaks (QA in TASK-049).
   collation: 'es',

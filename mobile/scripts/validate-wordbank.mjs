@@ -211,7 +211,12 @@ for (const lang of folders) {
       if (entry.cefr_band !== level) errors.push(`${at}: cefr_band "${entry.cefr_band}" must equal "${level}"`);
       if (cfg.segmented && typeof entry.example === 'string' && typeof entry.word === 'string') {
         segmented.sentenceProblems(entry, cfg.segmented, vocabulary).forEach((p) => errors.push(`${at}: ${p}`));
-        if (readings) segmented.pinyinProblems(entry, readings, cfg.pinyin ?? {}).forEach((p) => errors.push(`${at}: ${p}`));
+        if (readings) {
+          const found = segmented.pinyinProblems(entry, readings, cfg.pinyin ?? {});
+          // Syllables are derived from the pinyin: only worth reporting once that is right.
+          if (found.length === 0) found.push(...segmented.syllableProblems(entry));
+          found.forEach((p) => errors.push(`${at}: ${p}`));
+        }
       }
       if (cfg.measureWords) segmented.measureProblems(entry, cfg.measureWords).forEach((p) => errors.push(`${at}: ${p}`));
       if (cfg.stages) segmented.stageProblems(entry, cfg.stages).forEach((p) => errors.push(`${at}: ${p}`));

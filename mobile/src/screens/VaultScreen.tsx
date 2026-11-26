@@ -6,7 +6,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useFocusEffect } from 'expo-router';
 import { MMKV } from 'react-native-mmkv';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import { typography, exampleStyle } from '../theme/typography';
+import { useListPinyin } from '../hooks/useListPinyin';
 import { t } from '../i18n';
 import { localizedText } from '../i18n/wordContent';
 import { useUserStore } from '../store/useUserStore';
@@ -56,6 +57,7 @@ const VaultRow = React.memo(function VaultRow({ item, speaking, onPress, onSpeak
 }) {
   const lang = useUserStore((s) => s.nativeLanguage);
   const translation = localizedText(lang, 'meaning', { word: item.word }, item.translationIt, item.translationEn);
+  const pinyin = useListPinyin(item.word);
   return (
     <View style={styles.row}>
       <TouchableOpacity
@@ -69,7 +71,10 @@ const VaultRow = React.memo(function VaultRow({ item, speaking, onPress, onSpeak
             {item.article ? (
               <ArticleBadge article={item.article} style={styles.articleBadge} />
             ) : null}
-            <Text style={[typography.exampleDe, { color: colors.ink }]}>{item.word}</Text>
+            <Text style={[exampleStyle(), { color: colors.ink }]}>{item.word}</Text>
+            {pinyin ? (
+              <Text style={[typography.uiSmall, { color: colors.muted, marginLeft: 8 }]}>{pinyin}</Text>
+            ) : null}
           </View>
           {translation ? (
             <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 2 }]}>

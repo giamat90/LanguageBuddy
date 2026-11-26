@@ -1,4 +1,5 @@
 import { TextStyle } from 'react-native';
+import { getActivePack } from '../languages';
 
 const PLAYFAIR = 'PlayfairDisplay_400Regular';
 const PLAYFAIR_ITALIC = 'PlayfairDisplay_400Regular_Italic';
@@ -62,3 +63,8 @@ export const typography: Record<string, TextStyle> = {
     lineHeight: 18,
   },
 } as const;
+
+/** Sentences and notes in the studied language: italic, unless its script must stay upright. */
+export function exampleStyle(): TextStyle {
+  return getActivePack().italics ? typography.exampleDe : { ...typography.exampleDe, fontFamily: PLAYFAIR };
+}

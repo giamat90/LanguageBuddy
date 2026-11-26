@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import { colors } from '../../theme/colors';
 import { typography } from '../../theme/typography';
 import ArticleBadge from './ArticleBadge';
 import { getActivePack } from '../../languages';
+import { showWhenReading } from '../../lib/reading/visibility';
+import { useReadingSettingsStore } from '../../store/useReadingSettingsStore';
+import RevealPinyinButton from './RevealPinyinButton';
 
 interface Props {
   word: string;
@@ -13,6 +16,11 @@ interface Props {
 }
 
 export default function WordHero({ word, article, ipa, style }: Props) {
+  const pack = getActivePack();
+  const mode = useReadingSettingsStore((s) => s.pinyinMode);
+  // Remembered per word, so the next one starts hidden again.
+  const [revealed, setRevealed] = useState<string | null>(null);
+  const hidden = pack.reading !== null && revealed !== word && !showWhenReading(mode);
   return (
     <View style={[styles.container, style]}>
       {article ? (
@@ -20,9 +28,13 @@ export default function WordHero({ word, article, ipa, style }: Props) {
       ) : null}
       <Text style={[typography.wordHero, styles.word]}>{word}</Text>
       {ipa ? (
-        <Text style={[typography.articleMeta, styles.ipa]}>
-          {getActivePack().pronunciation === 'ipa' ? `/${ipa}/` : ipa}
-        </Text>
+        hidden ? (
+          <RevealPinyinButton onPress={() => setRevealed(word)} />
+        ) : (
+          <Text style={[typography.articleMeta, styles.ipa]}>
+            {pack.pronunciation === 'ipa' ? `/${ipa}/` : ipa}
+          </Text>
+        )
       ) : null}
     </View>
   );

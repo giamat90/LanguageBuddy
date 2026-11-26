@@ -1,5 +1,6 @@
 import it from './zh/strings/it';
 import en from './zh/strings/en';
+import { pinyinReading } from '../lib/reading/pinyin';
 import type { LanguagePack } from './types';
 
 export const zh: LanguagePack = {
@@ -18,6 +19,10 @@ export const zh: LanguagePack = {
     trail: /[。，、？！：；”’》）…]+$/,
   },
   pronunciation: 'pinyin',
+  // Pinyin can be typed, hidden and practised.
+  reading: pinyinReading,
+  // A slanted Chinese character is only a distorted one.
+  italics: false,
   collation: 'zh',
   // Mainland Mandarin, a little slower than the others so the tones can be heard.
   speech: { locale: 'zh-CN', rate: 0.8 },

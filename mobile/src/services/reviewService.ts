@@ -4,6 +4,8 @@ import { nextReviewDate, updateRetentionScore } from '../data/srs';
 import { allEntries } from '../data/wordbank';
 import { PASS_QUALITY, toQuality } from '../lib/exercises/quality';
 import { cancelReviewReminder, scheduleReviewReminder } from '../lib/notifications';
+import { pinyinWords } from '../lib/reading/lookup';
+import type { Syllable } from '../lib/reading/pinyin';
 
 export interface ReviewCard {
   id: string;
@@ -16,6 +18,10 @@ export interface ReviewCard {
   segments?: string[] | null;
   exampleIt: string | null;
   exampleEn: string | null;
+  /** Languages with a reading layer: the word's pronunciation and syllables, and the example's words. */
+  pronunciation?: string | null;
+  syllables?: Syllable[] | null;
+  examplePinyin?: string[] | null;
   /** From the word bank; null/absent when the word is not in it. Used to pick multiple-choice distractors. */
   partOfSpeech?: string | null;
   cefrBand?: string | null;
@@ -39,6 +45,9 @@ interface ReviewRow {
 interface BankInfo {
   example: string;
   segments: string[] | null;
+  pronunciation: string;
+  syllables: Syllable[] | null;
+  examplePinyin: string[] | null;
   it: string;
   en: string;
   pos: string;
@@ -56,6 +65,9 @@ function bankFor(word: string): BankInfo | undefined {
       bankIndex.set(entry.word.toLowerCase(), {
         example: entry.example,
         segments: entry.segments ?? null,
+        pronunciation: entry.ipa,
+        syllables: entry.syllables ?? null,
+        examplePinyin: pinyinWords(entry.example_pinyin),
         it: entry.example_it,
         en: entry.example_en,
         pos: entry.part_of_speech,
@@ -78,6 +90,10 @@ function toCard(r: ReviewRow): ReviewCard {
     translationEn: r.translation_en,
     example: bank?.example ?? null,
     segments: bank?.segments ?? null,
+    // Only a bank with syllables has a pronunciation the exercises use.
+    ...(bank?.syllables
+      ? { pronunciation: bank.pronunciation, syllables: bank.syllables, examplePinyin: bank.examplePinyin }
+      : {}),
     exampleIt: bank?.it ?? null,
     exampleEn: bank?.en ?? null,
     partOfSpeech: bank?.pos ?? null,

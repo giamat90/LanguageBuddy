@@ -3,7 +3,8 @@ import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import { DailyWord } from '../../types/domain';
 import { SaveState } from '../../store/useWordStore';
 import { colors } from '../../theme/colors';
-import { typography } from '../../theme/typography';
+import { typography, exampleStyle } from '../../theme/typography';
+import { ReadingExample } from './PinyinSentence';
 import { t } from '../../i18n';
 import { localizedText } from '../../i18n/wordContent';
 import { useUserStore } from '../../store/useUserStore';
@@ -54,7 +55,12 @@ export default function WordCard({ word, saveState, streakDays, onSave, onSkip }
       <SectionLabel label={t('word_section_example')} />
       {word.example ? (
         <View style={styles.sentenceRow}>
-          <Text style={[typography.exampleDe, styles.exampleDe, { flex: 1 }]}>{word.example}</Text>
+          <ReadingExample
+            word={word.word}
+            sentence={word.example}
+            style={[exampleStyle(), styles.exampleDe, { flex: 1 }]}
+            containerStyle={styles.exampleBox}
+          />
           <SpeakButton
             kind="sentence"
             speaking={speakingId === 'sentence:example'}
@@ -114,6 +120,7 @@ const styles = StyleSheet.create({
     color: colors.ink,
     marginTop: 8,
   },
+  exampleBox: { flex: 1, marginTop: 8 },
   sentenceRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 4 },
   exampleIt: {
     color: colors.muted,

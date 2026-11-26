@@ -8,6 +8,8 @@ import { useUserStore } from '../../store/useUserStore';
 import ArticleBadge from '../ui/ArticleBadge';
 import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
+import { getActivePack } from '../../languages';
+import { useReadingSettingsStore } from '../../store/useReadingSettingsStore';
 import type { FlashcardModel } from '../../lib/exercises/types';
 
 interface Props {
@@ -20,6 +22,9 @@ export default function FlashcardView({ model, isRetry, onResult }: Props) {
   const lang = useUserStore((s) => s.nativeLanguage);
   const { card } = model;
   const [revealed, setRevealed] = useState(false);
+  const mode = useReadingSettingsStore((s) => s.pinyinMode);
+  // The pinyin is part of what the card asks for, so the front has it only on request ("always").
+  const showPinyin = getActivePack().reading !== null && (revealed || mode === 'always');
 
   return (
     <>
@@ -31,6 +36,9 @@ export default function FlashcardView({ model, isRetry, onResult }: Props) {
           {card.article ? <ArticleBadge article={card.article} /> : null}
           <Text style={[typography.wordHero, { color: colors.ink }]}>{card.word}</Text>
         </View>
+        {showPinyin && card.pronunciation ? (
+          <Text style={[typography.body, { color: colors.muted, marginTop: 8 }]}>{card.pronunciation}</Text>
+        ) : null}
 
         {revealed ? (
           <Text style={[typography.body, { color: colors.forest, marginTop: 16, textAlign: 'center' }]}>

@@ -19,7 +19,8 @@ function usableSegments(text: string, segments: readonly string[] | null | undef
   return segments && segments.length > 0 && segments.join('') === text ? segments : null;
 }
 
-function isWord(segment: string, pack: LanguagePack): boolean {
+/** True for a segment that is a word of the language, not punctuation. */
+export function isWordSegment(segment: string, pack: LanguagePack = getActivePack()): boolean {
   const parts = segment.split(pack.letters);
   return parts.length === 3 && parts[0] === '' && parts[2] === '';
 }
@@ -35,7 +36,7 @@ export function sentenceParts(
   if (!usable) return [text];
   const parts = [''];
   for (const segment of usable) {
-    if (isWord(segment, pack)) parts.push(segment, '');
+    if (isWordSegment(segment, pack)) parts.push(segment, '');
     else parts[parts.length - 1] += segment;
   }
   return parts;
@@ -56,7 +57,7 @@ export function sentenceTokens(
   const tokens: string[] = [];
   let prefix = '';
   for (const segment of usable) {
-    if (isWord(segment, pack)) {
+    if (isWordSegment(segment, pack)) {
       tokens.push(prefix + segment);
       prefix = '';
     } else if (segment.match(pack.punctuation.lead)?.[0] === segment || tokens.length === 0) {

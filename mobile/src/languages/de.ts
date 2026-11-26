@@ -36,6 +36,8 @@ export const de: LanguagePack = {
     lead: /^[„"«(‹‚“‘']+/,
     trail: /[.,!?;:“”"»)›’'…]+$/,
   },
+  reading: null,
+  italics: true,
   pronunciation: 'ipa',
   collation: 'de',
   speech: { locale: 'de-DE', rate: 0.9 },

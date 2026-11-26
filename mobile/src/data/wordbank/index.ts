@@ -25,6 +25,8 @@ export interface WordBankEntry {
   cultural_note_en: string;
   /** Languages that write pinyin: one pinyin word per word of `segments`. */
   example_pinyin?: string;
+  /** Languages that write pinyin: the headword's syllables, one per character (built, never typed). */
+  syllables?: { text: string; alsoTyped: number[]; otherTones: number[] }[];
   /** Languages with measure words: the noun's one, 'none' for a noun without, null for other words. */
   measure?: string | null;
   measure_also?: string[];
@@ -36,7 +38,7 @@ export interface WordBankEntry {
  * Bump this whenever the bundled JSON changes so the app re-seeds new words into
  * the local DB on next launch (see src/data/seed.ts).
  */
-export const WORDBANK_VERSION = '2026-11-26.1';
+export const WORDBANK_VERSION = '2026-11-26.2';
 
 export const WORD_BANK: Record<CefrLevel, WordBankEntry[]> = {
   A1: LEVEL_FILES.A1 as WordBankEntry[],

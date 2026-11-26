@@ -3,6 +3,7 @@ export type TargetLanguageCode = 'de' | 'es' | 'fr' | 'zh';
 
 import type { NativeLanguage } from '../i18n/language';
 import type { CefrLevel } from '../data/wordbank';
+import type { ReadingSupport } from '../lib/reading/pinyin';
 
 export type Gender = 'm' | 'f' | 'n';
 
@@ -74,6 +75,10 @@ export interface LanguagePack {
   /** Quotes and punctuation split off a token. */
   punctuation: { lead: RegExp; trail: RegExp };
   /** What the bank's `ipa` column holds. 'pinyin' is shown without slashes and orders the word lists. */
+  /** Typed pronunciation, tone choice and the pronunciation setting; null for a language without them. */
+  reading: ReadingSupport | null;
+  /** False for a script that must not be slanted: sentences and notes are then set upright. */
+  italics: boolean;
   pronunciation: 'ipa' | 'pinyin';
   /** BCP-47 tag used only to sort word lists (Spanish puts ñ after n). */
   collation: string;

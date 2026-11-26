@@ -14,6 +14,7 @@ import MultipleChoiceView from '../components/exercises/MultipleChoiceView';
 import MatchingView from '../components/exercises/MatchingView';
 import SentenceReorderView from '../components/exercises/SentenceReorderView';
 import FindMistakeView from '../components/exercises/FindMistakeView';
+import ToneChoiceView from '../components/exercises/ToneChoiceView';
 import type { ReviewCard } from '../services/reviewService';
 import {
   DEFAULT_GROUPS, DEFAULT_REGISTRY, createSession, currentEntry, pickExercise, progress,
@@ -52,6 +53,8 @@ function renderSingle(
       return <SentenceReorderView key={position} model={model} isRetry={isRetry} onResult={onResult} />;
     case 'find_mistake':
       return <FindMistakeView key={position} model={model} isRetry={isRetry} onResult={onResult} />;
+    case 'tone_choice':
+      return <ToneChoiceView key={position} model={model} isRetry={isRetry} onResult={onResult} />;
   }
 }
 

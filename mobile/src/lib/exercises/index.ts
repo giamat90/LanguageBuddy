@@ -3,6 +3,7 @@ export * from './tier';
 export * from './quality';
 export * from './distractors';
 export * from './reorder';
+export * from './tone';
 export * from './mistake';
 export * from './matching';
 export * from './registry';

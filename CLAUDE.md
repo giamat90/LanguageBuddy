@@ -167,6 +167,7 @@ Not in this repo: the German public site (`germanbuddy-support`, separate repo, 
 - **Pronunciation and script (TASK-072):** `pronunciation` is `'ipa'` or `'pinyin'` (what the bank's `ipa` column holds; pinyin is shown without slashes and orders the word lists). `ai.rules` are extra AI-prompt instructions for one language.
   A pack without articles, cases and choices has no Grammar button. A language written without spaces declares its bank format in `language.json` (`segmented` with the `|` separator and an `allow` list of non-headword words,
   `extraColumns`, `characters` → `characters.tsv`, `pinyin`, `measureWords`, `stages`); `scripts/lib/segmented.js` and `pinyin.js` check it.
+- **Reading layer (TASK-074):** `reading` (`null`, or a `ReadingSupport`: Chinese has `pinyinReading`) turns on typed pronunciation in the cloze, the *tone choice* format, pinyin above sentences and on tiles and options, and the *Pinyin* setting (Automatic / Always / Only on tap; MMKV `reading-settings`, not in backups). The rules of when it shows are in `lib/reading/visibility.ts`; **a view never shows the pronunciation of the answer** (the cloze blank, the tone-choice word), and asking for hidden pinyin before answering caps the credit at the hint cap. The headword's `syllables` are derived by the build from `characters.tsv`: the phone never splits pinyin or Chinese text. `italics: false` sets target text and notes upright (use `exampleStyle()`, not `typography.exampleDe`).
 - **Seams:** one language is active per build. `npm run set:language -- <code>` (default `de`) regenerates three files:
   `src/languages/active.ts`, `src/data/wordbank/active.ts`, `src/i18n/wordContentLoaders.ts`. **The repository always holds the German seams** (a diff in them is a bug).
   `node scripts/with-language.mjs <code> -- <command>` activates a language for one command and always restores the seams afterwards.
@@ -352,7 +353,7 @@ Starting a word from a word list (`startLearning`, TASK-037) adds it to the vaul
 
 ### Graded outcomes (`src/lib/exercises/quality.ts`)
 A review result is a quality in [0, 1], not pass/fail. `PASS_QUALITY = 0.5`. Typed answers: exact 1.0, close (a letter slip the pack's `fold` forgives — umlaut/ß in German, accents in Spanish — or one typo
-on a word of `pack.typoMinLength`+ letters) 0.7, wrong 0; using the hint caps the quality at 0.6 (the hint counts letters with `letterCount`, from the pack's letters). Format ceilings: multiple choice 0.8; matching 0.7 / 0.4 / 0
+on a word of `pack.typoMinLength`+ letters) 0.7, wrong 0; using the hint caps the quality at 0.6 (the hint counts letters with `letterCount`, from the pack's letters). Format ceilings: multiple choice and tone choice 0.8; typed pinyin: right 1.0, tones left out 0.7, a wrong tone 0; asking for hidden pinyin caps at 0.6; matching 0.7 / 0.4 / 0
 for 0 / 1 / 2+ mistakes; sentence reorder 0.9, or 0.5 when the learner confirms "my sentence is also correct". **Only the first attempt of a word in a session is graded**; relearning retries are practice only.
 
 ### Free practice (`gradePractice` in `reviewService.ts`)
@@ -369,12 +370,12 @@ The session "difficulty dial" and the "CEFR promotion check every 10 sessions" n
 Pure TypeScript: no I/O, no React, injectable `rng` — which is what makes it testable. UI lives in `components/exercises/` and `screens/ExerciseSession.tsx`.
 
 - **Tiers** (`tier.ts`): `new` (seen once, or retention < 0.6), `strong` (retention ≥ 0.85 and seen ≥ 4 times), otherwise `learning`.
-- **Formats** (`registry.ts`): typed cloze (weight 2), sentence reorder (weight 1) and find the mistake (weight 1) for learning/strong words; multiple choice for new words; matching pairs
+- **Formats** (`registry.ts`): typed cloze (weight 2), sentence reorder (weight 1) and find the mistake (weight 1) for learning/strong words; multiple choice for new words, and tone choice (languages with a reading layer); matching pairs
   (a *group* step of 4–5 new words); flip-card as the fallback. A format that cannot be built for a word returns `null` and the next candidate is tried. Find the mistake builds its slot
   from what the pack has (gender article, case determiner, or a choice set); a pack without those has no such slot.
 - **Segmented languages:** typed cloze, reorder, find the mistake and the choice drill read the card's `segments` (§3); a card without usable segments builds none of them and becomes a flip-card.
 - **Session** (`session.ts`): a pure state machine. A missed word returns 3 cards later, at most 2 retries; matching rounds are planned first; progress counts first attempts.
-- **Practice** (`practice.ts`): per-format config that ignores tiers, card selection (weaker words favoured), availability for the menu.
+- **Practice** (`practice.ts`): per-format config that ignores tiers, card selection (weaker words favoured), availability for the menu. The menu lists `practiceFormats()`: no *find the mistake* for a pack without gender, cases and choices; *tone choice* only with a reading layer.
 - **Adding a format:** add a definition to the registry (`tiers`, `weight`, `build`), a model type, a view in `components/exercises/`, a case in `ExerciseSession`'s switch, strings in all UI languages,
   a per-format quality ceiling in `quality.ts` chosen so a clean answer never hurts the schedule, and tests (builder, registry gating, screen) — run them against the German pack **and** `testPack`.
 

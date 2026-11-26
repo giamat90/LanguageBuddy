@@ -7,7 +7,9 @@ import { localizedText } from '../../i18n/wordContent';
 import { useUserStore } from '../../store/useUserStore';
 import ArticleBadge from '../ui/ArticleBadge';
 import PrimaryButton from '../ui/PrimaryButton';
-import { matchingQuality } from '../../lib/exercises/quality';
+import { matchingQuality, pinyinQuality } from '../../lib/exercises/quality';
+import RevealPinyinButton from '../ui/RevealPinyinButton';
+import { useExercisePinyin } from './useExercisePinyin';
 import type { MatchingModel } from '../../lib/exercises/types';
 
 interface Props {
@@ -31,6 +33,14 @@ export default function MatchingView({ model, onResult }: Props) {
   const [wrongPair, setWrongPair] = useState<{ left: string; right: string } | null>(null);
 
   const allMatched = matched.length === cards.length;
+  const pinyin = useExercisePinyin(allMatched);
+  // Words whose hidden pinyin was asked for before they were matched.
+  const [peeked, setPeeked] = useState<string[]>([]);
+  const open = cards.filter((c) => !matched.includes(c.id));
+  const revealPinyin = () => {
+    setPeeked(open.filter((c) => !pinyin.free(c)).map((c) => c.id));
+    pinyin.reveal();
+  };
 
   const choose = (side: Side, id: string) => {
     if (matched.includes(id)) return;
@@ -59,7 +69,9 @@ export default function MatchingView({ model, onResult }: Props) {
   };
 
   const finish = () =>
-    onResult(Object.fromEntries(cards.map((c) => [c.id, matchingQuality(mistakes[c.id] ?? 0)])));
+    onResult(Object.fromEntries(cards.map(
+      (c) => [c.id, pinyinQuality(matchingQuality(mistakes[c.id] ?? 0), peeked.includes(c.id))],
+    )));
 
   return (
     <>
@@ -87,6 +99,9 @@ export default function MatchingView({ model, onResult }: Props) {
                     {card.article ? <ArticleBadge article={card.article} /> : null}
                     <Text style={[typography.body, { color: colors.ink }]}>{card.word}</Text>
                   </View>
+                  {(pinyin.shows(card) || matched.includes(id)) && card.pronunciation ? (
+                    <Text style={[typography.uiSmall, { color: colors.muted }]}>{card.pronunciation}</Text>
+                  ) : null}
                 </TouchableOpacity>
               );
             })}
@@ -113,6 +128,7 @@ export default function MatchingView({ model, onResult }: Props) {
             })}
           </View>
         </View>
+        {pinyin.offers(open) ? <RevealPinyinButton onPress={revealPinyin} /> : null}
       </View>
 
       <View style={styles.footer}>

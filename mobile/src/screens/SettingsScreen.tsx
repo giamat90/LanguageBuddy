@@ -24,6 +24,7 @@ import { refreshReviewReminder } from '../services/reviewService';
 import Divider from '../components/ui/Divider';
 import NotificationSettings from '../components/ui/NotificationSettings';
 import TopicPreferences from '../components/ui/TopicPreferences';
+import PinyinSettings from '../components/ui/PinyinSettings';
 import {
   exportBackup, pickBackup, restoreBackup, RESTART_REQUIRED, backupErrorText, BackupError, type RestorePreview,
 } from '../data/backup';
@@ -498,6 +499,8 @@ export default function SettingsScreen() {
             />
           </View>
         </View>
+
+        <PinyinSettings />
 
         <Text style={[typography.uiSmall, styles.sectionLabel, { marginTop: 28 }]}>
           {t('settings_ai_section')}

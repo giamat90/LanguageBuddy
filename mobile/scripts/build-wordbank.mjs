@@ -13,7 +13,8 @@
  *
  * language.json may add (TASK-072): "extraColumns" (appended in order, see EXTRA), "segmented"
  * (the example is written with a separator between words and punctuation) and "characters": true
- * (characters.tsv becomes characters.json; columns: see CHARACTER_COLS).
+ * (characters.tsv becomes characters.json, columns: see CHARACTER_COLS; every entry gets the
+ * `syllables` of its headword).
  *
  * Options: --root <dir> --out <dir> (tests; the active-language seams are then left alone),
  *          --lang <code> (only that language). BUDDY_LANG picks the active language (default de).
@@ -28,6 +29,7 @@ import { setActiveLanguage, LEVELS as ALL_LEVELS } from './lib/active-language.m
 const here = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
 const i18n = require('./wordbank-i18n-lib.cjs');
+const { syllablesFor } = require('./lib/pinyin.js');
 const args = process.argv.slice(2);
 const opt = (name) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : undefined; };
 const custom = opt('--root') !== undefined || opt('--out') !== undefined;
@@ -104,6 +106,29 @@ for (const lang of folders) {
   mkdirSync(outDir, { recursive: true });
   console.log(`${lang}:`);
 
+  // Characters come first: the headwords' syllables are derived from their readings.
+  let readings = null;
+  if (cfg.characters) {
+    const file = join(srcDir, 'characters.tsv');
+    if (!existsSync(file)) {
+      problems.push(`${lang}: characters.tsv missing`);
+    } else {
+      const rows = [];
+      readFileSync(file, 'utf8').split(/\r?\n/).forEach((line, idx) => {
+        if (!line.trim() || line.startsWith('#')) return;
+        const parts = line.split('\t').map((p) => p.trim());
+        if (parts.length !== CHARACTER_COLS.length) {
+          problems.push(`${lang}/characters.tsv:${idx + 1} has ${parts.length} columns, expected ${CHARACTER_COLS.length}`);
+          return;
+        }
+        rows.push(characterEntry(Object.fromEntries(CHARACTER_COLS.map((c, i) => [c, parts[i]]))));
+      });
+      readings = new Map(rows.map((r) => [r.char, r.pinyin]));
+      writeFileSync(join(outDir, 'characters.json'), JSON.stringify(rows, null, 2) + '\n');
+      console.log(`  characters: ${rows.length}`);
+    }
+  }
+
   for (const level of CONFIGURED) {
     const tsvPath = join(srcDir, `${level}.tsv`);
     if (!existsSync(tsvPath)) {
@@ -153,31 +178,13 @@ for (const lang of folders) {
         example_en: e.example_en,
         cultural_note_en: e.cultural_note_en,
         ...Object.fromEntries(extra.map((c) => [c, EXTRA[c](e[c])])),
+        // null (pinyin that does not spell the word) is left for the validator to report
+        ...(readings ? { syllables: syllablesFor(e.ipa, e.word, readings, cfg.pinyin ?? {}) } : {}),
       });
     });
     writeFileSync(join(outDir, `${level}.json`), JSON.stringify(entries, null, 2) + '\n');
     totalOut += entries.length;
     console.log(`  ${level}: ${entries.length} entries`);
-  }
-
-  if (cfg.characters) {
-    const file = join(srcDir, 'characters.tsv');
-    if (!existsSync(file)) {
-      problems.push(`${lang}: characters.tsv missing`);
-    } else {
-      const rows = [];
-      readFileSync(file, 'utf8').split(/\r?\n/).forEach((line, idx) => {
-        if (!line.trim() || line.startsWith('#')) return;
-        const parts = line.split('\t').map((p) => p.trim());
-        if (parts.length !== CHARACTER_COLS.length) {
-          problems.push(`${lang}/characters.tsv:${idx + 1} has ${parts.length} columns, expected ${CHARACTER_COLS.length}`);
-          return;
-        }
-        rows.push(characterEntry(Object.fromEntries(CHARACTER_COLS.map((c, i) => [c, parts[i]]))));
-      });
-      writeFileSync(join(outDir, 'characters.json'), JSON.stringify(rows, null, 2) + '\n');
-      console.log(`  characters: ${rows.length}`);
-    }
   }
 
   // translated content (TASK-025): <lang>/i18n/<native>/<LEVEL>.tsv → <lang>/i18n/<native>.json

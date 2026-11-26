@@ -7,7 +7,9 @@ import { localizedText } from '../../i18n/wordContent';
 import { useUserStore } from '../../store/useUserStore';
 import ArticleBadge from '../ui/ArticleBadge';
 import PrimaryButton from '../ui/PrimaryButton';
-import { FORMAT_QUALITY } from '../../lib/exercises/quality';
+import { FORMAT_QUALITY, pinyinQuality } from '../../lib/exercises/quality';
+import RevealPinyinButton from '../ui/RevealPinyinButton';
+import { useExercisePinyin } from './useExercisePinyin';
 import type { MultipleChoiceModel, MultipleChoiceOption } from '../../lib/exercises/types';
 
 interface Props {
@@ -29,6 +31,7 @@ export default function MultipleChoiceView({ model, isRetry, onResult }: Props) 
   const answered = chosen !== null;
   const correct = chosen === correctIndex;
   const answerLabel = label(options[correctIndex]);
+  const pinyin = useExercisePinyin(answered);
 
   return (
     <>
@@ -51,6 +54,11 @@ export default function MultipleChoiceView({ model, isRetry, onResult }: Props) 
           </Text>
         )}
 
+        {direction === 'to_native' && pinyin.shows(card) && card.pronunciation ? (
+          <Text style={[typography.body, { color: colors.muted }]}>{card.pronunciation}</Text>
+        ) : null}
+        {pinyin.offers([card]) ? <RevealPinyinButton onPress={pinyin.reveal} /> : null}
+
         <View style={styles.options}>
           {options.map((o, i) => {
             const isRight = answered && i === correctIndex;
@@ -68,6 +76,9 @@ export default function MultipleChoiceView({ model, isRetry, onResult }: Props) 
                 activeOpacity={0.75}
               >
                 <Text style={[typography.body, { color: colors.ink }]}>{label(o)}</Text>
+                {direction === 'to_german' && pinyin.shows(card) && o.pronunciation ? (
+                  <Text style={[typography.uiSmall, { color: colors.muted }]}>{o.pronunciation}</Text>
+                ) : null}
               </TouchableOpacity>
             );
           })}
@@ -89,7 +100,9 @@ export default function MultipleChoiceView({ model, isRetry, onResult }: Props) 
         {answered ? (
           <PrimaryButton
             label={t('review_continue')}
-            onPress={() => onResult(correct ? FORMAT_QUALITY.multiple_choice : 0)}
+            onPress={() =>
+              onResult(correct ? pinyinQuality(FORMAT_QUALITY.multiple_choice, pinyin.peeked(card)) : 0)
+            }
           />
         ) : null}
       </View>

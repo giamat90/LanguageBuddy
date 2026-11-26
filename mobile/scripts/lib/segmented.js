@@ -71,6 +71,16 @@ function pinyinProblems(entry, readings, cfg) {
   return out;
 }
 
+/** The build's split of the headword's pinyin: one syllable per character (TASK-074). */
+function syllableProblems(entry) {
+  const list = entry.syllables;
+  const ok = Array.isArray(list)
+    && list.length === [...entry.word].length
+    && list.every((s) => Array.isArray(s.alsoTyped) && Array.isArray(s.otherTones))
+    && list.map((s) => s.text).join('') === normalizePinyin(entry.ipa ?? '');
+  return ok ? [] : ['syllables must be one per character and spell the pinyin'];
+}
+
 /** `list`: the measure words of the language. A noun names one of them, or "none". */
 function measureProblems(entry, list) {
   const also = entry.measure_also ?? [];
@@ -119,5 +129,6 @@ function characterProblems(rows) {
 }
 
 module.exports = {
-  isHanWord, wordsOf, sentenceProblems, pinyinProblems, measureProblems, stageProblems, characterProblems,
+  isHanWord, wordsOf, sentenceProblems, pinyinProblems, syllableProblems, measureProblems, stageProblems,
+  characterProblems,
 };

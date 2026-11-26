@@ -5,7 +5,8 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import { typography, exampleStyle } from '../theme/typography';
+import { ReadingExample } from '../components/ui/PinyinSentence';
 import { t } from '../i18n';
 import { dateLocale } from '../i18n/language';
 import { localizedText } from '../i18n/wordContent';
@@ -141,7 +142,12 @@ export default function WordDetailScreen() {
               <Divider style={styles.divider} />
               <SectionLabel label={t('word_section_example')} />
               <View style={styles.sentenceRow}>
-                <Text style={[typography.exampleDe, styles.bodyText, { flex: 1 }]}>{item.example}</Text>
+                <ReadingExample
+                  word={item.word}
+                  sentence={item.example}
+                  style={[exampleStyle(), styles.bodyText, { flex: 1 }]}
+                  containerStyle={styles.exampleBox}
+                />
                 <SpeakButton
                   kind="sentence"
                   speaking={speakingId === 'sentence:example'}
@@ -205,7 +211,7 @@ export default function WordDetailScreen() {
               {insight.examples.map((ex, i) => (
                 <View key={i} style={styles.coachExample}>
                   <View style={styles.sentenceRow}>
-                    <Text style={[typography.exampleDe, { color: colors.ink, flex: 1 }]}>{ex.target}</Text>
+                    <Text style={[exampleStyle(), { color: colors.ink, flex: 1 }]}>{ex.target}</Text>
                     <SpeakButton
                       kind="sentence"
                       speaking={speakingId === `sentence:insight-${i}`}
@@ -223,7 +229,7 @@ export default function WordDetailScreen() {
                   <Text style={[typography.uiSmall, styles.sectionLabelSm]}>
                     {t('insight_exercise_label')}
                   </Text>
-                  <Text style={[typography.exampleDe, { color: colors.ink, marginTop: 6 }]}>
+                  <Text style={[exampleStyle(), { color: colors.ink, marginTop: 6 }]}>
                     {insight.exercise.sentence}
                   </Text>
                   {answerShown ? (
@@ -321,6 +327,7 @@ const styles = StyleSheet.create({
     color: colors.ink,
     marginTop: 8,
   },
+  exampleBox: { flex: 1, marginTop: 8 },
   sentenceRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 4 },
   exampleIt: {
     color: colors.muted,

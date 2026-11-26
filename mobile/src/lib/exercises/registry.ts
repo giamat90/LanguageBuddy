@@ -5,6 +5,7 @@ import { buildMultipleChoice, getDistractorPool } from './distractors';
 import { MATCH_MAX, MATCH_MIN, buildMatchingRound } from './matching';
 import { buildFindMistake } from './mistake';
 import { buildReorder } from './reorder';
+import { buildToneChoice } from './tone';
 import { tierOf } from './tier';
 import type { NativeLanguage } from '../../i18n/language';
 import type {
@@ -46,6 +47,14 @@ export const MULTIPLE_CHOICE: ExerciseDefinition = {
   build: (card, rng, lang) => buildMultipleChoice(card, getDistractorPool(), rng, lang),
 };
 
+/** Pronunciation: the tones of a new word (only languages with a reading layer can build it). */
+export const TONE_CHOICE: ExerciseDefinition = {
+  kind: 'tone_choice',
+  tiers: ['new'],
+  weight: 1,
+  build: (card, rng) => buildToneChoice(card, rng),
+};
+
 function flashcardModel(card: ReviewCard): FlashcardModel {
   return { kind: 'flashcard', card };
 }
@@ -63,6 +72,7 @@ export const DEFAULT_REGISTRY: ExerciseDefinition[] = [
   SENTENCE_REORDER,
   FIND_MISTAKE,
   MULTIPLE_CHOICE,
+  TONE_CHOICE,
   FLASHCARD,
 ];
 

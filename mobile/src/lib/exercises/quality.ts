@@ -24,6 +24,8 @@ export const QUALITY = {
  */
 export const FORMAT_QUALITY = {
   multiple_choice: 0.8,
+  /** Recognising the right tones: the same evidence as picking a meaning. */
+  tone_choice: 0.8,
   /** By mistakes made on that word during the round: 0, 1, 2 or more. */
   matching: [0.7, 0.4, 0] as readonly number[],
   sentence_reorder: { exact: 0.9, selfApproved: 0.5, wrong: 0 },
@@ -42,6 +44,11 @@ export type TypedResult = 'exact' | 'close' | 'wrong';
 export function typedQuality(result: TypedResult, hintUsed: boolean): number {
   const q: number = QUALITY[result];
   return hintUsed ? Math.min(q, QUALITY.hintCap) : q;
+}
+
+/** Asking for the pronunciation before answering is a hint: it caps the credit the same way. */
+export function pinyinQuality(quality: number, peeked: boolean): number {
+  return peeked ? Math.min(quality, QUALITY.hintCap) : quality;
 }
 
 /** Booleans become 1/0; numbers are clamped to [0, 1]; NaN counts as a fail. */

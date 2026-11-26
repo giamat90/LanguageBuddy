@@ -22,9 +22,10 @@ describe('speech', () => {
     expect(speechMock.__last()!.opts.language).toBe(current().speechLocale);
     expect(speechMock.__last()!.opts.rate).toBe(getActivePack().speech.rate);
   });
-  it('a noun is read with its article, any other word bare', () => {
-    const noun = allEntries().find(({ entry }) => entry.article)!.entry;
-    expect(speechText(noun.word, noun.article)).toBe(`${noun.article} ${noun.word}`);
+  it('a noun is read with its article (in a language that has them), any other word bare', () => {
+    const noun = allEntries().find(({ entry }) => entry.article)?.entry;
+    expect(noun !== undefined).toBe(current().articleForms.length > 0);
+    if (noun) expect(speechText(noun.word, noun.article)).toBe(`${noun.article} ${noun.word}`);
     expect(speechText('x', null)).toBe('x');
   });
 });

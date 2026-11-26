@@ -84,6 +84,23 @@ export const EXPECT: Record<string, AppExpectation> = {
     collationSample: ['eau', 'étage', 'facile'],
     specialCharacters: 'éèêàçœîôù',
   },
+  zh: {
+    appName: 'ChineseBuddy',
+    dbFile: 'chinesebuddy.db',
+    backupTag: 'ChineseBuddy',
+    packageName: 'com.giamat90.chinesebuddy',
+    speechLocale: 'zh-CN',
+    wordsPerLevel: { A1: 50, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 },
+    uiLanguages: ['it', 'en'],
+    translatedLanguages: [],
+    articleForms: [],
+    choiceRules: [],
+    hasCases: false,
+    sampleWord: { A1: '朋友' },
+    aiLanguageName: 'Mandarin Chinese',
+    collationSample: ['爸爸', '茶', '我'],
+    specialCharacters: '我你好茶书。？',
+  },
 };
 
 /** The row of the active app, or a failing message telling a new language what to add. */

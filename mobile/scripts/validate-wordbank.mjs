@@ -32,6 +32,7 @@ const STRING_FIELDS = [
 
 const require = createRequire(import.meta.url);
 const i18n = require('./wordbank-i18n-lib.cjs');
+const segmented = require('./lib/segmented.js');
 const errors = [];
 let total = 0;
 let i18nCount = 0;
@@ -130,6 +131,20 @@ for (const lang of folders) {
   const firstLevel = new Map();
   const before = errors.length;
 
+  // Character table of a language that has one (TASK-072): every character used needs a row.
+  let readings = null;
+  if (cfg.characters) {
+    try {
+      const rows = JSON.parse(readFileSync(join(bankDir, 'characters.json'), 'utf8'));
+      segmented.characterProblems(rows).forEach((p) => errors.push(`${lang}: ${p}`));
+      readings = new Map(rows.map((r) => [r.char, r.pinyin ?? []]));
+    } catch (e) {
+      errors.push(`${lang}/characters.json: not readable — ${e.message}`);
+    }
+  }
+  /** Headwords of the levels read so far: what a segmented sentence may use besides its "allow" list. */
+  const vocabulary = new Set();
+
   for (const level of LEVELS) {
     const file = join(bankDir, `${level}.json`);
     const tag = `${lang}/${level}.json`;
@@ -145,6 +160,7 @@ for (const lang of folders) {
       continue;
     }
     const seen = new Set();
+    entries.forEach((entry) => vocabulary.add(entry?.word));
     entries.forEach((entry, i) => {
       total++;
       const at = `${tag}[${i}] (${entry?.word ?? '?'})`;
@@ -173,7 +189,8 @@ for (const lang of folders) {
       }
       const check = cfg.ruleChecks?.[entry.grammar_angle];
       if (check && typeof entry.example === 'string') {
-        const words = entry.example.toLowerCase().split(/[^\p{L}]+/u);
+        // Without spaces between words, only the bank knows where they are.
+        const words = cfg.segmented ? segmented.wordsOf(entry) : entry.example.toLowerCase().split(/[^\p{L}]+/u);
         if (!check.mustContainAny.some((f) => words.includes(f.toLowerCase()))) {
           errors.push(`${at}: example for ${entry.grammar_angle} has none of its forms`);
         }
@@ -192,7 +209,13 @@ for (const lang of folders) {
       }
       if (!TOPICS.has(entry.topic_domain)) errors.push(`${at}: invalid topic_domain "${entry.topic_domain}"`);
       if (entry.cefr_band !== level) errors.push(`${at}: cefr_band "${entry.cefr_band}" must equal "${level}"`);
-      if (entry.part_of_speech === 'noun' && !entry.article) {
+      if (cfg.segmented && typeof entry.example === 'string' && typeof entry.word === 'string') {
+        segmented.sentenceProblems(entry, cfg.segmented, vocabulary).forEach((p) => errors.push(`${at}: ${p}`));
+        if (readings) segmented.pinyinProblems(entry, readings, cfg.pinyin ?? {}).forEach((p) => errors.push(`${at}: ${p}`));
+      }
+      if (cfg.measureWords) segmented.measureProblems(entry, cfg.measureWords).forEach((p) => errors.push(`${at}: ${p}`));
+      if (cfg.stages) segmented.stageProblems(entry, cfg.stages).forEach((p) => errors.push(`${at}: ${p}`));
+      if (entry.part_of_speech === 'noun' && !entry.article && ARTICLES.size > 0) {
         errors.push(`${at}: nouns must have an article`);
       }
       if (entry.part_of_speech === 'noun' && entry.article && !ARTICLES.has(entry.article)) {

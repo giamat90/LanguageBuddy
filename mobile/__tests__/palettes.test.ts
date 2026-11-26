@@ -15,7 +15,7 @@ const contrast = (a: string, b: string) => {
 
 describe('palettes', () => {
   it('has one palette per language, all with the same keys', () => {
-    expect(Object.keys(palettes).sort()).toEqual(['de', 'es', 'fr']);
+    expect(Object.keys(palettes).sort()).toEqual(['de', 'es', 'fr', 'zh']);
     expect(Object.keys(palettes.es).sort()).toEqual(Object.keys(palettes.de).sort());
   });
   it('keeps the German app exactly as released', () => {
@@ -32,7 +32,12 @@ describe('palettes', () => {
     expect(palettes.fr.primary).not.toBe(palettes.es.primary);
     expect(Object.keys(palettes.fr).sort()).toEqual(Object.keys(palettes.de).sort());
   });
-  it.each(['de', 'es', 'fr'] as const)('%s: text and buttons stay readable', (code) => {
+  it('gives Chinese a jade green of its own (red is the Spanish app)', () => {
+    expect(palettes.zh.primary).toBe('#0F6B50');
+    expect(new Set(Object.values(palettes).map((p) => p.primary)).size).toBe(4);
+    expect(Object.keys(palettes.zh).sort()).toEqual(Object.keys(palettes.de).sort());
+  });
+  it.each(['de', 'es', 'fr', 'zh'] as const)('%s: text and buttons stay readable', (code) => {
     const p = palettes[code];
     expect(contrast('#FFFFFF', p.primary)).toBeGreaterThanOrEqual(4.5);
     expect(contrast(p.ink, p.paper)).toBeGreaterThanOrEqual(7);

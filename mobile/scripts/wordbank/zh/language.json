@@ -1,0 +1,42 @@
+{
+  "code": "zh",
+  "name": "Chinese",
+  "levels": ["A1"],
+  "i18nLanguages": [],
+  "ruleCodes": [
+    "SHI_ZAI_YOU",
+    "QUESTION_PARTICLE",
+    "ER_LIANG",
+    "BU_MEI",
+    "MEASURE_WORD",
+    "QUESTION_WORDS",
+    "DE_POSSESSIVE",
+    "ADJ_HEN",
+    "LE_COMPLETION",
+    "MODAL_VERBS",
+    "PROGRESSIVE_ZAI",
+    "NUMBERS_TIME",
+    "WORD_ORDER"
+  ],
+  "partsOfSpeech": ["noun", "verb", "adj", "adv", "pron", "num", "measure", "prep", "conj", "particle", "phrase"],
+  "articles": [],
+  "segmented": {
+    "separator": "|",
+    "punctuation": "。？！，、：；“”‘’《》（）…",
+    "end": "。？！",
+    "minWords": 4,
+    "maxWords": 10,
+    "allow": ["一", "个", "本", "件", "位", "口", "碗", "杯", "台", "她", "这", "那", "的", "了", "吧", "太", "里", "上", "后面", "现在", "汉语", "三", "请", "给", "打", "多少", "天气", "北京", "认识", "我们"]
+  },
+  "extraColumns": ["example_pinyin", "measure", "measure_also", "stage"],
+  "characters": true,
+  "pinyin": { "alternatives": { "一": ["yí", "yì"], "不": ["bú"] }, "erhua": "儿" },
+  "measureWords": ["个", "本", "张", "件", "位", "只", "条", "辆", "杯", "瓶", "碗", "块", "口", "家", "间", "台", "把", "双", "岁", "些", "所", "部", "场", "名", "份", "套"],
+  "stages": [1, 2, 3, 4],
+  "ruleChecks": {
+    "SHI_ZAI_YOU": { "mustContainAny": ["是", "在", "有"], "exactlyOneOf": ["是", "在", "有"] },
+    "QUESTION_PARTICLE": { "mustContainAny": ["吗", "呢"], "exactlyOneOf": ["吗", "呢"] },
+    "ER_LIANG": { "mustContainAny": ["二", "两"], "exactlyOneOf": ["二", "两"] },
+    "BU_MEI": { "mustContainAny": ["不", "没"], "exactlyOneOf": ["不", "没"] }
+  }
+}

@@ -10,6 +10,7 @@ import { setActivePackForTests, type LanguagePack } from '../src/languages';
 import { de } from '../src/languages/de';
 import { es } from '../src/languages/es';
 import { fr } from '../src/languages/fr';
+import { zh } from '../src/languages/zh';
 import { coerceLevel } from '../src/lib/levels';
 import { fetchProfile } from '../src/services/profileService';
 import { fetchTodayWord } from '../src/services/wordService';
@@ -53,7 +54,7 @@ describe('coerceLevel', () => {
 });
 
 describe('pack rules', () => {
-  const packs: [string, LanguagePack][] = [['de', de], ['es', es], ['fr', fr], ['testPack', testPack], ['testPackCjk', testPackCjk]];
+  const packs: [string, LanguagePack][] = [['de', de], ['es', es], ['fr', fr], ['testPack', testPack], ['testPackCjk', testPackCjk], ['zh', zh]];
 
   it.each(packs)('%s: its levels are a non-empty prefix of A1..C2', (_name, pack) => {
     expect(pack.levels.length).toBeGreaterThan(0);

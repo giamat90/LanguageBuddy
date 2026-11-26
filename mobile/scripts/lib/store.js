@@ -68,6 +68,8 @@ const SUPPORT_COLORS = {
         C_PRIMARY_LIGHT: '#F7E4E3', C_TEXT: '#35120F', C_TEXT_MUTED: '#6B514B', C_INK_RGB: '53, 18, 15' },
   fr: { C_PRIMARY: '#0055A4', C_PRIMARY_DARK: '#0B1F3A', C_SECONDARY: '#003B73', C_GOLD: '#8F6108', C_CREAM: '#EAF0F8',
         C_PRIMARY_LIGHT: '#E1ECF8', C_TEXT: '#0B1F3A', C_TEXT_MUTED: '#4A5C75', C_INK_RGB: '11, 31, 58' },
+  zh: { C_PRIMARY: '#0F6B50', C_PRIMARY_DARK: '#0B2A20', C_SECONDARY: '#0A4F3B', C_GOLD: '#8F6108', C_CREAM: '#EAF3EE',
+        C_PRIMARY_LIGHT: '#DFEFE8', C_TEXT: '#0B2A20', C_TEXT_MUTED: '#47645A', C_INK_RGB: '11, 42, 32' },
 };
 
 function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n }) {

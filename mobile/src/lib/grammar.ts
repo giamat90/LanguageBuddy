@@ -207,3 +207,8 @@ export function buildChoiceQuestion(
     cefrBand: entry.cefr_band ?? null,
   };
 }
+
+/** False for a pack the grammar screen would have nothing to ask. */
+export function hasGrammarDrill(pack: LanguagePack = getActivePack()): boolean {
+  return pack.articles !== null || pack.cases !== null || pack.choices !== null;
+}

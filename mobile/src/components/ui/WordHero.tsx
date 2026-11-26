@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import { colors } from '../../theme/colors';
 import { typography } from '../../theme/typography';
 import ArticleBadge from './ArticleBadge';
+import { getActivePack } from '../../languages';
 
 interface Props {
   word: string;
@@ -19,7 +20,9 @@ export default function WordHero({ word, article, ipa, style }: Props) {
       ) : null}
       <Text style={[typography.wordHero, styles.word]}>{word}</Text>
       {ipa ? (
-        <Text style={[typography.articleMeta, styles.ipa]}>{`/${ipa}/`}</Text>
+        <Text style={[typography.articleMeta, styles.ipa]}>
+          {getActivePack().pronunciation === 'ipa' ? `/${ipa}/` : ipa}
+        </Text>
       ) : null}
     </View>
   );

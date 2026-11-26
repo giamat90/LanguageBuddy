@@ -38,6 +38,7 @@ export const fr: LanguagePack = {
     lead: /^[«‹("“‘—  ]+/,
     trail: /[.,!?;:»›)"”’'…—  ]+$/,
   },
+  pronunciation: 'ipa',
   collation: 'fr',
   speech: { locale: 'fr-FR', rate: 0.9 },
   ai: { languageName: 'French' },

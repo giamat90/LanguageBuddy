@@ -1,0 +1,13 @@
+{
+  "code": "zh",
+  "name": "ChineseBuddy",
+  "slug": "chinesebuddy",
+  "scheme": "chinesebuddy",
+  "androidPackage": "com.giamat90.chinesebuddy",
+  "iosBundleId": "com.chinesebuddy",
+  "icon": "./assets/icon-zh.png",
+  "adaptiveIcon": { "foreground": "./assets/adaptive-icon-zh.png", "background": "#0F6B50" },
+  "versionMajor": 1,
+  "versionMinor": 0,
+  "localFallbackVersionCode": 1
+}

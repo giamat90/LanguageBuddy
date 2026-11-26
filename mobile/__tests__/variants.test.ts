@@ -5,6 +5,7 @@ import { join } from 'path';
 import { de } from '../src/languages/de';
 import { es } from '../src/languages/es';
 import { fr } from '../src/languages/fr';
+import { zh } from '../src/languages/zh';
 /* eslint-disable @typescript-eslint/no-var-requires */
 const v = require('../scripts/lib/variants.js');
 
@@ -59,7 +60,7 @@ describe('the German app is unchanged', () => {
     expect(plugin(x.plugins, './plugins/withAndroidBackupRules')).toEqual(['./plugins/withAndroidBackupRules', { slug: 'germanbuddy' }]);
   });
   it('ANDROID_VERSION_CODE overrides the fallback for every app', () => {
-    for (const code of ['de', 'es', 'fr']) {
+    for (const code of ['de', 'es', 'fr', 'zh']) {
       const c = v.buildExpoConfig(v.loadVariant(code), { ANDROID_VERSION_CODE: '57' });
       expect(c.android.versionCode).toBe(57);
       expect(c.version).toBe('1.0.57');
@@ -124,10 +125,29 @@ describe('the French app', () => {
   });
 });
 
+describe('the Chinese app (TASK-073: pilot)', () => {
+  const x = v.buildExpoConfig(v.loadVariant('zh'), {});
+  it('has its own identity', () => {
+    expect(x.name).toBe('ChineseBuddy');
+    expect(x.slug).toBe('chinesebuddy');
+    expect(x.scheme).toBe('chinesebuddy');
+    expect(x.android.package).toBe('com.giamat90.chinesebuddy');
+    expect(x.ios.bundleIdentifier).toBe('com.chinesebuddy');
+    expect(x.version).toBe('1.0.1');
+    expect(x.android.versionCode).toBe(1);
+    expect(x.android.adaptiveIcon.backgroundColor).toBe('#0F6B50');
+    expect(x.owner).toBeUndefined();
+    expect(JSON.stringify(x)).not.toMatch(/German|Spanish|French|germanbuddy|spanishbuddy|frenchbuddy/);
+  });
+  it('guards its own language in Gradle', () => {
+    expect(plugin(x.plugins, './plugins/withLanguageGuard')).toEqual(['./plugins/withLanguageGuard', { code: 'zh' }]);
+  });
+});
+
 describe('variant files', () => {
   const codes: string[] = v.listVariants();
-  const packs: Record<string, typeof de> = { de, es, fr };
-  it('lists de, es and fr', () => expect(codes).toEqual(['de', 'es', 'fr']));
+  const packs: Record<string, typeof de> = { de, es, fr, zh };
+  it('lists de, es, fr and zh', () => expect(codes).toEqual(['de', 'es', 'fr', 'zh']));
   it('all validate', () => {
     for (const c of codes) expect(v.validateVariant(v.loadVariant(c), { root })).toEqual([]);
   });

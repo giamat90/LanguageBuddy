@@ -96,6 +96,7 @@ Each app teaches one language; all share the code, the exercise engine and the d
 | **GermanBuddy** | German | `com.giamat90.germanbuddy` | on Google Play |
 | **SpanishBuddy** | Spanish | `com.giamat90.spanishbuddy` | built and phone-tested; word content machine-drafted, Play listing not created |
 | FrenchBuddy | French | `com.giamat90.frenchbuddy` (planned) | pack done (TASK-063, draft language, no words yet); bank 064, translations 065, variant and store 066 |
+| ChineseBuddy | Chinese (Mandarin, A1) | `com.giamat90.chinesebuddy` | pilot of 50 machine-drafted words (TASK-073); placeholder icon; no store material; roadmap in `tasks/TASK-070.md` |
 | ItalianBuddy | Italian | — | planned; follow §3 "Adding a language" |
 
 What every app does:
@@ -133,12 +134,12 @@ LanguageBuddy/
 │   │   ├── components/ui/           # design-system components
 │   │   ├── components/exercises/    # one view per exercise format
 │   │   └── store/, i18n/ (it.ts is the key source; wordContentLoaders.ts is a GENERATED seam), theme/ (colors.ts, palettes.ts), types/, hooks/
-│   ├── variants/                    # one JSON per app: name, slug, scheme, packages, icons, version fields (de.json, es.json)
+│   ├── variants/                    # one JSON per app: name, slug, scheme, packages, icons, version fields (de.json, es.json, fr.json, zh.json)
 │   ├── scripts/                     # build-wordbank, validate-wordbank, set-active-language, with-language, test-app, verify-prebuild,
 │   │                                #   build-store, export-review-sample, export-i18n-source, check-play-version; wordbank/<lang>/ (TSV sources); lib/
 │   ├── plugins/                     # withReleaseSigning.js, withAndroidBackupRules.js (Expo config plugins)
 │   ├── test-support/                # testPack.ts (a Spanish-like second pack for tests), appExpectations.ts (per-app expectations table)
-│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), icon-fr.png / adaptive-icon-fr.png (French, placeholder), fonts, splash
+│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), icon-fr.png / adaptive-icon-fr.png (French, placeholder), icon-zh.png / adaptive-icon-zh.png (Chinese, placeholder), fonts, splash
 │   ├── __tests__/ (incl. activeApp/), __mocks__/   # jest-expo; expo-sqlite and react-native-mmkv are mocked in memory
 │   └── app.config.js                # thin: buildExpoConfig(variant) from scripts/lib/variants.js
 ├── store/                           # <code>/ (support.json, listing/<ui>.json, play-checklist, qa-checklist, screenshots, graphics-brief) and support-template/ (the four public pages)
@@ -163,6 +164,9 @@ Not in this repo: the German public site (`germanbuddy-support`, separate repo, 
   the level filters and "by level" statistics are hidden. A level read from storage or a route goes through `coerceLevel` (`lib/levels.ts`). `sentences` is `'spaced'` or `'segmented'` (no spaces between words):
   for a segmented language each bank entry carries `segments` that spell its example exactly, and the phone never segments text. Find words and tiles only through `lib/sentence.ts`
   (`sentenceParts`, `sentenceTokens`, `joinTokens`), never with `split(' ')`, `split(pack.letters)` or `join(' ')` on a sentence.
+- **Pronunciation and script (TASK-072):** `pronunciation` is `'ipa'` or `'pinyin'` (what the bank's `ipa` column holds; pinyin is shown without slashes and orders the word lists). `ai.rules` are extra AI-prompt instructions for one language.
+  A pack without articles, cases and choices has no Grammar button. A language written without spaces declares its bank format in `language.json` (`segmented` with the `|` separator and an `allow` list of non-headword words,
+  `extraColumns`, `characters` → `characters.tsv`, `pinyin`, `measureWords`, `stages`); `scripts/lib/segmented.js` and `pinyin.js` check it.
 - **Seams:** one language is active per build. `npm run set:language -- <code>` (default `de`) regenerates three files:
   `src/languages/active.ts`, `src/data/wordbank/active.ts`, `src/i18n/wordContentLoaders.ts`. **The repository always holds the German seams** (a diff in them is a bug).
   `node scripts/with-language.mjs <code> -- <command>` activates a language for one command and always restores the seams afterwards.
@@ -285,6 +289,14 @@ C2: PASSE_SIMPLE, REGISTRE_SOUTENU, CONCORDANCE_TEMPS
 ```
 The drill covers `NOUN_GENDER` (le/la) and the choice rules `AUXILIARY_AVOIR_ETRE`, `DIRECT_OBJECT_PRONOUN`, `RELATIVE_QUI_QUE`. An elided form (j'ai, l'ai, qu'il) is never a blank: the apostrophe would give
 the answer away, so a tagged sentence needs the member as a free token (je suis, il a, nous avons). The bank writes a no-break space (U+00A0) before ? ! : ; and a straight apostrophe; sentence tiles split on ordinary whitespace only.
+
+**Chinese** (A1 only; `levels` is `["A1"]`):
+```
+A1: SHI_ZAI_YOU, QUESTION_PARTICLE, ER_LIANG, BU_MEI, MEASURE_WORD, QUESTION_WORDS, DE_POSSESSIVE, ADJ_HEN, LE_COMPLETION, MODAL_VERBS, PROGRESSIVE_ZAI, NUMBERS_TIME, WORD_ORDER
+```
+The first four are *choice* rules (是/在/有, 吗/呢, 二/两, 不/没): a tagged sentence holds exactly one member **word**, and only where one answer is right. The app has no drill for them yet (TASK-076).
+The `ipa` column holds the word's pinyin, written by word, 一 and 不 as pronounced; `example` is written cut into words (`他|有|一|台|电脑|。`) with `example_pinyin` (one pinyin word per word); every character used needs a row in `characters.tsv`.
+Nouns name a measure word or `none`. There are no translated tables: Italian and English are the bank's own columns.
 
 ---
 

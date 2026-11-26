@@ -39,4 +39,12 @@ export const palettes: Record<TargetLanguageCode, Palette> = {
     gold: '#8F6108', goldLight: '#FBF0D9',
     border: 'rgba(11,31,58,0.12)',
   },
+  // Jade green, also the icon (variants/zh.json): red belongs to the Spanish app.
+  zh: {
+    paper: '#F5FAF7', mist: '#DFEAE4', cream: '#EAF3EE',
+    ink: '#0B2A20', muted: '#567065',
+    primary: '#0F6B50', primaryLight: '#DFEFE8',
+    gold: '#8F6108', goldLight: '#FBF0D9',
+    border: 'rgba(11,42,32,0.12)',
+  },
 };

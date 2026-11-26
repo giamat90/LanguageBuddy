@@ -1,5 +1,5 @@
 /** The language being studied. Widened by later tasks ('fr', …). */
-export type TargetLanguageCode = 'de' | 'es' | 'fr';
+export type TargetLanguageCode = 'de' | 'es' | 'fr' | 'zh';
 
 import type { NativeLanguage } from '../i18n/language';
 import type { CefrLevel } from '../data/wordbank';
@@ -73,10 +73,13 @@ export interface LanguagePack {
   typoMinLength: number;
   /** Quotes and punctuation split off a token. */
   punctuation: { lead: RegExp; trail: RegExp };
+  /** What the bank's `ipa` column holds. 'pinyin' is shown without slashes and orders the word lists. */
+  pronunciation: 'ipa' | 'pinyin';
   /** BCP-47 tag used only to sort word lists (Spanish puts ñ after n). */
   collation: string;
   speech: { locale: string; rate: number };
-  ai: { languageName: string };
+  /** `rules`: extra instructions for the AI prompt that only this language needs. */
+  ai: { languageName: string; rules?: readonly string[] };
   articles: ArticleSupport | null;
   /** null → "find the mistake" has no gender slot. */
   gender: GenderSupport | null;

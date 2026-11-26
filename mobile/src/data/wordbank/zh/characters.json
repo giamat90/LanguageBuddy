@@ -1,0 +1,2223 @@
+[
+  {
+    "char": "我",
+    "pinyin": [
+      "wǒ"
+    ],
+    "meaning_en": "I, me",
+    "meaning_it": "io, me",
+    "parts": [],
+    "lookalikes": [
+      "找"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "你",
+    "pinyin": [
+      "nǐ"
+    ],
+    "meaning_en": "you",
+    "meaning_it": "tu",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "尔",
+        "en": "you (classical Chinese)",
+        "it": "tu (cinese classico)"
+      }
+    ],
+    "lookalikes": [
+      "您"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "他",
+    "pinyin": [
+      "tā"
+    ],
+    "meaning_en": "he, him",
+    "meaning_it": "lui",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "也",
+        "en": "also",
+        "it": "anche"
+      }
+    ],
+    "lookalikes": [
+      "她",
+      "地"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "她",
+    "pinyin": [
+      "tā"
+    ],
+    "meaning_en": "she, her",
+    "meaning_it": "lei",
+    "parts": [
+      {
+        "char": "女",
+        "en": "woman",
+        "it": "donna"
+      },
+      {
+        "char": "也",
+        "en": "also",
+        "it": "anche"
+      }
+    ],
+    "lookalikes": [
+      "他",
+      "地"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "是",
+    "pinyin": [
+      "shì"
+    ],
+    "meaning_en": "to be",
+    "meaning_it": "essere",
+    "parts": [
+      {
+        "char": "日",
+        "en": "sun",
+        "it": "sole"
+      }
+    ],
+    "lookalikes": [
+      "足"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "有",
+    "pinyin": [
+      "yǒu"
+    ],
+    "meaning_en": "to have",
+    "meaning_it": "avere",
+    "parts": [
+      {
+        "char": "月",
+        "en": "moon, flesh",
+        "it": "luna, carne"
+      }
+    ],
+    "lookalikes": [
+      "右"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "在",
+    "pinyin": [
+      "zài"
+    ],
+    "meaning_en": "to be at",
+    "meaning_it": "trovarsi in",
+    "parts": [
+      {
+        "char": "土",
+        "en": "earth",
+        "it": "terra"
+      }
+    ],
+    "lookalikes": [
+      "左"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "人",
+    "pinyin": [
+      "rén"
+    ],
+    "meaning_en": "person",
+    "meaning_it": "persona",
+    "parts": [],
+    "lookalikes": [
+      "入",
+      "八"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "好",
+    "pinyin": [
+      "hǎo",
+      "hào"
+    ],
+    "meaning_en": "good",
+    "meaning_it": "buono",
+    "parts": [
+      {
+        "char": "女",
+        "en": "woman",
+        "it": "donna"
+      },
+      {
+        "char": "子",
+        "en": "child",
+        "it": "bambino"
+      }
+    ],
+    "lookalikes": [],
+    "trick_en": "A woman with a child: all is good.",
+    "trick_it": "Una donna con un bambino: tutto bene."
+  },
+  {
+    "char": "很",
+    "pinyin": [
+      "hěn"
+    ],
+    "meaning_en": "very",
+    "meaning_it": "molto",
+    "parts": [
+      {
+        "char": "彳",
+        "en": "step",
+        "it": "passo"
+      }
+    ],
+    "lookalikes": [
+      "根",
+      "跟"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "不",
+    "pinyin": [
+      "bù"
+    ],
+    "meaning_en": "not",
+    "meaning_it": "non",
+    "parts": [],
+    "lookalikes": [
+      "下",
+      "木"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "吗",
+    "pinyin": [
+      "ma",
+      "má"
+    ],
+    "meaning_en": "question particle",
+    "meaning_it": "particella interrogativa",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      },
+      {
+        "char": "马",
+        "en": "horse",
+        "it": "cavallo"
+      }
+    ],
+    "lookalikes": [
+      "妈",
+      "马"
+    ],
+    "trick_en": "The mouth asks; 马 (mǎ) gives the sound.",
+    "trick_it": "La bocca chiede; 马 (mǎ) dà il suono."
+  },
+  {
+    "char": "什",
+    "pinyin": [
+      "shén",
+      "shí"
+    ],
+    "meaning_en": "what (in 什么)",
+    "meaning_it": "che cosa (in 什么)",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "十",
+        "en": "ten",
+        "it": "dieci"
+      }
+    ],
+    "lookalikes": [
+      "计"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "么",
+    "pinyin": [
+      "me"
+    ],
+    "meaning_en": "(second syllable of 什么)",
+    "meaning_it": "(seconda sillaba di 什么)",
+    "parts": [],
+    "lookalikes": [
+      "公"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "两",
+    "pinyin": [
+      "liǎng"
+    ],
+    "meaning_en": "two",
+    "meaning_it": "due",
+    "parts": [],
+    "lookalikes": [
+      "雨"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "去",
+    "pinyin": [
+      "qù"
+    ],
+    "meaning_en": "to go",
+    "meaning_it": "andare",
+    "parts": [
+      {
+        "char": "土",
+        "en": "earth",
+        "it": "terra"
+      }
+    ],
+    "lookalikes": [
+      "丢"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "吃",
+    "pinyin": [
+      "chī"
+    ],
+    "meaning_en": "to eat",
+    "meaning_it": "mangiare",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      },
+      {
+        "char": "乞",
+        "en": "to beg",
+        "it": "mendicare"
+      }
+    ],
+    "lookalikes": [
+      "乞",
+      "气"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "喝",
+    "pinyin": [
+      "hē",
+      "hè"
+    ],
+    "meaning_en": "to drink",
+    "meaning_it": "bere",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      }
+    ],
+    "lookalikes": [
+      "渴"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "看",
+    "pinyin": [
+      "kàn",
+      "kān"
+    ],
+    "meaning_en": "to look",
+    "meaning_it": "guardare",
+    "parts": [
+      {
+        "char": "龵",
+        "en": "hand",
+        "it": "mano"
+      },
+      {
+        "char": "目",
+        "en": "eye",
+        "it": "occhio"
+      }
+    ],
+    "lookalikes": [
+      "着"
+    ],
+    "trick_en": "A hand shading the eye to look far away.",
+    "trick_it": "Una mano sopra l'occhio per guardare lontano."
+  },
+  {
+    "char": "喜",
+    "pinyin": [
+      "xǐ"
+    ],
+    "meaning_en": "to like; happiness",
+    "meaning_it": "gradire; felicità",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      }
+    ],
+    "lookalikes": [
+      "善"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "欢",
+    "pinyin": [
+      "huān"
+    ],
+    "meaning_en": "merry, cheerful",
+    "meaning_it": "allegro",
+    "parts": [
+      {
+        "char": "又",
+        "en": "again, hand",
+        "it": "di nuovo, mano"
+      },
+      {
+        "char": "欠",
+        "en": "to yawn",
+        "it": "sbadigliare"
+      }
+    ],
+    "lookalikes": [
+      "次"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "想",
+    "pinyin": [
+      "xiǎng"
+    ],
+    "meaning_en": "to think, to want",
+    "meaning_it": "pensare, volere",
+    "parts": [
+      {
+        "char": "相",
+        "en": "each other, appearance",
+        "it": "reciproco, aspetto"
+      },
+      {
+        "char": "心",
+        "en": "heart",
+        "it": "cuore"
+      }
+    ],
+    "lookalikes": [
+      "相"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "买",
+    "pinyin": [
+      "mǎi"
+    ],
+    "meaning_en": "to buy",
+    "meaning_it": "comprare",
+    "parts": [],
+    "lookalikes": [
+      "卖",
+      "头"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "学",
+    "pinyin": [
+      "xué"
+    ],
+    "meaning_en": "to study",
+    "meaning_it": "studiare",
+    "parts": [
+      {
+        "char": "子",
+        "en": "child",
+        "it": "bambino"
+      }
+    ],
+    "lookalikes": [
+      "字"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "习",
+    "pinyin": [
+      "xí"
+    ],
+    "meaning_en": "to practise",
+    "meaning_it": "esercitarsi",
+    "parts": [],
+    "lookalikes": [
+      "刁"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "工",
+    "pinyin": [
+      "gōng"
+    ],
+    "meaning_en": "work",
+    "meaning_it": "lavoro",
+    "parts": [],
+    "lookalikes": [
+      "土",
+      "干"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "作",
+    "pinyin": [
+      "zuò"
+    ],
+    "meaning_en": "to do, to make",
+    "meaning_it": "fare",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "乍",
+        "en": "suddenly",
+        "it": "all'improvviso"
+      }
+    ],
+    "lookalikes": [
+      "昨"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "睡",
+    "pinyin": [
+      "shuì"
+    ],
+    "meaning_en": "to sleep",
+    "meaning_it": "dormire",
+    "parts": [
+      {
+        "char": "目",
+        "en": "eye",
+        "it": "occhio"
+      },
+      {
+        "char": "垂",
+        "en": "to hang down",
+        "it": "pendere"
+      }
+    ],
+    "lookalikes": [
+      "垂"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "觉",
+    "pinyin": [
+      "jué",
+      "jiào"
+    ],
+    "meaning_en": "to feel; sleep (noun)",
+    "meaning_it": "sentire; sonno",
+    "parts": [
+      {
+        "char": "见",
+        "en": "to see",
+        "it": "vedere"
+      }
+    ],
+    "lookalikes": [
+      "党"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "朋",
+    "pinyin": [
+      "péng"
+    ],
+    "meaning_en": "companion (in 朋友)",
+    "meaning_it": "compagno (in 朋友)",
+    "parts": [
+      {
+        "char": "月",
+        "en": "moon, flesh",
+        "it": "luna, carne"
+      }
+    ],
+    "lookalikes": [
+      "明"
+    ],
+    "trick_en": "Two matching shapes side by side, like two friends.",
+    "trick_it": "Due forme uguali affiancate, come due amici."
+  },
+  {
+    "char": "友",
+    "pinyin": [
+      "yǒu"
+    ],
+    "meaning_en": "friend",
+    "meaning_it": "amico",
+    "parts": [
+      {
+        "char": "又",
+        "en": "again, hand",
+        "it": "di nuovo, mano"
+      }
+    ],
+    "lookalikes": [
+      "反",
+      "发"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "老",
+    "pinyin": [
+      "lǎo"
+    ],
+    "meaning_en": "old",
+    "meaning_it": "vecchio",
+    "parts": [],
+    "lookalikes": [
+      "考"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "师",
+    "pinyin": [
+      "shī"
+    ],
+    "meaning_en": "teacher, master",
+    "meaning_it": "maestro",
+    "parts": [],
+    "lookalikes": [
+      "帅"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "生",
+    "pinyin": [
+      "shēng"
+    ],
+    "meaning_en": "to be born; student",
+    "meaning_it": "nascere; studente",
+    "parts": [],
+    "lookalikes": [
+      "王",
+      "牛"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "妈",
+    "pinyin": [
+      "mā"
+    ],
+    "meaning_en": "mum",
+    "meaning_it": "mamma",
+    "parts": [
+      {
+        "char": "女",
+        "en": "woman",
+        "it": "donna"
+      },
+      {
+        "char": "马",
+        "en": "horse",
+        "it": "cavallo"
+      }
+    ],
+    "lookalikes": [
+      "吗",
+      "马"
+    ],
+    "trick_en": "The woman gives the meaning, 马 (mǎ) gives the sound.",
+    "trick_it": "La donna dà il significato, 马 (mǎ) dà il suono."
+  },
+  {
+    "char": "爸",
+    "pinyin": [
+      "bà"
+    ],
+    "meaning_en": "dad",
+    "meaning_it": "papà",
+    "parts": [
+      {
+        "char": "父",
+        "en": "father",
+        "it": "padre"
+      },
+      {
+        "char": "巴",
+        "en": "(sound part)",
+        "it": "(parte fonetica)"
+      }
+    ],
+    "lookalikes": [
+      "吧",
+      "爷"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "家",
+    "pinyin": [
+      "jiā"
+    ],
+    "meaning_en": "home, family",
+    "meaning_it": "casa, famiglia",
+    "parts": [
+      {
+        "char": "宀",
+        "en": "roof",
+        "it": "tetto"
+      },
+      {
+        "char": "豕",
+        "en": "pig",
+        "it": "maiale"
+      }
+    ],
+    "lookalikes": [
+      "象"
+    ],
+    "trick_en": "A pig under a roof: a home.",
+    "trick_it": "Un maiale sotto un tetto: una casa."
+  },
+  {
+    "char": "书",
+    "pinyin": [
+      "shū"
+    ],
+    "meaning_en": "book",
+    "meaning_it": "libro",
+    "parts": [],
+    "lookalikes": [
+      "韦"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "水",
+    "pinyin": [
+      "shuǐ"
+    ],
+    "meaning_en": "water",
+    "meaning_it": "acqua",
+    "parts": [],
+    "lookalikes": [
+      "永",
+      "冰"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "茶",
+    "pinyin": [
+      "chá"
+    ],
+    "meaning_en": "tea",
+    "meaning_it": "tè",
+    "parts": [
+      {
+        "char": "艹",
+        "en": "grass, plants",
+        "it": "erba, piante"
+      }
+    ],
+    "lookalikes": [
+      "荼"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "米",
+    "pinyin": [
+      "mǐ"
+    ],
+    "meaning_en": "uncooked rice",
+    "meaning_it": "riso crudo",
+    "parts": [],
+    "lookalikes": [
+      "来"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "饭",
+    "pinyin": [
+      "fàn"
+    ],
+    "meaning_en": "cooked rice, meal",
+    "meaning_it": "riso cotto, pasto",
+    "parts": [
+      {
+        "char": "饣",
+        "en": "food",
+        "it": "cibo"
+      },
+      {
+        "char": "反",
+        "en": "to turn back",
+        "it": "contrario, tornare indietro"
+      }
+    ],
+    "lookalikes": [
+      "板",
+      "返"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "苹",
+    "pinyin": [
+      "píng"
+    ],
+    "meaning_en": "apple (in 苹果)",
+    "meaning_it": "mela (in 苹果)",
+    "parts": [
+      {
+        "char": "艹",
+        "en": "grass, plants",
+        "it": "erba, piante"
+      },
+      {
+        "char": "平",
+        "en": "flat",
+        "it": "piano, liscio"
+      }
+    ],
+    "lookalikes": [
+      "平"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "果",
+    "pinyin": [
+      "guǒ"
+    ],
+    "meaning_en": "fruit",
+    "meaning_it": "frutto",
+    "parts": [
+      {
+        "char": "木",
+        "en": "tree",
+        "it": "albero"
+      }
+    ],
+    "lookalikes": [
+      "里",
+      "呆"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "校",
+    "pinyin": [
+      "xiào",
+      "jiào"
+    ],
+    "meaning_en": "school",
+    "meaning_it": "scuola",
+    "parts": [
+      {
+        "char": "木",
+        "en": "tree, wood",
+        "it": "albero, legno"
+      },
+      {
+        "char": "交",
+        "en": "to hand over, to cross",
+        "it": "consegnare, incrociare"
+      }
+    ],
+    "lookalikes": [
+      "较"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "商",
+    "pinyin": [
+      "shāng"
+    ],
+    "meaning_en": "trade",
+    "meaning_it": "commercio",
+    "parts": [],
+    "lookalikes": [
+      "摘"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "店",
+    "pinyin": [
+      "diàn"
+    ],
+    "meaning_en": "shop",
+    "meaning_it": "negozio",
+    "parts": [
+      {
+        "char": "广",
+        "en": "shelter",
+        "it": "riparo"
+      },
+      {
+        "char": "占",
+        "en": "to occupy",
+        "it": "occupare"
+      }
+    ],
+    "lookalikes": [
+      "床",
+      "点"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "医",
+    "pinyin": [
+      "yī"
+    ],
+    "meaning_en": "medicine",
+    "meaning_it": "medicina",
+    "parts": [
+      {
+        "char": "匚",
+        "en": "box",
+        "it": "scatola"
+      },
+      {
+        "char": "矢",
+        "en": "arrow",
+        "it": "freccia"
+      }
+    ],
+    "lookalikes": [
+      "区"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "院",
+    "pinyin": [
+      "yuàn"
+    ],
+    "meaning_en": "courtyard, institution",
+    "meaning_it": "cortile, istituto",
+    "parts": [
+      {
+        "char": "阝",
+        "en": "mound",
+        "it": "altura"
+      },
+      {
+        "char": "完",
+        "en": "complete",
+        "it": "completo"
+      }
+    ],
+    "lookalikes": [
+      "完"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "电",
+    "pinyin": [
+      "diàn"
+    ],
+    "meaning_en": "electricity",
+    "meaning_it": "elettricità",
+    "parts": [],
+    "lookalikes": [
+      "由",
+      "申"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "脑",
+    "pinyin": [
+      "nǎo"
+    ],
+    "meaning_en": "brain",
+    "meaning_it": "cervello",
+    "parts": [
+      {
+        "char": "月",
+        "en": "flesh, body",
+        "it": "carne, corpo"
+      }
+    ],
+    "lookalikes": [
+      "恼"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "话",
+    "pinyin": [
+      "huà"
+    ],
+    "meaning_en": "speech, words",
+    "meaning_it": "discorso, parole",
+    "parts": [
+      {
+        "char": "讠",
+        "en": "speech",
+        "it": "parola"
+      },
+      {
+        "char": "舌",
+        "en": "tongue",
+        "it": "lingua"
+      }
+    ],
+    "lookalikes": [
+      "活"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "影",
+    "pinyin": [
+      "yǐng"
+    ],
+    "meaning_en": "shadow",
+    "meaning_it": "ombra",
+    "parts": [
+      {
+        "char": "景",
+        "en": "scene, view",
+        "it": "scena, veduta"
+      },
+      {
+        "char": "彡",
+        "en": "strokes, light",
+        "it": "tratti, luce"
+      }
+    ],
+    "lookalikes": [
+      "景"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "中",
+    "pinyin": [
+      "zhōng",
+      "zhòng"
+    ],
+    "meaning_en": "middle",
+    "meaning_it": "mezzo",
+    "parts": [],
+    "lookalikes": [
+      "串",
+      "申"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "国",
+    "pinyin": [
+      "guó"
+    ],
+    "meaning_en": "country",
+    "meaning_it": "Paese",
+    "parts": [
+      {
+        "char": "囗",
+        "en": "enclosure",
+        "it": "recinto"
+      },
+      {
+        "char": "玉",
+        "en": "jade",
+        "it": "giada"
+      }
+    ],
+    "lookalikes": [
+      "园",
+      "图"
+    ],
+    "trick_en": "Memory picture: imagine jade inside a border and think of a country.",
+    "trick_it": "Immagine per ricordare: pensa a una giada dentro un confine come a un Paese."
+  },
+  {
+    "char": "钱",
+    "pinyin": [
+      "qián"
+    ],
+    "meaning_en": "money",
+    "meaning_it": "denaro",
+    "parts": [
+      {
+        "char": "钅",
+        "en": "metal",
+        "it": "metallo"
+      },
+      {
+        "char": "戋",
+        "en": "(sound part)",
+        "it": "(parte fonetica)"
+      }
+    ],
+    "lookalikes": [
+      "浅",
+      "线"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "衣",
+    "pinyin": [
+      "yī"
+    ],
+    "meaning_en": "clothing",
+    "meaning_it": "abbigliamento",
+    "parts": [],
+    "lookalikes": [
+      "农",
+      "表"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "服",
+    "pinyin": [
+      "fú"
+    ],
+    "meaning_en": "to serve; to obey",
+    "meaning_it": "servire; obbedire",
+    "parts": [
+      {
+        "char": "月",
+        "en": "moon, flesh",
+        "it": "luna, carne"
+      }
+    ],
+    "lookalikes": [
+      "报"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "今",
+    "pinyin": [
+      "jīn"
+    ],
+    "meaning_en": "now, today",
+    "meaning_it": "adesso, odierno",
+    "parts": [],
+    "lookalikes": [
+      "令"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "天",
+    "pinyin": [
+      "tiān"
+    ],
+    "meaning_en": "sky, day",
+    "meaning_it": "cielo, giorno",
+    "parts": [
+      {
+        "char": "一",
+        "en": "one",
+        "it": "uno"
+      },
+      {
+        "char": "大",
+        "en": "big",
+        "it": "grande"
+      }
+    ],
+    "lookalikes": [
+      "大",
+      "夫",
+      "太"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "大",
+    "pinyin": [
+      "dà",
+      "dài"
+    ],
+    "meaning_en": "big",
+    "meaning_it": "grande",
+    "parts": [],
+    "lookalikes": [
+      "太",
+      "天",
+      "犬"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "小",
+    "pinyin": [
+      "xiǎo"
+    ],
+    "meaning_en": "small",
+    "meaning_it": "piccolo",
+    "parts": [],
+    "lookalikes": [
+      "少",
+      "水"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "多",
+    "pinyin": [
+      "duō"
+    ],
+    "meaning_en": "many",
+    "meaning_it": "molti, numerosi",
+    "parts": [
+      {
+        "char": "夕",
+        "en": "evening",
+        "it": "sera"
+      }
+    ],
+    "lookalikes": [
+      "岁",
+      "名"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "高",
+    "pinyin": [
+      "gāo"
+    ],
+    "meaning_en": "tall, high",
+    "meaning_it": "alto",
+    "parts": [],
+    "lookalikes": [
+      "亮"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "兴",
+    "pinyin": [
+      "xìng",
+      "xīng"
+    ],
+    "meaning_en": "interest; to rise",
+    "meaning_it": "interesse; sorgere",
+    "parts": [],
+    "lookalikes": [
+      "举"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "热",
+    "pinyin": [
+      "rè"
+    ],
+    "meaning_en": "hot",
+    "meaning_it": "caldo",
+    "parts": [
+      {
+        "char": "执",
+        "en": "to hold",
+        "it": "tenere"
+      },
+      {
+        "char": "灬",
+        "en": "fire",
+        "it": "fuoco"
+      }
+    ],
+    "lookalikes": [
+      "熟"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "一",
+    "pinyin": [
+      "yī"
+    ],
+    "meaning_en": "one",
+    "meaning_it": "uno",
+    "parts": [],
+    "lookalikes": [
+      "二",
+      "十"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "个",
+    "pinyin": [
+      "gè"
+    ],
+    "meaning_en": "(general measure word)",
+    "meaning_it": "(classificatore generico)",
+    "parts": [],
+    "lookalikes": [
+      "介",
+      "全"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "现",
+    "pinyin": [
+      "xiàn"
+    ],
+    "meaning_en": "current; to appear",
+    "meaning_it": "attuale; apparire",
+    "parts": [
+      {
+        "char": "王",
+        "en": "king, jade",
+        "it": "re, giada"
+      },
+      {
+        "char": "见",
+        "en": "to see",
+        "it": "vedere"
+      }
+    ],
+    "lookalikes": [
+      "观"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "汉",
+    "pinyin": [
+      "hàn"
+    ],
+    "meaning_en": "Han Chinese",
+    "meaning_it": "cinese Han",
+    "parts": [
+      {
+        "char": "氵",
+        "en": "water",
+        "it": "acqua"
+      },
+      {
+        "char": "又",
+        "en": "again, hand",
+        "it": "di nuovo, mano"
+      }
+    ],
+    "lookalikes": [
+      "汗"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "语",
+    "pinyin": [
+      "yǔ"
+    ],
+    "meaning_en": "language",
+    "meaning_it": "lingua",
+    "parts": [
+      {
+        "char": "讠",
+        "en": "speech",
+        "it": "parola"
+      },
+      {
+        "char": "吾",
+        "en": "I (literary)",
+        "it": "io (letterario)"
+      }
+    ],
+    "lookalikes": [
+      "话"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "里",
+    "pinyin": [
+      "lǐ"
+    ],
+    "meaning_en": "inside",
+    "meaning_it": "dentro",
+    "parts": [],
+    "lookalikes": [
+      "果",
+      "量"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "的",
+    "pinyin": [
+      "de",
+      "dí",
+      "dì"
+    ],
+    "meaning_en": "(possessive particle)",
+    "meaning_it": "(particella possessiva)",
+    "parts": [
+      {
+        "char": "白",
+        "en": "white",
+        "it": "bianco"
+      },
+      {
+        "char": "勺",
+        "en": "spoon",
+        "it": "cucchiaio"
+      }
+    ],
+    "lookalikes": [
+      "约"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "台",
+    "pinyin": [
+      "tái"
+    ],
+    "meaning_en": "platform; (measure word for machines)",
+    "meaning_it": "piattaforma; (classificatore per apparecchi e macchinari)",
+    "parts": [
+      {
+        "char": "厶",
+        "en": "private",
+        "it": "privato"
+      },
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      }
+    ],
+    "lookalikes": [
+      "合",
+      "召"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "件",
+    "pinyin": [
+      "jiàn"
+    ],
+    "meaning_en": "item; (measure word for clothes)",
+    "meaning_it": "capo, pezzo; (classificatore per vestiti)",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "牛",
+        "en": "ox",
+        "it": "bue"
+      }
+    ],
+    "lookalikes": [
+      "牛",
+      "什"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "少",
+    "pinyin": [
+      "shǎo",
+      "shào"
+    ],
+    "meaning_en": "few, not much",
+    "meaning_it": "poco",
+    "parts": [],
+    "lookalikes": [
+      "小",
+      "沙"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "本",
+    "pinyin": [
+      "běn"
+    ],
+    "meaning_en": "root; (measure word for books)",
+    "meaning_it": "radice; (classificatore per libri)",
+    "parts": [
+      {
+        "char": "木",
+        "en": "tree",
+        "it": "albero"
+      }
+    ],
+    "lookalikes": [
+      "木",
+      "体"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "了",
+    "pinyin": [
+      "le",
+      "liǎo"
+    ],
+    "meaning_en": "(completed-action particle)",
+    "meaning_it": "(particella dell'azione compiuta)",
+    "parts": [],
+    "lookalikes": [
+      "子"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "三",
+    "pinyin": [
+      "sān"
+    ],
+    "meaning_en": "three",
+    "meaning_it": "tre",
+    "parts": [],
+    "lookalikes": [
+      "二",
+      "王"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "口",
+    "pinyin": [
+      "kǒu"
+    ],
+    "meaning_en": "mouth",
+    "meaning_it": "bocca",
+    "parts": [],
+    "lookalikes": [
+      "日",
+      "回"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "这",
+    "pinyin": [
+      "zhè",
+      "zhèi"
+    ],
+    "meaning_en": "this",
+    "meaning_it": "questo",
+    "parts": [
+      {
+        "char": "辶",
+        "en": "walking",
+        "it": "cammino"
+      },
+      {
+        "char": "文",
+        "en": "writing",
+        "it": "scrittura"
+      }
+    ],
+    "lookalikes": [
+      "过",
+      "还"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "请",
+    "pinyin": [
+      "qǐng"
+    ],
+    "meaning_en": "please, to invite",
+    "meaning_it": "per favore, invitare",
+    "parts": [
+      {
+        "char": "讠",
+        "en": "speech",
+        "it": "parola"
+      },
+      {
+        "char": "青",
+        "en": "blue-green",
+        "it": "verde-azzurro"
+      }
+    ],
+    "lookalikes": [
+      "清",
+      "情"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "给",
+    "pinyin": [
+      "gěi",
+      "jǐ"
+    ],
+    "meaning_en": "to give; to, for",
+    "meaning_it": "dare; a, per",
+    "parts": [
+      {
+        "char": "纟",
+        "en": "silk",
+        "it": "seta"
+      },
+      {
+        "char": "合",
+        "en": "to join",
+        "it": "unire"
+      }
+    ],
+    "lookalikes": [
+      "合",
+      "结"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "杯",
+    "pinyin": [
+      "bēi"
+    ],
+    "meaning_en": "cup, glass",
+    "meaning_it": "tazza, bicchiere",
+    "parts": [
+      {
+        "char": "木",
+        "en": "wood",
+        "it": "legno"
+      },
+      {
+        "char": "不",
+        "en": "not",
+        "it": "non"
+      }
+    ],
+    "lookalikes": [
+      "怀"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "碗",
+    "pinyin": [
+      "wǎn"
+    ],
+    "meaning_en": "bowl",
+    "meaning_it": "ciotola",
+    "parts": [
+      {
+        "char": "石",
+        "en": "stone",
+        "it": "pietra"
+      },
+      {
+        "char": "宛",
+        "en": "winding",
+        "it": "sinuoso"
+      }
+    ],
+    "lookalikes": [
+      "宛"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "气",
+    "pinyin": [
+      "qì"
+    ],
+    "meaning_en": "air",
+    "meaning_it": "aria",
+    "parts": [],
+    "lookalikes": [
+      "汽"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "们",
+    "pinyin": [
+      "men"
+    ],
+    "meaning_en": "(plural marker for people)",
+    "meaning_it": "(suffisso del plurale per le persone)",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "门",
+        "en": "door",
+        "it": "porta"
+      }
+    ],
+    "lookalikes": [
+      "门"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "那",
+    "pinyin": [
+      "nà",
+      "nèi"
+    ],
+    "meaning_en": "that",
+    "meaning_it": "quello",
+    "parts": [
+      {
+        "char": "阝",
+        "en": "town",
+        "it": "città"
+      }
+    ],
+    "lookalikes": [
+      "哪"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "后",
+    "pinyin": [
+      "hòu"
+    ],
+    "meaning_en": "behind, after",
+    "meaning_it": "dietro, dopo",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      }
+    ],
+    "lookalikes": [
+      "向"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "面",
+    "pinyin": [
+      "miàn"
+    ],
+    "meaning_en": "face, side",
+    "meaning_it": "faccia, lato",
+    "parts": [],
+    "lookalikes": [
+      "而"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "位",
+    "pinyin": [
+      "wèi"
+    ],
+    "meaning_en": "position; (polite measure word for people)",
+    "meaning_it": "posizione; (classificatore cortese per persone)",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "立",
+        "en": "to stand",
+        "it": "stare in piedi"
+      }
+    ],
+    "lookalikes": [
+      "住"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "上",
+    "pinyin": [
+      "shàng"
+    ],
+    "meaning_en": "up, on",
+    "meaning_it": "su, sopra",
+    "parts": [],
+    "lookalikes": [
+      "下",
+      "土"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "打",
+    "pinyin": [
+      "dǎ"
+    ],
+    "meaning_en": "to hit, to make (a call)",
+    "meaning_it": "colpire, fare (una chiamata)",
+    "parts": [
+      {
+        "char": "扌",
+        "en": "hand",
+        "it": "mano"
+      },
+      {
+        "char": "丁",
+        "en": "nail (shape)",
+        "it": "chiodo (forma)"
+      }
+    ],
+    "lookalikes": [
+      "灯",
+      "订"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "吧",
+    "pinyin": [
+      "ba",
+      "bā"
+    ],
+    "meaning_en": "(suggestion particle)",
+    "meaning_it": "(particella per fare proposte)",
+    "parts": [
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      },
+      {
+        "char": "巴",
+        "en": "(sound part)",
+        "it": "(parte fonetica)"
+      }
+    ],
+    "lookalikes": [
+      "爸",
+      "把"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "太",
+    "pinyin": [
+      "tài"
+    ],
+    "meaning_en": "too, excessively",
+    "meaning_it": "troppo",
+    "parts": [
+      {
+        "char": "大",
+        "en": "big",
+        "it": "grande"
+      }
+    ],
+    "lookalikes": [
+      "大",
+      "天",
+      "犬"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "北",
+    "pinyin": [
+      "běi"
+    ],
+    "meaning_en": "north",
+    "meaning_it": "nord",
+    "parts": [],
+    "lookalikes": [
+      "比",
+      "兆"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "京",
+    "pinyin": [
+      "jīng"
+    ],
+    "meaning_en": "capital city",
+    "meaning_it": "capitale",
+    "parts": [],
+    "lookalikes": [
+      "景",
+      "凉"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "认",
+    "pinyin": [
+      "rèn"
+    ],
+    "meaning_en": "to recognise",
+    "meaning_it": "riconoscere",
+    "parts": [
+      {
+        "char": "讠",
+        "en": "speech",
+        "it": "parola"
+      },
+      {
+        "char": "人",
+        "en": "person",
+        "it": "persona"
+      }
+    ],
+    "lookalikes": [
+      "订",
+      "队"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "识",
+    "pinyin": [
+      "shí",
+      "zhì"
+    ],
+    "meaning_en": "to know",
+    "meaning_it": "conoscere",
+    "parts": [
+      {
+        "char": "讠",
+        "en": "speech",
+        "it": "parola"
+      },
+      {
+        "char": "只",
+        "en": "only",
+        "it": "soltanto"
+      }
+    ],
+    "lookalikes": [
+      "织",
+      "积"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "瓶",
+    "pinyin": [
+      "píng"
+    ],
+    "meaning_en": "bottle",
+    "meaning_it": "bottiglia",
+    "parts": [
+      {
+        "char": "并",
+        "en": "together",
+        "it": "insieme"
+      },
+      {
+        "char": "瓦",
+        "en": "tile, pottery",
+        "it": "tegola, ceramica"
+      }
+    ],
+    "lookalikes": [
+      "瓷"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "所",
+    "pinyin": [
+      "suǒ"
+    ],
+    "meaning_en": "place; (measure word for schools)",
+    "meaning_it": "luogo; (classificatore per scuole)",
+    "parts": [
+      {
+        "char": "户",
+        "en": "door, household",
+        "it": "porta, famiglia"
+      },
+      {
+        "char": "斤",
+        "en": "axe",
+        "it": "ascia"
+      }
+    ],
+    "lookalikes": [
+      "听"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "部",
+    "pinyin": [
+      "bù"
+    ],
+    "meaning_en": "part; (measure word for films)",
+    "meaning_it": "parte; (classificatore per film)",
+    "parts": [
+      {
+        "char": "阝",
+        "en": "town",
+        "it": "città"
+      }
+    ],
+    "lookalikes": [
+      "陪"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "场",
+    "pinyin": [
+      "chǎng",
+      "cháng"
+    ],
+    "meaning_en": "venue; (measure word for shows)",
+    "meaning_it": "campo, area; (classificatore per spettacoli)",
+    "parts": [
+      {
+        "char": "土",
+        "en": "earth",
+        "it": "terra"
+      }
+    ],
+    "lookalikes": [
+      "扬",
+      "汤"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "名",
+    "pinyin": [
+      "míng"
+    ],
+    "meaning_en": "name; (measure word for people in a role)",
+    "meaning_it": "nome; (classificatore per persone con un ruolo)",
+    "parts": [
+      {
+        "char": "夕",
+        "en": "evening",
+        "it": "sera"
+      },
+      {
+        "char": "口",
+        "en": "mouth",
+        "it": "bocca"
+      }
+    ],
+    "lookalikes": [
+      "各",
+      "多"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "份",
+    "pinyin": [
+      "fèn"
+    ],
+    "meaning_en": "portion; (measure word for servings)",
+    "meaning_it": "porzione; (classificatore per porzioni)",
+    "parts": [
+      {
+        "char": "亻",
+        "en": "person",
+        "it": "persona"
+      },
+      {
+        "char": "分",
+        "en": "to divide",
+        "it": "dividere"
+      }
+    ],
+    "lookalikes": [
+      "分",
+      "粉"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  },
+  {
+    "char": "套",
+    "pinyin": [
+      "tào"
+    ],
+    "meaning_en": "set; (measure word for sets)",
+    "meaning_it": "completo; (classificatore per completi)",
+    "parts": [
+      {
+        "char": "大",
+        "en": "big",
+        "it": "grande"
+      }
+    ],
+    "lookalikes": [
+      "奋",
+      "奄"
+    ],
+    "trick_en": null,
+    "trick_it": null
+  }
+]

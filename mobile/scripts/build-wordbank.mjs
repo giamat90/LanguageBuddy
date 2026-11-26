@@ -11,6 +11,10 @@
  *   example_en  cultural_note_en
  * Use "-" for a null article (non-nouns). Blank lines and lines starting with # are ignored.
  *
+ * language.json may add (TASK-072): "extraColumns" (appended in order, see EXTRA), "segmented"
+ * (the example is written with a separator between words and punctuation) and "characters": true
+ * (characters.tsv becomes characters.json; columns: see CHARACTER_COLS).
+ *
  * Options: --root <dir> --out <dir> (tests; the active-language seams are then left alone),
  *          --lang <code> (only that language). BUDDY_LANG picks the active language (default de).
  * Run: npm run build:wordbank   (also runs on pretest, before the validator)
@@ -36,6 +40,38 @@ const COLS = [
   'session_scenario', 'example_en', 'cultural_note_en',
 ];
 
+/** Extra columns a language may declare, and the JSON value each cell becomes. */
+const EXTRA = {
+  example_pinyin: (v) => v,
+  measure: (v) => (v === '-' || v === '' ? null : v),
+  measure_also: (v) => (v === '-' ? [] : v.split(/\s+/).filter(Boolean)),
+  stage: (v) => Number(v),
+};
+const CHARACTER_COLS = [
+  'char', 'pinyin', 'meaning_en', 'meaning_it', 'parts', 'parts_en', 'parts_it', 'lookalikes', 'trick_en', 'trick_it',
+];
+
+/** One characters.tsv row as the app will read it. A part without a gloss keeps it empty for the validator. */
+function characterEntry(c) {
+  const optional = (v) => (v === '-' || v === '' ? null : v);
+  const words = (v) => optional(v)?.split(/\s+/) ?? [];
+  const glosses = (v) => optional(v)?.split(';').map((g) => g.trim()) ?? [];
+  const chars = words(c.parts);
+  const en = glosses(c.parts_en);
+  const it = glosses(c.parts_it);
+  const count = Math.max(chars.length, en.length, it.length);
+  return {
+    char: c.char,
+    pinyin: c.pinyin.split(/\s+/).filter(Boolean),
+    meaning_en: c.meaning_en,
+    meaning_it: c.meaning_it,
+    parts: Array.from({ length: count }, (_, i) => ({ char: chars[i] ?? '', en: en[i] ?? '', it: it[i] ?? '' })),
+    lookalikes: words(c.lookalikes),
+    trick_en: optional(c.trick_en),
+    trick_it: optional(c.trick_it),
+  };
+}
+
 let totalOut = 0;
 const problems = [];
 
@@ -58,6 +94,13 @@ for (const lang of folders) {
   }
   const CONFIGURED = cfg.levels ?? ALL_LEVELS;
   const LEVELS = [];
+  const extra = cfg.extraColumns ?? [];
+  const unknown = extra.filter((c) => !Object.hasOwn(EXTRA, c));
+  if (unknown.length) {
+    problems.push(`${lang}: unknown extra column(s) in language.json: ${unknown.join(', ')}`);
+    continue;
+  }
+  const columns = [...COLS, ...extra];
   mkdirSync(outDir, { recursive: true });
   console.log(`${lang}:`);
 
@@ -75,12 +118,15 @@ for (const lang of folders) {
     raw.split(/\r?\n/).forEach((line, idx) => {
       if (!line.trim() || line.startsWith('#')) return;
       const parts = line.split('\t');
-      if (parts.length !== COLS.length) {
-        problems.push(`${lang}/${level}.tsv:${idx + 1} has ${parts.length} columns, expected ${COLS.length}`);
+      if (parts.length !== columns.length) {
+        problems.push(`${lang}/${level}.tsv:${idx + 1} has ${parts.length} columns, expected ${columns.length}`);
         return;
       }
       const e = {};
-      COLS.forEach((c, i) => (e[c] = parts[i].trim()));
+      columns.forEach((c, i) => (e[c] = parts[i].trim()));
+      // A segmented example is written cut into words; the sentence is those pieces joined.
+      const segments = cfg.segmented ? e.example.split(cfg.segmented.separator).filter((s) => s !== '') : null;
+      if (segments) e.example = segments.join('');
       e.article = e.article === '-' || e.article === '' ? null : e.article;
       e.cefr_band = level;
       const key = e.word.toLowerCase();
@@ -97,6 +143,7 @@ for (const lang of folders) {
         meaning_en: e.meaning_en,
         meaning_it: e.meaning_it,
         example: e.example,
+        ...(segments ? { segments } : {}),
         example_it: e.example_it,
         cultural_note: e.cultural_note,
         grammar_angle: e.grammar_angle,
@@ -105,11 +152,32 @@ for (const lang of folders) {
         session_scenario: e.session_scenario,
         example_en: e.example_en,
         cultural_note_en: e.cultural_note_en,
+        ...Object.fromEntries(extra.map((c) => [c, EXTRA[c](e[c])])),
       });
     });
     writeFileSync(join(outDir, `${level}.json`), JSON.stringify(entries, null, 2) + '\n');
     totalOut += entries.length;
     console.log(`  ${level}: ${entries.length} entries`);
+  }
+
+  if (cfg.characters) {
+    const file = join(srcDir, 'characters.tsv');
+    if (!existsSync(file)) {
+      problems.push(`${lang}: characters.tsv missing`);
+    } else {
+      const rows = [];
+      readFileSync(file, 'utf8').split(/\r?\n/).forEach((line, idx) => {
+        if (!line.trim() || line.startsWith('#')) return;
+        const parts = line.split('\t').map((p) => p.trim());
+        if (parts.length !== CHARACTER_COLS.length) {
+          problems.push(`${lang}/characters.tsv:${idx + 1} has ${parts.length} columns, expected ${CHARACTER_COLS.length}`);
+          return;
+        }
+        rows.push(characterEntry(Object.fromEntries(CHARACTER_COLS.map((c, i) => [c, parts[i]]))));
+      });
+      writeFileSync(join(outDir, 'characters.json'), JSON.stringify(rows, null, 2) + '\n');
+      console.log(`  characters: ${rows.length}`);
+    }
   }
 
   // translated content (TASK-025): <lang>/i18n/<native>/<LEVEL>.tsv → <lang>/i18n/<native>.json

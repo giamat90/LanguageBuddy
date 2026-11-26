@@ -19,6 +19,7 @@ import Divider from '../components/ui/Divider';
 import SpeakButton from '../components/ui/SpeakButton';
 import { useSpeech } from '../hooks/useSpeech';
 import { speechText } from '../lib/speech';
+import { hasGrammarDrill } from '../lib/grammar';
 
 const storage = new MMKV({ id: 'vault-store' });
 const CACHE_KEY = 'vault_cache';
@@ -201,16 +202,18 @@ export default function VaultScreen() {
             {t('vault_today_cta')}
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => router.push('/(app)/grammar')}
-          style={[styles.action, styles.actionReview]}
-          accessibilityRole="button"
-          accessibilityLabel={t('vault_grammar_cta')}
-        >
-          <Text style={[typography.uiSmall, { color: colors.gold }]}>
-            {t('vault_grammar_cta')}
-          </Text>
-        </TouchableOpacity>
+        {hasGrammarDrill() ? (
+          <TouchableOpacity
+            onPress={() => router.push('/(app)/grammar')}
+            style={[styles.action, styles.actionReview]}
+            accessibilityRole="button"
+            accessibilityLabel={t('vault_grammar_cta')}
+          >
+            <Text style={[typography.uiSmall, { color: colors.gold }]}>
+              {t('vault_grammar_cta')}
+            </Text>
+          </TouchableOpacity>
+        ) : null}
         {total > 0 ? (
           <TouchableOpacity
             onPress={() => router.push('/(app)/practice')}

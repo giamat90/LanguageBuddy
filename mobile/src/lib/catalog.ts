@@ -28,6 +28,19 @@ export interface CatalogEntry {
   savedId: string | null;
 }
 
+/**
+ * List order: by the word, or by its pinyin for a pack that writes pinyin (a Chinese word list is
+ * looked up by sound). Letters first; accents, tones and then the word only break ties.
+ */
+function compareEntries(a: WordBankEntry, b: WordBankEntry): number {
+  const { collation, pronunciation } = getActivePack();
+  if (pronunciation !== 'pinyin') return a.word.localeCompare(b.word, collation, { sensitivity: 'base' });
+  // Pinyin is Latin text, whatever the language's own collation does with its characters.
+  return a.ipa.localeCompare(b.ipa, 'en', { sensitivity: 'base' })
+    || a.ipa.localeCompare(b.ipa, 'en')
+    || a.word.localeCompare(b.word, collation);
+}
+
 export interface CatalogView {
   entries: CatalogEntry[];
   /** Counts per status BEFORE the status filter, so each chip shows what it would give. */
@@ -58,8 +71,8 @@ export function buildCatalog(
 
   for (const level of levels) {
     const inLevel: CatalogEntry[] = [];
-    for (const e of bank[level]) {
-      if (scope.topic !== null && e.topic_domain !== scope.topic) continue;
+    const wanted = bank[level].filter((e) => scope.topic === null || e.topic_domain === scope.topic);
+    for (const e of wanted.sort(compareEntries)) {
       const s = saved.get(e.word.toLowerCase());
       const st: CatalogStatus = s ? statTierOf(s) : 'todo';
       counts[st] += 1;
@@ -74,7 +87,6 @@ export function buildCatalog(
         savedId: s ? s.id : null,
       });
     }
-    inLevel.sort((a, b) => a.word.localeCompare(b.word, getActivePack().collation, { sensitivity: 'base' }));
     all.push(...inLevel);
   }
 

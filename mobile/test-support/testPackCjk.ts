@@ -14,6 +14,7 @@ export const testPackCjk: LanguagePack = {
   fold: (s) => s.trim(),
   typoMinLength: 5,
   punctuation: { lead: /^[“‘《（]+/, trail: /[。，、？！：；”’》）…]+$/ },
+  pronunciation: 'ipa',
   collation: 'zh',
   speech: { locale: 'zh-CN', rate: 0.8 },
   ai: { languageName: 'Chinese' },

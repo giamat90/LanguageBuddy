@@ -60,7 +60,8 @@ with valid JSON, no text before or after, no markdown.`;
 function buildPrompt({ word, article, meaningNative, cefrLevel, nativeLanguage }: WordInsightInput): string {
   const headword = article ? `${article} ${word}` : word;
   const langName = languageEnglishName(nativeLanguage);
-  const target = getActivePack().ai.languageName;
+  const { languageName: target, rules = [] } = getActivePack().ai;
+  const extraRules = rules.map((r) => `\n- ${r}`).join('');
   return `Word: ${headword}${meaningNative ? ` (${meaningNative})` : ''}
 Student's level: ${cefrLevel}
 
@@ -82,7 +83,7 @@ Rules:
 - exactly 3 examples, natural and appropriately sized for level ${cefrLevel}
 - every ${target} example sentence MUST contain the word "${word}"
 - the exercise: a different sentence from the examples, with "___" where the word goes; "answer" is the word (with any needed inflection)
-- no markdown, no text outside the JSON`;
+- no markdown, no text outside the JSON${extraRules}`;
 }
 
 export async function generateWordInsight(input: WordInsightInput): Promise<WordInsightResult> {

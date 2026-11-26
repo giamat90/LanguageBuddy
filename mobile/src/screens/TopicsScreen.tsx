@@ -43,6 +43,9 @@ export default function TopicsScreen() {
       setCefrLevel(cefrLevel ?? 'A1');
       setNativeLanguage(lang);
       setHasProfile(true);
+      // The vault is the home screen: drop welcome and quiz from the history, or it shows a back
+      // arrow (squeezing its title) and "back" reopens the quiz (TASK-069).
+      if (router.canDismiss()) router.dismissAll();
       router.replace('/(app)/');
     } catch (e) {
       console.error('[Topics] saving the profile failed:', e);

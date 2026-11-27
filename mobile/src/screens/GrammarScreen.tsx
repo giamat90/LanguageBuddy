@@ -115,6 +115,8 @@ export default function GrammarScreen() {
             onPress={() => router.back()}
             style={styles.linkButton}
             accessibilityRole="button"
+            // Android reuses the header link's view here and would keep its label.
+            accessibilityLabel={t('review_back')}
           >
             <Text style={[typography.body, { color: colors.forest }]}>{t('review_back')}</Text>
           </TouchableOpacity>

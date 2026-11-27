@@ -10,7 +10,7 @@ import { setAppLocale, t } from '../src/i18n';
 import PrimerScreen from '../src/screens/PrimerScreen';
 import WelcomeScreen from '../src/screens/WelcomeScreen';
 import GrammarScreen from '../src/screens/GrammarScreen';
-import { buildDrill } from '../src/services/grammarService';
+import { buildDrill, recordAnswer } from '../src/services/grammarService';
 
 const mockRouter = { push: jest.fn(), back: jest.fn(), replace: jest.fn() };
 let mockParams: Record<string, string> = {};
@@ -124,6 +124,17 @@ describe('the grammar screen', () => {
     const ui = render(<GrammarScreen />);
     fireEvent.press(await ui.findByText(t('primer_title')));
     expect(mockRouter.push).toHaveBeenCalledWith('/(app)/primer');
+  });
+
+  // TASK-080: without its own label the link inherits the guide link's on Android, where the view is reused.
+  it('names the way back on the score screen', async () => {
+    (buildDrill as jest.Mock).mockResolvedValue([question]);
+    (recordAnswer as jest.Mock).mockResolvedValue(undefined);
+    const ui = render(<GrammarScreen />);
+    fireEvent.press(await ui.findByLabelText('本'));
+    fireEvent.press(ui.getByText(t('grammar_finish')));
+    fireEvent.press(ui.getByLabelText(t('review_back')));
+    expect(mockRouter.back).toHaveBeenCalled();
   });
 
   it('has no link for a language without one', async () => {

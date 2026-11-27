@@ -16,6 +16,7 @@
     "audit:wordbank": "node scripts/audit-wordbank.mjs",
     "pretest": "node scripts/validate-wordbank.mjs",
     "test": "jest --watchAll=false",
+    "check:unihan": "node scripts/check-unihan.mjs",
     "check:16kb": "node scripts/check-16kb.js",
     "check:play-version": "node scripts/check-play-version.js"
   },

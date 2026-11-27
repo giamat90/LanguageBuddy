@@ -12,7 +12,7 @@ import PrimaryButton from '../ui/PrimaryButton';
 import SecondaryButton from '../ui/SecondaryButton';
 import { FORMAT_QUALITY, pinyinQuality } from '../../lib/exercises/quality';
 import { getActivePack } from '../../languages';
-import { rubyCells } from '../../lib/reading/ruby';
+import { rubyCells, neutralCells } from '../../lib/reading/ruby';
 import { tilePinyin } from '../../lib/reading/tiles';
 import RevealPinyinButton from '../ui/RevealPinyinButton';
 import { useExercisePinyin } from './useExercisePinyin';
@@ -37,8 +37,10 @@ export default function SentenceReorderView({ model, isRetry, onResult }: Props)
   const done = result !== null;
   const sentence = joinTokens(solution);
   const pinyin = useExercisePinyin(done);
-  const cells = getActivePack().reading ? rubyCells(card.segments, card.examplePinyin) : null;
-  const above = tilePinyin(tokens, solution, cells);
+  const { reading } = getActivePack();
+  const cells = reading ? rubyCells(card.segments, card.examplePinyin) : null;
+  // 一 and 不 in their own tone: as written, they would tell which tile follows them.
+  const above = tilePinyin(tokens, solution, cells && neutralCells(cells, reading!.citations));
   const face = (i: number) => (
     <>
       {pinyin.shows(card) && above[i] ? (

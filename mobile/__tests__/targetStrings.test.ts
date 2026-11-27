@@ -57,7 +57,8 @@ describe('required keys follow the pack (TASK-071)', () => {
   });
 
   it('a language without a quiz does not', () => {
-    expect([...requiredTargetKeys(testPackCjk)]).toEqual([...BASE_TARGET_KEYS]);
+    const notRules = requiredTargetKeys(testPackCjk).filter((k) => !k.startsWith('grammar_rule_'));
+    expect(notRules).toEqual([...BASE_TARGET_KEYS]);
   });
 });
 

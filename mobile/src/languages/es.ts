@@ -63,6 +63,8 @@ export const es: LanguagePack = {
       DIRECT_OBJECT_PRONOUN: [['lo', 'la', 'los', 'las']],
     },
   },
+  classifiers: null,
+  primer: null,
   quiz: [
     { n: 1, correctIndex: 0 },
     { n: 2, correctIndex: 0 },

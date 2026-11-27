@@ -28,6 +28,9 @@ export interface ReviewCard {
   topicDomain?: string | null;
   /** The bank's rule tag for the example sentence (drives the choice slot of "find the mistake"). */
   grammarAngle?: string | null;
+  /** Languages with measure words: the noun's own ('none' for a noun without) and the others it takes. */
+  measure?: string | null;
+  measureAlso?: string[];
   timesSeen: number;
   retentionScore: number;
 }
@@ -54,6 +57,8 @@ interface BankInfo {
   band: string;
   topic: string;
   angle: string;
+  measure: string | null;
+  measureAlso: string[];
 }
 
 let bankIndex: Map<string, BankInfo> | null = null;
@@ -74,6 +79,8 @@ function bankFor(word: string): BankInfo | undefined {
         band: level,
         topic: entry.topic_domain,
         angle: entry.grammar_angle,
+        measure: entry.measure ?? null,
+        measureAlso: entry.measure_also ?? [],
       });
     }
   }
@@ -100,6 +107,7 @@ function toCard(r: ReviewRow): ReviewCard {
     cefrBand: bank?.band ?? null,
     topicDomain: bank?.topic ?? null,
     grammarAngle: bank?.angle ?? null,
+    ...(bank?.measure ? { measure: bank.measure, measureAlso: bank.measureAlso } : {}),
     timesSeen: r.times_seen,
     retentionScore: r.retention_score,
   };

@@ -96,7 +96,7 @@ Each app teaches one language; all share the code, the exercise engine and the d
 | **GermanBuddy** | German | `com.giamat90.germanbuddy` | on Google Play |
 | **SpanishBuddy** | Spanish | `com.giamat90.spanishbuddy` | built and phone-tested; word content machine-drafted, Play listing not created |
 | FrenchBuddy | French | `com.giamat90.frenchbuddy` (planned) | pack done (TASK-063, draft language, no words yet); bank 064, translations 065, variant and store 066 |
-| ChineseBuddy | Chinese (Mandarin, A1) | `com.giamat90.chinesebuddy` | pilot of 50 machine-drafted words (TASK-073); placeholder icon; no store material; roadmap in `tasks/TASK-070.md` |
+| ChineseBuddy | Chinese (Mandarin, A1) | `com.giamat90.chinesebuddy` | 300 machine-drafted words (TASK-077), grammar drill and pronunciation guide; store texts drafted, Play app not created (TASK-078); roadmap in `tasks/TASK-070.md` |
 | ItalianBuddy | Italian | — | planned; follow §3 "Adding a language" |
 
 What every app does:
@@ -139,12 +139,12 @@ LanguageBuddy/
 │   │                                #   build-store, export-review-sample, export-i18n-source, check-play-version; wordbank/<lang>/ (TSV sources); lib/
 │   ├── plugins/                     # withReleaseSigning.js, withAndroidBackupRules.js (Expo config plugins)
 │   ├── test-support/                # testPack.ts (a Spanish-like second pack for tests), appExpectations.ts (per-app expectations table)
-│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), icon-fr.png / adaptive-icon-fr.png (French, placeholder), icon-zh.png / adaptive-icon-zh.png (Chinese, placeholder), fonts, splash
+│   ├── assets/                      # icon.png / adaptive-icon.png (German), icon-es.png / adaptive-icon-es.png (Spanish), icon-fr.png / adaptive-icon-fr.png (French, placeholder), icon-zh.png / adaptive-icon-zh.png (Chinese, generated; may be replaced), fonts, splash
 │   ├── __tests__/ (incl. activeApp/), __mocks__/   # jest-expo; expo-sqlite and react-native-mmkv are mocked in memory
 │   └── app.config.js                # thin: buildExpoConfig(variant) from scripts/lib/variants.js
 ├── store/                           # <code>/ (support.json, listing/<ui>.json, play-checklist, qa-checklist, screenshots, graphics-brief) and support-template/ (the four public pages)
 ├── tasks/                           # specs (TEMPLATE.md + TASK-001 … )
-├── .github/workflows/               # ci.yml (type check + tests + Spanish app suite), release-android.yml (manual build and Play upload, `app` input)
+├── .github/workflows/               # ci.yml (type check + tests + Spanish, French and Chinese app suites), release-android.yml (manual build and Play upload, `app` input)
 ├── build_*.bat, deploy_*.bat        # local build/install scripts (Windows); take the language code (`de`, `es`)
 ├── CLAUDE.md, CONTEXT.md, README.md, LICENSE (Apache-2.0), NOTICE
 ```
@@ -165,8 +165,9 @@ Not in this repo: the German public site (`germanbuddy-support`, separate repo, 
   for a segmented language each bank entry carries `segments` that spell its example exactly, and the phone never segments text. Find words and tiles only through `lib/sentence.ts`
   (`sentenceParts`, `sentenceTokens`, `joinTokens`), never with `split(' ')`, `split(pack.letters)` or `join(' ')` on a sentence.
 - **Pronunciation and script (TASK-072):** `pronunciation` is `'ipa'` or `'pinyin'` (what the bank's `ipa` column holds; pinyin is shown without slashes and orders the word lists). `ai.rules` are extra AI-prompt instructions for one language.
-  A pack without articles, cases and choices has no Grammar button. A language written without spaces declares its bank format in `language.json` (`segmented` with the `|` separator and an `allow` list of non-headword words,
+  A pack without articles, cases, choices and measure words has no Grammar button. A language written without spaces declares its bank format in `language.json` (`segmented` with the `|` separator and an `allow` list of non-headword words,
   `extraColumns`, `characters` → `characters.tsv`, `pinyin`, `measureWords`, `stages`); `scripts/lib/segmented.js` and `pinyin.js` check it.
+- **Measure words and primer (TASK-076):** `classifiers` (`null`, or a `ClassifierSupport`: Chinese) turns on the measure-word drill and the measure slot of *find the mistake*; wrong answers come only from its `distractors` minus what the noun lists and minus `never` (个), so **a bank row must list every other measure word that is also correct** (`measure_also`). `primer` (pronunciation guide: sections in the pack, texts `primer_*` in the overlay) stands between welcome and topics in onboarding (`/primer-intro`) and opens from the Grammar screen (`/(app)/primer`, inside the app stack so the drill is kept). `reading.citations` (一, 不): before an answer their pinyin is written in their own tone (`neutralCells`), because the spoken form tells the next word's tone.
 - **Reading layer (TASK-074):** `reading` (`null`, or a `ReadingSupport`: Chinese has `pinyinReading`) turns on typed pronunciation in the cloze, the *tone choice* format, pinyin above sentences and on tiles and options, and the *Pinyin* setting (Automatic / Always / Only on tap; MMKV `reading-settings`, not in backups). The rules of when it shows are in `lib/reading/visibility.ts`; **a view never shows the pronunciation of the answer** (the cloze blank, the tone-choice word), and asking for hidden pinyin before answering caps the credit at the hint cap. The headword's `syllables` are derived by the build from `characters.tsv`: the phone never splits pinyin or Chinese text. `italics: false` sets target text and notes upright (use `exampleStyle()`, not `typography.exampleDe`).
 - **Seams:** one language is active per build. `npm run set:language -- <code>` (default `de`) regenerates three files:
   `src/languages/active.ts`, `src/data/wordbank/active.ts`, `src/i18n/wordContentLoaders.ts`. **The repository always holds the German seams** (a diff in them is a bug).
@@ -236,7 +237,7 @@ The database file name comes from the pack (`pack.app.dbFile`), so two apps on o
 | `ai_word_notes` | cached AI output, one row per word |
 | `schema_meta` | local bookkeeping (e.g. word-bank version) |
 
-**Word bank:** one folder per language: `mobile/src/data/wordbank/<lang>/{A1…C2}.json` (German 2,194 entries; Spanish 1,739; one example sentence each, field `example`),
+**Word bank:** one folder per language: `mobile/src/data/wordbank/<lang>/{A1…C2}.json` (German 2,194 entries; Spanish 1,739; Chinese 300; one example sentence each, field `example`),
 generated by `npm run build:wordbank` from the TSVs in `mobile/scripts/wordbank/<lang>/` (plus `language.json` with the rule codes, parts of speech, articles and per-level rules the
 validator accepts). The word's meaning in the other UI languages lives in `scripts/wordbank/<lang>/i18n/<UI>/<LEVEL>.tsv` → `src/data/wordbank/<lang>/i18n/<UI>.json`.
 **Edit the TSVs, never the JSON.** `npm test` validates the bank first (`pretest`). Bump `WORDBANK_VERSION` in `wordbank/index.ts` whenever the bundled data changes.
@@ -295,9 +296,10 @@ the answer away, so a tagged sentence needs the member as a free token (je suis,
 ```
 A1: SHI_ZAI_YOU, QUESTION_PARTICLE, ER_LIANG, BU_MEI, MEASURE_WORD, QUESTION_WORDS, DE_POSSESSIVE, ADJ_HEN, LE_COMPLETION, MODAL_VERBS, PROGRESSIVE_ZAI, NUMBERS_TIME, WORD_ORDER
 ```
-The first four are *choice* rules (是/在/有, 吗/呢, 二/两, 不/没): a tagged sentence holds exactly one member **word**, and only where one answer is right. The app has no drill for them yet (TASK-076).
+The first four are *choice* rules (是/在/有, 吗/呢, 二/两, 不/没): a tagged sentence holds exactly one member **word**, and only where one answer is right. The drill covers these four and the measure words; a bank with `stage` numbers hands out daily words stage by stage.
 The `ipa` column holds the word's pinyin, written by word, 一 and 不 as pronounced; `example` is written cut into words (`他|有|一|台|电脑|。`) with `example_pinyin` (one pinyin word per word); every character used needs a row in `characters.tsv`.
 Nouns name a measure word or `none`. There are no translated tables: Italian and English are the bank's own columns.
+`npm run check:unihan` compares the readings of `characters.tsv` with Unicode's `Unihan_Readings.txt`, which the owner downloads by hand into the gitignored `mobile/scripts/reference-lists/`.
 
 ---
 
@@ -313,7 +315,8 @@ Nouns name a measure word or `none`. There are no translated tables: Italian and
 | `/(app)/word` | WordDetail | one saved word; the optional AI "Explore further" |
 | `/(app)/review` | Review | scheduled review of due words (graded into the SRS) |
 | `/(app)/practice`, `/practice-session` | Practice menu / session | free practice by format (§8) |
-| `/(app)/grammar` | Grammar | the drills the pack supports (articles, cases, choice rules) |
+| `/(app)/grammar` | Grammar | the drills the pack supports (articles, cases, choice rules, measure words) |
+| `/primer-intro`, `/(app)/primer` | Primer | pronunciation guide of a pack with `primer`: in onboarding, and from Grammar |
 | `/(app)/settings` | Settings | language, notifications, backup/restore, AI provider and key |
 
 ---
@@ -347,6 +350,9 @@ retention >= 0.9 -> 21 days;  >= 0.75 -> 7;  >= 0.6 -> 3;  otherwise 1 day
 ```
 A newly saved word starts at retention 0.5 and is due after 1 day. `MASTERY_WEAK_THRESHOLD = 0.6` marks weak grammar rules. Grammar mastery uses the same update (`updateMastery`).
 
+### The word of the day (`data/dailyWord.ts`)
+A per-install shuffle of the level's words, chosen topics first. A bank with stages (Chinese) is walked stage by stage: the next word comes from the lowest stage that has an unused one, a chosen topic first within it.
+
 ### Streak (`updateStreak`)
 Saving today's word on consecutive calendar days increments the streak; saving twice in a day does nothing; a gap restarts it at 1. **Only saving the word of the day touches the streak** — reviews and practice never do.
 Starting a word from a word list (`startLearning`, TASK-037) adds it to the vault like the daily save (retention 0.5, first review in 1 day, `source = 'catalog'`) but **never touches the streak**.
@@ -372,10 +378,10 @@ Pure TypeScript: no I/O, no React, injectable `rng` — which is what makes it t
 - **Tiers** (`tier.ts`): `new` (seen once, or retention < 0.6), `strong` (retention ≥ 0.85 and seen ≥ 4 times), otherwise `learning`.
 - **Formats** (`registry.ts`): typed cloze (weight 2), sentence reorder (weight 1) and find the mistake (weight 1) for learning/strong words; multiple choice for new words, and tone choice (languages with a reading layer); matching pairs
   (a *group* step of 4–5 new words); flip-card as the fallback. A format that cannot be built for a word returns `null` and the next candidate is tried. Find the mistake builds its slot
-  from what the pack has (gender article, case determiner, or a choice set); a pack without those has no such slot.
+  from what the pack has (gender article, case determiner, a choice set, or a measure word); a pack without those has no such slot.
 - **Segmented languages:** typed cloze, reorder, find the mistake and the choice drill read the card's `segments` (§3); a card without usable segments builds none of them and becomes a flip-card.
 - **Session** (`session.ts`): a pure state machine. A missed word returns 3 cards later, at most 2 retries; matching rounds are planned first; progress counts first attempts.
-- **Practice** (`practice.ts`): per-format config that ignores tiers, card selection (weaker words favoured), availability for the menu. The menu lists `practiceFormats()`: no *find the mistake* for a pack without gender, cases and choices; *tone choice* only with a reading layer.
+- **Practice** (`practice.ts`): per-format config that ignores tiers, card selection (weaker words favoured), availability for the menu. The menu lists `practiceFormats()`: no *find the mistake* for a pack without gender, cases, choices and measure words; *tone choice* only with a reading layer.
 - **Adding a format:** add a definition to the registry (`tiers`, `weight`, `build`), a model type, a view in `components/exercises/`, a case in `ExerciseSession`'s switch, strings in all UI languages,
   a per-format quality ceiling in `quality.ts` chosen so a clean answer never hurts the schedule, and tests (builder, registry gating, screen) — run them against the German pack **and** `testPack`.
 
@@ -422,7 +428,7 @@ There are **no runtime environment variables**: the apps have no backend. Build-
   Afterwards confirm the seams are German again (`git diff --quiet src/languages/active.ts`). Do not run tests while such a build is running: the seams are switched.
 - **Release tags:** `<code>-v<versionName>` for every app, German included (`de-v1.0.21`, `es-v1.0.1`). The `release-android.yml` workflow takes an `app` input and refuses an existing tag.
 - **Before any release, check Play:** `npm run check:play-version -- <code> --key <service-account>.json` lists every versionCode Play holds; never trust `CONTEXT.md` for it.
-- **Store material:** `npm run build:store -- <code>` renders the public pages and listing texts into the gitignored `store/<code>/dist/` and refuses to build without the app's `supportEmail` (the contact page is a `mailto:` link, no form service).
+- **Store material:** `npm run build:store -- <code>` renders the public pages and listing texts (word count and level range from the app's own levels) into the gitignored `store/<code>/dist/` and refuses to build without the app's `supportEmail` (the contact page is a `mailto:` link, no form service).
   The German public pages stay hand-maintained in `germanbuddy-support`.
 - **Android permissions:** an app declares `POST_NOTIFICATIONS`, `RECEIVE_BOOT_COMPLETED`, `VIBRATE` and, for the optional AI call, `INTERNET`. Storage and overlay permissions are **blocked**
   (`blockedPermissions` in `variants.js`); `verify-prebuild` fails on any new one. Adding a permission needs a task and an update of every app's Play forms.
@@ -471,7 +477,7 @@ billing, analytics, switching the studied language inside one app.
 ### Testing
 - Tests live in `mobile/__tests__/`. Run from `mobile/`: `npx tsc --noEmit` and `npm test` (validates the word banks, then Jest, with the German seams).
 - **`npm run test:app -- <code>`** runs the language-neutral `__tests__/activeApp/` suite (identity, content, flows over the in-memory DB, backup incl. cross-app rejection, speech/notifications/AI prompt,
-  screens, special characters) against another app. CI runs it for Spanish and French. Run it whenever the pack, the word bank, the theme or a variant changes.
+  screens, special characters) against another app. CI runs it for Spanish, French and Chinese. Run it whenever the pack, the word bank, the theme or a variant changes.
 - **`node scripts/verify-prebuild.mjs <code>`** runs a real `expo prebuild` and checks package, version, app name, backup-rules names, permissions, portrait, scheme and that no other app's name is left
   (it refuses to run if `mobile/android/` exists and removes what it created).
 - **Write the tests listed in the spec first and see them fail.** A review finding gets a failing test before the fix; for a guard, remove it once and confirm the test goes red.

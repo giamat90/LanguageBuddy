@@ -12,7 +12,7 @@ import SecondaryButton from '../ui/SecondaryButton';
 import { gradeTypedAnswer, letterCount } from '../../lib/cloze';
 import { pinyinQuality, typedQuality, type TypedResult } from '../../lib/exercises/quality';
 import { getActivePack } from '../../languages';
-import { rubyCells, blankCell } from '../../lib/reading/ruby';
+import { rubyCells, blankCell, neutralCells } from '../../lib/reading/ruby';
 import type { PinyinResult } from '../../lib/reading/pinyin';
 import PinyinSentence from '../ui/PinyinSentence';
 import RevealPinyinButton from '../ui/RevealPinyinButton';
@@ -81,7 +81,8 @@ export default function TypedClozeView({ model, isRetry, onResult }: Props) {
         </Text>
         {ruby && rubyShown ? (
           <PinyinSentence
-            cells={ruby}
+            // Until the answer, the word before the blank does not tell the blank's tone.
+            cells={result === null ? neutralCells(ruby, reading!.citations, blank) : ruby}
             blank={{ index: blank, filled: result !== null }}
             label={`${before}${result === null ? '_____' : card.word}${after}`}
             centered

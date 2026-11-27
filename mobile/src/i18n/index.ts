@@ -47,7 +47,7 @@ export function getAppLocale(): NativeLanguage {
 
 export default i18n;
 /** Every key a screen may ask for: the shared ones, the generic target-language ones and the rule texts. */
-export type StringKey = keyof typeof it | RequiredTargetKey | `grammar_rule_${string}`;
+export type StringKey = keyof typeof it | RequiredTargetKey;
 
 /** `%{app}` is always available: the name of the app (the active language pack's). */
 export const t = (key: StringKey, opts?: object) =>

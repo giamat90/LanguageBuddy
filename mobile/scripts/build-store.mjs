@@ -30,12 +30,13 @@ const support = store.loadSupport(code);
 const problems = [];
 const warnings = [];
 
+const levels = store.levelsOf(cfg);
 let wordCount = 0;
-for (const lv of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
+for (const lv of levels) {
   wordCount += JSON.parse(readFileSync(join(mobile, 'src', 'data', 'wordbank', code, `${lv}.json`), 'utf8')).length;
 }
 const values = store.tokenValues({
-  variant, targetName: cfg.name, support, wordCount, uiLangCount: store.uiLangCount(cfg),
+  variant, targetName: cfg.name, support, wordCount, uiLangCount: store.uiLangCount(cfg), levels,
 });
 
 // Render everything in memory first: nothing is written when anything is wrong.

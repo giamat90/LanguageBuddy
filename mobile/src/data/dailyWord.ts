@@ -34,21 +34,29 @@ export function seededShuffle<T>(items: readonly T[], seed: string): T[] {
   return out;
 }
 
+/** A bank without stages is one stage. */
+const stageOf = (e: WordBankEntry): number => e.stage ?? 0;
+
 /**
  * The per-install ordering of a level's bank. Stable for a given installId so the
- * learner works through the words in a consistent, non-obvious sequence.
+ * learner works through the words in a consistent, non-obvious sequence: stage by
+ * stage where the bank has stages, shuffled within each.
  */
 export function orderedBankForLevel(level: CefrLevel, installId: string): WordBankEntry[] {
-  return seededShuffle(WORD_BANK[level], `${installId}:${level}`);
+  return seededShuffle(WORD_BANK[level], `${installId}:${level}`)
+    .map((entry, at) => ({ entry, at }))
+    .sort((a, b) => stageOf(a.entry) - stageOf(b.entry) || a.at - b.at)
+    .map(({ entry }) => entry);
 }
 
 /**
  * Pick the next word to show. `usedWords` = lowercased words already shown or saved.
+ * The word comes from the lowest stage that still has an unused one. Within it
  * `activeTopics` (the learner's chosen topics; empty/absent = no preference) are
- * preferred: the first unused entry of those topics wins. When they have no unused
- * word left at this level (some levels have none for a topic at all) the first unused
- * word of any topic is used and `outsideTopics` is set. If the whole level is used,
- * the ordering is recycled, again preferring the chosen topics.
+ * preferred: the first unused entry of those topics wins. `outsideTopics` is set when
+ * they have no unused word left at this level (some levels have none for a topic at
+ * all). If the whole level is used, the ordering is recycled, again preferring the
+ * chosen topics.
  */
 export function pickNextWord(
   level: CefrLevel,
@@ -61,13 +69,12 @@ export function pickNextWord(
   const inTopics = (e: WordBankEntry) => wanted === null || wanted.has(e.topic_domain);
   const unused = (e: WordBankEntry) => !usedWords.has(e.word.toLowerCase());
 
-  const preferred = ordered.find((e) => unused(e) && inTopics(e));
-  if (preferred) {
-    return { entry: preferred, id: entryId(level, preferred), exhausted: false, outsideTopics: false };
-  }
-  const anyTopic = ordered.find(unused);
-  if (anyTopic) {
-    return { entry: anyTopic, id: entryId(level, anyTopic), exhausted: false, outsideTopics: true };
+  const open = ordered.find(unused);
+  if (open) {
+    const preferred = ordered.find((e) => stageOf(e) === stageOf(open) && unused(e) && inTopics(e));
+    const entry = preferred ?? open;
+    const outsideTopics = !ordered.some((e) => unused(e) && inTopics(e));
+    return { entry, id: entryId(level, entry), exhausted: false, outsideTopics };
   }
   // Whole level seen — recycle from the top of the ordering.
   const entry = ordered.find(inTopics) ?? ordered[0];

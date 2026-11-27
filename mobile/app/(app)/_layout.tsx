@@ -11,6 +11,7 @@ export default function AppLayout() {
       <Stack.Screen name="today" />
       <Stack.Screen name="review" />
       <Stack.Screen name="grammar" />
+      <Stack.Screen name="primer" />
       <Stack.Screen name="practice" />
       <Stack.Screen name="practice-session" />
       <Stack.Screen name="stats" />

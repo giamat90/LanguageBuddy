@@ -9,6 +9,12 @@ import SentenceSpeaker from './SentenceSpeaker';
 import { correctedSentence } from '../../lib/sentenceSpeech';
 import PrimaryButton from '../ui/PrimaryButton';
 import { mistakeQuality, splitToken } from '../../lib/exercises/mistake';
+import { pinyinQuality } from '../../lib/exercises/quality';
+import { getActivePack } from '../../languages';
+import { formReading } from '../../lib/grammar';
+import { rubyCells, neutralCells } from '../../lib/reading/ruby';
+import RevealPinyinButton from '../ui/RevealPinyinButton';
+import { useExercisePinyin } from './useExercisePinyin';
 import type { FindMistakeModel } from '../../lib/exercises/types';
 
 interface Props {
@@ -31,6 +37,16 @@ export default function FindMistakeView({ model, isRetry, onResult }: Props) {
 
   const wrongWord = splitToken(tokens[wrongIndex]).core;
   const rightWord = splitToken(model.correctToken).core;
+
+  const { reading } = getActivePack();
+  const pinyin = useExercisePinyin(done);
+  const cells = reading ? rubyCells(card.segments, card.examplePinyin) : null;
+  const usable = cells && cells.length === tokens.length ? neutralCells(cells, reading!.citations) : null;
+  const shown = usable !== null && pinyin.shows(card);
+  // Under what is written: the wrong word has its own pronunciation, not the one of the word it replaced.
+  const above = (i: number) => (i === wrongIndex ? formReading(wrongWord) : usable![i].pinyin);
+  const small = (text: string | undefined) =>
+    shown && text ? <Text style={[typography.articleMeta, { color: colors.muted }]}>{text}</Text> : null;
 
   const chipStyle = (i: number) => {
     if (i === wrongIndex && (found || missed)) return styles.chipError;
@@ -61,10 +77,13 @@ export default function FindMistakeView({ model, isRetry, onResult }: Props) {
               accessibilityState={{ disabled: tapped !== null }}
               activeOpacity={0.75}
             >
+              {shown ? small(above(i)) : null}
               <Text style={[typography.body, { color: colors.ink }]}>{token}</Text>
             </TouchableOpacity>
           ))}
         </View>
+
+        {usable && pinyin.offers([card]) ? <RevealPinyinButton onPress={pinyin.reveal} /> : null}
 
         <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 12, textAlign: 'center' }]}>
           {localizedText(lang, 'example', { word: card.word, level: card.cefrBand }, card.exampleIt, card.exampleEn) ?? ''}
@@ -90,6 +109,7 @@ export default function FindMistakeView({ model, isRetry, onResult }: Props) {
                   accessibilityState={{ disabled: chosen !== null, selected: k === chosen }}
                   activeOpacity={0.75}
                 >
+                  {small(formReading(option))}
                   <Text style={[typography.body, { color: colors.ink }]}>{option}</Text>
                 </TouchableOpacity>
               );
@@ -120,7 +140,7 @@ export default function FindMistakeView({ model, isRetry, onResult }: Props) {
         {done ? (
           <PrimaryButton
             label={t('review_continue')}
-            onPress={() => onResult(mistakeQuality(found, fixed))}
+            onPress={() => onResult(pinyinQuality(mistakeQuality(found, fixed), pinyin.peeked(card)))}
           />
         ) : null}
       </View>

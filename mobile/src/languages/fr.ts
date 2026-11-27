@@ -66,6 +66,8 @@ export const fr: LanguagePack = {
       RELATIVE_QUI_QUE: [['qui', 'que']],
     },
   },
+  classifiers: null,
+  primer: null,
   quiz: [
     { n: 1, correctIndex: 1 },
     { n: 2, correctIndex: 1 },

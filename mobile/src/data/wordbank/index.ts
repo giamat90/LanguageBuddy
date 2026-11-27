@@ -30,7 +30,7 @@ export interface WordBankEntry {
   /** Languages with measure words: the noun's one, 'none' for a noun without, null for other words. */
   measure?: string | null;
   measure_also?: string[];
-  /** The order in which the daily word walks a level (not used yet). */
+  /** The daily word walks a level stage by stage. */
   stage?: number;
 }
 
@@ -38,7 +38,7 @@ export interface WordBankEntry {
  * Bump this whenever the bundled JSON changes so the app re-seeds new words into
  * the local DB on next launch (see src/data/seed.ts).
  */
-export const WORDBANK_VERSION = '2026-11-26.2';
+export const WORDBANK_VERSION = '2026-11-27';
 
 export const WORD_BANK: Record<CefrLevel, WordBankEntry[]> = {
   A1: LEVEL_FILES.A1 as WordBankEntry[],

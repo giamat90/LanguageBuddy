@@ -9,6 +9,11 @@ import { localizedText } from '../i18n/wordContent';
 import { useUserStore } from '../store/useUserStore';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import { articleRule, type GrammarQuestion } from '../lib/grammar';
+import { getActivePack } from '../languages';
+import { showWhenReading } from '../lib/reading/visibility';
+import { useReadingSettingsStore } from '../store/useReadingSettingsStore';
+import PinyinSentence from '../components/ui/PinyinSentence';
+import RevealPinyinButton from '../components/ui/RevealPinyinButton';
 import type { CefrLevel } from '../data/wordbank';
 import { buildDrill, recordAnswer } from '../services/grammarService';
 
@@ -23,6 +28,9 @@ export default function GrammarScreen() {
   const [index, setIndex] = useState(0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [score, setScore] = useState(0);
+  const pinyinMode = useReadingSettingsStore((s) => s.pinyinMode);
+  // By question, so the next one starts hidden again.
+  const [revealed, setRevealed] = useState<string | null>(null);
 
   const load = useCallback(() => {
     setQuestions(null);
@@ -30,6 +38,7 @@ export default function GrammarScreen() {
     setIndex(0);
     setChosen(null);
     setScore(0);
+    setRevealed(null);
     buildDrill((cefrLevel as CefrLevel) ?? 'A1', DRILL_SIZE)
       .then(setQuestions)
       .catch((err) => {
@@ -41,6 +50,18 @@ export default function GrammarScreen() {
   useEffect(load, [load]);
 
   const current = questions?.[index];
+
+  const primerLink = getActivePack().primer ? (
+    <TouchableOpacity
+      testID="grammar-primer"
+      onPress={() => router.push('/(app)/primer')}
+      style={styles.primerLink}
+      accessibilityRole="button"
+      accessibilityLabel={t('primer_title')}
+    >
+      <Text style={[typography.uiSmall, { color: colors.forest, textAlign: 'right' }]}>{t('primer_title')}</Text>
+    </TouchableOpacity>
+  ) : null;
 
   const choose = (option: string) => {
     if (!current || chosen !== null) return;
@@ -105,14 +126,20 @@ export default function GrammarScreen() {
   const answered = chosen !== null;
   const correct = chosen === current.answer;
   const isArticle = current.ruleCode === articleRule();
-  // An article question hints the word's meaning; a case question hints its example sentence.
+  const isMeasure = current.ruleCode === getActivePack().classifiers?.rule;
+  // Article and measure questions hint the word's meaning; the others hint the example sentence.
   const hint = localizedText(
     lang,
-    isArticle ? 'meaning' : 'example',
+    isArticle || isMeasure ? 'meaning' : 'example',
     { word: current.word, level: current.cefrBand },
     current.translationIt,
     current.translationEn,
   );
+  // Languages with a reading layer: pinyin as on a reading screen, and always once answered.
+  const pinyin = current.cells !== undefined && (showWhenReading(pinyinMode) || revealed === current.id || answered);
+  const prompt = isArticle
+    ? t('grammar_prompt_article')
+    : isMeasure ? t('grammar_prompt_measure') : t('grammar_prompt_case');
 
   return (
     <SafeAreaView style={styles.container}>
@@ -128,19 +155,30 @@ export default function GrammarScreen() {
         <Text style={[typography.uiSmall, { color: colors.muted }]}>
           {t('review_progress', { current: index + 1, total: questions.length })}
         </Text>
+        {primerLink}
       </View>
 
       <View style={styles.cardArea}>
         <Text style={[typography.uiSmall, { color: colors.muted, marginBottom: 16 }]}>
-          {isArticle ? t('grammar_prompt_article') : t('grammar_prompt_case')}
+          {prompt}
         </Text>
-        <Text style={[isArticle ? typography.wordHero : typography.body, styles.sentence]}>
-          {current.before}
-          <Text style={{ color: answered && !correct ? colors.diePink : colors.forest }}>
-            {answered ? current.answer : '_____'}
+        {pinyin ? (
+          <PinyinSentence
+            cells={current.cells!}
+            blank={{ index: current.blank!, filled: answered }}
+            label={`${current.before}${answered ? current.answer : '_____'}${current.after}`}
+            centered
+          />
+        ) : (
+          <Text style={[isArticle ? typography.wordHero : typography.body, styles.sentence]}>
+            {current.before}
+            <Text style={{ color: answered && !correct ? colors.diePink : colors.forest }}>
+              {answered ? current.answer : '_____'}
+            </Text>
+            {current.after}
           </Text>
-          {current.after}
-        </Text>
+        )}
+        {current.cells && !pinyin ? <RevealPinyinButton onPress={() => setRevealed(current.id)} /> : null}
         {hint ? (
           <Text style={[typography.uiSmall, { color: colors.muted, marginTop: 12, textAlign: 'center' }]}>
             {hint}
@@ -169,7 +207,7 @@ export default function GrammarScreen() {
           />
         ) : (
           <View style={styles.options}>
-            {current.options.map((option) => (
+            {current.options.map((option, k) => (
               <TouchableOpacity
                 key={option}
                 style={styles.option}
@@ -178,6 +216,9 @@ export default function GrammarScreen() {
                 accessibilityRole="button"
                 accessibilityLabel={option}
               >
+                {pinyin && current.optionReadings?.[k] ? (
+                  <Text style={[typography.articleMeta, { color: colors.muted }]}>{current.optionReadings[k]}</Text>
+                ) : null}
                 <Text style={[typography.body, { color: colors.ink }]}>{option}</Text>
               </TouchableOpacity>
             ))}
@@ -205,6 +246,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   backButton: { minWidth: 44, minHeight: 44, alignItems: 'center', justifyContent: 'center' },
+  primerLink: { flex: 1, minHeight: 44, justifyContent: 'center', alignItems: 'flex-end' },
   cardArea: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 32 },
   sentence: { color: colors.ink, textAlign: 'center' },
   feedback: { marginTop: 24, alignItems: 'center' },

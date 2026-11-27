@@ -25,6 +25,8 @@ export interface ReadingSupport {
   isInput(typed: string): boolean;
   toneVariants(pronunciation: string, syllables: readonly Syllable[], rng: () => number): string[] | null;
   hint(syllables: readonly Syllable[]): { initial: string; count: number };
+  /** Words written as pronounced before another word, with their own form: it would tell the next tone. */
+  citations: Readonly<Record<string, string>>;
 }
 
 /** Combining marks of tones 1–4, in order. */
@@ -212,4 +214,5 @@ export const pinyinReading: ReadingSupport = {
   isInput: isPinyinInput,
   toneVariants,
   hint: pinyinHint,
+  citations: { 一: 'yī', 不: 'bù' },
 };

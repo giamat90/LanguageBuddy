@@ -1,4 +1,4 @@
-# Characters used by the Chinese words (TASK-073). Machine-drafted. Columns: char pinyin meaning_en meaning_it parts parts_en parts_it lookalikes trick_en trick_it
+# Characters used by the Chinese words (TASK-073, TASK-077). Machine-drafted. Columns: char pinyin meaning_en meaning_it parts parts_en parts_it lookalikes trick_en trick_it
 我	wǒ	I, me	io, me	-	-	-	找	-	-
 你	nǐ	you	tu	亻 尔	person; you (classical Chinese)	persona; tu (cinese classico)	您	-	-
 他	tā	he, him	lui	亻 也	person; also	persona; anche	她 地	-	-
@@ -19,7 +19,7 @@
 喝	hē hè	to drink	bere	口	mouth	bocca	渴	-	-
 看	kàn kān	to look	guardare	龵 目	hand; eye	mano; occhio	着	A hand shading the eye to look far away.	Una mano sopra l'occhio per guardare lontano.
 喜	xǐ	to like; happiness	gradire; felicità	口	mouth	bocca	善	-	-
-欢	huān	merry, cheerful	allegro	又 欠	again, hand; to yawn	di nuovo, mano; sbadigliare	次	-	-
+欢	huān	merry, cheerful	allegro	又 欠	(simplified shorthand, no meaning here); to yawn	(abbreviazione grafica, qui senza significato); sbadigliare	次	-	-
 想	xiǎng	to think, to want	pensare, volere	相 心	each other, appearance; heart	reciproco, aspetto; cuore	相	-	-
 买	mǎi	to buy	comprare	-	-	-	卖 头	-	-
 学	xué	to study	studiare	子	child	bambino	字	-	-
@@ -28,7 +28,7 @@
 作	zuò	to do, to make	fare	亻 乍	person; suddenly	persona; all'improvviso	昨	-	-
 睡	shuì	to sleep	dormire	目 垂	eye; to hang down	occhio; pendere	垂	-	-
 觉	jué jiào	to feel; sleep (noun)	sentire; sonno	见	to see	vedere	党	-	-
-朋	péng	companion (in 朋友)	compagno (in 朋友)	月	moon, flesh	luna, carne	明	Two matching shapes side by side, like two friends.	Due forme uguali affiancate, come due amici.
+朋	péng	companion (in 朋友)	compagno (in 朋友)	月	(moon shape, no meaning here)	(forma di luna, qui senza significato)	明	Two matching shapes side by side, like two friends.	Due forme uguali affiancate, come due amici.
 友	yǒu	friend	amico	又	again, hand	di nuovo, mano	反 发	-	-
 老	lǎo	old	vecchio	-	-	-	考	-	-
 师	shī	teacher, master	maestro	-	-	-	帅	-	-
@@ -53,22 +53,22 @@
 话	huà	speech, words	discorso, parole	讠 舌	speech; tongue	parola; lingua	活	-	-
 影	yǐng	shadow	ombra	景 彡	scene, view; strokes, light	scena, veduta; tratti, luce	景	-	-
 中	zhōng zhòng	middle	mezzo	-	-	-	串 申	-	-
-国	guó	country	Paese	囗 玉	enclosure; jade	recinto; giada	园 图	Memory picture: imagine jade inside a border and think of a country.	Immagine per ricordare: pensa a una giada dentro un confine come a un Paese.
+国	guó	country	Paese	囗 玉	enclosure; jade	recinto; giada	园 图	Memory picture: imagine jade inside a border and think of a country.	Immagina una giada custodita dentro un confine: ecco un Paese.
 钱	qián	money	denaro	钅 戋	metal; (sound part)	metallo; (parte fonetica)	浅 线	-	-
 衣	yī	clothing	abbigliamento	-	-	-	农 表	-	-
-服	fú	to serve; to obey	servire; obbedire	月	moon, flesh	luna, carne	报	-	-
+服	fú	clothes (in 衣服); to serve; to obey	abito (in 衣服); servire; obbedire	月	(moon shape, no meaning here)	(forma di luna, qui senza significato)	报	-	-
 今	jīn	now, today	adesso, odierno	-	-	-	令	-	-
 天	tiān	sky, day	cielo, giorno	一 大	one; big	uno; grande	大 夫 太	-	-
 大	dà dài	big	grande	-	-	-	太 天 犬	-	-
 小	xiǎo	small	piccolo	-	-	-	少 水	-	-
-多	duō	many	molti, numerosi	夕	evening	sera	岁 名	-	-
+多	duō	many	molti, numerosi	夕	(shape only, not “evening” here)	(solo forma, qui non è «sera»)	岁 名	-	-
 高	gāo	tall, high	alto	-	-	-	亮	-	-
 兴	xìng xīng	interest; to rise	interesse; sorgere	-	-	-	举	-	-
 热	rè	hot	caldo	执 灬	to hold; fire	tenere; fuoco	熟	-	-
 一	yī	one	uno	-	-	-	二 十	-	-
 个	gè	(general measure word)	(classificatore generico)	-	-	-	介 全	-	-
 现	xiàn	current; to appear	attuale; apparire	王 见	king, jade; to see	re, giada; vedere	观	-	-
-汉	hàn	Han Chinese	cinese Han	氵 又	water; again, hand	acqua; di nuovo, mano	汗	-	-
+汉	hàn	Han Chinese	cinese Han	氵 又	water; (simplified shorthand, no meaning here)	acqua; (abbreviazione grafica, qui senza significato)	汗	-	-
 语	yǔ	language	lingua	讠 吾	speech; I (literary)	parola; io (letterario)	话	-	-
 里	lǐ	inside	dentro	-	-	-	果 量	-	-
 的	de dí dì	(possessive particle)	(particella possessiva)	白 勺	white; spoon	bianco; cucchiaio	约	-	-
@@ -91,7 +91,7 @@
 面	miàn	face, side	faccia, lato	-	-	-	而	-	-
 位	wèi	position; (polite measure word for people)	posizione; (classificatore cortese per persone)	亻 立	person; to stand	persona; stare in piedi	住	-	-
 上	shàng	up, on	su, sopra	-	-	-	下 土	-	-
-打	dǎ	to hit, to make (a call)	colpire, fare (una chiamata)	扌 丁	hand; nail (shape)	mano; chiodo (forma)	灯 订	-	-
+打	dǎ	to hit, to make (a call)	colpire, fare (una chiamata)	扌 丁	hand; nail (shape)	mano; chiodo	灯 订	-	-
 吧	ba bā	(suggestion particle)	(particella per fare proposte)	口 巴	mouth; (sound part)	bocca; (parte fonetica)	爸 把	-	-
 太	tài	too, excessively	troppo	大	big	grande	大 天 犬	-	-
 北	běi	north	nord	-	-	-	比 兆	-	-
@@ -104,4 +104,184 @@
 场	chǎng cháng	venue; (measure word for shows)	campo, area; (classificatore per spettacoli)	土	earth	terra	扬 汤	-	-
 名	míng	name; (measure word for people in a role)	nome; (classificatore per persone con un ruolo)	夕 口	evening; mouth	sera; bocca	各 多	-	-
 份	fèn	portion; (measure word for servings)	porzione; (classificatore per porzioni)	亻 分	person; to divide	persona; dividere	分 粉	-	-
-套	tào	set; (measure word for sets)	completo; (classificatore per completi)	大	big	grande	奋 奄	-	-
+套	tào	set; (measure word for sets)	set, completo; (classificatore per set e completi)	大	big	grande	奋 奄	-	-
+七	qī	seven	sette	-	-	-	-	-	-
+下	xià	under, down	sotto, giù	-	-	-	不	-	-
+东	dōng	east	est	-	-	-	车	-	-
+九	jiǔ	nine	nove	-	-	-	几	-	-
+也	yě	also	anche	-	-	-	他	-	-
+事	shì	matter, affair	faccenda	-	-	-	-	-	-
+二	èr	two	due	-	-	-	三	-	-
+五	wǔ	five	cinque	-	-	-	-	-	-
+些	xiē	some	alcuni	此 二	this; two	questo; due	-	-	-
+亮	liàng	bright	luminoso	-	-	-	高	-	-
+以	yǐ	with, by means of	con, mediante	-	-	-	-	-	-
+休	xiū	to rest	riposare	亻 木	person; tree	persona; albero	体	A person leaning against a tree takes a rest.	Una persona appoggiata a un albero si riposa.
+会	huì kuài	can; meeting	sapere (fare); riunione	人 云	person; cloud	persona; nuvola	-	-	-
+住	zhù	to live, to stay	abitare	亻 主	person; master	persona; padrone	往	-	-
+便	biàn pián	convenient; cheap (in 便宜)	comodo; economico (in 便宜)	亻 更	person; more	persona; più	更	-	-
+候	hòu	to wait; time	attendere; momento	亻	person	persona	侯	-	-
+做	zuò	to do, to make	fare	亻 故	person; reason	persona; motivo	作	-	-
+儿	ér	child, son	bambino, figlio	-	-	-	几	-	-
+元	yuán	yuan; first	yuan; primo	-	-	-	无	-	-
+先	xiān	first, before	prima	-	-	-	洗	-	-
+八	bā	eight	otto	-	-	-	人 入	-	-
+公	gōng	public	pubblico	八	eight	otto	么	-	-
+六	liù	six	sei	-	-	-	-	-	-
+关	guān	to close; to concern	chiudere; riguardare	-	-	-	开	-	-
+再	zài	again	di nuovo	-	-	-	-	-	-
+写	xiě	to write	scrivere	冖	cover	copertura	与	-	-
+冷	lěng	cold	freddo	冫 令	ice; order	ghiaccio; ordine	今	The ice on the left tells you it is cold.	Il ghiaccio a sinistra dice che fa freddo.
+几	jǐ jī	how many; a few	quanti; alcuni	-	-	-	九 儿	-	-
+出	chū	to go out	uscire	-	-	-	山	-	-
+分	fēn fèn	to divide; minute	dividere; minuto	八 刀	eight, to part; knife	otto, separare; coltello	今	A knife cutting something into two parts.	Un coltello che taglia qualcosa in due parti.
+列	liè	row; (for trains)	fila; (per i treni)	歹 刂	bad, remains; knife	male, resti; coltello	例	-	-
+利	lì	sharp; benefit	affilato; vantaggio	禾 刂	grain; knife	cereale; coltello	和	-	-
+到	dào	to arrive	arrivare	至 刂	to reach; knife	raggiungere; coltello	倒	-	-
+前	qián	front; before	davanti; prima	-	-	-	-	-	-
+包	bāo	to wrap; bag	avvolgere; borsa	勹 巳	to wrap; (inner part, originally a baby in the womb)	avvolgere; (parte interna, in origine un feto)	句	-	-
+十	shí	ten	dieci	-	-	-	千 土	-	-
+千	qiān	thousand	mille	-	-	-	十 干	-	-
+午	wǔ	noon	mezzogiorno	-	-	-	牛	-	-
+半	bàn	half	metà	-	-	-	平	-	-
+卖	mài	to sell	vendere	十 买	ten; to buy	dieci; comprare	买 实	-	-
+厕	cè	toilet	bagno	厂 则	shelter; rule	riparo; regola	侧	-	-
+只	zhī zhǐ	(for animals); only	(per animali); solo	口 八	mouth; eight	bocca; otto	兄	-	-
+叫	jiào	to call, to be called	chiamare, chiamarsi	口	mouth	bocca	收	-	-
+可	kě	may; can	potere	口	mouth	bocca	何	-	-
+号	hào	number; date	numero; data	口	mouth	bocca	-	-	-
+司	sī	to manage	gestire	口	mouth	bocca	同	-	-
+同	tóng	same; together	stesso; insieme	口	mouth	bocca	司 向	-	-
+听	tīng	to listen	ascoltare	口 斤	mouth; axe	bocca; ascia	近	-	-
+呢	ne	(question or progressive particle)	(particella interrogativa o progressiva)	口 尼	mouth; (sound part)	bocca; (parte fonetica)	吧	-	-
+和	hé	and; peace	e; pace	禾 口	grain; mouth	cereale; bocca	利 知	-	-
+咖	kā	(in 咖啡, coffee)	(in 咖啡, caffè)	口 加	mouth; to add	bocca; aggiungere	啡	-	-
+哥	gē	older brother	fratello maggiore	可	may	potere	歌	-	-
+哪	nǎ něi	which	quale	口 那	mouth; that	bocca; quello	那	With a mouth, “that” becomes the question “which?”.	Con una bocca, «quello» diventa la domanda «quale?».
+唱	chàng	to sing	cantare	口 昌	mouth; prosperous	bocca; prospero	喝	-	-
+啡	fēi	(in 咖啡, coffee)	(in 咖啡, caffè)	口 非	mouth; not	bocca; non	咖	-	-
+喂	wèi	hello (phone); to feed	pronto (al telefono); dare da mangiare	口 畏	mouth; to fear	bocca; temere	-	-	-
+四	sì	four	quattro	囗	enclosure	recinto	西	-	-
+回	huí	to return	tornare	囗 口	enclosure; mouth	recinto; bocca	四	-	-
+坐	zuò	to sit	sedersi	人 土	person; earth	persona; terra	座 做	Two people sitting on the ground.	Due persone sedute per terra.
+块	kuài	piece; yuan	pezzo; yuan	土 夬	earth; (sound part)	terra; (parte fonetica)	快	-	-
+士	shì	scholar; (in 女士)	studioso; (in 女士)	-	-	-	土	-	-
+外	wài	outside	fuori	夕 卜	evening; divination	sera; divinazione	处	-	-
+女	nǚ	woman	donna	-	-	-	-	-	-
+奶	nǎi	milk; grandmother	latte; nonna	女 乃	woman; (sound part)	donna; (parte fonetica)	妈	-	-
+妹	mèi	younger sister	sorella minore	女 未	woman; not yet	donna; non ancora	姐	-	-
+姐	jiě	older sister	sorella maggiore	女 且	woman; moreover	donna; inoltre	妹 姓	-	-
+子	zǐ	child; (noun suffix)	bambino; (suffisso di nomi)	-	-	-	字	-	-
+字	zì	written character	carattere scritto	宀 子	roof; child	tetto; bambino	子 学	-	-
+孩	hái	child	bambino	子 亥	child; (sound part)	bambino; (parte fonetica)	该	-	-
+它	tā	it	esso	宀	roof	tetto	他 她	-	-
+宜	yí	suitable (in 便宜)	adatto (in 便宜)	宀 且	roof; moreover	tetto; inoltre	直	-	-
+客	kè	guest	ospite	宀 各	roof; each	tetto; ciascuno	容	-	-
+对	duì	right, correct; towards	giusto; verso	又 寸	(simplified shorthand, no meaning here); inch	(abbreviazione grafica, qui senza significato); pollice	树	-	-
+岁	suì	year of age	anno di età	山 夕	mountain; evening	montagna; sera	多	-	-
+市	shì	market; city	mercato; città	巾	cloth	stoffa	布	-	-
+常	cháng	often; ordinary	spesso; comune	巾	cloth	stoffa	带	-	-
+年	nián	year	anno	-	-	-	午	-	-
+床	chuáng	bed	letto	广 木	shelter; wood	riparo; legno	-	A piece of wood under a roof: a bed.	Un pezzo di legno sotto un tetto: un letto.
+度	dù	degree	grado	广	shelter	riparo	席	-	-
+座	zuò	seat; (for buildings)	posto; (per edifici)	广 坐	shelter; to sit	riparo; sedersi	坐	-	-
+开	kāi	to open	aprire	-	-	-	关 井	-	-
+弟	dì	younger brother	fratello minore	-	-	-	第	-	-
+张	zhāng	(for flat things); a family name	(per cose piatte); un cognome	弓 长	bow; long	arco; lungo	长	-	-
+得	de dé děi	(complement particle); to get; must	(particella del complemento); ottenere; dovere	彳	step	passo	很	-	-
+忙	máng	busy	occupato	忄 亡	heart; to lose	cuore; perdere	忘	-	-
+怎	zěn	how	come	乍 心	suddenly; heart	all'improvviso; cuore	作	-	-
+息	xī	breath; rest	respiro; riposo	自 心	self, nose; heart	sé, naso; cuore	思	-	-
+您	nín	you (polite)	Lei (cortese)	你 心	you; heart	tu; cuore	你	“You” with a heart underneath: the respectful you.	«Tu» con un cuore sotto: il Lei di rispetto.
+意	yì	meaning, idea; (in 意大利)	significato, idea; (in 意大利)	音 心	sound; heart	suono; cuore	思	-	-
+房	fáng	house, room	casa, stanza	户 方	door; square	porta; quadrato	放	-	-
+手	shǒu	hand	mano	-	-	-	毛	-	-
+找	zhǎo	to look for	cercare	扌 戈	hand; spear	mano; lancia	我	-	-
+把	bǎ	(for things with a handle)	(per cose con un manico)	扌 巴	hand; (sound part)	mano; (parte fonetica)	吧 爸	-	-
+支	zhī	branch; (for pens, songs)	ramo; (per penne, canzoni)	十 又	ten; hand	dieci; mano	友	-	-
+文	wén	language, writing	lingua, scrittura	-	-	-	交	-	-
+新	xīn	new	nuovo	亲 斤	close, parent; axe	vicino, parente; ascia	亲	-	-
+日	rì	sun; day	sole; giorno	-	-	-	目 白	-	-
+早	zǎo	early; morning	presto; mattina	日 十	sun; ten	sole; dieci	草	-	-
+时	shí	time	tempo	日 寸	sun; inch	sole; pollice	对	-	-
+明	míng	bright; next (day, year)	luminoso; prossimo (giorno, anno)	日 月	sun; moon	sole; luna	朋	Sun and moon together make it bright.	Sole e luna insieme fanno luce.
+星	xīng	star	stella	日 生	sun; to be born	sole; nascere	是	-	-
+昨	zuó	yesterday (in 昨天)	ieri (in 昨天)	日 乍	sun; suddenly	sole; all'improvviso	作	-	-
+晚	wǎn	evening; late	sera; tardi	日 免	sun; to avoid	sole; evitare	-	-	-
+月	yuè	moon; month	luna; mese	-	-	-	日 用	-	-
+期	qī	period	periodo	其 月	its, that; moon	quello; luna	朋	-	-
+机	jī	machine	macchina	木 几	wood; small table	legno; tavolino	几	-	-
+条	tiáo	(for long thin things)	(per cose lunghe e sottili)	木	wood	legno	务	-	-
+来	lái	to come	venire	-	-	-	米	-	-
+架	jià	frame; (for aircraft)	struttura; (per aerei)	加 木	to add; wood	aggiungere; legno	-	-	-
+样	yàng	manner, kind	maniera, tipo	木 羊	wood; sheep	legno; pecora	洋	-	-
+根	gēn	root; (for long thin things)	radice; (per cose sottili)	木 艮	wood; (sound part)	legno; (parte fonetica)	很 跟	-	-
+桌	zhuō	table	tavolo	木	wood	legno	早	-	-
+椅	yǐ	chair	sedia	木 奇	wood; strange	legno; strano	-	The wood on the left: a chair is made of it.	Il legno a sinistra: di questo è fatta la sedia.
+次	cì	time, occasion	volta	冫 欠	(two strokes, not “ice” here); to yawn	(due tratti, qui non è «ghiaccio»); sbadigliare	欢	-	-
+歌	gē	song	canzone	哥 欠	older brother; to yawn	fratello maggiore; sbadigliare	哥	A yawning mouth (欠) beside 哥 (gē), which gives the sound.	Una bocca che sbadiglia (欠) accanto a 哥 (gē), che dà il suono.
+正	zhèng	straight; just now	dritto; proprio ora	一 止	one; to stop	uno; fermarsi	止	-	-
+比	bǐ	to compare; than	confrontare; di (nei paragoni)	-	-	-	北	-	-
+没	méi mò	not (have)	non (avere)	氵	water	acqua	设	-	-
+漂	piào piāo	(in 漂亮, pretty); to float	(in 漂亮, bello); galleggiare	氵 票	water; ticket	acqua; biglietto	票	-	-
+火	huǒ	fire	fuoco	-	-	-	人	-	-
+点	diǎn	dot; o'clock; a little	punto; ora; un po'	占 灬	to occupy; fire	occupare; fuoco	店	-	-
+爱	ài	to love	amare	友	friend	amico	受	-	-
+片	piàn	slice; (for flat pieces)	fetta; (per pezzi piatti)	-	-	-	-	-	-
+牛	niú	cow, ox	mucca, bue	-	-	-	午	-	-
+狗	gǒu	dog	cane	犭 句	animal; sentence	animale; frase	够	The animal radical on the left marks a dog.	Il radicale a sinistra dice che il cane è un animale.
+猫	māo	cat	gatto	犭 苗	animal; sprout	animale; germoglio	描	The animal radical, and 苗 (miáo) hints at the sound.	Il radicale degli animali, e 苗 (miáo) suggerisce il suono.
+王	wáng	king; (a family name)	re; (un cognome)	-	-	-	玉 主	-	-
+玩	wán	to play	giocare	王 元	king, jade; first	re, giada; primo	完	-	-
+班	bān	class; shift	classe; turno	王	king, jade	re, giada	-	-	-
+男	nán	male	maschio	田 力	field; strength	campo; forza	-	Strength working in the field: a man.	La forza al lavoro nel campo: un uomo.
+病	bìng	illness	malattia	疒 丙	sickness; (sound part)	malattia; (parte fonetica)	-	-	-
+白	bái	white	bianco	-	-	-	百 日	-	-
+百	bǎi	hundred	cento	一 白	one; white	uno; bianco	白	-	-
+真	zhēn	real, really	vero, davvero	-	-	-	直	-	-
+知	zhī	to know	sapere	矢 口	arrow; mouth	freccia; bocca	和	-	-
+种	zhǒng zhòng	kind; to plant	tipo; piantare	禾 中	grain; middle	cereale; mezzo	钟	-	-
+租	zū	to rent	affittare	禾 且	grain; moreover	cereale; inoltre	组	-	-
+穿	chuān	to wear; to pass through	indossare; attraversare	穴 牙	hole; tooth	buco; dente	-	-	-
+第	dì	(forms ordinals)	(forma gli ordinali)	竹 弟	bamboo; younger brother	bambù; fratello minore	弟	-	-
+等	děng	to wait	aspettare	竹 寺	bamboo; temple	bambù; tempio	-	-	-
+系	xì jì	relation; department; to tie	relazione; dipartimento; legare	糸	silk thread	filo di seta	-	-	-
+能	néng	can, ability	potere, capacità	月	moon, flesh	luna, carne	-	-	-
+节	jié	section; festival	sezione; festa	艹	grass	erba	-	-	-
+菜	cài	vegetable; dish	verdura; piatto	艹 采	grass; to pick	erba; raccogliere	采	The grass on top marks something grown to be eaten.	L'erba in alto indica una pianta che si coltiva e si mangia.
+蛋	dàn	egg	uovo	疋 虫	(upper part, no meaning here); insect	(parte superiore, qui senza significato); insetto	-	-	-
+西	xī	west	ovest	-	-	-	四	-	-
+要	yào yāo	to want, need	volere, dovere	覀 女	(looks like 西, no meaning here); woman	(somiglia a 西, qui senza significato); donna	-	-	-
+见	jiàn	to see	vedere	-	-	-	贝	-	-
+视	shì	to look at	guardare	礻 见	spirit; to see	spirito; vedere	见	-	-
+说	shuō	to speak	parlare	讠 兑	speech; to exchange	parola; scambiare	话	The speech radical on the left: something done with words.	Il radicale della parola a sinistra: qualcosa che si fa con le parole.
+读	dú	to read	leggere	讠 卖	speech; to sell	parola; vendere	续	-	-
+课	kè	lesson	lezione	讠 果	speech; fruit	parola; frutto	棵	-	-
+谁	shéi shuí	who	chi	讠 隹	speech; short-tailed bird	parola; uccello	难	-	-
+谢	xiè	to thank	ringraziare	讠 射	speech; to shoot	parola; tirare	-	-	-
+贵	guì	expensive	caro	贝	shell, money	conchiglia, denaro	费	Shells were once money: this is about price.	Le conchiglie erano denaro: si parla di prezzo.
+起	qǐ	to rise	alzarsi	走 己	to walk; self	camminare; sé	赶	-	-
+超	chāo	to exceed; super-	superare; super-	走 召	to walk; to summon	camminare; convocare	起	-	-
+趟	tàng	(for trips)	(per i viaggi)	走 尚	to walk; still	camminare; ancora	-	-	-
+路	lù	road	strada	足 各	foot; each	piede; ciascuno	-	The foot on the left: a road is walked.	Il piede a sinistra: la strada si percorre.
+车	chē	vehicle	veicolo	-	-	-	东	-	-
+辆	liàng	(for vehicles)	(per i veicoli)	车 两	vehicle; two	veicolo; due	两	-	-
+边	biān	side	lato	辶 力	walking; strength	cammino; forza	过	-	-
+还	hái huán	still; to return	ancora; restituire	辶 不	walking; not	cammino; non	不	-	-
+道	dào	way, road	via, strada	辶 首	walking; head	cammino; testa	首	-	-
+都	dōu dū	all; capital	tutti; capitale	者 阝	person who; town	colui che; città	部	-	-
+钟	zhōng	clock; (in 分钟)	orologio; (in 分钟)	钅 中	metal; middle	metallo; mezzo	种	-	-
+门	mén	door; (for subjects)	porta; (per le materie)	-	-	-	们 问	-	-
+问	wèn	to ask	chiedere	门 口	door; mouth	porta; bocca	门 间	A mouth at the door, asking a question.	Una bocca alla porta, che fa una domanda.
+间	jiān	between; room	tra; stanza	门 日	door; sun	porta; sole	问	Sunlight seen between the two sides of a door.	La luce del sole tra i due battenti di una porta.
+阵	zhèn	spell, burst	ondata, scroscio	阝 车	mound; vehicle	collina; veicolo	-	-	-
+雨	yǔ	rain	pioggia	-	-	-	两	-	-
+雪	xuě	snow	neve	雨	rain	pioggia	雷	The rain on top: snow also falls from the sky.	La pioggia in alto: anche la neve cade dal cielo.
+零	líng	zero	zero	雨 令	rain; order	pioggia; ordine	冷	-	-
+非	fēi	not	non	-	-	-	-	-	-
+顿	dùn	(for meals); to pause	(per i pasti); fermarsi	屯 页	to gather; head	raccogliere; testa	领	-	-
+题	tí	topic, question	tema, domanda	是 页	to be; head	essere; testa	提	-	-
+飞	fēi	to fly	volare	-	-	-	气	-	-
+饺	jiǎo	dumpling	raviolo	饣 交	food; to exchange	cibo; scambiare	较	The food radical marks something to eat.	Il radicale del cibo indica qualcosa da mangiare.
+首	shǒu	head; (for songs)	testa; (per le canzoni)	-	-	-	道	-	-
+鸡	jī	chicken	pollo	又 鸟	(simplified shorthand, no meaning here); bird	(abbreviazione grafica, qui senza significato); uccello	鸭	The bird on the right tells you what a chicken is.	L'uccello a destra dice che tipo di animale è: il pollo è un uccello.

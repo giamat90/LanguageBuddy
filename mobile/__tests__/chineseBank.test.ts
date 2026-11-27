@@ -1,9 +1,9 @@
-/** TASK-073: the Chinese pilot bank (50 A1 words) and its character table. */
+/** TASK-073 and TASK-077: the Chinese A1 bank and its character table. */
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { zh } from '../src/languages/zh';
 import { buildCloze } from '../src/lib/cloze';
-import { buildChoiceCloze } from '../src/lib/grammar';
+import { buildChoiceCloze, buildMeasureQuestion } from '../src/lib/grammar';
 import { setActivePackForTests } from '../src/languages';
 import { buildReorder } from '../src/lib/exercises/reorder';
 import { sentenceTokens, joinTokens } from '../src/lib/sentence';
@@ -25,19 +25,37 @@ const card = (e: WordBankEntry): ReviewCard => ({
   cefrBand: 'A1', topicDomain: e.topic_domain, grammarAngle: e.grammar_angle, timesSeen: 3, retentionScore: 0.7,
 });
 
-describe('the Chinese pilot', () => {
+describe('the Chinese A1 bank', () => {
   beforeAll(() => setActivePackForTests(zh));
   afterAll(() => setActivePackForTests(null));
 
   it('is no longer a draft', () => expect(cfg.draft).toBeUndefined());
 
-  it('has 50 different words, in every topic and every stage', () => {
+  it('has 300 different words, in every topic, with at least 40 in every stage', () => {
     const all = bank();
-    expect(all).toHaveLength(50);
-    expect(new Set(all.map((e) => e.word)).size).toBe(50);
+    expect(all).toHaveLength(300);
+    expect(new Set(all.map((e) => e.word)).size).toBe(300);
     expect([...new Set(all.map((e) => e.topic_domain))].sort()).toEqual([...TOPIC_KEYS].sort());
     expect([...new Set(all.map((e) => e.stage))].sort()).toEqual([1, 2, 3, 4]);
-    expect(all.filter((e) => e.topic_domain === 'food').length).toBeGreaterThanOrEqual(3);
+    for (const stage of [1, 2, 3, 4]) {
+      expect([stage, all.filter((e) => e.stage === stage).length >= 40]).toEqual([stage, true]);
+    }
+    for (const topic of TOPIC_KEYS) {
+      expect([topic, all.filter((e) => e.topic_domain === topic).length >= 10]).toEqual([topic, true]);
+    }
+  });
+
+  // Saved words are keyed by the word itself: a renamed pilot word would orphan a learner's vault entry.
+  it('keeps every pilot word', () => {
+    const pilot = ('我 你 他 是 有 在 人 好 很 不 吗 什么 两 去 吃 喝 看 喜欢 想 买 学习 工作 睡觉 朋友 老师 学生 妈妈 爸爸 家 书 '
+      + '水 茶 米饭 苹果 学校 商店 医院 医生 电脑 电话 电影 中国 钱 衣服 今天 大 小 多 高兴 热').split(' ');
+    const words = new Set(bank().map((e) => e.word));
+    expect(pilot.filter((w) => !words.has(w))).toEqual([]);
+  });
+
+  it('gives every word its own sentence', () => {
+    const examples = bank().map((e) => e.example);
+    expect(examples.filter((x, i) => examples.indexOf(x) !== i)).toEqual([]);
   });
 
   it('gives every word a sentence that can be reordered and filled in', () => {
@@ -61,8 +79,51 @@ describe('the Chinese pilot', () => {
     const sets = Object.fromEntries(Object.entries(cfg.ruleChecks).map(([k, v]: [string, any]) => [k, [v.exactlyOneOf]]));
     const pack = { ...zh, choices: { ruleSets: sets } };
     const tagged = bank().filter((e) => e.grammar_angle in sets);
-    expect(tagged.length).toBeGreaterThanOrEqual(8);
+    const caps: Record<string, number> = { SHI_ZAI_YOU: 20, QUESTION_PARTICLE: 12, ER_LIANG: 8, BU_MEI: 15 };
+    for (const [rule, cap] of Object.entries(caps)) {
+      const n = tagged.filter((e) => e.grammar_angle === rule).length;
+      expect([rule, n >= 4 && n <= cap, n]).toEqual([rule, true, n]);
+    }
     for (const e of tagged) expect([e.word, buildChoiceCloze(e.example, e.grammar_angle, pack, e.segments) !== null]).toEqual([e.word, true]);
+  });
+
+  it('gives every listed measure word its pinyin in the app', () => {
+    for (const m of cfg.measureWords) expect([m, zh.classifiers!.readings[m]]).toEqual([m, expect.any(String)]);
+  });
+
+  // 些 is the plural "some" and goes with any noun, so it is not a noun's measure word.
+  it('lists for each noun every measure word the bank itself puts before it', () => {
+    const all = bank();
+    const nouns = new Map(all.filter((e) => e.part_of_speech === 'noun').map((e) => [e.word, e]));
+    const measures = new Set<string>(cfg.measureWords.filter((m: string) => m !== '些'));
+    const unlisted: string[] = [];
+    for (const e of all) {
+      const s = e.segments!;
+      // A number or demonstrative makes it a measure word (门外 is "outside the door"), and a noun followed
+      // by another noun only describes it (一本中文书 counts the book).
+      for (let i = 1; i + 1 < s.length; i++) {
+        const noun = nouns.get(s[i + 1]);
+        if (!noun || !measures.has(s[i]) || !zh.classifiers!.determiners.includes(s[i - 1]) || nouns.has(s[i + 2])) continue;
+        if (![noun.measure, ...(noun.measure_also ?? [])].includes(s[i])) unlisted.push(`${s[i]}${noun.word} in ${e.word}`);
+      }
+    }
+    expect(unlisted).toEqual([]);
+  });
+
+  // The drill offers other measure words as wrong answers, so none of these may be missing.
+  it.each([
+    ['书', '本 部'], ['车', '辆 台'], ['出租车', '辆 台'], ['火车', '列 辆'], ['电视', '台 部'], ['电脑', '台'], ['手机', '部 台 只'],
+    ['狗', '只 条'], ['猫', '只'], ['椅子', '把 张'], ['杯子', '个 只'], ['鸡蛋', '个 只'], ['苹果', '个 只'], ['衣服', '件 套'],
+    ['老师', '位 个 名'], ['医生', '位 个 名'], ['朋友', '个 位'], ['面条儿', '碗 根'], ['商店', '家 个 间'], ['歌', '首 支'],
+  ])('knows the measure words of %s', (word, expected) => {
+    const e = bank().find((x) => x.word === word)!;
+    const listed = [e?.measure, ...(e?.measure_also ?? [])];
+    expect(expected.split(' ').filter((m) => !listed.includes(m))).toEqual([]);
+  });
+
+  it('can ask the measure word of at least 40 nouns', () => {
+    const questions = bank().filter((e) => buildMeasureQuestion(e, () => 0.4, zh) !== null);
+    expect(questions.length).toBeGreaterThanOrEqual(40);
   });
 
   it('writes pinyin with tone marks, never digits, and keeps punctuation Chinese', () => {

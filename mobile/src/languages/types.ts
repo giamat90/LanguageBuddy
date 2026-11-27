@@ -50,6 +50,30 @@ export interface CaseSupport {
 export interface ChoiceSupport {
   /** Rule code → sets of mutually exclusive forms. A token that is a member of a set is a possible blank. */
   ruleSets: Record<string, readonly (readonly string[])[]>;
+  /** Languages with a reading layer: the pronunciation of every form. */
+  readings?: Readonly<Record<string, string>>;
+}
+
+/** Words that stand between a number and a noun (Chinese: 一本书). */
+export interface ClassifierSupport {
+  /** Rule code of the question (its explanation is the `grammar_rule_<code>` string). */
+  rule: string;
+  /** The number the drill writes before the blank. */
+  number: string;
+  /** Offered as wrong answers unless the noun lists them. Containers (杯, 碗 …) fit too much to be here. */
+  distractors: readonly string[];
+  /** Never offered as wrong: the general word fits almost every noun. */
+  never: readonly string[];
+  /** What may precede a measure word in a sentence (numbers and demonstratives). */
+  determiners: readonly string[];
+  /** The pronunciation of every measure word the bank uses. */
+  readings: Readonly<Record<string, string>>;
+}
+
+/** One section of the pronunciation primer; its texts are the `primer_<id>_title` and `_text` strings. */
+export interface PrimerSection {
+  id: string;
+  examples: readonly { text: string; reading: string }[];
 }
 
 /**
@@ -74,11 +98,11 @@ export interface LanguagePack {
   typoMinLength: number;
   /** Quotes and punctuation split off a token. */
   punctuation: { lead: RegExp; trail: RegExp };
-  /** What the bank's `ipa` column holds. 'pinyin' is shown without slashes and orders the word lists. */
   /** Typed pronunciation, tone choice and the pronunciation setting; null for a language without them. */
   reading: ReadingSupport | null;
   /** False for a script that must not be slanted: sentences and notes are then set upright. */
   italics: boolean;
+  /** What the bank's `ipa` column holds. 'pinyin' is shown without slashes and orders the word lists. */
   pronunciation: 'ipa' | 'pinyin';
   /** BCP-47 tag used only to sort word lists (Spanish puts ñ after n). */
   collation: string;
@@ -92,6 +116,10 @@ export interface LanguagePack {
   cases: CaseSupport | null;
   /** null → no choice drill and no choice slot in "find the mistake". */
   choices: ChoiceSupport | null;
+  /** null → no measure-word drill and no such slot in "find the mistake". */
+  classifiers: ClassifierSupport | null;
+  /** A short guide to the pronunciation, shown in onboarding and from the grammar screen. */
+  primer: { sections: readonly PrimerSection[] } | null;
   /** The placement quiz: the sentences live in `strings`, the right answers here. Empty = no quiz (one level). */
   quiz: readonly QuizItem[];
   /** The app languages (UI) this app offers; a native speaker of the target language is left out. */

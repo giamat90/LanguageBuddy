@@ -37,8 +37,8 @@ describe('packs', () => {
   });
 
   it('a pack with a reading layer needs its texts', () => {
-    expect([...requiredTargetKeys(zh)]).toEqual([...BASE_TARGET_KEYS, ...READING_TARGET_KEYS]);
-    expect(requiredTargetKeys(testPackCjk)).toHaveLength(BASE_TARGET_KEYS.length);
+    expect([...requiredTargetKeys(zh)]).toEqual(expect.arrayContaining([...BASE_TARGET_KEYS, ...READING_TARGET_KEYS]));
+    expect(requiredTargetKeys(testPackCjk).filter((k) => !k.startsWith('grammar_rule_'))).toHaveLength(BASE_TARGET_KEYS.length);
     for (const ui of ['it', 'en'] as const) {
       for (const key of READING_TARGET_KEYS) expect(zh.strings[ui]![key]).toBeTruthy();
     }
@@ -80,12 +80,13 @@ describe('practice menu per pack', () => {
     expect(parsePracticeFormat('tone_choice')).toBe('mixed');
   });
 
-  it('Chinese has tone choice and no find-the-mistake', () => {
-    expect(practiceFormats(zh)).toEqual(['mixed', 'matching', 'multiple_choice', 'sentence_reorder', 'typed_cloze', 'tone_choice']);
-    setActivePackForTests(zh);
+  it('a reading pack with nothing to swap has tone choice and no find-the-mistake', () => {
+    const bare = { ...zh, choices: null, classifiers: null };
+    expect(practiceFormats(bare)).toEqual(['mixed', 'matching', 'multiple_choice', 'sentence_reorder', 'typed_cloze', 'tone_choice']);
+    setActivePackForTests(bare);
     expect(parsePracticeFormat('tone_choice')).toBe('tone_choice');
     expect(parsePracticeFormat('find_mistake')).toBe('mixed');
-    expect(practiceFormats()).toEqual(practiceFormats(zh));
+    expect(practiceFormats()).toEqual(practiceFormats(bare));
   });
 
   it('a pack with choice rules keeps find-the-mistake', () => {

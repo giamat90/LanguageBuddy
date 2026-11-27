@@ -56,7 +56,9 @@ describe('vault and scheduling', () => {
   it('start learning from the catalog adds a word and never touches the streak', async () => {
     const db = await getDb();
     const profile = (await fetchProfile())!;
-    const word = current().sampleWord.A1;
+    // Today's word is random per install: it may be the sample word, which is then already saved.
+    const saved = new Set((await db.getAllAsync<any>('SELECT word FROM vocabulary_items')).map((r) => r.word));
+    const word = [current().sampleWord.A1, ...WORD_BANK.A1.map((e) => e.word)].find((w) => !saved.has(w))!;
     const res = await startLearning('A1', word);
     expect(res.added).toBe(true);
     const after = (await fetchProfile())!;

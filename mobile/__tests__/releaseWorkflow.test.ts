@@ -10,13 +10,18 @@ const at = (needle: string) => {
 };
 
 describe('release-android.yml', () => {
-  it('has an app choice with de, es and fr', () => {
+  it('has an app choice with de, es, fr and zh', () => {
     const block = yml.slice(at('\n      app:'), at('\n      track:'));
     expect(block).toMatch(/type: choice/);
     expect(block).toMatch(/- de/);
     expect(block).toMatch(/- es/);
     expect(block).toMatch(/- fr/);
+    expect(block).toMatch(/- zh/);
     expect(block).toMatch(/default: de/);
+  });
+  it('CI runs the app suite of every app besides German', () => {
+    const ci = readFileSync(join(__dirname, '..', '..', '.github', 'workflows', 'ci.yml'), 'utf8');
+    for (const code of ['es', 'fr', 'zh']) expect(ci).toMatch(new RegExp(`npm run test:app -- ${code}\\b`));
   });
   it('hard-codes no package name', () => {
     expect(yml).not.toMatch(/com\.giamat90/);

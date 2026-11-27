@@ -6,6 +6,7 @@ import {
   buildArticleQuestion,
   buildCaseQuestion,
   buildChoiceQuestion,
+  buildMeasureQuestion,
   choiceRules,
   pickWeighted,
   type GrammarQuestion,
@@ -45,7 +46,10 @@ function buildPools(level: CefrLevel, rng: Rng): Map<string, GrammarQuestion[]> 
   const choices = choiceRules();
   for (const lvl of CEFR_ORDER.slice(0, CEFR_ORDER.indexOf(level) + 1)) {
     for (const entry of WORD_BANK[lvl]) {
-      if (entry.part_of_speech === 'noun') add(buildArticleQuestion(entry, rng));
+      if (entry.part_of_speech === 'noun') {
+        add(buildArticleQuestion(entry, rng));
+        add(buildMeasureQuestion(entry, rng));
+      }
       if (rules.includes(entry.grammar_angle)) add(buildCaseQuestion(entry, rng));
       if (choices.includes(entry.grammar_angle)) add(buildChoiceQuestion(entry, rng));
     }

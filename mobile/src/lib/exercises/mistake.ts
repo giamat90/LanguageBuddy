@@ -1,4 +1,4 @@
-import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, type Rng } from '../grammar';
+import { buildChoiceCloze, caseForms, caseOptions, choiceOptions, shuffle, wrongMeasures, type Rng } from '../grammar';
 import { getActivePack, type LanguagePack } from '../../languages';
 import type { ReviewCard } from '../../services/reviewService';
 import { FORMAT_QUALITY } from './quality';
@@ -13,6 +13,8 @@ import type { FindMistakeModel } from './types';
  * corruption is conservative:
  *  - gender kind: the article directly before the target noun is replaced by a form
  *    that is never valid for that noun's gender, in any case (pack.gender.neverValid);
+ *  - measure kind: the noun's measure word, after a number or demonstrative, is replaced by one the
+ *    bank does not list for that noun (never by the general word);
  *  - case kind: a case-fixing determiner (dem, einem, einen, des, eines) is replaced by
  *    another form of its family. The governing verb/preposition fixes the case, so any
  *    other form is wrong there. Two-way prepositions (in, auf, …) are skipped: after
@@ -108,15 +110,35 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
     }
   }
 
+  // Measure slot: one of the noun's own measure words right before it, after a number or demonstrative.
+  const { classifiers } = pack;
+  const ownMeasures =
+    card.measure && card.measure !== 'none' ? [card.measure, ...(card.measureAlso ?? [])] : [];
+  let measureAt = -1;
+  let wrongPool: string[] = [];
+  if (classifiers && card.partOfSpeech === 'noun' && ownMeasures.length > 0) {
+    const word = card.word.toLowerCase();
+    // The shown wrong word plus two other options.
+    wrongPool = wrongMeasures(ownMeasures, pack);
+    for (let j = 2; wrongPool.length >= 3 && j < tokens.length; j++) {
+      if (core(j) === word && ownMeasures.includes(core(j - 1)) && classifiers.determiners.includes(core(j - 2))) {
+        measureAt = j - 1;
+        break;
+      }
+    }
+  }
+
   // One rng call picks the kind, only when several are possible (two kinds: floor(rng()*2) equals rng() < 0.5 flipped).
-  const kinds: Array<'gender' | 'case' | 'choice'> = [];
+  const kinds: FindMistakeModel['mistakeKind'][] = [];
   if (genderAt >= 0) kinds.push('gender');
   if (caseAt >= 0) kinds.push('case');
   if (choiceAt >= 0) kinds.push('choice');
+  // Last, so the picks of languages without measure words stay as they were.
+  if (measureAt >= 0) kinds.push('measure');
   if (kinds.length === 0) return null;
   const kind = kinds.length === 1 ? kinds[0] : kinds[Math.min(kinds.length - 1, Math.floor(rng() * kinds.length))];
   const useGender = kind === 'gender';
-  const index = useGender ? genderAt : kind === 'case' ? caseAt : choiceAt;
+  const index = { gender: genderAt, case: caseAt, choice: choiceAt, measure: measureAt }[kind];
 
   const original = tokens[index];
   const { lead, core: originalCore, trail } = splitToken(original, pack);
@@ -124,7 +146,9 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
 
   let wrongForm: string;
   let choiceSet: readonly string[] = [];
-  if (kind === 'choice') {
+  if (kind === 'measure') {
+    wrongForm = pick(wrongPool, rng);
+  } else if (kind === 'choice') {
     choiceSet = choice!.set.includes(originalLower) ? choice!.set : pack.choices!.ruleSets[card.grammarAngle as string].find((s) => s.includes(originalLower))!;
     wrongForm = pick(choiceSet.filter((f) => f !== originalLower), rng);
   } else if (useGender) {
@@ -140,7 +164,9 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
 
   const genderForms = pack.articles ? pack.articles.forms : Object.keys(gender?.forms ?? {});
   const optionForms =
-    kind === 'choice' ? choiceOptions(originalLower, choiceSet, rng)
+    kind === 'measure'
+      ? shuffle([originalLower, ...shuffle(wrongPool.filter((f) => f !== wrongForm), rng).slice(0, 2)], rng)
+    : kind === 'choice' ? choiceOptions(originalLower, choiceSet, rng)
     : useGender ? shuffle([...genderForms], rng)
     : caseOptions(originalLower, rng, pack);
   const options = optionForms.map((f) => matchCase(f, originalCore));
@@ -149,7 +175,8 @@ export function buildFindMistake(card: ReviewCard, rng: Rng, pack: LanguagePack 
     kind: 'find_mistake',
     card,
     mistakeKind: kind,
-    ruleCode: kind === 'choice' ? (card.grammarAngle as string) : useGender ? (pack.articles?.rule ?? '') : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : '', pack),
+    ruleCode: kind === 'measure' ? classifiers!.rule
+      : kind === 'choice' ? (card.grammarAngle as string) : useGender ? (pack.articles?.rule ?? '') : ruleForCaseForm(originalLower, index > 0 ? core(index - 1) : '', pack),
     tokens: corrupted,
     wrongIndex: index,
     correctToken: original,

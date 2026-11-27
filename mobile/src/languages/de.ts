@@ -82,6 +82,8 @@ export const de: LanguagePack = {
     },
   },
   choices: null,
+  classifiers: null,
+  primer: null,
   quiz: [
     { n: 1, correctIndex: 0 },
     { n: 2, correctIndex: 0 },

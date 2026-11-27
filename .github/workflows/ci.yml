@@ -35,3 +35,6 @@ jobs:
 
       - name: French app suite
         run: npm run test:app -- fr
+
+      - name: Chinese app suite
+        run: npm run test:app -- zh

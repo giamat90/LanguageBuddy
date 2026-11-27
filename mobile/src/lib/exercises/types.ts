@@ -61,7 +61,7 @@ export interface SentenceReorderModel {
 export interface FindMistakeModel {
   kind: 'find_mistake';
   card: ReviewCard;
-  mistakeKind: 'gender' | 'case' | 'choice';
+  mistakeKind: 'gender' | 'case' | 'choice' | 'measure';
   /** Key of the grammar explanation: the pack's article rule, a case rule (German) or a choice rule (Spanish). */
   ruleCode: string;
   /** The sentence as shown; exactly one token is wrong. */

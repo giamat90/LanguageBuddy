@@ -136,5 +136,5 @@ describe('pinyinHint', () => {
 });
 
 it('is offered as one capability', () => {
-  expect(Object.keys(pinyinReading).sort()).toEqual(['grade', 'hint', 'isInput', 'toneVariants']);
+  expect(Object.keys(pinyinReading).sort()).toEqual(['citations', 'grade', 'hint', 'isInput', 'toneVariants']);
 });

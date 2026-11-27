@@ -1,5 +1,7 @@
 import { getActivePack, type LanguagePack } from '../languages';
 import { sentenceParts } from './sentence';
+import { blankCell, neutralCells, rubyCells, type RubyCell } from './reading/ruby';
+import { pinyinWords } from './reading/lookup';
 
 export type Rng = () => number;
 
@@ -139,6 +141,64 @@ export interface GrammarQuestion {
   translationEn: string | null;
   /** Bank level of the source entry (when known), so translated hints find the right row. */
   cefrBand?: string | null;
+  /** Languages with a reading layer: the sentence word by word, which one is blank, and the options' pinyin. */
+  cells?: RubyCell[];
+  blank?: number;
+  optionReadings?: (string | undefined)[];
+}
+
+/** The pronunciation of a form a drill or an exercise offers, for a language that writes one. */
+export function formReading(form: string, pack: LanguagePack = getActivePack()): string | undefined {
+  return pack.classifiers?.readings[form] ?? pack.choices?.readings?.[form];
+}
+
+/** The measure words that are certainly wrong for a noun taking `own`. */
+export function wrongMeasures(own: readonly string[], pack: LanguagePack = getActivePack()): string[] {
+  const c = pack.classifiers;
+  if (!c) return [];
+  return c.distractors.filter((d) => !own.includes(d) && !c.never.includes(d));
+}
+
+/** "一 ___ 书": which measure word does the noun take? */
+export function buildMeasureQuestion(
+  entry: {
+    word: string; part_of_speech: string; ipa: string; measure?: string | null; measure_also?: string[];
+    meaning_it: string; meaning_en: string; cefr_band?: string;
+  },
+  rng: Rng = Math.random,
+  pack: LanguagePack = getActivePack(),
+): GrammarQuestion | null {
+  const classifiers = pack.classifiers;
+  const measure = entry.measure;
+  if (!classifiers || entry.part_of_speech !== 'noun' || !measure || measure === 'none') return null;
+  if (!classifiers.readings[measure]) return null;
+  const wrong = wrongMeasures([measure, ...(entry.measure_also ?? [])], pack);
+  if (wrong.length < 2) return null;
+  const options = shuffle([measure, ...shuffle(wrong, rng).slice(0, 2)], rng);
+  const cell = (word: string, pinyin: string): RubyCell => ({ word, pinyin, lead: '', trail: '' });
+  return {
+    id: `measure:${entry.word}`,
+    ruleCode: classifiers.rule,
+    before: classifiers.number,
+    after: entry.word,
+    options,
+    answer: measure,
+    word: entry.word,
+    translationIt: entry.meaning_it,
+    translationEn: entry.meaning_en,
+    cefrBand: entry.cefr_band ?? null,
+    ...(pack.reading
+      ? {
+          cells: [
+            cell(classifiers.number, pack.reading.citations[classifiers.number] ?? ''),
+            cell(measure, classifiers.readings[measure]),
+            cell(entry.word, entry.ipa),
+          ],
+          blank: 1,
+          optionReadings: options.map((o) => formReading(o, pack)),
+        }
+      : {}),
+  };
 }
 
 export function buildArticleQuestion(
@@ -186,7 +246,10 @@ export function buildCaseQuestion(
 }
 
 export function buildChoiceQuestion(
-  entry: { word: string; example: string; segments?: string[]; example_it: string; example_en: string; grammar_angle: string; cefr_band?: string },
+  entry: {
+    word: string; example: string; segments?: string[]; example_pinyin?: string; example_it: string; example_en: string;
+    grammar_angle: string; cefr_band?: string;
+  },
   rng: Rng = Math.random,
   pack: LanguagePack = getActivePack(),
 ): GrammarQuestion | null {
@@ -194,12 +257,22 @@ export function buildChoiceQuestion(
   if (!cloze) return null;
   const initial = cloze.before.trim() === '';
   const fmt = (s: string) => (initial ? capitalize(s) : s);
+  const options = choiceOptions(cloze.answer, cloze.set, rng).map(fmt);
+  const cells = pack.reading ? rubyCells(entry.segments, pinyinWords(entry.example_pinyin), pack) : null;
+  const blank = cells ? blankCell(cells, cloze.answer, cloze.before) : -1;
   return {
     id: `choice:${entry.word}`,
     ruleCode: entry.grammar_angle,
     before: cloze.before,
     after: cloze.after,
-    options: choiceOptions(cloze.answer, cloze.set, rng).map(fmt),
+    ...(cells && blank >= 0
+      ? {
+          cells: neutralCells(cells, pack.reading!.citations, blank),
+          blank,
+          optionReadings: options.map((o) => formReading(o.toLowerCase(), pack)),
+        }
+      : {}),
+    options,
     answer: fmt(cloze.answer),
     word: entry.word,
     translationIt: entry.example_it,
@@ -210,5 +283,5 @@ export function buildChoiceQuestion(
 
 /** False for a pack the grammar screen would have nothing to ask. */
 export function hasGrammarDrill(pack: LanguagePack = getActivePack()): boolean {
-  return pack.articles !== null || pack.cases !== null || pack.choices !== null;
+  return pack.articles !== null || pack.cases !== null || pack.choices !== null || pack.classifiers !== null;
 }

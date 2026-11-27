@@ -31,14 +31,13 @@ export default function WelcomeScreen() {
     if (applyLayoutDirection(lang).changed) Alert.alert(t('settings_language_restart_notice'));
   }
 
-  // A language without a placement quiz has one level: straight to the topics.
+  // A language without a placement quiz has one level: straight to the topics, after the
+  // pronunciation primer where the language has one.
   const start = () => {
-    const { quiz, levels } = getActivePack();
-    router.push(
-      quiz.length > 0
-        ? { pathname: '/quiz', params: { nativeLanguage } }
-        : { pathname: '/topics', params: { cefrLevel: levels[0], nativeLanguage } },
-    );
+    const { quiz, levels, primer } = getActivePack();
+    if (quiz.length > 0) router.push({ pathname: '/quiz', params: { nativeLanguage } });
+    else if (primer) router.push({ pathname: '/primer-intro', params: { from: 'onboarding', nativeLanguage } });
+    else router.push({ pathname: '/topics', params: { cefrLevel: levels[0], nativeLanguage } });
   };
 
   const failed = (err: unknown) => {

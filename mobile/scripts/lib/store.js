@@ -11,7 +11,7 @@ const REPO = path.join(MOBILE, '..');
 
 const TOKENS = [
   'APP', 'TARGET', 'CODE', 'SLUG', 'SLUG_UPPER', 'DEV', 'UPDATED', 'YEAR', 'SUPPORT_EMAIL',
-  'UI_LANGS', 'WORDS', 'SUPPORT_URL', 'PRIVACY_URL',
+  'UI_LANGS', 'WORDS', 'LEVEL_RANGE', 'SUPPORT_URL', 'PRIVACY_URL',
   'C_PRIMARY', 'C_PRIMARY_DARK', 'C_SECONDARY', 'C_GOLD', 'C_CREAM', 'C_PRIMARY_LIGHT', 'C_TEXT', 'C_TEXT_MUTED', 'C_INK_RGB',
 ];
 const LIMITS = { title: 30, short: 80, full: 4000 };
@@ -54,6 +54,14 @@ function languageConfig(code, { mobile = MOBILE } = {}) {
   return cfg;
 }
 
+const ALL_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+/** The CEFR levels of an app; a language.json that names none (German) has them all. */
+const levelsOf = (cfg) => cfg.levels ?? ALL_LEVELS;
+
+/** "A1" for one level, "A1–C2" for several. */
+const levelRange = (levels) => (levels.length === 1 ? levels[0] : `${levels[0]}–${levels[levels.length - 1]}`);
+
 /** The UI languages of an app: its translated-content languages plus Italian and English (the base files). */
 function uiLangCount(cfg) {
   return new Set([...(cfg.i18nLanguages ?? []), 'it', 'en']).size;
@@ -72,7 +80,7 @@ const SUPPORT_COLORS = {
         C_PRIMARY_LIGHT: '#DFEFE8', C_TEXT: '#0B2A20', C_TEXT_MUTED: '#47645A', C_INK_RGB: '11, 42, 32' },
 };
 
-function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n }) {
+function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n, levels = ALL_LEVELS }) {
   return {
     APP: variant.name,
     TARGET: targetName,
@@ -85,6 +93,7 @@ function tokenValues({ variant, targetName, support, wordCount, uiLangCount: n }
     SUPPORT_EMAIL: support.supportEmail,
     UI_LANGS: n,
     WORDS: wordCount,
+    LEVEL_RANGE: levelRange(levels),
     SUPPORT_URL: support.supportUrl,
     PRIVACY_URL: `${support.supportUrl}privacy-policy.html`,
     ...(SUPPORT_COLORS[variant.code] ?? SUPPORT_COLORS.de),
@@ -118,5 +127,6 @@ function validateListing(listing, { lang, values }) {
 }
 
 module.exports = {
-  TOKENS, LIMITS, SUPPORT_COLORS, render, loadSupport, languageConfig, uiLangCount, tokenValues, validateListing,
+  TOKENS, LIMITS, SUPPORT_COLORS, render, loadSupport, languageConfig, levelsOf, levelRange, uiLangCount, tokenValues,
+  validateListing,
 };

@@ -350,11 +350,11 @@ describe('the setting', () => {
 });
 
 describe('practice menu', () => {
-  it('lists tone choice and not find-the-mistake', async () => {
+  it('lists tone choice and find-the-mistake', async () => {
     (fetchVaultCards as jest.Mock).mockResolvedValue([friend()]);
     const ui = render(<PracticeMenuScreen />);
     await waitFor(() => expect(ui.getByTestId('practice-format-tone_choice')).toBeTruthy());
-    expect(ui.queryByTestId('practice-format-find_mistake')).toBeNull();
+    expect(ui.getByTestId('practice-format-find_mistake')).toBeTruthy();
     expect(ui.getByText(t('practice_format_tone_choice'))).toBeTruthy();
   });
 });

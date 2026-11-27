@@ -35,7 +35,7 @@ export const PRACTICE_FORMATS: PracticeFormat[] = [
 
 /** What the menu offers for a language: only formats it can build. */
 export function practiceFormats(pack: LanguagePack = getActivePack()): PracticeFormat[] {
-  const hasSlot = Boolean(pack.gender || pack.cases || pack.choices);
+  const hasSlot = Boolean(pack.gender || pack.cases || pack.choices || pack.classifiers);
   const formats = PRACTICE_FORMATS.filter((f) => f !== 'find_mistake' || hasSlot);
   return pack.reading ? [...formats, 'tone_choice'] : formats;
 }

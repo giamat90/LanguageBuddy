@@ -39,6 +39,24 @@ export function blankCell(cells: readonly RubyCell[], word: string, before: stri
   return cells.findIndex((c, i) => c.word === word && rubyText(cells.slice(0, i)) + c.lead === before);
 }
 
+/**
+ * Rewrites 一 and 不 to their own tone, so that the pinyin shown before an answer does not depend on
+ * the hidden word: the cell before position `at`, or every such cell without one.
+ */
+export function neutralCells(
+  cells: readonly RubyCell[],
+  citations: Readonly<Record<string, string>>,
+  at?: number,
+): RubyCell[] {
+  return cells.map((cell, i) => {
+    const own = citations[cell.word];
+    if (!own || (at !== undefined && i !== at - 1)) return cell;
+    const first = cell.pinyin.charAt(0);
+    const capital = first !== first.toLowerCase();
+    return { ...cell, pinyin: capital ? own.charAt(0).toUpperCase() + own.slice(1) : own };
+  });
+}
+
 /** The whole sentence a list of cells writes. */
 export const rubyText = (cells: readonly RubyCell[]): string =>
   cells.map((c) => c.lead + c.word + c.trail).join('');

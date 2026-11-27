@@ -24,6 +24,8 @@ export const testPackCjk: LanguagePack = {
   gender: null,
   cases: null,
   choices: { ruleSets: { QUESTION_PARTICLE: [['吗', '呢']] } },
+  classifiers: null,
+  primer: null,
   quiz: [],
   uiLanguages: ['it', 'en'],
   strings: {},

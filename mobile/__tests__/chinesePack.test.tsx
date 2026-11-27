@@ -47,7 +47,7 @@ describe('the Chinese pack', () => {
     expect(zh.ai.languageName).toBe('Mandarin Chinese');
     expect(zh.ai.rules!.join(' ')).toMatch(/simplified/i);
     expect(zh.ai.rules!.join(' ')).toMatch(/pinyin/i);
-    expect([zh.articles, zh.gender, zh.cases, zh.choices]).toEqual([null, null, null, null]);
+    expect([zh.articles, zh.gender, zh.cases]).toEqual([null, null, null]);
     expect(zh.quiz).toEqual([]);
     expect(zh.uiLanguages).toEqual(['it', 'en']);
     expect(Object.keys(zh.strings).sort()).toEqual(['en', 'it']);
@@ -137,8 +137,10 @@ describe('the grammar button', () => {
 
   it('knows which packs have a drill', () => {
     for (const p of [de, es, fr, testPack, testPackCjk]) expect(hasGrammarDrill(p)).toBe(true);
-    expect(hasGrammarDrill(zh)).toBe(false);
-    expect(hasGrammarDrill({ ...zh, choices: testPackCjk.choices })).toBe(true);
+    expect(hasGrammarDrill(zh)).toBe(true);
+    const bare = { ...zh, choices: null, classifiers: null };
+    expect(hasGrammarDrill(bare)).toBe(false);
+    expect(hasGrammarDrill({ ...bare, choices: testPackCjk.choices })).toBe(true);
   });
 
   it('is shown when the pack has a drill', async () => {
@@ -147,7 +149,7 @@ describe('the grammar button', () => {
   });
 
   it('is hidden when it has none', async () => {
-    setActivePackForTests(zh);
+    setActivePackForTests({ ...zh, choices: null, classifiers: null });
     const ui = render(<VaultScreen />);
     await waitFor(() => expect(ui.getByLabelText(t('vault_today_cta'))).toBeTruthy());
     expect(ui.queryByLabelText(t('vault_grammar_cta'))).toBeNull();

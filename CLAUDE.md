@@ -328,8 +328,8 @@ Nouns name a measure word or `none`. There are no translated tables: Italian and
   (default `https://api.openai.com/v1`) and model (default `gpt-4o-mini`). One key per provider.
 - **Code:** `src/lib/ai/keys.ts` (MMKV store id `ai`), `llm.ts` (`callLLM`, retry on network/429/5xx, no retry on other 4xx), `providers/anthropic.ts` and `providers/openai.ts`,
   `wordInsight.ts` (the one feature today; the studied language's English name comes from `pack.ai.languageName`).
-- **Privacy rules (each app's public privacy policy depends on them):** only the word, its CEFR level and the native language are sent; never the word list, profile or any
-  other app data. Requests go straight to the provider, never through a server of ours. Keys stay on the device and are exported in a backup only on explicit opt-in;
+- **Privacy rules (each app's public privacy policy depends on them):** only the word (with its article), its meaning as the app shows it, its CEFR level and the native language are sent;
+  never the word list, profile or any other app data. Requests go straight to the provider, never through a server of ours. Keys stay on the device and are exported in a backup only on explicit opt-in;
   **automatic backups never contain them**, and Android's cloud backup excludes their store. INTERNET is the only network permission and exists for this call alone.
 - Anything new that sends data off the device needs a task, an update of the privacy policy and terms (the template in `store/support-template/` and the German site in
   `germanbuddy-support/`), and Play's Data safety form for every app.

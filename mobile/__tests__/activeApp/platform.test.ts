@@ -56,7 +56,7 @@ describe('notifications', () => {
 });
 
 describe('AI prompt', () => {
-  it('names the language being learned and sends only the word, level and native language (CLAUDE.md §6)', async () => {
+  it('names the language being learned and sends only the word, its meaning, level and native language (CLAUDE.md §7)', async () => {
     new MMKV().clearAll();
     setKey('anthropic', 'sk-ant-test');
     global.fetch = jest.fn().mockResolvedValue({
@@ -64,8 +64,9 @@ describe('AI prompt', () => {
       json: async () => ({ content: [{ type: 'text', text: '{"examples":[{"target":"a b","native":"c"}],"note":"n","exercise":null}' }] }),
     }) as jest.Mock;
     const word = current().sampleWord.A1;
-    await generateWordInsight({ word, article: null, meaningNative: 'm', cefrLevel: 'A1', nativeLanguage: 'it' });
+    await generateWordInsight({ word, article: null, meaningNative: 'the-meaning', cefrLevel: 'A1', nativeLanguage: 'it' });
     const body = JSON.stringify(JSON.parse((global.fetch as jest.Mock).mock.calls[0][1].body));
+    for (const sent of ['the-meaning', 'A1', 'Italian']) expect(body).toContain(sent);
     expect(body).toContain(current().aiLanguageName);
     for (const other of Object.values(EXPECT).filter((x) => x.aiLanguageName !== current().aiLanguageName)) {
       expect(body).not.toContain(other.aiLanguageName);

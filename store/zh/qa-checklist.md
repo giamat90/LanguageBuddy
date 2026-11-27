@@ -73,6 +73,7 @@ Result column: **OK / Bug / n.a.** Anything marked Bug in sections 1–5 or 8, o
 | # | Steps | Expected | Result | Notes |
 |---|-------|----------|--------|-------|
 | 9.1 | With a test key, open the extra note of a word | Chinese in simplified characters; each example translation starts with the sentence's pinyin in [square brackets]; translations and usage note in the app language | | |
+| 9.2 | Inspect the request (proxy or provider log) | Only the word, its meaning, level and native language | | |
 
 ## 10. Edges
 | # | Steps | Expected | Result | Notes |

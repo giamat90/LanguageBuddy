@@ -86,7 +86,7 @@ Result column: **OK / Bug / n.a.** Anything marked Bug in sections 1–4, 7 or 8
 | # | Steps | Expected | Result | Notes |
 |---|-------|----------|--------|-------|
 | 9.1 | With a test key, open the extra note of a word | About the French word, in the learner's language | | |
-| 9.2 | Inspect the request (proxy or provider log) | Only the word, level and native language | | |
+| 9.2 | Inspect the request (proxy or provider log) | Only the word, its meaning, level and native language | | |
 
 ## 10. Stress and edges
 | # | Steps | Expected | Result | Notes |

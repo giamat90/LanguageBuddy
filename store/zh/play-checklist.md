@@ -51,7 +51,7 @@ Build the texts and pages first: `cd mobile && npm run build:store -- zh`. Outpu
 | Does the app collect or share data? | **Collects**: yes, one type. **Shares**: no | policy §6–7 |
 | Data type collected | **Device or other IDs**: the Firebase installation ID created by the Firebase Cloud Messaging component of `expo-notifications`; purpose **App functionality**; not shared; not optional; processed by Google, never received by us | policy §4 |
 | Other types | none collected | policy §2 (everything stays on the device) |
-| Public privacy page | its two AI sentences name the word, level and language but not the meaning, which is also sent: **settle this before publishing the page** | `store/support-template/privacy-policy.html`, CONTEXT.md |
+| Public privacy page | its two AI sentences name the word, its meaning, level and language (TASK-081); check that the published page says so | `store/support-template/privacy-policy.html`, CONTEXT.md |
 | Optional AI feature | sends one word, its meaning, its level and the app language **directly to the provider the learner chose, with the learner's own key, only on the learner's action**. Declare as in GermanBuddy — *Product Owner to confirm* | policy §3 |
 | Encryption in transit | yes (the AI call is https only; nothing else leaves the device) | `src/lib/ai/` |
 | Users can request deletion | yes, the delete-your-data page | policy §8 |

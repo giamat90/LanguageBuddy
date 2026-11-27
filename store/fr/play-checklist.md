@@ -48,7 +48,7 @@ Build the texts and pages first: `cd mobile && npm run build:store -- fr` (needs
 | Does the app collect or share data? | **Collects**: yes, one type. **Shares**: no | policy §6–7 |
 | Data type collected | **Device or other IDs** — the Firebase installation ID created by the Firebase Cloud Messaging component of `expo-notifications`; purpose **App functionality**; not shared; not optional; processed by Google, never received by us | policy §4; the same declaration Play required for GermanBuddy on 2026-11-19 |
 | Other types (location, contacts, photos, audio, files, health, financial, messages, personal info…) | none collected | policy §2 (everything stays on the device) |
-| Optional AI feature | sends one word, its CEFR level and the app language **directly to the provider the learner chose, with the learner's own key, only on the learner's action**. Declare as in GermanBuddy — *Product Owner to confirm how the German form describes it* | policy §3 |
+| Optional AI feature | sends one word, its meaning, its CEFR level and the app language **directly to the provider the learner chose, with the learner's own key, only on the learner's action**. Declare as in GermanBuddy — *Product Owner to confirm how the German form describes it* | policy §3 |
 | Encryption in transit | yes (the AI call is https only; nothing else leaves the device) | `src/lib/ai/` |
 | Users can request deletion | yes — the delete-your-data page | policy §8 |
 

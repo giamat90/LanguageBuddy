@@ -145,6 +145,27 @@ describe('build-store.mjs', () => {
     expect(html).not.toMatch(/formspree/i); // the contact page is a mailto link, no form processor receives data
   });
 
+  // TASK-081: the request holds the word's meaning (lib/ai/wordInsight.ts), so every text about it says so.
+  it('names the meaning among the data sent to the AI provider', () => {
+    const html = page(build('es').out, 'privacy-policy.html');
+    const item = html.match(/<li>Only the word[^\n]*<\/li>/)![0];
+    expect(item).toContain('its meaning');
+    expect(html).toContain('<td>A single word, its meaning, CEFR level, and native language — no other app data</td>');
+    expect(html).not.toContain('nothing else');
+  });
+
+  it('says the same in the project rules and every checklist', () => {
+    const read = (...p: string[]) => readFileSync(join(repo, ...p), 'utf8');
+    expect(read('CLAUDE.md').split('\n').find((l) => l.startsWith('- **Privacy rules'))).toContain('its meaning');
+    for (const c of readdirSync(join(repo, 'store'))) {
+      for (const [file, row] of [['play-checklist.md', /^\| Optional AI feature .*$/m], ['qa-checklist.md', /^\| [\d.]+ \| Inspect the request .*$/m]] as const) {
+        if (!existsSync(join(repo, 'store', c, file))) continue;
+        const found = read('store', c, file).match(row)?.[0];
+        if (file === 'play-checklist.md' || found) expect([c, file, found]).toEqual([c, file, expect.stringContaining('meaning')]);
+      }
+    }
+  });
+
   it('every app has a support email, and a missing or malformed one fails loading', () => {
     for (const c of ['de', 'es', 'fr']) expect(store.loadSupport(c).supportEmail).toMatch(/^[^@\s]+@[^@\s]+\.[^@\s]+$/);
     const root = mkdtempSync(join(tmpdir(), 'store-root-'));
